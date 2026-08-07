@@ -17,6 +17,5 @@ environments:
     user: admin
   - name: uat
     role: test
-    neverPromote: true
     host: https://poc-minerva.cloud.jedox.com/
     user: chris
