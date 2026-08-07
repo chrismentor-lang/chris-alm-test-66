@@ -15,3 +15,8 @@ environments:
     neverPromote: true
     host: https://poc-minerva.cloud.jedox.com/
     user: chris
+  - name: dev
+    role: dev
+    neverPromote: true
+    host: https://test-thinkerbell.cloud.jedox.com/
+    user: admin
