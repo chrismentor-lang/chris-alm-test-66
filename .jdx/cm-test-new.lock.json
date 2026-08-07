@@ -1,0 +1,54 @@
+{
+  "components": {
+    "cm-test-new.connections.New CSV Connection (5)": {
+      "hash": "sha256:f2c220ba599a42353effc30f0ef230cc620b2ce338aee6f7d679ee65d0e64f32",
+      "modified": 1786078739236,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new.connections.New CSV Connection (6)": {
+      "hash": "sha256:74210a809308afbfbaa0329a1639ad84cdfabd65b6e0e5438d3cc5cdc6bb4136",
+      "modified": 1786079518302,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new.connections.New CSV connection": {
+      "hash": "sha256:5dfa20b9ab0cfefd88f19a1bab39990674d25dea1cb6ab0b2a16895717539287",
+      "modified": 1786079569640,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new.connections.New CSV connection (2)": {
+      "hash": "sha256:0c6a3bbe98a97214d232cc68b224e82ad4f2e7f2469e963f33da84d56d61e9aa",
+      "modified": 1786073714800,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new.connections.New CSV connection (3)": {
+      "hash": "sha256:89e268c06d3595ee7e7e2c68bb6c25c5b338878036c5133448a5799f9d232c28",
+      "modified": 1786076629715,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new.connections.New CSV connection (4)": {
+      "hash": "sha256:6cc38b39b88584884b75bdf6c66e0da9f15cd05a29fcd3595bf935d137798bf5",
+      "modified": 1786076936671,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new.jobs.New Groovy job": {
+      "hash": "sha256:8b29dc043945a7cff54b20dc594ea4cbb0cada6e17db9eb67496cffbc0d32f5c",
+      "modified": 1786074516861,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new.variables.newVar": {
+      "hash": "sha256:efa38aa9e255ba963bf2f9dab431fa09d412acb50f5a278f00708bbb34cf26c9",
+      "modified": 1786074541201,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new.variables.newVar2": {
+      "hash": "sha256:b344585e05101aa05cd7e8d17d8643bc7a761df8c04f663c9847d099662cb118",
+      "modified": 1786074531064,
+      "modifiedBy": "admin"
+    }
+  },
+  "hash": "sha256:86b26049fa5cf8a2d6ad781440543b75eaad64bd8b0eabe7032242ed6f7a5fd0",
+  "modified": 1786079569640,
+  "modifiedBy": "admin",
+  "project": "cm-test-new",
+  "version": "26.1"
+}
