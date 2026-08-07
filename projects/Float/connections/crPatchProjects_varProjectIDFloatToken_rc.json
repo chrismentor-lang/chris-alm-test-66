@@ -1,0 +1,29 @@
+{
+  "-name": "crPatchProjects_varProjectIDFloatToken_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "Connection to the projects API for a specific project in Float.\n\n20251212: Introduced"
+  },
+  "headers": {
+    "header": [
+      {
+        "#text": "Bearer ${vFloatToken}",
+        "-name": "Authorization"
+      },
+      {
+        "#text": "application/json",
+        "-name": "accept"
+      },
+      {
+        "#text": "application/json",
+        "-name": "Content-Type"
+      }
+    ]
+  },
+  "httpMethod": "PATCH",
+  "ignoreCookiesPolicy": "false",
+  "resource": {
+    "#cdata-section": "https://api.float.com/v3/projects/${vProjectID}"
+  },
+  "ssl": "verify"
+}

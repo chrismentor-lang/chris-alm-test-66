@@ -1,0 +1,11 @@
+{
+  "-name": "Test Task Json File",
+  "-type": "JsonFile",
+  "database": {
+    "#cdata-section": "Float/Project/Float_Project_Test_${vProjectID}_${vName}.json"
+  },
+  "directory": "false",
+  "location": {
+    "-type": "FileSystem"
+  }
+}

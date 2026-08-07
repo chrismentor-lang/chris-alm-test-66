@@ -1,0 +1,14 @@
+{
+  "-name": "xrSnowflake_statDistinctUpdateProjectTasks_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves a distinct list of Accountability task types that need to be updated as  as project tasks in Float from a view in the Float schema of the Consumption database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrSnowflake_statDistinctUpdateProjectTasks_re.query.sql"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "-name": "xrSnowflake_statVWUpdateProjects_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves records with accountability jobs that need to be updated as projects in Float from the view in the Float schema of the COSNUMPTION database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrSnowflake_statVWUpdateProjects_re.query.sql"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "rUpdatedProjects_201_000_varProjectCode_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Runs command to insert a row with the updated projects in Float in the COMMON UPDATED_PROJECTS table in the FLOAT_INT schema of the COMMON database is Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rUpdatedProjects_201_000_varProjectCode_rs.query.sql"
+  }
+}

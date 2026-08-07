@@ -1,0 +1,31 @@
+{
+  "-name": "Loop Patch Projects",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vProjectCode",
+        "input": {
+          "-nameref": "PROJECT_CODE"
+        }
+      },
+      {
+        "-name": "vProjectID",
+        "input": {
+          "-nameref": "PROJECT_ID"
+        }
+      }
+    ]
+  },
+  "comment": {
+    "#cdata-section": "Loops through a list of Accountability jobs that currently need to be updated as project in Float and then kicks-off job that update them in Float."
+  },
+  "execution": {
+    "-nameref": "Patch Projects",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "xrSnowflake_statDistinctUpdateProjects_re"
+  }
+}

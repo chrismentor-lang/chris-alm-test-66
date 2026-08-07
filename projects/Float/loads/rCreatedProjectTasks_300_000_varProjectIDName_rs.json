@@ -1,0 +1,13 @@
+{
+  "-name": "rCreatedProjectTasks_300_000_varProjectIDName_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Runs command to insert a row with the created project task in Float in the COMMON CREATED_PROJECT_TASKS table in the FLOAT_INT schema of the COMMON database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rCreatedProjectTasks_300_000_varProjectIDName_rs.query.sql"
+  }
+}

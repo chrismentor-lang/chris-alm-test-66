@@ -1,0 +1,17 @@
+{
+  "-name": "jPatch_000_000_statProjects_jl",
+  "-type": "Json",
+  "comment": {
+    "#cdata-section": "JSON load into Float that updates projects for project code, Budget type, Budget priority, status, and non-billable.\n\n20260708: Replaced json template {\"project_code\": \"#{PROJECT_CODE}\",\"budget_type\": \"#{UPDATED_BUDGET_TYPE}\", \"budget_priority\": \"#{UPDATED_BUDGET_PRIORITY}\", \"status\": \"#{UPDATED_STATUS}\", \"non_billable\": \"#{UPDATED_NON_BILLABLE}\",\"tags\":[#{UPDATED_TAGS}]} with {\"project_code\": \"#{PROJECT_CODE}\",\"budget_type\": \"#{UPDATED_BUDGET_TYPE}\", \"budget_priority\": \"#{UPDATED_BUDGET_PRIORITY}\", \"non_billable\": \"#{UPDATED_NON_BILLABLE}\",\"tags\":[#{UPDATED_TAGS}]}\n\n20260218: Only Updates Project Code, Budget Type, Budget Priority, Status and Non Billable"
+  },
+  "connection": {
+    "-nameref": "crPatchProjects_varProjectIDFloatToken_rc"
+  },
+  "ignoreEmpty": "false",
+  "jsonTemplate": "{\"project_code\": \"#{PROJECT_CODE}\",\"budget_type\": \"#{UPDATED_BUDGET_TYPE}\", \"budget_priority\": \"#{UPDATED_BUDGET_PRIORITY}\", \"non_billable\": \"#{UPDATED_NON_BILLABLE}\",\"tags\":[#{UPDATED_TAGS}]}",
+  "mode": "create",
+  "skipRoot": "false",
+  "source": {
+    "-nameref": "xrSnowflake_statVWUpdateProjects_re"
+  }
+}

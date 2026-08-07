@@ -1,0 +1,14 @@
+{
+  "-name": "xrSnowflake_statDistinctCreateClients_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves a distinct list of Accountability clients that don't exist in Float yet from a view in the Float schema of the Consumption database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrSnowflake_statDistinctCreateClients_re.query.sql"
+  }
+}

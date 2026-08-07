@@ -1,0 +1,52 @@
+{
+  "-name": "Create and Update Projects in Float",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This job handles the creation and updating of clients, projects, and project tasks in Float based on Accountability followed by a refresh of the related Float tables in Snowflake and an email to Thinkerbell employees when creations and updates have been done."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Loop Post Clients",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Float Clients in Snowflake",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop Post Projects",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop Patch Projects",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Float Projects in Snowflake",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Job Estimates SCD",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop Post Project Tasks",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop Patch Project Tasks",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Float Project Tasks in Snowflake",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop Email Notifications",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

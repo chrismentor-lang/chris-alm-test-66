@@ -1,0 +1,17 @@
+{
+  "-name": "jPost_100_000_statProjectTasks_jl",
+  "-type": "Json",
+  "comment": {
+    "#cdata-section": "JSON load into Float that creates a new project task with the project ID, budget, and task name.\n\nJSON Template: {\"project_id\": #{PROJECT_ID}, \"budget\": #{BUDGET}, \"task_name\": \"#{NAME}\"}"
+  },
+  "connection": {
+    "-nameref": "crPostProjectTasks_varFloatToken_rc"
+  },
+  "ignoreEmpty": "false",
+  "jsonTemplate": "{\"project_id\": #{PROJECT_ID}, \"budget\": #{BUDGET}, \"task_name\": \"#{NAME}\"}",
+  "mode": "create",
+  "skipRoot": "false",
+  "source": {
+    "-nameref": "xrSnowflake_statVWCreateProjectTasks_re"
+  }
+}

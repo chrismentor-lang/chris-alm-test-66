@@ -1,0 +1,20 @@
+{
+  "-name": "Patch Project Tasks",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that updates accountability task types as project tasks in Float."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "jPatch_101_000_statProjectTasks_jl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rUpdatedProjectTasks_301_000_varProjectIDName_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

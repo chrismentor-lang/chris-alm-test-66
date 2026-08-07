@@ -1,0 +1,14 @@
+{
+  "-name": "xdFloatEmails_statAll_de",
+  "-type": "Dimension",
+  "attributesMode": "standardAttributes",
+  "comment": "Retrieves the elements from the Float Emails dimension.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbellApplicationManagement_jc"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Float Emails"
+    }
+  }
+}

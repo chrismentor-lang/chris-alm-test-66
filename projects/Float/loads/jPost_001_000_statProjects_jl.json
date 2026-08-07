@@ -1,0 +1,17 @@
+{
+  "-name": "jPost_001_000_statProjects_jl",
+  "-type": "Json",
+  "comment": {
+    "#cdata-section": "JSON load into Float that creates a new project with the name, project code, client ID, Budget type, Budget priority, Start date, PM, all PMs schedule, status, and non-billable.\n\n20260218: Creates a new project with Name, Project Code, Client ID, Budget Type, Budget Priority, Start Date, PM as \"Minerva\", All PMs Schedule, Status and Non Billable"
+  },
+  "connection": {
+    "-nameref": "crPostProjects_varFloatToken_rc"
+  },
+  "ignoreEmpty": "false",
+  "jsonTemplate": "{\"name\": \"#{NAME}\", \"project_code\": \"#{PROJECT_CODE}\", \"client_id\": #{CLIENT_ID}, \"budget_type\": #{BUDGET_TYPE}, \"budget_priority\": #{BUDGET_PRIORITY}, \"start_date\": \"#{START_DATE}\", \"project_manager\": \"#{PROJECT_MANAGER}\", \"all_pms_schedule\": \"#{ALL_PMS_SCHEDULE}\", \"status\": \"#{STATUS}\", \"active\": \"#{ACTIVE}\", \"non_billable\": \"#{NON_BILLABLE}\",\"tags\": [#{TAGS}]}",
+  "mode": "create",
+  "skipRoot": "false",
+  "source": {
+    "-nameref": "xrSnowflake_statVWCreateProjects_re"
+  }
+}

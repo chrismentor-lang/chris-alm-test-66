@@ -1,0 +1,23 @@
+{
+  "-name": "Loop Post Projects",
+  "-type": "Loop",
+  "assignment": {
+    "variable": {
+      "-name": "vProjectCode",
+      "input": {
+        "-nameref": "PROJECT_CODE"
+      }
+    }
+  },
+  "comment": {
+    "#cdata-section": "Loops through a list of Accountability jobs that currently don't exist as project in Float yet and then kicks-off job that creates them in Float."
+  },
+  "execution": {
+    "-nameref": "Post Projects",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "xrSnowflake_statDistinctCreateProjects_re"
+  }
+}

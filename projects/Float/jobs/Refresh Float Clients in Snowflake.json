@@ -1,0 +1,25 @@
+{
+  "-name": "Refresh Float Clients in Snowflake",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Initiates job in the Snowflake project that updates the Float CLIENTS table from the Float endpoints."
+  },
+  "execution": {
+    "-nameref": "Update Float Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": "Snowflake",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vFloatEndpoint",
+        "default": "Clients"
+      },
+      {
+        "-name": "vFloatTable",
+        "default": "CLIENTS"
+      }
+    ]
+  }
+}

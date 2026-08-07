@@ -1,0 +1,13 @@
+{
+  "-name": "rFloatEmailNotification_400_000_varViewsEmails_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls a stored procedure in the FLOAT_INT schema of the COMMON database in Snowflake that initiates emails to a list of recipients with the clients, projects, and project tasks that have been created in Float based on Accountability."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rFloatEmailNotification_400_000_varViewsEmails_rs.query.sql"
+  }
+}

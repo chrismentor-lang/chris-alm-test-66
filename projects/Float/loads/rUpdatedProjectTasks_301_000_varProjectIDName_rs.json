@@ -1,0 +1,13 @@
+{
+  "-name": "rUpdatedProjectTasks_301_000_varProjectIDName_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Runs command to insert a row with the updated project task in Float in the COMMON UPDATED_PROJECT_TASKS table in the FLOAT_INT schema of the COMMON database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rUpdatedProjectTasks_301_000_varProjectIDName_rs.query.sql"
+  }
+}

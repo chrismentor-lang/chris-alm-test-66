@@ -1,0 +1,13 @@
+{
+  "-name": "Refresh Job Estimates SCD",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Initiates job in the Snowflake project that updates the Float JOB_ESTIMATES and JOB_ESTIMATES_SCD tables in the DATAWAREHOUSE database in Snowflake."
+  },
+  "execution": {
+    "-nameref": "Refresh Job Estimates SCD",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": "Snowflake"
+}

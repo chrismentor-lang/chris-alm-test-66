@@ -1,0 +1,14 @@
+{
+  "-name": "xrSnowflake_statVWCreateProjects_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves records with accountability jobs that currently don't exist as projects in Float yet from the view in the Float schema of the COSNUMPTION database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrSnowflake_statVWCreateProjects_re.query.sql"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "-name": "cgLocal_statThinkerbellApplicationManagement_jc (Old)",
+  "-type": "JedoxOlap",
+  "comment": {
+    "#cdata-section": "Connection to the Thinkerbell-Application-Management Jedox database."
+  },
+  "database": {
+    "#cdata-section": "Thinkerbell-Application-Management"
+  },
+  "global": {
+    "-nameref": "localhost"
+  },
+  "ssl": "off"
+}

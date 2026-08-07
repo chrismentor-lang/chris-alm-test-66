@@ -1,0 +1,13 @@
+{
+  "-name": "rCreatedProjects_200_000_varProjectCode_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Runs command to insert a row with the created project in Float in the COMMON CREATED_PROJECTS table in the FLOAT_INT schema of the COMMON database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rCreatedProjects_200_000_varProjectCode_rs.query.sql"
+  }
+}

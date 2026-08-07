@@ -1,0 +1,14 @@
+{
+  "-name": "xrSnowflake_statVWCreateClients_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves records with accountability codes (i.e. clients) that currently don't exist in Float yet from the view in the Float schema of the COSNUMPTION database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrSnowflake_statVWCreateClients_re.query.sql"
+  }
+}
