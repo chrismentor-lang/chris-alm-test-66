@@ -10,9 +10,14 @@
       "modified": 1786079518302,
       "modifiedBy": "admin"
     },
+    "cm-test-new.connections.New CSV Connection (7)": {
+      "hash": "sha256:2522943b635a0e7b4004349a9f02f16324973620e84bf53d5398de7e27504770",
+      "modified": 1786082160004,
+      "modifiedBy": "admin"
+    },
     "cm-test-new.connections.New CSV connection": {
-      "hash": "sha256:5dfa20b9ab0cfefd88f19a1bab39990674d25dea1cb6ab0b2a16895717539287",
-      "modified": 1786079569640,
+      "hash": "sha256:f2bdee139684f9bbf9f525e74c9148e23cfe0ec17e6f89b2c021d4b3b01184ea",
+      "modified": 1786082168358,
       "modifiedBy": "admin"
     },
     "cm-test-new.connections.New CSV connection (2)": {
@@ -47,7 +52,7 @@
     }
   },
   "hash": "sha256:86b26049fa5cf8a2d6ad781440543b75eaad64bd8b0eabe7032242ed6f7a5fd0",
-  "modified": 1786079569640,
+  "modified": 1786082168358,
   "modifiedBy": "admin",
   "project": "cm-test-new",
   "version": "26.1"

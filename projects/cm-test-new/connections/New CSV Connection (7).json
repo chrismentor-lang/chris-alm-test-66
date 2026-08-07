@@ -1,8 +1,8 @@
 {
-  "-name": "New CSV connection",
+  "-name": "New CSV Connection (7)",
   "-type": "CsvFile",
   "comment": {
-    "#cdata-section": "a new comment in this component.\na new change with number 7"
+    "#cdata-section": "number 7"
   },
   "database": {
     "#cdata-section": "//Menu/Menu/Sample Report/test.wss"
