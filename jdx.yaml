@@ -9,4 +9,9 @@ workspace:
   colour: "#7c3aed"
   repo: chrismentor-lang/chris-alm-test-66
 
-environments: []
+environments:
+  - name: uat
+    role: test
+    neverPromote: true
+    host: https://poc-minerva.cloud.jedox.com/
+    user: chris
