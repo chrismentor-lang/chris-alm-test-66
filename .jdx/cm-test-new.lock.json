@@ -55,5 +55,10 @@
   "modified": 1786082168358,
   "modifiedBy": "admin",
   "project": "cm-test-new",
+  "source": {
+    "at": "2026-08-07T22:39:46Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
   "version": "26.1"
 }
