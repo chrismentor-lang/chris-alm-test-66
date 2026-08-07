@@ -1,0 +1,12 @@
+# jdx.yaml — committed. Hosts and names only.
+# Nothing secret is ever in the repo: passwords live in the OS keychain
+# under jdx:<workspace>:<env>, and CI credentials in GitHub Secrets.
+
+workspace:
+  name: "test3"
+  code: TE3
+  system: jedox
+  colour: "#7c3aed"
+  repo: chrismentor-lang/chris-alm-test-66
+
+environments: []
