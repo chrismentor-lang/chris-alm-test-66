@@ -3,8 +3,8 @@
   "env": "uat",
   "host": "https://poc-minerva.cloud.jedox.com/",
   "name": "cm-test-new",
-  "ms": 90,
-  "when": "2026-08-07T05:57:27Z",
+  "ms": 97,
+  "when": "2026-08-08T03:35:09Z",
   "components": {
     "cm-test-new.connections.New CSV Connection (5)": {
       "hash": "sha256:f2c220ba599a42353effc30f0ef230cc620b2ce338aee6f7d679ee65d0e64f32",
@@ -18,12 +18,12 @@
     },
     "cm-test-new.connections.New CSV Connection (7)": {
       "hash": "sha256:2522943b635a0e7b4004349a9f02f16324973620e84bf53d5398de7e27504770",
-      "modified": 1786082250819,
+      "modified": 1786142458133,
       "modifiedBy": "chris"
     },
     "cm-test-new.connections.New CSV connection": {
       "hash": "sha256:f2bdee139684f9bbf9f525e74c9148e23cfe0ec17e6f89b2c021d4b3b01184ea",
-      "modified": 1786082250850,
+      "modified": 1786142458167,
       "modifiedBy": "chris"
     },
     "cm-test-new.connections.New CSV connection (2)": {
@@ -39,6 +39,11 @@
     "cm-test-new.connections.New CSV connection (4)": {
       "hash": "sha256:6cc38b39b88584884b75bdf6c66e0da9f15cd05a29fcd3595bf935d137798bf5",
       "modified": 1786082094070,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new.connections.New CSV connection (8)": {
+      "hash": "sha256:6f0c043c48d85461ae1649228b13b4667d543d9d6f251c4c969e6fe68fa23874",
+      "modified": 1786160114272,
       "modifiedBy": "chris"
     },
     "cm-test-new.jobs.New Groovy job": {
