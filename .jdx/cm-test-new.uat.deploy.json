@@ -3,8 +3,8 @@
   "env": "uat",
   "host": "https://poc-minerva.cloud.jedox.com/",
   "name": "cm-test-new",
-  "ms": 97,
-  "when": "2026-08-08T03:35:09Z",
+  "ms": 91,
+  "when": "2026-08-08T03:50:55Z",
   "components": {
     "cm-test-new.connections.New CSV Connection (5)": {
       "hash": "sha256:f2c220ba599a42353effc30f0ef230cc620b2ce338aee6f7d679ee65d0e64f32",
@@ -51,9 +51,14 @@
       "modified": 1786082094070,
       "modifiedBy": "chris"
     },
+    "cm-test-new.variables.New variable": {
+      "hash": "sha256:4315bf3dc2f210c8dbb2e219d60cecb71380bc84eab665cdde3e107b95de91c6",
+      "modified": 1786161060238,
+      "modifiedBy": "chris"
+    },
     "cm-test-new.variables.newVar": {
-      "hash": "sha256:efa38aa9e255ba963bf2f9dab431fa09d412acb50f5a278f00708bbb34cf26c9",
-      "modified": 1786082094070,
+      "hash": "sha256:94b3a474b9539e3ee42598c9f99d338d6a2810d0b060ae23d99c68466639bcac",
+      "modified": 1786161060270,
       "modifiedBy": "chris"
     },
     "cm-test-new.variables.newVar2": {
