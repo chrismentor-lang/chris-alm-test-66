@@ -55,11 +55,6 @@
       "modified": 1786160653322,
       "modifiedBy": "admin"
     },
-    "cm-test-new.variables.New variable (2)": {
-      "hash": "sha256:224b262dc0604592441d366c5d488dff1e2392126fc6505588965a4692bbe652",
-      "modified": 1786162613239,
-      "modifiedBy": "admin"
-    },
     "cm-test-new.variables.newVar": {
       "hash": "sha256:94b3a474b9539e3ee42598c9f99d338d6a2810d0b060ae23d99c68466639bcac",
       "modified": 1786160766567,
@@ -72,11 +67,11 @@
     }
   },
   "hash": "sha256:86b26049fa5cf8a2d6ad781440543b75eaad64bd8b0eabe7032242ed6f7a5fd0",
-  "modified": 1786162624039,
+  "modified": 1786163634661,
   "modifiedBy": "admin",
   "project": "cm-test-new",
   "source": {
-    "at": "2026-08-08T04:33:41Z",
+    "at": "2026-08-08T04:33:57Z",
     "env": "dev",
     "host": "https://test-thinkerbell.cloud.jedox.com/"
   },
