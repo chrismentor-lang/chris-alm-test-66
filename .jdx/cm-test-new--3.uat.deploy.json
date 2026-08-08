@@ -1,11 +1,11 @@
 {
   "project": "cm-test-new -3",
+  "kind": "integrator",
   "env": "uat",
   "host": "https://poc-minerva.cloud.jedox.com/",
   "name": "cm-test-new -3",
-  "created": true,
-  "ms": 100,
-  "when": "2026-08-08T23:26:32Z",
+  "ms": 194,
+  "when": "2026-08-08T23:47:32Z",
   "components": {
     "cm-test-new -3.connections.New CSV Connection (5)": {
       "hash": "sha256:651b1da0f304acb9bf55c6ec132d422101fc0e9f1f4946751cc54a4c94832655",
@@ -50,6 +50,11 @@
     "cm-test-new -3.jobs.New Groovy job": {
       "hash": "sha256:8e4a23cd352936c13a35d1f74f6dd06d17d68397692e5998948aac248750239e",
       "modified": 1786231598968,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -3.variables.New variable": {
+      "hash": "sha256:fdc61ce595b456eebf944ed23fa8ce7760dfe7cf303f13b74a2624a15bbf38c9",
+      "modified": 1786232859136,
       "modifiedBy": "chris"
     },
     "cm-test-new -3.variables.newVar": {
