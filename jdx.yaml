@@ -15,7 +15,7 @@ environments:
     neverPromote: true
     host: https://test-thinkerbell.cloud.jedox.com/
     user: admin
-  - name: uata
+  - name: uat
     role: test
     host: https://poc-minerva.cloud.jedox.com/
     user: chris
