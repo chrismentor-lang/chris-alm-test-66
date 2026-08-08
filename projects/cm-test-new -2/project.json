@@ -1,0 +1,12 @@
+{
+  "-name": "cm-test-new -2",
+  "-version": "26.1",
+  "headers": {
+    "header": {
+      "-name": "comment",
+      "comment": {
+        "#cdata-section": "Project description"
+      }
+    }
+  }
+}

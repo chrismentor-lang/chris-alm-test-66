@@ -7,7 +7,7 @@
     },
     "cm-test-new.connections.New CSV Connection (6)": {
       "hash": "sha256:74210a809308afbfbaa0329a1639ad84cdfabd65b6e0e5438d3cc5cdc6bb4136",
-      "modified": 1786079518302,
+      "modified": 1786160014299,
       "modifiedBy": "admin"
     },
     "cm-test-new.connections.New CSV Connection (7)": {
@@ -35,6 +35,11 @@
       "modified": 1786076936671,
       "modifiedBy": "admin"
     },
+    "cm-test-new.connections.New CSV connection (8)": {
+      "hash": "sha256:6f0c043c48d85461ae1649228b13b4667d543d9d6f251c4c969e6fe68fa23874",
+      "modified": 1786160010984,
+      "modifiedBy": "admin"
+    },
     "cm-test-new.jobs.New Groovy job": {
       "hash": "sha256:8b29dc043945a7cff54b20dc594ea4cbb0cada6e17db9eb67496cffbc0d32f5c",
       "modified": 1786074516861,
@@ -52,11 +57,11 @@
     }
   },
   "hash": "sha256:86b26049fa5cf8a2d6ad781440543b75eaad64bd8b0eabe7032242ed6f7a5fd0",
-  "modified": 1786082168358,
+  "modified": 1786160014299,
   "modifiedBy": "admin",
   "project": "cm-test-new",
   "source": {
-    "at": "2026-08-08T03:07:56Z",
+    "at": "2026-08-08T03:33:42Z",
     "env": "dev",
     "host": "https://test-thinkerbell.cloud.jedox.com/"
   },
