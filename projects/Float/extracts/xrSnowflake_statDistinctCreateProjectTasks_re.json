@@ -1,0 +1,14 @@
+{
+  "-name": "xrSnowflake_statDistinctCreateProjectTasks_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves a distinct list of Accountability task types that don't exist  as project tasks in Float yet from a view in the Float schema of the Consumption database in Snowflake.\n\n20260716: Commented 11464244 and 11468094 exclusions out because the T&M was adapted in Float.\n20260622: Added filters for two projects that shouldn't be updated in Float."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrSnowflake_statDistinctCreateProjectTasks_re.query.sql"
+  }
+}

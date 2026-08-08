@@ -1,0 +1,13 @@
+{
+  "-name": "rCreatedClients_200_000_varClientCode_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Runs command to insert a row with the created client in Float in the COMMON CREATED_CLIENTS table in the FLOAT_INT schema of the COMMON database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rCreatedClients_200_000_varClientCode_rs.query.sql"
+  }
+}

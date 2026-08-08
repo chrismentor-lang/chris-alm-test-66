@@ -1,0 +1,20 @@
+{
+  "-name": "Post Clients",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that creates accountability codes (i.e. clients) in Float that currently don't exist in Float yet."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "jPost_001_000_statClients_jl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rCreatedClients_200_000_varClientCode_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

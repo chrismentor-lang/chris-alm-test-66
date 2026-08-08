@@ -1,0 +1,20 @@
+{
+  "-name": "Patch Projects",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that updates accountability jobs as projects in Float."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "jPatch_000_000_statProjects_jl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rUpdatedProjects_201_000_varProjectCode_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

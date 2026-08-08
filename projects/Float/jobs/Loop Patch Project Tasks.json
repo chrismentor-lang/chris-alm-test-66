@@ -1,0 +1,23 @@
+{
+  "-name": "Loop Patch Project Tasks",
+  "-type": "Loop",
+  "assignment": {
+    "variable": {
+      "-name": "vTaskID",
+      "input": {
+        "-nameref": "TASK_META_ID"
+      }
+    }
+  },
+  "comment": {
+    "#cdata-section": "Loops through a list of Accountability task types that currently need to be updated as project tasks in Float and then kicks-off job that update them in Float."
+  },
+  "execution": {
+    "-nameref": "Patch Project Tasks",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "xrSnowflake_statDistinctUpdateProjectTasks_re"
+  }
+}

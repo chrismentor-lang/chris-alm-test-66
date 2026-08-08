@@ -1,0 +1,20 @@
+{
+  "-name": "Post Projects",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that creates accountability jobs as projects in Float that currently don't exist in Float yet."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "jPost_001_000_statProjects_jl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rCreatedProjects_200_000_varProjectCode_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

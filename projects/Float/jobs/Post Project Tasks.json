@@ -1,0 +1,20 @@
+{
+  "-name": "Post Project Tasks",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that creates accountability task types as project tasks in Float that currently don't exist in Float yet."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "jPost_100_000_statProjectTasks_jl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rCreatedProjectTasks_300_000_varProjectIDName_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

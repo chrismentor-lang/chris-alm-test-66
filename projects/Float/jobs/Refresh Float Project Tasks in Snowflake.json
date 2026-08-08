@@ -1,0 +1,25 @@
+{
+  "-name": "Refresh Float Project Tasks in Snowflake",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Initiates job in the Snowflake project that updates the Float PROJECT_TASKS table from the Float endpoints."
+  },
+  "execution": {
+    "-nameref": "Update Float Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": "Snowflake",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vFloatEndpoint",
+        "default": "Project-Tasks"
+      },
+      {
+        "-name": "vFloatTable",
+        "default": "PROJECT_TASKS"
+      }
+    ]
+  }
+}

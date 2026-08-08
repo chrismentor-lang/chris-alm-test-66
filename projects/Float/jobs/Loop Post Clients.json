@@ -1,0 +1,23 @@
+{
+  "-name": "Loop Post Clients",
+  "-type": "Loop",
+  "assignment": {
+    "variable": {
+      "-name": "vClientCode",
+      "input": {
+        "-nameref": "ACCOUNTABILITY_CODE"
+      }
+    }
+  },
+  "comment": {
+    "#cdata-section": "Loops through a list of Accountability codes (i.e. clients) that currently don't exist in Float yet and then kicks-off job that creates them in Float."
+  },
+  "execution": {
+    "-nameref": "Post Clients",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "xrSnowflake_statDistinctCreateClients_re"
+  }
+}

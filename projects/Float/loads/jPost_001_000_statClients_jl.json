@@ -1,0 +1,17 @@
+{
+  "-name": "jPost_001_000_statClients_jl",
+  "-type": "Json",
+  "comment": {
+    "#cdata-section": "JSON load into Float that creates a new client with the accountability name, accountability code, and the Float name.\n\n20260304: Creates a new client with Accountability Name, Accountability Code and Float Name"
+  },
+  "connection": {
+    "-nameref": "crPostClients_varFloatToken_rc"
+  },
+  "ignoreEmpty": "false",
+  "jsonTemplate": "{\"name\": \"#{NAME}\"}",
+  "mode": "create",
+  "skipRoot": "false",
+  "source": {
+    "-nameref": "xrSnowflake_statVWCreateClients_re"
+  }
+}

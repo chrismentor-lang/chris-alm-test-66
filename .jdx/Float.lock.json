@@ -1,0 +1,299 @@
+{
+  "components": {
+    "Float.connections.Test Task Json File": {
+      "hash": "sha256:32dbf9815a87e3aa5846c172d0a5bfc97eb1c9d8f487e7af3937553f8ed3bdea",
+      "modified": 1770187051967,
+      "modifiedBy": "admin"
+    },
+    "Float.connections.cgLocal_statThinkerbellApplicationManagement_jc": {
+      "hash": "sha256:54531193fac9b6399f739e95dc8eccc38faaa6c23bfd5b9ef66262296b0e51a0",
+      "modified": 1781249588677,
+      "modifiedBy": "admin"
+    },
+    "Float.connections.cgLocal_statThinkerbellApplicationManagement_jc (Old)": {
+      "hash": "sha256:60e4944509da6e185e05121f8bff4af45c87a242b86fc13ab2273932cd737169",
+      "modified": 1781248821937,
+      "modifiedBy": "admin"
+    },
+    "Float.connections.crPatchProjectTasks_varTaskIDFloatToken_rc": {
+      "hash": "sha256:4310d61b1de139042dc7f1a0594d5ecad8d6d7707eb770be17fcddd0e1a4e54a",
+      "modified": 1772760810409,
+      "modifiedBy": "admin"
+    },
+    "Float.connections.crPatchProjects_varProjectIDFloatToken_rc": {
+      "hash": "sha256:18de13eeccaf43e4068611892bb2fa3220937ecc5587b7f0ac9420d9a94560d7",
+      "modified": 1780133010063,
+      "modifiedBy": "admin"
+    },
+    "Float.connections.crPostClients_varFloatToken_rc": {
+      "hash": "sha256:774e0a40d553dbef9be3e96460a502bdd3e92c03aad1cd08d0c54c2412a20896",
+      "modified": 1780129216081,
+      "modifiedBy": "admin"
+    },
+    "Float.connections.crPostProjectTasks_varFloatToken_rc": {
+      "hash": "sha256:3edc61d0b0577a352e74c2c9a18486c9a476e253f1bbc53aba4ac703484dec7d",
+      "modified": 1780134043271,
+      "modifiedBy": "admin"
+    },
+    "Float.connections.crPostProjects_varFloatToken_rc": {
+      "hash": "sha256:029a9e74f12c12eea67f96bb24f4451237cbaae2f4e89ee36828963b650c1085",
+      "modified": 1780134019144,
+      "modifiedBy": "admin"
+    },
+    "Float.connections.csfJedoxIntegrator_Global_sc": {
+      "hash": "sha256:390021b4276b172369d91a7a3fc11066e7657c16a47bc5f296fd2527711b9df6",
+      "modified": 1780128588026,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xdFloatEmails_statAll_de": {
+      "hash": "sha256:b80fbeae5739de6a2cb1c67356098470077c0eda71c22a2ea99ecc09d5544c56",
+      "modified": 1781249587646,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statDistinctCreateClients_re": {
+      "hash": "sha256:d0a2a41d6854fdd2a2d723d119b47991622c85e95dc1b6313568f81e1272d739",
+      "modified": 1780128911180,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statDistinctCreateProjectTasks_re": {
+      "hash": "sha256:27bbcb3cd5cfcec7709579492a25583bba605e1dd3fb1dba58a3f71d14210b3b",
+      "modified": 1784197032556,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statDistinctCreateProjects_re": {
+      "hash": "sha256:5a0b48680cf764d7c56cb04fd2cfe8790fc67a14bab851730b4b54c4412d2a58",
+      "modified": 1780131936091,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statDistinctUpdateProjectTasks_re": {
+      "hash": "sha256:6482d519712e7924e981cceba44c3387defb7132a436d8b48951bab7124ba26d",
+      "modified": 1780134221863,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statDistinctUpdateProjects_re": {
+      "hash": "sha256:30bf95e6ff09ceaab220abf79f728d821f7e55c6a6c337f3d19b9f6ddea58c6a",
+      "modified": 1780132436716,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statVWCreateClients_re": {
+      "hash": "sha256:f6c1eaab77e9cddfa2ec2b2beed7f0907028d551c555108dd29241c7993a56c0",
+      "modified": 1780129085852,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statVWCreateProjectTasks_re": {
+      "hash": "sha256:fcf0c095eae472b86b531e74a779cd406240f0db3150662e48c9485fa4d57763",
+      "modified": 1780133869360,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statVWCreateProjects_re": {
+      "hash": "sha256:6d8739a027cc905ba525ce620137e55145ec43689e0c91c94e16af44a6d8a9ab",
+      "modified": 1780132003793,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statVWUpdateProjectTasks_re": {
+      "hash": "sha256:9274e5b67ab06c6dda6d1b2b68561ee7e8632cb107f1cbc925fc9dceeded1ce8",
+      "modified": 1780134276573,
+      "modifiedBy": "admin"
+    },
+    "Float.extracts.xrSnowflake_statVWUpdateProjects_re": {
+      "hash": "sha256:49d4ba73c008fc669685339c7dd6872e01a23fa9331882ec7598343af0cc5b5a",
+      "modified": 1780132668350,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Create and Update Projects in Float": {
+      "hash": "sha256:c2d26386e293c6d5356f8166f0e20f159cfb42eef1bf6ee62ffbe50c04fd8280",
+      "modified": 1780135671192,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Loop Email Notifications": {
+      "hash": "sha256:33e571289faba9412f070378f196f1391ea7829be513d2848b5f4410b43b29f6",
+      "modified": 1775525265805,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Loop Patch Project Tasks": {
+      "hash": "sha256:6dd423c6080ce25836ca44287cacbaa811d250cc227dd4cb2834989547a00711",
+      "modified": 1780135666014,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Loop Patch Projects": {
+      "hash": "sha256:cc2e9d1a0eb543da6276fda7e01b33639d4f878e16beb999cf71f39a7a94a5b1",
+      "modified": 1780132480277,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Loop Post Clients": {
+      "hash": "sha256:c2b25053a17fd6eee7ca092e6d28b26193676a533d59acfd0f04453703604e6e",
+      "modified": 1780128981404,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Loop Post Project Tasks": {
+      "hash": "sha256:a3989fdc72884ff3ec393aec71cd129d6d9b4c87081b7754089e1b6431aa5f59",
+      "modified": 1780133653689,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Loop Post Projects": {
+      "hash": "sha256:321cddcf36721eaf20457f0f3d287ef5bb47eb4c1213c24e1690af785a3f4047",
+      "modified": 1780131920392,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Patch Project Tasks": {
+      "hash": "sha256:5629ce9acabdb9cbb13d061e44f41324a223367c3c008f59e710c7af938832d1",
+      "modified": 1780134395716,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Patch Projects": {
+      "hash": "sha256:40390386f855df6482fd2f0ab8e11d6391c5ccb8fa5be34b92acd0152e0e1e2b",
+      "modified": 1780132618938,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Post Clients": {
+      "hash": "sha256:1e149ce52c18984df4dfbdcd983d7fee33ad47f36144059bf0a7072545d86dc8",
+      "modified": 1780129564859,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Post Project Tasks": {
+      "hash": "sha256:57370c767b8c82bdf4e31a63c09837555b55f3017883492ad30a07115cd84b49",
+      "modified": 1780133834967,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Post Projects": {
+      "hash": "sha256:9613b555572918f2c4f145d19328eb5b3964f6fdc7195b434b809338f81ee07b",
+      "modified": 1780131968104,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Refresh Float Clients in Snowflake": {
+      "hash": "sha256:2ea9abff30006d2aa2a27e0a59948ae01bd76d565b761c6529fdf31786045040",
+      "modified": 1780133113624,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Refresh Float Project Tasks in Snowflake": {
+      "hash": "sha256:ef5db3b6cbb554adeabab8130c4876e2495b83fd80c075a714a737e3430f569f",
+      "modified": 1780134438910,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Refresh Float Projects in Snowflake": {
+      "hash": "sha256:d8afe53e15bdb9e28b659a8dbc8165dd68d76b44f5cdc4966d362f822bf55e39",
+      "modified": 1780133136353,
+      "modifiedBy": "admin"
+    },
+    "Float.jobs.Refresh Job Estimates SCD": {
+      "hash": "sha256:4a0da977f2ab11e06aa5c27a7131da82d64712903b92658a64ddee00afc24f4e",
+      "modified": 1780133560141,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.jPatch_000_000_statProjects_jl": {
+      "hash": "sha256:b909eab093fc505bcbbaa015f9bfb228d5b1bcb0f0e9c80c3b2ada984fd574ff",
+      "modified": 1783574646329,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.jPatch_101_000_statProjectTasks_jl": {
+      "hash": "sha256:5332ee7afff468ff416919afb7e41560da5ab2fcb7d3c770829b04c0161df9ba",
+      "modified": 1780134321157,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.jPost_001_000_statClients_jl": {
+      "hash": "sha256:b79930d393fca762e86f084b360fa8e1effde70c062db35d7d3d7da5df5c5098",
+      "modified": 1780129143698,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.jPost_001_000_statProjects_jl": {
+      "hash": "sha256:d9ff0362498385fce1f4c7fe8a756fec6cda98b5ea2d13a9fc33e8feb980737a",
+      "modified": 1780132937196,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.jPost_100_000_statProjectTasks_jl": {
+      "hash": "sha256:ca86a1dfcc5b7d4b4dcf4519d697c34c61b61a35d3d377c3a2391d9c9b1f430b",
+      "modified": 1780133928616,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.rCreatedClients_200_000_varClientCode_rs": {
+      "hash": "sha256:8c3496b1dc8ea8aa23edff00421ae5791b90f9c22d9db92cdc4b2bf97153c44f",
+      "modified": 1780134106577,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.rCreatedProjectTasks_300_000_varProjectIDName_rs": {
+      "hash": "sha256:a403b4472a41676d2199faae104fd3080a88761d597d75c421ca393589230d5d",
+      "modified": 1780134094082,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.rCreatedProjects_200_000_varProjectCode_rs": {
+      "hash": "sha256:3691fae541ca021ad91fce0b2a3514c17e1446b3b7f45a5c65a332f73cc0e70f",
+      "modified": 1780134100975,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.rFloatEmailNotification_400_000_varViewsEmails_rs": {
+      "hash": "sha256:b8a50ee8516f26ec20d64f05d22329c2cbf6d6dbefb2a0c5293a6c1a81543692",
+      "modified": 1780135301468,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.rUpdatedProjectTasks_301_000_varProjectIDName_rs": {
+      "hash": "sha256:5686bb79057efd41429aa487c8f10fef941f8cbbf43dc2e6c7a5f28e0c3d8b87",
+      "modified": 1780134358527,
+      "modifiedBy": "admin"
+    },
+    "Float.loads.rUpdatedProjects_201_000_varProjectCode_rs": {
+      "hash": "sha256:0244c43841f277db9d234961a1ba76ab4c887bbe7ab9251e2e5e36fe9220d5e1",
+      "modified": 1780133066792,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vCCEmails": {
+      "hash": "sha256:b989a82177484c0678514c4b7c633bf7d9a8673c49f8986fe12969d650515e95",
+      "modified": 1775524957453,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vClientCode": {
+      "hash": "sha256:7cb87b6315ba77f29509609576c0fa1386b0a905812653b5f67facf7ae07bde5",
+      "modified": 1772591270639,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vEmailSubject": {
+      "hash": "sha256:2e9cbf368574a1c95967946c49fa691110ca5d7cce68ee1baa1101ddc350890c",
+      "modified": 1775524964884,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vFloatToken": {
+      "hash": "sha256:295457b953968696709525f4a1f8900b905c59a3f0b25307f3b8ae9bfee6ed68",
+      "modified": 1770098769519,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vName": {
+      "hash": "sha256:29e36bf7921aec7a7be9485cb5d3a07902a0f385a4dcdf5238763c1951003f3a",
+      "modified": 1771213415198,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vProjectCode": {
+      "hash": "sha256:2fe200a2dc0f4120cbd4af422b8e70f0755f260f171e9fa3f41cccb11c7218bc",
+      "modified": 1771398264275,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vProjectID": {
+      "hash": "sha256:117ad480c12533f5ae1fb921154690a22560770202bbcf167319e4ff927f232a",
+      "modified": 1771213053399,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vTaskID": {
+      "hash": "sha256:123f694c96c6178158fd2d34fcc59eb4f762980da6bcf7bcb118c1ae211999de",
+      "modified": 1771216906718,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vToEmails": {
+      "hash": "sha256:79bf667576c87b7dba3a9cbe26016763394303ee30c18a5902ff0fccfeae94f7",
+      "modified": 1775524952154,
+      "modifiedBy": "admin"
+    },
+    "Float.variables.vViews": {
+      "hash": "sha256:d9a04beb496ae647f7d5e4bd1a7fcdc814616dd8d6a6f606e13ff17479cf88a1",
+      "modified": 1775524946266,
+      "modifiedBy": "admin"
+    }
+  },
+  "hash": "sha256:bab8a7c678538ed1c927e4548d338d55d22026b8c1cd10eb319044ea9f3a9e12",
+  "modified": 1784197032556,
+  "modifiedBy": "admin",
+  "project": "Float",
+  "source": {
+    "at": "2026-08-08T03:07:56Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

@@ -1,0 +1,29 @@
+{
+  "-name": "crPatchProjectTasks_varTaskIDFloatToken_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "20251212: Introduced"
+  },
+  "headers": {
+    "header": [
+      {
+        "#text": "Bearer ${vFloatToken}",
+        "-name": "Authorization"
+      },
+      {
+        "#text": "application/json",
+        "-name": "accept"
+      },
+      {
+        "#text": "application/json",
+        "-name": "Content-Type"
+      }
+    ]
+  },
+  "httpMethod": "PATCH",
+  "ignoreCookiesPolicy": "false",
+  "resource": {
+    "#cdata-section": "https://api.float.com/v3/project-tasks/${vTaskID}"
+  },
+  "ssl": "verify"
+}

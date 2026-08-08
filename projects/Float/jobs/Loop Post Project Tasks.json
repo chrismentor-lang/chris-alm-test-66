@@ -1,0 +1,31 @@
+{
+  "-name": "Loop Post Project Tasks",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vProjectID",
+        "input": {
+          "-nameref": "PROJECT_ID"
+        }
+      },
+      {
+        "-name": "vName",
+        "input": {
+          "-nameref": "NAME"
+        }
+      }
+    ]
+  },
+  "comment": {
+    "#cdata-section": "Loops through a list of Accountability task types that currently don't exist as project tasks in Float yet and then kicks-off job that creates them in Float."
+  },
+  "execution": {
+    "-nameref": "Post Project Tasks",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "xrSnowflake_statDistinctCreateProjectTasks_re"
+  }
+}

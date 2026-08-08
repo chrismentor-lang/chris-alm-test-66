@@ -1,0 +1,29 @@
+{
+  "-name": "crPostClients_varFloatToken_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "Connection to the Clients API in Float.\n\n20260304: Introduced"
+  },
+  "headers": {
+    "header": [
+      {
+        "#text": "Bearer ${vFloatToken}",
+        "-name": "Authorization"
+      },
+      {
+        "#text": "application/json",
+        "-name": "accept"
+      },
+      {
+        "#text": "application/json",
+        "-name": "Content-Type"
+      }
+    ]
+  },
+  "httpMethod": "POST",
+  "ignoreCookiesPolicy": "false",
+  "resource": {
+    "#cdata-section": "https://api.float.com/v3/clients"
+  },
+  "ssl": "verify"
+}
