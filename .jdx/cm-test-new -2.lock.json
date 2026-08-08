@@ -35,6 +35,11 @@
       "modified": 1786159737983,
       "modifiedBy": "admin"
     },
+    "cm-test-new -2.connections.New CSV connection (8)": {
+      "hash": "sha256:5c8b268bbfa2eca2194af8673c0f2db3ff5697a6ba31ef5e67f1197e5b28f1fd",
+      "modified": 1786160638546,
+      "modifiedBy": "admin"
+    },
     "cm-test-new -2.jobs.New Groovy job": {
       "hash": "sha256:6dfc2d4c62bd94d584339e18c9d7e18be301b24adb112e1c023cafdf13199042",
       "modified": 1786159737983,
@@ -45,6 +50,11 @@
       "modified": 1786159737983,
       "modifiedBy": "admin"
     },
+    "cm-test-new -2.variables.newVar (2)": {
+      "hash": "sha256:76602cdc9a782b6815ea2a8042550964b7955087f921af1057ed77918b7339dc",
+      "modified": 1786160645412,
+      "modifiedBy": "admin"
+    },
     "cm-test-new -2.variables.newVar2": {
       "hash": "sha256:102c2e679f59f8b5b706205a7a6061e744914939a5a979fab65799fbfdaa2ad5",
       "modified": 1786159737983,
@@ -52,11 +62,11 @@
     }
   },
   "hash": "sha256:1637612228c34b2d1db41e3ec49ebf1a0e0c4b9ec55dfd895adf50324e8d81a7",
-  "modified": 1786159745444,
+  "modified": 1786160645412,
   "modifiedBy": "admin",
   "project": "cm-test-new -2",
   "source": {
-    "at": "2026-08-08T03:33:42Z",
+    "at": "2026-08-08T03:45:27Z",
     "env": "dev",
     "host": "https://test-thinkerbell.cloud.jedox.com/"
   },
