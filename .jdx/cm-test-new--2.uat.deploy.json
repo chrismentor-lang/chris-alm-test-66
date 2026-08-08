@@ -1,0 +1,62 @@
+{
+  "project": "cm-test-new -2",
+  "env": "uat",
+  "host": "https://poc-minerva.cloud.jedox.com/",
+  "name": "cm-test-new -2",
+  "created": true,
+  "ms": 51,
+  "when": "2026-08-08T03:35:09Z",
+  "components": {
+    "cm-test-new -2.connections.New CSV Connection (5)": {
+      "hash": "sha256:9853c224aad5e4d881eedc2e1005b8b46024bae609d3fbdd3c22c463f0e842be",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.connections.New CSV Connection (6)": {
+      "hash": "sha256:f7702141df2c12c36ff3fbc15eb2ec1f386e975c48367b3a9531995f079ede50",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.connections.New CSV Connection (7)": {
+      "hash": "sha256:29105bc42b871d83f83f044ad585f11cd4beacebe49446d25f3af5a3d2988e53",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.connections.New CSV connection": {
+      "hash": "sha256:11830b64177d55ecb081a79f103be2915394e915f39249302b66bfe75316812c",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.connections.New CSV connection (2)": {
+      "hash": "sha256:2f10de6d33ee3e691d3a39c313cc1e1a96437581dd2a3186d51b06721722f97d",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.connections.New CSV connection (3)": {
+      "hash": "sha256:a517e2984988d366e86c86d65395c400b69d5190d14488791d3ae27bd0e8ecf3",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.connections.New CSV connection (4)": {
+      "hash": "sha256:234b3690cb64eef8c7f73dd27bcb1f828680dbffaa467dbc5d04ab8b57d6d853",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.jobs.New Groovy job": {
+      "hash": "sha256:6dfc2d4c62bd94d584339e18c9d7e18be301b24adb112e1c023cafdf13199042",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.variables.newVar": {
+      "hash": "sha256:6758aabdd76d35e0fb933cd0507962bfc32ce74aa7870bf253bd829b03d3a769",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    },
+    "cm-test-new -2.variables.newVar2": {
+      "hash": "sha256:102c2e679f59f8b5b706205a7a6061e744914939a5a979fab65799fbfdaa2ad5",
+      "modified": 1786160116162,
+      "modifiedBy": "chris"
+    }
+  },
+  "version": "26.1"
+}
