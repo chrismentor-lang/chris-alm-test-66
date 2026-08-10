@@ -1,0 +1,28 @@
+{
+  "-name": "Loop job for updating new Employees",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vHibobEmail",
+        "input": {
+          "-nameref": "EMAIL"
+        }
+      },
+      {
+        "-name": "vAccountabilityEmployeeID",
+        "input": {
+          "-nameref": "ID"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "-nameref": "Put Employees to Accountability and Snowflake",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "xrEmployees_statAllEmailsUpdate_re"
+  }
+}

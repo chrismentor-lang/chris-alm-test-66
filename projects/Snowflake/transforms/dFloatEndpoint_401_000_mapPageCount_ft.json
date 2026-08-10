@@ -1,0 +1,31 @@
+{
+  "-name": "dFloatEndpoint_401_000_mapPageCount_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Maps the endpoint to the amount of pages that were retrieved via the stored procedure."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xrFloatPages_varFloatEndpoint_re"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Element",
+          "input": {
+            "-constant": "${vFloatEndpoint}"
+          }
+        },
+        {
+          "-name": "Page Count",
+          "input": {
+            "-nameref": "SP_GET_PAGES"
+          }
+        }
+      ]
+    }
+  }
+}

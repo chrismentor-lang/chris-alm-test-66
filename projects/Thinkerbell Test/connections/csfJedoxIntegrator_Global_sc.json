@@ -1,0 +1,10 @@
+{
+  "-name": "csfJedoxIntegrator_Global_sc",
+  "-type": "Snowflake",
+  "comment": {
+    "#cdata-section": "Connects to the Snowflake databases with the JEDOX_INTEGRATOR_USR and the JEDOX_INTEGRATOR role."
+  },
+  "global": {
+    "-nameref": "Snowflake_Jedox_Integrator"
+  }
+}

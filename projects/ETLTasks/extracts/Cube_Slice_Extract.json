@@ -1,0 +1,16 @@
+{
+  "-name": "Cube_Slice_Extract",
+  "-type": "CubeSlice",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "query": {
+    "-mode": "generateBases",
+    "-randomPaths": "true",
+    "cube": {
+      "-fixValue": "#random(-1000,1000)",
+      "-name": "${Cube}",
+      "-valuename": "Value"
+    }
+  }
+}

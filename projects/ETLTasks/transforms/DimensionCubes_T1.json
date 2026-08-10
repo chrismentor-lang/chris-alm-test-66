@@ -1,0 +1,19 @@
+{
+  "-name": "DimensionCubes_T1",
+  "-type": "FieldTransform",
+  "sources": {
+    "source": {
+      "-nameref": "DimensionCubes"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": {
+        "-name": "Cube",
+        "input": {
+          "-nameref": "Name"
+        }
+      }
+    }
+  }
+}

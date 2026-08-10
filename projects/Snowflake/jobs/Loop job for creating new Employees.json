@@ -1,0 +1,20 @@
+{
+  "-name": "Loop job for creating new Employees",
+  "-type": "Loop",
+  "assignment": {
+    "variable": {
+      "-name": "vHibobEmail",
+      "input": {
+        "-nameref": "EMAIL"
+      }
+    }
+  },
+  "execution": {
+    "-nameref": "Post new Employees to Accountability and Snowflake",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "xrEmployees_statAllEmailsCreate_re"
+  }
+}

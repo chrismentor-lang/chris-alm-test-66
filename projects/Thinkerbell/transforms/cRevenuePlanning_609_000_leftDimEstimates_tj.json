@@ -1,0 +1,65 @@
+{
+  "-name": "cRevenuePlanning_609_000_leftDimEstimates_tj",
+  "-type": "TableJoin",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260728: Added the column REASON to be able to filter on it in the next step.\n20260723: Introduced."
+  },
+  "joins": {
+    "-persist": "false",
+    "join": {
+      "-allColumns": "false",
+      "-type": "left outer",
+      "-unique": "false",
+      "conditions": {
+        "condition": {
+          "-type": "eq"
+        }
+      },
+      "left": {
+        "-nameref": "xdEstimate_statAllEstimateBases_de",
+        "key": {
+          "-nameref": ":element"
+        }
+      },
+      "right": {
+        "-nameref": "xvRevenuePlanningEstimateClear_statAll_re",
+        "key": {
+          "-nameref": "ESTIMATE_ID"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": [
+      {
+        "-format": "ea",
+        "-nameref": "xdEstimate_statAllEstimateBases_de"
+      },
+      {
+        "-nameref": "xvRevenuePlanningEstimateClear_statAll_re"
+      }
+    ]
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": ":element"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "ESTIMATE_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "REASON"
+          }
+        }
+      ]
+    }
+  }
+}

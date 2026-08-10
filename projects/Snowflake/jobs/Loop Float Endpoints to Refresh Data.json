@@ -1,0 +1,31 @@
+{
+  "-name": "Loop Float Endpoints to Refresh Data",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vFloatEndpoint",
+        "input": {
+          "-nameref": ":element"
+        }
+      },
+      {
+        "-name": "vFloatTable",
+        "input": {
+          "-nameref": "Snowflake Table"
+        }
+      }
+    ]
+  },
+  "comment": {
+    "#cdata-section": "Refreshing Float data in Snowflake looping through a list of endpoints in Float."
+  },
+  "execution": {
+    "-nameref": "Refresh Float Data",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "fFloatEndpoint_400_000_exclInactive_tv"
+  }
+}

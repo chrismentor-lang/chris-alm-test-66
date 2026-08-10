@@ -1,0 +1,40 @@
+{
+  "-name": "Update Daily FX Rates",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that retrieves the data from the RBA HTTP feed, pushes to csv-files and then uploads into Snowflake landing and harmonisation databases."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "fRBADailyFX_700_040_statCreate_fl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Compress RBA Daily FX files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rRBA_DailyFXStageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rRBA_DailyFXStageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rRBA_DailyFXTruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rRBA_DailyFXCopyIntoLanding_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rRBA_DailyFXInsertIntoHarmonisation_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

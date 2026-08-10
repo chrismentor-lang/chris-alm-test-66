@@ -1,0 +1,65 @@
+{
+  "-name": "Final Hibob -> Accountability Sync for Employees",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Loop HiBob Endpoints to Refresh Data",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop Jedox Hi Bob Files to Refresh Data",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Update Accountability Tables (Employees) Pre - HiBob Sync",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rHiBob_DataWarehouseMappingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rHiBob_DataWarehouseSCDMappingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "sAccountability_010_000_statCreateTable_sl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "sAccountability_010_000_statUpdateTable_sl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Loop job for creating new Employees",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop job for updating new Employees",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Update Accountability Tables (Employees)",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Employee Dimension",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop Email Notifications",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rHiBob_DataWarehouseMappingTable_rs (Post AA Push)",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rHiBob_DataWarehouseSCDMappingTable_rs (Post AA Push)",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,10 @@
+{
+  "-name": "GenericFile_Columns",
+  "-type": "Metadata",
+  "connection": {
+    "-nameref": "GenericFile"
+  },
+  "query": {
+    "selector": "columns"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "-name": "dTitle_1400_000_byID_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "xvTitle_statAll_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Active",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": [
+            {
+              "-name": "Name",
+              "input": {
+                "-nameref": "NAME"
+              }
+            },
+            {
+              "-name": "Active",
+              "input": {
+                "-nameref": "ACTIVE"
+              }
+            }
+          ]
+        },
+        "input": {
+          "-nameref": "ID"
+        }
+      }
+    }
+  }
+}

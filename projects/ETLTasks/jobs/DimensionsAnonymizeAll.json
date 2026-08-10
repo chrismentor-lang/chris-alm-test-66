@@ -1,0 +1,11 @@
+{
+  "-name": "DimensionsAnonymizeAll",
+  "-type": "Loop",
+  "execution": {
+    "-nameref": "RenameElements",
+    "-type": "job"
+  },
+  "loop": {
+    "-nameref": "NormalDimensions_T2"
+  }
+}

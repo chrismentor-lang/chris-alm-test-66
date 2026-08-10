@@ -1,0 +1,10 @@
+{
+  "-name": "DimFiles_Extract",
+  "-type": "Metadata",
+  "connection": {
+    "-nameref": "DimFiles"
+  },
+  "query": {
+    "selector": "files"
+  }
+}

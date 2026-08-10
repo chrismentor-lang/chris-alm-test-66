@@ -1,0 +1,13 @@
+{
+  "-name": "rEstimatesSCD_InsertIntoHarmonisation_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from accountability schema in the HARMONISATION database that updates the estimates in the SCD_ESTIMATES table  in the SCD_ACCOUNTABILITY schema of the HARMONSATION database."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rEstimatesSCD_InsertIntoHarmonisation_rs.query.sql"
+  }
+}

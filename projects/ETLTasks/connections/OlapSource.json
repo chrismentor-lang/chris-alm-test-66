@@ -1,0 +1,11 @@
+{
+  "-name": "OlapSource",
+  "-type": "JedoxOlap",
+  "comment": {
+    "#cdata-section": "Reference to Jedox source connection defined in Connection Manager. Only Connections which don't use user credentials are allowed."
+  },
+  "database": "${SourceDB}",
+  "global": {
+    "-nameref": "${SourceConn}"
+  }
+}

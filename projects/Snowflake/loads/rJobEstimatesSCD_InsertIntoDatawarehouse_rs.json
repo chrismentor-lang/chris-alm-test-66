@@ -1,0 +1,13 @@
+{
+  "-name": "rJobEstimatesSCD_InsertIntoDatawarehouse_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from accountability schema in the DATAWAREHOUSE database that updates the job estimates in the JOB_ESTIMATES_SCD table  in the DW_SCD schema of the DATAWAREHOUSE database."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rJobEstimatesSCD_InsertIntoDatawarehouse_rs.query.sql"
+  }
+}

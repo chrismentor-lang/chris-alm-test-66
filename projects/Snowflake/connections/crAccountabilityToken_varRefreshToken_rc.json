@@ -1,0 +1,37 @@
+{
+  "-name": "crAccountabilityToken_varRefreshToken_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "Connects with accountability with the retrieved refresh token."
+  },
+  "headers": {
+    "header": [
+      {
+        "#text": "application/json",
+        "-name": "accept"
+      },
+      {
+        "#text": "application/x-www-form-urlencoded",
+        "-name": "content-type"
+      }
+    ]
+  },
+  "httpMethod": "POST",
+  "ignoreCookiesPolicy": "false",
+  "parameters": {
+    "parameter": [
+      {
+        "#text": "refresh_token",
+        "-name": "grant_type"
+      },
+      {
+        "#text": "${vAccountabilityRefreshToken}",
+        "-name": "refresh_token"
+      }
+    ]
+  },
+  "resource": {
+    "#cdata-section": "https://api.accountabilityonesystem.com/v1/token"
+  },
+  "ssl": "verify"
+}

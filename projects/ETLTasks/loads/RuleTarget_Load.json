@@ -1,0 +1,14 @@
+{
+  "-name": "RuleTarget_Load",
+  "-type": "Rule",
+  "connection": {
+    "-nameref": "OlapTarget"
+  },
+  "cube": {
+    "-name": "${TargetCube}"
+  },
+  "mode": "update",
+  "source": {
+    "-nameref": "Rule_Extract"
+  }
+}

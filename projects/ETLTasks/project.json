@@ -1,0 +1,12 @@
+{
+  "-name": "ETLTasks",
+  "-version": "26.1",
+  "headers": {
+    "header": {
+      "-name": "comment",
+      "comment": {
+        "#cdata-section": "Automated tasks for OLAP Server:\n- CubeCopy\n- CubeRulesCalc\n- CubeAnonymize\n- DatabaseBackup\n- DatabaseRestore\n- DatabaseCopy\n- DatabaseSave\n- DatabaseAnonymize\n- CreateOlap\n- RulesReplace\n- UpdateElementType\n- PopulateCube"
+      }
+    }
+  }
+}

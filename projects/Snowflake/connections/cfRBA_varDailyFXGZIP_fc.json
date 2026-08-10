@@ -1,0 +1,15 @@
+{
+  "-name": "cfRBA_varDailyFXGZIP_fc",
+  "-type": "CsvFile",
+  "database": {
+    "#cdata-section": "Snowflake/RBA/DailyFX/DailyFX.csv.gz"
+  },
+  "delimiter": "|",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "#none"
+}

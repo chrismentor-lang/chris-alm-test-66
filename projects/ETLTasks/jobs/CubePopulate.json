@@ -1,0 +1,13 @@
+{
+  "-name": "CubePopulate",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Generates cell paths with random cell values and loads them to an (empty) cube. This may be useful for simulations and mass data tests.  \nVariables: SourceConn, SourceDB, Cube, NumberOfCells"
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "CubePopulate_Load",
+      "-type": "load"
+    }
+  }
+}

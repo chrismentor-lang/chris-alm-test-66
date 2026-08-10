@@ -1,0 +1,15 @@
+{
+  "-name": "cfHiBob_varHiBobEndpointGZIP_fc",
+  "-type": "CsvFile",
+  "database": {
+    "#cdata-section": "Snowflake/HiBob/${vHiBobEndpoint}/${vHiBobEndpoint}.csv.gz"
+  },
+  "delimiter": "|",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "#none"
+}

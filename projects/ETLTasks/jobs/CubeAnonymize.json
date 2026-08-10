@@ -1,0 +1,25 @@
+{
+  "-name": "CubeAnonymize",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Copy Cube with anonymized random values\nVariables: SourceConn, TargetConn, SourceDB, TargetDB, Cube=Sales, TargetCube"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "CubesCheckDifferent",
+        "-type": "job"
+      },
+      {
+        "-nameref": "CubeTarget_Load",
+        "-type": "load"
+      }
+    ]
+  },
+  "variables": {
+    "variable": {
+      "-name": "_SourceRef",
+      "default": "Cube_Anonymize"
+    }
+  }
+}

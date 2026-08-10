@@ -1,0 +1,10 @@
+{
+  "-name": "csfHiBobLoader_Global_sc",
+  "-type": "Snowflake",
+  "comment": {
+    "#cdata-section": "Connects to the Snowflake LANDING database with the HIBOB_USR and the HIBOB_LOADER role."
+  },
+  "global": {
+    "-nameref": "Snowflake_HiBob_Loader"
+  }
+}

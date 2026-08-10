@@ -1,0 +1,35 @@
+{
+  "-name": "xjAccountabilityPublicHolidays_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityPublicHolidays_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "endDate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "numberOfDays"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "startDate"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

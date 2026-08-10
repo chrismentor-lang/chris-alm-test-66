@@ -1,0 +1,134 @@
+{
+  "-name": "fFloatReports-People_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name from the Reports-People API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxName",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NAM",
+          "-nameref": "name"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fFloatReports-People_400_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatReports-People_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "billable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "capacity"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "co_hours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "co_hours_history"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "default_hourly_rate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "department"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "department_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employee_type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "my_hours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "my_hours_history"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "nonBillable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "overtime"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "people_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "people_type_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "scheduled"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timeoff"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "unscheduled"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "wk_day_hrs"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "-name": "dStage_280_000_attrName_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 2 levels of the All Stages hierarchy for the Stage dimension and populates the attributes Name, and ID_Name for the base level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvStage_statAll_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Stages"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "STAGE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "STAGE_ID_NAME"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "STAGE_ID"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "-name": "xjAccountabilityPayments_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityPayments_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "accountingMonthId"
+      },
+      {
+        "-input": "accountingYearId"
+      },
+      {
+        "-input": "addedAt"
+      },
+      {
+        "-input": "addedByEmployeeId"
+      },
+      {
+        "-input": "approved"
+      },
+      {
+        "-input": "approvedAt"
+      },
+      {
+        "-input": "approvedByEmployeeId"
+      },
+      {
+        "-input": "cancelled"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "fxRate"
+      },
+      {
+        "-input": "generalLedgerAccountId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "overrideAccountingYearMonth"
+      },
+      {
+        "-input": "paymentDate"
+      },
+      {
+        "-input": "paymentNumber"
+      },
+      {
+        "-input": "paymentTypeId"
+      },
+      {
+        "-input": "payToBankAccountName"
+      },
+      {
+        "-input": "payToBankAccountNumber"
+      },
+      {
+        "-input": "payToBankNumber"
+      },
+      {
+        "-input": "supplierId"
+      },
+      {
+        "-input": "taxPercentage"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

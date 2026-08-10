@@ -1,0 +1,178 @@
+{
+  "-name": "dEmployee_202_010_byDepartment_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 4 levels of the All Employees (By Department) hierarchy for the Employee dimension and populates the attributes Name, ID_Name, Task Type ID, Task Type Department ID, Employee ID, Employee Department ID, and Active for different levels."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEmployee_202_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Task Type ID"
+        },
+        {
+          "-name": "Task Type Department ID"
+        },
+        {
+          "-name": "Employee ID"
+        },
+        {
+          "-name": "Employee Department ID"
+        },
+        {
+          "-name": "Active"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Employees (By Department)"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "DEPARTMENT_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "DEPARTMENT_ID_NAME"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "DEPARTMENT_ACTIVE"
+                }
+              },
+              {
+                "-name": "Employee Department ID",
+                "input": {
+                  "-nameref": "EMPLOYEE_DEPARTMENT_ID_ATTR"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "DEPARTMENT_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "TASK_TYPE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_NAME"
+                }
+              },
+              {
+                "-name": "Task Type ID",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "TASK_TYPE_ACTIVE"
+                }
+              },
+              {
+                "-name": "Task Type Department ID",
+                "input": {
+                  "-nameref": "TASK_TYPE_DEPARTMENT_ID"
+                }
+              },
+              {
+                "-name": "Employee Department ID",
+                "input": {
+                  "-nameref": "EMPLOYEE_DEPARTMENT_ID_ATTR"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "TASK_TYPE_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Task Type ID",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Task Type Department ID",
+                "input": {
+                  "-nameref": "TASK_TYPE_DEPARTMENT_ID"
+                }
+              },
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "EMPLOYEE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "EMPLOYEE_ID_NAME"
+                }
+              },
+              {
+                "-name": "Employee ID",
+                "input": {
+                  "-nameref": "EMPLOYEE_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "EMPLOYEE_ACTIVE"
+                }
+              },
+              {
+                "-name": "Employee Department ID",
+                "input": {
+                  "-nameref": "EMPLOYEE_DEPARTMENT_ID_ATTR"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "EMPLOYEE_ID"
+          }
+        }
+      ]
+    }
+  }
+}

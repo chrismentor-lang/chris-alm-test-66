@@ -1,0 +1,13 @@
+{
+  "-name": "rAccountability_StageUpload_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Uploads the file to the stage in the accountability schema in the Landing database."
+  },
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rAccountability_StageUpload_rs.query.sql"
+  }
+}

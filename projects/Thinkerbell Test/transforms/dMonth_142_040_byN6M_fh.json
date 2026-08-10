@@ -1,0 +1,30 @@
+{
+  "-name": "dMonth_142_040_byN6M_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_142_030_sortMonth_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Months N6M"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxConsolidatedN6M"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxBaseN6M"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "-name": "fHiBobMerged_800_000_statLoadMode_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Used for final merged salaries csv file"
+  },
+  "connection": {
+    "-nameref": "cfHiBob_varHiBobEndpoint_fc"
+  },
+  "mode": "create",
+  "skip": "0",
+  "source": {
+    "-nameref": "xjHiBob_statMerged${vHiBobEndpoint}Json_je"
+  },
+  "useScientificNotation": "true"
+}

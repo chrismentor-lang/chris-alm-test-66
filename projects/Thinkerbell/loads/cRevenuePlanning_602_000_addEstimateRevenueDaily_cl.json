@@ -1,0 +1,69 @@
+{
+  "-name": "cRevenuePlanning_602_000_addEstimateRevenueDaily_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "Loads the input for the total estimates and the input for the monthly estimates that are new into the Revenue Planning cube based on the view VW_REVENUE_PLANNING_ESTIMATED_REVENUE_DAILY in Snowflake."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Scenario",
+          "-name": "Scenario"
+        },
+        {
+          "-input": "Month",
+          "-name": "Month"
+        },
+        {
+          "-input": "Office",
+          "-name": "Office"
+        },
+        {
+          "-input": "Job Type",
+          "-name": "Job Type"
+        },
+        {
+          "-input": "Estimate",
+          "-name": "Estimate"
+        },
+        {
+          "-input": "Client Head",
+          "-name": "Client Head"
+        },
+        {
+          "-input": "Task Type",
+          "-name": "Task Type"
+        },
+        {
+          "-input": "Currency",
+          "-name": "Currency"
+        },
+        {
+          "-input": "Detail Revenue",
+          "-name": "Detail Revenue"
+        },
+        {
+          "-input": "Measure",
+          "-name": "Measure"
+        }
+      ]
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xvRevenueEstimatedDaily_statAll_re"
+  }
+}

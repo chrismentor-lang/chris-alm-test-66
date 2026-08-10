@@ -1,0 +1,241 @@
+{
+  "-name": "fAccountabilityEmployees_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fxName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NAM",
+            "-nameref": "name"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityEmployees_300_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityEmployees_300_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityEmployees_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvalRights"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "code"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode1Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode2Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode3Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode4Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode5Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "dailyHours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "dailyLeaveHours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "dailyTimesheetHours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "defaultPayrollAccountId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "defaultTaskTypeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "defaultTaxCodeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "departmentId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "email"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "endDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "hourlyBillableRate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "hourlyCostRate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officeRestrictions"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "preferredName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "roleId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "startDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "supervisorId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "targetBillableTimePercentage"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taskEmail"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "titleId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "userAccessGroupId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "weeklyTimesheetHours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "weeklyTimeSubmit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "workingDays"
+          }
+        }
+      ]
+    }
+  }
+}

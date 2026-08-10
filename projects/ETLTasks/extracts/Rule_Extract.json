@@ -1,0 +1,11 @@
+{
+  "-name": "Rule_Extract",
+  "-type": "Rule",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "cube": {
+    "-name": "${Cube}"
+  },
+  "mode": "fromCube"
+}

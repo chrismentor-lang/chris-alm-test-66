@@ -1,0 +1,21 @@
+{
+  "-name": "cRevenuePlanning_612_010_addEstimateInput_ft",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "Adds the adjustment retrieved for the estimate for the vFY from the revenue planning cube to the input."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "disabled"
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "cRevenuePlanning_612_000_mapMeasure_ft"
+  }
+}

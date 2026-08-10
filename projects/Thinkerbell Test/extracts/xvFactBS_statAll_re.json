@@ -1,0 +1,14 @@
+{
+  "-name": "xvFactBS_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves Balance Sheet data from the Fact_BS view in Snowflake"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvFactBS_statAll_re.query.sql"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "-name": "cRevenuePlanning_610_010_inclExistingDeleted_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260728: Introduced."
+  },
+  "conditions": {
+    "condition": [
+      {
+        "-nameref": "ESTIMATE_ID",
+        "-operator": "isNull",
+        "-type": "deny"
+      },
+      {
+        "-nameref": "REASON",
+        "-operator": "equal",
+        "-type": "accept",
+        "-value": "Deleted"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cRevenuePlanning_609_000_leftDimEstimates_tj"
+    }
+  }
+}

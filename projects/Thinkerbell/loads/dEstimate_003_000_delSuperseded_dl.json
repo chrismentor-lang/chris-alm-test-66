@@ -1,0 +1,22 @@
+{
+  "-name": "dEstimate_003_000_delSuperseded_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-name": "Estimate",
+    "attributes": {
+      "-mode": "delete"
+    },
+    "consolidations": {
+      "-mode": "delete"
+    },
+    "elements": {
+      "-mode": "delete"
+    }
+  },
+  "source": {
+    "-nameref": "dEstimate_003_000_byEstimateID_fh"
+  }
+}

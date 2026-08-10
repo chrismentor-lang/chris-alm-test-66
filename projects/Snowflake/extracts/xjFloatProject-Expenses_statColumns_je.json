@@ -1,0 +1,62 @@
+{
+  "-name": "xjFloatProject-Expenses_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all project expenses and their details from Float. Inactive at the moment.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatProject-Expenses_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "billable"
+      },
+      {
+        "-input": "cost"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "created_by"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "markup"
+      },
+      {
+        "-input": "markup_type"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "modified_by"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "phase_id"
+      },
+      {
+        "-input": "project_id"
+      },
+      {
+        "-input": "quantity"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

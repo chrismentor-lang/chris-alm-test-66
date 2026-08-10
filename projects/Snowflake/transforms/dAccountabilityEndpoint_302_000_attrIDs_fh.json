@@ -1,0 +1,31 @@
+{
+  "-name": "dAccountabilityEndpoint_302_000_attrIDs_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "xfAccountability${vAccountabilityEndpoint}_statAll_fe"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "IDs"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "IDs",
+            "input": {
+              "-nameref": "IDS"
+            }
+          }
+        },
+        "input": {
+          "-constant": "${vAccountabilityEndpoint}"
+        }
+      }
+    }
+  }
+}

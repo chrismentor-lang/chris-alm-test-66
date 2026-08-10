@@ -1,0 +1,98 @@
+{
+  "-name": "dEstimate_002_000_fxDummyClient_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Introduces a dummy client number that needs to be created at the client level in the estimate dimension for new business planning."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxDummyClient",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "_in1",
+            "-nameref": "CLIENT_ID"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dEstimate_002_000_fxDummyClient_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxDummyClientName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "_in1",
+            "-nameref": "CLIENT_NAME",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dEstimate_002_000_fxDummyClient_ft.functions.function.2.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEstimate_000_000_ascID_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "MASTER_CLIENT_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "CLIENT_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "CLIENT_ID_ATTR"
+          }
+        },
+        {
+          "-name": "Dummy Client",
+          "input": {
+            "-nameref": "fxDummyClient"
+          }
+        },
+        {
+          "-name": "Dummy Client Name",
+          "input": {
+            "-nameref": "fxDummyClientName"
+          }
+        },
+        {
+          "-name": "Dummy Client ID Name",
+          "input": {
+            "-nameref": "fxDummyClientName"
+          }
+        },
+        {
+          "-name": "Active",
+          "input": {
+            "-nameref": "CLIENT_ACTIVE"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "-name": "cClientHead_271_000_delClientHeadLoaded_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Client Head",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcClientHead_statClientHeadLoaded_cs"
+  }
+}

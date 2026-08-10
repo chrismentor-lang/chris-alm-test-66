@@ -1,0 +1,20 @@
+{
+  "-name": "dJob_113_010_removeNull_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Filter that only includes the Jobs from the dimension that didn't have an equivalent in the Snowflake views."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "JOB_NUMBER",
+      "-operator": "isNull",
+      "-type": "accept"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dJob_113_000_leftAllJobs_tj"
+    }
+  }
+}

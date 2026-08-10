@@ -1,0 +1,166 @@
+{
+  "-name": "fAccountabilityEstimateEntries_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityEstimateEntries_300_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxDescription",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "DESC",
+            "-nameref": "description"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityEstimateEntries_300_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityEstimateEntries_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "chargeTypeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "currencyId"
+          }
+        },
+        {
+          "-name": "description",
+          "input": {
+            "-nameref": "fxDescription"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "estimateId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxRate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "internalChargeTypeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "markUp"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "overrideMarkUp"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "rate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "serviceFee"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "subTaskTypeHeadingId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "supplierId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taskTypeHeadingId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taskTypeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "tax"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxStatus"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "units"
+          }
+        }
+      ]
+    }
+  }
+}

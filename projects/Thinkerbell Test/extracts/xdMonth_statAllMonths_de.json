@@ -1,0 +1,30 @@
+{
+  "-name": "xdMonth_statAllMonths_de",
+  "-type": "Dimension",
+  "attributesMode": "none",
+  "comment": "20260128 : Introduced",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Month"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "All Months",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "~",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "deny"
+        }
+      ]
+    }
+  }
+}

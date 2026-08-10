@@ -1,0 +1,60 @@
+{
+  "-name": "dJob_113_000_leftAllJobs_tj",
+  "-type": "TableJoin",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Left joining the jobs from Jedox (left) with the jobs from Snowflake (right) to generate a list of jobs that should be deleted from the dimension."
+  },
+  "joins": {
+    "-persist": "false",
+    "join": {
+      "-allColumns": "false",
+      "-type": "left outer",
+      "-unique": "false",
+      "conditions": {
+        "condition": {
+          "-type": "eq"
+        }
+      },
+      "left": {
+        "-nameref": "xdJob_statAllJobs_de",
+        "key": {
+          "-nameref": ":element"
+        }
+      },
+      "right": {
+        "-nameref": "xvJob_statAll_re",
+        "key": {
+          "-nameref": "JOB_NUMBER"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": [
+      {
+        "-format": "ea",
+        "-nameref": "xdJob_statAllJobs_de"
+      },
+      {
+        "-nameref": "xvJob_statAll_re"
+      }
+    ]
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": ":element"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "JOB_NUMBER"
+          }
+        }
+      ]
+    }
+  }
+}

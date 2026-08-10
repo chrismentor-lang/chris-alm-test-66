@@ -1,0 +1,11 @@
+{
+  "-name": "cfAccountabilityChargeableRates_statAll_fc",
+  "-type": "ExcelFile",
+  "database": {
+    "#cdata-section": "Snowflake/Accountability/ChargeableRates/Billable Rates Export.xls"
+  },
+  "directory": "false",
+  "location": {
+    "-type": "FileSystem"
+  }
+}

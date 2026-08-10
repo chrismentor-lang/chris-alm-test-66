@@ -1,0 +1,7 @@
+{
+  "-name": "vCurrentTimestamp",
+  "comment": {},
+  "script": {
+    "#file": "vCurrentTimestamp.script.groovy"
+  }
+}

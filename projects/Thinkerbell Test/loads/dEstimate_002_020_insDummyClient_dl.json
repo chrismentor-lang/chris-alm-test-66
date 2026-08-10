@@ -1,0 +1,24 @@
+{
+  "-name": "dEstimate_002_020_insDummyClient_dl",
+  "-type": "Dimension",
+  "comment": "Loads the dummy client numbers to the All Estimates hierarchy in the Estimate dimension inserting elements, parallel insertion to facilitate for multiple hierarchies, and addition of attribute values.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Estimate",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dEstimate_002_010_byDummyClient_fh"
+  }
+}

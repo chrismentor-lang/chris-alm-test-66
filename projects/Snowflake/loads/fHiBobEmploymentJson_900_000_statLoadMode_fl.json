@@ -1,0 +1,15 @@
+{
+  "-name": "fHiBobEmploymentJson_900_000_statLoadMode_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Used to generate merged final json file for employment"
+  },
+  "connection": {
+    "-nameref": "cfHiBob_varMergedJson_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "xfHiBobMergeEmploymentFiles_statAll_fe"
+  },
+  "useScientificNotation": "true"
+}

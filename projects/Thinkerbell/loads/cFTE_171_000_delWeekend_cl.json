@@ -1,0 +1,19 @@
+{
+  "-name": "cFTE_171_000_delWeekend_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deletes the retrieved Weekend slice from the FTE cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FTE",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcFTE_statWeekend_cs"
+  }
+}

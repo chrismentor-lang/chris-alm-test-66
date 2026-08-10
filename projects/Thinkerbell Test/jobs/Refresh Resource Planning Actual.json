@@ -1,0 +1,17 @@
+{
+  "-name": "Refresh Resource Planning Actual",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cResourcePlanning_265_000_delActual_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cResourcePlanning_264_000_addActual_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

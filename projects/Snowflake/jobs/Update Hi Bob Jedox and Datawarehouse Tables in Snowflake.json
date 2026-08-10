@@ -1,0 +1,28 @@
+{
+  "-name": "Update Hi Bob Jedox and Datawarehouse Tables in Snowflake",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Jobs that updates the HiBob tables in Snowflake, then updates the Jedox Tables, and then updates the datawarehouse tables as well.\n\n20260625: Introduced."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Loop HiBob Endpoints to Refresh Data",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Loop Jedox Hi Bob Files to Refresh Data",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rHiBob_DataWarehouseMappingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rHiBob_DataWarehouseSCDMappingTable_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

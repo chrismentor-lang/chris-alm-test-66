@@ -1,0 +1,8 @@
+{
+  "-name": "Refresh Revenue Tracker Version",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Refresh Revenue Tracker Version.jobscript.groovy"
+  }
+}

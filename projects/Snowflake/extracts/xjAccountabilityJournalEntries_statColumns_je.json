@@ -1,0 +1,89 @@
+{
+  "-name": "xjAccountabilityJournalEntries_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityJournalEntries_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "clientId"
+      },
+      {
+        "-input": "credit"
+      },
+      {
+        "-input": "debit"
+      },
+      {
+        "-input": "departmentId"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "eliminationEntry"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "foreignCurrencyBankAccountValue"
+      },
+      {
+        "-input": "generalLedgerAccountId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "interOfficeId"
+      },
+      {
+        "-input": "interOfficeJournalEntryId"
+      },
+      {
+        "-input": "jobId"
+      },
+      {
+        "-input": "journalId"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "productId"
+      },
+      {
+        "-input": "supplierId"
+      },
+      {
+        "-input": "taskTypeId"
+      },
+      {
+        "-input": "taxAdjustmentType"
+      },
+      {
+        "-input": "taxCodeId"
+      },
+      {
+        "-input": "taxableValue"
+      },
+      {
+        "-input": "transactionCurrencyCredit"
+      },
+      {
+        "-input": "transactionCurrencyDebit"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

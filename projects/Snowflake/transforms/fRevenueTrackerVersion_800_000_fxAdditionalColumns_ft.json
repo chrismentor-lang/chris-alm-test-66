@@ -1,0 +1,91 @@
+{
+  "-name": "fRevenueTrackerVersion_800_000_fxAdditionalColumns_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260710: Changed the fxBudgetVersion and fxActualUpToDate to also be able to handle Budget version."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxVersionDescription",
+        "-type": "Groovy",
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fRevenueTrackerVersion_800_000_fxAdditionalColumns_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxVersionStartDate",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "input",
+            "-constant": "${vFY}"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fRevenueTrackerVersion_800_000_fxAdditionalColumns_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxBudgetVersion",
+        "-type": "Groovy",
+        "comment": {
+          "#cdata-section": "20260710: Changed script so it can handle Budget as well.\ndef n = (input =~ /Forecast (\\d+)\\+/)[0][1] as int\n\ndef months = [\n    \"July\", \"August\", \"September\", \"October\", \"November\", \"December\",\n    \"January\", \"February\", \"March\", \"April\", \"May\", \"June\"\n]\n\nreturn months[n] + \" Forecast\""
+        },
+        "inputs": {
+          "input": {
+            "-alias": "input",
+            "-constant": "${vFCVersion}"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fRevenueTrackerVersion_800_000_fxAdditionalColumns_ft.functions.function.3.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxActualUpToDate",
+        "-type": "Groovy",
+        "comment": {
+          "#cdata-section": "20260710: Adapted the script to make sure that it can also handle Budget.\nimport java.time.*\n\n// Extract forecast number\ndef n = (forecastInput =~ /Forecast (\\d+)\\+/)[0][1] as int\n\n// Extract FY year\ndef fyYear = fyInput.replaceAll(\"[^0-9]\", \"\") as int\n\n// Map to month (July = 1 → June = 12)\ndef month = (n <= 6) ? n + 6 : n - 6\n\n// Determine calendar year\ndef year = (n <= 6) ? fyYear - 1 : fyYear\n\n// Get last day of month\ndef lastDate = YearMonth.of(year, month).atEndOfMonth()\n\nreturn lastDate.toString()"
+        },
+        "inputs": {
+          "input": [
+            {
+              "-alias": "forecastInput",
+              "-constant": "${vFCVersion}"
+            },
+            {
+              "-alias": "fyInput",
+              "-constant": "${vFY}"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fRevenueTrackerVersion_800_000_fxAdditionalColumns_ft.functions.function.4.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xcRevenueTrackerVersion_statEstAct_ce"
+    }
+  }
+}

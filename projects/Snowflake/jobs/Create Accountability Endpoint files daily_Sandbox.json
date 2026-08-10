@@ -1,0 +1,11 @@
+{
+  "-name": "Create Accountability Endpoint files daily_Sandbox",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "20260105: Included the logic to run the Loop Job \"Loop Accountability Estimate and Journal Entries\" for specific Endpoints. If this job shows any red components on the right hand side then please update the default variables to either of the Entries end points"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Create Accountability Endpoint files daily_Sandbox.jobscript.groovy"
+  }
+}

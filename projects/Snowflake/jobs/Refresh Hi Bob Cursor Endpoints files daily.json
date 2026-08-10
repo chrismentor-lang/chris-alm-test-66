@@ -1,0 +1,11 @@
+{
+  "-name": "Refresh Hi Bob Cursor Endpoints files daily",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Groovy Script to generate separate CSV files for each page for Salaries endpoint"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Refresh Hi Bob Cursor Endpoints files daily.jobscript.groovy"
+  }
+}

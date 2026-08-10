@@ -1,0 +1,10 @@
+{
+  "-name": "rHiBob_DataWarehouseSCDMappingTable_rs (Post AA Push)",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rHiBob_DataWarehouseSCDMappingTable_rs (Post AA Push).query.sql"
+  }
+}

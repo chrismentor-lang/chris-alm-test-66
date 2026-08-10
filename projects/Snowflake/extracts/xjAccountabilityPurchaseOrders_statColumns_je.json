@@ -1,0 +1,92 @@
+{
+  "-name": "xjAccountabilityPurchaseOrders_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityPurchaseOrders_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "addedAt"
+      },
+      {
+        "-input": "addedByEmployeeId"
+      },
+      {
+        "-input": "approved"
+      },
+      {
+        "-input": "approvedAt"
+      },
+      {
+        "-input": "approvedByEmployeeId"
+      },
+      {
+        "-input": "cancelled"
+      },
+      {
+        "-input": "completed"
+      },
+      {
+        "-input": "contactId"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "fxRate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "jobId"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "nominatedApproverId"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "paymentTermsFactor"
+      },
+      {
+        "-input": "paymentTermsNumber"
+      },
+      {
+        "-input": "purchaseOrderNumber"
+      },
+      {
+        "-input": "submitted"
+      },
+      {
+        "-input": "supplierId"
+      },
+      {
+        "-input": "taxCodeId"
+      },
+      {
+        "-input": "taxPercentage"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

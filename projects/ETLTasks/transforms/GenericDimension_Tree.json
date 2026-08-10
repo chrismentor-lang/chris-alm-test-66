@@ -1,0 +1,27 @@
+{
+  "-name": "GenericDimension_Tree",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "GenericFile_Extract"
+    }
+  },
+  "target": {
+    "-type": "numeric",
+    "attributes": {},
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All ${Dimension}"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "${Dimension}"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "-name": "xjFloatTimeoffs_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all leaves and their details from Float. \n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatTimeoffs_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "created_by"
+      },
+      {
+        "-input": "end_date"
+      },
+      {
+        "-input": "full_day"
+      },
+      {
+        "-input": "hours"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "modified_by"
+      },
+      {
+        "-input": "people_ids"
+      },
+      {
+        "-input": "repeat_end"
+      },
+      {
+        "-input": "repeat_state"
+      },
+      {
+        "-input": "start_date"
+      },
+      {
+        "-input": "start_time"
+      },
+      {
+        "-input": "status"
+      },
+      {
+        "-input": "status_creator_id"
+      },
+      {
+        "-input": "status_note"
+      },
+      {
+        "-input": "timeoff_id"
+      },
+      {
+        "-input": "timeoff_notes"
+      },
+      {
+        "-input": "timeoff_type_id"
+      },
+      {
+        "-input": "timeoff_type_name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

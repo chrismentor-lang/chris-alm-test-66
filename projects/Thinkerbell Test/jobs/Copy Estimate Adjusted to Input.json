@@ -1,0 +1,20 @@
+{
+  "-name": "Copy Estimate Adjusted to Input",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Copies the adjustment data from the Revenue Planning cube for Estimate and adds it to the input for the Estimate and then deletes the original adjustment."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cRevenuePlanning_612_010_addEstimateInput_ft",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cRevenuePlanning_613_000_delEstimateAdjustment_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

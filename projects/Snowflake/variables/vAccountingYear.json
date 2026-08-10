@@ -1,0 +1,8 @@
+{
+  "-name": "vAccountingYear",
+  "comment": {},
+  "default": "20",
+  "script": {
+    "#file": "vAccountingYear.script.groovy"
+  }
+}

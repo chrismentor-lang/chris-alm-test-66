@@ -1,0 +1,35 @@
+{
+  "-name": "dEstimate_610_030_attrDeleted_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20260728: Introduced."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEstimate_610_020_mapAll_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Estimate Deleted",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "Estimate Deleted",
+            "input": {
+              "-constant": "true"
+            }
+          }
+        },
+        "input": {
+          "-nameref": "ESTIMATE_ID"
+        }
+      }
+    }
+  }
+}

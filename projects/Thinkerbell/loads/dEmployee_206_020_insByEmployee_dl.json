@@ -1,0 +1,26 @@
+{
+  "-name": "dEmployee_206_020_insByEmployee_dl",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "Loads the All Employees (By Employee) hierarchy to the Employee dimension inserting elements, parallel insertion to facilitate for multiple hierarchies, and addition of attribute values. This hierarchy is used in Jedox to get the total roll-up of one specific employee, even if they have switched Office, Department or Task Type."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Employee",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dEmployee_206_010_byEmployee_fh"
+  }
+}

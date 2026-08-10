@@ -1,0 +1,92 @@
+{
+  "-name": "xjAccountabilityTaskTypes_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityTaskTypes_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "billableRate"
+      },
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "createLineForEachCost"
+      },
+      {
+        "-input": "createLineForEachRateOnCostsInvoices"
+      },
+      {
+        "-input": "departmentId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "indicativeCostRate"
+      },
+      {
+        "-input": "jobTypeIds"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "listCostsOnCostsInvoices"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "overrideMarkUp"
+      },
+      {
+        "-input": "serviceFeeApplies"
+      },
+      {
+        "-input": "supplierInvoiceMarkUpPercentage"
+      },
+      {
+        "-input": "taxStatus"
+      },
+      {
+        "-input": "teamId"
+      },
+      {
+        "-input": "timelineDays"
+      },
+      {
+        "-input": "titleId"
+      },
+      {
+        "-input": "useForExpenseClaimsCreditCards"
+      },
+      {
+        "-input": "useForInternalChargeEntries"
+      },
+      {
+        "-input": "useForSupplierlChargeEntries"
+      },
+      {
+        "-input": "useForTimeEntries"
+      },
+      {
+        "-input": "useForTrafficEntries"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "-name": "DatabaseBackupArchive",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Backup all databases to file system ${BackupDirPath} from ${TargetConn} connection\nThe parameter backupDirPath has to be given with \"/\" as path delimiter (e.g. C:/Backup/ )"
+  },
+  "failStatus": "error",
+  "jobscript": {
+    "#file": "DatabaseBackupArchive.jobscript.groovy"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "-name": "Update Accountability Tables_Sandbox",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Create Accountability Endpoint files daily_Sandbox",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Compress Accountability files in SFTP_Sandbox",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rAccountability_StageDelete_rs_Sandbox",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_StageUpload_rs_Sandbox",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_TruncateLandingTable_rs_Sandbox",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_CopyIntoLanding_rs_Sandbox",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_InsertIntoHarmonisation_rs_Sandbox",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "vAccountabilityEndpoint",
+      "default": "Estimates"
+    }
+  }
+}

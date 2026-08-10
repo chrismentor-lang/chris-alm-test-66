@@ -1,0 +1,14 @@
+{
+  "-name": "xrFloatPages_varFloatEndpoint_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the amount of pages of records (200 per page) from the Float endpoint via a stored procedure in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfFloatLoader_Global_sc"
+  },
+  "query": {
+    "#file": "xrFloatPages_varFloatEndpoint_re.query.sql"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "-name": "xcPL_varVersion_cs",
+  "-type": "CubeSlice",
+  "comment": "Retrieves the actual slice from the P&L cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Profit & Loss"
+    },
+    "filter": {
+      "condition": {
+        "#text": "Actual",
+        "-dimension": "Version",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

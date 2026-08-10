@@ -1,0 +1,14 @@
+{
+  "-name": "xdHiBobPolicyTypes_statAll_de",
+  "-type": "Dimension",
+  "attributesMode": "standardAttributes",
+  "comment": "Reference to Hi Bob Policy types dimension which has policy type names as elements",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbellApplicationManagement_jc"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Hi Bob Policy Types"
+    }
+  }
+}

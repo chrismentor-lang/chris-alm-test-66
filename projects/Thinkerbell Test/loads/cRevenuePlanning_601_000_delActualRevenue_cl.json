@@ -1,0 +1,21 @@
+{
+  "-name": "cRevenuePlanning_601_000_delActualRevenue_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "Deletes the retrieved Actual revenue data for the base scenario from the Revenue Planning cube."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcRevenuePlanning_varMonthActualRevenue_cs"
+  }
+}

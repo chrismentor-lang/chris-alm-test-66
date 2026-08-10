@@ -1,0 +1,60 @@
+{
+  "-name": "xcResourcePlanning_statPlanInput_cs",
+  "-type": "CubeSlice",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Resource Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "Plan",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Input",
+          "-dimension": "Measure",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Billable",
+          "-dimension": "Detail Resource",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Non Billable",
+          "-dimension": "Detail Resource",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Billable Rate",
+          "-dimension": "Detail Resource",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Stage",
+          "-dimension": "Detail Resource",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

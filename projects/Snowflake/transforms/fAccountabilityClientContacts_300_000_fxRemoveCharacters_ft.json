@@ -1,0 +1,271 @@
+{
+  "-name": "fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxAddr1",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "adressLine1"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxAddr2",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "adressLine2"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft.functions.function.3.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxCompanyName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "companyName"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft.functions.function.4.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxInvoiceNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "invoiceNotes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft.functions.function.5.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxJobTitle",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "jobTitle"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft.functions.function.6.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "name"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft.functions.function.7.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityClientContacts_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "-name": "adressLine1",
+          "input": {
+            "-nameref": "fxAddr1"
+          }
+        },
+        {
+          "-name": "adressLine2",
+          "input": {
+            "-nameref": "fxAddr2"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "city"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientId"
+          }
+        },
+        {
+          "-name": "companyName",
+          "input": {
+            "-nameref": "fxCompanyName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "country"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "directPhone"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "email"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "estimateDefault"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fax"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "invoiceDefault"
+          }
+        },
+        {
+          "-name": "invoiceNotes",
+          "input": {
+            "-nameref": "fxInvoiceNotes"
+          }
+        },
+        {
+          "-name": "jobTitle",
+          "input": {
+            "-nameref": "fxJobTitle"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "mobilePhone"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officePhone"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "state"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "statementContact"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "suppressContactNameOnReports"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "zipCode"
+          }
+        }
+      ]
+    }
+  }
+}

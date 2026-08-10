@@ -1,0 +1,38 @@
+{
+  "-name": "xjFloatReports-Projects_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all project reports and their details from Float. \n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatReports-Projects_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "billable"
+      },
+      {
+        "-input": "client_id"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "nonBillable"
+      },
+      {
+        "-input": "project_id"
+      },
+      {
+        "-input": "scheduled"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.projects"
+    }
+  }
+}

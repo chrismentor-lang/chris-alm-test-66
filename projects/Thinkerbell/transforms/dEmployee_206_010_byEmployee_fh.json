@@ -1,0 +1,71 @@
+{
+  "-name": "dEmployee_206_010_byEmployee_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 3 levels of the All Employees (By Employee) hierarchy for the Employee dimension and populates the attributes Name, ID_Name for the EMPLOYEE_ID level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEmployee_206_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Active",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Employees (By Employee)"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "EMPLOYEE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "EMPLOYEE_ID_NAME"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "EMPLOYEE_ACTIVE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "EMPLOYEE_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "EMPLOYEE"
+          }
+        }
+      ]
+    }
+  }
+}

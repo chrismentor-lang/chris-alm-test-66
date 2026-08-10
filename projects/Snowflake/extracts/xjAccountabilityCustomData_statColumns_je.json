@@ -1,0 +1,80 @@
+{
+  "-name": "xjAccountabilityCustomData_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityCustomData_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "boolean"
+      },
+      {
+        "-input": "campaignId"
+      },
+      {
+        "-input": "clientContactId"
+      },
+      {
+        "-input": "clientId"
+      },
+      {
+        "-input": "customDataTypeId"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "entityId"
+      },
+      {
+        "-input": "generalLedgerAccountId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "jobId"
+      },
+      {
+        "-input": "mediaScheduleId"
+      },
+      {
+        "-input": "numeric"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "productId"
+      },
+      {
+        "-input": "supplierContactId"
+      },
+      {
+        "-input": "supplierId"
+      },
+      {
+        "-input": "text"
+      },
+      {
+        "-input": "transactionEntryId"
+      },
+      {
+        "-input": "transactionId"
+      },
+      {
+        "-input": "transactionTypeId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

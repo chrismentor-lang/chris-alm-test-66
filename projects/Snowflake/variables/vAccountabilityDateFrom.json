@@ -1,0 +1,9 @@
+{
+  "-name": "vAccountabilityDateFrom",
+  "comment": {
+    "#cdata-section": "First day of Yesterday's month -3"
+  },
+  "script": {
+    "#file": "vAccountabilityDateFrom.script.groovy"
+  }
+}

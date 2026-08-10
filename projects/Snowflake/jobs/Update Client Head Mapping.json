@@ -1,0 +1,34 @@
+{
+  "-name": "Update Client Head Mapping",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Initiated from the RVP2 (Client Head Mapping) reports via the Workflow project job Update Client Head Mapping in Revenue Cube. Updates the CLIENT_HEAD_MAPPING table in LANDING AND HARMONISATION in Snowflake."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "Update Jedox Tables",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vJedoxFileName",
+        "default": "ClientHeadMapping"
+      },
+      {
+        "-name": "vJedoxWinSCPFolder",
+        "default": "Snowflake/Jedox/ClientHeadMapping"
+      },
+      {
+        "-name": "vSCD",
+        "default": "1"
+      },
+      {
+        "-name": "vJedoxSnowflakeTable",
+        "default": "CLIENT_HEAD_MAPPING"
+      }
+    ]
+  }
+}
