@@ -1,0 +1,199 @@
+{
+  "-name": "fAccountabilityEstimates_300_000_fxRemoveCharacters_ft_Sandbox",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityEstimates_300_000_fxRemoveCharacters_ft_Sandbox.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxClientOrderNumber",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "CON",
+            "-nameref": "clientOrderNumber"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityEstimates_300_000_fxRemoveCharacters_ft_Sandbox.functions.function.2.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxTitle",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "_in1",
+            "-nameref": "title"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityEstimates_300_000_fxRemoveCharacters_ft_Sandbox.functions.function.3.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityEstimates_statColumns_je_Sandbox"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "addedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "addedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approved"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientApprovedDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientContactId"
+          }
+        },
+        {
+          "-name": "clientOrderNumber",
+          "input": {
+            "-nameref": "fxClientOrderNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "currencyId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "estimatedRevenue"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxRate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jobId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "serviceFeePercentage"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "startDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "superseded"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxCodeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxPercentage"
+          }
+        },
+        {
+          "-name": "title",
+          "input": {
+            "-nameref": "fxTitle"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "version"
+          }
+        }
+      ]
+    }
+  }
+}

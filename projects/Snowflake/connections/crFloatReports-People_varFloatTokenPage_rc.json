@@ -1,0 +1,37 @@
+{
+  "-name": "crFloatReports-People_varFloatTokenPage_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "20251212: Introduced. Can't be used in the same loop because of a different call request"
+  },
+  "headers": {
+    "header": [
+      {
+        "#text": "Bearer ${vFloatToken}",
+        "-name": "Authorization"
+      },
+      {
+        "#text": "application/json",
+        "-name": "accept"
+      }
+    ]
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "parameters": {
+    "parameter": [
+      {
+        "#text": "2025-01-01",
+        "-name": "start_date"
+      },
+      {
+        "#text": "2025-11-30",
+        "-name": "end_date"
+      }
+    ]
+  },
+  "resource": {
+    "#cdata-section": "https://api.float.com/v3/reports/people"
+  },
+  "ssl": "verify"
+}

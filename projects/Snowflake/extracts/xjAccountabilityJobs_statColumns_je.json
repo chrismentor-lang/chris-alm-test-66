@@ -1,0 +1,137 @@
+{
+  "-name": "xjAccountabilityJobs_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityJobs_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "addedByEmployeeId"
+      },
+      {
+        "-input": "agencyDeadline"
+      },
+      {
+        "-input": "billable"
+      },
+      {
+        "-input": "budget"
+      },
+      {
+        "-input": "campaignId"
+      },
+      {
+        "-input": "clientId"
+      },
+      {
+        "-input": "clientName"
+      },
+      {
+        "-input": "clientOrderNumber"
+      },
+      {
+        "-input": "closeDate"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "customCode1Id"
+      },
+      {
+        "-input": "customCode2Id"
+      },
+      {
+        "-input": "customCode3Id"
+      },
+      {
+        "-input": "customCode4Id"
+      },
+      {
+        "-input": "customCode5Id"
+      },
+      {
+        "-input": "departmentId"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "estimateContactId"
+      },
+      {
+        "-input": "firstExpenseDate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "invoiceContactId"
+      },
+      {
+        "-input": "jobManagerId"
+      },
+      {
+        "-input": "jobNumber"
+      },
+      {
+        "-input": "jobTypeId"
+      },
+      {
+        "-input": "lastExpenseDate"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "masterJobId"
+      },
+      {
+        "-input": "materialDeadline"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "openDate"
+      },
+      {
+        "-input": "passFxGainsLossesToClient"
+      },
+      {
+        "-input": "productId"
+      },
+      {
+        "-input": "productionManagerId"
+      },
+      {
+        "-input": "serviceFeePercentage"
+      },
+      {
+        "-input": "sizeOrDuration"
+      },
+      {
+        "-input": "supplierInvoiceMarkUpPercentage"
+      },
+      {
+        "-input": "wipNotes"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

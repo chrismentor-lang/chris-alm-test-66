@@ -1,0 +1,19 @@
+{
+  "-name": "cPL_121_000_delActuals_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deletes the data from the retrieved slice of Actuals from the P&L cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Profit & Loss",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcPL_varVersion_cs"
+  }
+}

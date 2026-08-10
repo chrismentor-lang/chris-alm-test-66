@@ -1,0 +1,35 @@
+{
+  "-name": "xcRevenuePlanning_varEstimate_cs",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "20260723: Introduced to clear the estimate values for the Estimates in Accountability that have been deleted or superseded."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "${vEstimate}",
+          "-dimension": "Estimate",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Estimate",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "-name": "xjFloatProjects_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all projects and their details from Float.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatProjects_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "all_pms_schedule"
+      },
+      {
+        "-input": "budget_per_phase"
+      },
+      {
+        "-input": "budget_priority"
+      },
+      {
+        "-input": "budget_total"
+      },
+      {
+        "-input": "budget_type"
+      },
+      {
+        "-input": "client_id"
+      },
+      {
+        "-input": "color"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "default_hourly_rate"
+      },
+      {
+        "-input": "end_date"
+      },
+      {
+        "-input": "expenses"
+      },
+      {
+        "-input": "locked_task_list"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "non_billable"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "project_code"
+      },
+      {
+        "-input": "project_id"
+      },
+      {
+        "-input": "project_manager"
+      },
+      {
+        "-input": "project_tasks"
+      },
+      {
+        "-input": "stage_id"
+      },
+      {
+        "-input": "start_date"
+      },
+      {
+        "-input": "status"
+      },
+      {
+        "-input": "tags"
+      },
+      {
+        "-input": "tentative"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "-name": "GenericFile_Extract",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "GenericFile"
+  }
+}

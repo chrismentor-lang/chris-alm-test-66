@@ -1,0 +1,11 @@
+{
+  "-name": "fHiBobPolicyType_700_000_loadmode_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-format": "ea",
+      "-nameref": "xdHiBobPolicyTypes_statAll_de"
+    }
+  }
+}

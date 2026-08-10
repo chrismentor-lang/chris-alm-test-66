@@ -1,0 +1,11 @@
+{
+  "-name": "xrEmployees_statAllEmails_re",
+  "-type": "Relational",
+  "cache": "false",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrEmployees_statAllEmails_re.query.sql"
+  }
+}

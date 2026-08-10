@@ -1,0 +1,10 @@
+{
+  "-name": "fAccountabilityAccountingYears_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityAccountingYears_statColumns_je"
+    }
+  }
+}

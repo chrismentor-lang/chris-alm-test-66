@@ -1,0 +1,21 @@
+{
+  "-name": "cRevenuePlanning_603_000_delEstimatedRevenueDaily_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "Deletes the retrieved input for estimate version and base scenario from the Revenue Planning cube."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcRevenuePlanning_statEstimatedRevenueDaily_cs"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "-name": "dHiBobTaskType_1200_010_insAllTaskTypes_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Hi Bob Task Type",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dHiBobTaskType_1200_000_byItemID_fh"
+  }
+}

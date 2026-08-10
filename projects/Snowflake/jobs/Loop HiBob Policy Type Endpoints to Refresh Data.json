@@ -1,0 +1,31 @@
+{
+  "-name": "Loop HiBob Policy Type Endpoints to Refresh Data",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vHiBobPolicyType",
+        "input": {
+          "-nameref": ":element"
+        }
+      },
+      {
+        "-name": "vHiBobPolicyTypeLoad",
+        "input": {
+          "-nameref": "Load Mode"
+        }
+      }
+    ]
+  },
+  "comment": {
+    "#cdata-section": "Loop different Policy Types and extract and load their data into a single csv"
+  },
+  "execution": {
+    "-nameref": "fHiBobPolicyTypeEndpoint_400_010_varLoadMode_fl",
+    "-type": "load"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "fHiBobPolicyType_700_000_loadmode_tv"
+  }
+}

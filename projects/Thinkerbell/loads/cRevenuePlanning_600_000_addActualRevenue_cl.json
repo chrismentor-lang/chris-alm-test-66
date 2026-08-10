@@ -1,0 +1,87 @@
+{
+  "-name": "cRevenuePlanning_600_000_addActualRevenue_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "Loads the actual revenue into the base scenario in the Revenue Planning cube.\n\n20260213 :Created"
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Scenario",
+          "-name": "Scenario"
+        },
+        {
+          "-input": "Month",
+          "-name": "Month"
+        },
+        {
+          "-input": "Office",
+          "-name": "Office"
+        },
+        {
+          "-input": "Job Type",
+          "-name": "Job Type"
+        },
+        {
+          "-input": "Estimate",
+          "-name": "Estimate"
+        },
+        {
+          "-input": "Client Head",
+          "-name": "Client Head"
+        },
+        {
+          "-input": "Task Type",
+          "-name": "Task Type"
+        },
+        {
+          "-input": "Currency",
+          "-name": "Currency"
+        },
+        {
+          "-input": "Detail Revenue",
+          "-name": "Detail Revenue"
+        },
+        {
+          "-input": "Measure",
+          "-name": "Measure"
+        },
+        {
+          "-input": "JOB_ID"
+        },
+        {
+          "-input": "CLIENT_ID"
+        },
+        {
+          "-input": "DEPARTMENT_ID"
+        },
+        {
+          "-input": "OFFICE_CURRENCY_AMOUNT"
+        },
+        {
+          "-input": "FX_RATE"
+        },
+        {
+          "-input": "AUD_AMOUNT"
+        }
+      ]
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xvRevenueActual_statAll_re"
+  }
+}

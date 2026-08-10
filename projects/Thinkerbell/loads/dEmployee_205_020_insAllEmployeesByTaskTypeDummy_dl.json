@@ -1,0 +1,24 @@
+{
+  "-name": "dEmployee_205_020_insAllEmployeesByTaskTypeDummy_dl",
+  "-type": "Dimension",
+  "comment": "Loads the dummy task type numbers to the All Employees (By Task Type) hierarchy in the Employee dimension inserting elements, parallel insertion to facilitate for multiple hierarchies, and addition of attribute values.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Employee",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dEmployee_205_010_byTaskTypeDummy_fh"
+  }
+}

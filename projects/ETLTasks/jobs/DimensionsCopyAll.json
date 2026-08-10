@@ -1,0 +1,11 @@
+{
+  "-name": "DimensionsCopyAll",
+  "-type": "Loop",
+  "execution": {
+    "-nameref": "DimensionCopy_Load",
+    "-type": "load"
+  },
+  "loop": {
+    "-nameref": "Dimensions_T2"
+  }
+}

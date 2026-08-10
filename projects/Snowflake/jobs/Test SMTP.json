@@ -1,0 +1,8 @@
+{
+  "-name": "Test SMTP",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Test SMTP.jobscript.groovy"
+  }
+}

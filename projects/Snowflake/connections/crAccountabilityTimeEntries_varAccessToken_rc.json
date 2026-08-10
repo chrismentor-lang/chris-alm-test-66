@@ -1,0 +1,44 @@
+{
+  "-name": "crAccountabilityTimeEntries_varAccessToken_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "20260218: Removed the Modified From parameter and using Date From and Date To\n20260112: Added the parameter ModifiedFrom"
+  },
+  "credentials": {
+    "token": {
+      "-nameref": "coauthAccountability_statToken_oauthc"
+    }
+  },
+  "headers": {
+    "header": {
+      "#text": "application/json",
+      "-name": "accept"
+    }
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "parameters": {
+    "parameter": [
+      {
+        "#text": "200",
+        "-name": "Limit"
+      },
+      {
+        "#text": "${vAccountabilityOffset}",
+        "-name": "Offset"
+      },
+      {
+        "#text": "${vAccountabilityDateFrom}",
+        "-name": "DateFrom"
+      },
+      {
+        "#text": "${vAccountabilityDateTo}",
+        "-name": "DateTo"
+      }
+    ]
+  },
+  "resource": {
+    "#cdata-section": "https://api.accountabilityonesystem.com/v1/TimeEntries"
+  },
+  "ssl": "verify"
+}

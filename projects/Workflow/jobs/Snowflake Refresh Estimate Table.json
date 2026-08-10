@@ -1,0 +1,36 @@
+{
+  "-name": "Snowflake Refresh Estimate Table",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Kicks of the refresh of the Jedox ESTIMATE table (includes all the elements from the Estimates dimension) via the Update Jedox Tables job in the Snowflake project.\n\n20250724: Introduced."
+  },
+  "execution": {
+    "-nameref": "Update Jedox Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  },
+  "variables": {
+    "variable": [
+      {
+        "-name": "vJedoxFileName",
+        "default": "Estimate"
+      },
+      {
+        "-name": "vJedoxSnowflakeTable",
+        "default": "ESTIMATE"
+      },
+      {
+        "-name": "vJedoxWinSCPFolder",
+        "default": "Snowflake/Jedox/Estimate"
+      },
+      {
+        "-name": "vSCD",
+        "default": "0"
+      }
+    ]
+  }
+}

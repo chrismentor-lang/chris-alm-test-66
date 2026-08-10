@@ -1,0 +1,42 @@
+{
+  "-name": "xcRevenuePlanning_statActualBilling_cs",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "Retrieves the Billing actuals for the Base scenarion from the Revenue Planning for eventual deletion."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "Actual",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Base",
+          "-dimension": "Scenario",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Billing",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

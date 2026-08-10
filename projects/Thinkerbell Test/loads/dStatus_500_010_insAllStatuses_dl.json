@@ -1,0 +1,24 @@
+{
+  "-name": "dStatus_500_010_insAllStatuses_dl",
+  "-type": "Dimension",
+  "comment": "Loads the All Statuses hierarchy to the Status dimension inserting elements, parallel insertion to facilitate for multiple hierarchies, and addition of attribute values.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Status",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dStatus_500_000_attrName_fh"
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "-name": "TargetConn",
+  "default": "localhost_static"
+}

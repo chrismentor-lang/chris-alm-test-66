@@ -1,0 +1,91 @@
+{
+  "-name": "dEstimate_002_010_byDummyClient_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the dummy client number on the third level of the All Estimates hierarchy for the Estimate dimension and populates the attributes Name, ID_Name, Client ID, Active, and New Business for that base level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEstimate_002_000_fxDummyClient_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Active"
+        },
+        {
+          "-name": "Name"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Client ID"
+        },
+        {
+          "-name": "New Business"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Estimates"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MASTER_CLIENT_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "CLIENT_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "Active"
+                }
+              },
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "Dummy Client Name"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "Dummy Client ID Name"
+                }
+              },
+              {
+                "-name": "Client ID",
+                "input": {
+                  "-nameref": "CLIENT_ID_ATTR"
+                }
+              },
+              {
+                "-name": "New Business",
+                "input": {
+                  "-constant": "1"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "Dummy Client"
+          }
+        }
+      ]
+    }
+  }
+}

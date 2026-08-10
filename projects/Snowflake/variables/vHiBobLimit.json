@@ -1,0 +1,9 @@
+{
+  "-name": "vHiBobLimit",
+  "comment": {
+    "#cdata-section": "Used to fetch the limit the items per page for salaries"
+  },
+  "script": {
+    "#file": "vHiBobLimit.script.groovy"
+  }
+}

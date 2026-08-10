@@ -1,0 +1,1 @@
+CALL HARMONISATION.JEDOX.SP_LOAD_SCD_${vJedoxSnowflakeTable}();

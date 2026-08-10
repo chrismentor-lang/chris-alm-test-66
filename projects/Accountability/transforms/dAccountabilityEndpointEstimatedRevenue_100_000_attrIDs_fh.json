@@ -1,0 +1,34 @@
+{
+  "-name": "dAccountabilityEndpointEstimatedRevenue_100_000_attrIDs_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Lists the estimates in the IDs attribute for the EstimatedRevenue element in the Accountability Endpoint dimension in the Application-Management database."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xrEstimatedMonthlyRevenue_statAllEstimates_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "IDs"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "IDs",
+            "input": {
+              "-nameref": "ESTIMATE"
+            }
+          }
+        },
+        "input": {
+          "-constant": "EstimatedRevenue"
+        }
+      }
+    }
+  }
+}

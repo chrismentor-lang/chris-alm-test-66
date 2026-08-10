@@ -1,0 +1,19 @@
+{
+  "-name": "dClient_210_000_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sorts the retrieved Accountability clients based on CLIENT_ID"
+  },
+  "sorter": {
+    "input": {
+      "-nameref": "CLIENT_ID",
+      "-order": "ascending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvClient_statAll_re"
+    }
+  }
+}

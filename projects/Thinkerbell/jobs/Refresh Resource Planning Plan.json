@@ -1,0 +1,17 @@
+{
+  "-name": "Refresh Resource Planning Plan",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cResourcePlanning_261_000_delPlan_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cResourcePlanning_260_000_addPlan_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

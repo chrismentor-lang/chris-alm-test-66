@@ -1,0 +1,14 @@
+{
+  "-name": "xrEmployees_statAllEmailsUpdate_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260709: introduced"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrEmployees_statAllEmailsUpdate_re.query.sql"
+  }
+}

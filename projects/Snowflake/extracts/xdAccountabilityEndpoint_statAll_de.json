@@ -1,0 +1,14 @@
+{
+  "-name": "xdAccountabilityEndpoint_statAll_de",
+  "-type": "Dimension",
+  "attributesMode": "standardAttributes",
+  "comment": "Reference to the Accountability Endpoint as registered in a Jedox dimension in the Jedox-Application-Management database.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbellApplicationManagement_jc"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Accountability Endpoint"
+    }
+  }
+}

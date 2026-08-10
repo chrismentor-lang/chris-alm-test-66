@@ -1,0 +1,70 @@
+{
+  "-name": "cCostRate_152_000_cdNTMStat_ta",
+  "-type": "TableAggregation",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Aggregates the retrieved data to get a distinct combination of cost rates that need to be deleted from the Cost Rate cube for the next twelve months."
+  },
+  "delimiter": ",",
+  "sources": {
+    "source": {
+      "-nameref": "xvCostRateNTM_statAll_re"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Version",
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "-name": "Scenario",
+          "input": {
+            "-nameref": "Scenario"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Day"
+          }
+        },
+        {
+          "-name": "Employee",
+          "input": {
+            "-constant": "All Employees"
+          }
+        },
+        {
+          "-name": "Currency",
+          "input": {
+            "-constant": "All Currencies"
+          }
+        },
+        {
+          "-name": "Detail Cost Rate",
+          "input": {
+            "-constant": "Cost Rate"
+          }
+        },
+        {
+          "-name": "Measure",
+          "input": {
+            "-constant": "Input"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "measure": {
+        "-aggregate": "count_distinct",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "-name": "jPost_010_000_statCreateEmployee_jl",
+  "-type": "Json",
+  "connection": {
+    "-nameref": "crPostEmployee_rc"
+  },
+  "ignoreEmpty": "false",
+  "jsonTemplate": "#{EMPLOYEE_JSON}",
+  "mode": "create",
+  "skipRoot": "false",
+  "source": {
+    "-nameref": "xrCreateEmployees_varEmployeesEmail_re"
+  }
+}

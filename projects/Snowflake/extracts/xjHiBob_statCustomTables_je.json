@@ -1,0 +1,44 @@
+{
+  "-name": "xjHiBob_statCustomTables_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "For custom tables"
+  },
+  "connection": {
+    "-nameref": "crestHiBob_statCustomTables_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "id",
+        "-reference": "Outer"
+      },
+      {
+        "-input": "name",
+        "-reference": "Outer"
+      },
+      {
+        "-input": "category",
+        "-reference": "Outer"
+      },
+      {
+        "-input": "description",
+        "-reference": "Outer"
+      },
+      {
+        "-input": "columns",
+        "-name": "columns",
+        "-reference": "Outer"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": {
+        "#text": "$.tables",
+        "-name": "Outer"
+      }
+    }
+  }
+}

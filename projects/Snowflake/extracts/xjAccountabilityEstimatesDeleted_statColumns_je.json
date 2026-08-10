@@ -1,0 +1,23 @@
+{
+  "-name": "xjAccountabilityEstimatesDeleted_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityEstimatesDeleted_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "deletedAt"
+      },
+      {
+        "-input": "id"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

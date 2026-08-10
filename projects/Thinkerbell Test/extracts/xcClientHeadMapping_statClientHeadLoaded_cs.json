@@ -1,0 +1,32 @@
+{
+  "-name": "xcClientHeadMapping_statClientHeadLoaded_cs",
+  "-type": "CubeSlice",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Client Head Mapping"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "CH Loaded",
+          "-dimension": "Detail Client Head Mapping",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Revenue",
+          "-dimension": "Detail Client Head Mapping",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "-name": "Refresh FTE NTM",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cFTE_220_010_delFTE_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cFTE_220_000_addFTE_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

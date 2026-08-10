@@ -1,0 +1,19 @@
+{
+  "-name": "cFTE_181_000_delPublicHoliday_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deletes the retrieved Public Holiday slice from the FTE cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FTE",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcFTE_statPublicHoliday_cs"
+  }
+}

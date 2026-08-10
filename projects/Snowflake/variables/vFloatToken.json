@@ -1,0 +1,9 @@
+{
+  "-name": "vFloatToken",
+  "comment": {
+    "#cdata-section": "20251210: This Token does not expire. But if it is accidentally or intentionally updated in Float by Katy or Coral then we need to update it manually in here as well or we will loose access."
+  },
+  "script": {
+    "#file": "vFloatToken.script.groovy"
+  }
+}

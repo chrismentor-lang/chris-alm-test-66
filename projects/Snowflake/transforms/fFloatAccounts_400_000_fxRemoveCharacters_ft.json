@@ -1,0 +1,117 @@
+{
+  "-name": "fFloatAccounts_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name from the Accounts API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxName",
+      "-type": "Groovy",
+      "comment": {
+        "#cdata-section": "Removes pipe and replaces with space. Also removes line breaks and replaces with tabs instead."
+      },
+      "inputs": {
+        "input": {
+          "-alias": "NAM",
+          "-nameref": "name"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fFloatAccounts_400_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatAccounts_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "access"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "account_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "account_type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "avatar"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "budget_rights"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "department_filter"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "department_filter_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "edit_rights"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "email"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timezone"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "view_rights"
+          }
+        }
+      ]
+    }
+  }
+}

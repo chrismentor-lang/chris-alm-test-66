@@ -1,0 +1,69 @@
+{
+  "-name": "fFloatReports-Projects_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name from the Reports-Projects API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxName",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NAM",
+          "-nameref": "name"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fFloatReports-Projects_400_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatReports-Projects_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "billable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "client_id"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "nonBillable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "scheduled"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,100 @@
+{
+  "-name": "dTaskType_900_010_attrName_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 3 levels of the All Task Types hierarchy for the Task Type dimension and populates the attributes Name, ID_Name, Task type ID, and Active for different levels."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dTaskType_900_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Active"
+        },
+        {
+          "-name": "Task Type ID"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Task Types"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "DEPARTMENT_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "DEPARTMENT_ID_NAME"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "DEPARTMENT_ACTIVE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "DEPARTMENT_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "TASK_TYPE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_NAME"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "TASK_TYPE_ACTIVE"
+                }
+              },
+              {
+                "-name": "Task Type ID",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_ATTR"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "TASK_TYPE_ID"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "-name": "xrEstimatedMonthlyRevenue_statAllEstimates_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Lists the estimates for which the estimates need to be updated, refreshes the Accountability token and then updates the Accountability monthly spread for the estimates in the Revenue Tracker."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrEstimatedMonthlyRevenue_statAllEstimates_re.query.sql"
+  }
+}

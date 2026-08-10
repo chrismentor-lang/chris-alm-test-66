@@ -1,0 +1,19 @@
+{
+  "-name": "cCostRate_151_000_delDayActuals_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deletes the retrieved cube slice for the specified version and day.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Cost Rate",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcCostRate_varDayVersion_cs"
+  }
+}

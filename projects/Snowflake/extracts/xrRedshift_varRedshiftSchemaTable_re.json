@@ -1,0 +1,11 @@
+{
+  "-name": "xrRedshift_varRedshiftSchemaTable_re",
+  "-type": "Relational",
+  "cache": "false",
+  "connection": {
+    "-nameref": "cjdRedshift_statCounta_jdc"
+  },
+  "query": {
+    "#file": "xrRedshift_varRedshiftSchemaTable_re.query.sql"
+  }
+}

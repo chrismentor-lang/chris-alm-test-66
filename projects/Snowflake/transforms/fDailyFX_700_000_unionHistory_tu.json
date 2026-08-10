@@ -1,0 +1,21 @@
+{
+  "-name": "fDailyFX_700_000_unionHistory_tu",
+  "-type": "TableUnion",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Performs a union between the different RBA files with the historic FX rates since 2014."
+  },
+  "sources": {
+    "source": [
+      {
+        "-nameref": "xfFXrates_statAll20142017_fe"
+      },
+      {
+        "-nameref": "xfFXrates_statAll20182022_fe"
+      },
+      {
+        "-nameref": "xfFXrates_statAll2023Curr_fe"
+      }
+    ]
+  }
+}

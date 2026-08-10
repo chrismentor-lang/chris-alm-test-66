@@ -1,0 +1,41 @@
+{
+  "-name": "Loop Email Notifications",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vViews",
+        "input": {
+          "-nameref": "Views"
+        }
+      },
+      {
+        "-name": "vToEmails",
+        "input": {
+          "-nameref": "To_emails"
+        }
+      },
+      {
+        "-name": "vCCEmails",
+        "input": {
+          "-nameref": "CC_emails"
+        }
+      },
+      {
+        "-name": "vEmailSubject",
+        "input": {
+          "-nameref": "Email_subject"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "-nameref": "rSnowflake_100_000_varViewsforEmails_rs",
+    "-type": "load"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-format": "ea",
+    "-nameref": "xdAccountabilityEmails_statAll_de"
+  }
+}

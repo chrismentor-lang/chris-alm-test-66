@@ -1,0 +1,24 @@
+{
+  "-name": "Clear Revenue for deleted or superseded Estimates",
+  "-type": "LoopParallel",
+  "assignment": {
+    "variable": {
+      "-name": "vEstimate",
+      "input": {
+        "-nameref": ":element"
+      }
+    }
+  },
+  "comment": {
+    "#cdata-section": "20260723: Introduced."
+  },
+  "execution": {
+    "-nameref": "cRevenuePlanning_609_005_delEstimate_cl",
+    "-parallel": "true",
+    "-type": "load"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "cRevenuePlanning_609_010_inclExisting_tv"
+  }
+}

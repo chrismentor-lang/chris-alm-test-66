@@ -1,0 +1,44 @@
+{
+  "-name": "xjAccountabilityCustomCodes_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityCustomCodes_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "isDefault"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "level"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "transactionTypeId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

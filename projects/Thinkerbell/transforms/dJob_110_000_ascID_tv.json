@@ -1,0 +1,29 @@
+{
+  "-name": "dJob_110_000_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sorts the hierarchy in ascending order for Master Client ID, Client ID, and Job Number in that particular order."
+  },
+  "sorter": {
+    "input": [
+      {
+        "-nameref": "MASTER_CLIENT_ID",
+        "-order": "ascending"
+      },
+      {
+        "-nameref": "CLIENT_ID",
+        "-order": "ascending"
+      },
+      {
+        "-nameref": "JOB_NUMBER",
+        "-order": "ascending"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvJob_statAll_re"
+    }
+  }
+}

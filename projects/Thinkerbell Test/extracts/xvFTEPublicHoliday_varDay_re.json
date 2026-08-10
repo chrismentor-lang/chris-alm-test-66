@@ -1,0 +1,14 @@
+{
+  "-name": "xvFTEPublicHoliday_varDay_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the Public Holiday days from the Fact FTE Public Holidays view from Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvFTEPublicHoliday_varDay_re.query.sql"
+  }
+}

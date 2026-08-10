@@ -1,0 +1,18 @@
+{
+  "-name": "cfAccountabilityGeneralLedgerTransactions_varFileDate_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "Snowflake/Accountability/GeneralLedgerTransactions/GeneralLedgerTransactions_${vFileDate}.csv"
+  },
+  "database": {
+    "#cdata-section": "Snowflake/Accountability/GeneralLedgerTransactions/GeneralLedgerTransactions_${vFileDate}.csv"
+  },
+  "delimiter": "|",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "#none"
+}

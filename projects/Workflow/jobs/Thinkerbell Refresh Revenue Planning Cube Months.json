@@ -1,0 +1,16 @@
+{
+  "-name": "Thinkerbell Refresh Revenue Planning Cube Months",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Refreshes the estimate for the monthly phasing in the Revenue Planning cube.\n\n20260701: Introduced."
+  },
+  "execution": {
+    "-nameref": "Refresh Estimate Revenue Current and Next FY",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Thinkerbell",
+    "-scope": "Global"
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "-name": "Loop Jedox Files to Refresh Data",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vJedoxFileName",
+        "input": {
+          "-nameref": ":element"
+        }
+      },
+      {
+        "-name": "vJedoxSnowflakeTable",
+        "input": {
+          "-nameref": "Snowflake Table"
+        }
+      },
+      {
+        "-name": "vJedoxWinSCPFolder",
+        "input": {
+          "-nameref": "WinSCP Folder"
+        }
+      },
+      {
+        "-name": "vSCD",
+        "input": {
+          "-nameref": "Have SCD"
+        }
+      }
+    ]
+  },
+  "comment": {
+    "#cdata-section": "Refreshing Jedox data in Snowflake looping through a list of files in Jedox."
+  },
+  "execution": {
+    "-nameref": "Update Jedox Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "fJedoxFiles_800_000_exclInactive_tv"
+  }
+}

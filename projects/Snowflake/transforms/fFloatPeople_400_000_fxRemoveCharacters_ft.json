@@ -1,0 +1,218 @@
+{
+  "-name": "fFloatPeople_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name and the notes from the People API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NAM",
+            "-nameref": "name"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatPeople_400_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatPeople_400_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatPeople_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "account.account_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "auto_email"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "avatar_file"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "contractor"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "contracts[0].cost_rate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "contracts[0].cost_rate_from"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "contracts[0].effective_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "contracts[0].role_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "contracts[0].role_name"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "cost_rate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "default_hourly_rate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "department.department_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "email"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employee_type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "end_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "job_title"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "managers"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "non_work_days"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "people_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "people_type_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "region_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "role_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "start_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "tags"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "tags[2].name"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_days_hours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_days_hours_history"
+          }
+        }
+      ]
+    }
+  }
+}

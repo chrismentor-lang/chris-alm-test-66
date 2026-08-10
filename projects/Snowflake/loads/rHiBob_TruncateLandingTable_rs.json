@@ -1,0 +1,13 @@
+{
+  "-name": "rHiBob_TruncateLandingTable_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Truncates the landing table in the HiBob schema in the Landing database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfHiBobLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rHiBob_TruncateLandingTable_rs.query.sql"
+  }
+}

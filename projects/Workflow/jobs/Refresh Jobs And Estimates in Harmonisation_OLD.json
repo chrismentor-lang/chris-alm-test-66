@@ -1,0 +1,6 @@
+{
+  "-name": "Refresh Jobs And Estimates in Harmonisation_OLD",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": "// Refresh Jobs\nAPI.setProperty(\"vAccountabilityEndpoint\",\"Jobs\");\nAPI.setProperty(\"vAccountabilityTable\",\"JOBS\");\nAPI.setProperty(\"vSnowflakeSchemaType\",\"FULL\");\nAPI.executeJob(\"Snowflake Refresh Jobs Tables\");\n\n//Refresh Estimates\nAPI.setProperty(\"vAccountabilityEndpoint\",\"Estimates\");\nAPI.setProperty(\"vAccountabilityTable\",\"ESTIMATES\");\nAPI.setProperty(\"vSnowflakeSchemaType\",\"INCREMENTAL\");\nAPI.executeJob(\"Snowflake Refresh Jobs Tables\");\n\n//Refresh Estimate Entries\nAPI.setProperty(\"vAccountabilityEndpoint\",\"EstimateEntries\");\nAPI.setProperty(\"vAccountabilityTable\",\"ESTIMATE_ENTRIES\");\nAPI.setProperty(\"vSnowflakeSchemaType\",\"INCREMENTAL\");\nAPI.executeJob(\"Snowflake Refresh Jobs Tables\");\n\n//Refresh Estimate Deleted\nAPI.setProperty(\"vAccountabilityEndpoint\",\"EstimateDeleted\");\nAPI.setProperty(\"vAccountabilityTable\",\"ESTIMATE_DELETED\");\nAPI.setProperty(\"vSnowflakeSchemaType\",\"FULL\");\nAPI.executeJob(\"Snowflake Refresh Jobs Tables\");"
+}

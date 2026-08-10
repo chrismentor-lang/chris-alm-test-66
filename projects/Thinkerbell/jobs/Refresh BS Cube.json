@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh BS Cube",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Deletes version from BS cube and reloads them from the Fact_BS view in Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cBS_131_000_delActuals_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cBS_130_000_addActuals_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

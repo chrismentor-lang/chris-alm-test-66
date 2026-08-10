@@ -1,0 +1,24 @@
+{
+  "-name": "xcBS_varVersion_cs",
+  "-type": "CubeSlice",
+  "comment": "Retrieves cube slice for a specified version from the Balance Sheet cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Balance Sheet"
+    },
+    "filter": {
+      "condition": {
+        "#text": "${vVersion}",
+        "-dimension": "Version",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

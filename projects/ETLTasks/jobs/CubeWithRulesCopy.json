@@ -1,0 +1,16 @@
+{
+  "-name": "CubeWithRulesCopy",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "CubeCopy_Load",
+        "-type": "load"
+      },
+      {
+        "-nameref": "RuleCopy_Load",
+        "-type": "load"
+      }
+    ]
+  }
+}

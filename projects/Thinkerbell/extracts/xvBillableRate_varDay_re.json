@@ -1,0 +1,14 @@
+{
+  "-name": "xvBillableRate_varDay_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves billable rates for a specified date from the Billable Rate view from Snowflake.\n\n20260205 :Created"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvBillableRate_varDay_re.query.sql"
+  }
+}

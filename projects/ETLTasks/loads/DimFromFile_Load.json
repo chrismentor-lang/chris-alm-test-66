@@ -1,0 +1,22 @@
+{
+  "-name": "DimFromFile_Load",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "OlapTarget"
+  },
+  "dimension": {
+    "-name": "${Dimension}",
+    "attributes": {
+      "-mode": "inactive"
+    },
+    "consolidations": {
+      "-mode": "update"
+    },
+    "elements": {
+      "-mode": "update"
+    }
+  },
+  "source": {
+    "-nameref": "Dim_TreeNC_Transform"
+  }
+}

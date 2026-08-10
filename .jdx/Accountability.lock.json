@@ -1,0 +1,194 @@
+{
+  "components": {
+    "Accountability.connections.cgLocal_statThinkerbellApplicationManagement_jc": {
+      "hash": "sha256:73a2698e76ca227b8b3ed6a448c5980b7549dd1666ca5e756e37142810d0fc47",
+      "modified": 1781249578361,
+      "modifiedBy": "admin"
+    },
+    "Accountability.connections.cgLocal_statThinkerbellApplicationManagement_jc (Old)": {
+      "hash": "sha256:3966cab83068532dc5159ba3be9876f26fb5c39f8e09e5ab74a197198606b960",
+      "modified": 1781248930978,
+      "modifiedBy": "admin"
+    },
+    "Accountability.connections.crPostEmployee_rc": {
+      "hash": "sha256:55ad7d571e461568e0d77682ef3b0f6bd4cbcca8c050a08b026ef19f3e316346",
+      "modified": 1783575978369,
+      "modifiedBy": "admin"
+    },
+    "Accountability.connections.crPutEmployee_rc": {
+      "hash": "sha256:79051e54774a8586597fdf9f83328aacfcb33dbd4e3abbabea53fb3b0dd1288d",
+      "modified": 1780637243560,
+      "modifiedBy": "admin"
+    },
+    "Accountability.connections.crPutEstimateRevenue_varEstimateID_rc": {
+      "hash": "sha256:12f43dddf49c0316b958668ae44a6c97ffcdd09383b522f004afd18b92d64b7c",
+      "modified": 1775700671132,
+      "modifiedBy": "admin"
+    },
+    "Accountability.connections.csfJedoxIntegrator_Global_sc": {
+      "hash": "sha256:f3844075775ce417390ae885a71dce01d725a7acf14f2f459559f0676947c607",
+      "modified": 1775699575346,
+      "modifiedBy": "admin"
+    },
+    "Accountability.extracts.xdAccountabilityEmails_statAll_de": {
+      "hash": "sha256:fa24e7ee80da00d29cdf348e41b842fe26833d335d1135629168c7946f4331cd",
+      "modified": 1781249578337,
+      "modifiedBy": "admin"
+    },
+    "Accountability.extracts.xrCreateEmployees_varEmployeesEmail_re": {
+      "hash": "sha256:378017b6c312c1fe67df3cb04f4f0c43ad873f602529ac5b5611f69d036c5dff",
+      "modified": 1780636607741,
+      "modifiedBy": "admin"
+    },
+    "Accountability.extracts.xrEmployees_statAllEmails_re": {
+      "hash": "sha256:4d146c25a11c9432eb08933d82a1a3296b8a21e70755ae7bdc94a4b0d439ed39",
+      "modified": 1783556541869,
+      "modifiedBy": "admin"
+    },
+    "Accountability.extracts.xrEstimatedMonthlyRevenue_statAllEstimates_re": {
+      "hash": "sha256:95f8946ea3af7745c5a135071fb019a5c5bacbdc8d8504a3c0c0a047165ed8bd",
+      "modified": 1782551412921,
+      "modifiedBy": "admin"
+    },
+    "Accountability.extracts.xrEstimatedMonthlyRevenue_varEstimateID_re": {
+      "hash": "sha256:37b6e42f47fb48b6b6bb7af99fb37672421aed6421408c79651ba23845c0ccb1",
+      "modified": 1782551465497,
+      "modifiedBy": "admin"
+    },
+    "Accountability.extracts.xrUpdateEmployees_varEmployeesEmail_re": {
+      "hash": "sha256:e5e8d4340354bf5c8542e5bfa8d58a59f03516d6a59de970ff812f4e64178e34",
+      "modified": 1780637069635,
+      "modifiedBy": "admin"
+    },
+    "Accountability.jobs.Loop Email Notifications": {
+      "hash": "sha256:fb0437dfc4c7fd38fcdae7d6c3cf38484270595e8e40789ce1fbde451a780c65",
+      "modified": 1780985031719,
+      "modifiedBy": "admin"
+    },
+    "Accountability.jobs.Loop Estimates to Update Estimated Revenue": {
+      "hash": "sha256:0f3600547f50f4cf0ba79de60319ae205c77f1eda3b071b93aca4f83e7043d3d",
+      "modified": 1785383714932,
+      "modifiedBy": "admin"
+    },
+    "Accountability.jobs.Loop job for creating new Employees": {
+      "hash": "sha256:b885a790a49852b76f24146274976e3e46f6ca493ecfcab21870941324fd0f63",
+      "modified": 1780642248532,
+      "modifiedBy": "admin"
+    },
+    "Accountability.jobs.Loop job for updating new Employees": {
+      "hash": "sha256:ff1e2fa684017ef55a430050eb00111ef5d933287c30aec99bade07f7c299886",
+      "modified": 1783556212272,
+      "modifiedBy": "admin"
+    },
+    "Accountability.jobs.Post new Employees to Accountability and Snowflake": {
+      "hash": "sha256:82d6b59b60879dd12f9c4cdae1af0c77bd84b82f3d0f57f566012b7d6656adfa",
+      "modified": 1780984935839,
+      "modifiedBy": "admin"
+    },
+    "Accountability.jobs.Put Employees to Accountability and Snowflake": {
+      "hash": "sha256:8c5c6402f68ebf8fe5b69f32ea91300ce05fedfa457e1304ad37b774714270c1",
+      "modified": 1783556212291,
+      "modifiedBy": "admin"
+    },
+    "Accountability.jobs.Update Accountability Access Token": {
+      "hash": "sha256:4cb607cf75b05e0a6518d3de549f0d49a9be1b873ec8c412569f0e316c781b82",
+      "modified": 1775697476178,
+      "modifiedBy": "admin"
+    },
+    "Accountability.loads.dAccountabilityEndpointEstimatedRevenue_100_010_attrIDs_fh": {
+      "hash": "sha256:93c52ae409983584ba1c8e287d62dbe2c5e916e9372626db73ea18184eed9495",
+      "modified": 1782551454299,
+      "modifiedBy": "admin"
+    },
+    "Accountability.loads.jPost_010_000_statCreateEmployee_jl": {
+      "hash": "sha256:1c66cb584ae65c81f3f2d61c03c42480bb32be1898d87b98d2fafa325f3ad853",
+      "modified": 1780636719335,
+      "modifiedBy": "admin"
+    },
+    "Accountability.loads.jPut_000_000_statEstimateRevenue_jl": {
+      "hash": "sha256:307842a4bc6a841d0525f31d8caa60ea2bbee67d5a34151352c559159335c6e2",
+      "modified": 1782551475169,
+      "modifiedBy": "admin"
+    },
+    "Accountability.loads.jPut_020_000_statUpdateEmployee_jl": {
+      "hash": "sha256:dc5c7935b8a2904e3e82cd86d73acf97993af88093f064a1230342b08334ea54",
+      "modified": 1780984722718,
+      "modifiedBy": "admin"
+    },
+    "Accountability.loads.rSnowflake_100_000_varViewsforEmails_rs": {
+      "hash": "sha256:fdad41d0045388a07a6ec7588ccafb4e612f7e45ff68cf72a606414b90029767",
+      "modified": 1780985031741,
+      "modifiedBy": "admin"
+    },
+    "Accountability.loads.sAccountability_010_000_varEmail_sl": {
+      "hash": "sha256:68f0c3432877d6d960818df7a2bb6c3ce706fc737afe869c089e92bfaaa112ff",
+      "modified": 1781229619421,
+      "modifiedBy": "admin"
+    },
+    "Accountability.loads.sAccountability_020_000_varEmail_sl": {
+      "hash": "sha256:8e02f2309ead72e4774fdb5d4ae20c1f6d78ae9698d653b0ce6755106e34f616",
+      "modified": 1781229637195,
+      "modifiedBy": "admin"
+    },
+    "Accountability.transforms.dAccountabilityEndpointEstimatedRevenue_100_000_attrIDs_fh": {
+      "hash": "sha256:1d4ef54d9db8cd002f7d5bd899a5d2a0748edaf1e339b22f617dc136d6d1c32e",
+      "modified": 1782551447580,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vAccountabilityAccessToken": {
+      "hash": "sha256:2e9ee309279e9b105efbee4321f63b08bce000a9d269cdc25ccd242b7b3f475b",
+      "modified": 1781571533525,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vAccountabilityRefreshToken": {
+      "hash": "sha256:4215e50765ecafe46216b191bbf70b445c9bf6470f201cc1c270d76effa16a81",
+      "modified": 1775697324882,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vCCEmails": {
+      "hash": "sha256:f8b8152b3b1f197e822049eaf2bccf4e952f08ec71f13d33ce7f88a2df8174d6",
+      "modified": 1780970785170,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vCurrentTimestamp": {
+      "hash": "sha256:59e1399d6c331821226326ef91a4db71c90a764f31f69986bdad3eb49d217880",
+      "modified": 1780640325381,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vEmailSubject": {
+      "hash": "sha256:bd628433a1cb95e82052ea5e57e290cdc9f44d46267b234f3057810637e133c1",
+      "modified": 1780970798754,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vEstimateID": {
+      "hash": "sha256:c15b597830f70cc36c527ef4479f3392a52c7459f45f58656a4b1fd2039da43e",
+      "modified": 1775698836532,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vHibobEmail": {
+      "hash": "sha256:d020a95afabbb3974c350cac7e375e25f4e1ca74fcbe82c8bc83880d84bf4e0a",
+      "modified": 1780962524618,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vToEmails": {
+      "hash": "sha256:759e42e7128d47ca087f432d69ea38b19f150cbd7516034967c1dbe5a90dda5d",
+      "modified": 1780970807753,
+      "modifiedBy": "admin"
+    },
+    "Accountability.variables.vViews": {
+      "hash": "sha256:ceeec76baf6480a2735ebe5034c3d7247135114cc0c301da34bbc103ea5ec139",
+      "modified": 1780970816742,
+      "modifiedBy": "admin"
+    }
+  },
+  "hash": "sha256:3177c30602cf6bfc68028101197babd2b0182c2cf9dfdf8d2e4c5d7c10e8d101",
+  "modified": 1785383714932,
+  "modifiedBy": "admin",
+  "project": "Accountability",
+  "source": {
+    "at": "2026-08-10T22:30:34Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

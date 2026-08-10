@@ -1,0 +1,77 @@
+{
+  "-name": "xjFloatReports-People_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all people reports and their details from Float. \n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatReports-People_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "billable"
+      },
+      {
+        "-input": "capacity"
+      },
+      {
+        "-input": "co_hours"
+      },
+      {
+        "-input": "co_hours_history"
+      },
+      {
+        "-input": "default_hourly_rate"
+      },
+      {
+        "-input": "department"
+      },
+      {
+        "-input": "department_id"
+      },
+      {
+        "-input": "employee_type"
+      },
+      {
+        "-input": "my_hours"
+      },
+      {
+        "-input": "my_hours_history"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "nonBillable"
+      },
+      {
+        "-input": "overtime"
+      },
+      {
+        "-input": "people_id"
+      },
+      {
+        "-input": "people_type_id"
+      },
+      {
+        "-input": "scheduled"
+      },
+      {
+        "-input": "timeoff"
+      },
+      {
+        "-input": "unscheduled"
+      },
+      {
+        "-input": "wk_day_hrs"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.people"
+    }
+  }
+}

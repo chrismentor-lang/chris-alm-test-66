@@ -1,0 +1,10 @@
+{
+  "-name": "xfAccountabilityChargeableRates_statAll_fe",
+  "-type": "Excel",
+  "cache": "false",
+  "connection": {
+    "-nameref": "cfAccountabilityChargeableRates_statAll_fc"
+  },
+  "firstRowType": "false",
+  "header": "true"
+}

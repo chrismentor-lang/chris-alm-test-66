@@ -1,0 +1,22 @@
+{
+  "-name": "DimensionCubes",
+  "-type": "Metadata",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "query": {
+    "filters": {
+      "filter": [
+        {
+          "-name": "mask",
+          "-value": "11101"
+        },
+        {
+          "-name": "dimension",
+          "-value": "${Dimension}"
+        }
+      ]
+    },
+    "selector": "cube"
+  }
+}

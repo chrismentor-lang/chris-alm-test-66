@@ -1,0 +1,11 @@
+{
+  "-name": "Loop Estimates to Update Estimated Revenue",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Lists the estimates for which the estimates need to be updated and then updates the Accountability monthly spread for the estimates in the Revenue Tracker.\n\n20260725: Changed the sleep from a calculated value to a static 60000 due to negative sleep error."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Loop Estimates to Update Estimated Revenue.jobscript.groovy"
+  }
+}

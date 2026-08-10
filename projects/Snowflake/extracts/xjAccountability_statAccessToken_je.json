@@ -1,0 +1,29 @@
+{
+  "-name": "xjAccountability_statAccessToken_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the access token from Accountability (based on the refresh token that was retrieved earlier)."
+  },
+  "connection": {
+    "-nameref": "crAccountabilityToken_varRefreshToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "expires_in"
+      },
+      {
+        "-input": "employee"
+      },
+      {
+        "-input": "access_token"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

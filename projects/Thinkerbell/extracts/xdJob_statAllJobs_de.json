@@ -1,0 +1,42 @@
+{
+  "-name": "xdJob_statAllJobs_de",
+  "-type": "Dimension",
+  "attributesMode": "none",
+  "comment": "Retrieves all base jobs from the Job dimension excluding dummies and New Business lines.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Job"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "All Jobs",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "~",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "deny"
+        },
+        {
+          "#text": "New Business",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "deny"
+        },
+        {
+          "#text": "\\|",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "deny"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "-name": "dDay_146_030_byLTD_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20260616: Introduced."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_145_030_inclLTD_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Days_LTD"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxParentLTD"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "alternatelevel1"
+          }
+        }
+      ]
+    }
+  }
+}

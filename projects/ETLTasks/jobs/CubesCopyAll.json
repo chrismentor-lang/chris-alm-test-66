@@ -1,0 +1,11 @@
+{
+  "-name": "CubesCopyAll",
+  "-type": "Loop",
+  "execution": {
+    "-nameref": "CubeWithRulesCopy",
+    "-type": "job"
+  },
+  "loop": {
+    "-nameref": "Cubes_T2"
+  }
+}

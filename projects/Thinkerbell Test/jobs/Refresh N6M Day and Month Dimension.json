@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh N6M Day and Month Dimension",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dDay_142_055_addN6M_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dMonth_142_050_addN6M_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,26 @@
+{
+  "-name": "xtDetailRevenue_statCubeSliceCopyList_te",
+  "-type": "ConstantTable",
+  "comment": {
+    "#cdata-section": "Provides a static list of elements from the Detail Revenue dimension for which the Estimate needs to be copied to the required forecast.\n\n20260722: Removed row for Data Entry as that is not in use anymore.\n20260623: Removed Revenue By Client Head, New Business By Client Head, and Organic By Client Head.\n20260623: Needs to be adapted to the base levels under By Client Head, and also Probablility and Data Entry."
+  },
+  "data": {
+    "header": {
+      "value": "Detail Revenue"
+    },
+    "row": [
+      {
+        "value": "Revenue"
+      },
+      {
+        "value": "New Business"
+      },
+      {
+        "value": "Organic"
+      },
+      {
+        "value": "Probability"
+      }
+    ]
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "-name": "xjAccountabilityClientContacts_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityClientContacts_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "adressLine1"
+      },
+      {
+        "-input": "adressLine2"
+      },
+      {
+        "-input": "city"
+      },
+      {
+        "-input": "clientId"
+      },
+      {
+        "-input": "companyName"
+      },
+      {
+        "-input": "country"
+      },
+      {
+        "-input": "directPhone"
+      },
+      {
+        "-input": "email"
+      },
+      {
+        "-input": "estimateDefault"
+      },
+      {
+        "-input": "fax"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "invoiceDefault"
+      },
+      {
+        "-input": "invoiceNotes"
+      },
+      {
+        "-input": "jobTitle"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "mobilePhone"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "officePhone"
+      },
+      {
+        "-input": "state"
+      },
+      {
+        "-input": "statementContact"
+      },
+      {
+        "-input": "suppressContactNameOnReports"
+      },
+      {
+        "-input": "zipCode"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

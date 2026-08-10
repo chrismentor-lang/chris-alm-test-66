@@ -1,0 +1,11 @@
+{
+  "-name": "CubeFile_Type_Load",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "CubeFile"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "Cube_Type_Extract"
+  }
+}

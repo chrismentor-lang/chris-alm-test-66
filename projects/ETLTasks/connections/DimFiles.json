@@ -1,0 +1,15 @@
+{
+  "-name": "DimFiles",
+  "-type": "CsvFile",
+  "database": "${FilePath}",
+  "delimiter": "${Delimiter}",
+  "directory": "true",
+  "enableEscape": "false",
+  "encoding": "UTF-8",
+  "header": "false",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "pattern": ".DIMENSION.TXT$",
+  "quote": "\""
+}

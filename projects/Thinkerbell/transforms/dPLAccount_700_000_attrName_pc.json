@@ -1,0 +1,51 @@
+{
+  "-name": "dPLAccount_700_000_attrName_pc",
+  "-type": "TreePC",
+  "sources": {
+    "source": {
+      "-nameref": "xvPLAccount_statAll_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string",
+          "input": {
+            "-nameref": "NAME"
+          }
+        },
+        {
+          "-name": "ID_Name",
+          "input": {
+            "-nameref": "ID_NAME"
+          }
+        },
+        {
+          "-name": "Conversion Type",
+          "input": {
+            "-nameref": "CONVERSION_TYPE"
+          }
+        },
+        {
+          "-name": "Account Type",
+          "-type": "string",
+          "input": {
+            "-nameref": "ACCOUNT_TYPE"
+          }
+        }
+      ]
+    },
+    "child": {
+      "input": {
+        "-nameref": "CHILD_ELEMENT"
+      }
+    },
+    "parent": {
+      "input": {
+        "-nameref": "PARENT_ELEMENT"
+      }
+    }
+  }
+}

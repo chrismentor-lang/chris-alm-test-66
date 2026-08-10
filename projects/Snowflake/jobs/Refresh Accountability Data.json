@@ -1,0 +1,11 @@
+{
+  "-name": "Refresh Accountability Data",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Executes the Update Accountability Tables job will also storing the job execution details for the job in Jedox."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Refresh Accountability Data.jobscript.groovy"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "-name": "xcRevenuePlanning_varFYCurrentActual_ce",
+  "-type": "Cube",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260721: Introduced to provide current FY revenue planning overview for Coral in Snowflake as well."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-celltype": "only_numeric",
+    "-drillthrough": "false",
+    "-onlyBasisAsDefault": "true",
+    "-useRules": "false",
+    "-zeroSuppressionType": "excludeEmptyAndZero",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "${vFYMonthPrev}_YTD",
+          "-dimension": "Month",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Base",
+          "-dimension": "Scenario",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Adjusted",
+          "-dimension": "Measure",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Actual",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Revenue",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "New business",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Organic",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

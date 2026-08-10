@@ -1,0 +1,25 @@
+{
+  "-name": "dEstimate_610_040_addDeletedAttr_dl",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "20260728: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-name": "Estimate",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "inactive"
+    },
+    "elements": {
+      "-mode": "inactive"
+    }
+  },
+  "source": {
+    "-nameref": "dEstimate_610_030_attrDeleted_fh"
+  }
+}

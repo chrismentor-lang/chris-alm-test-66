@@ -1,0 +1,25 @@
+{
+  "-name": "dMonth_143_030_sortMonth_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "sorter": {
+    "input": [
+      {
+        "-nameref": "fxConsolidatedL3M",
+        "-order": "ascending"
+      },
+      {
+        "-nameref": "fxBaseL3M",
+        "-order": "ascending"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_143_020_fxL3MHierarchy_ft"
+    }
+  }
+}

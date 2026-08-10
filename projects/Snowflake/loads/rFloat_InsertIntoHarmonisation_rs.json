@@ -1,0 +1,13 @@
+{
+  "-name": "rFloat_InsertIntoHarmonisation_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls the stored procedure to insert the data from the landing table into the harmonisation database.\n\nCALL LANDING.FLOAT.SP_INSERT_HARMONISATION_CLIENTS();"
+  },
+  "connection": {
+    "-nameref": "csfFloatLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rFloat_InsertIntoHarmonisation_rs.query.sql"
+  }
+}

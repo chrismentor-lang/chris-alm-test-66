@@ -1,0 +1,47 @@
+{
+  "-name": "cFTE_220_000_addFTE_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "20260205 :Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FTE",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Scenario",
+          "-name": "Scenario"
+        },
+        {
+          "-input": "Day",
+          "-name": "Day"
+        },
+        {
+          "-input": "Employee",
+          "-name": "Employee"
+        },
+        {
+          "-input": "Detail FTE",
+          "-name": "Detail FTE"
+        },
+        {
+          "-input": "Measure",
+          "-name": "Measure"
+        }
+      ]
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xvFTEFTE_varDay_re"
+  }
+}

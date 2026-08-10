@@ -1,0 +1,14 @@
+{
+  "-name": "xvCostRate_varDay_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves cost rates for a specified date from the Cost Rate view from Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvCostRate_varDay_re.query.sql"
+  }
+}

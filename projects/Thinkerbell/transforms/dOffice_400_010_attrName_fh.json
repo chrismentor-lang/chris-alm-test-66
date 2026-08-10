@@ -1,0 +1,70 @@
+{
+  "-name": "dOffice_400_010_attrName_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dOffice_400_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Code"
+        },
+        {
+          "-name": "Active"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Offices"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "OFFICE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "OFFICE_ID_NAME"
+                }
+              },
+              {
+                "-name": "Code",
+                "input": {
+                  "-nameref": "OFFICE_CODE"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "OFFICE_ACTIVE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "OFFICE_ID"
+          }
+        }
+      ]
+    }
+  }
+}

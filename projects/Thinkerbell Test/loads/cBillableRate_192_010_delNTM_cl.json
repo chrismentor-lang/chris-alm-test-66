@@ -1,0 +1,19 @@
+{
+  "-name": "cBillableRate_192_010_delNTM_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deleted the billable rates from the Cost Rate cube for the next twelve months.\n\n20260212 Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Billable Rate",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "cBillableRate_192_000_cdNTMStat_ta"
+  }
+}

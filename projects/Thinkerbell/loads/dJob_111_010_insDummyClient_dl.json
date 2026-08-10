@@ -1,0 +1,23 @@
+{
+  "-name": "dJob_111_010_insDummyClient_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Job",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dJob_111_000_byDummyClient_fh"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "-name": "fRevenuePlanningEstimate_800_000_fxAdditionalColumns_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xcRevenuePlanningEstimate_statAll_ce"
+    }
+  }
+}

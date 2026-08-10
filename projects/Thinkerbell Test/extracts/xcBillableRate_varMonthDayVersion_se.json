@@ -1,0 +1,40 @@
+{
+  "-name": "xcBillableRate_varMonthDayVersion_se",
+  "-type": "CubeSlice",
+  "comment": "Takes cube slice for a specific version, day and dummy month from the Billable Rate cube.\n\n20260205 : Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Billable Rate"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "${vDay}",
+          "-dimension": "Day",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "${vMonth}-~",
+          "-dimension": "Day",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "${vVersion}",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "-name": "cResourcePlanning_266_000_delJobActive_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Resource Planning",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcResourcePlanning_statJobActive_cs"
+  }
+}
