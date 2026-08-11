@@ -1,0 +1,74 @@
+{
+  "-name": "xjHiBob_statLeaveChanges_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crestHiBob_var_LeaveChanges_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "totalDuration"
+      },
+      {
+        "-input": "originalRequestId"
+      },
+      {
+        "-input": "policyTypeDisplayName"
+      },
+      {
+        "-input": "changeReason"
+      },
+      {
+        "-input": "visibility"
+      },
+      {
+        "-input": "endDate"
+      },
+      {
+        "-input": "changeType"
+      },
+      {
+        "-input": "employeeEmail"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "type"
+      },
+      {
+        "-input": "createdOn"
+      },
+      {
+        "-input": "requestId"
+      },
+      {
+        "-input": "startPortion"
+      },
+      {
+        "-input": "employeeDisplayName"
+      },
+      {
+        "-input": "durationUnit"
+      },
+      {
+        "-input": "previousRequestId"
+      },
+      {
+        "-input": "endPortion"
+      },
+      {
+        "-input": "totalCost"
+      },
+      {
+        "-input": "startDate"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.changes"
+    }
+  }
+}

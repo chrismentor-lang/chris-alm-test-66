@@ -1,0 +1,19 @@
+{
+  "-name": "cBS_131_000_delActuals_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deletes the slice for the specified version from the Balance Sheet cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Balance Sheet",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcBS_varVersion_cs"
+  }
+}

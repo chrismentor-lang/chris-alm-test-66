@@ -1,0 +1,15 @@
+{
+  "-name": "cfFXrates_statHTTPHist20182022_fc",
+  "-type": "ExcelFile",
+  "comment": {
+    "#cdata-section": "Connection to daily refreshed RBA FX file with exchange rates between 2018 and 2022."
+  },
+  "database": {
+    "#cdata-section": "https://www.rba.gov.au/statistics/tables/xls-hist/2018-2022.xls"
+  },
+  "directory": "false",
+  "location": {
+    "-type": "HTTP"
+  },
+  "ssl": "off"
+}

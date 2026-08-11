@@ -1,0 +1,79 @@
+{
+  "components": {
+    "cm-test-new -4.connections.New CSV Connection (5)": {
+      "hash": "sha256:9705a49cd1696f1fbb2ae2e6b7fffee6aa7815c13dba731b3ee1924012078cfa",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.connections.New CSV Connection (6)": {
+      "hash": "sha256:1f57fb403b0418d4fd312c418ebd5ec215dc634b3c381793c7c1a86d237e555a",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.connections.New CSV Connection (7)": {
+      "hash": "sha256:97b1676e60e84bfcecc3e9f2a15147222210ca56c2afb981c4656411a965fa37",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.connections.New CSV Connection (7) (2)": {
+      "hash": "sha256:31cd424ac34b7ef874e0019ff185a60801ba32546d264db7c72910605d0f7bd5",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.connections.New CSV connection": {
+      "hash": "sha256:d19e987b222b9222bd63af21000ad7345d5326a8c40625079b8c56fdea1b0cd1",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.connections.New CSV connection (2)": {
+      "hash": "sha256:5be722deac6e8e3f67e90d7a800f6588e10520fe1adfcdce8aac1a35d2d62da1",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.connections.New CSV connection (3)": {
+      "hash": "sha256:22e3680f19cee7a33b065c6ac969a0fe232dfb48e9d04e71e6310e1ab56d0433",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.connections.New CSV connection (4)": {
+      "hash": "sha256:33cc5bb223e54dd682215f960a8c9a75f9dc7731e2ae9380b94d139b98854efc",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.jobs.New Groovy job": {
+      "hash": "sha256:235d7ae94b9876442c6a3079d9bbcfce7f52007e04b9fe37116950c9a8c3f50a",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.variables.New variable": {
+      "hash": "sha256:c18e0669f61fc6045faba692e03a3d39480f45ac6a7a1bef59b987fe259bdf9c",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.variables.newVar": {
+      "hash": "sha256:f2dea19cc0a1f67b8067a079597b43048566ef07186b2329b59e51811fb7e821",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.variables.newVar (2)": {
+      "hash": "sha256:e6c662855efc418dd358c9c8f69a4b224641d3eab4023d2385e87d74fa5b1da5",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    },
+    "cm-test-new -4.variables.newVar2": {
+      "hash": "sha256:658f8dde688c2b3241d5fdb8e8ef3a54e26452ecb1d07072497b141d218f2f01",
+      "modified": 1786233049282,
+      "modifiedBy": "admin"
+    }
+  },
+  "hash": "sha256:cb05537b134c7a421a93d656e87471919237202880c850c4cb4d94fea286679a",
+  "modified": 1786233056174,
+  "modifiedBy": "admin",
+  "project": "cm-test-new -4",
+  "source": {
+    "at": "2026-08-11T00:20:14Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

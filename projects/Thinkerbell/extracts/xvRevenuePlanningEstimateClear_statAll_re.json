@@ -1,0 +1,14 @@
+{
+  "-name": "xvRevenuePlanningEstimateClear_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260723: Introduced to make sure that estimates that have been deleted or superseded in Accountability are cleared in the Estimate slice in Jedox. This picks up the last 7 days of deletions and superded estimates from Accountability."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvRevenuePlanningEstimateClear_statAll_re.query.sql"
+  }
+}

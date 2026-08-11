@@ -1,0 +1,13 @@
+{
+  "-name": "rRBA_DailyFXCopyIntoLanding_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from public schema in the landing database to load the file in the stage into the table.\n\n--CALL PUBLIC.LOAD_FROM_STAGE('${vTableName}','${vSourceName}','${vFloatStage}');"
+  },
+  "connection": {
+    "-nameref": "csfRBALoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRBA_DailyFXCopyIntoLanding_rs.query.sql"
+  }
+}

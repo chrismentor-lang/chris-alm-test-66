@@ -1,0 +1,20 @@
+{
+  "-name": "Loop Accountability Endpoints to Insert Total Records",
+  "-type": "Loop",
+  "assignment": {
+    "variable": {
+      "-name": "vAccountabilityEndpoint",
+      "input": {
+        "-nameref": ":element"
+      }
+    }
+  },
+  "execution": {
+    "-nameref": "Insert Accountability Endpoint Total Records",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "fAccountabilityEndpoint_301_000_exclMetadata_tv"
+  }
+}

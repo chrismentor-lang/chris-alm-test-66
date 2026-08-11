@@ -1,0 +1,15 @@
+{
+  "-name": "CubeFiles",
+  "-type": "CsvFile",
+  "database": "${FilePath}",
+  "delimiter": "${Delimiter}",
+  "directory": "true",
+  "enableEscape": "false",
+  "encoding": "UTF-8",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "pattern": ".CUBE.TXT$",
+  "quote": "\""
+}

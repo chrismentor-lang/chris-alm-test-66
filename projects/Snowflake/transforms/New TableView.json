@@ -1,0 +1,18 @@
+{
+  "-name": "New TableView",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "TABLE_NAME",
+      "-operator": "like",
+      "-type": "accept",
+      "-value": "mv_"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xrSnowflake_statRedshiftTableDefinitions_re"
+    }
+  }
+}

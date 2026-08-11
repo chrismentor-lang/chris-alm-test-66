@@ -1,0 +1,30 @@
+{
+  "-name": "dMonth_141_040_byN3M_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_141_030_sortMonth_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Months N3M"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxConsolidatedN3M"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxBaseN3M"
+          }
+        }
+      ]
+    }
+  }
+}

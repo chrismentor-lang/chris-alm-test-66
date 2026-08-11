@@ -1,0 +1,14 @@
+{
+  "-name": "RuleCopy_Load",
+  "-type": "Rule",
+  "connection": {
+    "-nameref": "OlapTarget"
+  },
+  "cube": {
+    "-name": "${Cube}"
+  },
+  "mode": "update",
+  "source": {
+    "-nameref": "Rule_Extract"
+  }
+}

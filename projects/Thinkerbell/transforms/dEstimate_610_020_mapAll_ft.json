@@ -1,0 +1,29 @@
+{
+  "-name": "dEstimate_610_020_mapAll_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260728: Introduced."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cRevenuePlanning_610_010_inclExistingDeleted_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "ESTIMATE_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "REASON"
+          }
+        }
+      ]
+    }
+  }
+}

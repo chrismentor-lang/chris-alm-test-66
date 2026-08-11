@@ -1,0 +1,13 @@
+{
+  "-name": "rJedox_StageUpload_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Uploads the file to the stage in the Jedox schema in the Landing database."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rJedox_StageUpload_rs.query.sql"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "-name": "dMonth_141_010_inner_tj",
+  "-type": "TableJoin",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "joins": {
+    "-persist": "false",
+    "join": {
+      "-allColumns": "false",
+      "-type": "inner",
+      "-unique": "false",
+      "left": {
+        "-nameref": "xdMonth_statAllMonths_de"
+      },
+      "right": {
+        "-nameref": "xnMonth_countN3M_ne"
+      }
+    }
+  },
+  "sources": {
+    "source": [
+      {
+        "-format": "ea",
+        "-nameref": "xdMonth_statAllMonths_de"
+      },
+      {
+        "-nameref": "xnMonth_countN3M_ne"
+      }
+    ]
+  }
+}

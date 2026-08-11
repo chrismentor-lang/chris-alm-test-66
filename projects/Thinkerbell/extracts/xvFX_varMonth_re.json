@@ -1,0 +1,14 @@
+{
+  "-name": "xvFX_varMonth_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the FX rates for a specified month from the FX view in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvFX_varMonth_re.query.sql"
+  }
+}

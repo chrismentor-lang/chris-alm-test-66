@@ -1,0 +1,13 @@
+{
+  "-name": "rFloat_StageUpload_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Uploads the file to the stage in the float schema in the Landing database."
+  },
+  "connection": {
+    "-nameref": "csfFloatLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rFloat_StageUpload_rs.query.sql"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "-name": "Rule_Replace",
+  "-type": "FieldTransform",
+  "functions": {
+    "function": [
+      {
+        "-name": "NewDefinition",
+        "-type": "Replace",
+        "inputs": {
+          "input": {
+            "-nameref": "Definition"
+          }
+        },
+        "parameters": {
+          "regexp": "${RegExp}",
+          "replacement": "${Replacement}"
+        }
+      },
+      {
+        "-name": "NewComment",
+        "-type": "Replace",
+        "inputs": {
+          "input": {
+            "-nameref": "Comment"
+          }
+        },
+        "parameters": {
+          "regexp": "${RegExp}",
+          "replacement": "${Replacement}"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "Rule_Extract"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "NewDefinition",
+          "input": {
+            "-nameref": "NewDefinition"
+          }
+        },
+        {
+          "-name": "NewComment",
+          "input": {
+            "-nameref": "NewComment"
+          }
+        },
+        {
+          "-name": "ExternID",
+          "input": {
+            "-nameref": "ExternID"
+          }
+        },
+        {
+          "-name": "Timestamp",
+          "input": {
+            "-nameref": "Timestamp"
+          }
+        }
+      ]
+    }
+  }
+}

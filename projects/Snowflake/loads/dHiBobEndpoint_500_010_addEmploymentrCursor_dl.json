@@ -1,0 +1,23 @@
+{
+  "-name": "dHiBobEndpoint_500_010_addEmploymentrCursor_dl",
+  "-type": "Dimension",
+  "comment": "To load cursor value in Hi Bob endpoint dimension, cursor attribute",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbellApplicationManagement_jc"
+  },
+  "dimension": {
+    "-name": "Hi Bob Endpoint",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "inactive"
+    },
+    "elements": {
+      "-mode": "inactive"
+    }
+  },
+  "source": {
+    "-nameref": "dHiBobEndpoint_500_000_attrEmploymentCursor_fh"
+  }
+}

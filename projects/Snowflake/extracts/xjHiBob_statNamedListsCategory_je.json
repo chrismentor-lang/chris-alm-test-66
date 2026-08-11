@@ -1,0 +1,26 @@
+{
+  "-name": "xjHiBob_statNamedListsCategory_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crestHiBob_varNamedLists_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "values"
+      },
+      {
+        "-input": "items"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$[\"category_1755237689492.field_1755238148767\"]"
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "-name": "csfJedoxIntegrator_Global_sc",
+  "-type": "Snowflake",
+  "global": {
+    "-nameref": "Snowflake_Jedox_Integrator"
+  }
+}

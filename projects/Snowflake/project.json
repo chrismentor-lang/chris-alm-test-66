@@ -1,0 +1,12 @@
+{
+  "-name": "Snowflake",
+  "-version": "26.1",
+  "headers": {
+    "header": {
+      "-name": "comment",
+      "comment": {
+        "#cdata-section": "20251208: Introduced. This project will be used to establish the connection to source systems and manage Snowflake Pipelines for data replication"
+      }
+    }
+  }
+}

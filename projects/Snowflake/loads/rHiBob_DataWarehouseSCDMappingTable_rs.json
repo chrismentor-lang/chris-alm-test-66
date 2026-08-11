@@ -1,0 +1,10 @@
+{
+  "-name": "rHiBob_DataWarehouseSCDMappingTable_rs",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rHiBob_DataWarehouseSCDMappingTable_rs.query.sql"
+  }
+}

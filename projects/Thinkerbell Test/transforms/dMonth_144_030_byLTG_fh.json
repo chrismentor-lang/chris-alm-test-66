@@ -1,0 +1,33 @@
+{
+  "-name": "dMonth_144_030_byLTG_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20260616: Introduced."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_144_030_inclLTG_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Months_LTG"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxParentLTG"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "alternatelevel1"
+          }
+        }
+      ]
+    }
+  }
+}

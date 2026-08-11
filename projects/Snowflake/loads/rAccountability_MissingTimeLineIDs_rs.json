@@ -1,0 +1,13 @@
+{
+  "-name": "rAccountability_MissingTimeLineIDs_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from incremental accountability schema in the landing database to get the timeline by ID directly from Accountability and load it into the TIMELINE_BY_ID table in LANDING and subsequently into the TIME_LINES table in HARMONISATION."
+  },
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rAccountability_MissingTimeLineIDs_rs.query.sql"
+  }
+}

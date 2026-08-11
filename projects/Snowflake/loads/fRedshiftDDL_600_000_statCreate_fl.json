@@ -1,0 +1,12 @@
+{
+  "-name": "fRedshiftDDL_600_000_statCreate_fl",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "Redshift View Definitions"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "xrRedshiftDDL_varRedshiftSchemaTable_re"
+  },
+  "useScientificNotation": "true"
+}

@@ -1,0 +1,17 @@
+{
+  "-name": "Refresh FTE Benchmark",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cFTE_173_000_delBenchmark_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cFTE_172_000_addBenchmark_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

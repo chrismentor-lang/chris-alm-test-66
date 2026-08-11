@@ -1,0 +1,32 @@
+{
+  "-name": "Snowflake Refresh Revenue Planning Estimate",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Kicks of the refresh of the Jedox REVENUE_PLANNING_ESTIMATE table via the Update Jedox Tables job in the Snowflake project."
+  },
+  "execution": {
+    "-nameref": "Update Jedox Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  },
+  "variables": {
+    "variable": [
+      {
+        "-name": "vJedoxFileName",
+        "default": "RevenuePlanningEstimate"
+      },
+      {
+        "-name": "vJedoxSnowflakeTable",
+        "default": "REVENUE_PLANNING_ESTIMATE"
+      },
+      {
+        "-name": "vJedoxWinSCPFolder",
+        "default": "Snowflake/Jedox/RevenuePlanningEstimate"
+      }
+    ]
+  }
+}

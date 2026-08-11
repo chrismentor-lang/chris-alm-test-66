@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh FTE Public Holiday",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Deletes and loads the Public Holiday FTE for the entire history from the snowflake view to the FTE cube."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cFTE_181_000_delPublicHoliday_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cFTE_180_000_addPublicHoliday_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

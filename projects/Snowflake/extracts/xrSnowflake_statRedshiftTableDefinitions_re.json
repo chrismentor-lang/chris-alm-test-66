@@ -1,0 +1,11 @@
+{
+  "-name": "xrSnowflake_statRedshiftTableDefinitions_re",
+  "-type": "Relational",
+  "cache": "false",
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "xrSnowflake_statRedshiftTableDefinitions_re.query.sql"
+  }
+}

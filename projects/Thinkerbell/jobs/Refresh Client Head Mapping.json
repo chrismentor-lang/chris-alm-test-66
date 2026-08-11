@@ -1,0 +1,17 @@
+{
+  "-name": "Refresh Client Head Mapping",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cClientHeadMapping_274_000_delClientHeadLoaded_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cClientHeadMapping_273_000_addClientHeadLoaded_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

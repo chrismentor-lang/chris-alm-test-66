@@ -1,0 +1,24 @@
+{
+  "-name": "Refresh Estimated Revenue Daily",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This will Refresh All the History for the Total Revenue in the Revenue Planning Model for Version Estimate and Month ~ and Add the Monthly Spread for the newly created estimates"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cRevenuePlanning_603_000_delEstimatedRevenueDaily_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cRevenuePlanning_610_000_delEstimateRevenueDaily_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cRevenuePlanning_602_000_addEstimateRevenueDaily_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

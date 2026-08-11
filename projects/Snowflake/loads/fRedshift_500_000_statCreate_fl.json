@@ -1,0 +1,12 @@
+{
+  "-name": "fRedshift_500_000_statCreate_fl",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "cfRedshit_varRedshiftSchemaTable_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "xrRedshift_varRedshiftSchemaTable_re"
+  },
+  "useScientificNotation": "true"
+}

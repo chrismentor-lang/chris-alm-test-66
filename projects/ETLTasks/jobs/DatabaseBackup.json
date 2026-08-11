@@ -1,0 +1,23 @@
+{
+  "-name": "DatabaseBackup",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Backup a Jedox database to a File-Directory.\nVariables: FilePath, SourceConn, SourceDB"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "DimensionsToFileAll",
+        "-type": "job"
+      },
+      {
+        "-nameref": "CubesToFileAll",
+        "-type": "job"
+      },
+      {
+        "-nameref": "RulesToFileAll",
+        "-type": "job"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "rRedshift_CopyIntoLanding_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "--CALL LANDING.PUBLIC.LOAD_FROM_STAGE(TABLE_NAME_VAR, SCHEMA_VAR, STAGE_VAR, FILE_NAME_VAR)"
+  },
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRedshift_CopyIntoLanding_rs.query.sql"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "-name": "Test",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "fxJobNumber",
+      "-operator": "isEmpty",
+      "-type": "accept"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cRevenuePlanning_290_000_fxJobNumber_ft"
+    }
+  }
+}

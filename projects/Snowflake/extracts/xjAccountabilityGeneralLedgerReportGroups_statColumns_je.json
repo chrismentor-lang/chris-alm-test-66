@@ -1,0 +1,35 @@
+{
+  "-name": "xjAccountabilityGeneralLedgerReportGroups_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityGeneralLedgerReportGroups_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "accountType"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "officeId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

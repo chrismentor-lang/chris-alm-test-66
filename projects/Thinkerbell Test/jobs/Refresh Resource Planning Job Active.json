@@ -1,0 +1,17 @@
+{
+  "-name": "Refresh Resource Planning Job Active",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cResourcePlanning_266_000_delJobActive_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cResourcePlanning_267_000_addJobActive_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

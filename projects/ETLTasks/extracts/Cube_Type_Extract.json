@@ -1,0 +1,26 @@
+{
+  "-name": "Cube_Type_Extract",
+  "-type": "Cube",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "query": {
+    "-celltype": "${_cellType}",
+    "-onlyBasisAsDefault": "true",
+    "-useRules": "false",
+    "-zeroSuppressionType": "excludeEmpty",
+    "cube": {
+      "-name": "${Cube}",
+      "-valuename": "Value"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "${RegExp}",
+        "-dimension": "${Dimension}",
+        "-mode": "onlyNodes",
+        "-operator": "like",
+        "-type": "accept"
+      }
+    }
+  }
+}

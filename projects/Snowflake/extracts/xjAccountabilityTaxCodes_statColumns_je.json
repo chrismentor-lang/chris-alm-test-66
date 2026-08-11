@@ -1,0 +1,53 @@
+{
+  "-name": "xjAccountabilityTaxCodes_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityTaxCodes_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "countryId"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "reverseChargePercentage"
+      },
+      {
+        "-input": "taxPercentage"
+      },
+      {
+        "-input": "useForInput"
+      },
+      {
+        "-input": "useForOutput"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "-name": "xjAccountabilityLeaves_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityLeaves_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "addedAt"
+      },
+      {
+        "-input": "addedByEmployeeId"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "endDate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "isAdjustment"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "leaveTypeId"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "numberOfDays"
+      },
+      {
+        "-input": "numberOfHours"
+      },
+      {
+        "-input": "startDate"
+      },
+      {
+        "-input": "status"
+      },
+      {
+        "-input": "submittedAt"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "-name": "xjHiBob_varEndpoint_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "For salaries data and cursor"
+  },
+  "connection": {
+    "-nameref": "crestHiBob_${vHiBobConn}${vHiBobEndpoint}_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "response_metadata.next_cursor"
+      },
+      {
+        "-input": "results"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

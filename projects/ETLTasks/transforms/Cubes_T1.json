@@ -1,0 +1,15 @@
+{
+  "-name": "Cubes_T1",
+  "-type": "TableView",
+  "sorter": {
+    "input": {
+      "-nameref": "isNormalCube",
+      "-order": "descending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "Cubes"
+    }
+  }
+}

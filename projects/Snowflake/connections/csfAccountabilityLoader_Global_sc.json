@@ -1,0 +1,10 @@
+{
+  "-name": "csfAccountabilityLoader_Global_sc",
+  "-type": "Snowflake",
+  "comment": {
+    "#cdata-section": "Connects to the Snowflake LANDING database with the ACCOUNTABILITY_USR and the ACCOUNTABILITY_LOADER role."
+  },
+  "global": {
+    "-nameref": "Snowflake_Accountability_Loader"
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "-name": "cFTE_220_005_cdStat_ta",
+  "-type": "TableAggregation",
+  "cache": "false",
+  "delimiter": ",",
+  "sources": {
+    "source": {
+      "-nameref": "xvFTEFTE_varDay_re"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Version",
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "-name": "Detail FTE",
+          "input": {
+            "-constant": "FTE"
+          }
+        },
+        {
+          "-name": "Employee",
+          "input": {
+            "-constant": "All Employees"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Day"
+          }
+        },
+        {
+          "-name": "Measure",
+          "input": {
+            "-constant": "Input"
+          }
+        },
+        {
+          "-name": "Scenario",
+          "input": {
+            "-constant": "Base"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "measure": {
+        "-aggregate": "count_distinct",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

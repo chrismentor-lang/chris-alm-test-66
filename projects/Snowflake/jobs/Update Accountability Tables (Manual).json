@@ -1,0 +1,53 @@
+{
+  "-name": "Update Accountability Tables (Manual)",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Create Accountability Endpoint files daily",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Compress Accountability files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rAccountability_StageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_StageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_TruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_CopyIntoLanding_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vAccountabilityEndpoint",
+        "default": "EstimateEntries"
+      },
+      {
+        "-name": "vAccountabilityTable",
+        "default": "ESTIMATE_ENTRIES"
+      },
+      {
+        "-name": "vSnowflakeSchemaType",
+        "default": "INCREMENTAL"
+      }
+    ]
+  }
+}

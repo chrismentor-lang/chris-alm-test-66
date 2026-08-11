@@ -1,0 +1,82 @@
+{
+  "-name": "fDailyFX_700_020_fxDate_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Converts the Day column into properly formatted dates with yyyy-MM-dd. Also determines that any values from before 2017 can be excluded."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxDate",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "Day"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fDailyFX_700_020_fxDate_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxFilter",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "_in1",
+            "-nameref": "fxDate"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fDailyFX_700_020_fxDate_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "fDailyFX_700_010_noneCurrencies_tn"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fxDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Currency"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Target Currency"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Fx Rate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxFilter"
+          }
+        }
+      ]
+    }
+  }
+}

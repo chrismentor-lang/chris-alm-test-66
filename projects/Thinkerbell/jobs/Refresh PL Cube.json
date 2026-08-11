@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh PL Cube",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Deletes Actuals for P&L cube and reloads them from the Fact_PL view in Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cPL_121_000_delActuals_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cPL_120_000_addActuals_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

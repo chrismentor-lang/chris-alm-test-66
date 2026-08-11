@@ -1,0 +1,11 @@
+{
+  "-name": "CubeFile_Type_Job",
+  "-type": "Loop",
+  "execution": {
+    "-nameref": "CubeFile_Type_Load",
+    "-type": "load"
+  },
+  "loop": {
+    "-nameref": "DimensionCubes_T1"
+  }
+}

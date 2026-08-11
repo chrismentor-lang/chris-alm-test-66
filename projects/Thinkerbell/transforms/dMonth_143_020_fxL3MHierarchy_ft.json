@@ -1,0 +1,53 @@
+{
+  "-name": "dMonth_143_020_fxL3MHierarchy_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxConsolidatedL3M",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "M",
+            "-nameref": ":element",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dMonth_143_020_fxL3MHierarchy_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxBaseL3M",
+        "-type": "DateDuration",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": ":element"
+            },
+            {
+              "-nameref": "MonthCount"
+            }
+          ]
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM",
+          "unit": "months"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_143_010_inner_tj"
+    }
+  }
+}

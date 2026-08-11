@@ -1,0 +1,16 @@
+{
+  "-name": "CubeFromFile_Insert_Load",
+  "-type": "Cube",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "noneWithDefaultWrite",
+    "-name": "${Cube}",
+    "-splash": "disabled"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "CubeFile_Transform"
+  }
+}

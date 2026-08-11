@@ -1,0 +1,13 @@
+{
+  "-name": "rAccountability_TruncateLandingTable_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Truncates the landing table in the Accountability schema in the Landing database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rAccountability_TruncateLandingTable_rs.query.sql"
+  }
+}

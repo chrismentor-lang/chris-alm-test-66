@@ -1,0 +1,28 @@
+{
+  "-name": "xcClientHeadMapping_statCHFinal_ce",
+  "-type": "Cube",
+  "cache": "false",
+  "comment": "Retrieves the final client head allocation by job and task type from the Client Head Mapping cube for eventual upload into Snowflake.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-celltype": "only_string",
+    "-drillthrough": "false",
+    "-onlyBasisAsDefault": "true",
+    "-useRules": "true",
+    "-zeroSuppressionType": "excludeEmptyAndZero",
+    "cube": {
+      "-name": "Client Head Mapping"
+    },
+    "filter": {
+      "condition": {
+        "#text": "CH Final",
+        "-dimension": "Detail Client Head Mapping",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

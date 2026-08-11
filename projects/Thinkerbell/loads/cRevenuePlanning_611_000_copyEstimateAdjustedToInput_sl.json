@@ -1,0 +1,118 @@
+{
+  "-name": "cRevenuePlanning_611_000_copyEstimateAdjustedToInput_sl",
+  "-type": "CubeSliceCopy",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "copyMode": "copy",
+  "cube": {
+    "-name": "Revenue Planning",
+    "-useRules": "false"
+  },
+  "dimensions": {
+    "dimension": [
+      {
+        "-name": "Version",
+        "mapFrom": {
+          "-constant": "Estimate"
+        },
+        "mapTo": {
+          "-constant": "Estimate"
+        }
+      },
+      {
+        "-name": "Scenario",
+        "mapFrom": {
+          "-constant": "Base"
+        },
+        "mapTo": {
+          "-constant": "Base"
+        }
+      },
+      {
+        "-name": "Month",
+        "mapFrom": {
+          "-constant": "${vFY}"
+        },
+        "mapTo": {
+          "-constant": "${vFY}"
+        }
+      },
+      {
+        "-name": "Office",
+        "mapFrom": {
+          "-constant": "All Offices"
+        },
+        "mapTo": {
+          "-constant": "All Offices"
+        }
+      },
+      {
+        "-name": "Job Type",
+        "mapFrom": {
+          "-constant": "All Job Types"
+        },
+        "mapTo": {
+          "-constant": "All Job Types"
+        }
+      },
+      {
+        "-name": "Estimate",
+        "mapFrom": {
+          "-constant": "All Estimates"
+        },
+        "mapTo": {
+          "-constant": "All Estimates"
+        }
+      },
+      {
+        "-name": "Client Head",
+        "mapFrom": {
+          "-constant": "All Client Heads"
+        },
+        "mapTo": {
+          "-constant": "All Client Heads"
+        }
+      },
+      {
+        "-name": "Task Type",
+        "mapFrom": {
+          "-constant": "All Task Types"
+        },
+        "mapTo": {
+          "-constant": "All Task Types"
+        }
+      },
+      {
+        "-name": "Currency",
+        "mapFrom": {
+          "-constant": "All Currencies"
+        },
+        "mapTo": {
+          "-constant": "All Currencies"
+        }
+      },
+      {
+        "-name": "Detail Revenue",
+        "mapFrom": {
+          "-nameref": "Detail Revenue"
+        },
+        "mapTo": {
+          "-nameref": "Detail Revenue"
+        }
+      },
+      {
+        "-name": "Measure",
+        "mapFrom": {
+          "-constant": "Adjusted"
+        },
+        "mapTo": {
+          "-constant": "Input"
+        }
+      }
+    ]
+  },
+  "source": {
+    "-nameref": "xtDetailRevenue_statCubeSliceCopyList_te"
+  }
+}

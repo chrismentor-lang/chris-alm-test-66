@@ -1,0 +1,10 @@
+{
+  "components": {},
+  "hash": "sha256:391ab667df13f3141f211763ceea67a441d4abf74e967ed5ab955d975cfbda86",
+  "project": "olap:Thinkerbell_Security",
+  "source": {
+    "at": "2026-08-11T00:20:14Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  }
+}

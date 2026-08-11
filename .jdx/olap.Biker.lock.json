@@ -1,0 +1,10 @@
+{
+  "components": {},
+  "hash": "sha256:d209d5e1290ca1dcdec4d61a9aa754d465f417123ce5ff5918cac129ff473dc7",
+  "project": "olap:Biker",
+  "source": {
+    "at": "2026-08-11T00:20:14Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  }
+}

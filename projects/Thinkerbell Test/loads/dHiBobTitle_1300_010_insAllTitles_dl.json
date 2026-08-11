@@ -1,0 +1,23 @@
+{
+  "-name": "dHiBobTitle_1300_010_insAllTitles_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Hi Bob Title",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dHiBobTitle_1300_000_byItemID_fh"
+  }
+}

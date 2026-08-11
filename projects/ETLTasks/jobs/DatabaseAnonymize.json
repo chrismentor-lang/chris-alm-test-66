@@ -1,0 +1,25 @@
+{
+  "-name": "DatabaseAnonymize",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Copy a complete Olap database to another and anonimze the cube cell values and the dimension element names of the target database.\nVariables: SourceConn, TargetConn, SourceDB, TargetDB"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "DatabaseCopy",
+        "-type": "job"
+      },
+      {
+        "-nameref": "DimensionsAnonymizeAll",
+        "-type": "job"
+      }
+    ]
+  },
+  "variables": {
+    "variable": {
+      "-name": "_SourceRef",
+      "default": "Cube_Anonymize"
+    }
+  }
+}

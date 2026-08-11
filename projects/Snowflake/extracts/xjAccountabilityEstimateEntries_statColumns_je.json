@@ -1,0 +1,83 @@
+{
+  "-name": "xjAccountabilityEstimateEntries_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityEstimateEntries_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "chargeTypeId"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "estimateId"
+      },
+      {
+        "-input": "fxRate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "internalChargeTypeId"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "markUp"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "overrideMarkUp"
+      },
+      {
+        "-input": "rate"
+      },
+      {
+        "-input": "serviceFee"
+      },
+      {
+        "-input": "subTaskTypeHeadingId"
+      },
+      {
+        "-input": "supplierId"
+      },
+      {
+        "-input": "taskTypeHeadingId"
+      },
+      {
+        "-input": "taskTypeId"
+      },
+      {
+        "-input": "tax"
+      },
+      {
+        "-input": "taxStatus"
+      },
+      {
+        "-input": "units"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

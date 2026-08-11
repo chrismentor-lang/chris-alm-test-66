@@ -1,0 +1,80 @@
+{
+  "-name": "xjFloatTasks_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all individual tasks and their details from Float. \n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatTasks_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "billable"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "created_by"
+      },
+      {
+        "-input": "end_date"
+      },
+      {
+        "-input": "hours"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "modified_by"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "parent_task_id"
+      },
+      {
+        "-input": "people_id"
+      },
+      {
+        "-input": "people_ids"
+      },
+      {
+        "-input": "repeat_end_date"
+      },
+      {
+        "-input": "repeat_state"
+      },
+      {
+        "-input": "root_task_id"
+      },
+      {
+        "-input": "start_date"
+      },
+      {
+        "-input": "start_time"
+      },
+      {
+        "-input": "status"
+      },
+      {
+        "-input": "task_id"
+      },
+      {
+        "-input": "task_meta_id"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

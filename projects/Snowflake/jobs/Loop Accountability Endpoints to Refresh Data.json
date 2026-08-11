@@ -1,0 +1,37 @@
+{
+  "-name": "Loop Accountability Endpoints to Refresh Data",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vAccountabilityEndpoint",
+        "input": {
+          "-nameref": ":element"
+        }
+      },
+      {
+        "-name": "vAccountabilityTable",
+        "input": {
+          "-nameref": "Snowflake Table"
+        }
+      },
+      {
+        "-name": "vSnowflakeSchemaType",
+        "input": {
+          "-nameref": "Snowflake Schema Type"
+        }
+      }
+    ]
+  },
+  "comment": {
+    "#cdata-section": "Refreshing Accountability data in Snowflake looping through a list of endpoints in Float."
+  },
+  "execution": {
+    "-nameref": "Refresh Accountability Data",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "fAccountabilityEndpoint_300_000_inclLoopEndpoints_tv"
+  }
+}

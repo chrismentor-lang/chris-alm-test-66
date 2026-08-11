@@ -1,0 +1,26 @@
+{
+  "-name": "xcClientHeadTargets_varMonth_cs",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "20260807: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Client Head Targets"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "${vMonthCurrent}",
+        "-dimension": "Month",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

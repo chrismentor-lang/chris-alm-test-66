@@ -1,0 +1,50 @@
+{
+  "-name": "dToken_100_000_fxAccessTokenValidity_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Determined validity of access token (50 minutes from now)."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxValidTill",
+      "-type": "Groovy",
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "dToken_100_000_fxAccessTokenValidity_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountability_statAccessToken_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Element",
+          "input": {
+            "-constant": "vAccountabilityAccessToken"
+          }
+        },
+        {
+          "-name": "Token Value",
+          "input": {
+            "-nameref": "access_token"
+          }
+        },
+        {
+          "-name": "Valid Till",
+          "input": {
+            "-nameref": "fxValidTill"
+          }
+        }
+      ]
+    }
+  }
+}

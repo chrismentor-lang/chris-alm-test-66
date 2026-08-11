@@ -1,0 +1,9 @@
+{
+  "-name": "vMonthCurrent",
+  "comment": {
+    "#cdata-section": "20260807: Introduced."
+  },
+  "script": {
+    "#file": "vMonthCurrent.script.groovy"
+  }
+}

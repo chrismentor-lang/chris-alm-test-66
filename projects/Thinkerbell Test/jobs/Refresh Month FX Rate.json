@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh Month FX Rate",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Deletes Actuals for the specified month from the FX cube and reloads them from the FX view in Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cFX_161_000_delMonthActual_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cFX_160_000_addMonthActuals_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

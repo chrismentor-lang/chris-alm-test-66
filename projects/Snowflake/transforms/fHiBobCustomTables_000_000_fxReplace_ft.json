@@ -1,0 +1,10 @@
+{
+  "-name": "fHiBobCustomTables_000_000_fxReplace_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xjHiBob_statCustomTables_je"
+    }
+  }
+}

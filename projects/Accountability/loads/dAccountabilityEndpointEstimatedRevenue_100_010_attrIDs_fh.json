@@ -1,0 +1,25 @@
+{
+  "-name": "dAccountabilityEndpointEstimatedRevenue_100_010_attrIDs_fh",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "Loads the list of estimates as the IDs attribute for the EstimatedRevenue element in the Accountability Endpoint dimension in the Application-Management database."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbellApplicationManagement_jc"
+  },
+  "dimension": {
+    "-name": "Accountability Endpoint",
+    "attributes": {
+      "-mode": "insert"
+    },
+    "consolidations": {
+      "-mode": "inactive"
+    },
+    "elements": {
+      "-mode": "inactive"
+    }
+  },
+  "source": {
+    "-nameref": "dAccountabilityEndpointEstimatedRevenue_100_000_attrIDs_fh"
+  }
+}

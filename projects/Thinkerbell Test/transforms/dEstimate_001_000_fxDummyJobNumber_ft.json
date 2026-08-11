@@ -1,0 +1,84 @@
+{
+  "-name": "dEstimate_001_000_fxDummyJobNumber_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Introduces a dummy job number that needs to be created at the job level in the estimate dimension."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxDummyJobNumber",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "_in1",
+          "-nameref": "JOB_NUMBER"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "dEstimate_001_000_fxDummyJobNumber_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEstimate_000_000_ascID_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "MASTER_CLIENT_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "CLIENT_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "CLIENT_ID_ATTR"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "JOB_NUMBER"
+          }
+        },
+        {
+          "-name": "Dummy Job Number",
+          "input": {
+            "-nameref": "fxDummyJobNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "JOB_ACTIVE"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "JOB_DESCRIPTION"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "JOB_ID_NAME"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "JOB_OPEN_DATE"
+          }
+        }
+      ]
+    }
+  }
+}

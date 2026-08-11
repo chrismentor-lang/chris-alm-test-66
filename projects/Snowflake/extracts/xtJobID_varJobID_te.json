@@ -1,0 +1,15 @@
+{
+  "-name": "xtJobID_varJobID_te",
+  "-type": "ConstantTable",
+  "comment": {
+    "#cdata-section": "Sets the retrieved Jedox job ID to be loaded into the Job Execution dimension at a later moment."
+  },
+  "data": {
+    "header": {
+      "value": "JobID"
+    },
+    "row": {
+      "value": "${vJobID}"
+    }
+  }
+}

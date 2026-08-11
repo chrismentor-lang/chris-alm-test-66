@@ -1,0 +1,10 @@
+{
+  "-name": "Cube_Slice_Transform",
+  "-type": "TableView",
+  "end": "${NumberOfCells}",
+  "sources": {
+    "source": {
+      "-nameref": "Cube_Slice_Extract"
+    }
+  }
+}

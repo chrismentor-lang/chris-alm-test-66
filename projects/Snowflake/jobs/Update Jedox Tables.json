@@ -1,0 +1,44 @@
+{
+  "-name": "Update Jedox Tables",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that retrieves the data from all required Jedox sources, pushes to csv-files and then uploads into Snowflake landing and harmonisation databases."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "fJedoxFiles_800_000_statCreate_fl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Compress Jedox files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rJedox_StageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rJedox_StageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rJedox_TruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rJedox_CopyIntoLanding_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rJedox_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Update Jedox SCDs",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

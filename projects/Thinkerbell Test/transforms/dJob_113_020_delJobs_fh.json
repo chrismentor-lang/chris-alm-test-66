@@ -1,0 +1,21 @@
+{
+  "-name": "dJob_113_020_delJobs_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Lining up job elements that need to be deleted because they don't exist in Snowflake.."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dJob_113_010_removeNull_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": {
+        "input": {
+          "-nameref": ":element"
+        }
+      }
+    }
+  }
+}

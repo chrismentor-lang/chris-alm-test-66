@@ -1,0 +1,113 @@
+{
+  "-name": "xjAccountabilityGeneralLedgerAccounts_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityGeneralLedgerAccounts_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "accountName"
+      },
+      {
+        "-input": "accountNumber"
+      },
+      {
+        "-input": "accountType"
+      },
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "bankAccountNumber"
+      },
+      {
+        "-input": "bankCode"
+      },
+      {
+        "-input": "bankIdNumber"
+      },
+      {
+        "-input": "bankRemitterName"
+      },
+      {
+        "-input": "bankStateBranch"
+      },
+      {
+        "-input": "bankStatementBalance"
+      },
+      {
+        "-input": "bankStatementDate"
+      },
+      {
+        "-input": "bankTaxId"
+      },
+      {
+        "-input": "bankUsername"
+      },
+      {
+        "-input": "budgetCategoryId"
+      },
+      {
+        "-input": "budgetExpensesByDepartment"
+      },
+      {
+        "-input": "budgetExpensesByJob"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "customCode1Id"
+      },
+      {
+        "-input": "customCode2Id"
+      },
+      {
+        "-input": "customCode3Id"
+      },
+      {
+        "-input": "customCode4Id"
+      },
+      {
+        "-input": "customCode5Id"
+      },
+      {
+        "-input": "excludeFromProfitability"
+      },
+      {
+        "-input": "headerAccountId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "isBankAccount"
+      },
+      {
+        "-input": "isPayrollAccount"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "prepaymentsAccountId"
+      },
+      {
+        "-input": "reportGroupId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

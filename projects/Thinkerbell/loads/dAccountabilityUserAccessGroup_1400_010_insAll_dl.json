@@ -1,0 +1,24 @@
+{
+  "-name": "dAccountabilityUserAccessGroup_1400_010_insAll_dl",
+  "-type": "Dimension",
+  "comment": "20260716: Introduced.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Accountability User Access Group",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dAccountabilityUserAccessGroup_1400_000_byID_fh"
+  }
+}

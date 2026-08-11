@@ -1,0 +1,111 @@
+{
+  "-name": "fAccountabilityLeaves_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": {
+      "-name": "fxNotes",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NOT",
+          "-nameref": "notes"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fAccountabilityLeaves_300_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityLeaves_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "addedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "addedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "endDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "isAdjustment"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "leaveTypeId"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "numberOfDays"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "numberOfHours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "startDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "status"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "submittedAt"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "-name": "DimToFile_Load",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "DimFile"
+  },
+  "mode": "create",
+  "source": {
+    "-format": "ncw",
+    "-nameref": "Dimension_Extract"
+  }
+}

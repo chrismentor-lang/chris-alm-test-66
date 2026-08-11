@@ -1,0 +1,17 @@
+{
+  "-name": "Refresh Client Head Loaded",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cClientHead_271_000_delClientHeadLoaded_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cClientHead_270_000_addClientHeadLoaded_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,50 @@
+{
+  "-name": "xjAccountabilityProducts_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityProducts_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "clientId"
+      },
+      {
+        "-input": "clientManagerId"
+      },
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "serviceFeePercentage"
+      },
+      {
+        "-input": "supplierInvoiceMarkUpPercentage"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

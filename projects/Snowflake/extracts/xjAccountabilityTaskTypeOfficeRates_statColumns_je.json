@@ -1,0 +1,29 @@
+{
+  "-name": "xjAccountabilityTaskTypeOfficeRates_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityTaskTypeOfficeRates_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "billableRate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "taskTypeId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

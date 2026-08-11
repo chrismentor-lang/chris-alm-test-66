@@ -1,0 +1,23 @@
+{
+  "-name": "DatabaseRestore",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Restoring a Jedox database from a File-Directory. Also usable for a filebased Import of OLAP-models from Infor Alea and IBM Cognos TM1 to Jedox OLAP\nVariables: FilePath, TargetConn, TargetDB"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "DimensionsFromFileAll",
+        "-type": "job"
+      },
+      {
+        "-nameref": "CubesFromFileAll",
+        "-type": "job"
+      },
+      {
+        "-nameref": "RulesFromFileAll",
+        "-type": "job"
+      }
+    ]
+  }
+}
