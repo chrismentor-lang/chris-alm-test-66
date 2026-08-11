@@ -1,0 +1,78 @@
+{
+  "components": {
+    "cubes.Balance": {
+      "hash": "sha256:47b2cdfd5c87876b218096fe7f56a4bcc63e6f6bff0bd69641389e922f7bdab4"
+    },
+    "cubes.Comment": {
+      "hash": "sha256:b37991264d12826508d0bae4da09dcd78be3e352a37786512f2214fbfb30082b"
+    },
+    "cubes.Orders": {
+      "hash": "sha256:4ab8aaacb42ed34b7b32d55bb9deac344259b79abf1f74b738222f1306373e58"
+    },
+    "cubes.Orders2": {
+      "hash": "sha256:54f8bca37e588bee4e95d9bf81930ef624b169b657b4aef0d0e6b1ce64081658"
+    },
+    "cubes.P_L": {
+      "hash": "sha256:ade08aafc7a27e5191c8d20c68b31975561e1368141c1e3752649bc599fa90a5"
+    },
+    "cubes.Status": {
+      "hash": "sha256:a4d127d55e010ed6dd331fe6437d2be861ad52e68e4dce7b7c1a2e8259db6b08"
+    },
+    "dimensions.Balance_Sheet": {
+      "hash": "sha256:20bac13dba228bb437291e40eb6092fe2b3a1933c96209a5e503808e9682d56b"
+    },
+    "dimensions.Channels": {
+      "hash": "sha256:a19f96bf48e9272d25a3ec1b6f40b3b2fbe9434c8c752631295bd48412492c52"
+    },
+    "dimensions.Client": {
+      "hash": "sha256:f1f56e401eef881258bb82b390829b8e66c2181e0c5b4f97c4663df56a81b60d"
+    },
+    "dimensions.Comment": {
+      "hash": "sha256:adbc52e6d2e1e2379e69dd7e09d04502dc6f356c4776c712774c592ad9ef9c26"
+    },
+    "dimensions.Customers": {
+      "hash": "sha256:d30348d39d55addd525e14362f36014e91a7c66406bb647d1ee2f36b432814e5"
+    },
+    "dimensions.Measures": {
+      "hash": "sha256:2ddf2a3c3e9ede12f431c6237ee69c2b747c76793a34608adb548904e5357b50"
+    },
+    "dimensions.Months": {
+      "hash": "sha256:01100e510327c32cfc5c63ac0a5292f89080ed29613d979d8397fce672b98f91"
+    },
+    "dimensions.Orderlines": {
+      "hash": "sha256:226cc97e9188ab985d7669c67e8063f9edb7498b92224a559378b9bf237c9e11"
+    },
+    "dimensions.Products": {
+      "hash": "sha256:fb71bbb40b3867384de4e6f0a5c8e38bb232c0be88f119e5e4c14961c5b184dd"
+    },
+    "dimensions.Profit_Loss": {
+      "hash": "sha256:f5853673fdc3e36530cacb61fbe2f8162bb3c59aac955f4ca31145d368f7d504"
+    },
+    "dimensions.Status": {
+      "hash": "sha256:46be29d0f909ea727ac7a303ef587619a39f53ea11e7864e5207af3ae8f64dd4"
+    },
+    "dimensions.Versions": {
+      "hash": "sha256:b724b547262f620768142e9697e68f3f666ce3feb3ae8a28d57fb6b6e662e9e2"
+    },
+    "dimensions.Years": {
+      "hash": "sha256:5dd58061c5bf282c70a6077d7d252809b34aad94e7dbb94e13e9339ecd374752"
+    },
+    "subsets.Customers/Element level defined by Variable": {
+      "hash": "sha256:c8c779806a375103e41e6ae99d941ea44492e482184ecd40da4a4a9167358240"
+    },
+    "subsets.Customers/Elements on level 3": {
+      "hash": "sha256:cfb2711d67437337b34fd2bc0dc7349fc80e11a797d77e8d4178db59cb0e0efa"
+    },
+    "subsets.Months/Calendar": {
+      "hash": "sha256:78b1ed83b7a9fcf3f1e5b4d11aa0174de6f27640d161882d863df2d9511a87b1"
+    }
+  },
+  "hash": "sha256:01fb74fddc4c4f93daae64abf3902f521d6a876e97b583080bedeaf1d34cbb4a",
+  "project": "olap:Biker",
+  "source": {
+    "at": "2026-08-11T05:52:12Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "token": "7104021"
+}
