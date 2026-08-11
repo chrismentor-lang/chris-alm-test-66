@@ -1,0 +1,8 @@
+{
+  "-name": "New Groovy job",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "New Groovy job.jobscript.groovy"
+  }
+}
