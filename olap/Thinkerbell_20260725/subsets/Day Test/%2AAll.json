@@ -1,0 +1,7 @@
+{
+  "name": "*All",
+  "owner": "Day Test",
+  "attributes": {
+    "Description": "This subset contains all elements of the dimension as a flat list, in alphabetical order."
+  }
+}

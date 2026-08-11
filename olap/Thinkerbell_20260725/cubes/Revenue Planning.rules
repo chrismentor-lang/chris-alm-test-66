@@ -1,0 +1,30 @@
+### rule
+{"active":true,"comment":"20260710: Introduced to make sure that the Probability that is set for the estimate dummies in the Actual slice is also shown in Estimate.","position":1}
+['Version':'Estimate', 'Detail Revenue':'Probability', 'Measure':'Input'] = B:IF(STET(), STET(), ['Version':'Actual'])
+### rule
+{"active":true,"comment":"LOG||Planning Versions, Months||Actuals\n\n20260317: Introduced","position":2,"template":{"name":"Actual months","parameters":{"Time dimension":"Month","Version dimension":"Version","Version dimension attribute":"Actual Months"}}}
+['${VersionDimension}':'${Version}','Month':{${Elements}}] = ['Version':'Actual']
+### rule
+{"active":true,"comment":"LOG||Scenario, Input||Base, Adjusted\n\n20260322: Introduced","position":3,"template":{"name":"Dimension element like","parameters":{"Dimension":"Scenario","Pattern":"^\\d+$"}}}
+['Scenario':'${Element}', 'Measure':'Input', 'Detail Revenue':{'Revenue', 'New Business', 'Organic'}] = ['Scenario':'Base', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"LOG||Revenue Active","position":4}
+['Detail Revenue':'Revenue Active'] = B:IF('#_Estimate'['#_Estimate_':'Active', 'Estimate':!'Estimate'] == "true", ['Detail Revenue':'Revenue'], STET())
+### rule
+{"active":true,"comment":"LOG||New Business Active","position":5}
+['Detail Revenue':'New Business Active'] = B:IF('#_Estimate'['#_Estimate_':'Active', 'Estimate':!'Estimate'] == "true", ['Detail Revenue':'New Business'], STET())
+### rule
+{"active":true,"comment":"LOG||Organic Active","position":6}
+['Detail Revenue':'Organic Active'] = B:IF('#_Estimate'['#_Estimate_':'Active', 'Estimate':!'Estimate'] == "true", ['Detail Revenue':'Organic'], STET())
+### rule
+{"active":true,"comment":"FX||Input, Adjustment||Average\n\n20260202: Introduced","position":7,"template":{"name":"Dimension element like","parameters":{"Dimension":"Currency","Pattern":"^([A-Z]{3}) > ([A-Z]{3})$"}}}
+['Currency':'${Element}', 'Measure':{'Input', 'Adjustment'}] = B:
+['Currency':'${Group1}'] *
+    PALO.DATA("", "FX", 
+        !'Version', 
+        !'Month', 
+        "Average", 
+        "${Group1}", 
+        "${Group2}", 
+        "Input"
+    )

@@ -1,0 +1,10 @@
+{
+  "name": "Job Type",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "All Job Types",
+    "Description": "Purpose: List All Job Types\nPrimary Data Source: Accountability, Snowflake Consumption DB\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Job Type"
+  }
+}
