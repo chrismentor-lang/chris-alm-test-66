@@ -1,0 +1,12 @@
+### rule
+{"active":true,"comment":"REF||Payroll Tax %||Base||Seed from FY base month if no input entered\n20260625: Introduced\n['HR Parameters Detail':'Payroll Tax %', 'Month'::'Clear Months', 'Measure':{'Input', 'Adjustment'}] = B:IF(STET(), STET(), ''['Month':CONCATENATE(LEFT(''['Month':'#_Month'['#_Month_':'Fiscal Year Element', '#_LANGUAGE':'~']], 6), \"-~\")])","position":1}
+['HR Parameters Detail':'Payroll Tax %', 'Month'::'Clear Months', 'Measure':{'Input', 'Adjustment'}] = B:IF(STET(), STET(), ''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~']])
+### rule
+{"active":true,"position":2}
+['HR Parameters Detail':'Superannuation % / KiwiSaver %', 'Month'::'Clear Months', 'Measure':{'Input', 'Adjustment'}] = B:IF(STET(), STET(), ''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~']])
+### rule
+{"active":true,"comment":"REF||Workcover %||Base||Seed from FY base month if no input entered\n20260625: Introduced","position":3}
+['HR Parameters Detail':'Workcover %', 'Month'::'Clear Months', 'Measure':{'Input', 'Adjustment'}] = B:IF(STET(), STET(), ''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~']])
+### rule
+{"active":true,"position":4,"template":{"name":"Dimension element like","parameters":{"Dimension":"Month","Pattern":"^FY[0-9]{4}-~$"}}}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'HR Parameters Detail':{'Superannuation % / KiwiSaver %', 'Workcover %', 'Payroll Tax %'}, 'Measure':'Input', 'Month':'${Element}'] = B:IF(STET(), STET(), ['Version':'Estimate'])

@@ -1,0 +1,3 @@
+### rule
+{"active":true,"comment":"FX||AUD||Calc","position":0.5}
+['Currency':'NZD', 'Target Currency':'AUD'] = B:1/['Currency':'AUD', 'Target Currency':'NZD']

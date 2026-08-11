@@ -1,0 +1,20 @@
+{
+  "name": "Resource Planning",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Day",
+    "Job Type",
+    "Job",
+    "Employee",
+    "Currency",
+    "Detail Resource",
+    "Measure"
+  ],
+  "properties": {
+    "Audit": "7",
+    "Description": "Purpose: Resource Scenario Planning\nPrimary Data Source: Accountability and Float. Snowflake Consumption DB\nSupporting Cubes: \nDependencies:  FTE, Cost Rate, Billable Rate\nOwner: Geetansh Mahajan\n\n20260122: Do we need Currency in this cube?\n20260116: Introduced",
+    "Name": "Resource Planning"
+  }
+}

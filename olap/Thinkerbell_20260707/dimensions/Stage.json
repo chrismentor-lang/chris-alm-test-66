@@ -1,0 +1,8 @@
+{
+  "name": "Stage",
+  "kind": "normal",
+  "properties": {
+    "Description": "Purpose: List All Stages/ Probabilities from Float\nPrimary Data Source: Float from Snowflake\n\n20260424: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Stage"
+  }
+}
