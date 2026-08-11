@@ -1,0 +1,3 @@
+### rule
+{"active":true,"comment":"LOG||67||Input\n\n20260806: Changed the rule from 67-~ to 67.\n20260805: Introduced to fix the COP shop roll-up for P&L","position":0.5}
+['Office':'67', 'Measure':'Input'] = B:MAX(-1 * ['Office':'TKB (excl COP)', 'Measure':'Input'], -1)

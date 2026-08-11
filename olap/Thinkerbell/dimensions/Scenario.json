@@ -1,0 +1,137 @@
+{
+  "name": "Scenario",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "Base",
+    "DefaultWriteElement": "Base",
+    "Description": "Purpose: List All Scenarios\nPrimary Data Source: Manual\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Scenario"
+  },
+  "elements": [
+    {
+      "name": "Base",
+      "type": "numeric"
+    },
+    {
+      "name": "1",
+      "type": "numeric"
+    },
+    {
+      "name": "2",
+      "type": "numeric"
+    },
+    {
+      "name": "3",
+      "type": "numeric"
+    },
+    {
+      "name": "4",
+      "type": "numeric"
+    },
+    {
+      "name": "5",
+      "type": "numeric"
+    },
+    {
+      "name": "6",
+      "type": "numeric"
+    },
+    {
+      "name": "7",
+      "type": "numeric"
+    },
+    {
+      "name": "8",
+      "type": "numeric"
+    },
+    {
+      "name": "9",
+      "type": "numeric"
+    },
+    {
+      "name": "10",
+      "type": "numeric"
+    },
+    {
+      "name": "11",
+      "type": "numeric"
+    },
+    {
+      "name": "12",
+      "type": "numeric"
+    },
+    {
+      "name": "13",
+      "type": "numeric"
+    },
+    {
+      "name": "14",
+      "type": "numeric"
+    },
+    {
+      "name": "15",
+      "type": "numeric"
+    },
+    {
+      "name": "16",
+      "type": "numeric"
+    },
+    {
+      "name": "17",
+      "type": "numeric"
+    },
+    {
+      "name": "18",
+      "type": "numeric"
+    },
+    {
+      "name": "19",
+      "type": "numeric"
+    },
+    {
+      "name": "20",
+      "type": "numeric"
+    },
+    {
+      "name": "21",
+      "type": "numeric"
+    },
+    {
+      "name": "22",
+      "type": "numeric"
+    },
+    {
+      "name": "23",
+      "type": "numeric"
+    },
+    {
+      "name": "24",
+      "type": "numeric"
+    },
+    {
+      "name": "25",
+      "type": "numeric"
+    },
+    {
+      "name": "26",
+      "type": "numeric"
+    },
+    {
+      "name": "27",
+      "type": "numeric"
+    },
+    {
+      "name": "28",
+      "type": "numeric"
+    },
+    {
+      "name": "29",
+      "type": "numeric"
+    },
+    {
+      "name": "30",
+      "type": "numeric"
+    }
+  ]
+}

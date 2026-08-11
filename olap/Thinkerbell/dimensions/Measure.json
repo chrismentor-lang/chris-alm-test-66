@@ -1,0 +1,89 @@
+{
+  "name": "Measure",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: List All Measures\nPrimary Data Source: Manual\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Measure"
+  },
+  "elements": [
+    {
+      "name": "Input",
+      "type": "numeric"
+    },
+    {
+      "name": "Adjustment",
+      "type": "numeric"
+    },
+    {
+      "name": "Inverted Adjustment",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Adjustment",
+          "weight": -1
+        }
+      ]
+    },
+    {
+      "name": "Reallocated",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Adjusted",
+          "weight": 1
+        },
+        {
+          "name": "Reallocation",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Adjusted",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Input",
+          "weight": 1
+        },
+        {
+          "name": "Adjustment",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Reallocation",
+      "type": "numeric"
+    },
+    {
+      "name": "Comment",
+      "type": "string"
+    },
+    {
+      "name": "Inverted Input",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Input",
+          "weight": -1
+        }
+      ]
+    },
+    {
+      "name": "Inverted Adjusted",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Inverted Input",
+          "weight": 1
+        },
+        {
+          "name": "Inverted Adjustment",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

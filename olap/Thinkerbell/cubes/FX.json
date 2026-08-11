@@ -1,0 +1,16 @@
+{
+  "name": "FX",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Month",
+    "Conversion Type",
+    "Currency",
+    "Target Currency",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Purpose: Store exchange rates for converting amounts between currencies.\nPrimary Data Source: \nDependencies: Profit & Loss, Balance Sheet, Cashflow\nOwner: Geetansh Mahajan\n\n20260122: Introduced",
+    "Name": "FX"
+  }
+}

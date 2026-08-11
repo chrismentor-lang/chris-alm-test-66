@@ -1,0 +1,146 @@
+{
+  "name": "Job Type",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "All Job Types",
+    "Description": "Purpose: List All Job Types\nPrimary Data Source: Accountability, Snowflake Consumption DB\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Job Type"
+  },
+  "elements": [
+    {
+      "name": "All Job Types",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "49",
+          "weight": 1
+        },
+        {
+          "name": "53",
+          "weight": 1
+        },
+        {
+          "name": "54",
+          "weight": 1
+        },
+        {
+          "name": "55",
+          "weight": 1
+        },
+        {
+          "name": "56",
+          "weight": 1
+        },
+        {
+          "name": "57",
+          "weight": 1
+        },
+        {
+          "name": "58",
+          "weight": 1
+        },
+        {
+          "name": "59",
+          "weight": 1
+        },
+        {
+          "name": "60",
+          "weight": 1
+        },
+        {
+          "name": "61",
+          "weight": 1
+        },
+        {
+          "name": "62",
+          "weight": 1
+        },
+        {
+          "name": "63",
+          "weight": 1
+        },
+        {
+          "name": "64",
+          "weight": 1
+        },
+        {
+          "name": "65",
+          "weight": 1
+        },
+        {
+          "name": "66",
+          "weight": 1
+        },
+        {
+          "name": "~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "49",
+      "type": "numeric"
+    },
+    {
+      "name": "53",
+      "type": "numeric"
+    },
+    {
+      "name": "54",
+      "type": "numeric"
+    },
+    {
+      "name": "55",
+      "type": "numeric"
+    },
+    {
+      "name": "56",
+      "type": "numeric"
+    },
+    {
+      "name": "57",
+      "type": "numeric"
+    },
+    {
+      "name": "58",
+      "type": "numeric"
+    },
+    {
+      "name": "59",
+      "type": "numeric"
+    },
+    {
+      "name": "60",
+      "type": "numeric"
+    },
+    {
+      "name": "61",
+      "type": "numeric"
+    },
+    {
+      "name": "62",
+      "type": "numeric"
+    },
+    {
+      "name": "63",
+      "type": "numeric"
+    },
+    {
+      "name": "64",
+      "type": "numeric"
+    },
+    {
+      "name": "65",
+      "type": "numeric"
+    },
+    {
+      "name": "66",
+      "type": "numeric"
+    },
+    {
+      "name": "~",
+      "type": "numeric"
+    }
+  ]
+}

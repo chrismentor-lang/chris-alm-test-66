@@ -1,0 +1,182 @@
+{
+  "name": "Version",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "Actual",
+    "DefaultWriteElement": "Actual",
+    "Description": "Purpose: List All Versions\nPrimary Data Source: Manual\nDescription: the Forecast versions are used as follows: the regular one is pushed at the beginning of the month (and links to the P&L), while the Mid and Close versions are created throughout the month as comparisons.\n\n20260716: Introduced 0+12 and 0+12 Mid. Later added Close for each forecast as well.\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Version",
+    "Type": "Version"
+  },
+  "elements": [
+    {
+      "name": "Actual",
+      "type": "numeric"
+    },
+    {
+      "name": "Budget",
+      "type": "numeric"
+    },
+    {
+      "name": "Estimate",
+      "type": "numeric"
+    },
+    {
+      "name": "Plan",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 0+12",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 0+12 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 0+12 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 1+11",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 1+11 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 1+11 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 2+10",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 2+10 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 2+10 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 3+9",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 3+9 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 3+9 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 4+8",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 4+8 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 4+8 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 5+7",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 5+7 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 5+7 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 6+6",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 6+6 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 6+6 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 7+5",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 7+5 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 7+5 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 8+4",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 8+4 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 8+4 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 9+3",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 9+3 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 9+3 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 10+2",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 10+2 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 10+2 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 11+1",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 11+1 Mid",
+      "type": "numeric"
+    },
+    {
+      "name": "Forecast 11+1 Close",
+      "type": "numeric"
+    },
+    {
+      "name": "Previous Year",
+      "type": "numeric"
+    },
+    {
+      "name": "Mid-Term Planning",
+      "type": "numeric"
+    }
+  ]
+}

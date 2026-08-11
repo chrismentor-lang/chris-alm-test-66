@@ -1,0 +1,18 @@
+{
+  "name": "Billable Rate",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Day",
+    "Client",
+    "Task Type",
+    "Currency",
+    "Detail Billable Rate",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Purpose: Driver for Resource Planning\nPrimary Data Source: Accountability, Snowflake\nSupporting Cubes: FX\nDependencies: Resource Planning\nOwner: Geetansh Mahajan\n\nUpdates:\n20260122: Introduced",
+    "Name": "Billable Rate"
+  }
+}

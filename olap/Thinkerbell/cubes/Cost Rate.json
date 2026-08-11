@@ -1,0 +1,17 @@
+{
+  "name": "Cost Rate",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Day",
+    "Employee",
+    "Currency",
+    "Detail Cost Rate",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Purpose: Driver for Resource Planning\nPrimary Data Source: Accountability, Snowflake\nSupporting Cubes: FX\nDependencies: Resource Planning\nOwner: Geetansh Mahajan\n\nUpdates:\n20260122: Introduced",
+    "Name": "Cost Rate"
+  }
+}

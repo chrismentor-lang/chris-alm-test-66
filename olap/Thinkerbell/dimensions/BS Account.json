@@ -1,0 +1,2064 @@
+{
+  "name": "BS Account",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultParentElement": "Unassigned",
+    "Description": "Purpose: BS Roll Up\nPrimary Data Source: Accountability, Snowflake, Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "BS Account"
+  },
+  "elements": [
+    {
+      "name": "Liabilities",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Tax & Related Liabilities",
+          "weight": 1
+        },
+        {
+          "name": "GST Liabilities",
+          "weight": 1
+        },
+        {
+          "name": "Non Current Liabilities",
+          "weight": 1
+        },
+        {
+          "name": "Current Liabilities",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Tax & Related Liabilities",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "22030",
+          "weight": 1
+        },
+        {
+          "name": "22025",
+          "weight": 1
+        },
+        {
+          "name": "22035",
+          "weight": 1
+        },
+        {
+          "name": "22021",
+          "weight": 1
+        },
+        {
+          "name": "22016",
+          "weight": 1
+        },
+        {
+          "name": "22040",
+          "weight": 1
+        },
+        {
+          "name": "20075",
+          "weight": 1
+        },
+        {
+          "name": "22020",
+          "weight": 1
+        },
+        {
+          "name": "22015",
+          "weight": 1
+        },
+        {
+          "name": "22010",
+          "weight": 1
+        },
+        {
+          "name": "22005",
+          "weight": 1
+        },
+        {
+          "name": "20065",
+          "weight": 1
+        },
+        {
+          "name": "20060",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "GST Liabilities",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "21010",
+          "weight": 1
+        },
+        {
+          "name": "21005",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Non Current Liabilities",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "20057",
+          "weight": 1
+        },
+        {
+          "name": "20058",
+          "weight": 1
+        },
+        {
+          "name": "23015",
+          "weight": 1
+        },
+        {
+          "name": "23010",
+          "weight": 1
+        },
+        {
+          "name": "23005",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Assets",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Current Assets",
+          "weight": 1
+        },
+        {
+          "name": "Fixed Assets",
+          "weight": 1
+        },
+        {
+          "name": "Non Current Assets",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Current Assets",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "10012",
+          "weight": 1
+        },
+        {
+          "name": "10013",
+          "weight": 1
+        },
+        {
+          "name": "10009",
+          "weight": 1
+        },
+        {
+          "name": "10002",
+          "weight": 1
+        },
+        {
+          "name": "10006",
+          "weight": 1
+        },
+        {
+          "name": "10005",
+          "weight": 1
+        },
+        {
+          "name": "10020",
+          "weight": 1
+        },
+        {
+          "name": "10008",
+          "weight": 1
+        },
+        {
+          "name": "10007",
+          "weight": 1
+        },
+        {
+          "name": "10065",
+          "weight": 1
+        },
+        {
+          "name": "10004",
+          "weight": 1
+        },
+        {
+          "name": "12060",
+          "weight": 1
+        },
+        {
+          "name": "10060",
+          "weight": 1
+        },
+        {
+          "name": "10015",
+          "weight": 1
+        },
+        {
+          "name": "10026",
+          "weight": 1
+        },
+        {
+          "name": "10061",
+          "weight": 1
+        },
+        {
+          "name": "10058",
+          "weight": 1
+        },
+        {
+          "name": "10011",
+          "weight": 1
+        },
+        {
+          "name": "10070",
+          "weight": 1
+        },
+        {
+          "name": "10057",
+          "weight": 1
+        },
+        {
+          "name": "10056",
+          "weight": 1
+        },
+        {
+          "name": "10014",
+          "weight": 1
+        },
+        {
+          "name": "11060",
+          "weight": 1
+        },
+        {
+          "name": "10055",
+          "weight": 1
+        },
+        {
+          "name": "10050",
+          "weight": 1
+        },
+        {
+          "name": "10045",
+          "weight": 1
+        },
+        {
+          "name": "10001",
+          "weight": 1
+        },
+        {
+          "name": "10040",
+          "weight": 1
+        },
+        {
+          "name": "10035",
+          "weight": 1
+        },
+        {
+          "name": "10030",
+          "weight": 1
+        },
+        {
+          "name": "10025",
+          "weight": 1
+        },
+        {
+          "name": "10010",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Fixed Assets",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "11035",
+          "weight": 1
+        },
+        {
+          "name": "11030",
+          "weight": 1
+        },
+        {
+          "name": "11050",
+          "weight": 1
+        },
+        {
+          "name": "11105",
+          "weight": 1
+        },
+        {
+          "name": "11100",
+          "weight": 1
+        },
+        {
+          "name": "11095",
+          "weight": 1
+        },
+        {
+          "name": "11090",
+          "weight": 1
+        },
+        {
+          "name": "11085",
+          "weight": 1
+        },
+        {
+          "name": "11080",
+          "weight": 1
+        },
+        {
+          "name": "11075",
+          "weight": 1
+        },
+        {
+          "name": "11070",
+          "weight": 1
+        },
+        {
+          "name": "11055",
+          "weight": 1
+        },
+        {
+          "name": "11045",
+          "weight": 1
+        },
+        {
+          "name": "11040",
+          "weight": 1
+        },
+        {
+          "name": "11025",
+          "weight": 1
+        },
+        {
+          "name": "11020",
+          "weight": 1
+        },
+        {
+          "name": "11010",
+          "weight": 1
+        },
+        {
+          "name": "11005",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Non Current Assets",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "12010",
+          "weight": 1
+        },
+        {
+          "name": "12095",
+          "weight": 1
+        },
+        {
+          "name": "12090",
+          "weight": 1
+        },
+        {
+          "name": "12085",
+          "weight": 1
+        },
+        {
+          "name": "12080",
+          "weight": 1
+        },
+        {
+          "name": "12075",
+          "weight": 1
+        },
+        {
+          "name": "12070",
+          "weight": 1
+        },
+        {
+          "name": "12025",
+          "weight": 1
+        },
+        {
+          "name": "12050",
+          "weight": 1
+        },
+        {
+          "name": "12020",
+          "weight": 1
+        },
+        {
+          "name": "12005",
+          "weight": 1
+        },
+        {
+          "name": "12105",
+          "weight": 1
+        },
+        {
+          "name": "12100",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Current Liabilities",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "20000",
+          "weight": 1
+        },
+        {
+          "name": "20080",
+          "weight": 1
+        },
+        {
+          "name": "20055",
+          "weight": 1
+        },
+        {
+          "name": "20005",
+          "weight": 1
+        },
+        {
+          "name": "20046",
+          "weight": 1
+        },
+        {
+          "name": "20044",
+          "weight": 1
+        },
+        {
+          "name": "20043",
+          "weight": 1
+        },
+        {
+          "name": "20090",
+          "weight": 1
+        },
+        {
+          "name": "20050",
+          "weight": 1
+        },
+        {
+          "name": "20045",
+          "weight": 1
+        },
+        {
+          "name": "20040",
+          "weight": 1
+        },
+        {
+          "name": "20035",
+          "weight": 1
+        },
+        {
+          "name": "20070",
+          "weight": 1
+        },
+        {
+          "name": "20030",
+          "weight": 1
+        },
+        {
+          "name": "20025",
+          "weight": 1
+        },
+        {
+          "name": "20020",
+          "weight": 1
+        },
+        {
+          "name": "20015",
+          "weight": 1
+        },
+        {
+          "name": "20010",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Equity",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "30020",
+          "weight": 1
+        },
+        {
+          "name": "30015",
+          "weight": 1
+        },
+        {
+          "name": "30010",
+          "weight": 1
+        },
+        {
+          "name": "30005",
+          "weight": 1
+        },
+        {
+          "name": "Current Year Earnings",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Balance",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Liabilities",
+          "weight": 1
+        },
+        {
+          "name": "Assets",
+          "weight": 1
+        },
+        {
+          "name": "Equity",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Balance (Stat)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Net Assets",
+          "weight": 1
+        },
+        {
+          "name": "Capital & Reserves",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "30020",
+      "type": "numeric"
+    },
+    {
+      "name": "30015",
+      "type": "numeric"
+    },
+    {
+      "name": "30010",
+      "type": "numeric"
+    },
+    {
+      "name": "30005",
+      "type": "numeric"
+    },
+    {
+      "name": "Current Year Earnings",
+      "type": "numeric"
+    },
+    {
+      "name": "10012",
+      "type": "numeric"
+    },
+    {
+      "name": "10013",
+      "type": "numeric"
+    },
+    {
+      "name": "22030",
+      "type": "numeric"
+    },
+    {
+      "name": "12010",
+      "type": "numeric"
+    },
+    {
+      "name": "10005",
+      "type": "numeric"
+    },
+    {
+      "name": "10009",
+      "type": "numeric"
+    },
+    {
+      "name": "22025",
+      "type": "numeric"
+    },
+    {
+      "name": "20000",
+      "type": "numeric"
+    },
+    {
+      "name": "10006",
+      "type": "numeric"
+    },
+    {
+      "name": "10002",
+      "type": "numeric"
+    },
+    {
+      "name": "20057",
+      "type": "numeric"
+    },
+    {
+      "name": "12095",
+      "type": "numeric"
+    },
+    {
+      "name": "12090",
+      "type": "numeric"
+    },
+    {
+      "name": "11035",
+      "type": "numeric"
+    },
+    {
+      "name": "11030",
+      "type": "numeric"
+    },
+    {
+      "name": "11050",
+      "type": "numeric"
+    },
+    {
+      "name": "20080",
+      "type": "numeric"
+    },
+    {
+      "name": "22035",
+      "type": "numeric"
+    },
+    {
+      "name": "10020",
+      "type": "numeric"
+    },
+    {
+      "name": "10008",
+      "type": "numeric"
+    },
+    {
+      "name": "10007",
+      "type": "numeric"
+    },
+    {
+      "name": "20055",
+      "type": "numeric"
+    },
+    {
+      "name": "20005",
+      "type": "numeric"
+    },
+    {
+      "name": "10065",
+      "type": "numeric"
+    },
+    {
+      "name": "10004",
+      "type": "numeric"
+    },
+    {
+      "name": "12085",
+      "type": "numeric"
+    },
+    {
+      "name": "12080",
+      "type": "numeric"
+    },
+    {
+      "name": "12075",
+      "type": "numeric"
+    },
+    {
+      "name": "12070",
+      "type": "numeric"
+    },
+    {
+      "name": "12060",
+      "type": "numeric"
+    },
+    {
+      "name": "10060",
+      "type": "numeric"
+    },
+    {
+      "name": "10015",
+      "type": "numeric"
+    },
+    {
+      "name": "10026",
+      "type": "numeric"
+    },
+    {
+      "name": "21010",
+      "type": "numeric"
+    },
+    {
+      "name": "12025",
+      "type": "numeric"
+    },
+    {
+      "name": "20046",
+      "type": "numeric"
+    },
+    {
+      "name": "10061",
+      "type": "numeric"
+    },
+    {
+      "name": "11105",
+      "type": "numeric"
+    },
+    {
+      "name": "11100",
+      "type": "numeric"
+    },
+    {
+      "name": "20058",
+      "type": "numeric"
+    },
+    {
+      "name": "22021",
+      "type": "numeric"
+    },
+    {
+      "name": "22016",
+      "type": "numeric"
+    },
+    {
+      "name": "10058",
+      "type": "numeric"
+    },
+    {
+      "name": "20044",
+      "type": "numeric"
+    },
+    {
+      "name": "20043",
+      "type": "numeric"
+    },
+    {
+      "name": "11095",
+      "type": "numeric"
+    },
+    {
+      "name": "11090",
+      "type": "numeric"
+    },
+    {
+      "name": "20090",
+      "type": "numeric"
+    },
+    {
+      "name": "23015",
+      "type": "numeric"
+    },
+    {
+      "name": "11085",
+      "type": "numeric"
+    },
+    {
+      "name": "11080",
+      "type": "numeric"
+    },
+    {
+      "name": "10011",
+      "type": "numeric"
+    },
+    {
+      "name": "12050",
+      "type": "numeric"
+    },
+    {
+      "name": "10070",
+      "type": "numeric"
+    },
+    {
+      "name": "23010",
+      "type": "numeric"
+    },
+    {
+      "name": "10057",
+      "type": "numeric"
+    },
+    {
+      "name": "10056",
+      "type": "numeric"
+    },
+    {
+      "name": "23005",
+      "type": "numeric"
+    },
+    {
+      "name": "11075",
+      "type": "numeric"
+    },
+    {
+      "name": "11070",
+      "type": "numeric"
+    },
+    {
+      "name": "11055",
+      "type": "numeric"
+    },
+    {
+      "name": "20050",
+      "type": "numeric"
+    },
+    {
+      "name": "10014",
+      "type": "numeric"
+    },
+    {
+      "name": "12020",
+      "type": "numeric"
+    },
+    {
+      "name": "20045",
+      "type": "numeric"
+    },
+    {
+      "name": "20040",
+      "type": "numeric"
+    },
+    {
+      "name": "11060",
+      "type": "numeric"
+    },
+    {
+      "name": "22040",
+      "type": "numeric"
+    },
+    {
+      "name": "10055",
+      "type": "numeric"
+    },
+    {
+      "name": "20035",
+      "type": "numeric"
+    },
+    {
+      "name": "10050",
+      "type": "numeric"
+    },
+    {
+      "name": "10045",
+      "type": "numeric"
+    },
+    {
+      "name": "11045",
+      "type": "numeric"
+    },
+    {
+      "name": "11040",
+      "type": "numeric"
+    },
+    {
+      "name": "10001",
+      "type": "numeric"
+    },
+    {
+      "name": "Unassigned",
+      "type": "numeric"
+    },
+    {
+      "name": "11025",
+      "type": "numeric"
+    },
+    {
+      "name": "11020",
+      "type": "numeric"
+    },
+    {
+      "name": "20075",
+      "type": "numeric"
+    },
+    {
+      "name": "22020",
+      "type": "numeric"
+    },
+    {
+      "name": "22015",
+      "type": "numeric"
+    },
+    {
+      "name": "22010",
+      "type": "numeric"
+    },
+    {
+      "name": "21005",
+      "type": "numeric"
+    },
+    {
+      "name": "22005",
+      "type": "numeric"
+    },
+    {
+      "name": "20070",
+      "type": "numeric"
+    },
+    {
+      "name": "20065",
+      "type": "numeric"
+    },
+    {
+      "name": "20060",
+      "type": "numeric"
+    },
+    {
+      "name": "20030",
+      "type": "numeric"
+    },
+    {
+      "name": "20025",
+      "type": "numeric"
+    },
+    {
+      "name": "20020",
+      "type": "numeric"
+    },
+    {
+      "name": "20015",
+      "type": "numeric"
+    },
+    {
+      "name": "20010",
+      "type": "numeric"
+    },
+    {
+      "name": "12005",
+      "type": "numeric"
+    },
+    {
+      "name": "11010",
+      "type": "numeric"
+    },
+    {
+      "name": "11005",
+      "type": "numeric"
+    },
+    {
+      "name": "10040",
+      "type": "numeric"
+    },
+    {
+      "name": "10035",
+      "type": "numeric"
+    },
+    {
+      "name": "10030",
+      "type": "numeric"
+    },
+    {
+      "name": "10025",
+      "type": "numeric"
+    },
+    {
+      "name": "10010",
+      "type": "numeric"
+    },
+    {
+      "name": "All BS Accounts",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Unassigned",
+          "weight": 1
+        },
+        {
+          "name": "10001",
+          "weight": 1
+        },
+        {
+          "name": "10002",
+          "weight": 1
+        },
+        {
+          "name": "10004",
+          "weight": 1
+        },
+        {
+          "name": "10005",
+          "weight": 1
+        },
+        {
+          "name": "10006",
+          "weight": 1
+        },
+        {
+          "name": "10007",
+          "weight": 1
+        },
+        {
+          "name": "10008",
+          "weight": 1
+        },
+        {
+          "name": "10009",
+          "weight": 1
+        },
+        {
+          "name": "10010",
+          "weight": 1
+        },
+        {
+          "name": "10011",
+          "weight": 1
+        },
+        {
+          "name": "10012",
+          "weight": 1
+        },
+        {
+          "name": "10013",
+          "weight": 1
+        },
+        {
+          "name": "10014",
+          "weight": 1
+        },
+        {
+          "name": "10015",
+          "weight": 1
+        },
+        {
+          "name": "10020",
+          "weight": 1
+        },
+        {
+          "name": "10025",
+          "weight": 1
+        },
+        {
+          "name": "10026",
+          "weight": 1
+        },
+        {
+          "name": "10030",
+          "weight": 1
+        },
+        {
+          "name": "10035",
+          "weight": 1
+        },
+        {
+          "name": "10040",
+          "weight": 1
+        },
+        {
+          "name": "10045",
+          "weight": 1
+        },
+        {
+          "name": "10050",
+          "weight": 1
+        },
+        {
+          "name": "10055",
+          "weight": 1
+        },
+        {
+          "name": "10056",
+          "weight": 1
+        },
+        {
+          "name": "10057",
+          "weight": 1
+        },
+        {
+          "name": "10058",
+          "weight": 1
+        },
+        {
+          "name": "10060",
+          "weight": 1
+        },
+        {
+          "name": "10061",
+          "weight": 1
+        },
+        {
+          "name": "10065",
+          "weight": 1
+        },
+        {
+          "name": "10070",
+          "weight": 1
+        },
+        {
+          "name": "11005",
+          "weight": 1
+        },
+        {
+          "name": "11010",
+          "weight": 1
+        },
+        {
+          "name": "11020",
+          "weight": 1
+        },
+        {
+          "name": "11025",
+          "weight": 1
+        },
+        {
+          "name": "11030",
+          "weight": 1
+        },
+        {
+          "name": "11035",
+          "weight": 1
+        },
+        {
+          "name": "11040",
+          "weight": 1
+        },
+        {
+          "name": "11045",
+          "weight": 1
+        },
+        {
+          "name": "11050",
+          "weight": 1
+        },
+        {
+          "name": "11055",
+          "weight": 1
+        },
+        {
+          "name": "11060",
+          "weight": 1
+        },
+        {
+          "name": "11070",
+          "weight": 1
+        },
+        {
+          "name": "11075",
+          "weight": 1
+        },
+        {
+          "name": "11080",
+          "weight": 1
+        },
+        {
+          "name": "11085",
+          "weight": 1
+        },
+        {
+          "name": "11090",
+          "weight": 1
+        },
+        {
+          "name": "11095",
+          "weight": 1
+        },
+        {
+          "name": "11100",
+          "weight": 1
+        },
+        {
+          "name": "11105",
+          "weight": 1
+        },
+        {
+          "name": "12005",
+          "weight": 1
+        },
+        {
+          "name": "12010",
+          "weight": 1
+        },
+        {
+          "name": "12020",
+          "weight": 1
+        },
+        {
+          "name": "12025",
+          "weight": 1
+        },
+        {
+          "name": "12050",
+          "weight": 1
+        },
+        {
+          "name": "12060",
+          "weight": 1
+        },
+        {
+          "name": "12070",
+          "weight": 1
+        },
+        {
+          "name": "12075",
+          "weight": 1
+        },
+        {
+          "name": "12080",
+          "weight": 1
+        },
+        {
+          "name": "12085",
+          "weight": 1
+        },
+        {
+          "name": "12090",
+          "weight": 1
+        },
+        {
+          "name": "12095",
+          "weight": 1
+        },
+        {
+          "name": "20000",
+          "weight": 1
+        },
+        {
+          "name": "20005",
+          "weight": 1
+        },
+        {
+          "name": "20010",
+          "weight": 1
+        },
+        {
+          "name": "20015",
+          "weight": 1
+        },
+        {
+          "name": "20020",
+          "weight": 1
+        },
+        {
+          "name": "20025",
+          "weight": 1
+        },
+        {
+          "name": "20030",
+          "weight": 1
+        },
+        {
+          "name": "20035",
+          "weight": 1
+        },
+        {
+          "name": "20040",
+          "weight": 1
+        },
+        {
+          "name": "20043",
+          "weight": 1
+        },
+        {
+          "name": "20044",
+          "weight": 1
+        },
+        {
+          "name": "20045",
+          "weight": 1
+        },
+        {
+          "name": "20046",
+          "weight": 1
+        },
+        {
+          "name": "20050",
+          "weight": 1
+        },
+        {
+          "name": "20055",
+          "weight": 1
+        },
+        {
+          "name": "20057",
+          "weight": 1
+        },
+        {
+          "name": "20058",
+          "weight": 1
+        },
+        {
+          "name": "20060",
+          "weight": 1
+        },
+        {
+          "name": "20065",
+          "weight": 1
+        },
+        {
+          "name": "20070",
+          "weight": 1
+        },
+        {
+          "name": "20075",
+          "weight": 1
+        },
+        {
+          "name": "20080",
+          "weight": 1
+        },
+        {
+          "name": "20090",
+          "weight": 1
+        },
+        {
+          "name": "21005",
+          "weight": 1
+        },
+        {
+          "name": "21010",
+          "weight": 1
+        },
+        {
+          "name": "22005",
+          "weight": 1
+        },
+        {
+          "name": "22010",
+          "weight": 1
+        },
+        {
+          "name": "22015",
+          "weight": 1
+        },
+        {
+          "name": "22016",
+          "weight": 1
+        },
+        {
+          "name": "22020",
+          "weight": 1
+        },
+        {
+          "name": "22021",
+          "weight": 1
+        },
+        {
+          "name": "22025",
+          "weight": 1
+        },
+        {
+          "name": "22030",
+          "weight": 1
+        },
+        {
+          "name": "22035",
+          "weight": 1
+        },
+        {
+          "name": "22040",
+          "weight": 1
+        },
+        {
+          "name": "23005",
+          "weight": 1
+        },
+        {
+          "name": "23010",
+          "weight": 1
+        },
+        {
+          "name": "23015",
+          "weight": 1
+        },
+        {
+          "name": "30005",
+          "weight": 1
+        },
+        {
+          "name": "30010",
+          "weight": 1
+        },
+        {
+          "name": "30015",
+          "weight": 1
+        },
+        {
+          "name": "30020",
+          "weight": 1
+        },
+        {
+          "name": "Current Year Earnings",
+          "weight": 1
+        },
+        {
+          "name": "12105",
+          "weight": 1
+        },
+        {
+          "name": "12100",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Cash at bank and in-hand",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "10001",
+          "weight": 1
+        },
+        {
+          "name": "10002",
+          "weight": 1
+        },
+        {
+          "name": "10004",
+          "weight": 1
+        },
+        {
+          "name": "10005",
+          "weight": 1
+        },
+        {
+          "name": "10006",
+          "weight": 1
+        },
+        {
+          "name": "10007",
+          "weight": 1
+        },
+        {
+          "name": "10008",
+          "weight": 1
+        },
+        {
+          "name": "10009",
+          "weight": 1
+        },
+        {
+          "name": "10010",
+          "weight": 1
+        },
+        {
+          "name": "10011",
+          "weight": 1
+        },
+        {
+          "name": "10012",
+          "weight": 1
+        },
+        {
+          "name": "10013",
+          "weight": 1
+        },
+        {
+          "name": "10014",
+          "weight": 1
+        },
+        {
+          "name": "10015",
+          "weight": 1
+        },
+        {
+          "name": "10045",
+          "weight": 1
+        },
+        {
+          "name": "10050",
+          "weight": 1
+        },
+        {
+          "name": "10055",
+          "weight": 1
+        },
+        {
+          "name": "10056",
+          "weight": 1
+        },
+        {
+          "name": "10057",
+          "weight": 1
+        },
+        {
+          "name": "10058",
+          "weight": 1
+        },
+        {
+          "name": "10070",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Trade debtors",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "10020",
+          "weight": 1
+        },
+        {
+          "name": "10025",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Other debtors",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "10026",
+          "weight": 1
+        },
+        {
+          "name": "10035",
+          "weight": 1
+        },
+        {
+          "name": "10040",
+          "weight": 1
+        },
+        {
+          "name": "10060",
+          "weight": 1
+        },
+        {
+          "name": "10061",
+          "weight": 1
+        },
+        {
+          "name": "10065",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Work in progress",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "10030",
+          "weight": 1
+        },
+        {
+          "name": "11060",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Tangible Assets",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "11005",
+          "weight": 1
+        },
+        {
+          "name": "11010",
+          "weight": 1
+        },
+        {
+          "name": "11020",
+          "weight": 1
+        },
+        {
+          "name": "11025",
+          "weight": 1
+        },
+        {
+          "name": "11030",
+          "weight": 1
+        },
+        {
+          "name": "11035",
+          "weight": 1
+        },
+        {
+          "name": "11040",
+          "weight": 1
+        },
+        {
+          "name": "11045",
+          "weight": 1
+        },
+        {
+          "name": "11050",
+          "weight": 1
+        },
+        {
+          "name": "11055",
+          "weight": 1
+        },
+        {
+          "name": "11070",
+          "weight": 1
+        },
+        {
+          "name": "11075",
+          "weight": 1
+        },
+        {
+          "name": "11080",
+          "weight": 1
+        },
+        {
+          "name": "11085",
+          "weight": 1
+        },
+        {
+          "name": "11090",
+          "weight": 1
+        },
+        {
+          "name": "11095",
+          "weight": 1
+        },
+        {
+          "name": "11100",
+          "weight": 1
+        },
+        {
+          "name": "11105",
+          "weight": 1
+        },
+        {
+          "name": "20090",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Intangible Assets",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "12090",
+          "weight": 1
+        },
+        {
+          "name": "12095",
+          "weight": 1
+        },
+        {
+          "name": "12105",
+          "weight": 1
+        },
+        {
+          "name": "12100",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "New Zealand - company formation & i/co loan",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "12005",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Investments",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "12010",
+          "weight": 1
+        },
+        {
+          "name": "12025",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Family trusts",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "12020",
+          "weight": 1
+        },
+        {
+          "name": "12070",
+          "weight": 1
+        },
+        {
+          "name": "12075",
+          "weight": 1
+        },
+        {
+          "name": "12080",
+          "weight": 1
+        },
+        {
+          "name": "12085",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Decade of Action Loan & i/co balance",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "12050",
+          "weight": 1
+        },
+        {
+          "name": "23005",
+          "weight": 1
+        },
+        {
+          "name": "12060",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Trade creditors",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "20005",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Other creditors",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "20015",
+          "weight": 1
+        },
+        {
+          "name": "20020",
+          "weight": 1
+        },
+        {
+          "name": "20025",
+          "weight": 1
+        },
+        {
+          "name": "20030",
+          "weight": 1
+        },
+        {
+          "name": "20035",
+          "weight": 1
+        },
+        {
+          "name": "20040",
+          "weight": 1
+        },
+        {
+          "name": "20043",
+          "weight": 1
+        },
+        {
+          "name": "20044",
+          "weight": 1
+        },
+        {
+          "name": "20045",
+          "weight": 1
+        },
+        {
+          "name": "20046",
+          "weight": 1
+        },
+        {
+          "name": "20050",
+          "weight": 1
+        },
+        {
+          "name": "20055",
+          "weight": 1
+        },
+        {
+          "name": "20070",
+          "weight": 1
+        },
+        {
+          "name": "20080",
+          "weight": 1
+        },
+        {
+          "name": "20000",
+          "weight": 1
+        },
+        {
+          "name": "20010",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Tax and related provisions",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "21005",
+          "weight": 1
+        },
+        {
+          "name": "21010",
+          "weight": 1
+        },
+        {
+          "name": "20060",
+          "weight": 1
+        },
+        {
+          "name": "20065",
+          "weight": 1
+        },
+        {
+          "name": "20075",
+          "weight": 1
+        },
+        {
+          "name": "22005",
+          "weight": 1
+        },
+        {
+          "name": "22010",
+          "weight": 1
+        },
+        {
+          "name": "22015",
+          "weight": 1
+        },
+        {
+          "name": "22016",
+          "weight": 1
+        },
+        {
+          "name": "22020",
+          "weight": 1
+        },
+        {
+          "name": "22021",
+          "weight": 1
+        },
+        {
+          "name": "22025",
+          "weight": 1
+        },
+        {
+          "name": "22030",
+          "weight": 1
+        },
+        {
+          "name": "22035",
+          "weight": 1
+        },
+        {
+          "name": "22040",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Provisions for liabilities",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "20057",
+          "weight": 1
+        },
+        {
+          "name": "20058",
+          "weight": 1
+        },
+        {
+          "name": "23010",
+          "weight": 1
+        },
+        {
+          "name": "23015",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Net Current Assets",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Current Assets (Stat)",
+          "weight": 1
+        },
+        {
+          "name": "Current Liabilities (Stat)",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Non Current Assets (Stat)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Tangible Assets",
+          "weight": 1
+        },
+        {
+          "name": "Intangible Assets",
+          "weight": 1
+        },
+        {
+          "name": "Investments",
+          "weight": 1
+        },
+        {
+          "name": "New Zealand - company formation & i/co loan",
+          "weight": 1
+        },
+        {
+          "name": "Family trusts",
+          "weight": 1
+        },
+        {
+          "name": "Decade of Action Loan & i/co balance",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Net Assets",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Net Current Assets",
+          "weight": 1
+        },
+        {
+          "name": "Non Current Assets (Stat)",
+          "weight": 1
+        },
+        {
+          "name": "Provisions for liabilities",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Current Assets (Stat)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Trade debtors",
+          "weight": 1
+        },
+        {
+          "name": "Other debtors",
+          "weight": 1
+        },
+        {
+          "name": "Cash at bank and in-hand",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Current Liabilities (Stat)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Trade creditors",
+          "weight": 1
+        },
+        {
+          "name": "Work in progress",
+          "weight": 1
+        },
+        {
+          "name": "Other creditors",
+          "weight": 1
+        },
+        {
+          "name": "Tax and related provisions",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Capital & Reserves",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Called up share capital",
+          "weight": 1
+        },
+        {
+          "name": "Profit and loss reserve",
+          "weight": 1
+        },
+        {
+          "name": "Capital redemption reserve",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Called up share capital",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "30005",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Profit and loss reserve",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "30010",
+          "weight": 1
+        },
+        {
+          "name": "30015",
+          "weight": 1
+        },
+        {
+          "name": "Current Year Earnings",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Capital redemption reserve",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "30020",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "12105",
+      "type": "numeric"
+    },
+    {
+      "name": "12100",
+      "type": "numeric"
+    }
+  ]
+}
