@@ -1,0 +1,7 @@
+{
+  "name": "Hi Bob Endpoint",
+  "kind": "normal",
+  "properties": {
+    "Name": "Hi Bob Endpoint"
+  }
+}
