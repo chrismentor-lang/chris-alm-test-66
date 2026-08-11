@@ -570,6 +570,11 @@
       "modified": 1779684204141,
       "modifiedBy": "admin"
     },
+    "Snowflake.connections.crestHiBob_statEmployeeEndDate_rc": {
+      "hash": "sha256:50c1a80475b4b41d64f6e62165ca0ea2bc28c2576b8798e97548cceb7525f500",
+      "modified": 1786423329866,
+      "modifiedBy": "admin"
+    },
     "Snowflake.connections.crestHiBob_statEmployment_rc": {
       "hash": "sha256:53b918b9c7ac2ae7b92e26e76ea25ccecb40d4a30ef5557343d0910135086c28",
       "modified": 1780286255925,
@@ -1163,6 +1168,11 @@
     "Snowflake.extracts.xjHiBob_statCustomTables_je": {
       "hash": "sha256:b0d3280c6035aa39ee325bd13ad8cb95f7344793afbef25544433d66aaf83567",
       "modified": 1780272090516,
+      "modifiedBy": "admin"
+    },
+    "Snowflake.extracts.xjHiBob_statEmployeeEndDate_je": {
+      "hash": "sha256:5a4f27fe86141fd2704dcf7463fa63726c8c3ca005cd2315559ffe3f59077c4a",
+      "modified": 1786423400786,
       "modifiedBy": "admin"
     },
     "Snowflake.extracts.xjHiBob_statEmployees_je": {
@@ -2560,6 +2570,11 @@
       "modified": 1779951269958,
       "modifiedBy": "admin"
     },
+    "Snowflake.transforms.fHiBobEmployeeEndDate_000_000_fxReplace_ft": {
+      "hash": "sha256:d8dabaa50abcde6f53687b67d891722aa169e1ad0126371651c8798c5ac7e26d",
+      "modified": 1786423473011,
+      "modifiedBy": "admin"
+    },
     "Snowflake.transforms.fHiBobEmployees_000_000_fxReplace_ft": {
       "hash": "sha256:e930b283f0274ba253b3e7e7cb1bb6926d8c8018d5dd5e82e7998b597ea232b1",
       "modified": 1781225428775,
@@ -2917,11 +2932,11 @@
     }
   },
   "hash": "sha256:5a7cd1adb6c64d374d68235c2765351db22ea2cd6dbaa0e3e332fc08e099c7e9",
-  "modified": 1786343957316,
+  "modified": 1786423473011,
   "modifiedBy": "admin",
   "project": "Snowflake",
   "source": {
-    "at": "2026-08-11T04:12:28Z",
+    "at": "2026-08-11T05:55:50Z",
     "env": "dev",
     "host": "https://test-thinkerbell.cloud.jedox.com/"
   },

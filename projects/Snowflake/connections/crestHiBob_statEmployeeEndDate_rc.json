@@ -1,0 +1,32 @@
+{
+  "-name": "crestHiBob_statEmployeeEndDate_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "20260811: Introduced\nhttps://api.hibob.com/v1/people/search"
+  },
+  "credentials": {
+    "basic": {
+      "password": {
+        "#text": "ljDh8hk5Rf7rHS+dxeoxLBFAov3DnrO/6QWdCikPaZp/lF9DhGxFmS1rQBf6bo3cyy7tarYlyTM=",
+        "-encryption": "AES"
+      },
+      "preemptive": "true",
+      "user": "SERVICE-36903"
+    }
+  },
+  "headers": {
+    "header": {
+      "#text": "application/json",
+      "-name": "content-type"
+    }
+  },
+  "httpMethod": "POST",
+  "ignoreCookiesPolicy": "false",
+  "requestBody": {
+    "#cdata-section": "{\n    \"fields\": [\n        \"root.id\",\n        \"root.firstName\",\n        \"root.surname\",\n        \"lifecycle.custom.field_1754965026966\"\n    ]\n}"
+  },
+  "resource": {
+    "#cdata-section": "https://api.hibob.com/v1/people/search"
+  },
+  "ssl": "verify"
+}
