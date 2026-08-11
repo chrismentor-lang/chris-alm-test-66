@@ -1,0 +1,14 @@
+{
+  "-name": "xrEstimatedMonthlyRevenue_varEstimateID_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the estimates monthly revenue from the VW_ESTIMATED_MONTHLY_REVENUE view in the consumption database from Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xrEstimatedMonthlyRevenue_varEstimateID_re.query.sql"
+  }
+}

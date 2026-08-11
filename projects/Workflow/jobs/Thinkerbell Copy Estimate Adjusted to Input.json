@@ -1,0 +1,22 @@
+{
+  "-name": "Thinkerbell Copy Estimate Adjusted to Input",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Kicks off the Copy Estimate Adjusted to Input job in the Thinkerbell project. This job retrieves the Adjusted value for the Estimate version of the selected financial year and then moves it into Input instead.\n\n20260627: Added vFY as variable to be passed on to the Thinkerbell project."
+  },
+  "execution": {
+    "-nameref": "Copy Estimate Adjusted to Input",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Thinkerbell",
+    "-scope": "Global"
+  },
+  "variables": {
+    "variable": {
+      "-name": "vFY",
+      "default": "${vFY}"
+    }
+  }
+}

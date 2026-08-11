@@ -1,0 +1,7 @@
+{
+  "-name": "cgLocal_statThinkerbell_jc (Old)",
+  "-type": "JedoxOlap",
+  "global": {
+    "-nameref": "localhost"
+  }
+}

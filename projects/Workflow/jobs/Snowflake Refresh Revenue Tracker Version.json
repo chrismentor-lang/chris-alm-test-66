@@ -1,0 +1,28 @@
+{
+  "-name": "Snowflake Refresh Revenue Tracker Version",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Only need to set the vFCVersion and vFY. Should be used in Front End for Power BI Requirement"
+  },
+  "execution": {
+    "-nameref": "Refresh Revenue Tracker Version",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  },
+  "variables": {
+    "variable": [
+      {
+        "-name": "vFCVersion",
+        "default": "${vFCVersion}"
+      },
+      {
+        "-name": "vFY",
+        "default": "${vFY}"
+      }
+    ]
+  }
+}
