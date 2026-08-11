@@ -1,0 +1,10 @@
+{
+  "name": "Version",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "Actual",
+    "DefaultWriteElement": "Actual",
+    "Name": "Version",
+    "Type": "Version"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "Target Currency",
+  "kind": "normal",
+  "properties": {
+    "Name": "Target Currency"
+  }
+}

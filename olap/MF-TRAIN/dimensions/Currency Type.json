@@ -1,0 +1,11 @@
+{
+  "name": "Currency Type",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "Functional",
+    "DefaultWriteElement": "Functional",
+    "Description": "20250528: Reporting converted, Transaction converted, and Functional converted can be eventually deleted.\n20250526: Changed Group to Reporting and Group Converted to Reporting Converted.\n20250513: Introduced to allow for the load of local currency, transaction currency, as well as conversions of those currencies.",
+    "Name": "Currency Type"
+  }
+}

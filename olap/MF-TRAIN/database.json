@@ -1,0 +1,11 @@
+{
+  "excludes": [
+    "elements",
+    "attribute-values"
+  ],
+  "properties": {
+    "DatabaseName": "MF-TRAIN",
+    "DefaultRight": "D",
+    "HideCubes": "N"
+  }
+}

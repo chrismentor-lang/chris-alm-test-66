@@ -1,0 +1,14 @@
+{
+  "name": "Currency",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "AUD",
+    "DefaultWriteElement": "AUD",
+    "Description": "Purpose: Used to distinguish between the currencies and formats.\nPrimary Element Source : Manual + template\nUpdates:\n\n20251202: Added XXX under All Currencies\n20250707: Deleted the hierarchies that were translating into anything else than the entities' functional currencies. Also emptied the unassigned roll-up.",
+    "NAElement": "> AUD",
+    "Name": "Currency",
+    "TotalElement": "All Currencies",
+    "Type": "Business"
+  }
+}
