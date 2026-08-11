@@ -16,9 +16,9 @@
   "hash": "sha256:88f6fb4d8bff4d2762e8cd3afe86ec37b981e1a216385961873ea20ab21bbd18",
   "project": "olap:Thinkerbell_Security",
   "source": {
-    "at": "2026-08-11T06:04:08Z",
+    "at": "2026-08-11T22:56:46Z",
     "env": "dev",
     "host": "https://test-thinkerbell.cloud.jedox.com/"
   },
-  "token": "5991805"
+  "token": "2029535"
 }
