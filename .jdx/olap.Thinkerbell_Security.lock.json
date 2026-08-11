@@ -1,0 +1,24 @@
+{
+  "components": {
+    "cubes.Favourites": {
+      "hash": "sha256:e8fa6120c460ce046d83dd5db3d27123c86929beccb53be1351d471de97c94e3"
+    },
+    "dimensions.Measure (Favourites)": {
+      "hash": "sha256:80783192ea20ce27e16a3e99cc3b736e91bb7c1a2bf41be2689b0d9c1c05cba5"
+    },
+    "dimensions.Report": {
+      "hash": "sha256:f98a9238b6ee24a466b3f75b62873fa29485e3c358acd726f9780770d043705c"
+    },
+    "dimensions.Report (new)": {
+      "hash": "sha256:32811a0f9b45f02c1f33c6fb731667ff6a17751f69940f2f65fe4c9bc56103dd"
+    }
+  },
+  "hash": "sha256:88f6fb4d8bff4d2762e8cd3afe86ec37b981e1a216385961873ea20ab21bbd18",
+  "project": "olap:Thinkerbell_Security",
+  "source": {
+    "at": "2026-08-11T05:57:07Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "token": "5991805"
+}

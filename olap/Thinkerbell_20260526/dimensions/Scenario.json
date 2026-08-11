@@ -1,0 +1,10 @@
+{
+  "name": "Scenario",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "Base",
+    "DefaultWriteElement": "Base",
+    "Description": "Purpose: List All Scenarios\nPrimary Data Source: Manual\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Scenario"
+  }
+}

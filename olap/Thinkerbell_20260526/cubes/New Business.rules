@@ -1,0 +1,3 @@
+### rule
+{"active":true,"position":0.5}
+['Detail New Business':'Name', 'Month'::'Base Months'] = IF(STET(), STET(), IF(!'Month' == "2017-01", STET(), ''['Month':'#_Month'['#_Month_':'PreviousMonth', '#_LANGUAGE':'~']]))

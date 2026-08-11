@@ -1,0 +1,9 @@
+{
+  "name": "Probability",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "All Statuses",
+    "Description": "Purpose: List All Status / Probabilities\nPrimary Data Source: Not confirmed yet\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Probability"
+  }
+}

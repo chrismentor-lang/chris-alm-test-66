@@ -1,0 +1,20 @@
+{
+  "name": "Balance Sheet",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Month",
+    "Office",
+    "Currency",
+    "Transaction Type",
+    "BS Account",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Purpose: Analysis of balance sheet data\nPrimary Data Source: Accountability, Snowflake\nSupporting Cubes: FX, Profit & Loss\nDependencies: Cash Flow.\nOwner: Geetansh Mahajan\n\nUpdates:\n20260122: Introduced",
+    "MeasureDimension": "Transaction Type",
+    "Name": "Balance Sheet",
+    "TimeDimension": "Month"
+  }
+}

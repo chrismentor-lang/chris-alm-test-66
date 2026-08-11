@@ -1,0 +1,3 @@
+### rule
+{"active":true,"comment":"LOG||CH%||STET()\n\n20260320: Introduced","position":0.5}
+['Detail Client Head':'CH %'] = B:IF(EXIST(STET()), STET(), ['Detail Client Head':'CH Loaded'])
