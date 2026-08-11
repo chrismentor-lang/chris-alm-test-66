@@ -1,0 +1,24 @@
+### rule
+{"active":false,"comment":"REF||Planned Hours, Actual||Input||Ref: Resource Planning\n\n20260406: Added Input to target.\n20260226: Introduced","position":1}
+['Detail FTE':'Planned Hours', 'Version':'Actual', 'Measure':'Input'] = 'Resource Planning'['Version':'Plan', 'Detail Resource':'Hours', 'Job Type':'All Job Types', 'Job':'All Jobs', 'Currency':'XXX', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF||Billable Hours||Actual\n\n['Detail FTE':'Billable Hours', 'Version':'Actual', 'Measure':'Input'] = 'Resource Planning'['Version':'Plan', 'Detail Resource':'Billable', 'Job Type':'All Job Types', 'Job':'All Jobs', 'Currency':'XXX']\n\n20260406: Introduced.","position":2}
+['Detail FTE':'Billable Hours', 'Measure':'Input'] = 'Resource Planning'['Detail Resource':'Billable', 'Job Type':'All Job Types', 'Job':'All Jobs', 'Currency':'XXX', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF||Billable Hours Active","position":3}
+['Detail FTE':'Billable Hours Active', 'Measure':'Input'] = 'Resource Planning'['Detail Resource':'Billable Active', 'Job Type':'All Job Types', 'Job':'All Jobs', 'Currency':'XXX', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF||Billable Hours||Actual\n\n['Detail FTE':'Non-Billable Hours', 'Version':'Actual', 'Measure':'Input'] = 'Resource Planning'['Version':'Plan', 'Detail Resource':'Non Billable', 'Job Type':'All Job Types', 'Job':'All Jobs', 'Currency':'XXX']\n\n20260406: Introduced.","position":4}
+['Detail FTE':'Non-Billable Hours', 'Measure':'Input'] = 'Resource Planning'['Detail Resource':'Non Billable', 'Job Type':'All Job Types', 'Job':'All Jobs', 'Currency':'XXX', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF||Non-Billable Hours Active","position":5}
+['Detail FTE':'Non-Billable Hours Active', 'Measure':'Input'] = 'Resource Planning'['Detail Resource':'Non Billable Active', 'Job Type':'All Job Types', 'Job':'All Jobs', 'Currency':'XXX', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"KPI||Utilisation||Actual||Input","position":6}
+['Detail FTE':'Utilisation', 'Measure':'Input'] = ['Detail FTE':'Billable Hours'] / ['Detail FTE':'FTE Hours']
+### rule
+{"active":true,"comment":"CAL||FTE Hours||XXX||Input","position":7}
+['Detail FTE':'FTE Hours', 'Measure':'Input'] = IF('#_Employee'['#_Employee_':'Freelancer', '#_LANGUAGE':'~'] == 1, ['Detail FTE':'FTE'] * 8, ['Detail FTE':'FTE'] * 7.6)
+### rule
+{"active":true,"comment":"CAL||Benchmark Hours||Input","position":8}
+['Detail FTE':'Benchmark Hours', 'Measure':'Input'] = IF('#_Employee'['#_Employee_':'Freelancer', '#_LANGUAGE':'~'] == 1, ['Detail FTE':'FTE Hours'], ['Detail FTE':'FTE Hours'] * ['Detail FTE':'Benchmark', 'Day':'~', 'Version':'Actual'])

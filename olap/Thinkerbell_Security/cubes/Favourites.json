@@ -1,0 +1,12 @@
+{
+  "name": "Favourites",
+  "kind": "normal",
+  "dimensions": [
+    "#_USER_",
+    "Report",
+    "Measure (Favourites)"
+  ],
+  "properties": {
+    "Name": "Favourites"
+  }
+}

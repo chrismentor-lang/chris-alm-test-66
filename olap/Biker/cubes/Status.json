@@ -1,0 +1,10 @@
+{
+  "name": "Status",
+  "kind": "normal",
+  "dimensions": [
+    "Years",
+    "Months",
+    "Customers",
+    "Status"
+  ]
+}

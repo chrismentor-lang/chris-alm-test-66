@@ -1,0 +1,11 @@
+{
+  "name": "P_L",
+  "kind": "normal",
+  "dimensions": [
+    "Versions",
+    "Years",
+    "Months",
+    "Client",
+    "Profit_Loss"
+  ]
+}

@@ -1,0 +1,36 @@
+### rule
+{"active":true,"comment":"LOG||Planning Versions, Months||Actuals\n\n20260317: Introduced","position":1,"template":{"name":"Actual months","parameters":{"Time dimension":"Month","Version dimension":"Version","Version dimension attribute":"Actual Months"}}}
+['${VersionDimension}':'${Version}','Month':{${Elements}}] = ['Version':'Actual']
+### rule
+{"active":true,"comment":"LOG||Scenario, Input||Base, Adjusted\n\n20260322: Introduced","position":2,"template":{"name":"Dimension element like","parameters":{"Dimension":"Scenario","Pattern":"^\\d+$"}}}
+['Scenario':'${Element}', 'Measure':'Input', 'Detail Revenue':{'Revenue', 'New Business', 'Organic'}] = ['Scenario':'Base', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"CAL||Revenue By Client Head||Ref:Client Head\n\n20260320: Introduced","position":3}
+['Client Head'::'Exclude ~', 'Measure':'Input', 'Detail Revenue':'Revenue by Client Head'] = B:IF('Client Head'['Detail Client Head':'CH %', 'Measure':'Input', 'Job':PALO.DATA("", "#_Estimate", "Job Number", !'Estimate', "~")] == null, ['Scenario':'Base', 'Detail Revenue':'Revenue'], 'Client Head'['Detail Client Head':'CH %', 'Measure':'Input', 'Job':PALO.DATA("", "#_Estimate", "Job Number", !'Estimate', "~")] * ['Client Head':'~', 'Scenario':'Base', 'Detail Revenue':'Revenue'])
+### rule
+{"active":true,"comment":"CAL||New Business By Client Head||Ref:Client Head\n\n20260320: Introduced","position":4}
+['Client Head'::'Exclude ~', 'Measure':'Input', 'Detail Revenue':'New Business by Client Head', 'Estimate':'New Business'] = B:IF('Client Head'['Detail Client Head':'CH %', 'Job':!'Estimate'] == 0, ['Scenario':'Base', 'Detail Revenue':'New Business', 'Measure':'Adjusted'], 'Client Head'['Detail Client Head':'CH %', 'Measure':'Input', 'Job':!'Estimate'] * ['Client Head':'~', 'Scenario':'Base', 'Detail Revenue':'New Business', 'Measure':'Adjusted'])
+### rule
+{"active":true,"comment":"CAL||Organic By Client Head||Ref:Client Head\n\n20260320: Introduced","position":5}
+['Client Head'::'Exclude ~', 'Measure':'Input', 'Detail Revenue':'Organic by Client Head', 'Estimate'::'New Business'] = B:IF('Client Head'['Detail Client Head':'CH %', 'Job':!'Estimate'] == 0, ['Scenario':'Base', 'Detail Revenue':'Organic', 'Measure':'Adjusted'], 'Client Head'['Detail Client Head':'CH %', 'Measure':'Input', 'Job':!'Estimate'] * ['Client Head':'~', 'Scenario':'Base', 'Detail Revenue':'Organic', 'Measure':'Adjusted'])
+### rule
+{"active":true,"position":6}
+['Detail Revenue':'Revenue by Client Head Active'] = B:IF('#_Estimate'['#_Estimate_':'Active', 'Estimate':!'Estimate'] == "true", ['Detail Revenue':'Revenue by Client Head'], STET())
+### rule
+{"active":true,"position":7}
+['Detail Revenue':'New Business by Client Head Active'] = B:IF('#_Estimate'['#_Estimate_':'Active', 'Estimate':!'Estimate'] == "true", ['Detail Revenue':'New Business by Client Head'], STET())
+### rule
+{"active":true,"position":8}
+['Detail Revenue':'Organic by Client Head Active'] = B:IF('#_Estimate'['#_Estimate_':'Active', 'Estimate':!'Estimate'] == "true", ['Detail Revenue':'Organic by Client Head'], STET())
+### rule
+{"active":true,"comment":"FX||Input, Adjustment||Average\n\n20260202: Introduced","position":9,"template":{"name":"Dimension element like","parameters":{"Dimension":"Currency","Pattern":"^([A-Z]{3}) > ([A-Z]{3})$"}}}
+['Currency':'${Element}', 'Measure':{'Input', 'Adjustment'}] = B:
+['Currency':'${Group1}'] *
+    PALO.DATA("", "FX", 
+        !'Version', 
+        !'Month', 
+        "Average", 
+        "${Group1}", 
+        "${Group2}", 
+        "Input"
+    )
