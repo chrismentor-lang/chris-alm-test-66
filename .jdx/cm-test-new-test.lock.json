@@ -50,28 +50,18 @@
       "modified": 1786487715701,
       "modifiedBy": "admin"
     },
-    "cm-test-new-test.variables.New variable": {
-      "hash": "sha256:3cc98123ee82e0a6b00968919a62a9a932bc767b1e7e241c141956ff9e475a3d",
-      "modified": 1786487715701,
-      "modifiedBy": "admin"
-    },
-    "cm-test-new-test.variables.newVar": {
-      "hash": "sha256:7c0cff255601ac9779b8dfcf7368188c2da64cf7fcf003f4df01f6de7ff540a0",
-      "modified": 1786487715701,
-      "modifiedBy": "admin"
-    },
-    "cm-test-new-test.variables.newVar2": {
-      "hash": "sha256:4d2752236f55e6f1efc2222fb96e645b81b308eef36cbfb4596b32d7abc60c6c",
-      "modified": 1786487715701,
+    "cm-test-new-test.variables.nblah": {
+      "hash": "sha256:19dcb09dd3f58ad7bed1d85c6c1fcdbde2ad4b86a039c1381a044dd06f888693",
+      "modified": 1786487977011,
       "modifiedBy": "admin"
     }
   },
   "hash": "sha256:b4d5a4b85f32622e6ad9107c93b0cdde8f7e01c899720996fd7bd060d731eab4",
-  "modified": 1786487737709,
+  "modified": 1786487977011,
   "modifiedBy": "admin",
   "project": "cm-test-new-test",
   "source": {
-    "at": "2026-08-11T22:36:41Z",
+    "at": "2026-08-11T22:40:23Z",
     "env": "dev",
     "host": "https://test-thinkerbell.cloud.jedox.com/"
   },
