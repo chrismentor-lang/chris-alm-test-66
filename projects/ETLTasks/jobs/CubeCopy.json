@@ -1,0 +1,23 @@
+{
+  "-name": "CubeCopy",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Cube to Cube Copy\nVariables: SourceConn, TargetConn, SourceDB, TargetDB, Cube=Sales, TargetCube"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "CubesCheckDifferent",
+        "-type": "job"
+      },
+      {
+        "-nameref": "CubeTarget_Load",
+        "-type": "load"
+      },
+      {
+        "-nameref": "RuleTarget_Load",
+        "-type": "load"
+      }
+    ]
+  }
+}

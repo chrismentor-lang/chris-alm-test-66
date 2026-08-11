@@ -1,0 +1,22 @@
+{
+  "-name": "fJedoxFiles_800_000_exclInactive_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Excluding all inactive endpoints from the list of Jedox files."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "Daily",
+      "-operator": "equal",
+      "-type": "accept",
+      "-value": "1"
+    }
+  },
+  "sources": {
+    "source": {
+      "-format": "ea",
+      "-nameref": "xdJedoxFiles_statAll_de"
+    }
+  }
+}

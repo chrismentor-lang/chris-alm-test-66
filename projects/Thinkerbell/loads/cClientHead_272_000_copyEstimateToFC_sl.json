@@ -1,0 +1,73 @@
+{
+  "-name": "cClientHead_272_000_copyEstimateToFC_sl",
+  "-type": "CubeSliceCopy",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "copyMode": "copy",
+  "cube": {
+    "-name": "Client Head",
+    "-useRules": "false"
+  },
+  "dimensions": {
+    "dimension": [
+      {
+        "-name": "Version",
+        "mapFrom": {
+          "-constant": "Estimate"
+        },
+        "mapTo": {
+          "-constant": "${vFCVersion}"
+        }
+      },
+      {
+        "-name": "Month",
+        "mapFrom": {
+          "-constant": "${vFY}"
+        },
+        "mapTo": {
+          "-constant": "${vFY}"
+        }
+      },
+      {
+        "-name": "Job",
+        "mapFrom": {
+          "-constant": "All Jobs"
+        },
+        "mapTo": {
+          "-constant": "All Jobs"
+        }
+      },
+      {
+        "-name": "Client Head",
+        "mapFrom": {
+          "-constant": "All Client Heads"
+        },
+        "mapTo": {
+          "-constant": "All Client Heads"
+        }
+      },
+      {
+        "-name": "Detail Client Head",
+        "mapFrom": {
+          "-nameref": "Detail Client Head"
+        },
+        "mapTo": {
+          "-nameref": "Detail Client Head"
+        }
+      },
+      {
+        "-name": "Measure",
+        "mapFrom": {
+          "-constant": "Adjusted"
+        },
+        "mapTo": {
+          "-constant": "Adjusted"
+        }
+      }
+    ]
+  },
+  "source": {
+    "-nameref": "xtDetailClientHead_statCubeSliceCopyList_te"
+  }
+}

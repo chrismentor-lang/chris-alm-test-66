@@ -1,0 +1,14 @@
+{
+  "-name": "xvRevenueEstimatedDaily_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the input for total estimated revenue for all estimates and the monthly estimated revenue for the new estimates from the VW_REVENUE_PLANNING_ESTIMATED_REVENUE_DAILY view in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvRevenueEstimatedDaily_statAll_re.query.sql"
+  }
+}

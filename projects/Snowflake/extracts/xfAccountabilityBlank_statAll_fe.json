@@ -1,0 +1,8 @@
+{
+  "-name": "xfAccountabilityBlank_statAll_fe",
+  "-type": "Csv",
+  "cache": "false",
+  "connection": {
+    "-nameref": "cfAccountabilityBlank_varEndpoint_fc"
+  }
+}

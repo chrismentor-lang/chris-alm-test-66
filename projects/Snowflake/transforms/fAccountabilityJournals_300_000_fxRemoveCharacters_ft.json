@@ -1,0 +1,171 @@
+{
+  "-name": "fAccountabilityJournals_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": {
+      "-name": "fxDescription",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "DESC",
+          "-nameref": "description"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fAccountabilityJournals_300_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityJournals_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "accountingMonthId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "accountingYearId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "addedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "addedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approved"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "cancelled"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "cancelledAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "cancelledByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "cashAccountingMonthId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "cashAccountingYearId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "currencyId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "date"
+          }
+        },
+        {
+          "-name": "description",
+          "input": {
+            "-nameref": "fxDescription"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxRate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "isSystemJournal"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "journalNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "reference"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "submitted"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "systemTransactionId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "systemTransactionNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "transactionTypeId"
+          }
+        }
+      ]
+    }
+  }
+}

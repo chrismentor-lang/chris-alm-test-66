@@ -1,0 +1,94 @@
+{
+  "-name": "cRevenuePlanning_612_000_mapMeasure_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Changes the Measure for the retrieved adjustments to Input.\n\n20260713: Changed target Client Head from static ~ to Client Head.\n20260627: Removed the fxDetailRevenue as the Input for the Field Detail Revenue (as it's not applicable anymore)."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxDetailRevenue",
+      "-type": "Replace",
+      "inputs": {
+        "input": {
+          "-nameref": "Detail Revenue"
+        }
+      },
+      "parameters": {
+        "regexp": "by Client Head"
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xcRevenuePlanning_varFYEstimate_ce"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Scenario"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Month"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Office"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Job Type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Estimate"
+          }
+        },
+        {
+          "input": {
+            "-constant": "Client Head"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Task Type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Currency"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Detail Revenue"
+          }
+        },
+        {
+          "-name": "Measure",
+          "input": {
+            "-constant": "Input"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "#Value"
+          }
+        }
+      ]
+    }
+  }
+}

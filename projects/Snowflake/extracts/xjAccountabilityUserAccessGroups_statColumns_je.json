@@ -1,0 +1,29 @@
+{
+  "-name": "xjAccountabilityUserAccessGroups_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityUserAccessGroups_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

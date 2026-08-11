@@ -1,0 +1,32 @@
+{
+  "-name": "Snowflake Refresh Estimates Tables",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Kicks of the refresh of the Accountability ESTIMATES table via the Update Accountability Tables job in the Snowflake project."
+  },
+  "execution": {
+    "-nameref": "Update Accountability Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  },
+  "variables": {
+    "variable": [
+      {
+        "-name": "vAccountabilityEndpoint",
+        "default": "Estimates"
+      },
+      {
+        "-name": "vAccountabilityTable",
+        "default": "ESTIMATES"
+      },
+      {
+        "-name": "vSnowflakeSchemaType",
+        "default": "INCREMENTAL"
+      }
+    ]
+  }
+}

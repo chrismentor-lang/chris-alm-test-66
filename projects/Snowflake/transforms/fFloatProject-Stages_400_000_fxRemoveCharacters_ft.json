@@ -1,0 +1,99 @@
+{
+  "-name": "fFloatProject-Stages_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name from the Project-Stages API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxName",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NAM",
+          "-nameref": "name"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fFloatProject-Stages_400_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatProject-Stages_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "color"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created_by"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "description"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified_by"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_count"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_status"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "sort_order"
+          }
+        }
+      ]
+    }
+  }
+}

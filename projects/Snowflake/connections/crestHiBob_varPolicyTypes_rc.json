@@ -1,0 +1,20 @@
+{
+  "-name": "crestHiBob_varPolicyTypes_rc",
+  "-type": "Rest",
+  "credentials": {
+    "basic": {
+      "password": {
+        "#text": "nmX8Vgb8u5bdnlyiHc5w7tkch0cTXVi6G3M70ARrXO7WCJ58h8UdtBnT9yIvoU0TaBCPPDo/xGQ=",
+        "-encryption": "AES"
+      },
+      "preemptive": "true",
+      "user": "SERVICE-36903"
+    }
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "resource": {
+    "#cdata-section": "https://api.hibob.com/v1/timeoff/policy-types/${vHiBobPolicyType}"
+  },
+  "ssl": "verify"
+}

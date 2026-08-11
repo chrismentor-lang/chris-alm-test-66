@@ -1,0 +1,33 @@
+{
+  "-name": "xcFX_varMonthActual_cs",
+  "-type": "CubeSlice",
+  "comment": "Retrieves cube slice from a specific month's Actual data from the FX cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "FX"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "Actual",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "${vMonth}",
+          "-dimension": "Month",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

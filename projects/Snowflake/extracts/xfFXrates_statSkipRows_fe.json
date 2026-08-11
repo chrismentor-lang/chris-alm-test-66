@@ -1,0 +1,13 @@
+{
+  "-name": "xfFXrates_statSkipRows_fe",
+  "-type": "Csv",
+  "cache": "false",
+  "connection": {
+    "-nameref": "cfFXrates_statHTTPCurrent_fc"
+  },
+  "query": {
+    "#file": "xfFXrates_statSkipRows_fe.query.sql",
+    "-serverSide": "false"
+  },
+  "skip": "5"
+}

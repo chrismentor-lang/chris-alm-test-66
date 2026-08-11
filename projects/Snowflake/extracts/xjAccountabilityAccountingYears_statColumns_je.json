@@ -1,0 +1,26 @@
+{
+  "-name": "xjAccountabilityAccountingYears_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityAccountingYears_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

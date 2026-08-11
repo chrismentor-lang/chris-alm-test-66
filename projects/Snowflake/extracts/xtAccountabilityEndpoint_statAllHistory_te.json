@@ -1,0 +1,51 @@
+{
+  "-name": "xtAccountabilityEndpoint_statAllHistory_te",
+  "-type": "ConstantTable",
+  "comment": {
+    "#cdata-section": "NOT IN USE"
+  },
+  "data": {
+    "header": {
+      "value": [
+        "Accountability Endpoint",
+        "Accountability Table",
+        "Snowflake Schema Type",
+        "Modified From"
+      ]
+    },
+    "row": [
+      {
+        "value": [
+          "Estimates",
+          "ESTIMATES",
+          "INCREMENTAL",
+          "2017-04-30T13:00:00Z"
+        ]
+      },
+      {
+        "value": [
+          "EstimateEntries",
+          "ESTIMATE_ENTRIES",
+          "INCREMENTAL",
+          {}
+        ]
+      },
+      {
+        "value": [
+          "Journals",
+          "JOURNALS",
+          "INCREMENTAL",
+          "2017-04-30T13:00:00Z"
+        ]
+      },
+      {
+        "value": [
+          "JournalEntries",
+          "JOURNAL_ENTRIES",
+          "INCREMENTAL",
+          {}
+        ]
+      }
+    ]
+  }
+}

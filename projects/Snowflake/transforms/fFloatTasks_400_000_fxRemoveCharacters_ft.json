@@ -1,0 +1,159 @@
+{
+  "-name": "fFloatTasks_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name from the Tasks API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NAM",
+            "-nameref": "name"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatTasks_400_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatTasks_400_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatTasks_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "billable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created_by"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "end_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "hours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified_by"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "parent_task_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "people_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "people_ids"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "repeat_end_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "repeat_state"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "root_task_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "start_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "start_time"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "status"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "task_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "task_meta_id"
+          }
+        }
+      ]
+    }
+  }
+}

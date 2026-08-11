@@ -1,0 +1,49 @@
+{
+  "-name": "dMonth_145_030_inclLTD_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260616: Introduced."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "fxMonthLTD",
+      "-operator": "equal",
+      "-type": "accept",
+      "-value": "1"
+    }
+  },
+  "sorter": {
+    "input": [
+      {
+        "-nameref": "level1",
+        "-order": "ascending"
+      },
+      {
+        "-nameref": "alternatelevel1",
+        "-order": "ascending"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_144_020_fxParentLTDLTG_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "fxParentLTD"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "alternatelevel1"
+          }
+        }
+      ]
+    }
+  }
+}

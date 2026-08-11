@@ -1,0 +1,11 @@
+{
+  "-name": "RulesReplace",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "All Enterprise Rules are read from a Cube, in the cube definition all occurences of a regular expression are replaced with a new string, the changed rules are loaded back to the same cube, the original rules are deleted.\nVariables: SourceConn, SourceDB, Cube, RegExp, Replacement"
+  },
+  "failStatus": "none",
+  "jobscript": {
+    "#file": "RulesReplace.jobscript.groovy"
+  }
+}

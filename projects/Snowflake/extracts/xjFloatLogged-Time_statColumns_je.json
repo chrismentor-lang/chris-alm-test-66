@@ -1,0 +1,77 @@
+{
+  "-name": "xjFloatLogged-Time_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all time logs and their details from Float.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatLogged-Time_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "billable"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "created_by"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "hours"
+      },
+      {
+        "-input": "locked"
+      },
+      {
+        "-input": "locked_date"
+      },
+      {
+        "-input": "logged_time_id"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "modified_by"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "people_id"
+      },
+      {
+        "-input": "phase_id"
+      },
+      {
+        "-input": "priority"
+      },
+      {
+        "-input": "project_id"
+      },
+      {
+        "-input": "reference_date"
+      },
+      {
+        "-input": "task_id"
+      },
+      {
+        "-input": "task_meta_id"
+      },
+      {
+        "-input": "task_name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

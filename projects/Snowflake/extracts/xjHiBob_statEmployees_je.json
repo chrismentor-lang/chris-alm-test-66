@@ -1,0 +1,294 @@
+{
+  "-name": "xjHiBob_statEmployees_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "For employees data"
+  },
+  "connection": {
+    "-nameref": "crestHiBob_statProfiles_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "displayName"
+      },
+      {
+        "-input": "personal.shortBirthDate",
+        "-name": "personal_shortBirthDate"
+      },
+      {
+        "-input": "personal.pronouns",
+        "-name": "personal_pronouns"
+      },
+      {
+        "-input": "personal.custom.field_1751513931423",
+        "-name": "personal_custom_field_1751513931423"
+      },
+      {
+        "-input": "personal.custom.field_1751936017371",
+        "-name": "personal_custom_field_1751936017371"
+      },
+      {
+        "-input": "personal.custom.field_1751514731246",
+        "-name": "personal_custom_field_1751514731246"
+      },
+      {
+        "-input": "personal.custom.field_1747878534508",
+        "-name": "personal_custom_field_1747878534508"
+      },
+      {
+        "-input": "personal.custom.field_1751514086715",
+        "-name": "personal_custom_field_1751514086715"
+      },
+      {
+        "-input": "personal.honorific",
+        "-name": "personal_honorific"
+      },
+      {
+        "-input": "personal.nationality",
+        "-name": "personal_nationality"
+      },
+      {
+        "-input": "work.shortStartDate",
+        "-name": "work_shortStartDate"
+      },
+      {
+        "-input": "work.startDate",
+        "-name": "work_startDate"
+      },
+      {
+        "-input": "work.manager",
+        "-name": "work_manager"
+      },
+      {
+        "-input": "work.tenureDuration.periodISO",
+        "-name": "work_tenureDuration_periodISO"
+      },
+      {
+        "-input": "work.tenureDuration.sortFactor",
+        "-name": "work_tenureDuration_sortFactor"
+      },
+      {
+        "-input": "work.tenureDuration.humanize",
+        "-name": "work_tenureDuration_humanize"
+      },
+      {
+        "-input": "work.custom.field_1774505001591",
+        "-name": "work_custom_field_1774505001591"
+      },
+      {
+        "-input": "work.custom.field_1753205524842",
+        "-name": "work_custom_field_1753205524842"
+      },
+      {
+        "-input": "work.custom.field_1753848591624",
+        "-name": "work_custom_field_1753848591624"
+      },
+      {
+        "-input": "work.custom.field_1753848575187",
+        "-name": "work_custom_field_1753848575187"
+      },
+      {
+        "-input": "work.custom.field_1747880954788",
+        "-name": "work_custom_field_1747880954788"
+      },
+      {
+        "-input": "work.custom.field_1751522338537",
+        "-name": "work_custom_field_1751522338537"
+      },
+      {
+        "-input": "work.custom.field_1753661211376",
+        "-name": "work_custom_field_1753661211376"
+      },
+      {
+        "-input": "work.custom.field_1753661103168",
+        "-name": "work_custom_field_1753661103168"
+      },
+      {
+        "-input": "work.custom.field_1751519368944",
+        "-name": "work_custom_field_1751519368944"
+      },
+      {
+        "-input": "work.durationOfEmployment.periodISO",
+        "-name": "work_durationOfEmployment_periodISO"
+      },
+      {
+        "-input": "work.durationOfEmployment.sortFactor",
+        "-name": "work_durationOfEmployment_sortFactor"
+      },
+      {
+        "-input": "work.durationOfEmployment.humanize",
+        "-name": "work_durationOfEmployment_humanize"
+      },
+      {
+        "-input": "work.reportsToIdInCompany",
+        "-name": "work_reportsToIdInCompany"
+      },
+      {
+        "-input": "work.employeeIdInCompany",
+        "-name": "work_employeeIdInCompany"
+      },
+      {
+        "-input": "work.reportsTo.displayName",
+        "-name": "work_reportsTo_displayName"
+      },
+      {
+        "-input": "work.reportsTo.email",
+        "-name": "work_reportsTo_email"
+      },
+      {
+        "-input": "work.reportsTo.surname",
+        "-name": "work_reportsTo_surname"
+      },
+      {
+        "-input": "work.reportsTo.firstName",
+        "-name": "work_reportsTo_firstName"
+      },
+      {
+        "-input": "work.reportsTo.id",
+        "-name": "work_reportsTo_id"
+      },
+      {
+        "-input": "work.indirectReports",
+        "-name": "work_indirectReports"
+      },
+      {
+        "-input": "work.siteId",
+        "-name": "work_siteId"
+      },
+      {
+        "-input": "work.tenureDurationYears",
+        "-name": "work_tenureDurationYears"
+      },
+      {
+        "-input": "work.department",
+        "-name": "work_department"
+      },
+      {
+        "-input": "work.customColumns.column_1753204200620",
+        "-name": "work_customColumns_column_1753204200620"
+      },
+      {
+        "-input": "work.customColumns.column_1753496609904",
+        "-name": "work_customColumns_column_1753496609904"
+      },
+      {
+        "-input": "work.customColumns.column_1753496660042",
+        "-name": "work_customColumns_column_1753496660042"
+      },
+      {
+        "-input": "work.tenureYears",
+        "-name": "work_tenureYears"
+      },
+      {
+        "-input": "work.isManager",
+        "-name": "work_isManager"
+      },
+      {
+        "-input": "work.title",
+        "-name": "work_title"
+      },
+      {
+        "-input": "work.site",
+        "-name": "work_site"
+      },
+      {
+        "-input": "work.originalStartDate",
+        "-name": "work_originalStartDate"
+      },
+      {
+        "-input": "work.activeEffectiveDate",
+        "-name": "work_activeEffectiveDate"
+      },
+      {
+        "-input": "work.directReports",
+        "-name": "work_directReports"
+      },
+      {
+        "-input": "work.secondLevelManager",
+        "-name": "work_secondLevelManager"
+      },
+      {
+        "-input": "work.daysOfPreviousService",
+        "-name": "work_daysOfPreviousService"
+      },
+      {
+        "-input": "work.yearsOfService",
+        "-name": "work_yearsOfService"
+      },
+      {
+        "-input": "employee.orgLevel",
+        "-name": "employee_orgLevel"
+      },
+      {
+        "-input": "employee.hrbp",
+        "-name": "employee_hrbp"
+      },
+      {
+        "-input": "about.foodPreferences",
+        "-name": "about_foodPreferences"
+      },
+      {
+        "-input": "about.custom.field_1751592852988",
+        "-name": "about_custom_field_1751592852988"
+      },
+      {
+        "-input": "about.custom.field_1751614595611",
+        "-name": "about_custom_field_1751614595611"
+      },
+      {
+        "-input": "about.socialData.linkedin",
+        "-name": "about_socialData_linkedin"
+      },
+      {
+        "-input": "about.socialData.twitter",
+        "-name": "about_socialData_twitter"
+      },
+      {
+        "-input": "about.socialData.facebook",
+        "-name": "about_socialData_facebook"
+      },
+      {
+        "-input": "about.superpowers",
+        "-name": "about_superpowers"
+      },
+      {
+        "-input": "about.hobbies",
+        "-name": "about_hobbies"
+      },
+      {
+        "-input": "about.about",
+        "-name": "about_about"
+      },
+      {
+        "-input": "about.avatar",
+        "-name": "about_avatar"
+      },
+      {
+        "-input": "companyId"
+      },
+      {
+        "-input": "email"
+      },
+      {
+        "-input": "surname"
+      },
+      {
+        "-input": "home.privateEmail",
+        "-name": "home_privateEmail"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "firstName"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.employees"
+    }
+  }
+}

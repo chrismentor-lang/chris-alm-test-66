@@ -1,0 +1,23 @@
+{
+  "-name": "dToken_000_020_addRefreshTokenAttr_dl",
+  "-type": "Dimension",
+  "comment": "Updated the attributes of the vAccountabilityRefreshToken element in the Token dimension.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbellApplicationManagement_jc"
+  },
+  "dimension": {
+    "-name": "Token",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "inactive"
+    },
+    "elements": {
+      "-mode": "inactive"
+    }
+  },
+  "source": {
+    "-nameref": "dToken_000_010_attrValidTill_fh"
+  }
+}

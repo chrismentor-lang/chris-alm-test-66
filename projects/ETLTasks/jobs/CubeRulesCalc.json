@@ -1,0 +1,19 @@
+{
+  "-name": "CubeRulesCalc",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Copy Cube with precalculated Rule Values\nVariables: SourceConn, TargetConn, SourceDB, TargetDB, Cube=Sales, TargetCube"
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "CubeTarget_Load",
+      "-type": "load"
+    }
+  },
+  "variables": {
+    "variable": {
+      "-name": "_SourceRef",
+      "default": "CubeRulesCalc_Extract"
+    }
+  }
+}

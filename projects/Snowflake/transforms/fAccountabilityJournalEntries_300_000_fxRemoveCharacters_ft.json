@@ -1,0 +1,156 @@
+{
+  "-name": "fAccountabilityJournalEntries_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": {
+      "-name": "fxDescription",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "DESC",
+          "-nameref": "description"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fAccountabilityJournalEntries_300_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityJournalEntries_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "clientId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "credit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "debit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "departmentId"
+          }
+        },
+        {
+          "-name": "description",
+          "input": {
+            "-nameref": "fxDescription"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "eliminationEntry"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "foreignCurrencyBankAccountValue"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "generalLedgerAccountId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "interOfficeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "interOfficeJournalEntryId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jobId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "journalId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "productId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "supplierId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taskTypeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxAdjustmentType"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxCodeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxableValue"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "transactionCurrencyCredit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "transactionCurrencyDebit"
+          }
+        }
+      ]
+    }
+  }
+}

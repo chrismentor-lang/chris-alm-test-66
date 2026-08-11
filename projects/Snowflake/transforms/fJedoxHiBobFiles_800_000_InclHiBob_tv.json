@@ -1,0 +1,22 @@
+{
+  "-name": "fJedoxHiBobFiles_800_000_InclHiBob_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Including only Hi Bob endpoints from the list of Jedox files."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "For Hi Bob",
+      "-operator": "equal",
+      "-type": "accept",
+      "-value": "1"
+    }
+  },
+  "sources": {
+    "source": {
+      "-format": "ea",
+      "-nameref": "xdJedoxFiles_statAll_de"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "-name": "xfAccountabilityEstimateEntries_statAll_fe",
+  "-type": "Csv",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Select Distinct \"id\" FROM \"cfAccountabilityEstimates_varFileDate_fc\"\n\nSELECT LISTAGG(DISTINCT \"id\", ',') \n       WITHIN GROUP (ORDER BY \"id\") AS ids\nFROM \"cfAccountabilityEstimates_varFileDate_fc\";"
+  },
+  "connection": {
+    "-nameref": "cfAccountabilityEstimates_varFileDate_fc"
+  },
+  "query": {
+    "#file": "xfAccountabilityEstimateEntries_statAll_fe.query.sql",
+    "-serverSide": "false"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "fHiBobEmploymentEndpoint_900_010_statLoadMode_fl",
+  "-type": "Csv",
+  "comment": "Loads file with first page salary data into Snowflake/Float directory on SFTP.",
+  "connection": {
+    "-nameref": "cfHiBob_varHiBob${vHiBobEndpoint}Endpoint_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "fHiBobCursorEndpoints_900_000_fxTimestamp_ft"
+  },
+  "useScientificNotation": "true"
+}

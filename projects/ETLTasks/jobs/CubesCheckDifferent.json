@@ -1,0 +1,7 @@
+{
+  "-name": "CubesCheckDifferent",
+  "-type": "Groovy",
+  "jobscript": {
+    "#file": "CubesCheckDifferent.jobscript.groovy"
+  }
+}

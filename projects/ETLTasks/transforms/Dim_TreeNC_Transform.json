@@ -1,0 +1,26 @@
+{
+  "-name": "Dim_TreeNC_Transform",
+  "-type": "TreeNC",
+  "sources": {
+    "source": {
+      "-nameref": "DimFile_Extract"
+    }
+  },
+  "target": {
+    "element": {
+      "input": {
+        "-nameref": ":element"
+      }
+    },
+    "type": {
+      "input": {
+        "-nameref": ":type"
+      }
+    },
+    "weight": {
+      "input": {
+        "-nameref": ":weight"
+      }
+    }
+  }
+}

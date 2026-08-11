@@ -1,0 +1,20 @@
+{
+  "-name": "cRevenuePlanning_614_000_insFYCurrentFYNext_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "20260701: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "disabled"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "xvRevenuePlanningRefresh_statAll_re"
+  }
+}

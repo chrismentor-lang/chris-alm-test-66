@@ -1,0 +1,40 @@
+{
+  "-name": "Update Hi Bob Tables",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that retrieves the data from all required Hi Bob endpoints, pushes to csv-files and then uploads into Snowflake landing and harmonisation databases.\n\n20260525: Included rHiBob_InsertIntoHarmonisation_rs"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Create Hi Bob Endpoint files daily",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Compress HiBob files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rHiBob_StageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rHiBob_StageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rHiBob_TruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rHiBob_CopyIntoLanding_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rHiBob_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

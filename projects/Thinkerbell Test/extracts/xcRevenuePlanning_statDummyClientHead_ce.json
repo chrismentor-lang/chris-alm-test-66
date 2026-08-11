@@ -1,0 +1,49 @@
+{
+  "-name": "xcRevenuePlanning_statDummyClientHead_ce",
+  "-type": "Cube",
+  "cache": "false",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-drillthrough": "false",
+    "-onlyBasisAsDefault": "true",
+    "-useRules": "false",
+    "-zeroSuppressionType": "excludeEmptyAndZero",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "~",
+          "-dimension": "Client Head",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Revenue",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "New Business",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Organic",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

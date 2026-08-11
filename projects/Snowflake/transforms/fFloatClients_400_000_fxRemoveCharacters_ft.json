@@ -1,0 +1,49 @@
+{
+  "-name": "fFloatClients_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name from the Clients API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxName",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NAM",
+          "-nameref": "name"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fFloatClients_400_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatClients_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "client_id"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        }
+      ]
+    }
+  }
+}

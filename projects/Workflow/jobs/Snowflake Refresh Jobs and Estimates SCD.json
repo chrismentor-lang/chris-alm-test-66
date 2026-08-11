@@ -1,0 +1,16 @@
+{
+  "-name": "Snowflake Refresh Jobs and Estimates SCD",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Kicks off the Delete Estimates and Refresh SCD job in the Snowflake project to delete the estimates in the Snowflake harmonisation tables.\n\nNo need to set up any variables just run if refreshing the Accountability data"
+  },
+  "execution": {
+    "-nameref": "Delete Estimates and Refresh SCD",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  }
+}

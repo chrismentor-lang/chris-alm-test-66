@@ -1,0 +1,10 @@
+{
+  "-name": "UpdateElementType",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "The Element type of dimension elements is changed from String to Numeric or vice versa. TargetElementType is \"S\" for conversion to String element and \"N\" for conversion to Numeric element. For all cubes which contain this dimension the cube data on the selected elements is extracted to a temporary file and loaded back to the cube after element conversion. \nVariables: SourceConn, SourceDB, Dimension, RegExp, TargetElementType"
+  },
+  "jobscript": {
+    "#file": "UpdateElementType.jobscript.groovy"
+  }
+}

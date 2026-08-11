@@ -1,0 +1,116 @@
+{
+  "-name": "xjFloatPeople_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all employees and their details from Float.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatPeople_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "account.account_id"
+      },
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "auto_email"
+      },
+      {
+        "-input": "avatar_file"
+      },
+      {
+        "-input": "contractor"
+      },
+      {
+        "-input": "contracts[0].cost_rate"
+      },
+      {
+        "-input": "contracts[0].cost_rate_from"
+      },
+      {
+        "-input": "contracts[0].effective_date"
+      },
+      {
+        "-input": "contracts[0].role_id"
+      },
+      {
+        "-input": "contracts[0].role_name"
+      },
+      {
+        "-input": "cost_rate"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "default_hourly_rate"
+      },
+      {
+        "-input": "department.department_id"
+      },
+      {
+        "-input": "email"
+      },
+      {
+        "-input": "employee_type"
+      },
+      {
+        "-input": "end_date"
+      },
+      {
+        "-input": "job_title"
+      },
+      {
+        "-input": "managers"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "non_work_days"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "people_id"
+      },
+      {
+        "-input": "people_type_id"
+      },
+      {
+        "-input": "region_id"
+      },
+      {
+        "-input": "role_id"
+      },
+      {
+        "-input": "start_date"
+      },
+      {
+        "-input": "tags"
+      },
+      {
+        "-input": "tags[2].name"
+      },
+      {
+        "-input": "work_days_hours"
+      },
+      {
+        "-input": "work_days_hours_history"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

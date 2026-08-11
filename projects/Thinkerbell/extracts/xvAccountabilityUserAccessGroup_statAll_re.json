@@ -1,0 +1,14 @@
+{
+  "-name": "xvAccountabilityUserAccessGroup_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260716: Introduced to load the UserAccessGroup dimension."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvAccountabilityUserAccessGroup_statAll_re.query.sql"
+  }
+}

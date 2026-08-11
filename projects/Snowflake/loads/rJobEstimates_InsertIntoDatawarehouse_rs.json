@@ -1,0 +1,13 @@
+{
+  "-name": "rJobEstimates_InsertIntoDatawarehouse_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from accountability schema in the HARMONISATION database that combines estimates with resource planning data in the JOB_ESTIMATES table  in the DW schema of the DATAWAREHOUSE database."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rJobEstimates_InsertIntoDatawarehouse_rs.query.sql"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "-name": "Update Accountability Access Token",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Script that checks whether the current access token as registered in the Token dimension is still valid. If not, it will refresh the check the requirement for a new refresh token, refresh the access token and set the validity for the new token."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Update Accountability Access Token.jobscript.groovy"
+  }
+}

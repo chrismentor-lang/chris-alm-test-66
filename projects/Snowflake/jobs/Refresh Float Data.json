@@ -1,0 +1,11 @@
+{
+  "-name": "Refresh Float Data",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Executes the Update Float Tables job will also storing the job execution details for the job in Jedox."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Refresh Float Data.jobscript.groovy"
+  }
+}

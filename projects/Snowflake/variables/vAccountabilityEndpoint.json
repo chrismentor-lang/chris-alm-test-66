@@ -1,0 +1,5 @@
+{
+  "-name": "vAccountabilityEndpoint",
+  "comment": {},
+  "default": "JournalEntries"
+}

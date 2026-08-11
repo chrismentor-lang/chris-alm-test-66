@@ -1,0 +1,24 @@
+{
+  "-name": "crPostEmployee_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "20260605: Introduced"
+  },
+  "credentials": {
+    "token": {
+      "-nameref": "coauthAccountability_statToken_oauthc"
+    }
+  },
+  "headers": {
+    "header": {
+      "#text": "application/json",
+      "-name": "content-type"
+    }
+  },
+  "httpMethod": "POST",
+  "ignoreCookiesPolicy": "false",
+  "resource": {
+    "#cdata-section": "https://api.accountabilityonesystem.com/v1/Employees"
+  },
+  "ssl": "verify"
+}

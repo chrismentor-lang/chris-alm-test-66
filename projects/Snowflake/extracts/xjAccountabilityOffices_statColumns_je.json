@@ -1,0 +1,47 @@
+{
+  "-name": "xjAccountabilityOffices_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityOffices_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "countryId"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "defaultInputTaxCodeId"
+      },
+      {
+        "-input": "defaultOutputTaxCodeId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

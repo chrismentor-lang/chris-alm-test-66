@@ -1,0 +1,159 @@
+{
+  "components": {
+    "Workflow.connections.cgLocal_statThinkerbell_jc": {
+      "hash": "sha256:812f76bdb9276ccdf766620661b21b2f39f94a6df61dd69af864961d3af2e650",
+      "modified": 1781249649946,
+      "modifiedBy": "admin"
+    },
+    "Workflow.connections.cgLocal_statThinkerbell_jc (Old)": {
+      "hash": "sha256:2fc6b5e03de028681b755e467691c5d7ea18cb13af0ffb054d3b2dd2cd1409e4",
+      "modified": 1781249630391,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Accountability Update Estimated Revenue": {
+      "hash": "sha256:37a00b3e40c716109fff9e44ac3e2b56fda9eba11bc807a05b3378a948472050",
+      "modified": 1782548308801,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Copy Estimate to Forecast on Demand": {
+      "hash": "sha256:590938fbc3e0b05b78fce4cea841f3d0b8c5bb2f72735bb7f28711d124d56527",
+      "modified": 1784854229519,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Refresh Jobs And Estimates in Harmonisation": {
+      "hash": "sha256:59aedfb3888e09105b809aa3e5782879d82b5da985828cea4ff5e8edeb86d377",
+      "modified": 1782547139813,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Refresh Jobs And Estimates in Harmonisation_OLD": {
+      "hash": "sha256:7221ce708005e389ab54ed35e8a4a55bac7d4cc2447c63ca8c3b713f93d99d72",
+      "modified": 1775713866500,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Refresh Jobs and Estimates in DW": {
+      "hash": "sha256:1a9bc156e293060076eb974aecbf7f08939444fe6732e320add3f206595a78e9",
+      "modified": 1782547928531,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Client Head Mapping": {
+      "hash": "sha256:c5841c66f466f855430584cab97a152da425e00ae5bb8162162c515dc54afed0",
+      "modified": 1782526589158,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Deleted Estimates Tables": {
+      "hash": "sha256:2d8cc84d3be1a264755bc52442249a016d2a7bf7acd04b4abe5c16a0134d80e7",
+      "modified": 1782547766907,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Estimate Entries Tables": {
+      "hash": "sha256:d7387474bae8f88a699583064001bef00730eb880d8edcfc2108c1c189801f6a",
+      "modified": 1782547047551,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Estimate Table": {
+      "hash": "sha256:04d333d92ac3a8b41527459571e62408e772706089d820cf94e3b221733703b6",
+      "modified": 1784854152877,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Estimates Tables": {
+      "hash": "sha256:523d63f2ebf7ab3c2f0f7319ef96751dbe6ef06454cc812ddf38ad67b2929aec",
+      "modified": 1782547014481,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Jobs Tables": {
+      "hash": "sha256:0025ca1024fbfe393d52cbc081681c7e165d6d7ccf384814484f336a156838de",
+      "modified": 1782546980749,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Jobs and Estimates SCD": {
+      "hash": "sha256:45b7b82cf19364505ec82539c61316a889fc7a4cbe08ff1ce049a1ca0863af97",
+      "modified": 1782547253815,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Revenue Planning Estimate": {
+      "hash": "sha256:da9b522e1bd341b1cf82bcf759d24eb3ade29d41bb256a7de95258a70ba256d9",
+      "modified": 1782548173003,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Revenue Planning Estimate Cube": {
+      "hash": "sha256:ea65e04eaec89535e9ca58bfddb39d92ce7d48d05f068d0abd12fbdf836dc75e",
+      "modified": 1782887414500,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Snowflake Refresh Revenue Tracker Version": {
+      "hash": "sha256:59a7456bf3ed40fe98e610ca411ef710bcaeb261679a28ca39f54dc99221252e",
+      "modified": 1774573129498,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Thinkerbell Copy Estimate Adjusted to Input": {
+      "hash": "sha256:c2b8e6d449c0d19242d1ee9b82ae7e1064c433c4221b4cadabec488aa77e96b5",
+      "modified": 1782554649638,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Thinkerbell Refresh Estimate Dimension": {
+      "hash": "sha256:164fe5ff69745fecb59a1ab3f0842bc8d1b7a403c50e8d2ab3c89d4ffc7bb269",
+      "modified": 1782551617744,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Thinkerbell Refresh Estimated Revenue On Demand": {
+      "hash": "sha256:2e01f88a279c55aa881b12e0677ccefd21e97de6aa72423bc6e9889f419672bc",
+      "modified": 1774571879353,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Thinkerbell Refresh Revenue Planning Cube": {
+      "hash": "sha256:9871802e356c2a205e6017ac5635bc0308cd5c304b3c89a5dd47754604b7ec7f",
+      "modified": 1782529868345,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Thinkerbell Refresh Revenue Planning Cube Months": {
+      "hash": "sha256:42d176041b6598c4a37d1145a60cc133351687869ddb384a5f76efd6c1e7b3cc",
+      "modified": 1782906755978,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Thinkerbell Revenue Planning Copy Estimate to FC": {
+      "hash": "sha256:58968fdc95cd6b9f2fd6100a8f981a328404a7ec4a40732d80599b2a78033677",
+      "modified": 1782546814371,
+      "modifiedBy": "admin"
+    },
+    "Workflow.jobs.Update Client Head Mapping in Revenue Cube": {
+      "hash": "sha256:a6b62054b8e19e5f6c7246d47c288ecf888ab992986a59131a71468c9080f3fb",
+      "modified": 1783514017365,
+      "modifiedBy": "admin"
+    },
+    "Workflow.variables.vAccountabilityEndpoint": {
+      "hash": "sha256:a42a071bf9c2980d43f63454c6cf1a15de4c691bbe2691c97825cff0d671e057",
+      "modified": 1775712763401,
+      "modifiedBy": "admin"
+    },
+    "Workflow.variables.vAccountabilityTable": {
+      "hash": "sha256:d39215110b4d0c702eef31f05c19f5018db3e768f8f92dc9a151d5af7ec2bf12",
+      "modified": 1775712769352,
+      "modifiedBy": "admin"
+    },
+    "Workflow.variables.vFCVersion": {
+      "hash": "sha256:98c517176187baba63016f33e0ffad3770ae772ce534e6e5105807c5913dd44a",
+      "modified": 1774570940086,
+      "modifiedBy": "admin"
+    },
+    "Workflow.variables.vFY": {
+      "hash": "sha256:988b8f4bdb814583940712eb81b7bbcaf2a410fa29c977ea7d421a0801cbfda9",
+      "modified": 1774570947525,
+      "modifiedBy": "admin"
+    },
+    "Workflow.variables.vSnowflakeSchemaType": {
+      "hash": "sha256:a759571bb3871770249b52e7635fc32decec3803bf0e86eb9c6b61a17a284a72",
+      "modified": 1775712775665,
+      "modifiedBy": "admin"
+    }
+  },
+  "hash": "sha256:e64d7c5a596b8a35a7a112408c6c1a6ad9254be1e1df1a4ea592cc702b960c4c",
+  "modified": 1784854229519,
+  "modifiedBy": "admin",
+  "project": "Workflow",
+  "source": {
+    "at": "2026-08-11T00:53:51Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

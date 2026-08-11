@@ -1,0 +1,13 @@
+{
+  "-name": "rAccountability_StageDelete_rs_Sandbox",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "remove @LANDING.SCHEMA.STAGE/FILENAME.csv.gz;"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rAccountability_StageDelete_rs_Sandbox.query.sql"
+  }
+}

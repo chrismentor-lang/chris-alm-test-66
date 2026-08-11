@@ -1,0 +1,10 @@
+{
+  "-name": "rSnowflake_100_000_varViewsforEmails_rs",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rSnowflake_100_000_varViewsforEmails_rs.query.sql"
+  }
+}

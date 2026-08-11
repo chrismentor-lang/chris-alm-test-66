@@ -1,0 +1,14 @@
+{
+  "-name": "xvFTEWeekend_varDay_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the weekend days from the Fact FTE weekend view from Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvFTEWeekend_varDay_re.query.sql"
+  }
+}

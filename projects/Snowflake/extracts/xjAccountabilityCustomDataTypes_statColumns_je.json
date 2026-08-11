@@ -1,0 +1,29 @@
+{
+  "-name": "xjAccountabilityCustomDataTypes_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityCustomDataTypes_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "dataType"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "transactionType"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

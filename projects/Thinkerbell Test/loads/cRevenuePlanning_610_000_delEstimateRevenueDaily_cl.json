@@ -1,0 +1,21 @@
+{
+  "-name": "cRevenuePlanning_610_000_delEstimateRevenueDaily_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "Clears the coordinates for which the revenue will be reloaded into the revenue planning cube to make sure that we can load with add."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "disabled"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xvRevenueEstimatedDaily_statAll_re"
+  }
+}

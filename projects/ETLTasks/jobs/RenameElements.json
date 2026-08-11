@@ -1,0 +1,7 @@
+{
+  "-name": "RenameElements",
+  "-type": "Groovy",
+  "jobscript": {
+    "#file": "RenameElements.jobscript.groovy"
+  }
+}

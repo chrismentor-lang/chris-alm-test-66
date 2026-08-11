@@ -1,0 +1,207 @@
+{
+  "-name": "fFloatProjects_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name, notes, and project tasks from the Projects API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NAM",
+            "-nameref": "name"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatProjects_400_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatProjects_400_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxProjectTasks",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "project_tasks"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatProjects_400_000_fxRemoveCharacters_ft.functions.function.3.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatProjects_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "all_pms_schedule"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "budget_per_phase"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "budget_priority"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "budget_total"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "budget_type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "client_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "color"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "default_hourly_rate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "end_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "expenses"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "locked_task_list"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "non_billable"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_code"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_manager"
+          }
+        },
+        {
+          "-name": "project_tasks",
+          "input": {
+            "-nameref": "fxProjectTasks"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "stage_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "start_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "status"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "tags"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "tentative"
+          }
+        }
+      ]
+    }
+  }
+}

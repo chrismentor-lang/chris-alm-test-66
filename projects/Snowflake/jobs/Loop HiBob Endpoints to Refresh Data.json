@@ -1,0 +1,37 @@
+{
+  "-name": "Loop HiBob Endpoints to Refresh Data",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vHiBobEndpoint",
+        "input": {
+          "-nameref": ":element"
+        }
+      },
+      {
+        "-name": "vHiBobTable",
+        "input": {
+          "-nameref": "Snowflake Table"
+        }
+      },
+      {
+        "-name": "vHiBobStage",
+        "input": {
+          "-nameref": "Snowflake Stage"
+        }
+      }
+    ]
+  },
+  "comment": {
+    "#cdata-section": "Refreshing HiBob data in Snowflake looping through a list of endpoints in HiBob."
+  },
+  "execution": {
+    "-nameref": "Refresh HiBob Data",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "fHiBobEndpoint_400_000_exclInactive_tv"
+  }
+}

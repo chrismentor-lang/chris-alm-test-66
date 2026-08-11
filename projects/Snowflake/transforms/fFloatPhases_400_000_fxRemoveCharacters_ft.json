@@ -1,0 +1,144 @@
+{
+  "-name": "fFloatPhases_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name and the notes from the Phases API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NAM",
+            "-nameref": "name"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatPhases_400_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatPhases_400_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatPhases_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "budget_total"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "color"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "default_hourly_rate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "end_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "non_billable"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "phase_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "phase_tasks"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "phase_team"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "start_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "status"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "tentative"
+          }
+        }
+      ]
+    }
+  }
+}

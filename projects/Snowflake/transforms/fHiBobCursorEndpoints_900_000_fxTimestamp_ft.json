@@ -1,0 +1,55 @@
+{
+  "-name": "fHiBobCursorEndpoints_900_000_fxTimestamp_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "To add a timestamp for each page"
+  },
+  "functions": {
+    "function": {
+      "-name": "fxTimestamp",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-constant": "1"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fHiBobCursorEndpoints_900_000_fxTimestamp_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjHiBob_varEndpoint_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Cursor",
+          "input": {
+            "-nameref": "response_metadata.next_cursor"
+          }
+        },
+        {
+          "-name": "Timestamp",
+          "input": {
+            "-nameref": "fxTimestamp"
+          }
+        },
+        {
+          "-name": "Json Value",
+          "input": {
+            "-nameref": "results"
+          }
+        }
+      ]
+    }
+  }
+}

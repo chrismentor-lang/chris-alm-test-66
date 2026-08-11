@@ -1,0 +1,21 @@
+{
+  "-name": "cClientHeadTargets_619_000_insCurrent_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "20260807: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Client Head Targets",
+    "-splash": "disabled"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "xvClientHeadTargets_statCurrent_re"
+  }
+}

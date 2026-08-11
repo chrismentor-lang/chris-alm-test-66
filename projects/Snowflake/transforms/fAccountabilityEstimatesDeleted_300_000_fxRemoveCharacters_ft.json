@@ -1,0 +1,26 @@
+{
+  "-name": "fAccountabilityEstimatesDeleted_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityEstimatesDeleted_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "deletedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "-name": "cCostRate_153_000_addNTM_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Adds the cost rates combinations between employee, currency, and day to the Cost Rate cube.\n\n20260506 :Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Cost Rate",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Scenario",
+          "-name": "Scenario"
+        },
+        {
+          "-input": "Day",
+          "-name": "Day"
+        },
+        {
+          "-input": "Currency",
+          "-name": "Currency"
+        },
+        {
+          "-input": "Employee",
+          "-name": "Employee"
+        },
+        {
+          "-input": "Detail Cost Rate",
+          "-name": "Detail Cost Rate"
+        },
+        {
+          "-input": "Measure",
+          "-name": "Measure"
+        }
+      ]
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xvCostRateNTM_statAll_re"
+  }
+}

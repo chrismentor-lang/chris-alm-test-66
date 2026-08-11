@@ -1,0 +1,17 @@
+{
+  "-name": "Accountability File Creation (Manual)",
+  "-type": "Standard",
+  "executions": {
+    "execution": {
+      "-nameref": "Create Accountability Endpoint files daily",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "vAccountabilityEndpoint",
+      "default": "EstimatesDeleted"
+    }
+  }
+}

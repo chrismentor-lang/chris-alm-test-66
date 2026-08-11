@@ -1,0 +1,33 @@
+{
+  "-name": "dAccountabilityUserAccessGroup_1400_000_byID_fh",
+  "-type": "TreeFH",
+  "comment": "20260716: Introduced.",
+  "sources": {
+    "source": {
+      "-nameref": "xvAccountabilityUserAccessGroup_statAll_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Name",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "Name",
+            "input": {
+              "-nameref": "USER_ACCESS_GROUP_NAME"
+            }
+          }
+        },
+        "input": {
+          "-nameref": "USER_ACCESS_GROUP_ID"
+        }
+      }
+    }
+  }
+}

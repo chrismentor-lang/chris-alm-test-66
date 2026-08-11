@@ -1,0 +1,44 @@
+{
+  "-name": "fDailyFX_700_010_noneCurrencies_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Normalises retrieved FX rates specifically for the rates between AUD and NZD."
+  },
+  "delimiter": ",",
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "fDailyFX_700_000_unionHistory_tu"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "Units"
+          }
+        },
+        {
+          "-name": "Currency",
+          "input": {
+            "-constant": "AUD"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Target Currency",
+      "-valuename": "Fx Rate",
+      "measure": {
+        "-aggregate": "none",
+        "input": {
+          "-nameref": "NZD"
+        }
+      }
+    }
+  }
+}

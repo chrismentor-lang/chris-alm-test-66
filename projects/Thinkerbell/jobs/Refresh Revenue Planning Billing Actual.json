@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh Revenue Planning Billing Actual",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Deletes and loads the actual billings for the base scenario into the Revenue Planning cube based on a view from the consumption database in Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cRevenuePlanning_605_000_delActualBilling_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cRevenuePlanning_604_000_addActualBilling_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

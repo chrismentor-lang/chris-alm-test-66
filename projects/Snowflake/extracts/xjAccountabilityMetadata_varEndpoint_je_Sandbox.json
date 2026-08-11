@@ -1,0 +1,26 @@
+{
+  "-name": "xjAccountabilityMetadata_varEndpoint_je_Sandbox",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityEstimates_varAccessToken_rc_Sandbox"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "count"
+      },
+      {
+        "-input": "offset"
+      },
+      {
+        "-input": "total"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.metadata"
+    }
+  }
+}

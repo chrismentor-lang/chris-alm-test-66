@@ -1,0 +1,22 @@
+{
+  "-name": "DimensionGeneric_Load",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "OlapTarget"
+  },
+  "dimension": {
+    "-name": "${Dimension}",
+    "attributes": {
+      "-mode": "inactive"
+    },
+    "consolidations": {
+      "-mode": "update"
+    },
+    "elements": {
+      "-mode": "create"
+    }
+  },
+  "source": {
+    "-nameref": "GenericDimension_Tree"
+  }
+}

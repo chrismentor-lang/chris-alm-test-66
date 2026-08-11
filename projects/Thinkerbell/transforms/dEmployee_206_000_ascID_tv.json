@@ -1,0 +1,19 @@
+{
+  "-name": "dEmployee_206_000_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sorts the hierarchy in ascending order for Employee ID."
+  },
+  "sorter": {
+    "input": {
+      "-nameref": "EMPLOYEE_ID",
+      "-order": "ascending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvEmployeeByEmployee_statAll_re"
+    }
+  }
+}

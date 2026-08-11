@@ -1,0 +1,33 @@
+{
+  "-name": "dDay_143_045_byL3M_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_143_030_sortMonth_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Days L3M"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxConsolidatedL3M"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxBaseL3M"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "-name": "xjAccountabilityEstimates_statColumns_je_Sandbox",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityEstimates_varAccessToken_rc_Sandbox"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "addedAt"
+      },
+      {
+        "-input": "addedByEmployeeId"
+      },
+      {
+        "-input": "approved"
+      },
+      {
+        "-input": "approvedAt"
+      },
+      {
+        "-input": "approvedByEmployeeId"
+      },
+      {
+        "-input": "clientApprovedDate"
+      },
+      {
+        "-input": "clientContactId"
+      },
+      {
+        "-input": "clientOrderNumber"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "estimatedRevenue"
+      },
+      {
+        "-input": "fxRate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "jobId"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "serviceFeePercentage"
+      },
+      {
+        "-input": "startDate"
+      },
+      {
+        "-input": "superseded"
+      },
+      {
+        "-input": "taxCodeId"
+      },
+      {
+        "-input": "taxPercentage"
+      },
+      {
+        "-input": "title"
+      },
+      {
+        "-input": "version"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

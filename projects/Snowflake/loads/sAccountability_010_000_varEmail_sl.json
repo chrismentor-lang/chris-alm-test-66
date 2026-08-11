@@ -1,0 +1,13 @@
+{
+  "-name": "sAccountability_010_000_varEmail_sl",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "To load created employees back into snowflake"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "sAccountability_010_000_varEmail_sl.query.sql"
+  }
+}

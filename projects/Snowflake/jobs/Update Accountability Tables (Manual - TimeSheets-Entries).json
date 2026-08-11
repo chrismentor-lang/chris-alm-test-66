@@ -1,0 +1,61 @@
+{
+  "-name": "Update Accountability Tables (Manual - TimeSheets-Entries)",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Create Accountability Endpoint files daily",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Compress Accountability files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rAccountability_StageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_StageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_TruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_CopyIntoLanding_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vAccountabilityEndpoint",
+        "default": "TimeSheets"
+      },
+      {
+        "-name": "vAccountabilityTable",
+        "default": "TIME_SHEETS"
+      },
+      {
+        "-name": "vSnowflakeSchemaType",
+        "default": "INCREMENTAL"
+      },
+      {
+        "-name": "vAccountabilityDateFrom",
+        "default": "2025-12-01"
+      },
+      {
+        "-name": "vAccountabilityDateTo",
+        "default": "2025-12-31"
+      }
+    ]
+  }
+}

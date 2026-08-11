@@ -1,0 +1,40 @@
+{
+  "-name": "crAccountabilityJournals_varAccessToken_rc",
+  "-type": "Rest",
+  "comment": "20260212: Removed the parameters ModifiedFrom and ModifiedTo and included the parameters AccountingYearID and AccountingMonthId\n20260112: Added the parameter ModifiedFrom",
+  "credentials": {
+    "token": {
+      "-nameref": "coauthAccountability_statToken_oauthc"
+    }
+  },
+  "headers": {
+    "header": {
+      "#text": "application/json",
+      "-name": "accept"
+    }
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "parameters": {
+    "parameter": [
+      {
+        "#text": "200",
+        "-name": "Limit"
+      },
+      {
+        "#text": "${vAccountabilityOffset}",
+        "-name": "Offset"
+      },
+      {
+        "#text": "${vAccountingYear}",
+        "-name": "AccountingYearId"
+      },
+      {
+        "#text": "${vAccountingMonth}",
+        "-name": "AccountingMonthId"
+      }
+    ]
+  },
+  "resource": "https://api.accountabilityonesystem.com/v1/Journals",
+  "ssl": "verify"
+}

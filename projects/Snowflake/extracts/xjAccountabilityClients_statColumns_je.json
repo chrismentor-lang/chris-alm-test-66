@@ -1,0 +1,125 @@
+{
+  "-name": "xjAccountabilityClients_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityClients_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "billable"
+      },
+      {
+        "-input": "clientAccountNumber"
+      },
+      {
+        "-input": "clientManagerId"
+      },
+      {
+        "-input": "clientTypeId"
+      },
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "companyNumber"
+      },
+      {
+        "-input": "creditLimit"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "customCode1Id"
+      },
+      {
+        "-input": "customCode2Id"
+      },
+      {
+        "-input": "customCode3Id"
+      },
+      {
+        "-input": "customCode4Id"
+      },
+      {
+        "-input": "customCode5Id"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "masterClientId"
+      },
+      {
+        "-input": "mediaClientManagerId"
+      },
+      {
+        "-input": "mediaCommissionRebatePercentage"
+      },
+      {
+        "-input": "mediaServiceFeeCalculateOn"
+      },
+      {
+        "-input": "mediaServiceFeePercentage"
+      },
+      {
+        "-input": "mediaTaxStatus"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "paymentTermsBasedOn"
+      },
+      {
+        "-input": "paymentTermsFactor"
+      },
+      {
+        "-input": "paymentTermsNumber"
+      },
+      {
+        "-input": "serviceFeePercentage"
+      },
+      {
+        "-input": "supplierInvoiceMarkUpPercentage"
+      },
+      {
+        "-input": "taxCodeId"
+      },
+      {
+        "-input": "taxIdNumber"
+      },
+      {
+        "-input": "taxPercentage"
+      },
+      {
+        "-input": "websiteUrl"
+      },
+      {
+        "-input": "withholdingTaxCodeId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

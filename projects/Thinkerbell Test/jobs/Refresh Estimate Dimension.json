@@ -1,0 +1,24 @@
+{
+  "-name": "Refresh Estimate Dimension",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that builds the Estimate dimension's All Estimate hierarchy including dummy elements for client and job based on the Snowflake view for the estimate dimension.\n\n20260723: Removed dEstimate_003_000_deSuperseded_dl because estimate should not be deleted (instead cleared) in Jedox.\n20260617: Added dEstimate_003_000_delSuperseded_dl to make sure that superseded estimate are deleted from Jedox."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dEstimate_000_020_insAllEstimates_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dEstimate_001_020_insDummyJobNumber_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dEstimate_002_020_insDummyClient_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

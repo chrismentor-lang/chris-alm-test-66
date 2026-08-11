@@ -1,0 +1,13 @@
+{
+  "-name": "rAccountability_CopyIntoLanding_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from incremental or full accountability schema in the landing database to load the file in the stage into the table."
+  },
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rAccountability_CopyIntoLanding_rs.query.sql"
+  }
+}

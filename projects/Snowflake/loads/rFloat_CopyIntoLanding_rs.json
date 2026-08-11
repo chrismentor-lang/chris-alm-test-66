@@ -1,0 +1,13 @@
+{
+  "-name": "rFloat_CopyIntoLanding_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from public schema in the landing database to load the file in the stage into the table.\n\n--CALL PUBLIC.LOAD_FROM_STAGE('${vTableName}','${vSourceName}','${vFloatStage}');"
+  },
+  "connection": {
+    "-nameref": "csfFloatLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rFloat_CopyIntoLanding_rs.query.sql"
+  }
+}

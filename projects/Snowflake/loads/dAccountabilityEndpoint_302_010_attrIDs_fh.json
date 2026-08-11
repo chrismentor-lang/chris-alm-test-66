@@ -1,0 +1,22 @@
+{
+  "-name": "dAccountabilityEndpoint_302_010_attrIDs_fh",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbellApplicationManagement_jc"
+  },
+  "dimension": {
+    "-name": "Accountability Endpoint",
+    "attributes": {
+      "-mode": "insert"
+    },
+    "consolidations": {
+      "-mode": "inactive"
+    },
+    "elements": {
+      "-mode": "inactive"
+    }
+  },
+  "source": {
+    "-nameref": "dAccountabilityEndpoint_302_000_attrIDs_fh"
+  }
+}

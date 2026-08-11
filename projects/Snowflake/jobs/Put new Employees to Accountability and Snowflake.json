@@ -1,0 +1,13 @@
+{
+  "-name": "Put new Employees to Accountability and Snowflake",
+  "-type": "ExternalJob",
+  "execution": {
+    "-nameref": "Put new Employees to Accountability and Snowflake",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Accountability",
+    "-scope": "Global"
+  }
+}

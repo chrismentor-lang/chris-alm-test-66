@@ -1,0 +1,11 @@
+{
+  "-name": "Compress Jedox files in SFTP",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Compresses the Jedox files that were loaded into the SFTP folder Snowflake/Jedox in the previous step."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Compress Jedox files in SFTP.jobscript.groovy"
+  }
+}

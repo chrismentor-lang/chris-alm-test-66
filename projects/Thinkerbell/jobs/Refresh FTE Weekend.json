@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh FTE Weekend",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Deletes and loads the Weekend FTE for the entire history from the snowflake view to the FTE cube."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cFTE_171_000_delWeekend_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cFTE_170_000_addWeekend_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

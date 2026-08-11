@@ -1,0 +1,16 @@
+{
+  "-name": "Cubes",
+  "-type": "Metadata",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "query": {
+    "filters": {
+      "filter": {
+        "-name": "mask",
+        "-value": "11101"
+      }
+    },
+    "selector": "cube"
+  }
+}

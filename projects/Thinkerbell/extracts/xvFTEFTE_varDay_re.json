@@ -1,0 +1,14 @@
+{
+  "-name": "xvFTEFTE_varDay_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260205 :Created"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvFTEFTE_varDay_re.query.sql"
+  }
+}

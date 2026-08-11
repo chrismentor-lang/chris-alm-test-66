@@ -1,0 +1,30 @@
+{
+  "-name": "xvBSAccount_statAll_re",
+  "-type": "Relational",
+  "alias_map": {
+    "alias": [
+      {
+        "-origin": "PARENT_ELEMENT"
+      },
+      {
+        "-origin": "CHILD_ELEMENT"
+      },
+      {
+        "-origin": "NAME"
+      },
+      {
+        "-origin": "ID_NAME"
+      },
+      {
+        "-origin": "CONVERSION_TYPE"
+      }
+    ]
+  },
+  "cache": "false",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvBSAccount_statAll_re.query.sql"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "-name": "xcCostRate_varDayVersion_cs",
+  "-type": "CubeSlice",
+  "comment": "Takes cube slice for a specific version and day from the Cost Rate cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Cost Rate"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "${vVersion}",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "${vDay}",
+          "-dimension": "Day",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

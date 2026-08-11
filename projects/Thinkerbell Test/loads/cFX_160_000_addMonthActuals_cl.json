@@ -1,0 +1,19 @@
+{
+  "-name": "cFX_160_000_addMonthActuals_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Adds the retrieved FX data for the specified month to the FX cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FX",
+    "-splash": "disabled"
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xvFX_varMonth_re"
+  }
+}
