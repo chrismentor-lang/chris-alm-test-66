@@ -109,9 +109,9 @@
   "hash": "sha256:01fb74fddc4c4f93daae64abf3902f521d6a876e97b583080bedeaf1d34cbb4a",
   "project": "olap:Biker",
   "source": {
-    "at": "2026-08-11T03:12:17Z",
+    "at": "2026-08-11T23:49:55Z",
     "env": "uat",
     "host": "https://poc-minerva.cloud.jedox.com/"
   },
-  "token": "4271022"
+  "token": "4030892"
 }
