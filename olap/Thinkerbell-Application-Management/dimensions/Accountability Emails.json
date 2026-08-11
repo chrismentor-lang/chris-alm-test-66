@@ -1,0 +1,8 @@
+{
+  "name": "Accountability Emails",
+  "kind": "normal",
+  "properties": {
+    "Description": "Emails sent for changes pushed for employees from Hibob to accountability",
+    "Name": "Accountability Emails"
+  }
+}
