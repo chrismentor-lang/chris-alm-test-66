@@ -1,0 +1,46 @@
+### rule
+{"active":true,"comment":"This is a rule with a long source formula. It could be be longer!","position":1}
+['Budget', '10 Best Bike Seller AG', 'Other income'] = B: 'Biker2':'Orders2'['Products':'All Products', 'Customers':'All Customers', 'Channels':'Fax/Phone/Mail', 'Versions':'Budget', 'Measures':'Sales'] *10
+### rule
+{"active":true,"comment":"Here is another one. ","position":2}
+['Budget', '10 Best Bike Seller AG', 'Other income'] = 'Biker2':'Orders2'['Products':'All Products', 'Customers':'All Customers', 'Channels':'Fax/Phone/Mail', 'Versions':'Budget', 'Measures':'Sales'] *20
+### rule
+{"active":true,"comment":"And yet another. We could have a lot of test here to read and for users to understand in a report. ","position":3}
+['Budget', '10 Best Bike Seller AG', 'Other income'] = 'Biker2':'Orders2'['Products':'All Products', 'Customers':'All Customers', 'Channels':'Fax/Phone/Mail', 'Versions':'Budget', 'Measures':'Sales'] *14
+### rule
+{"active":true,"position":4}
+['Budget', '10 Best Bike Seller AG', 'Other income'] = 'Biker2':'Orders2'['Products':'All Products', 'Customers':'All Customers', 'Channels':'Fax/Phone/Mail', 'Versions':'Budget', 'Measures':'Sales'] *12
+### rule
+{"active":true,"comment":"['Budget','10 Best Bike Seller AG','Turnover-Merchandise'] = B:PALO.DATA(\"Biker2\",\"Orders2\",!'Years',!'Months',\"All Products\",\"All Customers\",\"Fax/Phone/Mail\",\"Budget\",\"Sales\")","position":5}
+['Budget', '10 Best Bike Seller AG', 'Turnover-Merchandise'] = B:'Biker2':'Orders2'['Products':'All Products', 'Customers':'All Customers', 'Channels':'Fax/Phone/Mail', 'Versions':'Budget', 'Measures':'Sales']
+### rule
+{"active":true,"position":6}
+['Budget','10 Best Bike Seller AG','Cost of materials'] = B:PALO.DATA("Biker","Orders2",!'Years',!'Months',"All Products","All Customers","Fax/Phone/Mail","Budget","Cost of Sales") * -1
+### rule
+{"active":true,"position":7}
+['Budget','20 Beta E-Commerce Ltd','Turnover-Merchandise'] = B:PALO.DATA("Biker","Orders2",!'Years',!'Months',"All Products","All Customers","Online Shop","Budget","Sales")
+### rule
+{"active":true,"comment":"test rule","position":8}
+['Budget','20 Beta E-Commerce Ltd','Turnover-Merchandise'] = B:999
+### rule
+{"active":true,"comment":"test rule","position":9}
+['Budget','20 Beta E-Commerce Ltd','Turnover-Merchandise'] = B:PALO.MARKER("Biker","Orders2",!'Years',!'Months',"All Products","All Customers","Online Shop","Budget","Cost of Sales") * -1
+### rule
+{"active":true,"position":10}
+['Budget','20 Beta E-Commerce Ltd','Cost of materials'] = B:PALO.DATA("Biker","Orders2",!'Years',!'Months',"All Products","All Customers","Online Shop","Budget","Cost of Sales") * -1
+### rule
+{"active":true,"comment":"TEST RULE","position":11}
+['Budget', '20 Beta E-Commerce Ltd', 'Cost of materials', 'Months':{'Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'}] = B:PALO.DATA("Biker", "Orders2", !'Years', !'Months', "All Products", "All Customers", "Online Shop", "Budget", "Cost of Sales") * -1
+### rule
+{"active":true,"comment":"TEST RULE","position":12}
+//test rule with an inline comment. 
+['Budget', '20 Beta E-Commerce Ltd', 'Profit_Loss':'Cost of materials'] = if(['Budget', '20 Beta E-Commerce Ltd', 'Turnover-Merchandise'] > 0, PALO.DATA("Biker", "Orders2", !'Years', !'Months', "All Products", "All Customersxx", "Online Shop", "Budget", "Cost of Sales") * -1, if(['Budget', '20 Beta E-Commerce Ltd', 'Profit_Loss':OFFSET(1)] < 0, if(['Budget', '20 Beta E-Commerce Ltd', 'Turnover-Merchandise'] == 44, if(PALO.EISANC("Orders1", "Profit_Loss", "Gross Profit", '#_Profit_Loss'['#_Profit_Loss_':'deutsch']) == 1, 999, stet()))))
+### rule
+{"active":true,"position":13}
+['Profit_Loss':'Net income / (loss)'] = '#_Profit_Loss'['#_Profit_Loss_':'deutsch']
+### rule
+{"active":true,"position":14}
+['Budget','30 Bike Trade Sarl','Turnover-Merchandise'] = B:PALO.DATA("Biker","Orders2",!'Years',!'Months',"All Products","All Customers","Walk-In","Budget","Sales")
+### rule
+{"active":true,"position":15}
+['Budget','30 Bike Trade Sarl','Cost of materials'] = B:PALO.DATA("Biker","Orders2",!'Years',!'Months',"All Products","All Customers","Walk-In","Budget","Cost of Sales") * -1

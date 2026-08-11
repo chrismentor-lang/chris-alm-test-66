@@ -1,0 +1,8 @@
+{
+  "name": "Measures",
+  "kind": "normal",
+  "properties": {
+    "DefaultWriteElement": "Units",
+    "Name": "Measures"
+  }
+}

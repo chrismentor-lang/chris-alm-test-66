@@ -1,0 +1,7 @@
+{
+  "name": "*Base",
+  "owner": "new1",
+  "attributes": {
+    "Description": "This subset contains all elements on the base level of the dimension as a flat list, in alphabetical order."
+  }
+}

@@ -1,0 +1,9 @@
+### rule
+{"active":true,"position":1}
+['10 Best Bike Seller AG','Net profit / loss'] = PALO.DATA("Biker","P_L",!'Versions',!'Years',!'Months',"10 Best Bike Seller AG","Net income / (loss)")
+### rule
+{"active":true,"position":2}
+['20 Beta E-Commerce Ltd','Net profit / loss'] = PALO.DATA("Biker","P_L",!'Versions',!'Years',!'Months',"20 Beta E-Commerce Ltd","Net income / (loss)")
+### rule
+{"active":true,"position":3}
+['30 Bike Trade Sarl','Net profit / loss'] = PALO.DATA("Biker","P_L",!'Versions',!'Years',!'Months',"30 Bike Trade Sarl","Net income / (loss)")

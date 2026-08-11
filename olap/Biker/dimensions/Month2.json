@@ -1,0 +1,13 @@
+{
+  "name": "Month2",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "All Months",
+    "DefaultWriteElement": "~",
+    "NAElement": "~",
+    "Name": "Month2",
+    "TimeEditorConf": "{\"LEVELTYPE\":\"YEAR-MONTH\",\"STARTYEAR\":2022,\"ENDYEAR\":2023,\"ADDITIONALELEMENTYEAR\":false,\"ADDITIONALELEMENTMONTH\":false,\"OPENINGPERIOD\":false,\"DUMMYELEMENT\":true,\"SEPARATEHIERARCHIES\":false,\"CURRENTYEARHIERARCHIES\":\"000000\"}",
+    "TotalElement": "All Months",
+    "Type": "Time"
+  }
+}

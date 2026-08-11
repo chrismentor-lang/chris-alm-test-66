@@ -1,0 +1,8 @@
+{
+  "name": "CH",
+  "kind": "normal",
+  "properties": {
+    "DefaultWriteElement": "CH1",
+    "Name": "CH"
+  }
+}

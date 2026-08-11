@@ -1,0 +1,12 @@
+{
+  "name": "Sales_data",
+  "kind": "normal",
+  "dimensions": [
+    "Versions",
+    "Customers",
+    "Channels",
+    "Months",
+    "Products",
+    "Measures"
+  ]
+}

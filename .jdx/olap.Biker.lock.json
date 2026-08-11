@@ -1,0 +1,117 @@
+{
+  "components": {
+    "cubes.Balance": {
+      "hash": "sha256:47b2cdfd5c87876b218096fe7f56a4bcc63e6f6bff0bd69641389e922f7bdab4"
+    },
+    "cubes.Comment": {
+      "hash": "sha256:b37991264d12826508d0bae4da09dcd78be3e352a37786512f2214fbfb30082b"
+    },
+    "cubes.Favourites": {
+      "hash": "sha256:1fe8bef9058a2df33857f42d5dfd450b110d1591c457cad972894535f9e11102"
+    },
+    "cubes.Orders": {
+      "hash": "sha256:729d6ddada6703eaffe50f9921f1732a549a1302cc512f9eab7db8a4493999ae"
+    },
+    "cubes.Orders2": {
+      "hash": "sha256:c8a1045d14bc48ada4fa7d3a1a5d8a9793dc6416bb104ec1b18023e5a2077214"
+    },
+    "cubes.P_L": {
+      "hash": "sha256:7afd5a5c658db09d1e62fc49f9e641987cb1801efb85bc164733b9b5f4e8c3e6"
+    },
+    "cubes.Sales_data": {
+      "hash": "sha256:426c7fd7b3fc1f38ab713e424113c18111997242025643e554f43632010d7376"
+    },
+    "cubes.Status": {
+      "hash": "sha256:a4d127d55e010ed6dd331fe6437d2be861ad52e68e4dce7b7c1a2e8259db6b08"
+    },
+    "cubes.Test": {
+      "hash": "sha256:4ed897eee8cf144eb3dd513c29f24bd4a850116443b9ac74522547d0ebb5bba0"
+    },
+    "dimensions.Balance_Sheet": {
+      "hash": "sha256:20bac13dba228bb437291e40eb6092fe2b3a1933c96209a5e503808e9682d56b"
+    },
+    "dimensions.CH": {
+      "hash": "sha256:44df398ae29c5867f929f2f0c75d8d8929fec90c53557e9c5c098f411f000d35"
+    },
+    "dimensions.Channels": {
+      "hash": "sha256:a19f96bf48e9272d25a3ec1b6f40b3b2fbe9434c8c752631295bd48412492c52"
+    },
+    "dimensions.Client": {
+      "hash": "sha256:f1f56e401eef881258bb82b390829b8e66c2181e0c5b4f97c4663df56a81b60d"
+    },
+    "dimensions.Comment": {
+      "hash": "sha256:adbc52e6d2e1e2379e69dd7e09d04502dc6f356c4776c712774c592ad9ef9c26"
+    },
+    "dimensions.Customers": {
+      "hash": "sha256:d30348d39d55addd525e14362f36014e91a7c66406bb647d1ee2f36b432814e5"
+    },
+    "dimensions.Measure (Favourites)": {
+      "hash": "sha256:560a630ad4bf78a254ad84d8dd7ebe05272a0861749a7846061fa54c47088d22"
+    },
+    "dimensions.Measures": {
+      "hash": "sha256:95f766e0cbf211ed55bbb4da6dded5ddbdd79f26ae76d6a3baafa71fb18df56c"
+    },
+    "dimensions.Month2": {
+      "hash": "sha256:d6bb6040154533b9af55c2cb6f7a0f4bdba4050813d8f20e3b432cc041369e1f"
+    },
+    "dimensions.Months": {
+      "hash": "sha256:01100e510327c32cfc5c63ac0a5292f89080ed29613d979d8397fce672b98f91"
+    },
+    "dimensions.Orderlines": {
+      "hash": "sha256:226cc97e9188ab985d7669c67e8063f9edb7498b92224a559378b9bf237c9e11"
+    },
+    "dimensions.Products": {
+      "hash": "sha256:fb71bbb40b3867384de4e6f0a5c8e38bb232c0be88f119e5e4c14961c5b184dd"
+    },
+    "dimensions.Profit_Loss": {
+      "hash": "sha256:f5853673fdc3e36530cacb61fbe2f8162bb3c59aac955f4ca31145d368f7d504"
+    },
+    "dimensions.Reports": {
+      "hash": "sha256:27d3a9a4fe568871dc3eababfe4c0fc2cafdffce1f071517e54d1183cd36096b"
+    },
+    "dimensions.Status": {
+      "hash": "sha256:46be29d0f909ea727ac7a303ef587619a39f53ea11e7864e5207af3ae8f64dd4"
+    },
+    "dimensions.Test": {
+      "hash": "sha256:e9b8387071112243240dab3bd522029f8e7fc0a6119cd3befc72f44a66e4be30"
+    },
+    "dimensions.Users": {
+      "hash": "sha256:2b6862aa80e6cff87895fc32502b59cc53df4c2017cbae51d44ba05e81ec539b"
+    },
+    "dimensions.Versions": {
+      "hash": "sha256:b724b547262f620768142e9697e68f3f666ce3feb3ae8a28d57fb6b6e662e9e2"
+    },
+    "dimensions.Years": {
+      "hash": "sha256:5dd58061c5bf282c70a6077d7d252809b34aad94e7dbb94e13e9339ecd374752"
+    },
+    "dimensions.new1": {
+      "hash": "sha256:dc1ad63422da6b56ea54795bee5257d7da210a48a42a33d8b901bcf9b9956de3"
+    },
+    "dimensions.test)(": {
+      "hash": "sha256:e1eb802162c47b4470e35d3c064949924718c50879cf87f8fac0f75263dbd08b"
+    },
+    "subsets.Customers/Element level defined by Variable": {
+      "hash": "sha256:c8c779806a375103e41e6ae99d941ea44492e482184ecd40da4a4a9167358240"
+    },
+    "subsets.Customers/Elements on level 3": {
+      "hash": "sha256:cfb2711d67437337b34fd2bc0dc7349fc80e11a797d77e8d4178db59cb0e0efa"
+    },
+    "subsets.Months/Calendar": {
+      "hash": "sha256:78b1ed83b7a9fcf3f1e5b4d11aa0174de6f27640d161882d863df2d9511a87b1"
+    },
+    "subsets.new1/%2AAll": {
+      "hash": "sha256:fcf6027c60e5429dd6f4c66121cde19da2c78a0b7accb3c857f195c75e4a3a10"
+    },
+    "subsets.new1/%2ABase": {
+      "hash": "sha256:80ede3aeaf9303140ed843612139b0eb81a5b66f8e6b20e4d527399854d019f1"
+    }
+  },
+  "hash": "sha256:01fb74fddc4c4f93daae64abf3902f521d6a876e97b583080bedeaf1d34cbb4a",
+  "project": "olap:Biker",
+  "source": {
+    "at": "2026-08-11T03:05:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "token": "4271022"
+}
