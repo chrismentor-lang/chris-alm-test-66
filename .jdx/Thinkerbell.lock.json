@@ -1,0 +1,29 @@
+{
+  "components": {
+    "Thinkerbell.jobs.Demo": {
+      "hash": "sha256:e6bac3bbfa17213c2eaa29af4d4afb9f5a9bd40bc3f76fe295373c5b1ce721df",
+      "modified": 1784978380675,
+      "modifiedBy": "jorge"
+    },
+    "Thinkerbell.variables.vFCVersion": {
+      "hash": "sha256:6f674da675188a00d79254c06b039916a62e01f626ac35b6278a02eec9c52962",
+      "modified": 1784978357165,
+      "modifiedBy": "jorge"
+    },
+    "Thinkerbell.variables.vFY": {
+      "hash": "sha256:1f72f321b043002d81449cca8f6ffe0d393a196d4c2a5c001ac1a921d6ce77cc",
+      "modified": 1784978336311,
+      "modifiedBy": "jorge"
+    }
+  },
+  "hash": "sha256:6fc1154800d765c0fe3202cb6b4996551045f0bb919297833413ec34933c6ff8",
+  "modified": 1784978380675,
+  "modifiedBy": "jorge",
+  "project": "Thinkerbell",
+  "source": {
+    "at": "2026-08-11T06:32:12Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

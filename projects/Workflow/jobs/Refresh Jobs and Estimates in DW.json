@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh Jobs and Estimates in DW",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Refreshes the Accountability Jobs, Estimates, Estimate_Entries, and Estimate_Deleted tables in Snowflake. Then deletes the deleted estimates in the Snowflake harmonisation tables."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Refresh Jobs And Estimates in Harmonisation",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Snowflake Refresh Jobs and Estimates SCD",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,32 @@
+{
+  "-name": "Snowflake Refresh Jobs Tables",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Kicks of the refresh of the Accountability JOBS table via the Update Accountability Tables job in the Snowflake project."
+  },
+  "execution": {
+    "-nameref": "Update Accountability Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  },
+  "variables": {
+    "variable": [
+      {
+        "-name": "vAccountabilityEndpoint",
+        "default": "Jobs"
+      },
+      {
+        "-name": "vAccountabilityTable",
+        "default": "JOBS"
+      },
+      {
+        "-name": "vSnowflakeSchemaType",
+        "default": "FULL"
+      }
+    ]
+  }
+}

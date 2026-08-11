@@ -1,0 +1,28 @@
+{
+  "-name": "Refresh Jobs And Estimates in Harmonisation",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Refreshes the Accountability Jobs, Estimates, Estimate_Entries, and Estimate_Deleted tables in Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Snowflake Refresh Jobs Tables",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Snowflake Refresh Estimates Tables",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Snowflake Refresh Estimate Entries Tables",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Snowflake Refresh Deleted Estimates Tables",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}
