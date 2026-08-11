@@ -1,0 +1,14 @@
+{
+  "-name": "cSpreadsheetLogs_000_000_Comp_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230730: Added AND MACHINE like'%${vCompany}%'"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "cSpreadsheetLogs_000_000_Comp_re.query.sql"
+  }
+}

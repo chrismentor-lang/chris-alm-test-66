@@ -1,0 +1,361 @@
+{
+  "-name": "cSpreadsheetLogs_000_010_Format_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_Date",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_UTC"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "yyyy/MM/dd"
+        }
+      },
+      {
+        "-name": "fx_Company",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": "-"
+        }
+      },
+      {
+        "-name": "fx_Time",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_UTC"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_Path",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_010_Format_ft.functions.function.4.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_PathQuotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-alias": "PATH",
+              "-nameref": "fx_Path",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "true",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_010_Format_ft.functions.function.5.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_LevelUpper",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LEVEL",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_010_Format_ft.functions.function.6.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_WarningLogs",
+        "-type": "Map",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_LevelUpper"
+          }
+        },
+        "parameters": {
+          "default": "0",
+          "mapping": {
+            "map": {
+              "-from": "WARNING",
+              "-to": "1"
+            }
+          }
+        }
+      },
+      {
+        "-name": "fx_ErrorLogs",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LEVEL",
+              "-type": "String"
+            },
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_010_Format_ft.functions.function.8.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Year",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "yyyy/MM/dd",
+          "targetformat": "yyyy"
+        }
+      },
+      {
+        "-name": "fx_Month",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "yyyy/MM/dd",
+          "targetformat": "MM"
+        }
+      },
+      {
+        "-name": "fx_Day",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "yyyy/MM/dd",
+          "targetformat": "dd"
+        }
+      },
+      {
+        "-name": "fx_Hour",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH"
+        }
+      },
+      {
+        "-name": "fx_Min",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm"
+        }
+      },
+      {
+        "-name": "fx_Sec",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_NoPath",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "MACH",
+            "-nameref": "MACHINE",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_010_Format_ft.functions.function.15.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_NoUser",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "MACH",
+            "-nameref": "MACHINE",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_010_Format_ft.functions.function.16.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_000_All_re"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "column2",
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        {
+          "-name": "column3",
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "-name": "column1",
+          "input": {
+            "-nameref": "fx_PathQuotes"
+          }
+        },
+        {
+          "-name": "column4",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Company"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Hour"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Sec"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_NoPath"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_NoUser"
+          }
+        }
+      ]
+    }
+  }
+}

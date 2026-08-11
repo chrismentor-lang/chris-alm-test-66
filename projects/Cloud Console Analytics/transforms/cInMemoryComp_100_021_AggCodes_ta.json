@@ -1,0 +1,30 @@
+{
+  "-name": "cInMemoryComp_100_021_AggCodes_ta",
+  "-type": "TableAggregation",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryComp_100_011_InclComp_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": {
+        "input": {
+          "-nameref": "fx_ErrorCode"
+        }
+      }
+    },
+    "measures": {
+      "measure": {
+        "-aggregate": "sum",
+        "-name": "Count",
+        "-type": "numeric",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

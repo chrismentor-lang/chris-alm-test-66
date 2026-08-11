@@ -1,0 +1,50 @@
+{
+  "-name": "cInMemoryLogs_100_040_NormErrorCodes_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "CHANGED"
+  },
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryLogs_100_030_LoopErrorCode_tl"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "-name": "Date",
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "-name": "Measure (Logs)",
+          "input": {
+            "-nameref": "fx_ErrorCode"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "count",
+      "-valuename": "#Value",
+      "measure": {
+        "-aggregate": "sum",
+        "-type": "integer",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

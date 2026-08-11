@@ -1,0 +1,18 @@
+{
+  "-name": "dLog_000_000_Directory_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "This is the actual directory in which the different services logs are saved.\n\n20240919: Changed name from dLog_000_000_ServiceCSVs_fc to dLog_000_000_Directory_fc\n20240827: Changed name from MyDirectoryNew to dLog_000_000_ServiceCSVs_fc."
+  },
+  "database": {
+    "#cdata-section": "customer_logs/"
+  },
+  "delimiter": ";",
+  "directory": "true",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "pattern": ".csv"
+}

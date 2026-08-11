@@ -1,0 +1,58 @@
+{
+  "-name": "ft_cBS_AUD_400_210_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xrt_cBS_AUD_400_110_rt"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Version",
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "-name": "Currency",
+          "input": {
+            "-constant": "AUD"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "Month"
+          }
+        },
+        {
+          "-name": "BS Account",
+          "input": {
+            "-nameref": "BS Account"
+          }
+        },
+        {
+          "-name": "Cost Centre",
+          "input": {
+            "-nameref": "Cost Centre"
+          }
+        },
+        {
+          "-name": "Measure_BS",
+          "input": {
+            "-nameref": "Measure_BS"
+          }
+        },
+        {
+          "-name": "#Value",
+          "input": {
+            "-nameref": "#Value"
+          }
+        }
+      ]
+    }
+  }
+}

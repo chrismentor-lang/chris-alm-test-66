@@ -1,0 +1,21 @@
+{
+  "-name": "cl_BS_400_200_clear",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "clear loaded data from balance sheet cube"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Balance Sheet",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "cs_cBS_400_100"
+  }
+}

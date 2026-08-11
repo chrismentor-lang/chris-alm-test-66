@@ -1,0 +1,27 @@
+{
+  "-name": "dl_CFAccount_120_300",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "Load dimension"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "dimension": {
+    "-dimensionType": "Account",
+    "-generateSubsets": "false",
+    "-name": "CF Account",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "update"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "tpc_dCFAccount_120_200_pc"
+  }
+}

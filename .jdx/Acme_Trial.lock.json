@@ -1,0 +1,19 @@
+{
+  "components": {
+    "Acme_Trial.variables.var2": {
+      "hash": "sha256:a019298730077222d162cd0cc48dfe919517401f00717853def4615e151dbe48",
+      "modified": 1785840073492,
+      "modifiedBy": "chris"
+    }
+  },
+  "hash": "sha256:cbf33ac3bda03bfed108d6c7c90d89c0eef7e2aa26931eebde33ad3cd215f578",
+  "modified": 1785840073492,
+  "modifiedBy": "chris",
+  "project": "Acme_Trial",
+  "source": {
+    "at": "2026-08-11T03:15:44Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

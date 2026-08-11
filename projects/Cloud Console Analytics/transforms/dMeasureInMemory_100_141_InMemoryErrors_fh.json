@@ -1,0 +1,45 @@
+{
+  "-name": "dMeasureInMemory_100_141_InMemoryErrors_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20230629: Changed level one from static In-Memory to statuc Error Codes."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryComp_100_031_LoopErrorCode_tl"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Description",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "Error Codes"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Description",
+              "input": {
+                "-nameref": "fx_ErrorMsg"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "fx_ErrorCode"
+          },
+          "weight": {
+            "-constant": "1"
+          }
+        }
+      ]
+    }
+  }
+}

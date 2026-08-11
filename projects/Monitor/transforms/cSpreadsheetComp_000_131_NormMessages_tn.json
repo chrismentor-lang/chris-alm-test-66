@@ -1,0 +1,82 @@
+{
+  "-name": "cSpreadsheetComp_000_131_NormMessages_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "true",
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetComp_000_121_InclCompMessages_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine ${vCompany}",
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "-name": "Year",
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        },
+        {
+          "-name": "Minutes",
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "-name": "Username ${vCompany}",
+          "input": {
+            "-nameref": "fx_NoUser"
+          }
+        },
+        {
+          "-name": "Report ${vCompany}",
+          "input": {
+            "-nameref": "fx_NoPath"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Spreadsheet)",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-aggregate": "sum",
+          "-name": "Spreadsheet Warning Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Spreadsheet Error Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        }
+      ]
+    }
+  }
+}

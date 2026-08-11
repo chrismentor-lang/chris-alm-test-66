@@ -1,0 +1,25 @@
+{
+  "-name": "cs_cCF_400_100",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "clear loaded data"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "query": {
+    "-mode": "generateRoots",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Cash Flow"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "${Version}",
+        "-dimension": "Version",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

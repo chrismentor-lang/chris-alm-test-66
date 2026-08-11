@@ -1,0 +1,8 @@
+{
+  "-name": "Integrator Yesterday",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Integrator Yesterday.jobscript.groovy"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "-name": "New TableView (2)",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "level3",
+      "-operator": "like",
+      "-type": "accept",
+      "-value": "GL_INFO"
+    }
+  },
+  "sources": {
+    "source": {
+      "-format": "fhwa",
+      "-nameref": "dProjectComp_999_025_AllHierarchy_fh"
+    }
+  }
+}

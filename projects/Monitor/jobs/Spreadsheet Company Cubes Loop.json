@@ -1,0 +1,28 @@
+{
+  "-name": "Spreadsheet Company Cubes Loop",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vCompany",
+        "input": {
+          "-nameref": "fx_Company"
+        }
+      },
+      {
+        "-name": "vService",
+        "input": {
+          "-constant": "Spreadsheet"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "-nameref": "Spreadsheet Company Cubes",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "dMachine_555_010_DetCompany_ft"
+  }
+}

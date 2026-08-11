@@ -1,0 +1,84 @@
+{
+  "-name": "tpc_dCostCentre_200_200_pc",
+  "-type": "TreePC",
+  "sources": {
+    "source": {
+      "-nameref": "xrt_dCostCentre_200_100_rt"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Description",
+          "-type": "string",
+          "input": {
+            "-nameref": "DESCRIPTION"
+          }
+        },
+        {
+          "-name": "Long Name",
+          "-type": "string",
+          "input": {
+            "-nameref": "LONG_NAME"
+          }
+        },
+        {
+          "-name": "Function",
+          "-type": "string",
+          "input": {
+            "-nameref": "FUNCTION"
+          }
+        },
+        {
+          "-name": "Type",
+          "-type": "string",
+          "input": {
+            "-nameref": "TYPE"
+          }
+        },
+        {
+          "-name": "Plant Code",
+          "-type": "string",
+          "input": {
+            "-nameref": "PLANT_CODE"
+          }
+        },
+        {
+          "-name": "Sales Region",
+          "-type": "string",
+          "input": {
+            "-nameref": "SALES_REGION"
+          }
+        },
+        {
+          "-name": "Sort Order",
+          "-type": "string",
+          "input": {
+            "-nameref": "SORT_ORDER"
+          }
+        }
+      ]
+    },
+    "child": {
+      "input": {
+        "-nameref": "CHILD"
+      }
+    },
+    "parent": {
+      "input": {
+        "-nameref": "PARENT"
+      }
+    },
+    "type": {
+      "input": {
+        "-nameref": "ELEMENT_TYPE"
+      }
+    },
+    "weight": {
+      "input": {
+        "-nameref": "WEIGHT"
+      }
+    }
+  }
+}

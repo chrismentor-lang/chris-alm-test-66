@@ -1,0 +1,50 @@
+{
+  "-name": "Reload - Sales (Actual)",
+  "-type": "Parallel",
+  "comment": "Nightly load job to load Actual data to Jedox - Sales",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cl_MonthlySales_Actual_Delete_500_200",
+        "-parallel": "false",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Current Period",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Date Generator",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "dl_dCurrency_100_300",
+        "-parallel": "false",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_dProduct_300_300",
+        "-parallel": "false",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_Customer_700_700",
+        "-parallel": "false",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_MonthlySales_400_200",
+        "-parallel": "false",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_Customer_Plan_700_700",
+        "-parallel": "false",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

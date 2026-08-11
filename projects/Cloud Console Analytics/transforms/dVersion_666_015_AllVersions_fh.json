@@ -1,0 +1,58 @@
+{
+  "-name": "dVersion_666_015_AllVersions_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "cMachines_400_010_DetDetails_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Version",
+          "-type": "string"
+        },
+        {
+          "-name": "Pack",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Jedox Versions"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Version"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Version",
+                "input": {
+                  "-nameref": "fx_Version"
+                }
+              },
+              {
+                "-name": "Pack",
+                "input": {
+                  "-nameref": "fx_Pack"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "fx_VersionPack"
+          }
+        }
+      ]
+    }
+  }
+}

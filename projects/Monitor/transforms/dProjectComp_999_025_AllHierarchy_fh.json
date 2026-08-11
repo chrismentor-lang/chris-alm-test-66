@@ -1,0 +1,71 @@
+{
+  "-name": "dProjectComp_999_025_AllHierarchy_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dProjectComp_999_015_InclComp_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Type",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All projects"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Name",
+              "input": {
+                "-nameref": "fx_ProjectName"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "fx_Project"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "fx_ObjectName"
+                }
+              },
+              {
+                "-name": "Type",
+                "input": {
+                  "-nameref": "fx_ObjectType"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "fx_Object"
+          }
+        }
+      ]
+    }
+  }
+}

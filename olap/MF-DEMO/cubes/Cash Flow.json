@@ -1,0 +1,16 @@
+{
+  "name": "Cash Flow",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Currency",
+    "Month",
+    "Cost Centre",
+    "CF Account",
+    "Measure_CF"
+  ],
+  "properties": {
+    "Audit": "7",
+    "Name": "Cash Flow"
+  }
+}

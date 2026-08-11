@@ -1,0 +1,10 @@
+{
+  "name": "Measure_Sales",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "Qty",
+    "DefaultWriteElement": "Qty",
+    "Name": "Measure_Sales",
+    "Type": "Measure"
+  }
+}

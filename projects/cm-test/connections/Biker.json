@@ -1,0 +1,11 @@
+{
+  "-name": "Biker",
+  "-type": "JedoxOlap",
+  "database": {
+    "#cdata-section": "Biker"
+  },
+  "global": {
+    "-nameref": "localhost"
+  },
+  "ssl": "off"
+}

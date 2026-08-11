@@ -1,0 +1,11 @@
+{
+  "-name": "jCompressFiles_000_000_Full_groovy_20240919",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "String input_file = \"./webapps/etlserver/data/files/customer_logs/${vTableSnowflake}.csv\";"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "jCompressFiles_000_000_Full_groovy_20240919.jobscript.groovy"
+  }
+}

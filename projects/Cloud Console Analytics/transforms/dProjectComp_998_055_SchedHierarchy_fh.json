@@ -1,0 +1,71 @@
+{
+  "-name": "dProjectComp_998_055_SchedHierarchy_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dProjectComp_998_045_ExclNull_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Type",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All projects"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Name",
+              "input": {
+                "-nameref": "fx_ProjectLookup"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "fx_ProjectMachine"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "fx_JobLookup"
+                }
+              },
+              {
+                "-name": "Type",
+                "input": {
+                  "-constant": "Job"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "fx_JobMachine"
+          }
+        }
+      ]
+    }
+  }
+}

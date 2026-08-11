@@ -1,0 +1,6 @@
+{
+  "-name": "vService",
+  "comment": {
+    "#cdata-section": "Format: int [0,5,6,4,1,2,9,18,19,15,8] seperated by commas.\n0: All\n1: Integrator\n2: RPC (Web back-end)\n4: Apache (Web front-end)\n5: In_Memory\n6: Spreadsheet\n8: OData\n9: PSF\n18: Supervision\n19: Scheduler"
+  }
+}

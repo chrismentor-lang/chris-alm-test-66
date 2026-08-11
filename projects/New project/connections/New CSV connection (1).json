@@ -1,0 +1,14 @@
+{
+  "-name": "New CSV connection (1)",
+  "-type": "CsvFile",
+  "addFileNameColumn": "None",
+  "database": "//Default/Public Files/cm2.wss",
+  "directory": "false",
+  "enableEscape": "true",
+  "header": "true",
+  "location": {
+    "-type": "JedoxFiles"
+  },
+  "pattern": ".",
+  "quote": "\""
+}

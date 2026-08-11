@@ -1,0 +1,45 @@
+{
+  "-name": "cLogs_100_050_InMemoryErrorCodes_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Logs",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Machine",
+          "-name": "Machine"
+        },
+        {
+          "-input": "Year",
+          "-name": "Year"
+        },
+        {
+          "-input": "Month",
+          "-name": "Month"
+        },
+        {
+          "-input": "Day",
+          "-name": "Day"
+        },
+        {
+          "-input": "Measure (Logs)",
+          "-name": "Measure (Logs)"
+        },
+        {
+          "-input": "count"
+        }
+      ]
+    }
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "cInMemoryLogs_100_040_NormErrorCodes_tn"
+  }
+}

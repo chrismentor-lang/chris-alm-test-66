@@ -1,0 +1,17 @@
+{
+  "-name": "Project Company Dimensions Hierarchies",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dProjectComp_999_035_AllHierarchy",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dProjectComp_998_065_ScheHierarchy_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,7 @@
+{
+  "-name": "New Dimension load",
+  "-type": "Dimension",
+  "source": {
+    "-nameref": "tfh_dCustomer_200_200_fh"
+  }
+}

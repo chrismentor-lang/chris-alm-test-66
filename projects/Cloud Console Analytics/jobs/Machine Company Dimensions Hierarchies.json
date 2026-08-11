@@ -1,0 +1,17 @@
+{
+  "-name": "Machine Company Dimensions Hierarchies",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dMachineComp_556_040_AllHierarchy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dMachineComp_556_045_TypeHierarchy_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

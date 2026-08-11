@@ -1,0 +1,72 @@
+{
+  "-name": "cLogs_300_020_NormScheduler_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "true",
+  "sources": {
+    "source": {
+      "-nameref": "cSchedulerLogs_300_010_FormatScheduler_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "-name": "Year",
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Logs)",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-name": "Tasks initiated",
+          "input": {
+            "-nameref": "fx_JobInit"
+          }
+        },
+        {
+          "-name": "Tasks finished",
+          "input": {
+            "-nameref": "fx_Finished"
+          }
+        },
+        {
+          "-name": "Scheduler Warning Logs",
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "-name": "Scheduler Error Logs",
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        }
+      ]
+    }
+  }
+}

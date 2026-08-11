@@ -1,0 +1,32 @@
+{
+  "-name": "Reset Plans",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "1. Reset forecasts and budgets for the current plan FY in Sales Monthly (zero)\n2. Reload forecasts and budgets in PL, CF, and BS to values from snowflake"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Current Period",
+        "-type": "job"
+      },
+      {
+        "-nameref": "cl_MonthlySales_Budget_Delete_500_200",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_MonthlySales_Forecasts_Delete_500_200",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Build Cubes (Budget)",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Build Cubes (Forecast)",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

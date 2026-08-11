@@ -1,0 +1,8 @@
+{
+  "-name": "Spreadsheet Day",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Spreadsheet Day.jobscript.groovy"
+  }
+}

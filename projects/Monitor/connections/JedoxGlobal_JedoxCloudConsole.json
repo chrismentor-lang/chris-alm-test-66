@@ -1,0 +1,11 @@
+{
+  "-name": "JedoxGlobal_JedoxCloudConsole",
+  "-type": "JedoxOlap",
+  "database": {
+    "#cdata-section": "JedoxCloudConsole"
+  },
+  "global": {
+    "-nameref": "localhost"
+  },
+  "ssl": "off"
+}

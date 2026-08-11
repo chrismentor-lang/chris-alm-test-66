@@ -1,0 +1,45 @@
+{
+  "-name": "cLogs_000_040_NormSpreadsheetHits_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230730: Changed source from cSpreadsheetLogs_000_030_FormatCore_ft to cSpreadsheetLogs_000_030_FormatCoreAll_ft"
+  },
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_030_FormatCoreAll_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "-name": "Date",
+          "input": {
+            "-nameref": "column3"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Logs)",
+      "-valuename": "#Value",
+      "measure": {
+        "-aggregate": "sum",
+        "-name": "Web Report Hits",
+        "-type": "integer",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

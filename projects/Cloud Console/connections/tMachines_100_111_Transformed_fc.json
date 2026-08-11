@@ -1,0 +1,15 @@
+{
+  "-name": "tMachines_100_111_Transformed_fc",
+  "-type": "CsvFile",
+  "database": {
+    "#cdata-section": "customer_logs/machines.csv"
+  },
+  "delimiter": "|",
+  "enableEscape": "false",
+  "encoding": "UTF-8",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "\""
+}

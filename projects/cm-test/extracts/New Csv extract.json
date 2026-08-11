@@ -1,0 +1,8 @@
+{
+  "-name": "New Csv extract",
+  "-type": "Csv",
+  "cache": "false",
+  "connection": {
+    "-nameref": "New CSV connection"
+  }
+}

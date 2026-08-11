@@ -1,0 +1,17 @@
+{
+  "-name": "fLog_000_000_MachinesRecCSV_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "This is the file that is created with all the machines according to console."
+  },
+  "database": {
+    "#cdata-section": "customer_logs/machines_record_data.csv"
+  },
+  "delimiter": ";",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "-name": "fLog_000_040_Transformed_fl (2)",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "${vLoadMode}"
+  },
+  "connection": {
+    "-nameref": "fLog_000_000_Transformed_fc (2)"
+  },
+  "mode": "${vLoadMode}",
+  "source": {
+    "-nameref": "fLog_000_020_SplitReplace_ft"
+  },
+  "useScientificNotation": "true"
+}

@@ -1,0 +1,7 @@
+{
+  "-name": "DB",
+  "comment": {
+    "#cdata-section": "Name of database for Jedox connection."
+  },
+  "default": "MF-TRAIN"
+}

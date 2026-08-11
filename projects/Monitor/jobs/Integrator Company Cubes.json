@@ -1,0 +1,25 @@
+{
+  "-name": "Integrator Company Cubes",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cLogsComp_002_010_DeleteDay_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Machine Company Dimensions Hierarchies",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Project Company Dimensions Hierarchies",
+        "-type": "job"
+      },
+      {
+        "-nameref": "cIntegratorComp_100_140_Integrator_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

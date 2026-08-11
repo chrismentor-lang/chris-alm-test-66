@@ -1,0 +1,15 @@
+{
+  "-name": "tu_dCustomer_Plan_710_300",
+  "-type": "TableUnion",
+  "cache": "false",
+  "sources": {
+    "source": [
+      {
+        "-nameref": "tv_dCustomer_Plan_700_300"
+      },
+      {
+        "-nameref": "ft_dCustomer_Plan_710_200"
+      }
+    ]
+  }
+}

@@ -1,0 +1,293 @@
+{
+  "-name": "cSpreadsheetLogs_000_010_Format_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": "CHANGED",
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_Date",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "yyyy-MM-dd"
+        }
+      },
+      {
+        "-name": "fx_Company",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": "-"
+        }
+      },
+      {
+        "-name": "fx_Time",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_Path",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  load_idx = _input1.indexOf('workbook ');\n  user_idx = _input1.indexOf('for user');\n  if(load_idx >=0 && user_idx >= 0)\n  return _input1.substring(load_idx+9,user_idx);\n  else\n\treturn '';\n  \n}\nelse\n  return '';"
+        }
+      },
+      {
+        "-name": "fx_PathQuotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-alias": "PATH",
+              "-nameref": "fx_Path",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "true",
+          "script": "return _input1.replace(_input2,'\"'+_input2+'\"');"
+        }
+      },
+      {
+        "-name": "fx_LevelUpper",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LEVEL",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "txt = LEVEL.toUpperCase();\nreturn txt;",
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_WarningLogs",
+        "-type": "Map",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_LevelUpper"
+          }
+        },
+        "parameters": {
+          "default": "0",
+          "mapping": {
+            "map": {
+              "-from": "WARNING",
+              "-to": "1"
+            }
+          }
+        }
+      },
+      {
+        "-name": "fx_ErrorLogs",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LEVEL",
+              "-type": "String"
+            },
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG==null||LOG==\"\"||LOG.length()<4)\n{\n  return 0;\n}\nelse if(LOG[0..3]==\"RROR\")\n{\n  return 1;\n}\nelse\n{\n  return 0;\n}",
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Hour",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH"
+        }
+      },
+      {
+        "-name": "fx_Min",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm"
+        }
+      },
+      {
+        "-name": "fx_Sec",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_NoPath",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "MACH",
+            "-nameref": "MACHINE",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "return MACH+\"~\";",
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_NoUser",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "MACH",
+            "-nameref": "MACHINE",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "return MACH+\"~\";",
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_000_Comp_re"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "column2",
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        {
+          "-name": "column3",
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "-name": "column1",
+          "input": {
+            "-nameref": "fx_PathQuotes"
+          }
+        },
+        {
+          "-name": "column4",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Company"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Hour"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Sec"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_NoPath"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_NoUser"
+          }
+        }
+      ]
+    }
+  }
+}

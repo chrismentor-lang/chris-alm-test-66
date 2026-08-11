@@ -1,0 +1,18 @@
+{
+  "-name": "cIntegratorComp_100_120_InclComp_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "fx_Company",
+      "-operator": "equal",
+      "-type": "accept",
+      "-value": "${vCompany}"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_010_FormatIntegrator_ft"
+    }
+  }
+}

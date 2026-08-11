@@ -1,0 +1,24 @@
+{
+  "-name": "Balance Sheet",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Load Actuals into Balance sheet cube."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cl_BS_400_200_clear",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_BS_400_300",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_BS_AUD_400_310",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,17 @@
+{
+  "-name": "cMachines_400_030_Characteristics_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-deactivateSVS": "true",
+    "-name": "Machines",
+    "-splash": "disabled"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "cMachines_400_020_NormCharateristics_tn"
+  }
+}

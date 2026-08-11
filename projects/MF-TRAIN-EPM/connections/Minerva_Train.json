@@ -1,0 +1,7 @@
+{
+  "-name": "Minerva_Train",
+  "-type": "Snowflake",
+  "global": {
+    "-nameref": "Minerva Training"
+  }
+}

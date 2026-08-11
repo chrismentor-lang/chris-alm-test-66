@@ -1,0 +1,27 @@
+{
+  "-name": "dMinutes_555_000_AllMinutes_ce",
+  "-type": "Calendar",
+  "levels": {
+    "level": [
+      {
+        "-type": "root",
+        "pattern": "'All Time'"
+      },
+      {
+        "-type": "hours",
+        "end": "24",
+        "pattern": "HH",
+        "start": "0"
+      },
+      {
+        "-type": "minutes",
+        "end": "60",
+        "pattern": "HH:mm",
+        "start": "0"
+      }
+    ]
+  },
+  "options": {
+    "language": "en"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "-name": "Snowflake-JDBC",
+  "-type": "Jdbc",
+  "global": {
+    "-nameref": "Minerva Snowflake"
+  }
+}

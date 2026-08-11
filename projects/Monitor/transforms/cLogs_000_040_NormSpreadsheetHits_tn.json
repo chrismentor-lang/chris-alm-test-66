@@ -1,0 +1,54 @@
+{
+  "-name": "cLogs_000_040_NormSpreadsheetHits_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_030_FormatCore_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "-name": "Year",
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Logs)",
+      "-valuename": "#Value",
+      "measure": {
+        "-aggregate": "sum",
+        "-name": "Web Report Hits",
+        "-type": "integer",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

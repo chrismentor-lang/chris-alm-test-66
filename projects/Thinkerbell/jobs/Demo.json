@@ -1,0 +1,5 @@
+{
+  "-name": "Demo",
+  "-type": "Groovy",
+  "jobscript": "LOG.info(\"Success\");"
+}

@@ -1,0 +1,17 @@
+{
+  "-name": "Username Company Dimensions Hierarchies",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dUserComp_888_055_AllHierarchy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dUsernameComp_888_030_NoUser_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,10 @@
+{
+  "-name": "New FieldList CM",
+  "-type": "FieldList",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "New Constant table extract"
+    }
+  }
+}

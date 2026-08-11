@@ -1,0 +1,7 @@
+{
+  "name": "Loaded Currencies",
+  "owner": "Currency",
+  "attributes": {
+    "Description": "20250723: Introduced to use in rules to make sure that they only apply to currencies that are loaded. "
+  }
+}

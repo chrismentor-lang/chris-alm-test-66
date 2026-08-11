@@ -1,0 +1,16 @@
+{
+  "name": "Balance Sheet",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Currency",
+    "Month",
+    "Cost Centre",
+    "BS Account",
+    "Measure_BS"
+  ],
+  "properties": {
+    "Audit": "7",
+    "Name": "Balance Sheet"
+  }
+}

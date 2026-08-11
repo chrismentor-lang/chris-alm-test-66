@@ -1,0 +1,26 @@
+{
+  "-name": "cLogsComp_002_000_Delete_cs",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "CHANGED\n\n20230623: Changed vDay for vFrom"
+  },
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "${vService} ${vCompany}"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "${vFrom}",
+        "-dimension": "Date",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

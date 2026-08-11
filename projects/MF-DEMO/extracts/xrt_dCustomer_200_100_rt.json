@@ -1,0 +1,44 @@
+{
+  "-name": "xrt_dCustomer_200_100_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract Customer dimensional data."
+  },
+  "connection": {
+    "-nameref": "Minerva Demo"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "CUSTOMERID"
+      },
+      {
+        "-input": "CUSTOMERNAME"
+      },
+      {
+        "-input": "CODENAME"
+      },
+      {
+        "-input": "REGION"
+      },
+      {
+        "-input": "COUNTRY"
+      },
+      {
+        "-input": "CITY"
+      },
+      {
+        "-input": "CUSTOMERTYPE"
+      },
+      {
+        "-input": "CURRENCY"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_DIM_CUSTOMER",
+    "-schema": "JEDOX_DIMS"
+  }
+}

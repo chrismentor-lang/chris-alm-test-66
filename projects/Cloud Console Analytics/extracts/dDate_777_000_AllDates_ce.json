@@ -1,0 +1,38 @@
+{
+  "-name": "dDate_777_000_AllDates_ce",
+  "-type": "Calendar",
+  "levels": {
+    "level": [
+      {
+        "-type": "root",
+        "pattern": "'All Dates'"
+      },
+      {
+        "-type": "years",
+        "end": "2023",
+        "pattern": "yyyy",
+        "start": "2023"
+      },
+      {
+        "-type": "months",
+        "pattern": "yyyy-MM"
+      },
+      {
+        "-type": "days",
+        "attributes": {
+          "attribute": {
+            "-name": "Weekday",
+            "language": "en",
+            "pattern": "E"
+          }
+        },
+        "end": "200",
+        "pattern": "yyyy-MM-dd",
+        "start": "1"
+      }
+    ]
+  },
+  "options": {
+    "language": "en"
+  }
+}

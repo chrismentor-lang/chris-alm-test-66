@@ -1,0 +1,42 @@
+{
+  "-name": "dMeasureInMemory_100_141_InMemoryErrors_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryComp_100_031_LoopErrorCode_tl"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Description",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "In-Memory"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Description",
+              "input": {
+                "-nameref": "fx_ErrorMsg"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "fx_ErrorCode"
+          },
+          "weight": {
+            "-constant": "0"
+          }
+        }
+      ]
+    }
+  }
+}

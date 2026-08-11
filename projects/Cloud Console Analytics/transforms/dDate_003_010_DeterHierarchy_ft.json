@@ -1,0 +1,72 @@
+{
+  "-name": "dDate_003_010_DeterHierarchy_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_Year",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "vFrom"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd",
+          "targetformat": "yyyy"
+        }
+      },
+      {
+        "-name": "fx_Month",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "vFrom"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd",
+          "targetformat": "yyyy-MM"
+        }
+      },
+      {
+        "-name": "fx_Weekday",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "vFrom"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "yyyy-MM-dd",
+          "targetformat": "E"
+        }
+      },
+      {
+        "-name": "fx_PreviousMonth",
+        "-type": "DateDuration",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "fx_Month"
+            },
+            {
+              "-constant": "-1"
+            }
+          ]
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM",
+          "unit": "months"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dDate_003_000_Yesterday_ct"
+    }
+  }
+}

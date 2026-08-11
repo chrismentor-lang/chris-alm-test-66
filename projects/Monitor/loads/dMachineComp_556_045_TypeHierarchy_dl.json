@@ -1,0 +1,24 @@
+{
+  "-name": "dMachineComp_556_045_TypeHierarchy_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-dimensionType": "Business",
+    "-generateSubsets": "false",
+    "-name": "Machine ${vCompany}",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dMachineComp_556_035_TypeMachines_fh"
+  }
+}

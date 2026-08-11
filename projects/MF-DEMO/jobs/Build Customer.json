@@ -1,0 +1,20 @@
+{
+  "-name": "Build Customer",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Build Customer dimension hierarchies"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dl_Customer_700_700",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_Customer_Plan_700_700",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

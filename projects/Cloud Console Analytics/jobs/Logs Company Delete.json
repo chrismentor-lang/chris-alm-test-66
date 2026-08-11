@@ -1,0 +1,14 @@
+{
+  "-name": "Logs Company Delete",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20230725: Fail on status set to none as the cube needs to be created even though it doesn't exist yet."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "cLogsComp_002_010_DeleteDay_cl",
+      "-type": "load"
+    }
+  },
+  "failStatus": "none"
+}

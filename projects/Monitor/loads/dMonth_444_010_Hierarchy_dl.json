@@ -1,0 +1,24 @@
+{
+  "-name": "dMonth_444_010_Hierarchy_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-dimensionType": "Time",
+    "-generateSubsets": "false",
+    "-name": "Month",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insert"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dMonth_444_000_AllMonths_ce"
+  }
+}

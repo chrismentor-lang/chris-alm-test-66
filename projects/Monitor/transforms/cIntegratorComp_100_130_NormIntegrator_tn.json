@@ -1,0 +1,124 @@
+{
+  "-name": "cIntegratorComp_100_130_NormIntegrator_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "true",
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorComp_100_120_InclComp_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine ${vCompany}",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "-name": "Year",
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        },
+        {
+          "-name": "Minutes",
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "-name": "Project ${vCompany}",
+          "input": {
+            "-nameref": "fx_Object"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Integrator)",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-aggregate": "sum",
+          "-name": "Integrator Warning Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Integrator Error Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Jobs Initiated",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_JobInit"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Loads Initiated",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_LoadInit"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Executions completed successfully",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_CompletedSuccessful"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Executions completed with warnings",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_CompletedWarnings"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Executions failed",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_CompletedFailed"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Records Loaded to Cube",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_RecordsToCube"
+          }
+        }
+      ]
+    }
+  }
+}

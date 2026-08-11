@@ -1,0 +1,33 @@
+{
+  "-name": "Build Cubes (Actual)",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "Build all cubes"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Balance Sheet",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Cash Flow",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Profit and Loss",
+        "-parallel": "true",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "Version",
+      "default": "Actual"
+    }
+  }
+}

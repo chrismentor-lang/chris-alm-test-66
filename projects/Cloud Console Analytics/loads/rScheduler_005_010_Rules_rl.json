@@ -1,0 +1,14 @@
+{
+  "-name": "rScheduler_005_010_Rules_rl",
+  "-type": "Rule",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-name": "Scheduler ${vCompany}"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "rSchedulerComp_005_000_Rules_ct"
+  }
+}

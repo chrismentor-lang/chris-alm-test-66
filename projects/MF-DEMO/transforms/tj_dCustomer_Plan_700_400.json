@@ -1,0 +1,43 @@
+{
+  "-name": "tj_dCustomer_Plan_700_400",
+  "-type": "TableJoin",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Get all other customers consolidated to 'Other Customers'"
+  },
+  "joins": {
+    "-persist": "false",
+    "join": {
+      "-allColumns": "true",
+      "-type": "left outer",
+      "-unique": "false",
+      "conditions": {
+        "condition": {
+          "-type": "eq"
+        }
+      },
+      "left": {
+        "-nameref": "ft_dCustomer_Plan_700_200",
+        "key": {
+          "-nameref": ":element"
+        }
+      },
+      "right": {
+        "-nameref": "tu_dCustomer_Plan_710_300",
+        "key": {
+          "-nameref": "Element"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": [
+      {
+        "-nameref": "ft_dCustomer_Plan_700_200"
+      },
+      {
+        "-nameref": "tu_dCustomer_Plan_710_300"
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "-name": "cSpreadsheetLogs_000_020_InclCoreLoadWorkbookAll_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230730: Created"
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "column1",
+      "-operator": "like",
+      "-type": "accept",
+      "-value": "core | load workbook"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_010_FormatAll_ft"
+    }
+  }
+}

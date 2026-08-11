@@ -1,0 +1,48 @@
+{
+  "-name": "rSchedulerComp_005_000_Rules_ct",
+  "-type": "ConstantTable",
+  "data": {
+    "header": {
+      "value": [
+        "Definition",
+        "Comment",
+        "External ID",
+        "Timestamp"
+      ]
+    },
+    "row": [
+      {
+        "value": [
+          "['Measure (Scheduler)':'Tasks initiated per day'] = ['Measure (Scheduler)':'Tasks initiated'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Scheduler)':'Tasks finished per day'] = ['Measure (Scheduler)':'Tasks finished'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Scheduler)':'Scheduler Warning Logs per day'] = ['Measure (Scheduler)':'Scheduler Warning Logs'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Scheduler)':'Scheduler Error Logs per day'] = ['Measure (Scheduler)':'Scheduler Error Logs'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      }
+    ]
+  }
+}

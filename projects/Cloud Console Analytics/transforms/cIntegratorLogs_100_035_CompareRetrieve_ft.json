@@ -1,0 +1,246 @@
+{
+  "-name": "cIntegratorLogs_100_035_CompareRetrieve_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_CompletedSuccessful",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "STATUS",
+            "-nameref": "fx_Status",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_035_CompareRetrieve_ft.functions.function.1.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_CompletedWarnings",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "STATUS",
+            "-nameref": "fx_Status",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_035_CompareRetrieve_ft.functions.function.2.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_CompletedFailed",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "STATUS",
+            "-nameref": "fx_Status",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_035_CompareRetrieve_ft.functions.function.3.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_CompletedErrors",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "STATUS",
+            "-nameref": "fx_Status",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_035_CompareRetrieve_ft.functions.function.4.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Min",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm"
+        }
+      },
+      {
+        "-name": "fx_JobCheck",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-nameref": "LOG1",
+              "-type": "String"
+            },
+            {
+              "-alias": "MCH",
+              "-nameref": "MACHINE",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_035_CompareRetrieve_ft.functions.function.6.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_Date",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "yyyy-MM-dd"
+        }
+      },
+      {
+        "-name": "fx_Time",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_Company",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": "-"
+        }
+      },
+      {
+        "-name": "fx_Status",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_035_CompareRetrieve_ft.functions.function.10.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_025_FinishStart_tj"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Company"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CompletedSuccessful"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CompletedWarnings"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CompletedFailed"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CompletedErrors"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_JobCheck"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_TimeDuration"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "-name": "SchedulerLogsYesterdayToSnowflake_20240919",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "20230911: Changed line 141 from def baseDirectory = './webapps/etlserver/data/files/customer_logs/'; of def baseDirectory = './data/files/customer_logs/';"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "SchedulerLogsYesterdayToSnowflake_20240919.jobscript.groovy"
+  }
+}

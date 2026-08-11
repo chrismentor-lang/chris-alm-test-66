@@ -1,0 +1,1 @@
+SELECT * FROM TABLE(JEDOX.LOGS.FN_APACHE('live-tpgtelecom'));

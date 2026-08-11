@@ -1,0 +1,26 @@
+{
+  "-name": "tMachines_100_010_ListLoop_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "tMachines_100_000_ListRaw_jc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "company_idx"
+      },
+      {
+        "-input": "company_name"
+      },
+      {
+        "-input": "user_idx"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

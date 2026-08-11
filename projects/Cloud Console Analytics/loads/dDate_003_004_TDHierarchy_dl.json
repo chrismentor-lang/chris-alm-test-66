@@ -1,0 +1,23 @@
+{
+  "-name": "dDate_003_004_TDHierarchy_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Date",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dDate_003_003_HistoryTD_fh"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "-name": "LogsOneDayToSnowflake (InMemory)",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "Please provide variable vFrom by entering the day you want to load into Snowflake."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "InMemoryLogsDayToSnowflakeNew",
+      "-parallel": "true",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "vFrom",
+      "default": "2025-03-14"
+    }
+  }
+}

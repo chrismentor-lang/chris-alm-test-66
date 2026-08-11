@@ -1,0 +1,104 @@
+{
+  "-name": "dDate_003_002_HistoryTD_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230727: Replaced ${vFrom} with ${vTo} in functions to make sure that we could load today's machine data."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_DateIncl",
+        "-type": "Groovy",
+        "comment": {
+          "#cdata-section": "20230727: Replaced ${vFrom} with ${vTo} to make sure that we could load today's machine data."
+        },
+        "inputs": {
+          "input": [
+            {
+              "-alias": "TD",
+              "-constant": "${vTo}",
+              "-type": "Date"
+            },
+            {
+              "-alias": "EL",
+              "-nameref": "level1",
+              "-type": "Date"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dDate_003_002_HistoryTD_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_PreviousDay",
+        "-type": "DateDuration",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "level1"
+            },
+            {
+              "-constant": "-1"
+            }
+          ]
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd",
+          "unit": "days"
+        }
+      },
+      {
+        "-name": "fx_PreviousDayTD",
+        "-type": "DateDuration",
+        "comment": {
+          "#cdata-section": "20230727: Replaced ${vFrom} with ${vTo} to make sure that we could load today's machine data."
+        },
+        "inputs": {
+          "input": [
+            {
+              "-constant": "${vTo}"
+            },
+            {
+              "-constant": "-1"
+            }
+          ]
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd",
+          "unit": "days"
+        }
+      },
+      {
+        "-name": "fx_PreviousDayTDPost",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "TD",
+            "-nameref": "fx_PreviousDayTD",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dDate_003_002_HistoryTD_ft.functions.function.4.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-format": "fh",
+      "-nameref": "dDate_003_001_HistoryTD_de"
+    }
+  }
+}

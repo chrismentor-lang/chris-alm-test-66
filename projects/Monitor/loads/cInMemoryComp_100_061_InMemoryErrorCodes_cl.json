@@ -1,0 +1,18 @@
+{
+  "-name": "cInMemoryComp_100_061_InMemoryErrorCodes_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "In-Memory ${vCompany}",
+    "-splash": "disabled"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "cInMemoryComp_100_051_StructureTarget_ft"
+  }
+}

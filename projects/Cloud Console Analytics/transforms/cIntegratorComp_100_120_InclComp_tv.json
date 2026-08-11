@@ -1,0 +1,29 @@
+{
+  "-name": "cIntegratorComp_100_120_InclComp_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230728: Added filter fx_Project/deny/like/#Temporary_"
+  },
+  "conditions": {
+    "condition": [
+      {
+        "-nameref": "fx_Company",
+        "-operator": "equal",
+        "-type": "accept",
+        "-value": "${vCompany}"
+      },
+      {
+        "-nameref": "fx_Project",
+        "-operator": "like",
+        "-type": "deny",
+        "-value": "#Temporary_"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_010_FormatIntegrator_ft"
+    }
+  }
+}

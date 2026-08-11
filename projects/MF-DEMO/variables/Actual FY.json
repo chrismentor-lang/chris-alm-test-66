@@ -1,0 +1,9 @@
+{
+  "-name": "Actual FY",
+  "comment": {
+    "#cdata-section": "Return the Financial Year from the Version attribute"
+  },
+  "script": {
+    "#file": "Actual FY.script.groovy"
+  }
+}

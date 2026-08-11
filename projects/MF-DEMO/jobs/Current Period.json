@@ -1,0 +1,10 @@
+{
+  "-name": "Current Period",
+  "-type": "Standard",
+  "executions": {
+    "execution": {
+      "-nameref": "cl_#_Version",
+      "-type": "load"
+    }
+  }
+}

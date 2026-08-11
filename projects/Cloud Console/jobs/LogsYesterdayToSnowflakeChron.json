@@ -1,0 +1,14 @@
+{
+  "-name": "LogsYesterdayToSnowflakeChron",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20241101: Changed job reference from LogsYesterdayToSnowflake to LogsYesterdayToSnowflakeNew\n20230713: Created to make sure that this job only runs after the other jobs."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "LogsYesterdayToSnowflakeNew",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit"
+}

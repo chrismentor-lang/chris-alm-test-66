@@ -1,0 +1,35 @@
+{
+  "-name": "xcs_MonthlySales_Delete_Budget_500_100",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "Clear all Budget  for the current year (reset)"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Monthly Sales"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "Budget",
+          "-dimension": "Version",
+          "-mode": "onlyNodes",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "${Budget FY}",
+          "-dimension": "Month",
+          "-mode": "onlyNodes",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

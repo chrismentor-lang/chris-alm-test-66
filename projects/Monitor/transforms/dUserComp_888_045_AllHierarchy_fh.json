@@ -1,0 +1,44 @@
+{
+  "-name": "dUserComp_888_045_AllHierarchy_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dUserComp_888_035_InclComp_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Name",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All users"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Name",
+              "input": {
+                "-nameref": "fx_Username"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "fx_User"
+          }
+        }
+      ]
+    }
+  }
+}

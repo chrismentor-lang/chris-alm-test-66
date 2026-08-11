@@ -1,0 +1,557 @@
+{
+  "-name": "cInMemoryLogs_100_010_FormatErrorCodes_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": "20230630: Added fx_DatabaseCount to the functions and the target.",
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_Date",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "yyyy-MM-dd"
+        }
+      },
+      {
+        "-name": "fx_Time",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_Error",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  err_idx = _input1.indexOf('error code: ');\n  par_idx = _input1.indexOf('(parameter ');\n  if(err_idx >=0 && par_idx >= 0)\n  {\n\treturn _input1.substring(err_idx,par_idx);\n  }\n  else if(err_idx >=0)\n  {\n\treturn _input1.substring(err_idx,LOG.length());\n  }\n\treturn '';\n  \n}\nelse\n  return '';"
+        }
+      },
+      {
+        "-name": "fx_ErrorMsg",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "ERR",
+            "-nameref": "fx_Error",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(ERR)\n{\n  err_idx = ERR.indexOf('description: ');\n  if(err_idx >=0)\n  {\n\treturn _input1.substring(err_idx+13,ERR.length());\n    }\n  else \n  {\n\treturn '';\n  }\n}\nelse\n  return '';"
+        }
+      },
+      {
+        "-name": "fx_ErrorCode",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "ERR",
+            "-nameref": "fx_Error",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(ERR)\n{\n  err_idx = ERR.indexOf('error code: ');\n  des_idx = ERR.indexOf('description: ');\n  if(err_idx >=0)\n  {\n\tsub = ERR.substring(err_idx+12,des_idx);\n\treturn 'Error code '+sub.trim();\n    }\n  else \n  {\n\treturn '';\n  }\n}\nelse\n  return '';"
+        }
+      },
+      {
+        "-name": "fx_Hour",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH"
+        }
+      },
+      {
+        "-name": "fx_Min",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm"
+        }
+      },
+      {
+        "-name": "fx_Sec",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_ExcelAddIn",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  err_idx = _input1.indexOf('Excel Add-in version needs to be updated');\n  if(err_idx >=0)\n  {\n\treturn 1;\n  }\n}\nelse\n  return 0;"
+        }
+      },
+      {
+        "-name": "fx_CorruptRequest",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  err_idx = _input1.indexOf('got corrupted HTTP request');\n  if(err_idx >=0)\n  {\n\treturn 1;\n  }\n}\nelse\n  return 0;"
+        }
+      },
+      {
+        "-name": "fx_NoHandler",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  err_idx = _input1.indexOf('no http request handler');\n  if(err_idx >=0)\n  {\n\treturn 1;\n  }\n}\nelse\n  return 0;"
+        }
+      },
+      {
+        "-name": "fx_MarkerConversion",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  err_idx = _input1.indexOf('cannot convert marker');\n  if(err_idx >=0)\n  {\n\treturn 1;\n  }\n}\nelse\n  return 0;"
+        }
+      },
+      {
+        "-name": "fx_LevelUpper",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LEVEL",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "txt = LEVEL.toUpperCase();\nreturn txt;",
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_WarningLogs",
+        "-type": "Map",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_LevelUpper"
+          }
+        },
+        "parameters": {
+          "default": "0",
+          "mapping": {
+            "map": {
+              "-from": "WARNING",
+              "-to": "1"
+            }
+          }
+        }
+      },
+      {
+        "-name": "fx_ErrorLogs",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LEVEL",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LEVEL==\"error\")\n{\n  return 1;\n}\nelse\n{\n  return 0;\n}",
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Login",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  user_idx = LOG.indexOf('] user');\n  login_idx = LOG.indexOf('logged in');\n  if(login_idx >=0)\n  {\n\tuser = LOG.substring(user_idx+8,login_idx-2);\n\tupper = user.toLowerCase();\n\tif(upper==\"admin\" || upper==\"_internal_suite\" || upper == \"etl\")\n\t{\n\t  return 0;\n\t}\n\telse\n\t{\n\t  return 1;\n\t}\n  }\n  else \n  {\n\treturn '';\n  }\n}\nelse\n  return '';",
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_Logout",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  user_idx = LOG.indexOf('] user');\n  logout_idx = LOG.indexOf('logged out');\n  if(logout_idx >=0)\n  {\n\tuser = LOG.substring(user_idx+8,logout_idx-2);\n\tupper = user.toLowerCase();\n\tif(upper==\"admin\" || upper==\"_internal_suite\" || upper == \"etl\")\n\t{\n\t  return 0;\n\t}\n\telse\n\t{\n\t  return 1;\n\t}\n  }\n  else \n  {\n\treturn '';\n  }\n}\nelse\n  return '';",
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_DiskSpace",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  disk_idx = LOG.indexOf('Disk free space:');\n  if(disk_idx>0)\n  {\n\treturn LOG.substring(disk_idx+16,LOG.length());\n  }\n}"
+        }
+      },
+      {
+        "-name": "fx_Database",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  db_idx = LOG.indexOf('system] database');\n  size_idx = LOG.indexOf('disk size');\n  if(db_idx>0 && size_idx>0)\n  {\n\treturn LOG.substring(db_idx+18,size_idx-3);\n  }\n}",
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_DatabaseSize",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  db_idx = LOG.indexOf('system] database');\n  size_idx = LOG.indexOf('disk size');\n  if(db_idx>0 && size_idx>0)\n  {\n\tsize = LOG.substring(size_idx+10,LOG.length());\n\tmb_idx = size.indexOf(' MB');\n\tif(mb_idx>0)\n\t{\n\t  str = LOG.substring(size_idx+10,LOG.length()-3);\n\t  return str.toInteger();\n\t}\n\telse\n\t{\n\t  return \"size not in MB\";\n\t}\n  }\n}"
+        }
+      },
+      {
+        "-name": "fx_DelayLoading",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  db_idx = LOG.indexOf('delayed auto loading database');\n  if(db_idx>0)\n  {\n\treturn 1;\n  }\n}",
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_DelayLoadingDatabase",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  db_idx = LOG.indexOf('delayed auto loading database');\n  if(db_idx>0)\n  {\n\treturn LOG.substring(db_idx+31,LOG.length()-1);\n  }\n}",
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_MachineDatabase",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "MACHINE",
+              "-type": "String"
+            },
+            {
+              "-alias": "DB",
+              "-nameref": "fx_Database",
+              "-type": "String"
+            },
+            {
+              "-alias": "DL",
+              "-nameref": "fx_DelayLoadingDatabase",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if((DB==null||DB==\"\")&&(DL==null||DL==\"\"))\n{\n  return MACHINE+\"~\";\n}\nelse if(DB==null||DB==\"\")\n{\n  return MACHINE+\"_\"+DL;\n}\nelse\n{\n  return MACHINE+\"_\"+DB;\n}",
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_DatabaseCount",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "DBM",
+              "-nameref": "fx_MachineDatabase",
+              "-type": "String"
+            },
+            {
+              "-alias": "MCH",
+              "-nameref": "MACHINE",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(DBM==null)\n{\n  return null;\n}\nelse if(MCH+\"~\"==DBM)\n{\n  return null;\n}\nelse\n{\n  return 1;\n}",
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Company",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": "-"
+        }
+      },
+      {
+        "-name": "fx_DatabaseActive",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": "if(LOG)\n{\n  db_idx = LOG.indexOf('system] database');\n  size_idx = LOG.indexOf('disk size');\n  if(db_idx>0 && size_idx>0)\n  {\n\treturn 1;\n  }\n  else\n  {\n\treturn null;\n  }\n}\nelse\n{\n  return null;\n}",
+          "type": "int"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryLogs_200_000_Comp_re"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "fx_Company"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Hour"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Sec"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ErrorCode"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ErrorMsg"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ExcelAddIn"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CorruptRequest"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_NoHandler"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_MarkerConversion"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Login"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Logout"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_DiskSpace"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Database"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_DelayLoading"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_DelayLoadingDatabase"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_MachineDatabase"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_DatabaseSize"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_DatabaseCount"
+          }
+        }
+      ]
+    }
+  }
+}

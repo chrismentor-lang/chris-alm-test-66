@@ -1,0 +1,11 @@
+{
+  "-name": "Integrator Yesterday",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "20231204: Changed fail on status from inherit to none."
+  },
+  "failStatus": "none",
+  "jobscript": {
+    "#file": "Integrator Yesterday.jobscript.groovy"
+  }
+}

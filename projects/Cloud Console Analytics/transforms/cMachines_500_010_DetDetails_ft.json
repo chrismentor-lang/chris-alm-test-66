@@ -1,0 +1,171 @@
+{
+  "-name": "cMachines_500_010_DetDetails_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "CHANGED"
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_Active",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "ACT",
+            "-nameref": "ACTIVE",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cMachines_500_010_DetDetails_ft.functions.function.1.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_NotActive",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "ACT",
+            "-nameref": "ACTIVE",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cMachines_500_010_DetDetails_ft.functions.function.2.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Support",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "SUP",
+            "-nameref": "SUPPORT_ON",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cMachines_500_010_DetDetails_ft.functions.function.3.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_SFTP",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "SFTP",
+            "-nameref": "HAS_SFTP",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cMachines_500_010_DetDetails_ft.functions.function.4.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Version",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "FRIENDLY_NAME"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": "-"
+        }
+      },
+      {
+        "-name": "fx_Pack",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "FRIENDLY_NAME"
+          }
+        },
+        "parameters": {
+          "occurence": "3",
+          "separator": "-"
+        }
+      },
+      {
+        "-name": "fx_VersionPack",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "VER",
+              "-nameref": "fx_Version",
+              "-type": "String"
+            },
+            {
+              "-alias": "PCK",
+              "-nameref": "fx_Pack",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cMachines_500_010_DetDetails_ft.functions.function.7.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_Year",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "REPLICATION_DATETIME"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "yyyy"
+        }
+      },
+      {
+        "-name": "fx_Date",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "REPLICATION_DATETIME"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "yyyy-MM-dd"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cMachines_500_000_AllDay_re"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "-name": "dProjectComp_999_035_AllHierarchy",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-dimensionType": "Business",
+    "-generateSubsets": "false",
+    "-name": "Project ${vCompany}",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dProjectComp_999_025_AllHierarchy_fh"
+  }
+}

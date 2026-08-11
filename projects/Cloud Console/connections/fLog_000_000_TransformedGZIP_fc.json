@@ -1,0 +1,18 @@
+{
+  "-name": "fLog_000_000_TransformedGZIP_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "20240919: Introduced."
+  },
+  "database": {
+    "#cdata-section": "customer_logs/${vTableSnowflake}.csv.gz"
+  },
+  "delimiter": "|",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "\""
+}

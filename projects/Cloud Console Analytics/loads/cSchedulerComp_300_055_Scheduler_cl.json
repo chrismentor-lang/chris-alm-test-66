@@ -1,0 +1,24 @@
+{
+  "-name": "cSchedulerComp_300_055_Scheduler_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Scheduler ${vCompany}",
+    "-splash": "disabled",
+    "measureDimension": {
+      "-name": "Measure (Scheduler)"
+    },
+    "timeDimension": {
+      "-name": "Date"
+    }
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "cSchedulerComp_300_045_NormScheduler_tn"
+  }
+}

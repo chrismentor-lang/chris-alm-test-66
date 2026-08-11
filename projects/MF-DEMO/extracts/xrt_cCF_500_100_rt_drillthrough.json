@@ -1,0 +1,41 @@
+{
+  "-name": "xrt_cCF_500_100_rt_drillthrough",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract the Fact data for cash flow"
+  },
+  "connection": {
+    "-nameref": "Minerva Demo"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "Version"
+      },
+      {
+        "-input": "CF Account"
+      },
+      {
+        "-input": "Cost Centre"
+      },
+      {
+        "-input": "Month"
+      },
+      {
+        "-input": "Currency"
+      },
+      {
+        "-input": "Measure_CF"
+      },
+      {
+        "-input": "#Value"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_FACTCF",
+    "-schema": "JEDOX_CUBES"
+  }
+}

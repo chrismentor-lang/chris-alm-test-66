@@ -1,0 +1,171 @@
+{
+  "components": {
+    "cubes.Balance Sheet": {
+      "hash": "sha256:811afb674728e412ebb4d053c384cab52cf27addd17cb3398400247cd69b661c"
+    },
+    "cubes.Balance Sheet.views/03b5cdc3-47ba-41a9-9566-f6a78dc36463": {
+      "hash": "sha256:256fec7c9509004b4b6ac757af1a91a6d2c8d6d4e53450cc8a136151110406b0"
+    },
+    "cubes.Cash Flow": {
+      "hash": "sha256:b5a71ad457f96966176f04c245cb2328b2f8ca2799f1466b76d1ae61d79ac44a"
+    },
+    "cubes.Cash Flow.views/fb18e74d-73b6-46bd-aae7-082f5132ec65": {
+      "hash": "sha256:963fd374d3ff0e1ba07941e2d93218667657c69b876b85295dbdb977adf9d961"
+    },
+    "cubes.FX": {
+      "hash": "sha256:5651939b91364432bbec3b9bfe9d448921ae8af137fa95afcd0de7215c372ddb"
+    },
+    "cubes.Monthly Sales": {
+      "hash": "sha256:74e63bfb16fe1046a4042fa97dcd0754a6a39f07f834932ef38517b2ec9a66b1"
+    },
+    "cubes.Monthly Sales.views/409c31ed-0cfb-483d-adaa-87fd00b4ff28": {
+      "hash": "sha256:7d66618e44cea6318695a6935d5689c8166bd3d7e4107f5a480fc149c36687a0"
+    },
+    "cubes.Monthly Sales.views/566c0767-d604-42d9-9e82-50f77d191fb3": {
+      "hash": "sha256:e8d25080f9931dc5395f2d5de9396c6b34e53692a4786ac57ff094597a5c054d"
+    },
+    "cubes.Monthly Sales.views/c8e213f0-bdae-4617-9648-2e4e312eb4fe": {
+      "hash": "sha256:b386d36fc64e58b141fa7c5b7434d29843accb712367ea6e700132d521ffe9c6"
+    },
+    "cubes.Monthly Sales.views/ca3cf81e-dd15-4a38-bae3-f90f886a0ce3": {
+      "hash": "sha256:cda3d4bc4acaf5dc80e6c7b805d8f4c7292f1bc5baa453e5ae13507afdc9c822"
+    },
+    "cubes.Monthly Sales.views/f8496ca5-886a-415d-bde8-3978ec062ce9": {
+      "hash": "sha256:03c305306b6aa014507e0a96e876e76fdd4334e3a0b6d6237f1cf91aac58fc64"
+    },
+    "cubes.Profit and Loss": {
+      "hash": "sha256:4ce53c3a21f8d5b0a4f3a48e242b8a618ae51e1b71dd12775b7d8857d130ca77"
+    },
+    "cubes.Profit and Loss.views/a97b1be0-6a5d-4c19-974f-c05da28738fb": {
+      "hash": "sha256:4fb45c7d5f671bcc5732c1397dd525bcf001b874202d4a5134b66bdfb59c7009"
+    },
+    "cubes.m4j_PlanningWorkflow": {
+      "hash": "sha256:4d8de9962170ed70768dd1e7e09f1aa055d2dfef3946812d576382e1b2fd4c45"
+    },
+    "dimensions.BS Account": {
+      "hash": "sha256:e67953292e2249c0418fd43c9797573889b0bdace1da924081041457ae7c04a3"
+    },
+    "dimensions.CF Account": {
+      "hash": "sha256:a691d67bc7623a3cdf0f0d2d0ad28869430868a43a5d0e0fc32b7fcc87eea52d"
+    },
+    "dimensions.Conversion Type": {
+      "hash": "sha256:bf19da106bd9fa0bd5123f712c3f3df2cda562b70da2937f5fa5874fd0f2f3c5"
+    },
+    "dimensions.Cost Centre": {
+      "hash": "sha256:20f3c6a5597a7650e4760b10a91003f9435fab9231e243d2066a53c63f8bd877"
+    },
+    "dimensions.Currency": {
+      "hash": "sha256:06d7cefbb97b5bbc7f0d737d7921aa50924b5057a2e11fc1dcef7526c1578987"
+    },
+    "dimensions.Customer": {
+      "hash": "sha256:0ce791989e52736f340ecf16aa059c72d84451bb0607a3c8881243876aee6334"
+    },
+    "dimensions.Entity": {
+      "hash": "sha256:dc3cce26f2ae88a739ef477fc8a9b90e547d8920adf7fd038b711911dd3cb138"
+    },
+    "dimensions.Measure_BS": {
+      "hash": "sha256:e748a7c8e17cc5b4d2214326b06901c86b19ad712bdddc371adfe18c88afab63"
+    },
+    "dimensions.Measure_CF": {
+      "hash": "sha256:fe5ed8226f250677886afc14977b84f754376795faeaa735a63d47984bcba5c5"
+    },
+    "dimensions.Measure_FX": {
+      "hash": "sha256:059e3eaa3055c917486df3e0d2c7d91f62f63f6507ca0a8e49075bcda4d052a7"
+    },
+    "dimensions.Measure_PL": {
+      "hash": "sha256:f717d95f63eaaa672d0f1c052e304321db13c13fb862382632b18fccba54185d"
+    },
+    "dimensions.Measure_Sales": {
+      "hash": "sha256:42dea90eee3b2952820e167351bf5e903679e6ca5e99f3958cd740a9e7dce02d"
+    },
+    "dimensions.Month": {
+      "hash": "sha256:1b639229a5ec04b98ff639c7b1ab1d83a6ea1ce083216d61f20c34432faee640"
+    },
+    "dimensions.Month_FRED": {
+      "hash": "sha256:ef6431d01ea710d619d110b2ce40ef3f938470caa53adf59c704367105d70bfa"
+    },
+    "dimensions.PL Account": {
+      "hash": "sha256:1224f3a04c6907593480179ad69db52a4eef42b74ea3c9498fe74e4d492e436d"
+    },
+    "dimensions.Product": {
+      "hash": "sha256:82525018874c35fd87bb97774ec2a9c329b3154ead4401c1a0a7cf4b55dfcae2"
+    },
+    "dimensions.Target Currency": {
+      "hash": "sha256:98fd174c38f551a39ad8313210769c03466cc13765e6ff33927cc5e55b08edc1"
+    },
+    "dimensions.Version": {
+      "hash": "sha256:ba917212c7f4a600d45452c0440fe14ad206634fbab53fc7b795ab03288be711"
+    },
+    "dimensions.m4j_PlanningStep": {
+      "hash": "sha256:6116e330f7e4321c3322beee39e47166ae97152c17d10b32e40d3d700d9cb148"
+    },
+    "dimensions.m4j_WorkflowField": {
+      "hash": "sha256:a03a32ef5ece86d63bfeb6ccca4c5ba3ed57c300c29890b2c6d63812d79aa1a2"
+    },
+    "lists.8a8c7808-6f31-454d-865a-cb3402b439e2": {
+      "hash": "sha256:82e23a19b5fab16423f21dcff52c5e47817c331c9b2c56dfc416135a650f2faa"
+    },
+    "subsets.Cost Centre/subset1": {
+      "hash": "sha256:1406fe054011d43eb6f9957f5997a4b55d6e69a872d14210279e985c0d4b4a24"
+    },
+    "subsets.Cost Centre/subset2": {
+      "hash": "sha256:c91b86e3c03cc1377f572502ff97ad111d05778117ee2be81d1b91fc4568e676"
+    },
+    "subsets.Currency/All Currencies Base Elements": {
+      "hash": "sha256:e992bb4e3f863f5dfa6d8e0fdc325c1369f9cbf8516d6bd53cdc86e6a3bb4170"
+    },
+    "subsets.Currency/Combobox Subset": {
+      "hash": "sha256:9240664ec9c4acea8d6b627c86cd5039d4601a7efa41fc84d981258acb80252e"
+    },
+    "subsets.Currency/Conversion Input Elements": {
+      "hash": "sha256:3b5475dba742137ffbbcb38ac3f70c45e3a2b9090af81043827ced3036afa463"
+    },
+    "subsets.Currency/Converted Currencies": {
+      "hash": "sha256:11b8f6a89c3e8d9a462b12ec23fe20f324daef705b33ec6e06c8608823c3078e"
+    },
+    "subsets.Currency/Explicit Conversion Elements": {
+      "hash": "sha256:3af4eebb3a6f4881cd39af1f8d42c8d84e4e2a813a11834428a02bde2e036404"
+    },
+    "subsets.Currency/Implicit Conversion Elements": {
+      "hash": "sha256:27086d4867c15f41e17bfa0256ac1431a9f79ed21e143985ab6c0da88e87dba5"
+    },
+    "subsets.Currency/Loaded Currencies": {
+      "hash": "sha256:ba7333a4bdbe6b00def8dcddffb14a6cf5411b25d07a4a3fb7d0b843d0c26eae"
+    },
+    "subsets.Customer/TopN Override": {
+      "hash": "sha256:aa66c89677b7d724bcd9cf0a57637981d5da20b13f9ff159357e55dd8fee7393"
+    },
+    "subsets.Measure_Sales/%2AAll": {
+      "hash": "sha256:5241b17cc6bf462c866ee60b7f33117b1e917be207faff34726f4e164c001007"
+    },
+    "subsets.Measure_Sales/%2ABase": {
+      "hash": "sha256:9a782aa4b9acfcbab09b1409066a5fdc9d5a7b47e494657f7da7d4bf0d1df61f"
+    },
+    "subsets.Month/Current Period": {
+      "hash": "sha256:d1680bf88daa0672be4696e47274e3b1ac462f29404ad4fa721c9ba0f093e7e2"
+    },
+    "subsets.Month/Dynamic": {
+      "hash": "sha256:dabaf29f5332bf58a561f107da317ee696d3fc3761b4d29393c702c0886b6c31"
+    },
+    "subsets.Month/FY26": {
+      "hash": "sha256:ffda5a1fd3e24d517a1748623a79836d0a7895903ffc9db2228b6dc63a26a961"
+    },
+    "subsets.Month/FY26 Base": {
+      "hash": "sha256:fa28f748a1b8ff5e3cf90e73e6434de3d241925e31a005538e82b1f09467d4df"
+    },
+    "subsets.Month/FY27": {
+      "hash": "sha256:41f11fd74ca443649f6d22c7e45e5300379c548cfc32a6cc545619a2f8d99ccc"
+    },
+    "subsets.Month/FY27 Base": {
+      "hash": "sha256:b3829538019cfbf59fdd5094fba399197171c77be541e8a908eee046c6019aeb"
+    }
+  },
+  "hash": "sha256:c17ed4d967668b9676fb88e6db9897ab25c1979ce681504ff2f29951e730b46b",
+  "project": "olap:MF-DEMO",
+  "source": {
+    "at": "2026-08-11T03:15:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "token": "16077331"
+}

@@ -1,0 +1,19 @@
+{
+  "components": {
+    "Test.connections.New MS Excel connection": {
+      "hash": "sha256:ae25450119716360a088787de283320c2642187b4e48d819639b156f5f44ee7f",
+      "modified": 1785572735779,
+      "modifiedBy": "jane.pranata@minerva.com.au"
+    }
+  },
+  "hash": "sha256:7765ada8a4b8b1b1c20c4577136edb8357566b50363608a35a9e000f480495d8",
+  "modified": 1785572735779,
+  "modifiedBy": "jane.pranata@minerva.com.au",
+  "project": "Test",
+  "source": {
+    "at": "2026-08-11T03:15:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

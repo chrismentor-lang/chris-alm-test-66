@@ -1,0 +1,24 @@
+{
+  "-name": "cIntegratorComp_100_065_JobStatus_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Integrator ${vCompany}",
+    "-splash": "disabled",
+    "measureDimension": {
+      "-name": "Measure (Integrator)"
+    },
+    "timeDimension": {
+      "-name": "Date"
+    }
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "cIntegratorComp_100_055_NormJobStatus_tn"
+  }
+}

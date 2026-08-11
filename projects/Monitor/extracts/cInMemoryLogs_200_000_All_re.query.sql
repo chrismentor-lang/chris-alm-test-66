@@ -1,0 +1,10 @@
+SELECT 
+MACHINE,
+TIME_UTC,
+LEVEL,
+SERVICE,
+LOG 
+FROM JEDOX.LOGS.IN_MEMORY
+WHERE TIME_UTC > '${vFrom}' AND TIME_UTC < '${vTo}'
+--AND LEVEL = 'error'
+--AND LOG like '%error code%'

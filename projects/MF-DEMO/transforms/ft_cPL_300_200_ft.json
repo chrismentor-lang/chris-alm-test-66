@@ -1,0 +1,61 @@
+{
+  "-name": "ft_cPL_300_200_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "load local currency (actuals)"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xrt_cPL_300_100_rt"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Version",
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "-name": "Currency",
+          "input": {
+            "-nameref": "Currency"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "Month"
+          }
+        },
+        {
+          "-name": "PL Account",
+          "input": {
+            "-nameref": "PL Account"
+          }
+        },
+        {
+          "-name": "Cost Centre",
+          "input": {
+            "-nameref": "Cost Centre"
+          }
+        },
+        {
+          "-name": "Measure_PL",
+          "input": {
+            "-nameref": "Measure_PL"
+          }
+        },
+        {
+          "-name": "#Value",
+          "input": {
+            "-nameref": "#Value"
+          }
+        }
+      ]
+    }
+  }
+}

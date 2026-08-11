@@ -1,0 +1,75 @@
+{
+  "-name": "cIntegratorLogs_100_015_StartCalc_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20231130: Added extra if in function fx_TimeDuration to make up for job in pmhc."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_TimeDuration",
+        "-type": "Groovy",
+        "comment": {
+          "#cdata-section": "20231130: Added extra if to make up for job in pmhc."
+        },
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_015_StartCalc_ft.functions.function.1.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_TimeLocal",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss.SSS",
+          "targetformat": "yyyy-MM-dd HH:mm:ss.SSS"
+        }
+      },
+      {
+        "-name": "fx_TimeCalc",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "fx_TimeLocal",
+              "-type": "String"
+            },
+            {
+              "-nameref": "fx_TimeDuration",
+              "-type": "int"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_015_StartCalc_ft.functions.function.3.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_005_CompFinished_re"
+    }
+  }
+}

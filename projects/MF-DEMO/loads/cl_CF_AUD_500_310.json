@@ -1,0 +1,22 @@
+{
+  "-name": "cl_CF_AUD_500_310",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Cash Flow",
+    "-splash": "disabled",
+    "drillthrough": {
+      "-directextract": "xrt_cCF_500_100_rt_drillthrough",
+      "-drilltype": "direct"
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "ft_cCF_AUD_500_200_ft"
+  }
+}

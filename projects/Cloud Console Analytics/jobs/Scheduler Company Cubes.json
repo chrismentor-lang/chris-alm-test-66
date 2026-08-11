@@ -1,0 +1,36 @@
+{
+  "-name": "Scheduler Company Cubes",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20230727: Replaced cLogsComp_002_010_DeleteDay_cl with Logs Company Delete.\n20230726: Added rScheduler_005_010_Rules_rl.\n20230625: Removed cLogsComp_002_010_DeleteDay_cl from slot 4."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Task Company Dimensions Hierarchies",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Project Company Dimensions Hierarchies",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Machine Company Dimensions Hierarchies",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Logs Company Delete",
+        "-type": "job"
+      },
+      {
+        "-nameref": "cSchedulerComp_300_055_Scheduler_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rScheduler_005_010_Rules_rl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

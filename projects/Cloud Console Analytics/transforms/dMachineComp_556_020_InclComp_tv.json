@@ -1,0 +1,18 @@
+{
+  "-name": "dMachineComp_556_020_InclComp_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "NAMESPACE",
+      "-operator": "like",
+      "-type": "accept",
+      "-value": "${vCompany}"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMachine_555_010_DetCompany_ft"
+    }
+  }
+}

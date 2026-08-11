@@ -1,0 +1,24 @@
+{
+  "-name": "cInMemoryComp_100_140_InMemoryOther_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "In-Memory ${vCompany}",
+    "-splash": "disabled",
+    "measureDimension": {
+      "-name": "Measure (In-Memory)"
+    },
+    "timeDimension": {
+      "-name": "Date"
+    }
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "cInMemoryComp_100_130_NormInMemoryOther_tn"
+  }
+}

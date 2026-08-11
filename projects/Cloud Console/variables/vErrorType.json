@@ -1,0 +1,7 @@
+{
+  "-name": "vErrorType",
+  "comment": {
+    "#cdata-section": "Format: int [0,1,2,3,4,5] seperated by commas.\n0: ?\n1: warning\n2: error\n3: info\n4: notice\n5: ?"
+  },
+  "default": "0,1,2,3,4,5"
+}

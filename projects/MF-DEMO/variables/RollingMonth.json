@@ -1,0 +1,9 @@
+{
+  "-name": "RollingMonth",
+  "comment": {
+    "#cdata-section": "Return the Current Period from the Version attribute, look up the Prior Year and concatenate the -R12  (for the rolling 12 consolidation)"
+  },
+  "script": {
+    "#file": "RollingMonth.script.groovy"
+  }
+}

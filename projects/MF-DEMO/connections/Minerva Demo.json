@@ -1,0 +1,10 @@
+{
+  "-name": "Minerva Demo",
+  "-type": "Snowflake",
+  "comment": {
+    "#cdata-section": "Connection to Minerva Demo database (DEMO_CONSUMPTION)"
+  },
+  "global": {
+    "-nameref": "Minerva Demo"
+  }
+}

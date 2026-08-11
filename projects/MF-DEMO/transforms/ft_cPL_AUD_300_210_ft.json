@@ -1,0 +1,58 @@
+{
+  "-name": "ft_cPL_AUD_300_210_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xrt_cPL_AUD_300_110_rt"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Version",
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "-name": "Currency",
+          "input": {
+            "-constant": "AUD"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "Month"
+          }
+        },
+        {
+          "-name": "PL Account",
+          "input": {
+            "-nameref": "PL Account"
+          }
+        },
+        {
+          "-name": "Cost Centre",
+          "input": {
+            "-nameref": "Cost Centre"
+          }
+        },
+        {
+          "-name": "Measure_PL",
+          "input": {
+            "-nameref": "Measure_PL"
+          }
+        },
+        {
+          "-name": "#Value",
+          "input": {
+            "-nameref": "AUD_VALUE"
+          }
+        }
+      ]
+    }
+  }
+}

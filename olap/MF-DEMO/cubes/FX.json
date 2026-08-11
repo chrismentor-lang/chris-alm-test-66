@@ -1,0 +1,16 @@
+{
+  "name": "FX",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Currency",
+    "Target Currency",
+    "Conversion Type",
+    "Month",
+    "Measure_FX"
+  ],
+  "properties": {
+    "Description": "Holds FX rates for currency conversion\n",
+    "Name": "FX"
+  }
+}

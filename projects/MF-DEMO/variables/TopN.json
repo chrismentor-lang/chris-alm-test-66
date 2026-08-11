@@ -1,0 +1,10 @@
+{
+  "-name": "TopN",
+  "comment": {
+    "#cdata-section": "Return TopN value from attribute."
+  },
+  "default": "5",
+  "script": {
+    "#file": "TopN.script.groovy"
+  }
+}

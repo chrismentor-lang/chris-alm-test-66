@@ -1,0 +1,25 @@
+{
+  "-name": "cs_cBS_400_100",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "clear loaded data"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "query": {
+    "-mode": "generateRoots",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Balance Sheet"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "${Version}",
+        "-dimension": "Version",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

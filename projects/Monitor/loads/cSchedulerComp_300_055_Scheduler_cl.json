@@ -1,0 +1,17 @@
+{
+  "-name": "cSchedulerComp_300_055_Scheduler_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-deactivateSVS": "true",
+    "-name": "Scheduler ${vCompany}",
+    "-splash": "disabled"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "cSchedulerComp_300_045_NormScheduler_tn"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "-name": "dDate_003_000_Yesterday_ct",
+  "-type": "ConstantTable",
+  "comment": {
+    "#cdata-section": "20230727: Replaced ${vFrom} with ${vTo} to make sure that we could load today's machine data."
+  },
+  "data": {
+    "header": {
+      "value": "vFrom"
+    },
+    "row": {
+      "value": "${vTo}"
+    }
+  }
+}

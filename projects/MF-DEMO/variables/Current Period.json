@@ -1,0 +1,9 @@
+{
+  "-name": "Current Period",
+  "comment": {
+    "#cdata-section": "Return the current period flagged in the Month dimension."
+  },
+  "script": {
+    "#file": "Current Period.script.groovy"
+  }
+}

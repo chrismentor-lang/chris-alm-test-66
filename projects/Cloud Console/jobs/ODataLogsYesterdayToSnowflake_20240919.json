@@ -1,0 +1,11 @@
+{
+  "-name": "ODataLogsYesterdayToSnowflake_20240919",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "fLog_000_040_Transformed_fl CHANGE BACK TO ${vLoadMode}! DONE\n\n20230911: Changed line 141 def baseDirectory = './webapps/etlserver/data/files/customer_logs/';  to def baseDirectory = './data/files/customer_logs/';"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "ODataLogsYesterdayToSnowflake_20240919.jobscript.groovy"
+  }
+}

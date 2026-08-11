@@ -1,0 +1,47 @@
+{
+  "-name": "All Logs Yesterday",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "20231204: Replaced 4th job Integrator Yesterday with the new job Integrator Yesterday Switch.\n\n20230725: Added Machine Company Cubes Loop to make sure that all customers have their own Machines cube.\n\n20230706: Added load cMachines_400_030_Characteristics_cl to make sure that the Machines cube refreshed everyday as well."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Logs Yesterday",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Spreadsheet Yesterday",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "In-Memory Yesterday",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Integrator Yesterday Switch",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Scheduler Yesterday",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "cMachines_400_030_Characteristics_cl",
+        "-parallel": "false",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Machine Company Cubes Loop",
+        "-parallel": "false",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

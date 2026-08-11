@@ -1,0 +1,28 @@
+{
+  "-name": "Logs Dimensions",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20230727: Added dVersion_666_025_AllHierarchy_dl to make sure that the Jedox Version dimension is updated as well."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dMachine_555_030_AllHierarchy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dMachine_555_035_TypeHierarchy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dMeasureLogs_100_050_InMemoryLogs_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dVersion_666_025_AllHierarchy_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

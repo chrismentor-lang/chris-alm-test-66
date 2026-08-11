@@ -1,0 +1,25 @@
+{
+  "-name": "cl_BS_AUD_400_310",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "load translated AUD currency (actuals)"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Balance Sheet",
+    "-splash": "disabled",
+    "drillthrough": {
+      "-directextract": "xrt_cBS_400_100_rt_drillthrough",
+      "-drilltype": "direct"
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "ft_cBS_AUD_400_210_ft"
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "-name": "cl_PL_AUD_300_310",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "load translated AUD currency (actuals)"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Profit and Loss",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Currency",
+          "-name": "Currency"
+        },
+        {
+          "-input": "Month",
+          "-name": "Month"
+        },
+        {
+          "-input": "PL Account",
+          "-name": "PL Account"
+        },
+        {
+          "-input": "Cost Centre",
+          "-name": "Cost Centre"
+        },
+        {
+          "-input": "Measure_PL",
+          "-name": "Measure_PL"
+        }
+      ]
+    },
+    "drillthrough": {
+      "-directextract": "xrt_cPL_300_120_drillthrough",
+      "-drilltype": "direct"
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "ft_cPL_AUD_300_210_ft"
+  }
+}

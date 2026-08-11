@@ -1,0 +1,30 @@
+{
+  "-name": "dReportComp_777_020_NoReport_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_015_InclComp_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All reports"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_NoPath"
+          }
+        }
+      ]
+    }
+  }
+}

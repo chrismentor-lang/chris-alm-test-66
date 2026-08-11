@@ -1,0 +1,11 @@
+{
+  "-name": "tMachines_100_001_DataRaw_jc",
+  "-type": "JsonFile",
+  "database": {
+    "#cdata-section": "customer_logs/machines_record_data.csv"
+  },
+  "encoding": "UTF-8",
+  "location": {
+    "-type": "FileSystem"
+  }
+}

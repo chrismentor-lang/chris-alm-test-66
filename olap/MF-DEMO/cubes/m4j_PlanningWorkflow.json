@@ -1,0 +1,12 @@
+{
+  "name": "m4j_PlanningWorkflow",
+  "kind": "normal",
+  "dimensions": [
+    "m4j_PlanningStep",
+    "m4j_WorkflowField"
+  ],
+  "properties": {
+    "Description": "Minerva for Jedox planning workflow cube",
+    "Name": "m4j_PlanningWorkflow"
+  }
+}

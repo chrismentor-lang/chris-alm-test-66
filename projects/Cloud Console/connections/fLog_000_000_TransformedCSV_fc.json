@@ -1,0 +1,18 @@
+{
+  "-name": "fLog_000_000_TransformedCSV_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "20240919: Changed the name from fLog_000_000_Transformed_fc to fLog_000_000_TransformedCSV_fc"
+  },
+  "database": {
+    "#cdata-section": "customer_logs/${vTableSnowflake}.csv"
+  },
+  "delimiter": "|",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "\""
+}

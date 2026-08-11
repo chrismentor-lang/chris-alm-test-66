@@ -1,0 +1,13 @@
+{
+  "-name": "tInsertMachinesIntoTable_000_000_Increment_RS",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Load with increment so we can load each machine every day and see whether there are any changes over time."
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "tInsertMachinesIntoTable_000_000_Increment_RS.query.sql"
+  }
+}

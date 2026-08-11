@@ -1,0 +1,14 @@
+{
+  "-name": "cIntegratorLogs_100_105_CompStarting_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230730: Added AND MACHINE like'%${vCompany}%'"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "cIntegratorLogs_100_105_CompStarting_re.query.sql"
+  }
+}

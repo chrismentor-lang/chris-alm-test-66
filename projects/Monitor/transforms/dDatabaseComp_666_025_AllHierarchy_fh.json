@@ -1,0 +1,44 @@
+{
+  "-name": "dDatabaseComp_666_025_AllHierarchy_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dDatabase_666_015_InclDbLogs_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Database",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Databases"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Database",
+              "input": {
+                "-nameref": "fx_Database"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "fx_MachineDatabase"
+          }
+        }
+      ]
+    }
+  }
+}

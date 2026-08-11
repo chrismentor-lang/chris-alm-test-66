@@ -1,0 +1,50 @@
+{
+  "-name": "Copy Estimate to Forecast on Demand",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that is initialised via the RVP6 report by the user. Copies the estimate to the required forecast, Refreshes the accountability tables, refreshes the revenue planning estimate table in Snowflake, updates the monthly revenue data in Accountability, refreshes estimate dimension and revenue planning cube, and finally copies the adjusted value to input for the estimate version.\n\nShould be used in the front end screen to Copy Estimate to Mid Forecast and EOM Forecast\n\n20260627: Removed variable setting referring to the variable itself. Can be removed all together if only run from RVP6 but left variables in case somebody wants to run manually."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Thinkerbell Revenue Planning Copy Estimate to FC",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Jobs and Estimates in DW",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Snowflake Refresh Revenue Planning Estimate",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Accountability Update Estimated Revenue",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Thinkerbell Refresh Estimate Dimension",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Thinkerbell Refresh Revenue Planning Cube",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Thinkerbell Copy Estimate Adjusted to Input",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vFCVersion"
+      },
+      {
+        "-name": "vFY"
+      }
+    ]
+  }
+}

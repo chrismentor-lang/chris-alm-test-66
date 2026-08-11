@@ -1,0 +1,8 @@
+{
+  "-name": "refresh ruletemplates",
+  "-type": "JedoxDatabase",
+  "action": "updateRuleTemplates",
+  "connection": {
+    "-nameref": "Biker"
+  }
+}

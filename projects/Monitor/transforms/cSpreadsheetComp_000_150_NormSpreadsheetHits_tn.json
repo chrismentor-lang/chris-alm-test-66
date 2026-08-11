@@ -1,0 +1,72 @@
+{
+  "-name": "cSpreadsheetComp_000_150_NormSpreadsheetHits_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetComp_000_140_InclCompHits_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine ${vCompany}",
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "-name": "Year",
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        },
+        {
+          "-name": "Minutes",
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "-name": "Username ${vCompany}",
+          "input": {
+            "-nameref": "fx_User"
+          }
+        },
+        {
+          "-name": "Report ${vCompany}",
+          "input": {
+            "-nameref": "fx_FullPathMachine"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Spreadsheet)",
+      "-valuename": "#Value",
+      "measure": {
+        "-aggregate": "sum",
+        "-name": "Web Report Hits",
+        "-type": "numeric",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

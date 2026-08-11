@@ -1,0 +1,8 @@
+{
+  "-name": "Date Yesterday",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Date Yesterday.jobscript.groovy"
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "-name": "PSFLogsOneDayToSnowflake",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Please provide variable vFrom by entering the day you want to load into Snowflake."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "PSFLogsDayToSnowflake",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "vFrom",
+      "default": "2024-07-04"
+    }
+  }
+}

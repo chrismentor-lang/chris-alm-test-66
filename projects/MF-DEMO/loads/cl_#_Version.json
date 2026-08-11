@@ -1,0 +1,21 @@
+{
+  "-name": "cl_#_Version",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "update the current period from the month 'Current Period' attribute to the Actual 'Current Period' Attribute value."
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "#_Version",
+    "-splash": "disabled"
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "tn_c#_Version_600_300"
+  }
+}

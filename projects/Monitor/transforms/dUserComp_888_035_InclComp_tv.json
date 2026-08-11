@@ -1,0 +1,25 @@
+{
+  "-name": "dUserComp_888_035_InclComp_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": [
+      {
+        "-nameref": "fx_User",
+        "-operator": "isNull",
+        "-type": "deny"
+      },
+      {
+        "-nameref": "fx_Company",
+        "-operator": "like",
+        "-type": "accept",
+        "-value": "${vCompany}"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_030_FormatCore_ft"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "-name": "tMachines_100_003_AddData_fl",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "tMachines_100_111_Transformed_fc"
+  },
+  "mode": "${vLoadMode}",
+  "source": {
+    "-nameref": "tMachines_100_002_RecordData_je"
+  },
+  "useScientificNotation": "true"
+}

@@ -1,0 +1,23 @@
+{
+  "-name": "cInMemoryComp_100_031_LoopErrorCode_tl",
+  "-type": "TableLoop",
+  "assignment": {
+    "variable": {
+      "-name": "vErrorCode",
+      "input": {
+        "-nameref": "fx_ErrorCode"
+      }
+    }
+  },
+  "cache": "false",
+  "loops": {
+    "loop": {
+      "-nameref": "cInMemoryComp_100_031_ExclNonError_tv"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryComp_100_022_InclErrorCode_tv"
+    }
+  }
+}

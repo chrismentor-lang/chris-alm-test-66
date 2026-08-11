@@ -1,0 +1,88 @@
+{
+  "-name": "cIntegratorComp_100_055_NormJobStatus_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "true",
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorComp_100_045_InclComp_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine ${vCompany}",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "-name": "Date",
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "-name": "Minutes",
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "-name": "Project ${vCompany}",
+          "input": {
+            "-nameref": "fx_JobCheck"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Integrator)",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-aggregate": "sum",
+          "-name": "Executions completed successfully",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_CompletedSuccessful"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Executions completed with warnings",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_CompletedWarnings"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Executions failed",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_CompletedFailed"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Executions completed with errors",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_CompletedErrors"
+          }
+        },
+        {
+          "-aggregate": "avg",
+          "-name": "Execution duration",
+          "-type": "numeric",
+          "input": {
+            "-nameref": "fx_TimeDuration"
+          }
+        }
+      ]
+    }
+  }
+}

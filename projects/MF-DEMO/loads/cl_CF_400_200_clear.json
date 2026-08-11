@@ -1,0 +1,21 @@
+{
+  "-name": "cl_CF_400_200_clear",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "clear loaded data from cash flow cube"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Cash Flow",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "cs_cCF_400_100"
+  }
+}

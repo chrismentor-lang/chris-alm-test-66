@@ -1,0 +1,25 @@
+{
+  "-name": "dProjectComp_999_015_InclComp_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": [
+      {
+        "-nameref": "fx_Company",
+        "-operator": "like",
+        "-type": "accept",
+        "-value": "${vCompany}"
+      },
+      {
+        "-nameref": "fx_Object",
+        "-operator": "isNull",
+        "-type": "deny"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_010_FormatIntegrator_ft"
+    }
+  }
+}

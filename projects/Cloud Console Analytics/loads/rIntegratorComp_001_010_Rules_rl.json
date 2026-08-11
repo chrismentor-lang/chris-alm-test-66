@@ -1,0 +1,14 @@
+{
+  "-name": "rIntegratorComp_001_010_Rules_rl",
+  "-type": "Rule",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-name": "Integrator ${vCompany}"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "rIntegratorComp_001_000_Rules_ct"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "components": {
+    "New project.connections.New CSV connection (1)": {
+      "hash": "sha256:35fc2ed9b6112f8fa7712291648b58b661c800a5c28cc5357ae5f7ee28abada0",
+      "modified": 1785504476592,
+      "modifiedBy": "chris"
+    },
+    "New project.variables.New var": {
+      "hash": "sha256:ef371a22011fb9b858d392f8a45093d52f838f179a90902c2a36cde937fee3c7",
+      "modified": 1785503743233,
+      "modifiedBy": "chris"
+    }
+  },
+  "hash": "sha256:eb5e8b6e4282a718450eade79ce3433f9f3c29e18bdcc1afdfd6ef47b98c3947",
+  "modified": 1785504608454,
+  "modifiedBy": "chris",
+  "project": "New project",
+  "source": {
+    "at": "2026-08-11T03:15:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

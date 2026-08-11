@@ -1,0 +1,25 @@
+{
+  "-name": "dDatabase_666_015_InclDbLogs_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": [
+      {
+        "-nameref": "fx_MachineDatabase",
+        "-operator": "isNull",
+        "-type": "deny"
+      },
+      {
+        "-nameref": "fx_Company",
+        "-operator": "equal",
+        "-type": "accept",
+        "-value": "${vCompany}"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryLogs_100_010_FormatErrorCodes_ft"
+    }
+  }
+}

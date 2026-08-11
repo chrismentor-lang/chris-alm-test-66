@@ -1,0 +1,23 @@
+{
+  "-name": "dProjectComp_998_065_ScheHierarchy_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Project ${vCompany}",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dProjectComp_998_055_SchedHierarchy_fh"
+  }
+}

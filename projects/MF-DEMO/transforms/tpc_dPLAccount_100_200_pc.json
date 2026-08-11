@@ -1,0 +1,98 @@
+{
+  "-name": "tpc_dPLAccount_100_200_pc",
+  "-type": "TreePC",
+  "sources": {
+    "source": {
+      "-nameref": "xrt_dPLAccount_100_100_rt"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Description",
+          "-type": "string",
+          "input": {
+            "-nameref": "DESCRIPTION"
+          }
+        },
+        {
+          "-name": "Long Name",
+          "-type": "string",
+          "input": {
+            "-nameref": "LONG_NAME"
+          }
+        },
+        {
+          "-name": "Account Class",
+          "-type": "string",
+          "input": {
+            "-nameref": "ACCOUNT_CLASS"
+          }
+        },
+        {
+          "-name": "Statement",
+          "-type": "string",
+          "input": {
+            "-nameref": "STATEMENT"
+          }
+        },
+        {
+          "-name": "Cash Flag",
+          "-type": "string",
+          "input": {
+            "-nameref": "CASH_FLAG"
+          }
+        },
+        {
+          "-name": "Normal Balance",
+          "-type": "string",
+          "input": {
+            "-nameref": "NORMAL_BALANCE"
+          }
+        },
+        {
+          "-name": "Sales Link",
+          "-type": "string",
+          "input": {
+            "-nameref": "SALES_LINK"
+          }
+        },
+        {
+          "-name": "Data Source",
+          "-type": "string",
+          "input": {
+            "-nameref": "DATA_SOURCE"
+          }
+        },
+        {
+          "-name": "Sort Order",
+          "-type": "string",
+          "input": {
+            "-nameref": "SORT_ORDER"
+          }
+        }
+      ]
+    },
+    "child": {
+      "input": {
+        "-nameref": "CHILD"
+      }
+    },
+    "parent": {
+      "input": {
+        "-nameref": "PARENT"
+      }
+    },
+    "type": {
+      "input": {
+        "-nameref": "ELEMENT_TYPE"
+      }
+    },
+    "weight": {
+      "input": {
+        "-nameref": "WEIGHT"
+      }
+    }
+  }
+}

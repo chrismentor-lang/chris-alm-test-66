@@ -1,0 +1,40 @@
+{
+  "-name": "rInMemoryComp_002_000_Rules_ct",
+  "-type": "ConstantTable",
+  "data": {
+    "header": {
+      "value": [
+        "Definition",
+        "Comment",
+        "External ID",
+        "Timestamp"
+      ]
+    },
+    "row": [
+      {
+        "value": [
+          "['Measure (In-Memory)':'Database size average'] = ['Measure (In-Memory)':'Database size'] / ['Measure (In-Memory)':'Database']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (In-Memory)':'User Login per day'] = ['Measure (In-Memory)':'User Login'] / 'Machines ${vCompany}'['Jedox Version':'All Jedox Versions', 'Measure (Machines)':'Active']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (In-Memory)':'User Logout per day'] = ['Measure (In-Memory)':'User Logout'] / 'Machines ${vCompany}'['Jedox Version':'All Jedox Versions', 'Measure (Machines)':'Active']",
+          {},
+          {},
+          {}
+        ]
+      }
+    ]
+  }
+}

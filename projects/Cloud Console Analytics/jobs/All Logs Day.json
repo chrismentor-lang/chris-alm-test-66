@@ -1,0 +1,49 @@
+{
+  "-name": "All Logs Day",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "Put In-Memory Day and Integrator Day back please.\n\n2023-06-23/2023-06-24\n\n20230625: Removed In-Memory Day from third slot and Integrator Day from fourth slot."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Logs Day",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Spreadsheet Day",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "In-Memory Day",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Integrator Day",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Scheduler Day",
+        "-parallel": "false",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vFrom",
+        "default": "2026-06-25"
+      },
+      {
+        "-name": "vTo",
+        "default": "2026-06-26"
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "-name": "dProjectComp_998_045_ExclNull_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "fx_Task",
+      "-operator": "isNull",
+      "-type": "deny"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSchedulerComp_300_035_TaskLookup_ft"
+    }
+  }
+}

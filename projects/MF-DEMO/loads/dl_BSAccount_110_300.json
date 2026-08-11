@@ -1,0 +1,27 @@
+{
+  "-name": "dl_BSAccount_110_300",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "Load dimension"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "dimension": {
+    "-dimensionType": "Account",
+    "-generateSubsets": "false",
+    "-name": "BS Account",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "update"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "tpc_dBSAccount_110_200_pc"
+  }
+}

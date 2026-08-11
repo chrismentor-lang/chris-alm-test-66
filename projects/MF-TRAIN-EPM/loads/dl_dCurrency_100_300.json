@@ -1,0 +1,24 @@
+{
+  "-name": "dl_dCurrency_100_300",
+  "-type": "Dimension",
+  "comment": "Load data into Currency dimension.",
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Currency",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "tfh_dCurrency_100_200_fh"
+  }
+}

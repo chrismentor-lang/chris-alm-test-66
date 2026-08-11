@@ -1,0 +1,47 @@
+{
+  "-name": "Sales",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "connection": {
+    "-nameref": "Minerva_Train"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "VERSION"
+      },
+      {
+        "-input": "CURRENCY"
+      },
+      {
+        "-input": "MONTH"
+      },
+      {
+        "-input": "PRODUCT"
+      },
+      {
+        "-input": "CUSTOMER"
+      },
+      {
+        "-input": "TRANSACTIONID"
+      },
+      {
+        "-input": "TRANSACTIONDATE"
+      },
+      {
+        "-input": "TRANSACTIONTYPE"
+      },
+      {
+        "-input": "MEASURE_SALES"
+      },
+      {
+        "-input": "VALUE"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_FACT_SALES",
+    "-schema": "JEDOX_CUBES"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "New Jedox OLAP connection",
+  "-type": "JedoxOlap",
+  "database": "Biker",
+  "host": "https://poc-minerva.cloud.jedox.com/",
+  "password": {
+    "#text": "0aekgXCKwznYkk76+wAbZxAlvjD/kRMXWKw08oc/",
+    "-encryption": "AES"
+  },
+  "port": "7777",
+  "useLoginCred": "true",
+  "user": "admin"
+}

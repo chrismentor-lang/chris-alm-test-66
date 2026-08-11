@@ -1,0 +1,11 @@
+{
+  "-name": "PSFLogsYesterdayToSnowflake",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "20240827: Introduced to test the Jedox Sandbox to be situation."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "PSFLogsYesterdayToSnowflake.jobscript.groovy"
+  }
+}

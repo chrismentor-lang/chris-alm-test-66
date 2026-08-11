@@ -1,0 +1,7 @@
+{
+  "name": "Product",
+  "kind": "normal",
+  "properties": {
+    "Name": "Product"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "-name": "tu_Customers_Plan_700_600",
+  "-type": "TableUnion",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Complete tree for All Customers (Plan)"
+  },
+  "sources": {
+    "source": [
+      {
+        "-nameref": "tu_dCustomer_Plan_710_300"
+      },
+      {
+        "-nameref": "tv_dCustomer_Plan_700_500"
+      }
+    ]
+  }
+}

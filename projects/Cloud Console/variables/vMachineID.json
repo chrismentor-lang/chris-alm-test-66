@@ -1,0 +1,6 @@
+{
+  "-name": "vMachineID",
+  "comment": {
+    "#cdata-section": "Format: name from url before .cloud.jedox.com"
+  }
+}

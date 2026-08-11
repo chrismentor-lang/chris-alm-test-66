@@ -1,0 +1,19 @@
+{
+  "components": {
+    "CIMET.connections.Snowflake": {
+      "hash": "sha256:e7a422de62a9923d4dd20bd52d559bbf38171556ba1b7a63ae24c8270fe26ab8",
+      "modified": 1783651484824,
+      "modifiedBy": "jorge"
+    }
+  },
+  "hash": "sha256:2ad48c9d37c1596f8c863537eec29d48c98fdc2646587439332fddd86c52e8ec",
+  "modified": 1783651497381,
+  "modifiedBy": "jorge",
+  "project": "CIMET",
+  "source": {
+    "at": "2026-08-11T03:15:44Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

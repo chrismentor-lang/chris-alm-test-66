@@ -1,0 +1,21 @@
+{
+  "-name": "cl_PL_400_200_clear",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "clear loaded data from profit and loss cube"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Profit and Loss",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "cs_cPL_400_100"
+  }
+}

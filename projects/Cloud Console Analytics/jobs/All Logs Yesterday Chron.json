@@ -1,0 +1,14 @@
+{
+  "-name": "All Logs Yesterday Chron",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20230713: created to make sure that this job only runs after the Snowflake jobs have finished running."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "All Logs Yesterday",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,12 @@
+{
+  "-name": "MF-DEMO",
+  "-version": "26.1",
+  "headers": {
+    "header": {
+      "-name": "comment",
+      "comment": {
+        "#cdata-section": "+++ Minerva Partners Demonstration Platform +++\n\nThis Project builds the Demo platform off Snowflake. \nBuilt by : Chris Mentor, Minerva Partners"
+      }
+    }
+  }
+}

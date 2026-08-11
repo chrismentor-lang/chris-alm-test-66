@@ -1,0 +1,21 @@
+{
+  "-name": "cl_MonthlySales_Budget_Delete_500_200",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "Delete Actuals in Monthly Sales before load"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Monthly Sales",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcs_MonthlySales_Delete_Budget_500_100"
+  }
+}

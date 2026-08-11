@@ -1,0 +1,71 @@
+{
+  "-name": "tMachines_100_002_RecordData_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "tMachines_100_001_DataRaw_jc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "company_idx"
+      },
+      {
+        "-input": "design_v2"
+      },
+      {
+        "-input": "domain_name"
+      },
+      {
+        "-input": "friendly_name"
+      },
+      {
+        "-input": "has_sftp"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "id_sub_region"
+      },
+      {
+        "-input": "log_uri"
+      },
+      {
+        "-input": "login_link"
+      },
+      {
+        "-input": "max_backup_time"
+      },
+      {
+        "-input": "namespace"
+      },
+      {
+        "-input": "public_ip"
+      },
+      {
+        "-input": "region"
+      },
+      {
+        "-input": "secret"
+      },
+      {
+        "-input": "state"
+      },
+      {
+        "-input": "support_on"
+      },
+      {
+        "-input": "type"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

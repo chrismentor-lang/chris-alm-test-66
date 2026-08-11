@@ -1,0 +1,20 @@
+{
+  "-name": "SchedulerLogsOneDayToSnowflake",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Please provide variable vFrom by entering the day you want to load into Snowflake.\n\n20240926: Replaced the job SchedulerLogsDayToSnowflake with SchedulerLogsDayToSnowflakeNew"
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "SchedulerLogsDayToSnowflakeNew",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "vFrom",
+      "default": "2024-09-28"
+    }
+  }
+}

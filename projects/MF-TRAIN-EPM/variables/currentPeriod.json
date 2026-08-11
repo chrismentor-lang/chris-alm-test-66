@@ -1,0 +1,7 @@
+{
+  "-name": "currentPeriod",
+  "comment": "return the current period from the date dimension. NOTE: You cannot pass variables into variables, so change connection, database and dimension name as required.",
+  "script": {
+    "#file": "currentPeriod.script.groovy"
+  }
+}

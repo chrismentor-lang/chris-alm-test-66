@@ -1,0 +1,24 @@
+{
+  "-name": "Profit and Loss",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Load Actuals into Profit and Loss cube."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cl_PL_400_200_clear",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_PL_AUD_300_310",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_PL_300_300",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

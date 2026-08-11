@@ -1,0 +1,8 @@
+{
+  "-name": "Logs Day",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Logs Day.jobscript.groovy"
+  }
+}

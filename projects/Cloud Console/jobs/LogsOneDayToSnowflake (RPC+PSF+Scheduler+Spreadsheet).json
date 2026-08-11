@@ -1,0 +1,43 @@
+{
+  "-name": "LogsOneDayToSnowflake (RPC+PSF+Scheduler+Spreadsheet)",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "Please provide variable vFrom by entering the day you want to load into Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "RPCLogsDayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "PSFLogsDayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SchedulerLogsDayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SpreadsheetLogsDayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "ODataLogsDayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "vFrom",
+      "default": "2024-11-18"
+    }
+  }
+}

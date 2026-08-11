@@ -1,0 +1,11 @@
+{
+  "-name": "ODataLogsDayToSnowflake",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "DO NOT RUN SEPERATELY! \n20230911: Changed line 145 def baseDirectory = './webapps/etlserver/data/files/customer_logs/'; to def baseDirectory = './data/files/customer_logs/';"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "ODataLogsDayToSnowflake.jobscript.groovy"
+  }
+}

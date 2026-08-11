@@ -1,0 +1,30 @@
+{
+  "-name": "dUsernameComp_888_020_NoUser_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_015_InclComp_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All users"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_NoUser"
+          }
+        }
+      ]
+    }
+  }
+}

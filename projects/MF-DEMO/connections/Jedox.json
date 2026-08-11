@@ -1,0 +1,14 @@
+{
+  "-name": "Jedox",
+  "-type": "JedoxOlap",
+  "comment": {
+    "#cdata-section": "Connection to live Jedox server."
+  },
+  "database": {
+    "#cdata-section": "${DB}"
+  },
+  "global": {
+    "-nameref": "localhost"
+  },
+  "ssl": "off"
+}

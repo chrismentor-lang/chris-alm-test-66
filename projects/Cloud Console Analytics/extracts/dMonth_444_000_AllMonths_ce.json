@@ -1,0 +1,25 @@
+{
+  "-name": "dMonth_444_000_AllMonths_ce",
+  "-type": "Calendar",
+  "levels": {
+    "level": [
+      {
+        "-type": "root",
+        "pattern": "'All Months'"
+      },
+      {
+        "-type": "quarters",
+        "pattern": "'Qtr. 'Q"
+      },
+      {
+        "-type": "months",
+        "end": "12",
+        "pattern": "MM",
+        "start": "1"
+      }
+    ]
+  },
+  "options": {
+    "language": "en"
+  }
+}

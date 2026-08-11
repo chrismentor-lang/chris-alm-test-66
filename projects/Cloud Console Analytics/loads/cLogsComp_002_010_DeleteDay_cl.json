@@ -1,0 +1,18 @@
+{
+  "-name": "cLogsComp_002_010_DeleteDay_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "${vService} ${vCompany}",
+    "-splash": "disabled"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "cLogsComp_002_000_Delete_cs"
+  }
+}

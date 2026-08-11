@@ -1,0 +1,27 @@
+{
+  "-name": "dl_PLAccount_100_300",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "Load dimension"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "dimension": {
+    "-dimensionType": "Account",
+    "-generateSubsets": "false",
+    "-name": "PL Account",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "update"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "tpc_dPLAccount_100_200_pc"
+  }
+}

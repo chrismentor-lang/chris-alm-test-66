@@ -1,0 +1,58 @@
+{
+  "-name": "dReportComp_777_045_AllHierarchy_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dReportComp_777_035_InclComp_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Machine",
+          "-type": "string"
+        },
+        {
+          "-name": "Name",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All reports"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Machine",
+                "input": {
+                  "-nameref": "column4"
+                }
+              },
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "fx_CleanFile"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "fx_FullPathMachine"
+          }
+        }
+      ]
+    }
+  }
+}

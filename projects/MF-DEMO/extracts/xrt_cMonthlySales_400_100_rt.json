@@ -1,0 +1,50 @@
+{
+  "-name": "xrt_cMonthlySales_400_100_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract Sales fact data."
+  },
+  "connection": {
+    "-nameref": "Minerva Demo"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "VERSION"
+      },
+      {
+        "-input": "CURRENCY"
+      },
+      {
+        "-input": "MONTH"
+      },
+      {
+        "-input": "CUSTOMER"
+      },
+      {
+        "-input": "PRODUCT"
+      },
+      {
+        "-input": "MEASURE_SALES"
+      },
+      {
+        "-input": "TRANSACTIONDATE"
+      },
+      {
+        "-input": "TRANSACTIONID"
+      },
+      {
+        "-input": "TRANSACTIONTYPE"
+      },
+      {
+        "-input": "VALUE"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_FACT_SALES",
+    "-schema": "JEDOX_CUBES"
+  }
+}

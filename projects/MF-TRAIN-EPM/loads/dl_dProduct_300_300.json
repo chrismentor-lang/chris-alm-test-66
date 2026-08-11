@@ -1,0 +1,24 @@
+{
+  "-name": "dl_dProduct_300_300",
+  "-type": "Dimension",
+  "comment": "Load data into Product dimension.",
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Product",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "tfh_dProduct_300_200_fh"
+  }
+}

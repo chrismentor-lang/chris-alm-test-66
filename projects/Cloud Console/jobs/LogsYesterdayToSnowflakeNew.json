@@ -1,0 +1,55 @@
+{
+  "-name": "LogsYesterdayToSnowflakeNew",
+  "-type": "Parallel",
+  "comment": "20240827: Introduced to test the Jedox Sandbox to be situation.",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "ODataLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "ApacheLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "InMemoryLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "PSFLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "IntegratorLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "RPCLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SchedulerLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SupervisionLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SpreadsheetLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

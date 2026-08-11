@@ -1,0 +1,57 @@
+{
+  "-name": "LogsYesterdayToSnowflake",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "20230525: Added RetrieveSpreadsheetLogsYesterday."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "ODataLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "ApacheLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "InMemoryLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "PSFLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "IntegratorLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "RPCLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SchedulerLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SupervisionLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SpreadsheetLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,24 @@
+{
+  "-name": "dCustomer_Plan_710_100",
+  "-type": "Dimension",
+  "attributesMode": "standardAttributes",
+  "comment": {
+    "#cdata-section": "Extract elements where TopOverride is true"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Customer"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "{\"TopN Override\": {}}",
+        "-mode": "onlyBases",
+        "-operator": "subset",
+        "-type": "accept"
+      }
+    }
+  }
+}

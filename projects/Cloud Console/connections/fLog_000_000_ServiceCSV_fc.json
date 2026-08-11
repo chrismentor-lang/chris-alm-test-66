@@ -1,0 +1,17 @@
+{
+  "-name": "fLog_000_000_ServiceCSV_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "This is the actual file that results from the retrieval of each of the services every day.\n\n20240827: Changed name from MyFileNew to fLog_000_000_ServiceCSV_fc"
+  },
+  "database": {
+    "#cdata-section": "customer_logs/${vTableSnowflake}_raw.csv"
+  },
+  "delimiter": ";",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  }
+}

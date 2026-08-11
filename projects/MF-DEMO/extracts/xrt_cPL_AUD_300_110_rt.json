@@ -1,0 +1,50 @@
+{
+  "-name": "xrt_cPL_AUD_300_110_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract the Fact data for profit and loss"
+  },
+  "connection": {
+    "-nameref": "Minerva Demo"
+  },
+  "filters": {
+    "filter": {
+      "-name": "Version",
+      "condition": {
+        "-operator": "Equals",
+        "-value": "${Version}"
+      }
+    }
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "Version"
+      },
+      {
+        "-input": "PL Account"
+      },
+      {
+        "-input": "Cost Centre"
+      },
+      {
+        "-input": "Month"
+      },
+      {
+        "-input": "Currency"
+      },
+      {
+        "-input": "Measure_PL"
+      },
+      {
+        "-input": "AUD_VALUE"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_FACTPL",
+    "-schema": "JEDOX_CUBES"
+  }
+}

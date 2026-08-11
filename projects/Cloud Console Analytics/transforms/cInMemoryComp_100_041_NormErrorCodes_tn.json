@@ -1,0 +1,62 @@
+{
+  "-name": "cInMemoryComp_100_041_NormErrorCodes_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "CHANGED"
+  },
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryComp_100_031_LoopErrorCode_tl"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine ${vCompany}",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "-name": "Date",
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "-name": "Minutes",
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "-name": "Database ${vCompany}",
+          "input": {
+            "-nameref": "fx_MachineDatabase"
+          }
+        },
+        {
+          "-name": "Measure (In-Memory)",
+          "input": {
+            "-nameref": "fx_ErrorCode"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "count",
+      "-valuename": "#Value",
+      "measure": {
+        "-aggregate": "sum",
+        "-type": "integer",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

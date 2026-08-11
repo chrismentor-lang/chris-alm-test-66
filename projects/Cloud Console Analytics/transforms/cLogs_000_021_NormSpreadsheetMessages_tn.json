@@ -1,0 +1,55 @@
+{
+  "-name": "cLogs_000_021_NormSpreadsheetMessages_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230730: Changed source from cSpreadsheetLogs_000_010_Format_ft to cSpreadsheetLogs_000_010_FormatAll_ft"
+  },
+  "ignoreEmpty": "true",
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_010_FormatAll_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "-name": "Date",
+          "input": {
+            "-nameref": "column3"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Logs)",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-aggregate": "sum",
+          "-name": "Spreadsheet Warning Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Spreadsheet Error Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        }
+      ]
+    }
+  }
+}

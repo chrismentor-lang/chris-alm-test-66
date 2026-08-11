@@ -1,0 +1,7 @@
+{
+  "-name": "Snowflake",
+  "-type": "Snowflake",
+  "global": {
+    "-nameref": "Minerva Snowflake SF"
+  }
+}

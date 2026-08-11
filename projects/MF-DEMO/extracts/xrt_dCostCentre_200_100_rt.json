@@ -1,0 +1,53 @@
+{
+  "-name": "xrt_dCostCentre_200_100_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract the Cost Centre View"
+  },
+  "connection": {
+    "-nameref": "Minerva Demo"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "PARENT"
+      },
+      {
+        "-input": "CHILD"
+      },
+      {
+        "-input": "WEIGHT"
+      },
+      {
+        "-input": "DESCRIPTION"
+      },
+      {
+        "-input": "LONG_NAME"
+      },
+      {
+        "-input": "ELEMENT_TYPE"
+      },
+      {
+        "-input": "FUNCTION"
+      },
+      {
+        "-input": "TYPE"
+      },
+      {
+        "-input": "PLANT_CODE"
+      },
+      {
+        "-input": "SALES_REGION"
+      },
+      {
+        "-input": "SORT_ORDER"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_COSTCENTRE",
+    "-schema": "JEDOX_DIMS"
+  }
+}

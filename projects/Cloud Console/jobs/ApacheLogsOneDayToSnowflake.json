@@ -1,0 +1,20 @@
+{
+  "-name": "ApacheLogsOneDayToSnowflake",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Please provide variable vFrom by entering the day you want to load into Snowflake.\n\n20240926: Changed job from ApacheLogsDayToSnowflake to ApacheLogsDayToSnowflakeNew"
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "ApacheLogsDayToSnowflakeNew",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "vFrom",
+      "default": "2024-09-12"
+    }
+  }
+}

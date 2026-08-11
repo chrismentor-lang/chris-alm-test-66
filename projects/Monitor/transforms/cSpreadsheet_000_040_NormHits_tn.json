@@ -1,0 +1,72 @@
+{
+  "-name": "cSpreadsheet_000_040_NormHits_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_030_FormatCore_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "-name": "Year",
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        },
+        {
+          "-name": "Time",
+          "input": {
+            "-nameref": "fx_Sec"
+          }
+        },
+        {
+          "-name": "Username",
+          "input": {
+            "-nameref": "fx_User"
+          }
+        },
+        {
+          "-name": "Report",
+          "input": {
+            "-nameref": "fx_FullPath"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Spreadsheet)",
+      "-valuename": "#Value",
+      "measure": {
+        "-aggregate": "none",
+        "-name": "Hits",
+        "-type": "numeric",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

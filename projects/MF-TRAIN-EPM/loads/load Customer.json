@@ -1,0 +1,23 @@
+{
+  "-name": "load Customer",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Customer",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "tfh_dCustomer_200_200_fh"
+  }
+}

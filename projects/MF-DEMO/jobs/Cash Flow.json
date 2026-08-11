@@ -1,0 +1,24 @@
+{
+  "-name": "Cash Flow",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Load Actuals into Cash Flow cube."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cl_CF_400_200_clear",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_CF_500_300",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_CF_AUD_500_310",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

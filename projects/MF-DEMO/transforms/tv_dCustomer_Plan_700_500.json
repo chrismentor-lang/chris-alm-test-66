@@ -1,0 +1,55 @@
+{
+  "-name": "tv_dCustomer_Plan_700_500",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Filter the Other Customer elements, add consolidated elements."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "Element",
+      "-operator": "isNull",
+      "-type": "accept"
+    }
+  },
+  "sorter": {
+    "input": {
+      "-nameref": "Net Sales Formatted",
+      "-order": "descending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "tj_dCustomer_Plan_700_400"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Element",
+          "input": {
+            "-nameref": ":element"
+          }
+        },
+        {
+          "-name": "Parent",
+          "input": {
+            "-constant": "Other Customers"
+          }
+        },
+        {
+          "-name": "Root",
+          "input": {
+            "-constant": "All Customers (Plan)"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Net Sales"
+          }
+        }
+      ]
+    }
+  }
+}

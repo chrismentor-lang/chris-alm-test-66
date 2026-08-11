@@ -1,0 +1,42 @@
+{
+  "-name": "Nightly",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "Nightly load job to load data to Jedox"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cl_MonthlySales_Delete_500_200",
+        "-parallel": "false",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Date Generator",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "dl_dCurrency_100_300",
+        "-parallel": "true",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_dCustomer_200_300",
+        "-parallel": "true",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_dProduct_300_300",
+        "-parallel": "true",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cl_MonthlySales_400_200",
+        "-parallel": "false",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

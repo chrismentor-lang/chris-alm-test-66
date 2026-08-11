@@ -1,0 +1,13 @@
+{
+  "-name": "tInsertLogsIntoTable_000_000_Increment_RS",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Insert transactions into table"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "tInsertLogsIntoTable_000_000_Increment_RS.query.sql"
+  }
+}

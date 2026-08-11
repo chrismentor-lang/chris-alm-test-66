@@ -1,0 +1,13 @@
+{
+  "-name": "New CSV connection (2) (2)",
+  "-type": "CsvFile",
+  "database": {
+    "#cdata-section": "//Menu/Menu/Sample Report/test.wss"
+  },
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "false",
+  "location": {
+    "-type": "JedoxFiles"
+  }
+}

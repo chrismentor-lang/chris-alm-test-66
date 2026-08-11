@@ -1,0 +1,49 @@
+{
+  "-name": "tv_dCustomer_Plan_700_300",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Limit view to TopN Records"
+  },
+  "end": "${TopN}",
+  "sorter": {
+    "input": {
+      "-nameref": "Net Sales Formatted",
+      "-order": "descending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "ft_dCustomer_Plan_700_200"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Element",
+          "input": {
+            "-nameref": ":element"
+          }
+        },
+        {
+          "-name": "Parent",
+          "input": {
+            "-constant": "Top Customers"
+          }
+        },
+        {
+          "-name": "Root",
+          "input": {
+            "-constant": "All Customers (Plan)"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Net Sales"
+          }
+        }
+      ]
+    }
+  }
+}

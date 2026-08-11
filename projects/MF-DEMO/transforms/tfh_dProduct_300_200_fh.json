@@ -1,0 +1,101 @@
+{
+  "-name": "tfh_dProduct_300_200_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Structure elements and attributes for loading into Product dimension"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xrt_dProduct_300_100_rt"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "CodeName",
+          "-type": "string"
+        },
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Brand",
+          "-type": "string"
+        },
+        {
+          "-name": "UoM",
+          "-type": "string"
+        },
+        {
+          "-name": "PackageType",
+          "-type": "string"
+        },
+        {
+          "-name": "PackageTypeCount",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Products"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "PRODUCTGROUP"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "PRODUCTDESCRIPTION"
+                }
+              },
+              {
+                "-name": "Brand",
+                "input": {
+                  "-nameref": "BRAND"
+                }
+              },
+              {
+                "-name": "UoM",
+                "input": {
+                  "-nameref": "UOM"
+                }
+              },
+              {
+                "-name": "PackageType",
+                "input": {
+                  "-nameref": "PACKAGETYPE"
+                }
+              },
+              {
+                "-name": "PackageTypeCount",
+                "input": {
+                  "-nameref": "PACKAGETYPECOUNT"
+                }
+              },
+              {
+                "-name": "CodeName",
+                "input": {
+                  "-nameref": "CODENAME"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "PRODUCTCODE"
+          }
+        }
+      ]
+    }
+  }
+}

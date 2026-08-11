@@ -1,0 +1,8 @@
+{
+  "-name": "CM GROOVY",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "CM GROOVY.jobscript.groovy"
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "-name": "xrt_cBS_400_100_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract the Fact data for balance sheet"
+  },
+  "connection": {
+    "-nameref": "Minerva Demo"
+  },
+  "filters": {
+    "filter": [
+      {
+        "-name": "Currency",
+        "condition": {
+          "-operator": "Not equals",
+          "-value": "AUD"
+        }
+      },
+      {
+        "-name": "Version",
+        "condition": {
+          "-operator": "Equals",
+          "-value": "${Version}"
+        }
+      }
+    ]
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "Version"
+      },
+      {
+        "-input": "BS Account"
+      },
+      {
+        "-input": "Cost Centre"
+      },
+      {
+        "-input": "Month"
+      },
+      {
+        "-input": "Currency"
+      },
+      {
+        "-input": "Measure_BS"
+      },
+      {
+        "-input": "#Value"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_FACTBS",
+    "-schema": "JEDOX_CUBES"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "-name": "xrt_cCF_AUD_500_110_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract the Fact data for cash flow"
+  },
+  "connection": {
+    "-nameref": "Minerva Demo"
+  },
+  "filters": {
+    "filter": {
+      "-name": "Version",
+      "condition": {
+        "-operator": "Equals",
+        "-value": "${Version}"
+      }
+    }
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "Version"
+      },
+      {
+        "-input": "CF Account"
+      },
+      {
+        "-input": "Cost Centre"
+      },
+      {
+        "-input": "Month"
+      },
+      {
+        "-input": "Currency"
+      },
+      {
+        "-input": "Measure_CF"
+      },
+      {
+        "-input": "AUD_VALUE"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_FACTCF",
+    "-schema": "JEDOX_CUBES"
+  }
+}

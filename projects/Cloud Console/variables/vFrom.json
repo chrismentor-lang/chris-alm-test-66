@@ -1,0 +1,6 @@
+{
+  "-name": "vFrom",
+  "comment": {
+    "#cdata-section": "Required format: yyyy-MM-dd'T'HH:mm"
+  }
+}

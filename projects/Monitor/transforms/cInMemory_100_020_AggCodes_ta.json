@@ -1,0 +1,30 @@
+{
+  "-name": "cInMemory_100_020_AggCodes_ta",
+  "-type": "TableAggregation",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryLogs_100_010_FormatErrorCodes_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": {
+        "input": {
+          "-nameref": "fx_ErrorCode"
+        }
+      }
+    },
+    "measures": {
+      "measure": {
+        "-aggregate": "sum",
+        "-name": "Count",
+        "-type": "numeric",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

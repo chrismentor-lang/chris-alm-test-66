@@ -1,0 +1,56 @@
+{
+  "-name": "xcs_MonthlySales_Delete_Forecasts_500_100",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "Clear all Forecasts  for the current year (reset). Note all forecast version use the same current forecast fy."
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Monthly Sales"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "Forecast",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Best",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Worst",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Final",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "${Forecast FY}",
+          "-dimension": "Month",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

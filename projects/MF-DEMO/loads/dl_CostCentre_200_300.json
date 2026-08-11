@@ -1,0 +1,27 @@
+{
+  "-name": "dl_CostCentre_200_300",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "Load dimension"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "dimension": {
+    "-dimensionType": "Account",
+    "-generateSubsets": "false",
+    "-name": "Cost Centre",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "update"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "tpc_dCostCentre_200_200_pc"
+  }
+}

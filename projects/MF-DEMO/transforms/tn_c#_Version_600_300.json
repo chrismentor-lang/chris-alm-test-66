@@ -1,0 +1,54 @@
+{
+  "-name": "tn_c#_Version_600_300",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "transform attributes on version dimension."
+  },
+  "delimiter": ",",
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "ft_c#_Version_CurrentMonth_600_200"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Version",
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "-name": "#_LANGUAGE",
+          "input": {
+            "-constant": "~"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "#_Version_",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-name": "Current Period",
+          "-type": "text",
+          "input": {
+            "-nameref": "Current Period"
+          }
+        },
+        {
+          "-name": "Financial Year",
+          "-type": "text",
+          "input": {
+            "-nameref": "Financial Year"
+          }
+        }
+      ]
+    }
+  }
+}

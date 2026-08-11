@@ -1,0 +1,24 @@
+{
+  "-name": "dYear_333_010_Hierarchy_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-dimensionType": "Time",
+    "-generateSubsets": "false",
+    "-name": "Year",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insert"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dYear_333_000_AllYears_ce"
+  }
+}

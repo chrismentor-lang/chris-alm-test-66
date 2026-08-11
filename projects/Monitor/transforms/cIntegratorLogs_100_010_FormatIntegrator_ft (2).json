@@ -1,0 +1,665 @@
+{
+  "-name": "cIntegratorLogs_100_010_FormatIntegrator_ft (2)",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_Date",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_UTC"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "yyyy/MM/dd"
+        }
+      },
+      {
+        "-name": "fx_Time",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_UTC"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_Company",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": "-"
+        }
+      },
+      {
+        "-name": "fx_Job",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-nameref": "fx_Project",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.4.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_JobInit",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "JOB",
+            "-nameref": "fx_Job",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.5.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Load",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-nameref": "fx_Project",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.6.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_LoadInit",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "LOAD",
+            "-nameref": "fx_Load",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.7.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Object",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "JOB",
+              "-nameref": "fx_Job",
+              "-type": "String"
+            },
+            {
+              "-alias": "LOAD",
+              "-nameref": "fx_Load",
+              "-type": "String"
+            },
+            {
+              "-alias": "MACH",
+              "-nameref": "MACHINE",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.8.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_Project",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-nameref": "MACHINE",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.9.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_Status",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.10.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_CompletedSuccessful",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "STATUS",
+            "-nameref": "fx_Status",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.11.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_CompletedWarnings",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "STATUS",
+            "-nameref": "fx_Status",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.12.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_CompletedFailed",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "STATUS",
+            "-nameref": "fx_Status",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.13.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_LevelUpper",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LEVEL",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.14.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_WarningLogs",
+        "-type": "Map",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_LevelUpper"
+          }
+        },
+        "parameters": {
+          "default": "0",
+          "mapping": {
+            "map": {
+              "-from": "WARNING",
+              "-to": "1"
+            }
+          }
+        }
+      },
+      {
+        "-name": "fx_ErrorLogs",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LEVEL",
+              "-type": "String"
+            },
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.16.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Year",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "yyyy/MM/dd",
+          "targetformat": "yyyy"
+        }
+      },
+      {
+        "-name": "fx_Month",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "yyyy/MM/dd",
+          "targetformat": "MM"
+        }
+      },
+      {
+        "-name": "fx_Day",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "yyyy/MM/dd",
+          "targetformat": "dd"
+        }
+      },
+      {
+        "-name": "fx_Hour",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH"
+        }
+      },
+      {
+        "-name": "fx_Min",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm"
+        }
+      },
+      {
+        "-name": "fx_Sec",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_JobName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.23.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_LoadName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.24.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_ProjectName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.25.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_ObjectName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "JOB",
+              "-nameref": "fx_JobName",
+              "-type": "String"
+            },
+            {
+              "-alias": "LOAD",
+              "-nameref": "fx_LoadName",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.26.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_ObjectType",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "JOB",
+              "-nameref": "fx_Job",
+              "-type": "String"
+            },
+            {
+              "-alias": "LOAD",
+              "-nameref": "fx_Load",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.27.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_RecordsToCube",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cIntegratorLogs_100_010_FormatIntegrator_ft (2).functions.function.28.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_000_All_re (2)"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Company"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Job"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Load"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Object"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ObjectName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ObjectType"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Project"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ProjectName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Status"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_RecordsToCube"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CompletedSuccessful"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CompletedWarnings"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CompletedFailed"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_JobInit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_LoadInit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Hour"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Sec"
+          }
+        }
+      ]
+    }
+  }
+}

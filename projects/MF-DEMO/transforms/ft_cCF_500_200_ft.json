@@ -1,0 +1,58 @@
+{
+  "-name": "ft_cCF_500_200_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xrt_cCF_500_100_rt"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Version",
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "-name": "Currency",
+          "input": {
+            "-nameref": "Currency"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "Month"
+          }
+        },
+        {
+          "-name": "CF Account",
+          "input": {
+            "-nameref": "CF Account"
+          }
+        },
+        {
+          "-name": "Cost Centre",
+          "input": {
+            "-nameref": "Cost Centre"
+          }
+        },
+        {
+          "-name": "Measure_CF",
+          "input": {
+            "-nameref": "Measure_CF"
+          }
+        },
+        {
+          "-name": "#Value",
+          "input": {
+            "-nameref": "#Value"
+          }
+        }
+      ]
+    }
+  }
+}

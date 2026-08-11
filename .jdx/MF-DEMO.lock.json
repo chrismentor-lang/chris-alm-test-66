@@ -1,0 +1,489 @@
+{
+  "components": {
+    "MF-DEMO.connections.Jedox": {
+      "hash": "sha256:5369cdff66da1a0e98c81984826dc5d8eb6833e09e231f66eac1ac1fb18c815b",
+      "modified": 1784092387604,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.connections.Minerva Demo": {
+      "hash": "sha256:94b1652e3b624362116fb1681ddeab5b8608f0bf0c2729700ef67519430cdbe0",
+      "modified": 1784093288722,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.cs_cBS_400_100": {
+      "hash": "sha256:1731b66b0d3e9114927d1dd8256f0bc4b784750304d1df2666668514cd5a47a0",
+      "modified": 1784173731948,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.cs_cCF_400_100": {
+      "hash": "sha256:9a146727960a4b0fa996aade059045287be8f73b4ee5cb279f00b01e8f15d01d",
+      "modified": 1784173746271,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.cs_cPL_400_100": {
+      "hash": "sha256:640d0e768aadad609b9637b761a75e1f788e30b98cf4bc140340219ce063a343",
+      "modified": 1784173759289,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.ct_Version": {
+      "hash": "sha256:af9d6bd53bcf85804bddd9ae41bb0701e2fd1769a35c9a2817dbefa1284bf798",
+      "modified": 1785289892353,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.dCustomer_Plan_700_100": {
+      "hash": "sha256:343ef183cf3d7f99e43ba0eddc908c21e012706fde3409d25b42aab2b2ea4d02",
+      "modified": 1784622155735,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.dCustomer_Plan_710_100": {
+      "hash": "sha256:a6c320225bf989627a375e2d251b3bac703e0b2995504ae4ef50cdcf267fe22a",
+      "modified": 1784637696975,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xcs_MonthlySales_Delete_Actual_500_100": {
+      "hash": "sha256:76411e05a29943dfaf745f92f2c74e40dd6918cf38a2e998892137c603b569c4",
+      "modified": 1785290677560,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xcs_MonthlySales_Delete_Budget_500_100": {
+      "hash": "sha256:801b673c0d0dec3ff41fc5c1cd61bb5d1f1048ee9bc119832b6ab94382ff0ae4",
+      "modified": 1785291242195,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xcs_MonthlySales_Delete_Forecasts_500_100": {
+      "hash": "sha256:cfb13f167f5b4d83df5658a1d3ea658f6a6928ecd59cc6b09cf41f67b983d695",
+      "modified": 1785290820804,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cBS_400_100_rt": {
+      "hash": "sha256:eda9e0043122c948105dd650a6c8813f311cc4a37b7512671495addb6aee327d",
+      "modified": 1784183364969,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cBS_400_100_rt_drillthrough": {
+      "hash": "sha256:545a75c690cf937863605fdbf937a8961bc3184fc4b561825cc53b65f42bb0cb",
+      "modified": 1784183608928,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cBS_AUD_400_110_rt": {
+      "hash": "sha256:a6e74561e9083964c1f6c034d751f8a765c2a83125f56cebebd38d37fceb0aba",
+      "modified": 1784183338150,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cCF_500_100_rt": {
+      "hash": "sha256:112f738c985dcf78a26104d38eafc10cb0a9b96f6da6d1649c1fefb9e6c829cf",
+      "modified": 1784184578384,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cCF_500_100_rt_drillthrough": {
+      "hash": "sha256:88640e3c2d4a4e1f4e3d7f7a5fa1d8d2cdcd0f7912b6608d4726780b0700e173",
+      "modified": 1784184552007,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cCF_AUD_500_110_rt": {
+      "hash": "sha256:ae20728b5a981a9354879c6c5af84261369191cfce327ca5ab95bd6cfe6ad06e",
+      "modified": 1784184601900,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cMonthlySales_400_100_rt": {
+      "hash": "sha256:9a0b857d1ba7352d278b1a9a626e987024578f6ce1c5dd2ca7b6c797ff71fa36",
+      "modified": 1785503195905,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cPL_300_100_rt": {
+      "hash": "sha256:a5ac620b6de8ea3e9f6adceef7a6b90f8f41cfd1f588f4929370de6936c3c884",
+      "modified": 1784184152966,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cPL_300_120_drillthrough": {
+      "hash": "sha256:c2161e3b652a9c600b4ddfeee9dae58e836b867870cd24a8704b54a14418093b",
+      "modified": 1784184835125,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_cPL_AUD_300_110_rt": {
+      "hash": "sha256:299b8eff8f51b066faea2c77b02606ee873aa2aeb3200f1b1f7efc12fb9e030d",
+      "modified": 1784184198899,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_dBSAccount_110_100_rt": {
+      "hash": "sha256:f0ed0c4742cd5654cd77a5bf012f40d7aeeb491bb352cead5732ffbc466ae810",
+      "modified": 1784095068488,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_dCFAccount_120_100_rt": {
+      "hash": "sha256:5f59b99165b2dc8e3015e8be554642ea82902a11030d1c77dd244ff059cde0e8",
+      "modified": 1784095098079,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_dCostCentre_200_100_rt": {
+      "hash": "sha256:bd1a08834924c5a1192fa6bf02a19c61a3c33b8486170c054f3c10574750b064",
+      "modified": 1784093424857,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_dCurrency_100_100_rt": {
+      "hash": "sha256:7ec4e4fb720754226c84b4febbeead58d3a232bc58000938e6a6a9c7d02cde3f",
+      "modified": 1785502837565,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_dCustomer_200_100_rt": {
+      "hash": "sha256:bce619781ad519cca19a0b57690f3cae28ff82c8cf5040cd9a822857628a3eeb",
+      "modified": 1785502704559,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_dPLAccount_100_100_rt": {
+      "hash": "sha256:0c67046c7e856b6cdf33f7cfb3ca6dcaa0d40d45c1a511e3b8b7f9c04932e067",
+      "modified": 1784094196753,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.extracts.xrt_dProduct_300_100_rt": {
+      "hash": "sha256:fec1bb05e960e3bcb933c64b8cdf8113e89e718cec75b6fec545bd4057dbf1b1",
+      "modified": 1785502663733,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Balance Sheet": {
+      "hash": "sha256:0aa7f986eb4a5e560f8311ec3e5423447ae44a745f12d6bc1372e50a22afa699",
+      "modified": 1784155212079,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Build Cubes (Actual)": {
+      "hash": "sha256:304094bd6654913bdb0a5b687b683619e799f4dcdf8135851590e622b3256e9b",
+      "modified": 1784173900908,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Build Cubes (Budget)": {
+      "hash": "sha256:df4d8b90e81eacf32310eb3aca821a959d4dc2e8cd872e0bbd8ac475d8feb1c0",
+      "modified": 1784173917154,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Build Cubes (Forecast)": {
+      "hash": "sha256:0c4fe41f826262304c484de90606491bbfaaec7203076c2cb19c0dd352a5f2ec",
+      "modified": 1784174159973,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Build Customer": {
+      "hash": "sha256:e65cbd84086d2d47a3d42fb5ee18fa2df386bba70a50fac5f9d9c46c7454f5ec",
+      "modified": 1784673409448,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Build Finance Dimensions": {
+      "hash": "sha256:d3e3c9dad61dff8daf0388f0c3b9c02632f188032b9378809d498b264f3cecc3",
+      "modified": 1784674262585,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Cash Flow": {
+      "hash": "sha256:b326611fdc005675eb295a534a460cfe4e3290617ce703be9904ba0e56bd4170",
+      "modified": 1784155724524,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Current Period": {
+      "hash": "sha256:b94e6796a0f34ff35f7a1609c42670f74b491069c266486d9f697ead4963a3d9",
+      "modified": 1785505864011,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Date Generator": {
+      "hash": "sha256:f0b8fe2ddf9bb2ab4be1fd6a8ef7ed316e766006f09d82d1a0650ddc43efdebe",
+      "modified": 1785978904567,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Profit and Loss": {
+      "hash": "sha256:54442d9ad01a9b3ef601d4d7aefb92728758cc4a3fc87dea3c7237ebc8a86b01",
+      "modified": 1784157191154,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Reload - Finance (Actual and Plans)": {
+      "hash": "sha256:7ee0e7bbe439643f0923ee2874a123a896fa4e613c80948ded8588ff98d2b394",
+      "modified": 1785295186897,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Reload - Sales (Actual)": {
+      "hash": "sha256:6b51dfb01aa08490f8cca5bb5df2a6caf89229086538e239740a32e68bad2462",
+      "modified": 1785295123541,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.jobs.Reset Plans": {
+      "hash": "sha256:c5d3b7468a7bbeff3754294de44587a1a5781670a42a65d6b9fafa46d17e2215",
+      "modified": 1785297572929,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_#_Version": {
+      "hash": "sha256:f985b3b81095383860e3ab9a3f809d7a875c122343cdb07014da6cde57162f8a",
+      "modified": 1785289483600,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_BS_400_200_clear": {
+      "hash": "sha256:fc951d285d3846396b1732b7ae7061ee30003d8263b5ebefc9a75d3096c57ad5",
+      "modified": 1784173500885,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_BS_400_300": {
+      "hash": "sha256:d516a4d766121233798309e866cca63dd9a04a0358a7676b1ccc508f0ff2e49c",
+      "modified": 1784183622870,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_BS_AUD_400_310": {
+      "hash": "sha256:2dd3a8a440a6ab6c70bc34bc967e8f9e45414440c39c4b62ab0fcb454a528710",
+      "modified": 1784183630091,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_CF_400_200_clear": {
+      "hash": "sha256:5653624a340a3ebcfb0d2958b43bc263787004a0defdfd91d56a1934cf173387",
+      "modified": 1784173510037,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_CF_500_300": {
+      "hash": "sha256:81e4e76085299d446acfb114ca210f7fe227fb000b21abac145c5b432dc0b3c0",
+      "modified": 1784184779712,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_CF_AUD_500_310": {
+      "hash": "sha256:63a7825640f3cbe0a509ed1ec567e1e91768a89415c1c60312dd1eb4daca6074",
+      "modified": 1784184803227,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_MonthlySales_400_200": {
+      "hash": "sha256:2674dca0bbbb4e81207c642af9d20d9fa75a60891decd2bf89edf55a4c6323ca",
+      "modified": 1784620671868,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_MonthlySales_Actual_Delete_500_200": {
+      "hash": "sha256:01c4c21abd549f1043ff4cebff229f8e6a2ce1b440e192f5a3bee49283b03d59",
+      "modified": 1785290852054,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_MonthlySales_Budget_Delete_500_200": {
+      "hash": "sha256:9b477914f1479f8efe866244069ad9ea4cc87440ba99094655c4e95357601e25",
+      "modified": 1785291256341,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_MonthlySales_Forecasts_Delete_500_200": {
+      "hash": "sha256:203b1618dd836ff3661b81b266a96daf16450b6d221bdc86db3178fab2081c85",
+      "modified": 1785290899211,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_PL_300_300": {
+      "hash": "sha256:74e44ceccabdc2a2b85d146ec8f58b06bfc319aa9d1b77ece18785bc861159df",
+      "modified": 1784184278289,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_PL_400_200_clear": {
+      "hash": "sha256:c6865c39cd2cc39d1fd1d2a2b5312e456410ed04d5b136952e10a735b078ab28",
+      "modified": 1784173515112,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.cl_PL_AUD_300_310": {
+      "hash": "sha256:f8a878e103665134e3760ef6596b3c01e515b6cfc5da82846f0c187b63cb3157",
+      "modified": 1784184284539,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_BSAccount_110_300": {
+      "hash": "sha256:b8664e20ee57d033f2d86daed5579be86c4c20cb2764160400e56ae70a14c6d6",
+      "modified": 1784156386403,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_CFAccount_120_300": {
+      "hash": "sha256:1022437b8c1ffdd940644fe70e99cd392d38754d071640eaad9ec229a6f303d0",
+      "modified": 1784156381340,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_CostCentre_200_300": {
+      "hash": "sha256:0750211d5b853f80ef7cac13b5124df2e2b6d0708a0cc31b48ec1ab3c2e78fe2",
+      "modified": 1784156390478,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_Customer_700_700": {
+      "hash": "sha256:f589b3a8ad342bf7960871ff88ec1f18971a6c5c3690cca163156e75a3b3eb80",
+      "modified": 1784639781090,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_Customer_Plan_700_700": {
+      "hash": "sha256:cb6333e06cb487892e802af33d50314d1ff19e2b9b2062709a18d617459f8cb2",
+      "modified": 1784676486727,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_PLAccount_100_300": {
+      "hash": "sha256:ca4967688990d400d7d44c6ad7054e24d2b1a68097dac9a2d6a60ec367fb898b",
+      "modified": 1784156396834,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_dCurrency_100_300": {
+      "hash": "sha256:da6ca8af1d6bbcbff7ee3b61722c28d41d53062fa3b1f661c461be4a313658ba",
+      "modified": 1784620672105,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_dCustomer_200_300": {
+      "hash": "sha256:ffaa3598b5814926f8a82eecccc1e2a25745ba30a71b79a50b3f888ce482c44b",
+      "modified": 1784620671853,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.loads.dl_dProduct_300_300": {
+      "hash": "sha256:264ec03114d31cda9815af467eddcb80dc65b1b3f1778885ce58226512835704",
+      "modified": 1784620672002,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_c#_Version_CurrentMonth_600_200": {
+      "hash": "sha256:e73cb7658138e8cbad1b73931a7ff53f299cef3b933c2810261ef9e402e54701",
+      "modified": 1785978904175,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_cBS_400_200_ft": {
+      "hash": "sha256:055912ab0c4163527084fd75623b0c5f4e8809b8592ecbe379f7d3ddf68bab6e",
+      "modified": 1784183408259,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_cBS_AUD_400_210_ft": {
+      "hash": "sha256:ad329b0517f3a28ee8282cda177825dcf3b285c67b02cd96ced9bbe2229fa55b",
+      "modified": 1784183345354,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_cCF_500_200_ft": {
+      "hash": "sha256:3e8c4508cfc610687f462d012fa5ded40c1eaa35f20978732eba40664d78101d",
+      "modified": 1784184669592,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_cCF_AUD_500_200_ft": {
+      "hash": "sha256:277aa598a47716c3e555abcab5dc6d4440b81448334f040080e0c97e842e4da7",
+      "modified": 1784184633464,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_cPL_300_200_ft": {
+      "hash": "sha256:1d5e88d4b1d76c89f7621b853aa408f0a47492acae46904ac32800e95916ee16",
+      "modified": 1784184258893,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_cPL_AUD_300_210_ft": {
+      "hash": "sha256:17c803bef71d5c25dfe01310cffe6b0f1d7125b61b8b030c12bf76b27cb654ba",
+      "modified": 1784184224740,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_dCustomer_Plan_700_200": {
+      "hash": "sha256:b149e33d03c2cdd729ad928758fde3d699d629578cdc18294002a8451b5e0acc",
+      "modified": 1785978904270,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.ft_dCustomer_Plan_710_200": {
+      "hash": "sha256:4bbe59a342fb55f190c9d79aae8941a8421882077278543f8b521b28c5acbde9",
+      "modified": 1785978904364,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tfh_dCurrency_100_200_fh": {
+      "hash": "sha256:dcf0756303f8a0d096570bf42900cd5df0a445922b78bd0e7b26d4e97c9ab9ab",
+      "modified": 1784620671936,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tfh_dCustomer_200_200_fh": {
+      "hash": "sha256:4d578e5bfd5b3efb6cf0d83c936d0880aeeb567b0f3738eda3bc40292240034a",
+      "modified": 1784620671983,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tfh_dCustomer_Plan_700_600": {
+      "hash": "sha256:048ed946506c1b92133c7f555febf5f214b5889390e28903a2c2a4bd7b952998",
+      "modified": 1784643123627,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tfh_dProduct_300_200_fh": {
+      "hash": "sha256:d55af6db1b622605adc5ea8583388e7fee7e7adfe3f1d04c31423c60122d0149",
+      "modified": 1784620672021,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tj_dCustomer_Plan_700_400": {
+      "hash": "sha256:ddf0e0d065f3a092496947a7c0886b637b27c00dece857ac8d8f2948a493502f",
+      "modified": 1784643076304,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tn_c#_Version_600_300": {
+      "hash": "sha256:bc56fccf0bbc68d453f7a7fa2af2d831e55810816a07a60d1e3db34dc88231f6",
+      "modified": 1785290188366,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tpc_dBSAccount_110_200_pc": {
+      "hash": "sha256:50bae06eb275e394f58bac5a6ad472e0678fda83f0783555981a5edf91aeb2d5",
+      "modified": 1784095075433,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tpc_dCFAccount_120_200_pc": {
+      "hash": "sha256:74ea186282e499d8ca15bc2f9912dc82df8e8fcb81449620f9c2890cc819ee97",
+      "modified": 1784095108018,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tpc_dCostCentre_200_200_pc": {
+      "hash": "sha256:98e1dcd42d4684907ee9904f8019d4f1086002c8180da79ed9d98761c0cc22ae",
+      "modified": 1785289558996,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tpc_dPLAccount_100_200_pc": {
+      "hash": "sha256:a72fab72419a8713ef6a17c6085777318a626050f8e9a81c62849be91615874a",
+      "modified": 1784094212386,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tu_Customers_Plan_700_600": {
+      "hash": "sha256:5572ffabd8381302af4f842055e04d5df55306046244f39e39e80d1d480aa6c1",
+      "modified": 1784638845699,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tu_dCustomer_Plan_710_300": {
+      "hash": "sha256:9e193deaa6f96a8cef804cd1d5f4fbf25ee368d378b7f59766917af85d0493dd",
+      "modified": 1784638164638,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tv_dCustomer_Plan_700_300": {
+      "hash": "sha256:1638b87660a95f4adbe08ad5da7be2a92d4ab4fc2f3130f0bac66d6012353813",
+      "modified": 1784644373121,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.transforms.tv_dCustomer_Plan_700_500": {
+      "hash": "sha256:35a6f6fcdb012c33da2a670e169d61c3e0a6bca20d3e952c8ffca41d8c93dec6",
+      "modified": 1784644490467,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.variables.Actual FY": {
+      "hash": "sha256:0f8098d2c58ad4e571742705b3469e8b9288b42e37eeb2b7e646ef2f80ce6447",
+      "modified": 1785978903550,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.variables.Budget FY": {
+      "hash": "sha256:a699f1e313d97cfcf9f79961a3d5ea543896609376fa58e520bd89d5d9234d71",
+      "modified": 1785978903653,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.variables.Current Period": {
+      "hash": "sha256:6a2dea4808acd6e706585a18f97a6fd295da4570d9f19a3e5395540f9f203691",
+      "modified": 1785978903752,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.variables.DB": {
+      "hash": "sha256:9daa523982dfcf86233ca95a1807e59e716aed6662a0ad0181994e14d043b08c",
+      "modified": 1784092383704,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.variables.Forecast FY": {
+      "hash": "sha256:0c5f7764e91719f76ede9c211c66a9b029692f2e5deb9b769ffb775d050e4586",
+      "modified": 1785978903852,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.variables.RollingMonth": {
+      "hash": "sha256:89729872538395711025797b276435a3428e34a03fdc2d248ba4fad9e018d5e4",
+      "modified": 1785978903957,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.variables.TopN": {
+      "hash": "sha256:8abf96f99292acf3e7d27827cefc3974744b81a370db6d1c12d7317eea7d8d93",
+      "modified": 1785978904056,
+      "modifiedBy": "chris"
+    },
+    "MF-DEMO.variables.Version": {
+      "hash": "sha256:db8afd97b463f3c819565f2e1aa7bc4b0d9bc14479637dffa805a2685a469cb1",
+      "modified": 1784173715541,
+      "modifiedBy": "chris"
+    }
+  },
+  "hash": "sha256:beb8105e6c2d281d21da9d1aaf24dc3d2a669e369284a41468590ca4f4f18528",
+  "modified": 1785978904567,
+  "modifiedBy": "chris",
+  "project": "MF-DEMO",
+  "source": {
+    "at": "2026-08-11T03:15:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

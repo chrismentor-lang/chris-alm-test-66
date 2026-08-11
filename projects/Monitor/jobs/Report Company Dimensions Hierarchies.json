@@ -1,0 +1,17 @@
+{
+  "-name": "Report Company Dimensions Hierarchies",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dReportComp_777_055_AllHierarchy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dReportComp_777_030_NoReport_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

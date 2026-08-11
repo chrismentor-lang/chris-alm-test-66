@@ -1,0 +1,24 @@
+{
+  "-name": "dMeasureInMemory_100_151_ErrorHierarchy_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-dimensionType": "Measure",
+    "-generateSubsets": "false",
+    "-name": "Measure (In-Memory)",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dMeasureInMemory_100_141_InMemoryErrors_fh"
+  }
+}

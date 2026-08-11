@@ -1,0 +1,809 @@
+{
+  "components": {
+    "Monitor.connections.JedoxGlobal_JedoxCloudConsole": {
+      "hash": "sha256:e758b6a265ec70869b7ee8a8042783ec81c504a69244256ad1ae954465410ac6",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.connections.Snowflake": {
+      "hash": "sha256:6c17e37a41f66958199aaf2cd3682ba49026f7db18e47f0af3135ad08f2808ff",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.cInMemoryLogs_200_000_All_re": {
+      "hash": "sha256:88f67d927ceff0d87f64c0a571699c1a6a9334de0a510a2717f70ffe5d1788ae",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.cIntegratorLogs_100_000_All_re": {
+      "hash": "sha256:320814ce329c4696b2988bce6b0c20a21f90080658d21239527033921fa1bfbf",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.cIntegratorLogs_100_000_All_re (2)": {
+      "hash": "sha256:e4832aaf6b0e067f2ef3c8035bc3f38af38e0b59354cbd323e61d96523568aeb",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.cLogsComp_002_000_Delete_cs": {
+      "hash": "sha256:6f8657ef2094ec0923c6cfefb350e3c1c88a0924e1cba8c0ee25cd4f5ac0c0cd",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.cLogs_001_000_Delete_cs": {
+      "hash": "sha256:14da9915527380f83eab90a4e2dd24b9bdc1e2374ed192ab370a51c10bdb3563",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.cMachines_400_000_All_re": {
+      "hash": "sha256:11e8b552a987b9393c1a33adc0fa255ba6c3bbe349ca5858f5ea437f737c2b58",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.cSchedulerLogs_300_000_All_re": {
+      "hash": "sha256:1071a0245d313342d400e894cd281a40bdacbd6576635fa57bf4c8db39d5b7d3",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.cSpreadsheetLogs_000_000_All_re": {
+      "hash": "sha256:3ba783a6be3e62556a254219035c37372ec491d4dea653c28a5072b4de4c71f4",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.dDate_777_000_AllDates_ce": {
+      "hash": "sha256:ab35cd90515d72423952f75ebad29fc77f4c5940336171a43a837a3ccf107d19",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.dDay_222_000_AllDays_ce": {
+      "hash": "sha256:2fd748056f68de51ef4d930eb9b9021f0046fe36b2aa6610338c9b3325b7e417",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.dMachine_555_000_All_re": {
+      "hash": "sha256:38c35e65ce8e2f58682173cdd778f62c1ed92a67a8a185bcbe83e5ae36051d70",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.dMinutes_555_000_AllMinutes_ce": {
+      "hash": "sha256:921063a69e0cac67e56c6721e7d102aa5631e6481cf30870c673cdcc92523a11",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.dMonth_444_000_AllMonths_ce": {
+      "hash": "sha256:c4893852b94308e33ccf7ee01ca7bb60450494044ec107b57da532c2d5856aa5",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.dTime_111_000_AllTime_ce": {
+      "hash": "sha256:37fad8e18582f09f493d8a3c5874cea0824c990b3b769c9f5d163e1070f02522",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.extracts.dYear_333_000_AllYears_ce": {
+      "hash": "sha256:d64c58d9412941c871ad4f378fda89535d740621b2e9509889ef43a9bd795bab",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.All Logs Day": {
+      "hash": "sha256:f58a53d604ea0288d33da075c6b03ab581a1cc3709c04e12a0c68d8624b59483",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.All Logs Yesterday": {
+      "hash": "sha256:8173a8e9ff58fddff0041ed1d3af982264a2bf783f7233c9bad0bd96131cf005",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Database Company Dimensions Hierarchies": {
+      "hash": "sha256:99799e60ef4ddfb07971c8824186321de026045e51cca3a7e0eaa4bc544f1ebb",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Database Company Dimensions Loop": {
+      "hash": "sha256:2cf0a6742904ff46d13d843d4492ecd1f40e5bae719ab3258e1342b7c531d137",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.In-Memory Company Cubes": {
+      "hash": "sha256:3c83a4602b43eabd0427412d4ce1f4e9057941d467cfddb19982f7c948e692e8",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.In-Memory Company Cubes Loop": {
+      "hash": "sha256:6eed2d634cd5ea7c35ceaded1e5a11130a74ccf2b6361b6889390c91abd4a380",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.In-Memory Day": {
+      "hash": "sha256:54ad784fd2f2bfbd8dbdad4a2fd2443808c23f01a113ad6db4e6a3988d0d1320",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.In-Memory Yesterday": {
+      "hash": "sha256:5208d14e829fed8125506a3d6aece7edd2656cd1bed76843043c8435303c6e0c",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Integrator Company Cubes": {
+      "hash": "sha256:096077a9630c3a73394d4f1e3373eab41379f72af192ca5e9c7d33cd7163ff1b",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Integrator Company Cubes Loop": {
+      "hash": "sha256:08c8415d6df506ca281abda963836d3da020e8a6f77f8355178e8b4efc541007",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Integrator Day": {
+      "hash": "sha256:c007d7dceb4f840f1dfddc2f6bb3c45d9405bf3b302dadfd2e134b4d1a66c00d",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Integrator Yesterday": {
+      "hash": "sha256:430ff2f4d7ffc3c7e5c899fc76245dd6919ec11c287b85e96a56aa2894a8f349",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Logs Cube": {
+      "hash": "sha256:7aefc1af03ad0917e684b7df42ec0281b7e98aeb3a10a9beda4807507d7d9de8",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Logs Day": {
+      "hash": "sha256:d808822112ee382fcffb721a50b155512dfedbfd4454ca87a11dd46ef0c5a4dd",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Logs Dimensions": {
+      "hash": "sha256:fcf8e39bd44afd65b0abff9f75f23ca02592f808790a79fa68a090d0a8792ab1",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Logs Yesterday": {
+      "hash": "sha256:bb9d76f2051589bc90e041b0a9655479665d785f8a693a94874da7b25db0edd0",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Machine Company Dimensions Hierarchies": {
+      "hash": "sha256:131610d3a33e8d3c8c087c97184c00d7039471429c247cddc6772901c46f6d5f",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Machine Company Dimensions Loop": {
+      "hash": "sha256:d84ec366537ff2581533d140ac4dc958a210059f7bd3bdd8bab1f6eeea940abb",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Machine Dimension Hierarchies": {
+      "hash": "sha256:4b76b2a093f2aaf8e63b75b9537e019f63f92638aec8ab64f28698a7365d8960",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Project Company Dimensions Hierarchies": {
+      "hash": "sha256:3cf59b1876874ad1f6efbe7844bb374a0f0a0700a94dc6dfef9776cff769917f",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Project Company Dimensions Loop": {
+      "hash": "sha256:f9a93ffe34a96bd90ced10fdfffe83b9efc4384d8e414e885634145d6fde17ef",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Report Company Dimensions Hierarchies": {
+      "hash": "sha256:44edb76335a05d373809e1294302f740df5e877b7ff645120b31656258feb81d",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Report Company Dimensions Loop": {
+      "hash": "sha256:bdc3ad0a598c385e80f1638f8a4d308851e3be042aaf6597b3b7e914331e7156",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Scheduler Company Cubes": {
+      "hash": "sha256:2e03f72f4d5146d2e7abc4c155bced76890c3b9581de4de9b993c6d04b186b0d",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Scheduler Company Cubes Loop": {
+      "hash": "sha256:e6ac00335656cdae4215bd447852d80fea2f5ada95a1e55deba14fa0cd30f495",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Scheduler Day": {
+      "hash": "sha256:de21ab676d1d72d99d84df6e39c0a8ce7acbf6ea24a45982c072d7661365fe97",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Scheduler Yesterday": {
+      "hash": "sha256:15a7e416dc03d9d2b07a401f6200dad23e0d27b69b5bbef0fabfac88e5f09d7f",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Spreadsheet Company Cubes": {
+      "hash": "sha256:990cfba6ae1f9eb105f88a65090836d577cf5ad4713a482cd1be028b179b7e76",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Spreadsheet Company Cubes Loop": {
+      "hash": "sha256:2bdc653a5052236c9e203d2678b232d4e2bed6221d141209ecd77792990b57d9",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Spreadsheet Day": {
+      "hash": "sha256:7c69454dd405875a2544d694c3b3ad7a7a22321317de2990cfae1deb2f7dad94",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Spreadsheet Yesterday": {
+      "hash": "sha256:03ed4324acf33a0b7504abd428b1b47491cab40e95704fb1ebf715339af1aa2d",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Task Company Dimensions Hierarchies": {
+      "hash": "sha256:cac506a3b563bc9c27e55e8400aeaceab24e758ebc66bec65c85d56744e74e17",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Task Company Dimensions Loop": {
+      "hash": "sha256:056f3118f523777e0fa767cefc6d810932659b8bfe8aeedeefdc7289506ce131",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Username Company Dimensions Hierarchies": {
+      "hash": "sha256:cea5b39dac9a8d3804ff4596d61cc9d9b01c78070a91aa72a9dd4ebeb66f6cb1",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.jobs.Username Company Dimensions Loop": {
+      "hash": "sha256:aa847a7aa721a78481a705c2cebe529953fc23b33542b3d948cfc9c884e27340",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cInMemoryComp_100_061_InMemoryErrorCodes_cl": {
+      "hash": "sha256:e97a60d8e84915dac22d24f4131a3e22141a464e6ec889cf71c797d32f8194fc",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cInMemoryComp_100_140_InMemoryOther_cl": {
+      "hash": "sha256:e9a3f85c68011862c0451ec635ec937c4b6daf737da23a72b868a441e2e8c89e",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cIntegratorComp_100_140_Integrator_cl": {
+      "hash": "sha256:3c8bc13e56db7ce09dcd83dadb0d3a69c80a2ff41626c446dfd922d3e1b7ab70",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cLogsComp_002_010_DeleteDay_cl": {
+      "hash": "sha256:deb3b005e36234ab87443e77db5163f9fde68ef1f79ad085728fb5061a1ee9a4",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cLogs_000_030_SpreadsheetMessages_cl": {
+      "hash": "sha256:b78f9f4cc9dff118fc4ee1e6b16a9d0d7a2067ea32b382ed890cffe27d246c18",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cLogs_000_050_SpreadsheetHits_cl": {
+      "hash": "sha256:7245338eb66fcab0472e9244c120d1e2807cc0033be89f1be063aa497e839eb4",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cLogs_001_010_DeleteDay_cl": {
+      "hash": "sha256:bde447b825187417a6b1bf8214e25589652978447913425e53a6c91a70981fe6",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cLogs_100_030_InMemoryOther_cl": {
+      "hash": "sha256:471a63490cd9792442117f16a6b74714395a3004ac977d0ec0616243fbf67073",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cLogs_100_030_Integrator_cl": {
+      "hash": "sha256:9dfcd7af88a095e81d5671d141902e073326e6d0ecddccb0facfd4ef25fc924c",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cLogs_100_050_InMemoryErrorCodes_cl": {
+      "hash": "sha256:3db1935a061adf7caefc6951159da8f50f9b7fcc88ee9669f962e18f86cba029",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cLogs_300_030_Scheduler_cl": {
+      "hash": "sha256:94efb072b577a9b26687822337962a140650140b5d5293170ab1b24c355da453",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cMachines_400_030_Characteristics_cl": {
+      "hash": "sha256:d7998bc65a30a3d2c58c5f8adca4d087ee7f19f878d3a8fe5123234b9bfddbaf",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cSchedulerComp_300_055_Scheduler_cl": {
+      "hash": "sha256:0949ef0f8d8b0c161daa9ee48547ba5e44c103c407a35892560af953c9b87897",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cSpreadsheetComp_000_141_Messages_cl": {
+      "hash": "sha256:b2dccf1630c88b6c319baaf8f91fee6c15bbd37ddeafc9ecbbc7af35ab7e1d45",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cSpreadsheetComp_000_160_Hits_cl": {
+      "hash": "sha256:6ac2fdd2475dac2cf6f603ca24d53cf8e6be96aba70bfe9b18cfef7e28c09d52",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.cSpreadsheet_000_050_Hits_cl": {
+      "hash": "sha256:fd6dc14f9b2f14fe8b2274947b27d76fff13ec420cabf68b2f41344559fa650f",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dDatabaseComp_666_035_AllHierarchy_dl": {
+      "hash": "sha256:51a525bdd55e53915b85cdb95b5e477d5c253184d2cbbb2a047f0a875bb695b9",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dDate_777_010_Hierarchy_dl": {
+      "hash": "sha256:fb2ffc7d2b6176fcc7d6100e9f9a3fddb576793da8be622b6285af4f15856904",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dDay_222_010_Hierarchy_dl": {
+      "hash": "sha256:abca8858a26fb04fc2594778a82607b516af0c53a681ed1c089b6554aa0402f8",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dMachineComp_556_040_AllHierarchy_dl": {
+      "hash": "sha256:02cf25ffd17114b0fc0639d51cfffa93f8c83bc186a4266348a91dce4943eaaf",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dMachineComp_556_045_TypeHierarchy_dl": {
+      "hash": "sha256:c035dad9b5f261ad72b133f1c55cf9220e68aa91f7c2e154c05131a4dc3b8cb3",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dMachine_555_030_AllHierarchy_dl": {
+      "hash": "sha256:cc10b14cc20298046f95342ac9387cf0bbe91fda0b2ecffdef61d28d8969dee9",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dMachine_555_035_TypeHierarchy_dl": {
+      "hash": "sha256:3774d14395ccc8076639394d3dd914c2ffde6a9649dfd47324b30f355d05dc50",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dMeasureInMemory_100_151_ErrorHierarchy_dl": {
+      "hash": "sha256:15b17ec480aea5cc5ef7e3aef14cad385c798db6fe751716b8ad4d329ee15736",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dMeasureLogs_100_050_InMemoryLogs_dl": {
+      "hash": "sha256:13e5a92c27fa79bd84e0f8f6f061431aa4dba0e52c1287bdd3e08487d0d084ef",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dMinutes_555_010_Hierarchy_dl": {
+      "hash": "sha256:25e120ed5b5f2f5d479cea204702b577bb4ccbc8bc4b512f91eb6afb82667dd6",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dMonth_444_010_Hierarchy_dl": {
+      "hash": "sha256:a4cb39886edb9e5a967ff7899c8e62f5cf9af1ff47b826ddff1b05d26e8b26ed",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dProjectComp_998_065_ScheHierarchy_dl": {
+      "hash": "sha256:05cf8efdf7d43c66797bf61eb70616476993bf40e4e2bdc7fd3cbe329db94404",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dProjectComp_999_035_AllHierarchy": {
+      "hash": "sha256:1c9207d19ff5cf210c09723f5eecb7c78141ee0a7fc9c60b25c8ac7db54b33ec",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dReportComp_777_030_NoReport_dl": {
+      "hash": "sha256:7a4a114f00c87972440f282cdd3ce641182dbaff55c63f8f4fb2e16bf300add0",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dReportComp_777_055_AllHierarchy_dl": {
+      "hash": "sha256:258796c1e10b11cf42d166561eb75ef0511db9645df5116444d829cf793a364d",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dTaskComp_300_145_AllHierarchy_dl": {
+      "hash": "sha256:45fa93e79aab2f50d3dd6f3f5f69d44b08d35e0573279046e7f6d7c7c09c814f",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dTime_111_010_Hierarchy_dl": {
+      "hash": "sha256:5a5e1a5cf5619cfbb4c57d2b501f3118bc9348bce34b90b97f806860f4361028",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dUserComp_888_055_AllHierarchy_dl": {
+      "hash": "sha256:d2d27c06f331ebacfa0e52e103bcc64ccc3b7a91d48716c948907a89572d49f2",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dUsernameComp_888_030_NoUser_dl": {
+      "hash": "sha256:139426079303918f1f2ff1ca08c7d4f442c6c48f2e41585289e30f4c84ff59ff",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dVersion_666_025_AllHierarchy_dl": {
+      "hash": "sha256:9dec73cd0cb5f7bab17a49bfd5753af6a7b2744b72c0c8af8ab16a3b43123588",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.loads.dYear_333_010_Hierarchy_dl": {
+      "hash": "sha256:e39e2e70b642f8a77d71075abd358a1dec5ed407af323c22963031e7456ac5b2",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_011_InclComp_tv": {
+      "hash": "sha256:5ed559f3ced7910e0e271448f4e9e174c02c228777a50c7a9c2cd1ecd2d93da4",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_021_AggCodes_ta": {
+      "hash": "sha256:10776b80cc9c69612eaa983d22d59f830ddae4faf4a32d8c0778af0f95a12cba",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_022_InclErrorCode_tv": {
+      "hash": "sha256:f34f7376ba7fd56fb227987d5bfecbe805ef81bab9fdbe0af7dee1798cb4feec",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_031_ExclNonError_tv": {
+      "hash": "sha256:3919b49f513fe0725fb1c2051e20df4345223191b1a32095adb3d2e8071348c9",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_031_LoopErrorCode_tl": {
+      "hash": "sha256:18d9c76eabfc98c602dc2c8fa4a39b8ee8f6dd242309521e319695fba6f3cba2",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_041_NormErrorCodes_tn": {
+      "hash": "sha256:1529f255bf0d37a9a0d33fcffec9bbb5ec9ad9c40f2cfac24a8f2afcfc228500",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_051_StructureTarget_ft": {
+      "hash": "sha256:2e7cc5d67f69f534629fd65410179c82449ce198120a3088d211b26630917569",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_120_InclComp_tv": {
+      "hash": "sha256:334904dc2f21edba9200b24b213845c768ecdfcd5361586fb11efb2e88a8697f",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryComp_100_130_NormInMemoryOther_tn": {
+      "hash": "sha256:af3ddc635008ed4f1e7466f25bc156c82391691bf6b2d9de0bde18f085d3931e",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryLogs_100_010_FormatErrorCodes_ft": {
+      "hash": "sha256:088728affc16dccc69ce32029895e7036d33b127da4bebd399133821cd132ec7",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryLogs_100_020_InclErrorCode_tv": {
+      "hash": "sha256:59b4e1af6878f06c3f95452538bdfcbc0c2f20c811ab2aaefccd56c6a6b12624",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryLogs_100_030_LoopErrorCode_tl": {
+      "hash": "sha256:598f6c0a2bd94578226205ec7030fda5aab013a5459cd3ca33d95029d83d3cb6",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemoryLogs_100_040_NormErrorCodes_tn": {
+      "hash": "sha256:cc4700bdf28df316aeb9940132be6a9e20e2125e87a763556fbe338e69830835",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemory_100_020_AggCodes_ta": {
+      "hash": "sha256:50f1a06da19e14b2056f35251e8d75b1d4854e8d32058e57880c55fe47d725c6",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cInMemory_100_030_ExclNonError_tv": {
+      "hash": "sha256:dfad45828457c6cdc52916c86ead8c17b8f57c11f754133fb9a70bfadd15a22e",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cIntegratorComp_100_120_InclComp_tv": {
+      "hash": "sha256:5b2f1a77a3e1beac342a12c6c0b1a0b17db8af0177c157ad4330436c5e796013",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cIntegratorComp_100_130_NormIntegrator_tn": {
+      "hash": "sha256:deb2c71605455488bf6723f8b0cb67ce7a15067b8fd9fbce4b1907b2c258d5b4",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cIntegratorLogs_100_010_FormatIntegrator_ft": {
+      "hash": "sha256:18ae7e6eabe3e79e0a073145c1a9870a61008f24d174aaf1eaab42ed28631a43",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cIntegratorLogs_100_010_FormatIntegrator_ft (2)": {
+      "hash": "sha256:6989b98e54e5d86337bbeb55b3f3850628975e7343adae386e813a52e8ba7638",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cLogs_000_021_NormSpreadsheetMessages_tn": {
+      "hash": "sha256:5a84abeffa02e255c8186563c394c5ab5d0e3b4469d2b5dbbd89e035757d0a1a",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cLogs_000_040_NormSpreadsheetHits_tn": {
+      "hash": "sha256:748ed6e5dc2e7c1e02235410e1f8b9347b3d4c5c9e70d33a0273bad01250debb",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cLogs_100_020_NormInMemoryOther_tn": {
+      "hash": "sha256:c344bbb48d9b21af953a7f65a8135b34efbfe3423e4e1a1df1830671e360fb31",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cLogs_100_020_NormIntegrator_tn": {
+      "hash": "sha256:49f81d98e2b6effe039c0c39b91fbbe4443ef6b1a3e6c171abf7d533d89d10c7",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cLogs_300_020_NormScheduler_tn": {
+      "hash": "sha256:4d25e436bffc90074f023578cc6bda52fa051ea8052e94544f6f2c8aa3258aaf",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cMachines_400_010_DetDetails_ft": {
+      "hash": "sha256:0fb9d87ad629bcd5446244b3cb5b4ceee749476279ca078be6570a57f6829c40",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cMachines_400_020_NormCharateristics_tn": {
+      "hash": "sha256:5aba5d19735fab06e77ffb9d89bb352cf43b58f25b4aa1e88fb126384490b377",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSchedulerComp_300_025_InclComp_tv": {
+      "hash": "sha256:44fd6447a118ddfcc81b33ead52f2f56af957999a8f6d93c34bde849cb11de8d",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSchedulerComp_300_035_TaskLookup_ft": {
+      "hash": "sha256:fa37de25534e1a1365b4acd84f0a0283073e443fcd99a24df28fdef79975b89e",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSchedulerComp_300_045_NormScheduler_tn": {
+      "hash": "sha256:f2079fd1143f4b54c03a0c522bbce0c66b28a9e64aede4a6966136c9be2d15cc",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSchedulerLogs_300_010_FormatScheduler_ft": {
+      "hash": "sha256:c6c5913d3a0a0d53aa0ba937cbaf02381987d69689d3141eb61da1ba697a08c6",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheetComp_000_121_InclCompMessages_tv": {
+      "hash": "sha256:e1058247ef2a08b767254098ef0438c73517e87bdbb1776fa235a87b95a974b6",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheetComp_000_131_NormMessages_tn": {
+      "hash": "sha256:ec3ad3e5c6401ab483498a9f9ba4f1b6d44e3e9d246875785e8638293c26f234",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheetComp_000_140_InclCompHits_tv": {
+      "hash": "sha256:5cca1c43a188841cd532b7c2386455d92020340a58564794a4ff0004482f9656",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheetComp_000_150_NormSpreadsheetHits_tn": {
+      "hash": "sha256:fd6ac1c61b0f59401c487920c61e763447194b4655d94b04f2e08ac3a5309e0c",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheetLogs_000_010_Format_ft": {
+      "hash": "sha256:c619b51e35de543daf10ef089b2214173371db29de048df3a5f72113252007e9",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheetLogs_000_015_InclComp_tv": {
+      "hash": "sha256:21950878de9ef22ffd8da43f5918bad2b8fa0d438bf3bb7c883646416dd93bb5",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheetLogs_000_020_InclCoreLoadWorkbook_tv": {
+      "hash": "sha256:778b4c4d21072c18ccdcb7e1068f15f277a70f644bb1bf57e191615fce1ed4ad",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheetLogs_000_030_FormatCore_ft": {
+      "hash": "sha256:da4dda9cb83a33891376925ca0e40f73b6c536ea0e3f7268554204178fef6df4",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.cSpreadsheet_000_040_NormHits_tn": {
+      "hash": "sha256:109f59734191c6eb515c99e12aed7a40f2c3f06e5381dcceb0d6abe94c588a59",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dDatabaseComp_666_025_AllHierarchy_fh": {
+      "hash": "sha256:16fc398736ffdd0914f1c0d13e3d65d2ea9bec4755681ce59c684e5f0fe6d605",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dDatabase_666_015_InclDbLogs_tv": {
+      "hash": "sha256:192e64ed243ad0a364e424dca3a512910aae7eacb17789e21a15a041ed3e4e05",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dMachineComp_556_020_InclComp_tv": {
+      "hash": "sha256:5355da0c2d188f36e6704d4051c37fe4ef40f45eb0a7c421e3fa9589bc653ee7",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dMachineComp_556_030_AllMachines_fh": {
+      "hash": "sha256:e99b24fc60f73faca43e4f676b74644ebfa2497c19d095cb27bbb8116a7f8593",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dMachineComp_556_035_TypeMachines_fh": {
+      "hash": "sha256:84b8710eaf066763abbf3f32d86c468b234870a18170370f794c882d532b23a8",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dMachine_555_010_DetCompany_ft": {
+      "hash": "sha256:22e0f6c7bf834a72a84537e5c709a1be9aaa2d4597f8996dbe8743880016d83e",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dMachine_555_020_AllMachines_fh": {
+      "hash": "sha256:2ac66f47a7ec8b097744aff6ce4076117fec3bf780df2375d18e08d09b600a0d",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dMachine_555_025_TypeMachines_fh": {
+      "hash": "sha256:cf967db1c3e75de22299af55ea91da7342abd70dc713293682f53ef765960bf3",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dMeasureInMemory_100_141_InMemoryErrors_fh": {
+      "hash": "sha256:9fae881b50e04debe4dcde13d16366a7b19d18184b4d8576c2c3808d3756c955",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dMeasure_100_040_InMemoryErrors_fh": {
+      "hash": "sha256:bd5cbc5f41c56a134ce594df0249296b8a407b8fd095897b3d4e0d8308005695",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dProjectComp_998_045_ExclNull_tv": {
+      "hash": "sha256:6572959a652927b054626fbada0197f856bd0525a01b8b4e4d0e961229a38c93",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dProjectComp_998_055_SchedHierarchy_fh": {
+      "hash": "sha256:4ace1a23ce81b54074810b352386f3418c7566fa5f4d7194151c9473f0d2845b",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dProjectComp_999_015_InclComp_tv": {
+      "hash": "sha256:918054cbca6d7447d11618ad552928b01911975340af40bd850f0970c617ef97",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dProjectComp_999_025_AllHierarchy_fh": {
+      "hash": "sha256:517eb07d6096fc45fd9d2907afab8acc07ec309354aa3e4b0d24ca589b737ce1",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dReportComp_777_020_NoReport_fh": {
+      "hash": "sha256:7cf83c3dc2621b30ed662da22dd18ca40b1c314e503772f1fd9f3da92b511f28",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dReportComp_777_035_InclComp_tv": {
+      "hash": "sha256:c735b400f7cc50e07c52b6c45cb189937649654975656df70d1c94d854d21073",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dReportComp_777_045_AllHierarchy_fh": {
+      "hash": "sha256:38a14a68f009f7af3193bc1c223b00fc6f9240b4af1089b568266736b058b266",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dTaskComp_300_125_InclComp_tv": {
+      "hash": "sha256:f7dc39edf26dd004fd2259a11d2049dc09a55afd75483e642efa622127268d33",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dTaskComp_300_135_AllHierarchy_fh": {
+      "hash": "sha256:99cd580045b46399d203f5de529ce486dfc970d2845ff40309740b0821294d79",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dUserComp_888_035_InclComp_tv": {
+      "hash": "sha256:09d9741d61af0b595650dcf048c52526a6294824839e35e5f9f8cd3be11e4c1e",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dUserComp_888_045_AllHierarchy_fh": {
+      "hash": "sha256:e9e46408d640977d17ebf63eb657af7d7c4ef4af90c3beb5514c7ae702010d2f",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dUsernameComp_888_020_NoUser_fh": {
+      "hash": "sha256:6c674754649264ba80fcdc8b112825aa49285006f5263ad41be432969ba75caa",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.transforms.dVersion_666_015_AllVersions_fh": {
+      "hash": "sha256:fc68eed45d2cfdf9ab56920eaed55c8e793b3d26133d8d160fe4f07e28ee3f15",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.variables.vCompany": {
+      "hash": "sha256:9dfc9d60bc6ce852855a440493c6d612645482a7080a522058b2e4e4b33720d5",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.variables.vDay": {
+      "hash": "sha256:50315566b2e2299cb2b9d73c28380543e41742e4c3aa682023a10089b53fe0e3",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.variables.vErrorCode": {
+      "hash": "sha256:fb7ad289ce586c48027e7c7daa2a9530c2b616a7076f2e3d86079fc58751b8cf",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.variables.vFrom": {
+      "hash": "sha256:d7043cc10c98e9dd855e810e3a8352217ccfe149e5fb8dac7b8544c2ed27913b",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.variables.vMonth": {
+      "hash": "sha256:76443a63faace3256eeea66cac2966cd854cefd8cfa16df48ef1d57e5b019e35",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.variables.vService": {
+      "hash": "sha256:6978d984d656b326403a6843f2f9650a43ad362551471aab47132b144dd5f160",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.variables.vTo": {
+      "hash": "sha256:22edcf7ef5730033b6d2b1a927adf8d042e5780584efa4a39dfd3eb7b015fd1d",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    },
+    "Monitor.variables.vYear": {
+      "hash": "sha256:a175fb87de6c30008ea151abf7c2b47d3b51fcd2b5b146ef19d7313afbf7ed50",
+      "modified": 1782781648524,
+      "modifiedBy": "chris"
+    }
+  },
+  "hash": "sha256:a838bd27596e53a45c00fda5cac633ec96cab369266903b60472a87854a4ba4c",
+  "modified": 1783327213581,
+  "modifiedBy": "jorge",
+  "project": "Monitor",
+  "source": {
+    "at": "2026-08-11T03:15:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

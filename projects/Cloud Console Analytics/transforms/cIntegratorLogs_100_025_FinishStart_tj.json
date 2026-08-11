@@ -1,0 +1,55 @@
+{
+  "-name": "cIntegratorLogs_100_025_FinishStart_tj",
+  "-type": "TableJoin",
+  "cache": "false",
+  "joins": {
+    "-persist": "false",
+    "join": {
+      "-allColumns": "true",
+      "-type": "left outer",
+      "-unique": "false",
+      "conditions": {
+        "condition": [
+          {
+            "-type": "eq"
+          },
+          {
+            "-type": "eq"
+          }
+        ]
+      },
+      "left": {
+        "-nameref": "cIntegratorLogs_100_015_StartCalc_ft",
+        "key": [
+          {
+            "-nameref": "fx_TimeCalc"
+          },
+          {
+            "-nameref": "MACHINE"
+          }
+        ]
+      },
+      "right": {
+        "-nameref": "cIntegratorLogs_100_105_CompStarting_re",
+        "key": [
+          {
+            "-nameref": "TIME_LOCAL"
+          },
+          {
+            "-nameref": "MACHINE"
+          }
+        ]
+      }
+    }
+  },
+  "sources": {
+    "source": [
+      {
+        "-nameref": "cIntegratorLogs_100_015_StartCalc_ft"
+      },
+      {
+        "-nameref": "cIntegratorLogs_100_105_CompStarting_re"
+      }
+    ]
+  }
+}

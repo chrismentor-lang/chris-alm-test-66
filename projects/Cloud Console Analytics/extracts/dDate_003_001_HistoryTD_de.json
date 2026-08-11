@@ -1,0 +1,21 @@
+{
+  "-name": "dDate_003_001_HistoryTD_de",
+  "-type": "Dimension",
+  "attributesMode": "none",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Date"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": ".",
+        "-mode": "onlyBases",
+        "-operator": "like",
+        "-type": "accept"
+      }
+    }
+  }
+}

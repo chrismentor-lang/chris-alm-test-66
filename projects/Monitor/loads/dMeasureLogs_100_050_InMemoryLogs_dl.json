@@ -1,0 +1,24 @@
+{
+  "-name": "dMeasureLogs_100_050_InMemoryLogs_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-dimensionType": "Measure",
+    "-generateSubsets": "false",
+    "-name": "Measure (Logs)",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dMeasure_100_040_InMemoryErrors_fh"
+  }
+}

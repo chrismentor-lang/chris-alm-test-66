@@ -1,0 +1,11 @@
+{
+  "-name": "tMachines_100_000_ListRaw_jc",
+  "-type": "JsonFile",
+  "database": {
+    "#cdata-section": "customer_logs/machines_list.csv"
+  },
+  "encoding": "UTF-8",
+  "location": {
+    "-type": "FileSystem"
+  }
+}

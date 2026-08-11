@@ -1,0 +1,16 @@
+{
+  "-name": "Thinkerbell Refresh Estimate Dimension",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Kicks off Refresh Estimate Dimension job in the Thinkerbell project to update the Estimate dimension in Jedox."
+  },
+  "execution": {
+    "-nameref": "Refresh Estimate Dimension",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Thinkerbell",
+    "-scope": "Global"
+  }
+}

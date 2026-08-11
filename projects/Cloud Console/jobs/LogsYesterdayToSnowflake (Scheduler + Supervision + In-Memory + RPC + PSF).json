@@ -1,0 +1,34 @@
+{
+  "-name": "LogsYesterdayToSnowflake (Scheduler + Supervision + In-Memory + RPC + PSF)",
+  "-type": "Parallel",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "SchedulerLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SupervisionLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "InMemoryLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "PSFLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "RPCLogsYesterdayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

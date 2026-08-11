@@ -1,0 +1,8 @@
+{
+  "name": "m4j_WorkflowField",
+  "kind": "normal",
+  "properties": {
+    "Description": "Minerva for Jedox workflow dimension",
+    "Name": "m4j_WorkflowField"
+  }
+}

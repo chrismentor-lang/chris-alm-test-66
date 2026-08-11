@@ -1,0 +1,7 @@
+{
+  "-name": "Snowflake",
+  "-type": "Snowflake",
+  "comment": {
+    "#cdata-section": "Connection to Snowflake (kspkwys/az44863) for loading CIMET.JEDOX tables and views"
+  }
+}

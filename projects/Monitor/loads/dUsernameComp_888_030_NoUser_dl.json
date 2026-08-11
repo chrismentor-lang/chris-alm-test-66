@@ -1,0 +1,24 @@
+{
+  "-name": "dUsernameComp_888_030_NoUser_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-dimensionType": "Business",
+    "-generateSubsets": "false",
+    "-name": "Username ${vCompany}",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dUsernameComp_888_020_NoUser_fh"
+  }
+}

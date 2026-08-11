@@ -1,0 +1,14 @@
+{
+  "-name": "rLogs_006_035_DurationJobC_rl",
+  "-type": "Rule",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-name": "Logs"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "rLogs_006_025_DurationJobC_ft"
+  }
+}

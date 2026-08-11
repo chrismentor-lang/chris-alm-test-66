@@ -1,0 +1,10 @@
+{
+  "-name": "Minerva_Train",
+  "-type": "Snowflake",
+  "comment": {
+    "#cdata-section": "Training database in Snowflake"
+  },
+  "global": {
+    "-nameref": "Minerva Training"
+  }
+}

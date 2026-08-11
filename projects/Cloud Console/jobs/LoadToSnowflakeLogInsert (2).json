@@ -1,0 +1,17 @@
+{
+  "-name": "LoadToSnowflakeLogInsert (2)",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "tStageDelete_000_000_Full_RS",
+        "-type": "load"
+      },
+      {
+        "-nameref": "tStageUpload_000_000_Full_RS (2)",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

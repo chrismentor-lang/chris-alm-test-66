@@ -1,0 +1,23 @@
+{
+  "-name": "cInMemory_100_030_ExclNonError_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "fx_ErrorCode",
+      "-operator": "isEmpty",
+      "-type": "deny"
+    }
+  },
+  "sorter": {
+    "input": {
+      "-nameref": "fx_ErrorCode",
+      "-order": "ascending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cInMemory_100_020_AggCodes_ta"
+    }
+  }
+}

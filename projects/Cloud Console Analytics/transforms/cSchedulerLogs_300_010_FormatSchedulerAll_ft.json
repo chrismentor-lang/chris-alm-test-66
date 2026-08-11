@@ -1,0 +1,455 @@
+{
+  "-name": "cSchedulerLogs_300_010_FormatSchedulerAll_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "CHANGED"
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_Date",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "yyyy-MM-dd"
+        }
+      },
+      {
+        "-name": "fx_Time",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        "parameters": {
+          "sourceformat": "yyyy-MM-dd HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_JobInit",
+        "-type": "Groovy",
+        "comment": {
+          "#cdata-section": "if(LOG)\n{\n  job_idx = _input1.indexOf('Start job ');\n  if(job_idx >=0)\n  {\n\treturn 1;\n  }\n  else\n\treturn 0;\n  \n}\nelse\n  return 0;"
+        },
+        "inputs": {
+          "input": {
+            "-nameref": "JOB",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.3.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_Task",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.4.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_User",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.5.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_Project",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.6.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_Job",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.7.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_Finished",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-nameref": "JOB",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.8.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_LevelUpper",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LEVEL",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.9.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_WarningLogs",
+        "-type": "Map",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_LevelUpper"
+          }
+        },
+        "parameters": {
+          "default": "0",
+          "mapping": {
+            "map": {
+              "-from": "WARNING",
+              "-to": "1"
+            }
+          }
+        }
+      },
+      {
+        "-name": "fx_ErrorLogs",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LEVEL",
+              "-type": "String"
+            },
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.11.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fx_Hour",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH"
+        }
+      },
+      {
+        "-name": "fx_Min",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm"
+        }
+      },
+      {
+        "-name": "fx_Sec",
+        "-type": "DateFormat",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        "parameters": {
+          "language": "en",
+          "sourceformat": "HH:mm:ss",
+          "targetformat": "HH:mm:ss"
+        }
+      },
+      {
+        "-name": "fx_Company",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": "-"
+        }
+      },
+      {
+        "-name": "fx_TaskMachine",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-nameref": "MACHINE",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.16.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_UserMachine",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "LOG",
+              "-type": "String"
+            },
+            {
+              "-nameref": "MACHINE",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.17.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fx_TaskName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "LOG",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerLogs_300_010_FormatSchedulerAll_ft.functions.function.18.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSchedulerLogs_300_000_All_re"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "TIME_LOCAL"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "LEVEL"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "SERVICE"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "LOG"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "JOB"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Company"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_JobInit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Task"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_TaskMachine"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_TaskName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Project"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Job"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_User"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Finished"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_LevelUpper"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Hour"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Sec"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "-name": "LoadToSnowflakeFull",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "fLog_000_040_Transformed_fl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "jCompressFiles_000_000_Full_groovy",
+        "-type": "job"
+      },
+      {
+        "-nameref": "tStageDelete_000_000_Full_RS",
+        "-type": "load"
+      },
+      {
+        "-nameref": "tStageTruncateTable_000_000_Full_RS",
+        "-type": "load"
+      },
+      {
+        "-nameref": "tStageUpload_000_000_Full_RS",
+        "-type": "load"
+      },
+      {
+        "-nameref": "tCopyIntoTable_000_000_Full_RS",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

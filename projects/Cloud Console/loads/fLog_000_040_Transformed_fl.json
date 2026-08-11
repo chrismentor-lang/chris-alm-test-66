@@ -1,0 +1,13 @@
+{
+  "-name": "fLog_000_040_Transformed_fl",
+  "-type": "Csv",
+  "comment": "${vLoadMode}",
+  "connection": {
+    "-nameref": "fLog_000_000_TransformedCSV_fc"
+  },
+  "mode": "${vLoadMode}",
+  "source": {
+    "-nameref": "fLog_000_020_SplitReplace_ft"
+  },
+  "useScientificNotation": "true"
+}

@@ -1,0 +1,18 @@
+{
+  "-name": "cInMemoryLogs_100_020_InclErrorCode_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "fx_ErrorCode",
+      "-operator": "equal",
+      "-type": "accept",
+      "-value": "${vErrorCode}"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryLogs_100_010_FormatErrorCodes_ft"
+    }
+  }
+}

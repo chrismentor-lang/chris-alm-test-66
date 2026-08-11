@@ -1,0 +1,7 @@
+{
+  "-name": "Version",
+  "comment": {
+    "#cdata-section": "Version to populate the cubes. Options: Actual, Budget, Forecast."
+  },
+  "default": "Actual"
+}

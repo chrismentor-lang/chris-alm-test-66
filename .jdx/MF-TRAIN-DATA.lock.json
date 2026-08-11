@@ -1,0 +1,29 @@
+{
+  "components": {
+    "MF-TRAIN-DATA.connections.Jedox": {
+      "hash": "sha256:daa05bc9008aba7fc485f0dd452c066c6e33bd46904753a9902dd96139f3b68f",
+      "modified": 1782781672227,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-DATA.connections.Minerva_Train": {
+      "hash": "sha256:df0b4f5369e15cea68319adad4d0877a7b8ffa03f75e8cb988b8d08200a6ca2d",
+      "modified": 1782781672227,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-DATA.variables.DB": {
+      "hash": "sha256:ea708271c7d9da11d4231545525ec6d47a2cf9645ad51379d790eca6ac10d556",
+      "modified": 1782781672227,
+      "modifiedBy": "chris"
+    }
+  },
+  "hash": "sha256:1dc4a9a7dfdb6141ed712936fb300664d872f07c71640370fa7cfb9a6fb72937",
+  "modified": 1782781676888,
+  "modifiedBy": "chris",
+  "project": "MF-TRAIN-DATA",
+  "source": {
+    "at": "2026-08-11T03:15:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

@@ -1,0 +1,12 @@
+{
+  "-name": "MF-TRAIN-DATA",
+  "-version": "26.1",
+  "headers": {
+    "header": {
+      "-name": "comment",
+      "comment": {
+        "#cdata-section": "This project cleans and structures the sales data in Snowflake. It takes the structured views in REP schema, and loads them to DBO schema.\n\nThe data model based on Food Manufacturing data for a fictitious company called Minerva Foods.\n\nThe dataset consists of sales, production and finance data. It is for training purposes only.\n\nCreated by: Chris Mentor, Minerva Partners\nCreated on: 20 May, 2026"
+      }
+    }
+  }
+}

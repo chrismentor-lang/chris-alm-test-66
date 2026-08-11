@@ -1,0 +1,46 @@
+{
+  "-name": "All Logs Day",
+  "-type": "Parallel",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Logs Day",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Spreadsheet Day",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "In-Memory Day",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Integrator Day",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Scheduler Day",
+        "-parallel": "false",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vFrom",
+        "default": "2023-06-21"
+      },
+      {
+        "-name": "vTo",
+        "default": "2023-06-22"
+      }
+    ]
+  }
+}

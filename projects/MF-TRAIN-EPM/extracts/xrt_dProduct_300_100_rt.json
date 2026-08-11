@@ -1,0 +1,44 @@
+{
+  "-name": "xrt_dProduct_300_100_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract Product dimensional data."
+  },
+  "connection": {
+    "-nameref": "Minerva_Train"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "BRAND"
+      },
+      {
+        "-input": "CODENAME"
+      },
+      {
+        "-input": "PACKAGETYPE"
+      },
+      {
+        "-input": "PACKAGETYPECOUNT"
+      },
+      {
+        "-input": "PRODUCTCODE"
+      },
+      {
+        "-input": "PRODUCTDESCRIPTION"
+      },
+      {
+        "-input": "PRODUCTGROUP"
+      },
+      {
+        "-input": "UOM"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_DIM_PRODUCT",
+    "-schema": "JEDOX_DIMS"
+  }
+}

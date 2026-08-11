@@ -1,0 +1,42 @@
+{
+  "-name": "cMachinesComp_666_020_StructureTarget_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cMachinesComp_666_010_Base_ce"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Machine ${vCompany}",
+          "input": {
+            "-nameref": "Machine"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Jedox Version"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Measure (Machines)"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "#Value"
+          }
+        }
+      ]
+    }
+  }
+}

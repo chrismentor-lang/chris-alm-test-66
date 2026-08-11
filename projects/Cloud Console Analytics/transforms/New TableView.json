@@ -1,0 +1,26 @@
+{
+  "-name": "New TableView",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": [
+      {
+        "-nameref": "MACHINE",
+        "-operator": "equal",
+        "-type": "accept",
+        "-value": "live-bbc-finance"
+      },
+      {
+        "-nameref": "fx_Job",
+        "-operator": "equal",
+        "-type": "accept",
+        "-value": "live-bbc-finance_GL_INFO_DB_job_loadG"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_010_FormatIntegrator_ft"
+    }
+  }
+}

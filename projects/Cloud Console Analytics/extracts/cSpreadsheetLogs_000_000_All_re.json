@@ -1,0 +1,11 @@
+{
+  "-name": "cSpreadsheetLogs_000_000_All_re",
+  "-type": "Relational",
+  "cache": "false",
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "cSpreadsheetLogs_000_000_All_re.query.sql"
+  }
+}

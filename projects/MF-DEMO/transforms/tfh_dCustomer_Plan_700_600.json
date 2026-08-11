@@ -1,0 +1,33 @@
+{
+  "-name": "tfh_dCustomer_Plan_700_600",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Structure Customer Plan for loading into dimension"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "tu_Customers_Plan_700_600"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-nameref": "Root"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Parent"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Element"
+          }
+        }
+      ]
+    }
+  }
+}

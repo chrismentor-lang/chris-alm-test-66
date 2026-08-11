@@ -1,0 +1,14 @@
+{
+  "-name": "tLog_000_100_MachineList_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20241108: Added where clause for NAMESPACE <> live-mp\n\nDONE: stahmann/sodexo/ofx/tpg/bsa/greencross/tkea/newhorizons/paraway/jims/solgen/g8/pmhc/nida/dickerdata/oxfam/mst/qbd/minerva/freseniuskabi\n\nAND NAMESPACE like '%westchester%'"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "tLog_000_100_MachineList_re.query.sql"
+  }
+}

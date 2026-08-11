@@ -1,0 +1,14 @@
+{
+  "-name": "tLog_000_100_MachineLastRuns_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "DONE: stahmann/sodexo/ofx/tpg/bsa/greencross/tkea/newhorizons/paraway/jims/solgen/g8/pmhc/nida/dickerdata/oxfam/mst/qbd/minerva/freseniuskabi\n\nAND NAMESPACE like '%westchester%'"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "tLog_000_100_MachineLastRuns_re.query.sql"
+  }
+}

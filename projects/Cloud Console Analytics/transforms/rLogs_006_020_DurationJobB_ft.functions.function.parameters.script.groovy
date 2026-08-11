@@ -1,0 +1,1 @@
+return "['Measure (Logs)':'Execution duration per job', 'Machine':'"+MACH+"'] = B:'Integrator "+COMP+"'['Machine "+COMP+"':!'Machine', 'Project "+COMP+"':!'Machine', 'Minutes':'All Time', 'Measure (Integrator)':'Execution duration per job']";

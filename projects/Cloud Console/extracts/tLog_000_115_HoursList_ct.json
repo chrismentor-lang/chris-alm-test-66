@@ -1,0 +1,161 @@
+{
+  "-name": "tLog_000_115_HoursList_ct",
+  "-type": "ConstantTable",
+  "comment": {
+    "#cdata-section": "This can only be used when one full day needs to be retrieved. Nothing more, nothing less."
+  },
+  "data": {
+    "header": {
+      "value": [
+        "TimeFrom",
+        "TimeTo"
+      ]
+    },
+    "row": [
+      {
+        "value": [
+          "${vFrom}T00:00",
+          "${vFrom}T01:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T01:00",
+          "${vFrom}T02:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T02:00",
+          "${vFrom}T03:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T03:00",
+          "${vFrom}T04:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T04:00",
+          "${vFrom}T05:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T05:00",
+          "${vFrom}T06:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T06:00",
+          "${vFrom}T07:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T07:00",
+          "${vFrom}T08:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T08:00",
+          "${vFrom}T09:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T09:00",
+          "${vFrom}T10:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T10:00",
+          "${vFrom}T11:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T11:00",
+          "${vFrom}T12:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T12:00",
+          "${vFrom}T13:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T13:00",
+          "${vFrom}T14:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T14:00",
+          "${vFrom}T15:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T15:00",
+          "${vFrom}T16:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T16:00",
+          "${vFrom}T17:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T17:00",
+          "${vFrom}T18:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T18:00",
+          "${vFrom}T19:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T19:00",
+          "${vFrom}T20:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T20:00",
+          "${vFrom}T21:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T21:00",
+          "${vFrom}T22:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T22:00",
+          "${vFrom}T23:00"
+        ]
+      },
+      {
+        "value": [
+          "${vFrom}T23:00",
+          "${vTo}T00:00"
+        ]
+      }
+    ]
+  }
+}

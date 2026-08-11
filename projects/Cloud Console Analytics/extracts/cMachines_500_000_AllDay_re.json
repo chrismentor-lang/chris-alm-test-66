@@ -1,0 +1,14 @@
+{
+  "-name": "cMachines_500_000_AllDay_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "SELECT DISTINCT \nNAMESPACE, \nMAX(REPLICATION_DATETIME), \nDOMAIN_NAME \nFROM JEDOX.PUBLIC.MACHINES ORDER BY NAMESPACE, REPLICATION_DATETIME ASC"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "cMachines_500_000_AllDay_re.query.sql"
+  }
+}

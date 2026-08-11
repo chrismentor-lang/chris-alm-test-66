@@ -1,0 +1,129 @@
+{
+  "components": {
+    "MF-TRAIN-EPM.connections.Jedox": {
+      "hash": "sha256:870f358dc84d908f21b52b87bc3fb499249b5eaa87d92232f8fc0b9abde647b0",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.connections.Minerva_Train": {
+      "hash": "sha256:e9a2d93dbe095ae45db364f4bfe4bf2066d016f52d8a180b3e65318c716acf50",
+      "modified": 1784092994691,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.extracts.Sales": {
+      "hash": "sha256:455ca600b5145042246d91ad9afc8b3f71db4ee2db33d4dd845e7ae8efc2e246",
+      "modified": 1783568524297,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.extracts.xcs_MonthlySales_Delete_500_100": {
+      "hash": "sha256:c63429c10f8f3927692cb5aafa23fe4ebb0552d574f66d82726bd301ea882f2e",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.extracts.xrt_cMonthlySales_400_100_rt": {
+      "hash": "sha256:502fb3a66b5f644c4ef64dadb55898fc9601448533e6eeb270a1ae4a4067e296",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.extracts.xrt_dCurrency_100_100_rt": {
+      "hash": "sha256:26e9357f3f38f07d5aeb9ea95ccf4ab82bc859559a90978a065b67205f0d2e3a",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.extracts.xrt_dCustomer_200_100_rt": {
+      "hash": "sha256:d37eba12762d4b22dd4d703d1b01a1929f6f92bfe71fd9fa14cb07fd25045adf",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.extracts.xrt_dProduct_300_100_rt": {
+      "hash": "sha256:98125933e885b2ceaed51a1773a1efcb9b4f19471bc9fd42303796aa747c6060",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.jobs.Date Generator": {
+      "hash": "sha256:490a58260dfdcc41ebef40c44b74f656ecb42a0140058002e6d10cf07acd7d49",
+      "modified": 1784161818872,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.jobs.Nightly": {
+      "hash": "sha256:6fa39a081c3284b554e9c27bc528a88ceaa40d4cfbbc04af4a0f5b8562313036",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.loads.New Cube load": {
+      "hash": "sha256:2cc225e115ca2f20e1c68864cb64092bf88d15e835398b92c160d4e4669b4572",
+      "modified": 1783569105252,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.loads.New Dimension load": {
+      "hash": "sha256:094d97acc34c726c19ba75e028b30010b828ecb6c29f90f07bb32b494b324156",
+      "modified": 1783566511262,
+      "modifiedBy": "yixuan"
+    },
+    "MF-TRAIN-EPM.loads.cl_MonthlySales_400_200": {
+      "hash": "sha256:3c2d487e92bf32c40095e6d358aef7a5b2fca315d9aed80ee20385061e52b53b",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.loads.cl_MonthlySales_Delete_500_200": {
+      "hash": "sha256:6e7bf92faaa7a907725d1fcb89795e476c9cc1f987ac114581b7fa7e90919b15",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.loads.dl_dCurrency_100_300": {
+      "hash": "sha256:4be964f54c06e79ef01808b222c335660802f5be42e995a263d29eb34daf0897",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.loads.dl_dCustomer_200_300": {
+      "hash": "sha256:4de91cd182a6881f839b8a78ffaf2b27cb28fe5ecd1d5697330ffe1f7140e84c",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.loads.dl_dProduct_300_300": {
+      "hash": "sha256:30f59d5bc35c8ea0ce39d39a5605a30d9044ab65b53eb2b8f80b85079c539206",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.loads.load Customer": {
+      "hash": "sha256:44f5919454424b8d237016c666e472fd201368c5c0040be3a27edc6fd7472b9b",
+      "modified": 1783566603421,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.transforms.tfh_dCurrency_100_200_fh": {
+      "hash": "sha256:68c3a61029a85147bbf93341bf4ed33774cefbbd79e46ac783cf0c528fd0c044",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.transforms.tfh_dCustomer_200_200_fh": {
+      "hash": "sha256:a0487d17dc4d0ad135c37f11c26a8096ac20d94a4917346ab90449be1c5578cd",
+      "modified": 1783566373962,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.transforms.tfh_dProduct_300_200_fh": {
+      "hash": "sha256:952061fe8269d946efcabff89a6121148db22cf798504272552224f39d7b9bf0",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.variables.DB": {
+      "hash": "sha256:f470d15b762b844338900698e75f3e6f3c44a0545f8ba17a3f84a24f91ea68a0",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    },
+    "MF-TRAIN-EPM.variables.currentPeriod": {
+      "hash": "sha256:acf9a88af2c52840920a57d022eeecb4f64b9c25cb80ea6eccf16df7a1086951",
+      "modified": 1782781661411,
+      "modifiedBy": "chris"
+    }
+  },
+  "hash": "sha256:1c18012edcc41cb6338c70e983b5033d30bfd26f18379cfc11fec50b0f95ed8c",
+  "modified": 1784161818872,
+  "modifiedBy": "chris",
+  "project": "MF-TRAIN-EPM",
+  "source": {
+    "at": "2026-08-11T03:15:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

@@ -1,0 +1,21 @@
+{
+  "-name": "cLogs_100_015_ExclTemp_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230730: Changed source from cIntegratorLogs_100_010_FormatIntegrator_ft to cIntegratorLogs_100_010_FormatIntegratorAll_ft\n20230728: Introduced to make sure that the background jobs are not included."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "fx_Project",
+      "-operator": "like",
+      "-type": "deny",
+      "-value": "#Temporary_"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_010_FormatIntegratorAll_ft"
+    }
+  }
+}

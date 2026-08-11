@@ -1,0 +1,138 @@
+{
+  "-name": "dMachineComp_556_030_AllMachines_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dMachineComp_556_020_InclComp_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Namespace",
+          "-type": "string"
+        },
+        {
+          "-name": "Domain Name",
+          "-type": "string"
+        },
+        {
+          "-name": "SFTP",
+          "-type": "string"
+        },
+        {
+          "-name": "Log URI",
+          "-type": "string"
+        },
+        {
+          "-name": "Login Link",
+          "-type": "string"
+        },
+        {
+          "-name": "Max Backup Time",
+          "-type": "string"
+        },
+        {
+          "-name": "Public IP",
+          "-type": "string"
+        },
+        {
+          "-name": "Region",
+          "-type": "string"
+        },
+        {
+          "-name": "Machine Type",
+          "-type": "string"
+        },
+        {
+          "-name": "Supported",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Machines"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Company"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Namespace",
+                "input": {
+                  "-nameref": "NAMESPACE"
+                }
+              },
+              {
+                "-name": "Domain Name",
+                "input": {
+                  "-nameref": "DOMAIN_NAME"
+                }
+              },
+              {
+                "-name": "SFTP",
+                "input": {
+                  "-nameref": "HAS_SFTP"
+                }
+              },
+              {
+                "-name": "Log URI",
+                "input": {
+                  "-nameref": "LOG_URI"
+                }
+              },
+              {
+                "-name": "Login Link",
+                "input": {
+                  "-nameref": "LOGIN_LINK"
+                }
+              },
+              {
+                "-name": "Max Backup Time",
+                "input": {
+                  "-nameref": "MAX_BACKUP_TIME"
+                }
+              },
+              {
+                "-name": "Public IP",
+                "input": {
+                  "-nameref": "PUBLIC_IP"
+                }
+              },
+              {
+                "-name": "Region",
+                "input": {
+                  "-nameref": "REGION"
+                }
+              },
+              {
+                "-name": "Machine Type",
+                "input": {
+                  "-nameref": "TYPE"
+                }
+              },
+              {
+                "-name": "Supported",
+                "input": {
+                  "-nameref": "SUPPORT_ON"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "NAMESPACE"
+          }
+        }
+      ]
+    }
+  }
+}

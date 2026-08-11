@@ -2,78 +2,78 @@
   "components": {
     "cm-test-new -3.connections.New CSV Connection (5)": {
       "hash": "sha256:651b1da0f304acb9bf55c6ec132d422101fc0e9f1f4946751cc54a4c94832655",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.connections.New CSV Connection (6)": {
       "hash": "sha256:81195d534d808260c5b2d890f103e9d1fa55460d7dd92514ff2302fa725680d7",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.connections.New CSV Connection (7)": {
       "hash": "sha256:b5078ccbe5e5822e9214e7e963d520b632efacb0632ad6a17b870598331476e1",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.connections.New CSV Connection (7) (2)": {
       "hash": "sha256:0ed53e538c282df2744112257a585dcd489565983db94e089a949a8740b13314",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.connections.New CSV connection": {
       "hash": "sha256:136f72e94b9968b33047b38ffc2be7d9ccdac462e1745da3be47b3a09d2dc51d",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.connections.New CSV connection (2)": {
       "hash": "sha256:a6c232ca32b41ff3fd86b40a2dcd36c4f179c821d2cf802e14614af3d82beffd",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.connections.New CSV connection (3)": {
       "hash": "sha256:40956930cdad7885e1f47e7e32c0313d263874bba81ad0b2cc4ded7f783984ac",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.connections.New CSV connection (4)": {
       "hash": "sha256:eace59579bd1ae1f9b77bd95dcd3ad63296a94e0ae8b28b39a53a56076de6455",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.jobs.New Groovy job": {
       "hash": "sha256:8e4a23cd352936c13a35d1f74f6dd06d17d68397692e5998948aac248750239e",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.variables.New variable": {
       "hash": "sha256:fdc61ce595b456eebf944ed23fa8ce7760dfe7cf303f13b74a2624a15bbf38c9",
-      "modified": 1786232746761,
-      "modifiedBy": "admin"
+      "modified": 1786232859136,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.variables.newVar": {
       "hash": "sha256:f05b0f81944f857f9dee1bfd44a2f0ece2bd1bb19fd8c21ac84755564010c5dd",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.variables.newVar (2)": {
       "hash": "sha256:5a2509109846f7a0fcd8dc23ac156d717b79e7444f86b10b91ff64071ee6a384",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     },
     "cm-test-new -3.variables.newVar2": {
       "hash": "sha256:4cfc91d7e77e4e86103c9216a8ca8ae28ed16a911185714ab95487cc0fc1217c",
-      "modified": 1786164158726,
-      "modifiedBy": "admin"
+      "modified": 1786231598968,
+      "modifiedBy": "chris"
     }
   },
   "hash": "sha256:81ee0deffbf06963aba62ad01bcf1bdadf1722a4fc76b58d5766ee87602ac6ba",
-  "modified": 1786232746761,
-  "modifiedBy": "admin",
+  "modified": 1786232859136,
+  "modifiedBy": "chris",
   "project": "cm-test-new -3",
   "source": {
-    "at": "2026-08-08T23:45:55Z",
-    "env": "dev",
-    "host": "https://test-thinkerbell.cloud.jedox.com/"
+    "at": "2026-08-11T03:15:45Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
   },
   "version": "26.1"
 }

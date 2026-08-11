@@ -1,0 +1,40 @@
+{
+  "-name": "rSpreadsheetComp_004_000_Rules_ct",
+  "-type": "ConstantTable",
+  "data": {
+    "header": {
+      "value": [
+        "Definition",
+        "Comment",
+        "External ID",
+        "Timestamp"
+      ]
+    },
+    "row": [
+      {
+        "value": [
+          "['Measure (Spreadsheet)':'Web Report Hits per day'] = ['Measure (Spreadsheet)':'Web Report Hits'] / 'Machines ${vCompany}'['Jedox Version':'All Jedox Versions', 'Measure (Machines)':'Active']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Spreadsheet)':'Spreadsheet Warning Logs per day'] = ['Measure (Spreadsheet)':'Spreadsheet Warning Logs'] / 'Machines ${vCompany}'['Jedox Version':'All Jedox Versions', 'Measure (Machines)':'Active']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Spreadsheet)':'Spreadsheet Error Logs per day'] = ['Measure (Spreadsheet)':'Spreadsheet Error Logs'] / 'Machines ${vCompany}'['Jedox Version':'All Jedox Versions', 'Measure (Machines)':'Active']",
+          {},
+          {},
+          {}
+        ]
+      }
+    ]
+  }
+}

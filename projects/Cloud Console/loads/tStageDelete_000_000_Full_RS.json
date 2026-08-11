@@ -1,0 +1,13 @@
+{
+  "-name": "tStageDelete_000_000_Full_RS",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Delete table on stage"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "tStageDelete_000_000_Full_RS.query.sql"
+  }
+}

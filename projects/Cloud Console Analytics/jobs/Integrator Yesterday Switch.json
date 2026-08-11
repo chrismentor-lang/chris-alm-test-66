@@ -1,0 +1,27 @@
+{
+  "-name": "Integrator Yesterday Switch",
+  "-type": "Switch",
+  "comment": {
+    "#cdata-section": "20231204: Introduced job to make sure that Integrator Yesterday runs again in case it ends with warnings."
+  },
+  "switchOn": {
+    "-scope": "local",
+    "execution": {
+      "-nameref": "Integrator Yesterday",
+      "-type": "job"
+    }
+  },
+  "switchs": {
+    "switch": {
+      "condition": {
+        "-operator": "equal",
+        "-type": "accept",
+        "-value": "statusWarnings"
+      },
+      "execution": {
+        "-nameref": "Integrator Yesterday",
+        "-type": "job"
+      }
+    }
+  }
+}

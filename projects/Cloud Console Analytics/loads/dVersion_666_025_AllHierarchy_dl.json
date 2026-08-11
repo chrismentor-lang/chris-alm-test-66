@@ -1,0 +1,23 @@
+{
+  "-name": "dVersion_666_025_AllHierarchy_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Jedox Version",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dVersion_666_015_AllVersions_fh"
+  }
+}

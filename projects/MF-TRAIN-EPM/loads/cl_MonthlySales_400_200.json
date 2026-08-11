@@ -1,0 +1,60 @@
+{
+  "-name": "cl_MonthlySales_400_200",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Load Actuals into Sales Monthly cube",
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Monthly Sales",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "VERSION",
+          "-name": "Version"
+        },
+        {
+          "-input": "CURRENCY",
+          "-name": "Currency"
+        },
+        {
+          "-input": "MONTH",
+          "-name": "Month"
+        },
+        {
+          "-input": "PRODUCT",
+          "-name": "Product"
+        },
+        {
+          "-input": "CUSTOMER",
+          "-name": "Customer"
+        },
+        {
+          "-input": "TRANSACTIONID"
+        },
+        {
+          "-input": "TRANSACTIONDATE"
+        },
+        {
+          "-input": "TRANSACTIONTYPE"
+        },
+        {
+          "-input": "MEASURE_SALES",
+          "-name": "Measure_Sales"
+        }
+      ]
+    },
+    "drillthrough": {
+      "-directextract": "xrt_cMonthlySales_400_100_rt",
+      "-drilltype": "direct"
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xrt_cMonthlySales_400_100_rt"
+  }
+}

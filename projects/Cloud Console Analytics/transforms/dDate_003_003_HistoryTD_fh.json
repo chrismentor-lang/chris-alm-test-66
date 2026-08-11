@@ -1,0 +1,61 @@
+{
+  "-name": "dDate_003_003_HistoryTD_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20230727: Replaced ${vFrom} with ${vTo} to make sure that we could load today's machine data."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dDate_003_002_HistoryTD_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "PreviousDay",
+          "-type": "string"
+        },
+        {
+          "-name": "PreviousDayTD",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Dates_TD"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "PreviousDayTD",
+              "input": {
+                "-nameref": "fx_PreviousDayTDPost"
+              }
+            }
+          },
+          "input": {
+            "-constant": "${vTo}_TD"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "PreviousDay",
+              "input": {
+                "-nameref": "fx_PreviousDay"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "fx_DateIncl"
+          }
+        }
+      ]
+    }
+  }
+}

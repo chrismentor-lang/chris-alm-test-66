@@ -1,0 +1,7 @@
+{
+  "-name": "DB",
+  "comment": {
+    "#cdata-section": "Database used for demo"
+  },
+  "default": "MF-DEMO"
+}

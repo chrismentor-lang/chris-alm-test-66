@@ -1,0 +1,121 @@
+{
+  "-name": "fLog_000_020_SplitReplace_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_Time",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "Time (UTC),Level,Service,Log"
+          }
+        },
+        "parameters": {
+          "occurence": "1",
+          "separator": ","
+        }
+      },
+      {
+        "-name": "fx_Level",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "Time (UTC),Level,Service,Log"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": ","
+        }
+      },
+      {
+        "-name": "fx_Service",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "Time (UTC),Level,Service,Log"
+          }
+        },
+        "parameters": {
+          "occurence": "3",
+          "separator": ","
+        }
+      },
+      {
+        "-name": "fx_Log",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "Time (UTC),Level,Service,Log"
+          }
+        },
+        "parameters": {
+          "occurence": "4",
+          "separator": ","
+        }
+      },
+      {
+        "-name": "fx_LogSub",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "LOG",
+            "-nameref": "fx_Log",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fLog_000_020_SplitReplace_ft.functions.function.5.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "fLog_000_010_Full_fe"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-constant": "${vMachineID}"
+          }
+        },
+        {
+          "-name": "Time",
+          "input": {
+            "-nameref": "fx_Time"
+          }
+        },
+        {
+          "-name": "Level",
+          "input": {
+            "-nameref": "fx_Level"
+          }
+        },
+        {
+          "-name": "Service",
+          "input": {
+            "-nameref": "fx_Service"
+          }
+        },
+        {
+          "-name": "Log",
+          "input": {
+            "-nameref": "fx_LogSub"
+          }
+        }
+      ]
+    }
+  }
+}

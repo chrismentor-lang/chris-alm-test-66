@@ -1,0 +1,52 @@
+{
+  "-name": "MachinesInfoToSnowflake",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This needs the zip step!"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "RetrieveMachinesList",
+        "-type": "job"
+      },
+      {
+        "-nameref": "RetrieveMachinesInfo",
+        "-type": "job"
+      },
+      {
+        "-nameref": "jCompressFiles_000_000_Full_groovy",
+        "-type": "job"
+      },
+      {
+        "-nameref": "tStageDelete_000_000_Full_RS",
+        "-type": "load"
+      },
+      {
+        "-nameref": "tStageUpload_000_000_Full_RS",
+        "-type": "load"
+      },
+      {
+        "-nameref": "tInsertMachinesIntoTable_000_000_Increment_RS",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vSchema",
+        "default": "PUBLIC"
+      },
+      {
+        "-name": "vStage",
+        "default": "PUBLIC.JEDOX_STAGE"
+      },
+      {
+        "-name": "vTableSnowflake",
+        "default": "machines"
+      }
+    ]
+  }
+}

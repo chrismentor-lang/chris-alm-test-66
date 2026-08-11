@@ -1,0 +1,13 @@
+{
+  "-name": "tCopyIntoTable_000_000_Full_RS",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Copy transactions into table"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "tCopyIntoTable_000_000_Full_RS.query.sql"
+  }
+}

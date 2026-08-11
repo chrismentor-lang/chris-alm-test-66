@@ -1,0 +1,137 @@
+{
+  "-name": "tfh_dCustomer_200_200_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Structure elements and attributes for loading into Customer dimension"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xrt_dCustomer_200_100_rt"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "City",
+          "-type": "string"
+        },
+        {
+          "-name": "Region",
+          "-type": "string"
+        },
+        {
+          "-name": "Country",
+          "-type": "string"
+        },
+        {
+          "-name": "Type",
+          "-type": "string"
+        },
+        {
+          "-name": "CodeName",
+          "-type": "string"
+        },
+        {
+          "-name": "Currency",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Customers"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "REGION"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Currency",
+              "input": {
+                "-nameref": "CURRENCY"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "COUNTRY"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Currency",
+              "input": {
+                "-nameref": "CURRENCY"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "CITY"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "CodeName",
+                "input": {
+                  "-nameref": "CODENAME"
+                }
+              },
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "CUSTOMERNAME"
+                }
+              },
+              {
+                "-name": "City",
+                "input": {
+                  "-nameref": "CITY"
+                }
+              },
+              {
+                "-name": "Region",
+                "input": {
+                  "-nameref": "REGION"
+                }
+              },
+              {
+                "-name": "Country",
+                "input": {
+                  "-nameref": "COUNTRY"
+                }
+              },
+              {
+                "-name": "Type",
+                "input": {
+                  "-nameref": "CUSTOMERTYPE"
+                }
+              },
+              {
+                "-name": "Currency",
+                "input": {
+                  "-nameref": "CURRENCY"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "CUSTOMERID"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "-name": "cSpreadsheetLogs_000_015_InclComp_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "fx_Company",
+      "-operator": "equal",
+      "-type": "accept",
+      "-value": "${vCompany}"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_010_Format_ft"
+    }
+  }
+}

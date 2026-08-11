@@ -1,0 +1,32 @@
+{
+  "-name": "Build Finance Dimensions",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "Build all finance dimensions"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dl_BSAccount_110_300",
+        "-parallel": "true",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_CFAccount_120_300",
+        "-parallel": "true",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_PLAccount_100_300",
+        "-parallel": "true",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dl_CostCentre_200_300",
+        "-parallel": "true",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

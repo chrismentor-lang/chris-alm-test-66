@@ -1,0 +1,112 @@
+{
+  "-name": "rIntegratorComp_001_000_Rules_ct",
+  "-type": "ConstantTable",
+  "data": {
+    "header": {
+      "value": [
+        "Definition",
+        "Comment",
+        "External ID",
+        "Timestamp"
+      ]
+    },
+    "row": [
+      {
+        "value": [
+          "['Measure (Integrator)':'Execution duration per job'] = ['Measure (Integrator)':'Execution duration'] / ['Measure (Integrator)':'Executions completed']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Jobs initiated per day'] = ['Measure (Integrator)':'Jobs initiated'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Loads initiated per day'] = ['Measure (Integrator)':'Loads initiated'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Integrator Warning Logs per day'] = ['Measure (Integrator)':'Integrator Warning Logs'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Integrator Error Logs per day'] = ['Measure (Integrator)':'Integrator Error Logs'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Records Loaded to Cube per day'] = ['Measure (Integrator)':'Records Loaded to Cube'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Executions completed with warnings per day'] = ['Measure (Integrator)':'Executions completed with warnings'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Executions completed successfully per day'] = ['Measure (Integrator)':'Executions completed successfully'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Executions completed with errors per day'] = ['Measure (Integrator)':'Executions completed with errors'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Executions failed per day'] = ['Measure (Integrator)':'Executions failed'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Executions invalid per day'] = ['Measure (Integrator)':'Executions invalid'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      },
+      {
+        "value": [
+          "['Measure (Integrator)':'Executions completed per day'] = ['Measure (Integrator)':'Executions completed'] / 'Machines ${vCompany}'['Measure (Machines)':'Active', 'Jedox Version':'All Jedox Versions']",
+          {},
+          {},
+          {}
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "-name": "In-Memory Company Cubes",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dMeasureInMemory_100_151_ErrorHierarchy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Machine Company Dimensions Hierarchies",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Database Company Dimensions Hierarchies",
+        "-type": "job"
+      },
+      {
+        "-nameref": "cLogsComp_002_010_DeleteDay_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cInMemoryComp_100_140_InMemoryOther_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cInMemoryComp_100_061_InMemoryErrorCodes_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

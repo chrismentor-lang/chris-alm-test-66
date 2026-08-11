@@ -1,0 +1,68 @@
+{
+  "-name": "xrt_dBSAccount_110_100_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract the Account View"
+  },
+  "connection": {
+    "-nameref": "Minerva Demo"
+  },
+  "filters": {
+    "filter": {
+      "-name": "STATEMENT",
+      "condition": {
+        "-operator": "Equals",
+        "-value": "BS"
+      }
+    }
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "PARENT"
+      },
+      {
+        "-input": "CHILD"
+      },
+      {
+        "-input": "WEIGHT"
+      },
+      {
+        "-input": "DESCRIPTION"
+      },
+      {
+        "-input": "LONG_NAME"
+      },
+      {
+        "-input": "ELEMENT_TYPE"
+      },
+      {
+        "-input": "ACCOUNT_CLASS"
+      },
+      {
+        "-input": "STATEMENT"
+      },
+      {
+        "-input": "CASH_FLAG"
+      },
+      {
+        "-input": "NORMAL_BALANCE"
+      },
+      {
+        "-input": "SALES_LINK"
+      },
+      {
+        "-input": "DATA_SOURCE"
+      },
+      {
+        "-input": "SORT_ORDER"
+      }
+    ]
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_ACCOUNT",
+    "-schema": "JEDOX_DIMS"
+  }
+}

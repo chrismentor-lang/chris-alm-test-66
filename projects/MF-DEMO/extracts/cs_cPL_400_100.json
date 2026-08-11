@@ -1,0 +1,25 @@
+{
+  "-name": "cs_cPL_400_100",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "clear Actuals"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "query": {
+    "-mode": "generateRoots",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Profit and Loss"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "${Version}",
+        "-dimension": "Version",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

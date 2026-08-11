@@ -1,0 +1,25 @@
+{
+  "-name": "LoadToSnowflakeLogInsert",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "jCompressFiles_000_000_Full_groovy",
+        "-type": "job"
+      },
+      {
+        "-nameref": "tStageDelete_000_000_Full_RS",
+        "-type": "load"
+      },
+      {
+        "-nameref": "tStageUpload_000_000_Full_RS",
+        "-type": "load"
+      },
+      {
+        "-nameref": "tInsertLogsIntoTable_000_000_Increment_RS",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

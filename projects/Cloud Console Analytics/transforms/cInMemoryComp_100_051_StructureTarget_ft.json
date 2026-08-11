@@ -1,0 +1,46 @@
+{
+  "-name": "cInMemoryComp_100_051_StructureTarget_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryComp_100_041_NormErrorCodes_tn"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "Machine ${vCompany}"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Minutes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Database ${vCompany}"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Measure (In-Memory)"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "#Value"
+          }
+        }
+      ]
+    }
+  }
+}

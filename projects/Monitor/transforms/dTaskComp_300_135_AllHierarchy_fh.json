@@ -1,0 +1,68 @@
+{
+  "-name": "dTaskComp_300_135_AllHierarchy_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dTaskComp_300_125_InclComp_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Project",
+          "-type": "string"
+        },
+        {
+          "-name": "Job",
+          "-type": "string"
+        },
+        {
+          "-name": "User",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All scheduler tasks"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Project",
+                "input": {
+                  "-nameref": "fx_Project"
+                }
+              },
+              {
+                "-name": "Job",
+                "input": {
+                  "-nameref": "fx_Job"
+                }
+              },
+              {
+                "-name": "User",
+                "input": {
+                  "-nameref": "fx_User"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "fx_TaskMachine"
+          }
+        }
+      ]
+    }
+  }
+}

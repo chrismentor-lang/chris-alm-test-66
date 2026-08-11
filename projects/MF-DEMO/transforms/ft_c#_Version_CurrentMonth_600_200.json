@@ -1,0 +1,210 @@
+{
+  "-name": "ft_c#_Version_CurrentMonth_600_200",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "Actual Current Period",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "cy",
+            "-constant": "${Current Period}",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "ft_c#_Version_CurrentMonth_600_200.functions.function.1.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "Actual Previous Month",
+        "-type": "OlapData",
+        "inputs": {
+          "input": [
+            {
+              "-constant": "Previous"
+            },
+            {
+              "-constant": "${Current Period}"
+            }
+          ]
+        },
+        "parameters": {
+          "connection": "Jedox",
+          "cube": "#_Month"
+        }
+      },
+      {
+        "-name": "Actual FY",
+        "-type": "OlapData",
+        "inputs": {
+          "input": [
+            {
+              "-constant": "Financial Year"
+            },
+            {
+              "-nameref": "Actual Previous Month"
+            }
+          ]
+        },
+        "parameters": {
+          "connection": "Jedox",
+          "cube": "#_Month"
+        }
+      },
+      {
+        "-name": "Budget FY",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "Actual",
+            "-nameref": "Actual FY",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "ft_c#_Version_CurrentMonth_600_200.functions.function.4.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "Forecast FY",
+        "-type": "OlapData",
+        "inputs": {
+          "input": [
+            {
+              "-constant": "Next"
+            },
+            {
+              "-nameref": "Budget FY"
+            }
+          ]
+        },
+        "parameters": {
+          "connection": "Jedox",
+          "cube": "#_Month"
+        }
+      },
+      {
+        "-name": "Actual Previous Year",
+        "-type": "OlapData",
+        "inputs": {
+          "input": [
+            {
+              "-constant": "Previous"
+            },
+            {
+              "-nameref": "Actual FY"
+            }
+          ]
+        },
+        "parameters": {
+          "connection": "Jedox",
+          "cube": "#_Month"
+        }
+      },
+      {
+        "-name": "Financial Year",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "Version",
+              "-type": "String"
+            },
+            {
+              "-alias": "act",
+              "-nameref": "Actual FY",
+              "-type": "String"
+            },
+            {
+              "-alias": "bud",
+              "-nameref": "Budget FY",
+              "-type": "String"
+            },
+            {
+              "-alias": "fst",
+              "-nameref": "Forecast FY",
+              "-type": "String"
+            },
+            {
+              "-alias": "py",
+              "-nameref": "Actual Previous Year",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "ft_c#_Version_CurrentMonth_600_200.functions.function.7.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "Current Period",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "Version",
+              "-type": "String"
+            },
+            {
+              "-alias": "act",
+              "-nameref": "Actual Current Period",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "ft_c#_Version_CurrentMonth_600_200.functions.function.8.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "ct_Version"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Financial Year"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Current Period"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "-name": "ft_dCustomer_Plan_700_200",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Get prior rolling 12 months Net Sales value"
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "Net Sales",
+        "-type": "OlapData",
+        "inputs": {
+          "input": [
+            {
+              "-constant": "Actual"
+            },
+            {
+              "-constant": "AUD"
+            },
+            {
+              "-constant": "${RollingMonth}"
+            },
+            {
+              "-constant": "All Products"
+            },
+            {
+              "-nameref": ":element"
+            },
+            {
+              "-constant": "Net Sales"
+            }
+          ]
+        },
+        "parameters": {
+          "connection": "Jedox",
+          "cube": "Monthly Sales"
+        }
+      },
+      {
+        "-name": "Net Sales Formatted",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "value",
+            "-nameref": "Net Sales",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "ft_dCustomer_Plan_700_200.functions.function.2.parameters.script.groovy"
+          },
+          "type": "double"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-format": "ea",
+      "-nameref": "dCustomer_Plan_700_100"
+    }
+  }
+}

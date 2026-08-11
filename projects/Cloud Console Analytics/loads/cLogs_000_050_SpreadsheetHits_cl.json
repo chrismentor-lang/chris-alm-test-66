@@ -1,0 +1,40 @@
+{
+  "-name": "cLogs_000_050_SpreadsheetHits_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Logs",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Machine",
+          "-name": "Machine"
+        },
+        {
+          "-input": "Date",
+          "-name": "Date"
+        },
+        {
+          "-input": "Measure (Logs)",
+          "-name": "Measure (Logs)"
+        }
+      ]
+    },
+    "measureDimension": {
+      "-name": "Measure (Logs)"
+    },
+    "timeDimension": {
+      "-name": "Date"
+    }
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "cLogs_000_040_NormSpreadsheetHits_tn"
+  }
+}

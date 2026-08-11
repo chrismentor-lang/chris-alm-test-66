@@ -1,0 +1,37 @@
+{
+  "-name": "Logs Cube",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cLogs_001_010_DeleteDay_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cLogs_000_030_SpreadsheetMessages_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cLogs_000_050_SpreadsheetHits_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cLogs_100_030_InMemoryOther_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cLogs_100_050_InMemoryErrorCodes_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cLogs_100_030_Integrator_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cLogs_300_030_Scheduler_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,32 @@
+{
+  "-name": "Reload - Finance (Actual and Plans)",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "Build Finance model dimensions and reload data"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Build Finance Dimensions",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Build Cubes (Actual)",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Build Cubes (Budget)",
+        "-parallel": "false",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Build Cubes (Forecast)",
+        "-parallel": "false",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

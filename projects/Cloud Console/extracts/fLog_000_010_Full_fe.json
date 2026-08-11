@@ -1,0 +1,7 @@
+{
+  "-name": "fLog_000_010_Full_fe",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "fLog_000_000_Raw_fc"
+  }
+}

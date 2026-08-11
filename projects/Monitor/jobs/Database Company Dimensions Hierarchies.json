@@ -1,0 +1,11 @@
+{
+  "-name": "Database Company Dimensions Hierarchies",
+  "-type": "Standard",
+  "executions": {
+    "execution": {
+      "-nameref": "dDatabaseComp_666_035_AllHierarchy_dl",
+      "-type": "load"
+    }
+  },
+  "failStatus": "inherit"
+}

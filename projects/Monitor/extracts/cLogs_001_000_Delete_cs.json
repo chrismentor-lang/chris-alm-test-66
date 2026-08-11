@@ -1,0 +1,39 @@
+{
+  "-name": "cLogs_001_000_Delete_cs",
+  "-type": "CubeSlice",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Logs"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "${vYear}",
+          "-dimension": "Year",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "${vMonth}",
+          "-dimension": "Month",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "${vDay}",
+          "-dimension": "Day",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "-name": "MF-TRAIN-EPM",
+  "-version": "26.1",
+  "headers": {
+    "header": {
+      "-name": "comment",
+      "comment": {
+        "#cdata-section": "This project takes clean and loaded data from the Snowflake DBO schema and loads the data directly into Jedox. Processes should be mainly simple as most transformations have happened at the Snowflake level. \n\nThe data model based on Food Manufacturing data for a fictitious company called Minerva Foods.\n\nThe dataset consists of sales, production and finance data. It is for training purposes only.\n\nCreated by: Chris Mentor, Minerva Partners\nCreated on: 20 May, 2026"
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+### rule
+{"active":true,"comment":"Gross Sales | Sales Monthly  | Budget, Forecast","position":1}
+['Currency':'AUD', 'Version':{'Budget', 'Forecast'}, 'PL Account':'4001', 'Measure_PL':'Value'] = B:IF(ISERROR('Monthly Sales'['Product':'All Products', 'Customer':'#_Cost Centre'['#_Cost Centre_':'Sales Region'], 'Measure_Sales':'Gross Sales (excl GST)']), null, 'Monthly Sales'['Product':'All Products', 'Customer':'#_Cost Centre'['#_Cost Centre_':'Sales Region'], 'Measure_Sales':'Gross Sales (excl GST)'])
+### rule
+{"active":true,"comment":"Discounts| Sales Monthly  | Budget, Forecast","position":2}
+['Currency':'AUD', 'Version':{'Budget', 'Forecast'}, 'PL Account':'4002', 'Measure_PL':'Value'] = B:
+// Get Discounts from Sales monthly cube
+IF(
+ISERROR('Monthly Sales'['Product':'All Products', 'Customer':'#_Cost Centre'['#_Cost Centre_':'Sales Region'], 'Measure_Sales':'Discount']), null, 'Monthly Sales'['Product':'All Products', 'Customer':'#_Cost Centre'['#_Cost Centre_':'Sales Region'], 'Measure_Sales':'Discount']
+)
+### rule
+{"active":true,"comment":"NPBT / Revenue %","position":3}
+['PL Account':'NPBT / Revenue %'] = ['PL Account':'M_PBT'] / ['PL Account':'M_NETREV']
+### rule
+{"active":true,"comment":"COGS / Revenue %","position":4}
+['PL Account':'COGS / Revenue %'] = ['PL Account':'M_COGS'] / ['PL Account':'M_NETREV']
+### rule
+{"active":true,"comment":"NPAT / Revenue %","position":5}
+['PL Account':'NPAT / Revenue %'] = ['PL Account':'M_NPAT'] / ['PL Account':'M_NETREV']
+### rule
+{"active":true,"comment":"Gross Margin %","position":6}
+['PL Account':'Gross Margin %'] = ['PL Account':'M_GP'] / ['PL Account':'M_NETREV']
+### rule
+{"active":true,"comment":"EBIT / Revenue %","position":7}
+['PL Account':'EBIT / Revenue %'] = ['PL Account':'M_EBIT'] / ['PL Account':'M_NETREV']
+### rule
+{"active":true,"comment":"Operating Expenses / Revenue %","position":8}
+['PL Account':'Operating Expenses / Revenue %'] = ['PL Account':'M_OPEX'] / ['PL Account':'M_NETREV']

@@ -1,0 +1,98 @@
+{
+  "-name": "cSchedulerComp_300_045_NormScheduler_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "true",
+  "sources": {
+    "source": {
+      "-nameref": "cSchedulerComp_300_035_TaskLookup_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine ${vCompany}",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "-name": "Year",
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        },
+        {
+          "-name": "Minutes",
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "-name": "Task ${vCompany}",
+          "input": {
+            "-nameref": "fx_TaskMachine"
+          }
+        },
+        {
+          "-name": "Project ${vCompany}",
+          "input": {
+            "-nameref": "fx_JobMachine"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Scheduler)",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-aggregate": "sum",
+          "-name": "Tasks initiated",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_JobInit"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Tasks finished",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_Finished"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Scheduler Warning Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Scheduler Error Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        }
+      ]
+    }
+  }
+}

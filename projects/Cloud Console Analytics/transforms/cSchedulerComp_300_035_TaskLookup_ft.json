@@ -1,0 +1,108 @@
+{
+  "-name": "cSchedulerComp_300_035_TaskLookup_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_ProjectLookup",
+        "-type": "OlapData",
+        "inputs": {
+          "input": [
+            {
+              "-constant": "Project"
+            },
+            {
+              "-nameref": "fx_TaskMachine"
+            },
+            {
+              "-constant": "~"
+            }
+          ]
+        },
+        "parameters": {
+          "connection": "JedoxGlobal_JedoxCloudConsole",
+          "cube": "#_Task ${vCompany}"
+        }
+      },
+      {
+        "-name": "fx_ProjectMachine",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "MCH",
+              "-nameref": "MACHINE",
+              "-type": "String"
+            },
+            {
+              "-alias": "PLU",
+              "-nameref": "fx_ProjectLookup",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerComp_300_035_TaskLookup_ft.functions.function.2.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_JobLookup",
+        "-type": "OlapData",
+        "inputs": {
+          "input": [
+            {
+              "-constant": "Job"
+            },
+            {
+              "-nameref": "fx_TaskMachine"
+            },
+            {
+              "-constant": "~"
+            }
+          ]
+        },
+        "parameters": {
+          "connection": "JedoxGlobal_JedoxCloudConsole",
+          "cube": "#_Task ${vCompany}"
+        }
+      },
+      {
+        "-name": "fx_JobMachine",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "MCH",
+              "-nameref": "fx_ProjectMachine",
+              "-type": "String"
+            },
+            {
+              "-alias": "JLU",
+              "-nameref": "fx_JobLookup",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSchedulerComp_300_035_TaskLookup_ft.functions.function.4.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSchedulerComp_300_025_InclComp_tv"
+    }
+  }
+}

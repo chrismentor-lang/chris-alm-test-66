@@ -1,0 +1,11 @@
+{
+  "-name": "cSchedulerLogs_300_000_All_re",
+  "-type": "Relational",
+  "cache": "false",
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "cSchedulerLogs_300_000_All_re.query.sql"
+  }
+}

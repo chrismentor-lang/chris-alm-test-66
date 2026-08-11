@@ -1,0 +1,31 @@
+{
+  "-name": "cIntegratorComp_100_045_InclComp_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": [
+      {
+        "-nameref": "fx_Company",
+        "-operator": "equal",
+        "-type": "accept",
+        "-value": "${vCompany}"
+      },
+      {
+        "-nameref": "fx_JobCheck",
+        "-operator": "isNull",
+        "-type": "deny"
+      },
+      {
+        "-nameref": "fx_JobCheck",
+        "-operator": "like",
+        "-type": "deny",
+        "-value": "#Temporary_"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cIntegratorLogs_100_035_CompareRetrieve_ft"
+    }
+  }
+}

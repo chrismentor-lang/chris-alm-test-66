@@ -1,0 +1,14 @@
+{
+  "-name": "rSpreadsheetComp_004_010_Rules_rl",
+  "-type": "Rule",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-name": "Spreadsheet ${vCompany}"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "rSpreadsheetComp_004_000_Rules_ct"
+  }
+}

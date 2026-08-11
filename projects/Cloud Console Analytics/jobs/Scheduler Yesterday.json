@@ -1,0 +1,8 @@
+{
+  "-name": "Scheduler Yesterday",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Scheduler Yesterday.jobscript.groovy"
+  }
+}

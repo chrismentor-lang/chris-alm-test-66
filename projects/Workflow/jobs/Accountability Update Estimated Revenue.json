@@ -1,0 +1,16 @@
+{
+  "-name": "Accountability Update Estimated Revenue",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Kicks of the refresh of the Loop Estimates to Update Estimated Revenue in the Accountability project. That job updates the monthly estimate in the revenue tracker in accountability."
+  },
+  "execution": {
+    "-nameref": "Loop Estimates to Update Estimated Revenue",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Accountability",
+    "-scope": "Global"
+  }
+}

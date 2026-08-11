@@ -1,0 +1,7 @@
+{
+  "-name": "vLimit",
+  "comment": {
+    "#cdata-section": "Format: int"
+  },
+  "default": "10000"
+}

@@ -1,0 +1,27 @@
+{
+  "-name": "cMachinesComp_666_010_Base_ce",
+  "-type": "Cube",
+  "cache": "false",
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "query": {
+    "-celltype": "only_numeric",
+    "-drillthrough": "false",
+    "-onlyBasisAsDefault": "true",
+    "-useRules": "false",
+    "-zeroSuppressionType": "excludeEmptyAndZero",
+    "cube": {
+      "-name": "Machines"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "${vCompany}",
+        "-dimension": "Machine",
+        "-mode": "onlyBases",
+        "-operator": "like",
+        "-type": "accept"
+      }
+    }
+  }
+}

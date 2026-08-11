@@ -1,0 +1,49 @@
+{
+  "-name": "dDate_003_020_Yesterday_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dDate_003_010_DeterHierarchy_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Weekday",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Dates"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Weekday",
+              "input": {
+                "-nameref": "fx_Weekday"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "vFrom"
+          }
+        }
+      ]
+    }
+  }
+}

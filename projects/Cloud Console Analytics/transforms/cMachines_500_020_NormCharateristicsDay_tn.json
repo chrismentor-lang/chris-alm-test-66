@@ -1,0 +1,85 @@
+{
+  "-name": "cMachines_500_020_NormCharateristicsDay_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "CHANGED"
+  },
+  "ignoreEmpty": "false",
+  "sources": {
+    "source": {
+      "-nameref": "cMachines_500_010_DetDetailsDay_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-nameref": "NAMESPACE"
+          }
+        },
+        {
+          "-name": "Date",
+          "input": {
+            "-nameref": "fx_Date"
+          }
+        },
+        {
+          "-name": "Jedox Version",
+          "input": {
+            "-nameref": "fx_VersionPack"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Machines)",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-aggregate": "max",
+          "-name": "Active",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_Active"
+          }
+        },
+        {
+          "-aggregate": "max",
+          "-name": "Not Active",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_NotActive"
+          }
+        },
+        {
+          "-aggregate": "max",
+          "-name": "Supported",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_Support"
+          }
+        },
+        {
+          "-aggregate": "max",
+          "-name": "SFTP",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_SFTP"
+          }
+        },
+        {
+          "-aggregate": "max",
+          "-name": "Max Backup Time",
+          "-type": "integer",
+          "input": {
+            "-nameref": "MAX_BACKUP_TIME"
+          }
+        }
+      ]
+    }
+  }
+}

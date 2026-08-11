@@ -1,0 +1,13 @@
+{
+  "-name": "tStageUpload_000_000_Full_RS (2)",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "put file://./webapps/etlserver/data/files/customer_logs/${vTableSnowflake}.csv.gz @${vStage};"
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "tStageUpload_000_000_Full_RS (2).query.sql"
+  }
+}

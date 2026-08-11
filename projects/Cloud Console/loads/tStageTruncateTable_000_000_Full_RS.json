@@ -1,0 +1,10 @@
+{
+  "-name": "tStageTruncateTable_000_000_Full_RS",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "tStageTruncateTable_000_000_Full_RS.query.sql"
+  }
+}

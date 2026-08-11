@@ -1,0 +1,120 @@
+{
+  "-name": "cLogs_100_020_NormInMemoryOther_tn",
+  "-type": "TableNormalization",
+  "cache": "false",
+  "ignoreEmpty": "true",
+  "sources": {
+    "source": {
+      "-nameref": "cInMemoryLogs_100_010_FormatErrorCodes_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Machine",
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "-name": "Year",
+          "input": {
+            "-nameref": "fx_Year"
+          }
+        },
+        {
+          "-name": "Month",
+          "input": {
+            "-nameref": "fx_Month"
+          }
+        },
+        {
+          "-name": "Day",
+          "input": {
+            "-nameref": "fx_Day"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "-normalize": "Measure (Logs)",
+      "-valuename": "#Value",
+      "measure": [
+        {
+          "-aggregate": "sum",
+          "-name": "In-Memory Warning Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_WarningLogs"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "In-Memory Error Logs",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_ErrorLogs"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Excel Add-In needs update",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_ExcelAddIn"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Corrupted HTTP request",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_CorruptRequest"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "No HTTP request handler",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_NoHandler"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Cannot convert marker",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_MarkerConversion"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "User Login",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_Login"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "User Logout",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_Logout"
+          }
+        },
+        {
+          "-aggregate": "sum",
+          "-name": "Database Delayed Loading",
+          "-type": "integer",
+          "input": {
+            "-nameref": "fx_DelayLoading"
+          }
+        }
+      ]
+    }
+  }
+}

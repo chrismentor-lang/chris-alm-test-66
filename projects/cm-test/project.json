@@ -1,0 +1,12 @@
+{
+  "-name": "cm-test",
+  "-version": "26.1",
+  "headers": {
+    "header": {
+      "-name": "comment",
+      "comment": {
+        "#cdata-section": "test. safe to delete.\n\nNew description in the project header"
+      }
+    }
+  }
+}

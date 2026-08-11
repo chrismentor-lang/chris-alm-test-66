@@ -1,0 +1,21 @@
+{
+  "-name": "cMachineComp_666_030_All_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "20240208: Changed Mode from update to create to make sure that new cubes are created as well. No rules so should be no issue."
+  },
+  "connection": {
+    "-nameref": "JedoxGlobal_JedoxCloudConsole"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Machines ${vCompany}",
+    "-splash": "disabled"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "cMachinesComp_666_020_StructureTarget_ft"
+  }
+}

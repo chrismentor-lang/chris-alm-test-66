@@ -1,0 +1,11 @@
+SELECT 
+MACHINE,
+LEFT(TIME_UTC,19) as TIME_UTC,
+LEFT(TIME_LOCAL,19) as TIME_LOCAL,
+LEVEL,
+SERVICE,
+LOG 
+FROM JEDOX.LOGS.VW_INTEGRATOR
+WHERE TIME_LOCAL > DATEADD(day, -1, '${vFrom}') AND TIME_LOCAL < '${vTo}'
+AND LOG like '%Starting execution of job%'
+AND MACHINE like'%-${vCompany}%'

@@ -1,0 +1,21 @@
+{
+  "-name": "dDay_222_000_AllDays_ce",
+  "-type": "Calendar",
+  "levels": {
+    "level": [
+      {
+        "-type": "root",
+        "pattern": "'All Days'"
+      },
+      {
+        "-type": "days",
+        "end": "31",
+        "pattern": "dd",
+        "start": "0"
+      }
+    ]
+  },
+  "options": {
+    "language": "en"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "-name": "New Constant table extract",
+  "-type": "ConstantTable",
+  "comment": "a constant table",
+  "data": {
+    "header": {
+      "value": [
+        "Column1",
+        "Column2"
+      ]
+    },
+    "row": {
+      "value": [
+        "tt",
+        {}
+      ]
+    }
+  }
+}

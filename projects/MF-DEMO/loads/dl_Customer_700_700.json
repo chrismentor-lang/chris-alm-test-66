@@ -1,0 +1,26 @@
+{
+  "-name": "dl_Customer_700_700",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "Load alternative Customer (Plan) hierarchy"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Customer",
+    "attributes": {
+      "-mode": "inactive"
+    },
+    "consolidations": {
+      "-mode": "update"
+    },
+    "elements": {
+      "-mode": "update"
+    }
+  },
+  "source": {
+    "-nameref": "tfh_dCustomer_200_200_fh"
+  }
+}

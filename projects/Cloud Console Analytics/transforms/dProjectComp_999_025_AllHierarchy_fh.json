@@ -1,0 +1,102 @@
+{
+  "-name": "dProjectComp_999_025_AllHierarchy_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20230730: Added the Machine attribute for both the project level as well as the object level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dProjectComp_999_015_InclComp_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Type",
+          "-type": "string"
+        },
+        {
+          "-name": "Machine",
+          "-type": "string"
+        },
+        {
+          "-name": "Project",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All projects"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MACHINE"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "fx_ProjectName"
+                }
+              },
+              {
+                "-name": "Machine",
+                "input": {
+                  "-nameref": "MACHINE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "fx_Project"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "fx_ObjectName"
+                }
+              },
+              {
+                "-name": "Type",
+                "input": {
+                  "-nameref": "fx_ObjectType"
+                }
+              },
+              {
+                "-name": "Machine",
+                "input": {
+                  "-nameref": "MACHINE"
+                }
+              },
+              {
+                "-name": "Project",
+                "input": {
+                  "-nameref": "fx_ProjectName"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "fx_Object"
+          }
+        }
+      ]
+    }
+  }
+}

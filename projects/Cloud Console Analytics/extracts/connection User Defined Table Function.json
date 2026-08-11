@@ -1,0 +1,39 @@
+{
+  "-name": "connection User Defined Table Function",
+  "-type": "Relational",
+  "alias_map": {
+    "alias": [
+      {
+        "-origin": "MACHINE"
+      },
+      {
+        "-origin": "TIME_UTC"
+      },
+      {
+        "-origin": "TIME_LOCAL"
+      },
+      {
+        "-origin": "LEVEL"
+      },
+      {
+        "-origin": "SERVICE"
+      },
+      {
+        "-origin": "LOG"
+      },
+      {
+        "-origin": "REPLICATION_DATETIME"
+      }
+    ]
+  },
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Package ETL and run it."
+  },
+  "connection": {
+    "-nameref": "Snowflake"
+  },
+  "query": {
+    "#file": "connection User Defined Table Function.query.sql"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "-name": "Date Generator",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "++++DATE DIMENSION GENERATOR +++ \nDeveloped by Minerva Partners\nThis script generates a date dimension, complete with attributes, YTD and YTG consolidations."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Date Generator.jobscript.groovy"
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "-name": "cSpreadsheetLogs_000_030_FormatCoreAll_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20230730: Created"
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fx_DateString",
+        "-type": "SubString",
+        "inputs": {
+          "input": {
+            "-nameref": "column1"
+          }
+        },
+        "parameters": {
+          "begin": "2",
+          "end": "11",
+          "fromSide": "left"
+        }
+      },
+      {
+        "-name": "fx_TimeString",
+        "-type": "SubString",
+        "inputs": {
+          "input": {
+            "-nameref": "column2"
+          }
+        },
+        "parameters": {
+          "begin": "1",
+          "end": "20",
+          "fromSide": "left"
+        }
+      },
+      {
+        "-name": "fx_FullPath",
+        "-type": "Split",
+        "inputs": {
+          "input": {
+            "-nameref": "column1"
+          }
+        },
+        "parameters": {
+          "occurence": "2",
+          "separator": "\""
+        }
+      },
+      {
+        "-name": "fx_FullPathMachine",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "FP",
+              "-nameref": "fx_FullPath",
+              "-type": "String"
+            },
+            {
+              "-alias": "MN",
+              "-nameref": "column4",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_030_FormatCoreAll_ft.functions.function.4.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_File",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_FullPath",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_030_FormatCoreAll_ft.functions.function.5.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_User",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "column1",
+              "-type": "String"
+            },
+            {
+              "-nameref": "column4",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_030_FormatCoreAll_ft.functions.function.6.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_CleanFile",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-nameref": "fx_File",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_030_FormatCoreAll_ft.functions.function.7.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fx_Username",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-nameref": "column1",
+              "-type": "String"
+            },
+            {
+              "-nameref": "column4",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "cSpreadsheetLogs_000_030_FormatCoreAll_ft.functions.function.8.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cSpreadsheetLogs_000_020_InclCoreLoadWorkbookAll_tv"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "fx_FullPath"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_FullPathMachine"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Company"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_File"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_User"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Username"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Hour"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Min"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_Sec"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fx_CleanFile"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "column4"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "column3"
+          }
+        }
+      ]
+    }
+  }
+}

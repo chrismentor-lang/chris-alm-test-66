@@ -1,0 +1,35 @@
+{
+  "-name": "ct_Version",
+  "-type": "ConstantTable",
+  "comment": {
+    "#cdata-section": "table to set attributes on version dimension"
+  },
+  "data": {
+    "header": {
+      "value": "Version"
+    },
+    "row": [
+      {
+        "value": "Actual"
+      },
+      {
+        "value": "Budget"
+      },
+      {
+        "value": "Forecast"
+      },
+      {
+        "value": "Best"
+      },
+      {
+        "value": "Worst"
+      },
+      {
+        "value": "Final"
+      },
+      {
+        "value": "Previous Year"
+      }
+    ]
+  }
+}

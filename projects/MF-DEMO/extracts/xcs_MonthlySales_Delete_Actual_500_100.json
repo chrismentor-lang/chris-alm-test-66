@@ -1,0 +1,26 @@
+{
+  "-name": "xcs_MonthlySales_Delete_Actual_500_100",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "Clear all Actuals before reload from snowflake"
+  },
+  "connection": {
+    "-nameref": "Jedox"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Monthly Sales"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "Actual",
+        "-dimension": "Version",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "-name": "LogsOneDayToSnowflake (PSF+Apache+Scheduler)",
+  "-type": "Parallel",
+  "comment": {
+    "#cdata-section": "Please provide variable vFrom by entering the day you want to load into Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "PSFLogsDayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "ApacheLogsDayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      },
+      {
+        "-nameref": "SchedulerLogsDayToSnowflake",
+        "-parallel": "true",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": {
+      "-name": "vFrom",
+      "default": "2024-06-18"
+    }
+  }
+}

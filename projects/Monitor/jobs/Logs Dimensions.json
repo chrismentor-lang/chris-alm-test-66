@@ -1,0 +1,21 @@
+{
+  "-name": "Logs Dimensions",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dMachine_555_030_AllHierarchy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dMachine_555_035_TypeHierarchy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dMeasureLogs_100_050_InMemoryLogs_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,21 @@
+{
+  "-name": "xrt_dCurrency_100_100_rt",
+  "-type": "RelationalTable",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Extract Currency dimensional data."
+  },
+  "connection": {
+    "-nameref": "Minerva_Train"
+  },
+  "outputs": {
+    "output": {
+      "-input": "CURRENCY"
+    }
+  },
+  "table": {
+    "-distinct": "false",
+    "-name": "VW_DIM_CURRENCY",
+    "-schema": "JEDOX_DIMS"
+  }
+}

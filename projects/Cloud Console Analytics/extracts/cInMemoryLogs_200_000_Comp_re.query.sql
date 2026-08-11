@@ -1,0 +1,12 @@
+SELECT 
+MACHINE,
+TIME_UTC,
+TIME_LOCAL,
+LEVEL,
+SERVICE,
+LOG 
+FROM JEDOX.LOGS.VW_IN_MEMORY
+WHERE TIME_LOCAL > '${vFrom}' AND TIME_LOCAL < '${vTo}'
+AND MACHINE like'%-${vCompany}%'
+--AND LEVEL = 'error'
+--AND LOG like '%error code%'

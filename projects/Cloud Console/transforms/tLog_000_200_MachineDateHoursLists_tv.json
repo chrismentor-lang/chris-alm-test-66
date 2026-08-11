@@ -1,0 +1,29 @@
+{
+  "-name": "tLog_000_200_MachineDateHoursLists_tv",
+  "-type": "TableJoin",
+  "cache": "false",
+  "joins": {
+    "-persist": "false",
+    "join": {
+      "-allColumns": "false",
+      "-type": "cross",
+      "-unique": "false",
+      "left": {
+        "-nameref": "tLog_000_100_MachineList_re"
+      },
+      "right": {
+        "-nameref": "tLog_000_115_HoursList_ct"
+      }
+    }
+  },
+  "sources": {
+    "source": [
+      {
+        "-nameref": "tLog_000_100_MachineList_re"
+      },
+      {
+        "-nameref": "tLog_000_115_HoursList_ct"
+      }
+    ]
+  }
+}
