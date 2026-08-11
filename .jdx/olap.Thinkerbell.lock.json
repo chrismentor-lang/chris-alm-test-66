@@ -262,7 +262,7 @@
   "hash": "sha256:cf3427fed4b04bf3a6b23c4a0c0d55a77318b4c388f1f000078321cf6b40f083",
   "project": "olap:Thinkerbell",
   "source": {
-    "at": "2026-08-11T22:56:55Z",
+    "at": "2026-08-11T23:05:49Z",
     "env": "dev",
     "host": "https://test-thinkerbell.cloud.jedox.com/"
   },
