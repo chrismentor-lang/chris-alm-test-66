@@ -1,0 +1,18 @@
+{
+  "name": "COP Split",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Month",
+    "Office",
+    "Detail COP Split",
+    "Measure"
+  ],
+  "properties": {
+    "Audit": "7",
+    "Description": "Purpose: To Store the COP Split % for splitting the COP Overhead by other offices for PnL\nData Source: Manual, only in Jedox\nCube Owner: Geetansh\n\n20260311: Introduced",
+    "Name": "COP Split",
+    "StoreZeroValues": "Y"
+  }
+}

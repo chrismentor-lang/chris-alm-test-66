@@ -1,0 +1,17 @@
+{
+  "name": "Client Head",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Month",
+    "Job",
+    "Client Head",
+    "Detail Client Head",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Can be Deleted\n\nPurpose: To Store the Client Head % for revenue split in Revenue Planning\nData Source: Manual, only in Jedox\nCube Owner: Geetansh\n\n20260306: Loaded the data manually as 100% CH % for all the combinations available in Snowflake at the moment\n20260305: Introduced",
+    "Name": "Client Head",
+    "StoreZeroValues": "Y"
+  }
+}

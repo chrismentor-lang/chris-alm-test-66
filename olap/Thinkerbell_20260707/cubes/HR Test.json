@@ -1,0 +1,12 @@
+{
+  "name": "HR Test",
+  "kind": "normal",
+  "dimensions": [
+    "Month",
+    "HR Detail 2"
+  ],
+  "properties": {
+    "Description": "20260408: introduced.",
+    "Name": "HR Test"
+  }
+}

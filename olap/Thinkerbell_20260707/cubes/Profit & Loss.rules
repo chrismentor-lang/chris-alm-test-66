@@ -1,0 +1,119 @@
+### rule
+{"active":true,"comment":"LOG||Planning Versions, Months||Actuals\n\n20260303: Introduced","position":1,"template":{"name":"Actual months","parameters":{"Time dimension":"Month","Version dimension":"Version","Version dimension attribute":"Actual Months"}}}
+['${VersionDimension}':'${Version}','Month':{${Elements}}] = B: ['Version':'Actual']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":2}
+['PL Account':'Income/Billings %'] = ['PL Account':'Income']/(['PL Account':'Billings'])
+### rule
+{"active":true,"comment":"REF||Overhead Expenses, COP Split Offices||Ref:COP Split\n\n20260312: Introduced","position":3}
+['PL Account'::'Overhead Expenses', 'Office'::'COP Split Offices', 'Measure':{'Input', 'Adjustment'}] = B:['Office':'67'] * 'COP Split'['Detail COP Split':'COP Split %', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"KPI||\n\n20260323: Updated the rule to include depreciation accounts\n20260303: Introduced","position":4}
+['PL Account':'EBITDA %'] = (['PL Account':'Operating Profit'] + ['PL Account':'60210'] + ['PL Account':'60311'] + ['PL Account':'60512'])/ ['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":5}
+['PL Account':'PBT/Income %'] = ['PL Account':'Operating Profit']/['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":6}
+['PL Account':'Staff Expenses/Income %'] = (['PL Account':'Staff Expenses'])/(['PL Account':'Income']+['PL Account':'Other Income'])
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":7}
+['PL Account':'Total Staff/Income excluding Govt Assistance'] = (['PL Account':'Staff Expenses'] ) / ['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":8}
+['PL Account':'Occupancy Expenses/Income %'] = (['PL Account':'Occupancy Expenses'])/['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":9}
+['PL Account':'Communication & IT Expenses/Income %'] = (['PL Account':'Communication & IT Expenses'])/['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":10}
+['PL Account':'All Other Overheads/Income %'] = (['PL Account':'All Other Overheads'])/['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":11}
+['PL Account':'Professional Expenses/Income %'] = (['PL Account':'Professional Expenses'])/['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":12}
+['PL Account':'Travel & Entertainment/Income %'] = (['PL Account':'Travel & Entertainment'])/['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":13}
+['PL Account':'Expenses/Income %'] = (['PL Account':'Expenses'])/['PL Account':'Income']
+### rule
+{"active":true,"comment":"KPI||\n\n20260303: Introduced","position":14}
+['PL Account':'Margin Excluding Govt Assistance'] = (['PL Account':'Operating Profit'] - ['PL Account':'Other Income']) / ['PL Account':'Income']
+### rule
+{"active":true,"comment":"FX||Input, Adjustment||Conversion Type\n\n20260202: Introduced","position":15,"template":{"name":"Dimension element like","parameters":{"Dimension":"Currency","Pattern":"^([A-Z]{3}) > ([A-Z]{3})$"}}}
+['Currency':'${Element}', 'Measure':{'Input', 'Adjustment'}] = B:
+IF( // For accounts having a non-empty Conversion Type 
+    '#_PL Account'['#_PL Account_':'Conversion Type'],
+    // Divide the input currency by the exchange rate
+    ['Currency':'${Group1}'] *
+    PALO.DATA("", "FX", 
+        !'Version', 
+        !'Month', 
+        '#_PL Account'['#_PL Account_':'Conversion Type'], 
+        "${Group1}", 
+        "${Group2}", 
+        "Input"
+    ), 
+    CONTINUE()
+)
+### rule
+{"active":false,"comment":"REF||40035||Budget & Forecasts||Ref: Revenue Planning\n\n20260514: Introduced.","position":16}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'Scenario':'Base', 'PL Account':'40035'] = B:'Revenue Planning'['Job Type':'58', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'2', 'Detail Revenue':'Revenue by Client Head']
+### rule
+{"active":true,"comment":"REF||40018||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":17}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40018', 'Department':'84'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'84', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40022||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":18}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40022', 'Department':'85'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'85', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40006||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":19}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40006', 'Department':'86'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'86', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40017||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":20}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40017', 'Department':'80'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'80', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40007||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":21}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40007', 'Department':'77'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'77', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40030||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":22}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40030', 'Department':'76'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'76', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40020||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":23}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40020', 'Department':'7'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'7', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40015||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":24}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40015', 'Department':'74'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'74', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40010||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":25}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40010', 'Department':'1'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'1', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40005||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":26}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40005', 'Department':'2'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'2', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40035||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":27}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40035', 'Department':'75'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'75', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40016||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":28}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40016', 'Department':'4'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'4', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40019||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":29}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40019', 'Department':'6'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'6', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40050||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":30}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40050', 'Department':'81'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'81', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40008||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":31}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40008', 'Department':'82'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'82', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||40021||Budget & Forecasts||Ref: Revenue Planning\n\n20260605: Introduced.","position":32}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40021', 'Department':'83'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'83', 'Detail Revenue':'Revenue']
+### rule
+{"active":true,"comment":"REF||New Business||Budget & Forecasts||Ref: Revenue Planning","position":33}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1', 'Estimate'}, 'PL Account':'New Business'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':!'Department', 'Detail Revenue':'New Business']
+### rule
+{"active":true,"comment":"REF||Organic||Budget & Forecasts||Ref: Revenue Planning","position":34}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1', 'Estimate'}, 'PL Account':'Organic'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':!'Department', 'Detail Revenue':'Organic']
+### rule
+{"active":true,"comment":"REF||40040||~||Budget & Forecasts||Input||Ref: Revenue Planning\n\n20260626: Introduced after meeting with Coral.","position":35}
+['Version':{'Budget', 'Forecast 1+11 Mid', 'Forecast 1+11', 'Forecast 2+10 Mid', 'Forecast 2+10', 'Forecast 3+9 Mid', 'Forecast 3+9', 'Forecast 4+8 Mid', 'Forecast 4+8', 'Forecast 5+7 Mid', 'Forecast 5+7', 'Forecast 6+6 Mid', 'Forecast 6+6', 'Forecast 7+5 Mid', 'Forecast 7+5', 'Forecast 8+4 Mid', 'Forecast 8+4', 'Forecast 9+3 Mid', 'Forecast 9+3', 'Forecast 10+2 Mid', 'Forecast 10+2', 'Forecast 11+1 Mid', 'Forecast 11+1'}, 'PL Account':'40021', 'Department':'~'] = B:'Revenue Planning'['Job Type':'All Job Types', 'Estimate':'All Estimates', 'Client Head':'All Client Heads', 'Task Type':'No Department|485', 'Detail Revenue':'Revenue']
