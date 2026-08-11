@@ -1,0 +1,11 @@
+{
+  "excludes": [
+    "elements",
+    "attribute-values"
+  ],
+  "properties": {
+    "DatabaseName": "MF-DEMO",
+    "DefaultRight": "D",
+    "HideCubes": "N"
+  }
+}

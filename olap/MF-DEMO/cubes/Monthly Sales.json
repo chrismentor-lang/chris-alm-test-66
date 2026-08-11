@@ -1,0 +1,17 @@
+{
+  "name": "Monthly Sales",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Currency",
+    "Month",
+    "Product",
+    "Customer",
+    "Measure_Sales"
+  ],
+  "properties": {
+    "Audit": "7",
+    "Description": "The monthly sales cube holds monthly sales metrics (net sales, gst, discounts, qty) . \n\n",
+    "Name": "Monthly Sales"
+  }
+}

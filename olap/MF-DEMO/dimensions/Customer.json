@@ -1,0 +1,7 @@
+{
+  "name": "Customer",
+  "kind": "normal",
+  "properties": {
+    "Name": "Customer"
+  }
+}

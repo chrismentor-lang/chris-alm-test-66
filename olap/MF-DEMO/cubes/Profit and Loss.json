@@ -1,0 +1,17 @@
+{
+  "name": "Profit and Loss",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Currency",
+    "Month",
+    "Cost Centre",
+    "PL Account",
+    "Measure_PL"
+  ],
+  "properties": {
+    "Audit": "7",
+    "Description": "Profit and Loss Cube",
+    "Name": "Profit and Loss"
+  }
+}

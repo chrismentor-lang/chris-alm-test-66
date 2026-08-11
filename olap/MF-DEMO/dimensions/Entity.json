@@ -1,0 +1,9 @@
+{
+  "name": "Entity",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "All Entities",
+    "Name": "Entity",
+    "TotalElement": "All Entities"
+  }
+}

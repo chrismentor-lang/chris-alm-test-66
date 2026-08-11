@@ -1,0 +1,7 @@
+{
+  "name": "TopN Override",
+  "owner": "Customer",
+  "attributes": {
+    "Description": "List of elements where the Top Override is true (subset used in integrator)"
+  }
+}

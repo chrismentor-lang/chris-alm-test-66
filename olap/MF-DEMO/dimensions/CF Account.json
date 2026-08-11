@@ -1,0 +1,8 @@
+{
+  "name": "CF Account",
+  "kind": "normal",
+  "properties": {
+    "Name": "CF Account",
+    "Type": "Account"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "name": "BS Account",
+  "kind": "normal",
+  "properties": {
+    "Name": "BS Account",
+    "Type": "Account"
+  }
+}

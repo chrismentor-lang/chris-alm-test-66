@@ -1,0 +1,7 @@
+{
+  "name": "subset1",
+  "owner": "Cost Centre",
+  "attributes": {
+    "Description": "my public subset"
+  }
+}

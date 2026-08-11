@@ -1,0 +1,9 @@
+{
+  "name": "Cost Centre",
+  "kind": "normal",
+  "properties": {
+    "DefaultWriteElement": "CC120",
+    "Name": "Cost Centre",
+    "Type": "Account"
+  }
+}

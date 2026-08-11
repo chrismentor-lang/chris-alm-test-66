@@ -1,0 +1,35 @@
+### rule
+{"active":true,"comment":"Budget, Gross Sales (excl GST) - Base only","position":1}
+['Version':'Budget', 'Measure_Sales':'Gross Sales (incl GST)'] = B:['Measure_Sales':'Qty'] * ['Measure_Sales':'ASP']
+### rule
+{"active":true,"comment":"feed actuals into forecast","position":2}
+['Version':'Forecast', 'Measure_Sales':{'Qty', 'Gross Sales (incl GST)', 'GST', 'Discount'}] = B:IF('#_Month'['#_Month_':'Month Value'] <= '#_Month'['#_Month_':'Month Value', 'Month':'#_Version'['#_Version_':'Current Period', 'Version':'Actual']], ['Version':'Actual'], STET())
+### rule
+{"active":true,"comment":"Budget, ASP (consol only)","position":3}
+['Measure_Sales':'ASP', 'Version':'Budget'] = C:['Measure_Sales':'Gross Sales (excl GST)'] / ['Measure_Sales':'Qty']
+### rule
+{"active":true,"comment":"Discount %","position":4}
+['Measure_Sales':'Discount %'] = ['Measure_Sales':'Discount'] / ['Measure_Sales':'Gross Sales (excl GST)']
+### rule
+{"active":true,"comment":"Customer Concentration %. Calculates how reliant a specific product category is on a single customer.","position":5}
+['Customer Concentration %'] = ['Net Sales'] / ['Net Sales', 'Customer':'All Customers']
+### rule
+{"active":true,"comment":"Price Elasticity Demand (PED). If PED is < -1 (e.g., -2.5): Your product is Elastic. The price drop successfully triggered a massive, disproportionate jump in volume. Your promotion worked perfectly to drive demand. If PED is between 0 and -1 (e.g., -0.4): Your product is Inelastic. Dropping the price gave away margin, but didn't actually drive enough extra volume to justify the discount.","position":6}
+['Price Elasticity'] = ''['Measure_Sales':'Qty']/''['Month':'':'#_Month'['#_Month_':'Previous'], 'Measure_Sales':'Qty']
+### rule
+{"active":true,"comment":"List Price","position":7}
+['Measure_Sales':'List Price'] = (['Measure_Sales':'Gross Sales (excl GST)'] + ['Measure_Sales':'Discount']) / ['Measure_Sales':'Qty']
+### rule
+{"active":true,"comment":"ASP (Average Selling Price)","position":8}
+['Measure_Sales':'ASP', 'Version':{'Actual', 'Forecast', 'Best', 'Worst', 'Final'}] = ['Measure_Sales':'Gross Sales (excl GST)'] / ['Measure_Sales':'Qty']
+### rule
+{"active":true,"comment":"Budget FX - Convert currency to FX conversion element.","position":9,"template":{"name":"Dimension element like","parameters":{"Dimension":"Currency","Pattern":" > AUD"}}}
+['Version':'Budget', 'Currency':'${Element}'] = B:
+
+IF('#_Measure_Sales'['#_Measure_Sales_':'Exclude FX']==1, // exclude sales on kpi and quantity measures
+
+PALO.DATA("", "Monthly Sales", !'Version', LEFT(!'Currency', 3), !'Month', !'Product', !'Customer', !'Measure_Sales') 
+* PALO.DATA("", "FX", !'Version', LEFT(!'Currency', 3), "AUD", "Average", !'Month', "Value")
+,
+PALO.DATA("", "Monthly Sales", !'Version', LEFT(!'Currency', 3), !'Month', !'Product', !'Customer', !'Measure_Sales') 
+)
