@@ -5,53 +5,5 @@
     "Audit": "365",
     "Description": "Purpose: List All Stages/ Probabilities from Float\nPrimary Data Source: Float from Snowflake\n\n20260424: Introduced, Creation Timestamp is automatically updated using an SVS Script",
     "Name": "Stage"
-  },
-  "elements": [
-    {
-      "name": "All Stages",
-      "type": "consolidated",
-      "children": [
-        {
-          "name": "0",
-          "weight": 1
-        },
-        {
-          "name": "1",
-          "weight": 1
-        },
-        {
-          "name": "2",
-          "weight": 1
-        },
-        {
-          "name": "3",
-          "weight": 1
-        },
-        {
-          "name": "4",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "name": "0",
-      "type": "numeric"
-    },
-    {
-      "name": "1",
-      "type": "numeric"
-    },
-    {
-      "name": "2",
-      "type": "numeric"
-    },
-    {
-      "name": "3",
-      "type": "numeric"
-    },
-    {
-      "name": "4",
-      "type": "numeric"
-    }
-  ]
+  }
 }

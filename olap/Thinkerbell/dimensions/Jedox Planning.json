@@ -4,23 +4,5 @@
   "properties": {
     "Description": "20260730: Dimension created to allow the functional admin to stop writing into the planning models when running heavy jobs.",
     "Name": "Jedox Planning"
-  },
-  "elements": [
-    {
-      "name": "Revenue Planning",
-      "type": "numeric"
-    },
-    {
-      "name": "Resource Planning",
-      "type": "numeric"
-    },
-    {
-      "name": "HR Planning",
-      "type": "numeric"
-    },
-    {
-      "name": "P&L Planning",
-      "type": "numeric"
-    }
-  ]
+  }
 }

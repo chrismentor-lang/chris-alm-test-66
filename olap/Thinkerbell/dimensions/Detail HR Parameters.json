@@ -4,31 +4,5 @@
   "properties": {
     "Description": "20260726: Introduced.",
     "Name": "Detail HR Parameters"
-  },
-  "elements": [
-    {
-      "name": "Superannuation % / KiwiSaver %",
-      "type": "numeric"
-    },
-    {
-      "name": "Workcover %",
-      "type": "numeric"
-    },
-    {
-      "name": "Payroll Tax %",
-      "type": "numeric"
-    },
-    {
-      "name": "Leave Accrual parameter",
-      "type": "numeric"
-    },
-    {
-      "name": "Bonus Accrual parameter",
-      "type": "numeric"
-    },
-    {
-      "name": "Superannuation Cap",
-      "type": "numeric"
-    }
-  ]
+  }
 }

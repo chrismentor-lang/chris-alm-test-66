@@ -4,35 +4,5 @@
   "properties": {
     "Audit": "365",
     "Name": "Hi Bob Office"
-  },
-  "elements": [
-    {
-      "name": "266284216",
-      "type": "numeric"
-    },
-    {
-      "name": "264541731",
-      "type": "numeric"
-    },
-    {
-      "name": "264564217",
-      "type": "numeric"
-    },
-    {
-      "name": "264564216",
-      "type": "numeric"
-    },
-    {
-      "name": "264562216",
-      "type": "numeric"
-    },
-    {
-      "name": "264564219",
-      "type": "numeric"
-    },
-    {
-      "name": "264564218",
-      "type": "numeric"
-    }
-  ]
+  }
 }

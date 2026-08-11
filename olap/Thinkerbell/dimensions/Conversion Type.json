@@ -11,53 +11,5 @@
     "Name": "Conversion Type",
     "TotalElement": "All Conversion Types",
     "Type": "Business"
-  },
-  "elements": [
-    {
-      "name": "All Conversion Types",
-      "type": "consolidated",
-      "children": [
-        {
-          "name": "~",
-          "weight": 1
-        },
-        {
-          "name": "Unassigned",
-          "weight": 1
-        },
-        {
-          "name": "Average",
-          "weight": 1
-        },
-        {
-          "name": "Month End",
-          "weight": 1
-        },
-        {
-          "name": "Month Start",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "name": "Average",
-      "type": "numeric"
-    },
-    {
-      "name": "Month End",
-      "type": "numeric"
-    },
-    {
-      "name": "Month Start",
-      "type": "numeric"
-    },
-    {
-      "name": "~",
-      "type": "numeric"
-    },
-    {
-      "name": "Unassigned",
-      "type": "numeric"
-    }
-  ]
+  }
 }

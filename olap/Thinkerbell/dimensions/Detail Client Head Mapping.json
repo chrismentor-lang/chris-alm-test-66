@@ -4,19 +4,5 @@
   "properties": {
     "Audit": "365",
     "Name": "Detail Client Head Mapping"
-  },
-  "elements": [
-    {
-      "name": "CH Loaded",
-      "type": "string"
-    },
-    {
-      "name": "CH Final",
-      "type": "string"
-    },
-    {
-      "name": "Revenue",
-      "type": "numeric"
-    }
-  ]
+  }
 }

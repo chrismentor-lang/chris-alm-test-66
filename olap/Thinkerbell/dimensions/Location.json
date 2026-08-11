@@ -4,37 +4,5 @@
   "properties": {
     "Description": "20260731: Introduced to facilitate the registration of employees by state.",
     "Name": "Location"
-  },
-  "elements": [
-    {
-      "name": "All Locations",
-      "type": "consolidated",
-      "children": [
-        {
-          "name": "NSW",
-          "weight": 1
-        },
-        {
-          "name": "VIC",
-          "weight": 1
-        },
-        {
-          "name": "NZL",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "name": "NSW",
-      "type": "numeric"
-    },
-    {
-      "name": "VIC",
-      "type": "numeric"
-    },
-    {
-      "name": "NZL",
-      "type": "numeric"
-    }
-  ]
+  }
 }

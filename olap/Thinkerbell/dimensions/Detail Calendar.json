@@ -4,19 +4,5 @@
   "properties": {
     "Description": "20260731: Introduced.",
     "Name": "Detail Calendar"
-  },
-  "elements": [
-    {
-      "name": "Working day",
-      "type": "numeric"
-    },
-    {
-      "name": "Weekend",
-      "type": "numeric"
-    },
-    {
-      "name": "Public Holiday",
-      "type": "numeric"
-    }
-  ]
+  }
 }

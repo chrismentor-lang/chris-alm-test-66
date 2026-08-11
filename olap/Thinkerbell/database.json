@@ -1,5 +1,6 @@
 {
   "excludes": [
+    "elements",
     "attribute-values"
   ],
   "properties": {
