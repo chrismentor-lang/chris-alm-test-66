@@ -1,0 +1,10 @@
+{
+  "-name": "rRedshift_StageUpload_rs",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRedshift_StageUpload_rs.query.sql"
+  }
+}

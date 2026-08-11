@@ -1,0 +1,10 @@
+{
+  "-name": "New Relational SQL load",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "New Relational SQL load.query.sql"
+  }
+}

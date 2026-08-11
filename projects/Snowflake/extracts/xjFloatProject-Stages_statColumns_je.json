@@ -1,0 +1,56 @@
+{
+  "-name": "xjFloatProject-Stages_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all project stages (status) and their details from Float.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatProject-Stages_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "color"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "created_by"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "modified_by"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "project_count"
+      },
+      {
+        "-input": "project_status"
+      },
+      {
+        "-input": "sort_order"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

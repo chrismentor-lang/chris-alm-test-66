@@ -1,0 +1,10 @@
+{
+  "-name": "csfRBALoader_Global_sc",
+  "-type": "Snowflake",
+  "comment": {
+    "#cdata-section": "Connects to the Snowflake databases with the RBA_USR and the RBA_LOADER role."
+  },
+  "global": {
+    "-nameref": "Snowflake_RBA_Loader"
+  }
+}

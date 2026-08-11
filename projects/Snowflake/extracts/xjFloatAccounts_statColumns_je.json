@@ -1,0 +1,65 @@
+{
+  "-name": "xjFloatAccounts_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all accounts and their metadata from Float.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatAccounts_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "access"
+      },
+      {
+        "-input": "account_id"
+      },
+      {
+        "-input": "account_type"
+      },
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "avatar"
+      },
+      {
+        "-input": "budget_rights"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "department_filter"
+      },
+      {
+        "-input": "department_filter_id"
+      },
+      {
+        "-input": "edit_rights"
+      },
+      {
+        "-input": "email"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "timezone"
+      },
+      {
+        "-input": "view_rights"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

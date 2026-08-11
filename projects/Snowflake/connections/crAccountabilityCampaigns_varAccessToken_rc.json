@@ -1,0 +1,33 @@
+{
+  "-name": "crAccountabilityCampaigns_varAccessToken_rc",
+  "-type": "Rest",
+  "credentials": {
+    "token": {
+      "-nameref": "coauthAccountability_statToken_oauthc"
+    }
+  },
+  "headers": {
+    "header": {
+      "#text": "application/json",
+      "-name": "accept"
+    }
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "parameters": {
+    "parameter": [
+      {
+        "#text": "200",
+        "-name": "Limit"
+      },
+      {
+        "#text": "${vAccountabilityOffset}",
+        "-name": "Offset"
+      }
+    ]
+  },
+  "resource": {
+    "#cdata-section": "https://api.accountabilityonesystem.com/v1/Campaigns"
+  },
+  "ssl": "verify"
+}

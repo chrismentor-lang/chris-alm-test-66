@@ -1,0 +1,26 @@
+{
+  "-name": "xjHiBob_varPolicyTypes_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crestHiBob_varPolicyTypes_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "activity"
+      },
+      {
+        "-input": "unit"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

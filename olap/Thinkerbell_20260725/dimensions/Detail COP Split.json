@@ -1,0 +1,9 @@
+{
+  "name": "Detail COP Split",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: COP Split Cube Details\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260311: Created",
+    "Name": "Detail COP Split"
+  }
+}

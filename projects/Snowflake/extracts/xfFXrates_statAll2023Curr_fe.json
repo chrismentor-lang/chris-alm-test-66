@@ -1,0 +1,17 @@
+{
+  "-name": "xfFXrates_statAll2023Curr_fe",
+  "-type": "Excel",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves daily RBA FX rates between 2023 and now."
+  },
+  "connection": {
+    "-nameref": "cfFXrates_statHTTPHist2023Curr_fc"
+  },
+  "dateTargetFormat": "dd-MMM-YYYY",
+  "firstRowType": "true",
+  "header": "true",
+  "query": {
+    "#file": "xfFXrates_statAll2023Curr_fe.query.sql"
+  }
+}

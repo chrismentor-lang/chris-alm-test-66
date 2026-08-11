@@ -1,0 +1,9 @@
+{
+  "-name": "vAccountabilityModifiedTo",
+  "comment": {
+    "#cdata-section": "20260728: Changed the script to make sure that it always picks up the current date timestamp (tested and confirmed that the groovy is always set at the start of the job and then doesn't update throughout the rest of the job).\n\nimport java.time.ZonedDateTime\nimport java.time.ZoneId\nimport java.time.format.DateTimeFormatter\n\n// Get current date in Australian timezone\ndef australianZone = ZoneId.of(\"Australia/Sydney\") // or \"Australia/Melbourne\"\ndef nowInAustralia = ZonedDateTime.now(australianZone)\n\n// Get yesterday's date at midnight in Australian timezone, then convert to UTC\ndef midnightAustraliaYesterday = nowInAustralia.toLocalDate()\n    .atStartOfDay(australianZone)  // Midnight in Australian timezone\n    .withZoneSameInstant(ZoneId.of(\"UTC\"))  // Convert to UTC\n\n// Format as yyyy-MM-ddTHH:mm:ssZ\ndef formatter = DateTimeFormatter.ofPattern(\"yyyy-MM-dd'T'HH:mm:ss'Z'\")\ndef formattedDate = midnightAustraliaYesterday.format(formatter)\n\nreturn  formattedDate // Output: 2026-01-06T13:00:00Z"
+  },
+  "script": {
+    "#file": "vAccountabilityModifiedTo.script.groovy"
+  }
+}

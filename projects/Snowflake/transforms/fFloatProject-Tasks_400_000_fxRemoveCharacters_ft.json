@@ -1,0 +1,89 @@
+{
+  "-name": "fFloatProject-Tasks_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the task name from the Project-Tasks API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxTaskName",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NAM",
+          "-nameref": "task_name"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fFloatProject-Tasks_400_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatProject-Tasks_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "billable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "budget"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "count_logged_time"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "count_tasks"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "phase_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "task_meta_id"
+          }
+        },
+        {
+          "-name": "task_name",
+          "input": {
+            "-nameref": "fxTaskName"
+          }
+        }
+      ]
+    }
+  }
+}

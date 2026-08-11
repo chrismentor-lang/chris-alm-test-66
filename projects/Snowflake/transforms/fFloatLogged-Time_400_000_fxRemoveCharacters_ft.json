@@ -1,0 +1,154 @@
+{
+  "-name": "fFloatLogged-Time_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name from the Logged-Time API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxTaskName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NAM",
+            "-nameref": "task_name"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatLogged-Time_400_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fFloatLogged-Time_400_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatLogged-Time_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "billable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created_by"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "hours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "locked"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "locked_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "logged_time_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified_by"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "people_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "phase_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "priority"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "reference_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "task_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "task_meta_id"
+          }
+        },
+        {
+          "-name": "task_name",
+          "input": {
+            "-nameref": "fxTaskName"
+          }
+        }
+      ]
+    }
+  }
+}

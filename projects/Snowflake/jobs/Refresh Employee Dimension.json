@@ -1,0 +1,13 @@
+{
+  "-name": "Refresh Employee Dimension",
+  "-type": "ExternalJob",
+  "execution": {
+    "-nameref": "Refresh Employee Dimension",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Thinkerbell",
+    "-scope": "Global"
+  }
+}

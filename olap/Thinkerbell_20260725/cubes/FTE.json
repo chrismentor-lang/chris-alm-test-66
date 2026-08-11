@@ -1,0 +1,16 @@
+{
+  "name": "FTE",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Day",
+    "Employee",
+    "Detail FTE",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Purpose: Details about the Employee\nPrimary Data Source: Accountability, Float, Snowflake\nSupporting Cubes:\nDependencies: Resource Planning.\nOwner: Geetansh Mahajan\n\nUpdates:\n20260122: Introduced",
+    "Name": "FTE"
+  }
+}

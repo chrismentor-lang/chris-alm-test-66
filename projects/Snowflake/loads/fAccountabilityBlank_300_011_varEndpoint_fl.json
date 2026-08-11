@@ -1,0 +1,12 @@
+{
+  "-name": "fAccountabilityBlank_300_011_varEndpoint_fl",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "cfAccountability_varAccountabilityEndpoint_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "xfAccountabilityBlank_statAll_fe"
+  },
+  "useScientificNotation": "true"
+}

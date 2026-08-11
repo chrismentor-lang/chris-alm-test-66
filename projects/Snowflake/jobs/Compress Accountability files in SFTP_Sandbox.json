@@ -1,0 +1,8 @@
+{
+  "-name": "Compress Accountability files in SFTP_Sandbox",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Compress Accountability files in SFTP_Sandbox.jobscript.groovy"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "-name": "xfHiBobLatestEmploymentCursor_stat_fe",
+  "-type": "Csv",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "To get latest cursor"
+  },
+  "connection": {
+    "-nameref": "cfHiBob_varHiBob${vHiBobEndpoint}Endpoint_fc"
+  },
+  "query": {
+    "#file": "xfHiBobLatestEmploymentCursor_stat_fe.query.sql",
+    "-serverSide": "false"
+  }
+}

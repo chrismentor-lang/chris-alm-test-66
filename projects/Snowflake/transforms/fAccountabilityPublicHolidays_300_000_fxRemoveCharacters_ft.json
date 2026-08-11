@@ -1,0 +1,10 @@
+{
+  "-name": "fAccountabilityPublicHolidays_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityPublicHolidays_statColumns_je"
+    }
+  }
+}

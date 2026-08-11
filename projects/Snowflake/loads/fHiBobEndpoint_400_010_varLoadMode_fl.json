@@ -1,0 +1,15 @@
+{
+  "-name": "fHiBobEndpoint_400_010_varLoadMode_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Loads file with Hi Bob endpoint data into Snowflake/Float directory on SFTP. Will show red in colour as we use variable for its source and default value source doesnt exist"
+  },
+  "connection": {
+    "-nameref": "cfHiBob_varHiBobEndpoint_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "fHiBob${vHiBobEndpoint}_000_000_fxReplace_ft"
+  },
+  "useScientificNotation": "true"
+}

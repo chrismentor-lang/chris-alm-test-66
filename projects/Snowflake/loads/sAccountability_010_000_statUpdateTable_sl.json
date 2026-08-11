@@ -1,0 +1,10 @@
+{
+  "-name": "sAccountability_010_000_statUpdateTable_sl",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "sAccountability_010_000_statUpdateTable_sl.query.sql"
+  }
+}

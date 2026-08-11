@@ -1,0 +1,36 @@
+{
+  "-name": "Delete Estimates and Refresh SCD",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This job updates the ESTIMATE_ENTRIES, ESTIMATES, JOBS_SCD, ESTIMATES_SCD, and ESTIMATE_ENTRIES_SCD tables in the HARMONISATION DATABASE before updating the JOB_ESTIMATES and JOB_ESTIMATES_SCD tables in the DATAWAREHOUSE database."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "rEstimateEntries_DeleteFromHarmonisation_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rEstimates_DeleteFromHarmonisation_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rJobsSCD_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rEstimatesSCD_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rEstimateEntriesSCD_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Refresh Job Estimates SCD",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,15 @@
+{
+  "-name": "fFloatEndpoint_400_010_varLoadMode_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Loads file with Float endpoint data into Snowflake/Float directory on SFTP."
+  },
+  "connection": {
+    "-nameref": "cfFloat_varFloatEndpoint_fc"
+  },
+  "mode": "${vFileLoadMode}",
+  "source": {
+    "-nameref": "fFloat${vFloatEndpoint}_400_000_fxRemoveCharacters_ft"
+  },
+  "useScientificNotation": "true"
+}

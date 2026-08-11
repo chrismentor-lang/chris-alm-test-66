@@ -1,0 +1,51 @@
+### rule
+{"active":false,"comment":"TEST RULE - PLEASE DELETE","position":1}
+['Job':'304'] = 999
+### rule
+{"active":false,"comment":"TEST RULE PLEASE DELETE","position":2}
+['Job':'304'] = 888/2
+### rule
+{"active":true,"comment":"LOG||Planning Versions, Months||Actuals\n\n20260322: Introduced","position":3,"template":{"name":"Actual months","parameters":{"Time dimension":"Day","Version dimension":"Version","Version dimension attribute":"Actual Months"}}}
+['${VersionDimension}':'${Version}','Day':{${Elements}}] = ['Version':'Actual']
+### rule
+{"active":true,"comment":"FX||Margin, Revenue, Cost, Billable Rate, Cost Rate||Average\n\n20260223: Introduced","position":4,"template":{"name":"Dimension element like","parameters":{"Dimension":"Currency","Pattern":"^([A-Z]{3}) > ([A-Z]{3})$"}}}
+['Currency':'${Element}', 'Measure':{'Input', 'Adjustment'}, 'Detail Resource':{'Margin', 'Revenue', 'Cost', 'Billable Rate', 'Cost Rate'}] = B:['Currency':'${Group1}'] * PALO.DATA("", "FX", !'Version', Left(!'Day',7), "Average", "${Group1}", "${Group2}", "Input")
+### rule
+{"active":true,"comment":"REF||Billable Rate, Input|| STET, REF: Billable Rate, Adjusted","position":5}
+['Detail Resource':'Billable Rate', 'Measure':'Input', 'Version':'Plan', 'Employee'::'All Employees Base'] = B:IF(['Detail Resource':'Billable', 'Measure':'Adjusted', 'Currency':'XXX'], IF(Exist(STET()), STET(),  'Billable Rate'['Client':'#_Job'['#_Job_':'Client ID', '#_LANGUAGE':'~'], 'Task Type':'#_Employee'['#_Employee_':'Task Type Dim', '#_LANGUAGE':'~'], 'Detail Billable Rate':'Billable Rate', 'Measure':'Adjusted', 'Version':'Actual']), STET())
+### rule
+{"active":false,"comment":"REF||Billable Rate, Input, Adjustment|| STET, REF: Billable Rate, Adjusted\n\nB:IF(EXIST(STET()), STET(), 'Billable Rate'['Client':'#_Job'['#_Job_':'Client ID', '#_LANGUAGE':'~'], 'Task Type':'#_Employee'['#_Employee_':'Task Type Dim', '#_LANGUAGE':'~'], 'Detail Billable Rate':'Billable Rate', 'Measure':'Adjusted'])\n\n20260428: ['Detail Resource':'Billable Rate', 'Measure':{'Input', 'Adjustment'}] = B:IF(EXIST(STET()), STET(), 'Billable Rate'['Client':'#_Job'['#_Job_':'Client ID', '#_LANGUAGE':'~'], 'Task Type':CONCATENATE('#_Employee'['#_Employee_':'Task Type Department ID', '#_LANGUAGE':'~'], \"|\", '#_Employee'['#_Employee_':'Task Type ID', '#_LANGUAGE':'~']), 'Detail Billable Rate':'Billable Rate', 'Measure':'Adjusted'])\n20260226: Introduced","position":6}
+['Detail Resource':'Billable Rate', 'Measure':{'Input', 'Adjustment'}, 'Version':'Plan'] = B:IF(STET(), STET(), 'Billable Rate'['Client':'#_Job'['#_Job_':'Master Client', '#_LANGUAGE':'~'], 'Task Type':'#_Employee'['#_Employee_':'Task Type Dim', '#_LANGUAGE':'~'], 'Day':'2026-04-29', 'Detail Billable Rate':'Billable Rate', 'Measure':'Adjusted', 'Version':'Actual'])
+### rule
+{"active":true,"comment":"REF||Cost Rate, Input|| STET, REF: Cost Rate, Adjusted","position":7}
+['Detail Resource':'Cost Rate', 'Measure':'Input'] = B:IF(['Detail Resource':'Billable', 'Measure':'Adjusted', 'Currency':'XXX'],IF(Exist(STET()), STET(), 'Cost Rate'['Detail Cost Rate':'Cost Rate', 'Measure':'Adjusted', 'Version':'Actual']), STET())
+### rule
+{"active":false,"comment":"REF||Cost Rate, Input, Adjustment|| STET, REF: CostRate, Adjusted\n\n20260226: Introduced","position":8}
+['Detail Resource':'Cost Rate', 'Measure':{'Input', 'Adjustment'}] = B:IF(Exist(STET()), STET(),'Cost Rate'['Detail Cost Rate':'Cost Rate', 'Measure':'Adjusted'])
+### rule
+{"active":true,"comment":"CAL||Revenue||AUD,NZD\n\n20260428: Added Currency in the Target\n20260226:Introduced","position":9}
+['Detail Resource':'Revenue', 'Currency':{'AUD', 'NZD'}, 'Measure':'Input'] = B:['Detail Resource':'Billable', 'Currency':'XXX', 'Measure':'Adjusted'] * ['Detail Resource':'Billable Rate', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"CAL||Cost||AUD,NZD\n\n20260226:Introduced","position":10}
+['Detail Resource':'Cost', 'Currency':{'AUD', 'NZD'}] = B:['Detail Resource':'Hours', 'Currency':'XXX'] * ['Detail Resource':'Cost Rate']
+### rule
+{"active":true,"comment":"CAL||FTE||XXX||Input\n\n20260402: Introduced.","position":11}
+['Detail Resource':'FTE', 'Currency':'XXX', 'Measure':'Input'] = ['Detail Resource':'Hours'] / 8
+### rule
+{"active":true,"comment":"LOG||Day~||Active||STET","position":12}
+['Detail Resource':{'Billable Active', 'Non Billable Active', 'Revenue Active', 'Cost Active'}, 'Day':'~'] = B:STET()
+### rule
+{"active":true,"comment":"CAL||Billable ||Estimate\n","position":13}
+['Detail Resource':'Billable Active'] = B:['Detail Resource':'Billable'] * ''['Detail Resource':'Job Active', 'Currency':'XXX', 'Measure':'Input', 'Version':'Estimate', 'Day':LEFT(!'Day', 7) | "-~", 'Job Type':'~', 'Employee':'~']
+### rule
+{"active":true,"comment":"CAL||Non Billable ||Estimate","position":14}
+['Detail Resource':'Non Billable Active'] = B:['Detail Resource':'Non Billable'] * ''['Detail Resource':'Job Active', 'Currency':'XXX','Measure':'Input', 'Version':'Estimate', 'Day':LEFT(!'Day', 7)|"-~", 'Job Type':'~', 'Employee':'~']
+### rule
+{"active":true,"comment":"CAL||Revenue||Estimate\n\n20260428:['Detail Resource':'Revenue Active'] = B:['Detail Resource':'Revenue'] *''['Detail Resource':'Job Active', 'Currency':'XXX','Measure':'Input', 'Version':'Estimate', 'Day':LEFT(!'Day', 7)|\"-~\", 'Job Type':'~', 'Employee':'~']","position":15}
+['Detail Resource':'Revenue Active', 'Currency':{'AUD', 'NZD'}] = B:['Detail Resource':'Billable Active', 'Currency':'XXX'] * ['Detail Resource':'Billable Rate']
+### rule
+{"active":true,"comment":"CAL||Cost||Estimate\n\n20260428: ['Detail Resource':'Cost Active'] = B:['Detail Resource':'Cost'] * ''['Detail Resource':'Job Active', 'Currency':'XXX','Measure':'Input', 'Version':'Estimate', 'Day':LEFT(!'Day', 7)|\"-~\", 'Job Type':'~', 'Employee':'~']","position":16}
+['Detail Resource':'Cost Active', 'Currency':{'AUD', 'NZD'}] = B:['Detail Resource':'Hours Active', 'Currency':'XXX'] * ['Detail Resource':'Cost Rate']
+### rule
+{"active":true,"comment":"LOG||Stage||Adjustment","position":17}
+['Detail Resource':'Stage', 'Measure':'Adjustment', 'Day':'~', 'Version':'Plan', 'Job Type':'~', 'Employee':'~', 'Scenario':'Base', 'Currency':'XXX'] = B:IF(['Measure':'Input'], ['Measure':'Input'], STET())

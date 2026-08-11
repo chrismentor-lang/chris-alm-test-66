@@ -1,0 +1,13 @@
+{
+  "-name": "fClientHeadMapping_800_000_fxAdditionalColumns_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Placeholder field transform in case any additional columns need to be added before loading to Snowflake."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xcClientHeadMapping_statCHFinal_ce"
+    }
+  }
+}

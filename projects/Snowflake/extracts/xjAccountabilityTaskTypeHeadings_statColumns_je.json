@@ -1,0 +1,41 @@
+{
+  "-name": "xjAccountabilityTaskTypeHeadings_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityTaskTypeHeadings_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "clientJobInvoiceId"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "estimateId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "jobId"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "parentTaskTypeHeadingId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Estimate",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "All Estimates",
+    "Description": "Purpose: List all Estimates by Clients\nPrimary Data Source: Accountability, Snowflake Consumption DB\nMaster Client > Client > Job Number > Estimate\n\n20260302: Removed Product level from this dimension as it was not required for any reporting\n20260116: Introduced",
+    "Name": "Estimate"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "rJedox_CopyIntoLanding_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from Jedox schema in the landing database to load the file in the stage into the table."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rJedox_CopyIntoLanding_rs.query.sql"
+  }
+}

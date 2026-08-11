@@ -1,0 +1,24 @@
+{
+  "-name": "dJobExecution_200_020_loadJobID_ld",
+  "-type": "Dimension",
+  "comment": "Inserts the Jedox job ID to the Job execution dimension.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Job Execution",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insert"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dJobExecution_200_010_byAllExecuted_fh"
+  }
+}

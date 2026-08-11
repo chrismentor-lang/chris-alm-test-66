@@ -1,0 +1,24 @@
+{
+  "-name": "xdEstimate_statBase_de",
+  "-type": "Dimension",
+  "attributesMode": "standardAttributes",
+  "comment": {
+    "#cdata-section": "20260727: Changed Read attributes from non to standardAttributes.\n20260724: Introduced to load the Jedox Estimate dimension into Snowflake."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Estimate"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": ".",
+        "-mode": "onlyBases",
+        "-operator": "like",
+        "-type": "accept"
+      }
+    }
+  }
+}

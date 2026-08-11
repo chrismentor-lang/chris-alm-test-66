@@ -1,0 +1,15 @@
+{
+  "-name": "fJedoxFiles_800_000_statCreate_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Loads file with Jedox data into Snowflake/Float directory on SFTP."
+  },
+  "connection": {
+    "-nameref": "cfJedox_varJedoxFileName_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "f${vJedoxFileName}_800_000_fxAdditionalColumns_ft"
+  },
+  "useScientificNotation": "true"
+}

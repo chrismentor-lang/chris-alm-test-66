@@ -1,0 +1,8 @@
+{
+  "-name": "Refresh HiBob Data",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Refresh HiBob Data.jobscript.groovy"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "-name": "vAccountabilityModifiedFrom",
+  "comment": {
+    "#cdata-section": "20260617: Converted it back to Groovy script from static value 2026-05-14T14:00:00Z.\n20260522: Changing the Default to 2026-05-14T14:00:00Z because the ETL failed for the entire last week and want to refresh the data"
+  },
+  "script": {
+    "#file": "vAccountabilityModifiedFrom.script.groovy"
+  }
+}

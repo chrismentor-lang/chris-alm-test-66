@@ -1,0 +1,35 @@
+{
+  "-name": "dFloatEndpoint_401_010_attrPageCount_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Sets attribute Page Count with the retrieved pages (of 200 records) for each Float endpoint."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dFloatEndpoint_401_000_mapPageCount_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Page Count",
+        "-type": "numeric"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "Page Count",
+            "input": {
+              "-nameref": "Page Count"
+            }
+          }
+        },
+        "input": {
+          "-nameref": "Element"
+        }
+      }
+    }
+  }
+}

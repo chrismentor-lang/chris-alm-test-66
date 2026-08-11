@@ -1,0 +1,20 @@
+{
+  "-name": "Create Redshift DDL files",
+  "-type": "Loop",
+  "assignment": {
+    "variable": {
+      "-name": "vRedshiftTable",
+      "input": {
+        "-nameref": "TABLE_NAME"
+      }
+    }
+  },
+  "execution": {
+    "-nameref": "fRedshiftDDL_600_000_statCreate_fl",
+    "-type": "load"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "New TableView"
+  }
+}

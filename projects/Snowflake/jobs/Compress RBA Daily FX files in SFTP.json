@@ -1,0 +1,11 @@
+{
+  "-name": "Compress RBA Daily FX files in SFTP",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Compresses the RBA files that were loaded into the SFTP folder Snowflake/RBA in the previous step."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Compress RBA Daily FX files in SFTP.jobscript.groovy"
+  }
+}

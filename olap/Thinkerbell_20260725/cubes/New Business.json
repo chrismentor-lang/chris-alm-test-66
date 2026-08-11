@@ -1,0 +1,13 @@
+{
+  "name": "New Business",
+  "kind": "normal",
+  "dimensions": [
+    "Month",
+    "Estimate",
+    "Detail New Business"
+  ],
+  "properties": {
+    "Description": "Can be Deleted\n20260401: Introduced to be able to store the name and description of New Business lines by month.",
+    "Name": "New Business"
+  }
+}

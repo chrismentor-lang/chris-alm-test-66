@@ -1,0 +1,11 @@
+{
+  "-name": "Compress Float files in SFTP",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Compresses the Float files that were loaded into the SFTP folder Snowflake/Float in the previous step."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Compress Float files in SFTP.jobscript.groovy"
+  }
+}

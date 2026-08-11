@@ -1,0 +1,11 @@
+{
+  "-name": "Update Accountability Refresh Token",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Script that checks whether the current refresh token as registered in the Token dimension is still valid. If not, it will refresh the token and set the validity for the new token.\n\n20260614: Commented out section that determines validity of refresh token because it's only valid once now."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Update Accountability Refresh Token.jobscript.groovy"
+  }
+}

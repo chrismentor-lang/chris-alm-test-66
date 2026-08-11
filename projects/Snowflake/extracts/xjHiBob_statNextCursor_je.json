@@ -1,0 +1,18 @@
+{
+  "-name": "xjHiBob_statNextCursor_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crestHiBob_var${vHiBobEndpoint}_rc"
+  },
+  "outputs": {
+    "output": {
+      "-input": "next_cursor"
+    }
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.response_metadata"
+    }
+  }
+}
