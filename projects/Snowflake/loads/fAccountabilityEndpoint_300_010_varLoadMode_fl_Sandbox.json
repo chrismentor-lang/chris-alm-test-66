@@ -1,0 +1,12 @@
+{
+  "-name": "fAccountabilityEndpoint_300_010_varLoadMode_fl_Sandbox",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "cfAccountability_varAccountabilityEndpoint_fc_Sandbox"
+  },
+  "mode": "${vFileLoadMode}",
+  "source": {
+    "-nameref": "fAccountabilityEstimates_300_000_fxRemoveCharacters_ft_Sandbox"
+  },
+  "useScientificNotation": "true"
+}

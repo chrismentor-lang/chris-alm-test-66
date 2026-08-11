@@ -1,0 +1,38 @@
+{
+  "-name": "xjAccountabilityBudgetVersions_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityBudgetVersions_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "actualsUpToMonthId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "sortOrder"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

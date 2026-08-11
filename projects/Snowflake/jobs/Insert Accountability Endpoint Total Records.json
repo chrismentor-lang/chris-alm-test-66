@@ -1,0 +1,11 @@
+{
+  "-name": "Insert Accountability Endpoint Total Records",
+  "-type": "Standard",
+  "executions": {
+    "execution": {
+      "-nameref": "dAccountabilityEndpoint_301_010_insTotalRecords_dl",
+      "-type": "load"
+    }
+  },
+  "failStatus": "inherit"
+}

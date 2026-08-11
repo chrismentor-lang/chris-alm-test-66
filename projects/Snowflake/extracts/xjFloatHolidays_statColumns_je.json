@@ -1,0 +1,32 @@
+{
+  "-name": "xjFloatHolidays_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all holidays and their details from Float. Inactive at the moment.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatHolidays_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "holiday_id"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "end_date"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

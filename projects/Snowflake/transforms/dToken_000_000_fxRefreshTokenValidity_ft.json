@@ -1,0 +1,50 @@
+{
+  "-name": "dToken_000_000_fxRefreshTokenValidity_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Determined validity of refresh token (30 days from now)."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxValidTill",
+      "-type": "Groovy",
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "dToken_000_000_fxRefreshTokenValidity_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountability_statRefreshToken_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Element",
+          "input": {
+            "-constant": "vAccountabilityRefreshToken"
+          }
+        },
+        {
+          "-name": "Token Value",
+          "input": {
+            "-nameref": "refresh_token"
+          }
+        },
+        {
+          "-name": "Valid Till",
+          "input": {
+            "-nameref": "fxValidTill"
+          }
+        }
+      ]
+    }
+  }
+}

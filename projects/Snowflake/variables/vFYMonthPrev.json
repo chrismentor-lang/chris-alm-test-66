@@ -1,0 +1,9 @@
+{
+  "-name": "vFYMonthPrev",
+  "comment": {
+    "#cdata-section": "20260722: Introduced to make sure that we always have the variable set to the previous month of the financial year."
+  },
+  "script": {
+    "#file": "vFYMonthPrev.script.groovy"
+  }
+}

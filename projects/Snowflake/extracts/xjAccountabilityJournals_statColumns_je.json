@@ -1,0 +1,98 @@
+{
+  "-name": "xjAccountabilityJournals_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityJournals_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "accountingMonthId"
+      },
+      {
+        "-input": "accountingYearId"
+      },
+      {
+        "-input": "addedAt"
+      },
+      {
+        "-input": "addedByEmployeeId"
+      },
+      {
+        "-input": "approved"
+      },
+      {
+        "-input": "approvedAt"
+      },
+      {
+        "-input": "approvedByEmployeeId"
+      },
+      {
+        "-input": "cancelled"
+      },
+      {
+        "-input": "cancelledAt"
+      },
+      {
+        "-input": "cancelledByEmployeeId"
+      },
+      {
+        "-input": "cashAccountingMonthId"
+      },
+      {
+        "-input": "cashAccountingYearId"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "fxRate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "isSystemJournal"
+      },
+      {
+        "-input": "journalNumber"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "reference"
+      },
+      {
+        "-input": "submitted"
+      },
+      {
+        "-input": "systemTransactionId"
+      },
+      {
+        "-input": "systemTransactionNumber"
+      },
+      {
+        "-input": "transactionTypeId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "-name": "xjFloatClients_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all clients and their names from Float.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatClients_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "client_id"
+      },
+      {
+        "-input": "name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

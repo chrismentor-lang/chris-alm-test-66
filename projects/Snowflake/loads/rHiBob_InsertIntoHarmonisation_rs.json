@@ -1,0 +1,13 @@
+{
+  "-name": "rHiBob_InsertIntoHarmonisation_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls the stored procedure to insert the data from the landing table into the harmonisation database.\n\nCALL LANDING.HIBOB.SP_INSERT_HARMONISATION_EMPLOYEES();"
+  },
+  "connection": {
+    "-nameref": "csfHiBobLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rHiBob_InsertIntoHarmonisation_rs.query.sql"
+  }
+}

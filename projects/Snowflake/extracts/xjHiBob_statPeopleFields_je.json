@@ -1,0 +1,47 @@
+{
+  "-name": "xjHiBob_statPeopleFields_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crestHiBob_varPeopleFields_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "categoryId"
+      },
+      {
+        "-input": "categoryDisplayName"
+      },
+      {
+        "-input": "category"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "jsonPath"
+      },
+      {
+        "-input": "type"
+      },
+      {
+        "-input": "typeData"
+      },
+      {
+        "-input": "historical"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

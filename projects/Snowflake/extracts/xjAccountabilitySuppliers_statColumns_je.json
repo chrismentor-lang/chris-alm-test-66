@@ -1,0 +1,110 @@
+{
+  "-name": "xjAccountabilitySuppliers_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilitySuppliers_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "clientId"
+      },
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "companyNumber"
+      },
+      {
+        "-input": "countryId"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "customCode1Id"
+      },
+      {
+        "-input": "customCode2Id"
+      },
+      {
+        "-input": "customCode3Id"
+      },
+      {
+        "-input": "customCode4Id"
+      },
+      {
+        "-input": "customCode5Id"
+      },
+      {
+        "-input": "domicileCountryId"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "generalLedgerAccountId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "masterSupplierId"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "payToBankAccountName"
+      },
+      {
+        "-input": "payToBankAccountNumber"
+      },
+      {
+        "-input": "payToBankAccountType"
+      },
+      {
+        "-input": "payToBankName"
+      },
+      {
+        "-input": "payToBankNumber"
+      },
+      {
+        "-input": "supplierAccountNumber"
+      },
+      {
+        "-input": "supplierTypeId"
+      },
+      {
+        "-input": "taskTypeId"
+      },
+      {
+        "-input": "taxCodeId"
+      },
+      {
+        "-input": "taxIdNumber"
+      },
+      {
+        "-input": "taxPercentage"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "-name": "xjHiBob_statEmployeeEndDate_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crestHiBob_statEmployeeEndDate_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "firstName"
+      },
+      {
+        "-input": "surname"
+      },
+      {
+        "-input": "lifecycle.custom.field_1754965026966"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.employees"
+    }
+  }
+}

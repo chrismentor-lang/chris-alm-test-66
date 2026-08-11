@@ -1,0 +1,32 @@
+{
+  "-name": "dAccountabilityEndpoint_301_000_attrTotal_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityMetadata_varEndpoint_je"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Total Records",
+        "-type": "numeric"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "Total Records",
+            "input": {
+              "-nameref": "total"
+            }
+          }
+        },
+        "input": {
+          "-constant": "${vAccountabilityEndpoint}"
+        }
+      }
+    }
+  }
+}

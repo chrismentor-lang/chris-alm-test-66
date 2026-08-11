@@ -1,0 +1,15 @@
+{
+  "-name": "cfFXrates_statHTTPHist20142017_fc",
+  "-type": "ExcelFile",
+  "comment": {
+    "#cdata-section": "Connection to daily refreshed RBA FX file with exchange rates between 2014 and 2017."
+  },
+  "database": {
+    "#cdata-section": "https://www.rba.gov.au/statistics/tables/xls-hist/2014-2017.xls"
+  },
+  "directory": "false",
+  "location": {
+    "-type": "HTTP"
+  },
+  "ssl": "off"
+}

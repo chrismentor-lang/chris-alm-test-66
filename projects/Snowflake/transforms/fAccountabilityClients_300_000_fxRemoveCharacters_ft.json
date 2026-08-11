@@ -1,0 +1,236 @@
+{
+  "-name": "fAccountabilityClients_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fxName",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NAM",
+            "-nameref": "name"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClients_300_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityClients_300_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityClients_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "billable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientAccountNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientManagerId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientTypeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "code"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "companyNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "creditLimit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "currencyId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode1Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode2Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode3Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode4Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode5Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "masterClientId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "mediaClientManagerId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "mediaCommissionRebatePercentage"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "mediaServiceFeeCalculateOn"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "mediaServiceFeePercentage"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "mediaTaxStatus"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "paymentTermsBasedOn"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "paymentTermsFactor"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "paymentTermsNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "serviceFeePercentage"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "supplierInvoiceMarkUpPercentage"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxCodeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxIdNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxPercentage"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "websiteUrl"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "withholdingTaxCodeId"
+          }
+        }
+      ]
+    }
+  }
+}

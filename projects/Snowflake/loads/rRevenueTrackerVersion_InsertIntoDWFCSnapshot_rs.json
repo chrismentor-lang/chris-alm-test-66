@@ -1,0 +1,10 @@
+{
+  "-name": "rRevenueTrackerVersion_InsertIntoDWFCSnapshot_rs",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rRevenueTrackerVersion_InsertIntoDWFCSnapshot_rs.query.sql"
+  }
+}

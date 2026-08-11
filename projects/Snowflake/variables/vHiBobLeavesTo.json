@@ -1,0 +1,9 @@
+{
+  "-name": "vHiBobLeavesTo",
+  "comment": {
+    "#cdata-section": "For 'to' parameter for leaves endpoint"
+  },
+  "script": {
+    "#file": "vHiBobLeavesTo.script.groovy"
+  }
+}

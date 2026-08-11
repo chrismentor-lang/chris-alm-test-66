@@ -1,0 +1,24 @@
+{
+  "-name": "dFloatEndpoint_401_020_insPageCount_dl",
+  "-type": "Dimension",
+  "comment": "Loads endpoint page count as attribute into the Float Endpoint dimension.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbellApplicationManagement_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Float Endpoint",
+    "attributes": {
+      "-mode": "insert"
+    },
+    "consolidations": {
+      "-mode": "update"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dFloatEndpoint_401_010_attrPageCount_fh"
+  }
+}

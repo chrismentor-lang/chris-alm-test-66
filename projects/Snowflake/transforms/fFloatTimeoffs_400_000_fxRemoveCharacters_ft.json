@@ -1,0 +1,134 @@
+{
+  "-name": "fFloatTimeoffs_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the timeoff notes from the Timeoffs API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxTimeoffNotes",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "TON",
+          "-nameref": "timeoff_notes"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fFloatTimeoffs_400_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatTimeoffs_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created_by"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "end_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "full_day"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "hours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified_by"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "people_ids"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "repeat_end"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "repeat_state"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "start_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "start_time"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "status"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "status_creator_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "status_note"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timeoff_id"
+          }
+        },
+        {
+          "-name": "timeoff_notes",
+          "input": {
+            "-nameref": "fxTimeoffNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timeoff_type_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timeoff_type_name"
+          }
+        }
+      ]
+    }
+  }
+}

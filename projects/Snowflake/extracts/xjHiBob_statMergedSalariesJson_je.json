@@ -1,0 +1,106 @@
+{
+  "-name": "xjHiBob_statMergedSalariesJson_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "cfHiBob_statJson_fc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "employeeId",
+        "-reference": "Outer"
+      },
+      {
+        "-input": "canBeDeleted",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "isCurrent",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "modificationDate",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "payPeriod",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "change.changedById",
+        "-name": "changedById",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "change.changedBy",
+        "-name": "changedBy",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "payFrequency",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "id",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "activeEffectiveDate",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "creationDate",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753215529207.value",
+        "-name": "column_1753215529207_value",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753215529207.currency",
+        "-name": "column_1753215529207_currency",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753502305813",
+        "-name": "column_1753502305813",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753504864885",
+        "-name": "column_1753504864885",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "effectiveDate",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "base.value",
+        "-name": "base_value",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "base.currency",
+        "-name": "base_currency",
+        "-reference": "Inner"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": [
+        {
+          "#text": "$.results",
+          "-name": "Outer"
+        },
+        {
+          "#text": "$.values",
+          "-name": "Inner"
+        }
+      ]
+    }
+  }
+}

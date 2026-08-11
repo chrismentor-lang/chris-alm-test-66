@@ -1,0 +1,79 @@
+{
+  "-name": "fFloatMilestones_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sanitising the name from the Milestones API to remove pipes and line breaks."
+  },
+  "functions": {
+    "function": {
+      "-name": "fxName",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NAM",
+          "-nameref": "name"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fFloatMilestones_400_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatMilestones_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "created"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "end_date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "milestone_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "modified"
+          }
+        },
+        {
+          "-name": "name",
+          "input": {
+            "-nameref": "fxName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "phase_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "project_id"
+          }
+        }
+      ]
+    }
+  }
+}

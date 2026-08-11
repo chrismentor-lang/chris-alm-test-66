@@ -1,0 +1,13 @@
+{
+  "-name": "rJedox_TruncateLandingTable_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Truncates the landing table in the Jedox schema in the Landing database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rJedox_TruncateLandingTable_rs.query.sql"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "rCostRate_InsertIntoDatawarehouse_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from accountability schema in the HARMONISATION database that captures employee cost rates for yesterday to build up cost rate history by day in COST_RATE table in the DW schema of the DATAWAREHOUSE database."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rCostRate_InsertIntoDatawarehouse_rs.query.sql"
+  }
+}

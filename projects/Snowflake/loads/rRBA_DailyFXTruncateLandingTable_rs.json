@@ -1,0 +1,13 @@
+{
+  "-name": "rRBA_DailyFXTruncateLandingTable_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Truncates the landing table in the RBA schema in the Landing database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfRBALoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRBA_DailyFXTruncateLandingTable_rs.query.sql"
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "-name": "Update Redshift Landing Tables",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Create Redshift files",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Compress Redshift files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rRedshift_StageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rRedshift_StageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rRedshift_TruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rRedshift_CopyIntoLanding_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

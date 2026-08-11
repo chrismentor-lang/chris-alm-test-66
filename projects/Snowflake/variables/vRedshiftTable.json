@@ -1,0 +1,5 @@
+{
+  "-name": "vRedshiftTable",
+  "comment": {},
+  "default": "ACCOUNTING_MONTH"
+}

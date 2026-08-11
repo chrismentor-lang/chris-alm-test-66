@@ -1,0 +1,7 @@
+{
+  "-name": "vHiBobPage",
+  "comment": {
+    "#cdata-section": "variable updated in groovy using snowflake procedure"
+  },
+  "default": "1"
+}

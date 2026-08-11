@@ -1,0 +1,90 @@
+{
+  "-name": "fHiBobPeopleFields_000_000_fxReplace_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "To remove '/n' from description"
+  },
+  "functions": {
+    "function": {
+      "-name": "fxReplace",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NAM",
+          "-nameref": "description"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fHiBobPeopleFields_000_000_fxReplace_ft.functions.function.parameters.script.groovy"
+        },
+        "type": "String"
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjHiBob_statPeopleFields_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "categoryId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "categoryDisplayName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "category"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "name"
+          }
+        },
+        {
+          "-name": "description",
+          "input": {
+            "-nameref": "fxReplace"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jsonPath"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "typeData"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "historical"
+          }
+        }
+      ]
+    }
+  }
+}

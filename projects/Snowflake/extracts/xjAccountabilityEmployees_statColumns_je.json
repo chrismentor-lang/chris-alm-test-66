@@ -1,0 +1,128 @@
+{
+  "-name": "xjAccountabilityEmployees_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityEmployees_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "approvalRights"
+      },
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "customCode1Id"
+      },
+      {
+        "-input": "customCode2Id"
+      },
+      {
+        "-input": "customCode3Id"
+      },
+      {
+        "-input": "customCode4Id"
+      },
+      {
+        "-input": "customCode5Id"
+      },
+      {
+        "-input": "dailyHours"
+      },
+      {
+        "-input": "dailyLeaveHours"
+      },
+      {
+        "-input": "dailyTimesheetHours"
+      },
+      {
+        "-input": "defaultPayrollAccountId"
+      },
+      {
+        "-input": "defaultTaskTypeId"
+      },
+      {
+        "-input": "defaultTaxCodeId"
+      },
+      {
+        "-input": "departmentId"
+      },
+      {
+        "-input": "email"
+      },
+      {
+        "-input": "endDate"
+      },
+      {
+        "-input": "hourlyBillableRate"
+      },
+      {
+        "-input": "hourlyCostRate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "officeRestrictions"
+      },
+      {
+        "-input": "preferredName"
+      },
+      {
+        "-input": "roleId"
+      },
+      {
+        "-input": "startDate"
+      },
+      {
+        "-input": "supervisorId"
+      },
+      {
+        "-input": "targetBillableTimePercentage"
+      },
+      {
+        "-input": "taskEmail"
+      },
+      {
+        "-input": "titleId"
+      },
+      {
+        "-input": "userAccessGroupId"
+      },
+      {
+        "-input": "weeklyTimeSubmit"
+      },
+      {
+        "-input": "weeklyTimesheetHours"
+      },
+      {
+        "-input": "workingDays"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

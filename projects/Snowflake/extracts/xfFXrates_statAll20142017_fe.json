@@ -1,0 +1,17 @@
+{
+  "-name": "xfFXrates_statAll20142017_fe",
+  "-type": "Excel",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves daily RBA FX rates between 2014 and 2017."
+  },
+  "connection": {
+    "-nameref": "cfFXrates_statHTTPHist20142017_fc"
+  },
+  "dateTargetFormat": "dd-MMM-YYYY",
+  "firstRowType": "true",
+  "header": "true",
+  "query": {
+    "#file": "xfFXrates_statAll20142017_fe.query.sql"
+  }
+}

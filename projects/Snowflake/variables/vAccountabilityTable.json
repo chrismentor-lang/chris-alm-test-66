@@ -1,0 +1,5 @@
+{
+  "-name": "vAccountabilityTable",
+  "comment": {},
+  "default": "GENERAL_LEDGER_TRANSACTIONS"
+}

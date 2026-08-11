@@ -1,0 +1,35 @@
+{
+  "-name": "dHiBobEndpoint_950_010_attrCursor_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Load cursor value into dimension Hi bob endpoint attribute cursor"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "fHiBob_950_000_fxDisplay_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Cursor",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "Cursor",
+            "input": {
+              "-nameref": "Cursor"
+            }
+          }
+        },
+        "input": {
+          "-constant": "${vHiBobEndpoint}"
+        }
+      }
+    }
+  }
+}

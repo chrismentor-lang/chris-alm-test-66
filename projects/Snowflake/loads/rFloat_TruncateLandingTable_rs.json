@@ -1,0 +1,13 @@
+{
+  "-name": "rFloat_TruncateLandingTable_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Truncates the landing table in the Float schema in the Landing database in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfFloatLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rFloat_TruncateLandingTable_rs.query.sql"
+  }
+}

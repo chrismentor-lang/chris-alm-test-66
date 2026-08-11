@@ -1,0 +1,38 @@
+{
+  "-name": "xjFloatTimeoff-Types_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all leave types and their details from Float. \n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatTimeoff-Types_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "approval_required"
+      },
+      {
+        "-input": "color"
+      },
+      {
+        "-input": "created_by"
+      },
+      {
+        "-input": "timeoff_type_id"
+      },
+      {
+        "-input": "timeoff_type_name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "-name": "cfRBA_varDailyFX_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "Connection to the daily file with FX rates that are pushed into SFTP from the RBA feed."
+  },
+  "database": {
+    "#cdata-section": "Snowflake/RBA/DailyFX/DailyFX_${vFileDate}.csv"
+  },
+  "delimiter": "|",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "#none"
+}

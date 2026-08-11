@@ -1,0 +1,34 @@
+{
+  "-name": "Update Revenue Overview Table",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260722: Introduced."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "Update Jedox Tables",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vJedoxFileName",
+        "default": "RevenueOverview"
+      },
+      {
+        "-name": "vJedoxWinSCPFolder",
+        "default": "Snowflake/Jedox/RevenueOverview"
+      },
+      {
+        "-name": "vSCD",
+        "default": "0"
+      },
+      {
+        "-name": "vJedoxSnowflakeTable",
+        "default": "REVENUE_OVERVIEW"
+      }
+    ]
+  }
+}

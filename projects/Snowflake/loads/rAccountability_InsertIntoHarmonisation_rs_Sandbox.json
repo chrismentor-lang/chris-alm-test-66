@@ -1,0 +1,13 @@
+{
+  "-name": "rAccountability_InsertIntoHarmonisation_rs_Sandbox",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "CALL LANDING.FULL_ACCOUNTABILITY.SP_INSERT_HARMONISATION_CLIENTS();"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rAccountability_InsertIntoHarmonisation_rs_Sandbox.query.sql"
+  }
+}

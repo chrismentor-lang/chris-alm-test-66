@@ -1,0 +1,40 @@
+{
+  "-name": "Update Accountability Tables",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that retrieves the data from all required Accountability endpoints, pushes to csv-files and then uploads into Snowflake landing and harmonisation databases."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Create Accountability Endpoint files daily",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Compress Accountability files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rAccountability_StageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_StageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_TruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_CopyIntoLanding_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}
