@@ -1,0 +1,8 @@
+{
+  "name": "Accountability Endpoint",
+  "kind": "normal",
+  "properties": {
+    "Description": "Journals should always sit before GL_Trans and JournalEntries as this table should be refreshed before refreshing the other two datasets",
+    "Name": "Accountability Endpoint"
+  }
+}

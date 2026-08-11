@@ -1,0 +1,8 @@
+{
+  "name": "Float Emails",
+  "kind": "normal",
+  "properties": {
+    "Description": "20260407: Introduced to send the emails for the projects created and updated in Float",
+    "Name": "Float Emails"
+  }
+}

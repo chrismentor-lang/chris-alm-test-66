@@ -1,0 +1,14 @@
+{
+  "name": "Conversion Type",
+  "kind": "normal",
+  "properties": {
+    "DefaultParentElement": "Unassigned",
+    "DefaultReadElement": "All Conversion Types",
+    "DefaultWriteElement": "~",
+    "Description": "Purpose:\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Introduced",
+    "NAElement": "~",
+    "Name": "Conversion Type",
+    "TotalElement": "All Conversion Types",
+    "Type": "Business"
+  }
+}

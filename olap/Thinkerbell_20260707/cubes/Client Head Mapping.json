@@ -1,0 +1,13 @@
+{
+  "name": "Client Head Mapping",
+  "kind": "normal",
+  "dimensions": [
+    "Job",
+    "Task Type",
+    "Detail Client Head Mapping"
+  ],
+  "properties": {
+    "Description": "20260520: Introduced to load the default mapping from Snowflake and allow the user to update the Client Head mapping for a Job and a Task Type.",
+    "Name": "Client Head Mapping"
+  }
+}

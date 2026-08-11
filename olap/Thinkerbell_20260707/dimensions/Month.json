@@ -1,0 +1,14 @@
+{
+  "name": "Month",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "All Months",
+    "DefaultWriteElement": "~",
+    "Description": "Purpose: List Month Hierarchies.\nPrimary Data Source: Time Editor and ETL\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "NAElement": "~",
+    "Name": "Month",
+    "TimeEditorConf": "{\"LEVELTYPE\":\"YEAR-QUARTER-MONTH\",\"STARTYEAR\":2017,\"ENDYEAR\":2028,\"FISCALYEARSTART\":\"July\",\"ADDITIONALELEMENTYEAR\":true,\"ADDITIONALELEMENTMONTH\":false,\"OPENINGPERIOD\":false,\"DUMMYELEMENT\":true,\"SEPARATEHIERARCHIES\":true,\"CURRENTYEARHIERARCHIES\":\"111100\"}",
+    "TotalElement": "All Months",
+    "Type": "Time"
+  }
+}
