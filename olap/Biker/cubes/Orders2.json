@@ -1,0 +1,13 @@
+{
+  "name": "Orders2",
+  "kind": "normal",
+  "dimensions": [
+    "Years",
+    "Months",
+    "Products",
+    "Customers",
+    "Channels",
+    "Versions",
+    "Measures"
+  ]
+}

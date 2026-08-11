@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="utf-8"?>
+<subsetDef id="5"><dimension>Customers</dimension><indent>1</indent><sorting>0;0;;0;;0;1;;</sorting><structural>;false;false;;;;;$&quot;LevelStart&quot;;$&quot;LevelEnd&quot;;</structural><vars><var name="LevelEnd"><value>1</value></var><var name="LevelStart"><value>1</value></var></vars></subsetDef>

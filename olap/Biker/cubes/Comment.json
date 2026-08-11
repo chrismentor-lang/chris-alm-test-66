@@ -1,0 +1,12 @@
+{
+  "name": "Comment",
+  "kind": "normal",
+  "dimensions": [
+    "Months",
+    "Years",
+    "Versions",
+    "Balance_Sheet",
+    "Client",
+    "Comment"
+  ]
+}

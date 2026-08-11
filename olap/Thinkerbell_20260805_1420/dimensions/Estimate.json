@@ -1,0 +1,10 @@
+{
+  "name": "Estimate",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "All Estimates",
+    "Description": "Purpose: List all Estimates by Clients\nPrimary Data Source: Accountability, Snowflake Consumption DB\nMaster Client > Client > Job Number > Estimate\nEach job level carries a job dummy because the actuals are at that level.\n\n20260722: Added the attribute Estimate Deleted to be able to register if an estimate got deleted.\n20260714: Deleted 25827.\n20260302: Removed Product level from this dimension as it was not required for any reporting\n20260116: Introduced",
+    "Name": "Estimate"
+  }
+}

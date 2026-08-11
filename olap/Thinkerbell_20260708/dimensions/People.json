@@ -1,0 +1,9 @@
+{
+  "name": "People",
+  "kind": "normal",
+  "properties": {
+    "Audit": "7",
+    "Description": "Test Dimension, not used anywhere",
+    "Name": "People"
+  }
+}

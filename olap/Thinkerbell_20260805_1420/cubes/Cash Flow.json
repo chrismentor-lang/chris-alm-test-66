@@ -1,0 +1,16 @@
+{
+  "name": "Cash Flow",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Month",
+    "Office",
+    "Currency",
+    "CF Account",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Purpose: Analysis of Cash Flow Data\nPrimary Data Source: Cube Rules\nSupporting Cubes: Cash Flow Calculation\nDependencies:\nOwner: Geetansh Mahajan\n\nUpdates:\n20260317: Introduced",
+    "Name": "Cash Flow"
+  }
+}

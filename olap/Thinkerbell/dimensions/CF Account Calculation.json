@@ -1,0 +1,9 @@
+{
+  "name": "CF Account Calculation",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: CF Roll Up with BS and PL Accounts used for cube rules\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "CF Account Calculation"
+  }
+}

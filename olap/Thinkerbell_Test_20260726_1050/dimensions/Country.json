@@ -1,0 +1,7 @@
+{
+  "name": "Country",
+  "kind": "normal",
+  "properties": {
+    "Name": "Country"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Cash Flow Calculation",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Month",
+    "Office",
+    "Currency",
+    "CF Account Calculation",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Purpose: Analysis of Cash Flow Data\nPrimary Data Source: Cube Rules\nSupporting Cubes: FX, Profit & Loss, Balance Sheet\nDependencies: Cash Flow.\nOwner: Geetansh Mahajan\n\nUpdates:\n20260317: Introduced",
+    "MeasureDimension": "CF Account Calculation",
+    "Name": "Cash Flow Calculation",
+    "TimeDimension": "Month"
+  }
+}

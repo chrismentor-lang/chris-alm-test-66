@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><subsetDef id="top"><dimension>Month</dimension><indent>1</indent><structural>;0;false;2;;;;;;</structural><text>"^((?!~|FY).)*$";1;true</text><sorting>0;2;;0;;0;0;;</sorting></subsetDef>

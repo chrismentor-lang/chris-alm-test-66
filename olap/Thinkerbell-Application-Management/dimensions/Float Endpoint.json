@@ -1,0 +1,8 @@
+{
+  "name": "Float Endpoint",
+  "kind": "normal",
+  "properties": {
+    "Audit": "7",
+    "Name": "Float Endpoint"
+  }
+}

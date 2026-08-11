@@ -1,0 +1,8 @@
+{
+  "name": "Accounting Month",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Name": "Accounting Month"
+  }
+}

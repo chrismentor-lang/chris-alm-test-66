@@ -1,0 +1,36 @@
+{
+  "components": {
+    "dimensions.Accountability Emails": {
+      "hash": "sha256:bbb4714744ccfe10c791d088ce2e858b4c23234913c8af3e3af4589d98d38581"
+    },
+    "dimensions.Accountability Endpoint": {
+      "hash": "sha256:4a13ec660ed478c9606bd754eba246fd2b6ab92434c1a153cdd52168d940c0db"
+    },
+    "dimensions.Float Emails": {
+      "hash": "sha256:ebbe8acd3e9f50646d704613030334a32fda35ccecca71964893c50e643cc27a"
+    },
+    "dimensions.Float Endpoint": {
+      "hash": "sha256:28d15fb9c1200276e7c30ba1b874337c9a6393301ea1e049884fea3f3a94c054"
+    },
+    "dimensions.Hi Bob Endpoint": {
+      "hash": "sha256:f2259f2649c07cfba211d67741a8a1f6fd211b8cd98499bc7cf3b4c36c11b658"
+    },
+    "dimensions.Hi Bob Policy Types": {
+      "hash": "sha256:422a94676355fe5e4dfc7976a1dda3686be2f98fbd0f4d084388d792b79e345b"
+    },
+    "dimensions.Jedox Files": {
+      "hash": "sha256:a921a10ae5d9ca8317d968d1fa500541dab34b7499b8b1abbc4537b22daf32b3"
+    },
+    "dimensions.Token": {
+      "hash": "sha256:5d70ecc9f3c78ab880e659e2468dd7c69ee9388b62ae3b96ce648d8b12ed15a8"
+    }
+  },
+  "hash": "sha256:81cbaa971424a66cf0404b6f289a362f929063e7a7ab7f85fa664ba719da6518",
+  "project": "olap:Thinkerbell-Application-Management",
+  "source": {
+    "at": "2026-08-11T06:04:08Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "token": "14312891"
+}

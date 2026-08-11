@@ -1,0 +1,15 @@
+### rule
+{"active":true,"position":1}
+['HR Detail':'Full Time Base Salary'] = B:IF(OR(!'Month' == "~", RIGHT(!'Month',2) == "-~" ), null, PALO.DATA("","",CONCATENATE(!'Month',"_YTD"),"Full Time Base Salary (Change)"))
+### rule
+{"active":true,"comment":"B:IF(!'Month' != \"~\", IF('#_Month'['#_Month_':'PreviousMonth'] == \"\", IF(RIGHT(!'Month', 3) == \"-07\", ''['Month':'~', 'HR Detail':'Full Time Base Salary (Change)'] * ['HR Detail':'Salary Increase %'] + ['HR Detail':'Salary Increase Amount'], ''['Month':CONCATENATE('#_Month'['#_Month_':'Fiscal Year Element', 'Month':'#_Month'['#_Month_':'PreviousMonth']]), 'HR Detail':'Full Time Base Salary (Change)'] * ['HR Detail':'Salary Increase %'] + ['HR Detail':'Salary Increase Amount']), STET()), STET())","position":2}
+['HR Detail':'Full Time Base Salary (Change)'] = B:IF(!'Month'!="~",IF(PALO.DATA("","#_Month","PreviousMonth",!'Month',"~")!="",IF(RIGHT(!'Month',2) == "01",PALO.DATA("","",LEFT(!'Month',4)|"-~","Full time base salary (Change)")*['Salary Increase %']+['Salary Increase Amount'],PALO.DATA("","",CONCATENATE(PALO.DATA("","#_Month","PreviousMonth",!'Month',"~"),"_YTD"),"Full time base salary (Change)")*['Salary Increase %']+['Salary Increase Amount']),STET()),STET())
+### rule
+{"active":true,"position":3}
+['HR Detail':'Salary'] = B:['HR Detail':'FTE'] * ['HR Detail':'Full Time Base Salary']
+### rule
+{"active":false,"position":4}
+['HR Detail':'FTE (Change)'] = B:IF(OR((!'Month')=="~",RIGHT(!'Month',2)=="-~",PALO.DATA("","#_Month","PreviousMonth",!'Month')==""), null, IF(RIGHT(!'Month',2)=="01",['FTE'],['FTE'] - PALO.DATA("","",PALO.DATA("","#_Month","PreviousMonth",!'Month'),"FTE") ))
+### rule
+{"active":true,"position":5}
+['HR Detail':'FTE'] = B:IF(OR((!'Month')=="~",RIGHT(!'Month',2) == "-~"),null,PALO.DATA("","",CONCATENATE(!'Month',"_YTD"),"FTE (Change)"))

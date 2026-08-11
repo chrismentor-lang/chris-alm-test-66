@@ -1,0 +1,9 @@
+{
+  "name": "Detail FTE",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: FTE Cube Details\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260721: Changed Comment on Billable Hours Active and Non-Billable Hours Active from Sourcing from HiBob to sourcing from Resource Planning model.\n20260406: Added Utilisation as this is supposed to be calculated per employee regardless of job/client.\n20260406: Added Leave as child to the element Remaining Availability because it should be deducted.\n20260406: Renamed Availability to Remaining Availability. Also introduced new Availability with children FTE and Leave.\n20260122: Created",
+    "Name": "Detail FTE"
+  }
+}

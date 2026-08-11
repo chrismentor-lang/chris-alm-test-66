@@ -1,0 +1,8 @@
+{
+  "name": "Detail Revenue",
+  "kind": "normal",
+  "properties": {
+    "Description": "Purpose: List All Revenue Measure Types\nPrimary Data Source: Manual\n\n20260213: Removed Utilisation and FTE/Headcount and introduced New Business as requested by Jo\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Detail Revenue"
+  }
+}

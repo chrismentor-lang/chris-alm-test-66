@@ -1,0 +1,3 @@
+### rule
+{"active":true,"comment":"LOG||Input,Planning Versions||Input,Actual\n\n20260226: Introduced","position":0.5}
+['Version':{'Budget', 'Estimate', 'Plan', 'Forecast 3+9', 'Forecast 6+6', 'Forecast 9+3', 'Previous Year', 'Mid-Term Planning'}, 'Measure':'Input'] = B:['Measure':'Input', 'Version':'Actual']

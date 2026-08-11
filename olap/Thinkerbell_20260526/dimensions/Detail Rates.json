@@ -1,0 +1,8 @@
+{
+  "name": "Detail Rates",
+  "kind": "normal",
+  "properties": {
+    "Description": "Purpose: Rate Cube Details\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "Detail Rates"
+  }
+}

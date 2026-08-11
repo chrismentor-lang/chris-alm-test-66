@@ -1,0 +1,10 @@
+{
+  "name": "BS Account",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultParentElement": "Unassigned",
+    "Description": "Purpose: BS Roll Up\nPrimary Data Source: Accountability, Snowflake, Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "BS Account"
+  }
+}

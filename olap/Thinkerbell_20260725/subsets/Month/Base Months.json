@@ -1,0 +1,7 @@
+{
+  "name": "Base Months",
+  "owner": "Month",
+  "attributes": {
+    "Description": "20260401: Introduced to make sure that we have a subset with just base level elements that don't include FY or ~."
+  }
+}

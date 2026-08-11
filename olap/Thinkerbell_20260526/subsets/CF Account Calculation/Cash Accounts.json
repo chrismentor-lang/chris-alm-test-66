@@ -1,0 +1,7 @@
+{
+  "name": "Cash Accounts",
+  "owner": "CF Account Calculation",
+  "attributes": {
+    "Description": "All Cash Movement Accounts, used in rule"
+  }
+}

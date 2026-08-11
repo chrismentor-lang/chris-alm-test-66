@@ -1,0 +1,8 @@
+{
+  "name": "Jedox Planning",
+  "kind": "normal",
+  "properties": {
+    "Description": "20260730: Dimension created to allow the functional admin to stop writing into the planning models when running heavy jobs.",
+    "Name": "Jedox Planning"
+  }
+}

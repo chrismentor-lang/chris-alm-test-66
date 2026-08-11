@@ -1,0 +1,8 @@
+{
+  "name": "Location",
+  "kind": "normal",
+  "properties": {
+    "Description": "20260731: Introduced to facilitate the registration of employees by state.",
+    "Name": "Location"
+  }
+}

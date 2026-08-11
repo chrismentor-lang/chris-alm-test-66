@@ -1,0 +1,8 @@
+{
+  "name": "Hi Bob Task Type",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Name": "Hi Bob Task Type"
+  }
+}

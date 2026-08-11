@@ -1,0 +1,11 @@
+{
+  "name": "Balance",
+  "kind": "normal",
+  "dimensions": [
+    "Versions",
+    "Years",
+    "Months",
+    "Client",
+    "Balance_Sheet"
+  ]
+}

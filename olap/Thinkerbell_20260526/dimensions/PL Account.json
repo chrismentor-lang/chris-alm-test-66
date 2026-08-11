@@ -1,0 +1,11 @@
+{
+  "name": "PL Account",
+  "kind": "normal",
+  "properties": {
+    "DefaultParentElement": "Unassigned",
+    "DefaultReadElement": "NPBT",
+    "Description": "Purpose: NPAT Roll Up\nPrimary Data Source: Accountability, Snowflake, Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "PL Account",
+    "TotalElement": "NPBT"
+  }
+}

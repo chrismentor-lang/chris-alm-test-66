@@ -1,0 +1,15 @@
+{
+  "name": "Currency",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultParentElement": "Unassigned",
+    "DefaultReadElement": "AUD",
+    "DefaultWriteElement": "AUD",
+    "Description": "Purpose: Used to distinguish between the currencies and formats.\nPrimary Element Source : Manual\nOwner: Geetansh Mahajan\n\n20260330: Added attribute Level of Rounding to be used  in reports\n20260122: Introduced\n",
+    "NAElement": "> AUD",
+    "Name": "Currency",
+    "TotalElement": "All Currencies",
+    "Type": "Business"
+  }
+}

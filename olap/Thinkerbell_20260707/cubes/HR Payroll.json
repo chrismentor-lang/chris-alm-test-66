@@ -1,0 +1,18 @@
+{
+  "name": "HR Payroll",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Month",
+    "Currency",
+    "Employee",
+    "Employee Type",
+    "HR Detail",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "Purpose: Analysis of Payroll Planning\nPrimary Data Source: \nSupporting Cubes: \nDependencies: \nOwner: Camilo Barroilhet\n\nUpdates:\n",
+    "Name": "HR Payroll"
+  }
+}

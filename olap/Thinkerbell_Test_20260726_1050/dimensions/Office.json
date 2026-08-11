@@ -1,0 +1,14 @@
+{
+  "name": "Office",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultParentElement": "Unassigned",
+    "DefaultReadElement": "All Offices",
+    "DefaultWriteElement": "~",
+    "Description": "Purpose: List All Offices\nPrimary Data Source: Accountability, Snowflake Consumption DB\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "NAElement": "~",
+    "Name": "Office",
+    "TotalElement": "All Offices"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "Calendar",
+  "kind": "normal",
+  "dimensions": [
+    "Location",
+    "Day",
+    "Detail Calendar"
+  ],
+  "properties": {
+    "Description": "20260731: Introduced.",
+    "Name": "Calendar"
+  }
+}

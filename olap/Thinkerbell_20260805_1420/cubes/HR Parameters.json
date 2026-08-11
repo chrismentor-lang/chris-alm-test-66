@@ -1,0 +1,16 @@
+{
+  "name": "HR Parameters",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Month",
+    "Country",
+    "Detail HR Parameters",
+    "Measure"
+  ],
+  "properties": {
+    "Description": "20260726: Introduced and took all access rights away from all user groups except admin and etl.",
+    "Name": "HR Parameters"
+  }
+}

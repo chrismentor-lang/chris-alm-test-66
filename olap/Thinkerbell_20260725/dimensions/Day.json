@@ -1,0 +1,11 @@
+{
+  "name": "Day",
+  "kind": "normal",
+  "properties": {
+    "Audit": "7",
+    "Description": "Purpose: List Day Hierarchies.\nPrimary Data Source: Time Editor and ETL\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Day",
+    "TimeEditorConf": "{\"LEVELTYPE\":\"YEAR-QUARTER-MONTH-DAY\",\"STARTYEAR\":2017,\"ENDYEAR\":2028,\"FISCALYEARSTART\":\"July\",\"ADDITIONALELEMENTYEAR\":false,\"ADDITIONALELEMENTMONTH\":true,\"OPENINGPERIOD\":false,\"DUMMYELEMENT\":true,\"SEPARATEHIERARCHIES\":true,\"CURRENTYEARHIERARCHIES\":\"111111\",\"WEEKFIRSTDAY\":\"Monday\",\"WEEKMINIMALDAYS\":4}",
+    "Type": "Time"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "Job",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "TRAN0001",
+    "DefaultWriteElement": "TRAN0001",
+    "Description": "Purpose: \nPrimary Data Source: Snowflake, Accountability\nOwner: Geetansh Mahajan\nMaster Client > Client > Job Number\n\n20260122: Created",
+    "Name": "Job"
+  }
+}

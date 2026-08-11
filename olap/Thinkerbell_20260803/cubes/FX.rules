@@ -1,0 +1,9 @@
+### rule
+{"active":true,"comment":"FX||AUD||Calc","position":1}
+['Currency':'NZD', 'Target Currency':'AUD'] = B:1/['Currency':'AUD', 'Target Currency':'NZD']
+### rule
+{"active":true,"comment":"20260709: Introduced to make sure that we have an exchange rate for Month ~ as well.","position":2}
+['Month':'~', 'Conversion Type':{'Average', 'Month End', 'Month Start'}, 'Measure':'Input'] = ''['Month':DATEFORMAT(NOW(), "\Y-\m")]
+### rule
+{"active":true,"comment":"20260709: Introduced to make sure that we have some values in the Estimate version for calculations in Revenue Planning.","position":3}
+['Version':'Estimate', 'Measure':'Input', 'Conversion Type':{'Average', 'Month End', 'Month Start'}] = B:IF(['Version':'Actual'], ['Version':'Actual'], ''['Month':'#_Month'['#_Month_':'PreviousMonth', '#_LANGUAGE':'~']])

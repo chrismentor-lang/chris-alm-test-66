@@ -1,0 +1,11 @@
+{
+  "name": "Detail Cost Rate",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "Cost Rate",
+    "DefaultWriteElement": "Cost Rate",
+    "Description": "Purpose: Cost Rate Cube Details\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "Detail Cost Rate"
+  }
+}

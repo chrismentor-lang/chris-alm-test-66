@@ -1,0 +1,15 @@
+{
+  "name": "HR parameters",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Month",
+    "Country",
+    "HR Parameters Detail",
+    "Measure"
+  ],
+  "properties": {
+    "Name": "HR parameters"
+  }
+}

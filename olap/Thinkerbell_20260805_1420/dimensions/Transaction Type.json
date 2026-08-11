@@ -1,0 +1,9 @@
+{
+  "name": "Transaction Type",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: Transaction type for BS\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "Transaction Type"
+  }
+}

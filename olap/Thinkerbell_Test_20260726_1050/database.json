@@ -1,0 +1,13 @@
+{
+  "excludes": [
+    "elements",
+    "attribute-values"
+  ],
+  "properties": {
+    "Audit": "7",
+    "DatabaseName": "Thinkerbell_Test_20260726_1050",
+    "DefaultRight": "D",
+    "HideCubes": "N",
+    "HideElements": "Y"
+  }
+}

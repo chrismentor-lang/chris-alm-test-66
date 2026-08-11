@@ -1,0 +1,14 @@
+{
+  "name": "Client Head Targets",
+  "kind": "normal",
+  "dimensions": [
+    "Month",
+    "Office",
+    "Client Head",
+    "Detail Client Head Targets"
+  ],
+  "properties": {
+    "Description": "20260807: Introduced.",
+    "Name": "Client Head Targets"
+  }
+}

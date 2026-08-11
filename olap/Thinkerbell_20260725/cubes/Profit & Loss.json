@@ -1,0 +1,19 @@
+{
+  "name": "Profit & Loss",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Month",
+    "Office",
+    "Department",
+    "Currency",
+    "PL Account",
+    "Measure"
+  ],
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose:  Analysis of Profit and Loss data. \nPrimary Data Source: Accountability, Snowflake\nSupporting Cubes: FX, COP Split\nDependencies: Balance Sheet & Cash Flow.\nOwner: Geetansh Mahajan\n\nUpdates:\n20260122: Created",
+    "Name": "Profit & Loss"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Version",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "Actual",
+    "DefaultWriteElement": "Actual",
+    "Description": "Purpose: List All Versions\nPrimary Data Source: Manual\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Version",
+    "Type": "Version"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "name": "Office",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultParentElement": "Unassigned",
+    "DefaultReadElement": "All Offices",
+    "DefaultWriteElement": "~",
+    "Description": "Purpose: List All Offices\nPrimary Data Source: Accountability, Snowflake Consumption DB\n\n20260805: Added the Base attribute to make sure that we can use it in the P&L Summary report.\n20260805: Changed the weight for the COP Shop element in the Thinkerbell (P&L). Also activated the COP Split attribute boolean for the element 67-~\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "NAElement": "~",
+    "Name": "Office",
+    "TotalElement": "All Offices"
+  }
+}

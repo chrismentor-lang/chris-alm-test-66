@@ -1,0 +1,9 @@
+{
+  "name": "Job Execution",
+  "kind": "normal",
+  "properties": {
+    "Audit": "7",
+    "Description": "Purpose: List ETL Job Executions\nPrimary Data Source: Jedox ETL\n\n20260116: Renamed, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Job Execution"
+  }
+}

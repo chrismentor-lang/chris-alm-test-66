@@ -1,0 +1,9 @@
+{
+  "name": "Target Currency",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose:\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Introduced",
+    "Name": "Target Currency"
+  }
+}

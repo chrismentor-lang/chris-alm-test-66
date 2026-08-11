@@ -1,0 +1,9 @@
+{
+  "name": "Detail Client Head",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: Client Head Cube Details\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260303: Created",
+    "Name": "Detail Client Head"
+  }
+}

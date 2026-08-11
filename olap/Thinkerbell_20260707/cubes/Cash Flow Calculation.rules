@@ -1,0 +1,18 @@
+### rule
+{"active":true,"comment":"REF||P&L Accounts||Ref: Profit & Loss\n\n20260317: Introduced","position":1,"template":{"name":"Dimension element like","parameters":{"Dimension":"CF Account Calculation","Pattern":"^(Profit & Loss)\\|(.*)"}}}
+['Measure':'Input', 'CF Account Calculation':'${Element}'] = 'Profit & Loss'[ 'PL Account':'${Group2}', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF||BS Cash Accounts||Ref: Balance Sheet\n\n20260401 : Created to load calculate movements for Cash accounts, separately","position":2}
+['Measure':'Input', 'CF Account Calculation'::'Cash Accounts'] = 'Balance Sheet'['Transaction Type':'Movement', 'Measure':'Adjusted', 'BS Account':SUBSTITUTE(!'CF Account Calculation', "Balance Sheet|", "")]
+### rule
+{"active":true,"comment":"REF||BS Cash Accounts, Opening||Ref: Balance Sheet\n\n20260401: removed \"*-1\" FROM THE SOURCE AS THIS IS NOT REQUIRED \n20260317: Introduced","position":3,"template":{"name":"Dimension element like","parameters":{"Dimension":"CF Account Calculation","Pattern":"^(Balance Sheet\\|Opening)\\|(.*)"}}}
+['Measure':'Input', 'CF Account Calculation':'${Element}'] = 'Balance Sheet'['BS Account':'${Group2}', 'Transaction Type':'Opening', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF||BS Accounts (except Current Year Earnings), Movement||Ref: Balance Sheet\n\n20260317: Introduced","position":4,"template":{"name":"Dimension element like","parameters":{"Dimension":"CF Account Calculation","Pattern":"^(Balance Sheet)\\|(\\d+)$"}}}
+['Measure':'Input', 'CF Account Calculation':'${Element}'] = 'Balance Sheet'['BS Account':'${Group2}', 'Transaction Type':'Movement', 'Measure':'Adjusted']*-1
+### rule
+{"active":true,"comment":"REF||BS Account (Current Year Earnings), Movement||Ref: Balance Sheet\n\n20260317: Introduced","position":5,"template":{"name":"Dimension element like","parameters":{"Dimension":"CF Account Calculation","Pattern":"^(Balance Sheet)\\|(Current Year Earnings)(.*)"}}}
+['Measure':'Input', 'CF Account Calculation':'${Element}'] = 'Balance Sheet'['BS Account':'${Group2}', 'Transaction Type':'Movement', 'Measure':'Adjusted']*-1
+### rule
+{"active":true,"comment":"FX||Input, Adjustment||Month End, Average\n\n20260130: Introduced","position":6,"template":{"name":"Dimension element like","parameters":{"Dimension":"Currency","Pattern":"^([A-Z]{3}) > ([A-Z]{3})$"}}}
+['Currency':'${Element}', 'Measure':{'Input', 'Adjustment'}] = B:['Currency':'${Group1}'] * PALO.DATA("", "FX", !'Version', !'Month', IF(LEFT(!'CF Account Calculation', 1) == "B", "Month End", "Average"), "${Group1}", "${Group2}", "Input")
