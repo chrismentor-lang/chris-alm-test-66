@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh FTE Leave",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260806: Introduced."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cFTE_618_000_delLeave_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cFTE_617_000_insLeave_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,60 @@
+{
+  "-name": "Refresh Jedox Cubes",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260807: Added job Refresh Current Client Head Targets at the bottom.\n20260806: Added job Refresh Calendar at the bottom.\n20260725: Removed Refresh Client Head Loaded from the eighth slot because the cube is not in use anymore (and therefore deleted).\n20260723: Introduced job Clear Revenue for deleted or superseded Estimates to make sure that estimates that were deleted or superseded in Accountability are cleared in the Estimate slice in the Revenue Planning cube."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Refresh Month FX Rate",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh PL Cube",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh BS Cube",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Cost Rate Cube",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Billable Rate Cube",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh FTE Cube",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Resource Planning Cube",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Client Head Mapping",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Revenue Planning",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Clear Revenue for deleted or superseded Estimates",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Calendar",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Current Client Head Targets",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

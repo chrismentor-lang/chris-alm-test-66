@@ -1,0 +1,8 @@
+{
+  "name": "Measure",
+  "kind": "normal",
+  "properties": {
+    "Description": "Purpose: List All Measures\nPrimary Data Source: Manual\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Measure"
+  }
+}

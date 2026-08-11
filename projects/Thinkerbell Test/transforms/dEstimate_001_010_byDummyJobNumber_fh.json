@@ -1,0 +1,114 @@
+{
+  "-name": "dEstimate_001_010_byDummyJobNumber_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the dummy job number on the fourth level of the All Estimates hierarchy for the Estimate dimension and populates the attributes Name, ID_Name, Client ID, Active, Job number, Job Open Date, and Estimate Start Date for that base level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEstimate_001_000_fxDummyJobNumber_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Active"
+        },
+        {
+          "-name": "Name"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Job Open Date"
+        },
+        {
+          "-name": "Estimate Start Date"
+        },
+        {
+          "-name": "Client ID"
+        },
+        {
+          "-name": "Job Number"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Estimates"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "MASTER_CLIENT_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "CLIENT_ID"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "JOB_NUMBER"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "JOB_ACTIVE"
+                }
+              },
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "JOB_DESCRIPTION"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "JOB_ID_NAME"
+                }
+              },
+              {
+                "-name": "Job Open Date",
+                "input": {
+                  "-nameref": "JOB_OPEN_DATE"
+                }
+              },
+              {
+                "-name": "Estimate Start Date",
+                "input": {
+                  "-nameref": "JOB_OPEN_DATE"
+                }
+              },
+              {
+                "-name": "Client ID",
+                "input": {
+                  "-nameref": "CLIENT_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Job Number",
+                "input": {
+                  "-nameref": "JOB_NUMBER"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "Dummy Job Number"
+          }
+        }
+      ]
+    }
+  }
+}

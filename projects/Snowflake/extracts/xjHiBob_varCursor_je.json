@@ -1,0 +1,26 @@
+{
+  "-name": "xjHiBob_varCursor_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Used to get cursor value"
+  },
+  "connection": {
+    "-nameref": "crestHiBob_var${vHiBobEndpoint}Cursor_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "Element"
+      },
+      {
+        "-input": "next_cursor"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.response_metadata"
+    }
+  }
+}

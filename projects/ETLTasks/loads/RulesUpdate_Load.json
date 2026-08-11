@@ -1,0 +1,14 @@
+{
+  "-name": "RulesUpdate_Load",
+  "-type": "Rule",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "cube": {
+    "-name": "${Cube}"
+  },
+  "mode": "update",
+  "source": {
+    "-nameref": "Rule_Replace"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "-name": "fJedoxHiBobDimension_1500_000_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260716: Removed the target lines for HiBob ID (:element), HiBob Name and Accountability ID and added the Column Exclude Pattern instead."
+  },
+  "sources": {
+    "source": {
+      "-format": "ea",
+      "-nameref": "xd${vJedoxFileName}_statAll_de"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-exclude": "Creation Timestamp"
+    }
+  }
+}

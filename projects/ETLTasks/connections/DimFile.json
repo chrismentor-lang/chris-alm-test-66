@@ -1,0 +1,13 @@
+{
+  "-name": "DimFile",
+  "-type": "CsvFile",
+  "database": "${FilePath}\\\\${Dimension}.DIMENSION.TXT",
+  "delimiter": "${Delimiter}",
+  "enableEscape": "false",
+  "encoding": "UTF-8",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "\""
+}

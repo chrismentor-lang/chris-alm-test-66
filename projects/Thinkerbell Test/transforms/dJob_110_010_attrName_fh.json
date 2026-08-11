@@ -1,0 +1,191 @@
+{
+  "-name": "dJob_110_010_attrName_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 4 levels of the All Jobs hierarchy for the Job dimension and populates the attributes Name, ID_Name, Client ID, Product ID, Product Name, Job Open Date, Client Code/Job Number, Active, and Job Type for different levels."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dJob_110_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Client ID"
+        },
+        {
+          "-name": "Product ID"
+        },
+        {
+          "-name": "Product Name"
+        },
+        {
+          "-name": "Active"
+        },
+        {
+          "-name": "Job Open Date"
+        },
+        {
+          "-name": "Client Code / Job Number"
+        },
+        {
+          "-name": "Job Type"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Jobs"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "MASTER_CLIENT_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "MASTER_CLIENT_ID_NAME"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "MASTER_CLIENT_ACTIVE"
+                }
+              },
+              {
+                "-name": "Client Code / Job Number",
+                "input": {
+                  "-nameref": "MASTER_CLIENT_CODE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "MASTER_CLIENT_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "CLIENT_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "CLIENT_ID_NAME"
+                }
+              },
+              {
+                "-name": "Client ID",
+                "input": {
+                  "-nameref": "CLIENT_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "CLIENT_ACTIVE"
+                }
+              },
+              {
+                "-name": "Client Code / Job Number",
+                "input": {
+                  "-nameref": "CLIENT_CODE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "CLIENT_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "JOB_DESCRIPTION"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "JOB_ID_NAME"
+                }
+              },
+              {
+                "-name": "Client ID",
+                "input": {
+                  "-nameref": "CLIENT_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Product ID",
+                "input": {
+                  "-nameref": "PRODUCT_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "JOB_ACTIVE"
+                }
+              },
+              {
+                "-name": "Product Name",
+                "input": {
+                  "-nameref": "PRODUCT_NAME"
+                }
+              },
+              {
+                "-name": "Job Open Date",
+                "input": {
+                  "-nameref": "JOB_OPEN_DATE"
+                }
+              },
+              {
+                "-name": "Client Code / Job Number",
+                "input": {
+                  "-nameref": "JOB_NUMBER"
+                }
+              },
+              {
+                "-name": "Job Type",
+                "input": {
+                  "-nameref": "JOB_TYPE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "JOB_NUMBER"
+          }
+        }
+      ]
+    }
+  }
+}

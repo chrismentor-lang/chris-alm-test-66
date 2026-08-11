@@ -1,0 +1,33 @@
+{
+  "-name": "DimFiles_T2",
+  "-type": "FieldTransform",
+  "functions": {
+    "function": {
+      "-name": "Dimension",
+      "-type": "Replace",
+      "inputs": {
+        "input": {
+          "-nameref": "Filename"
+        }
+      },
+      "parameters": {
+        "regexp": ".DIMENSION.TXT"
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "DimFiles_T1"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": {
+        "-name": "Dimension",
+        "input": {
+          "-nameref": "Dimension"
+        }
+      }
+    }
+  }
+}

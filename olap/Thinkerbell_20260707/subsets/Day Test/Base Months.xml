@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?><subsetDef id="top"><dimension>Day</dimension><indent>1</indent><structural>"All Days";0;false;;;;;4;4;false</structural><text>"^((?!~|FY).)*$";1;true</text><sorting>1;0;;0;;0;1;;</sorting></subsetDef>

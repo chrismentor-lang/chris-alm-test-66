@@ -1,0 +1,8 @@
+{
+  "name": "Task Type",
+  "kind": "normal",
+  "properties": {
+    "Description": "Purpose: \nPrimary Data Source: Snowflake, Accountability\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "Task Type"
+  }
+}

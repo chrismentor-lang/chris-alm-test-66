@@ -1,0 +1,41 @@
+{
+  "-name": "xjAccountabilityTimeLines_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityTimeLines_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "addedAt"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "jobId"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "pinned"
+      },
+      {
+        "-input": "taskTypeId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

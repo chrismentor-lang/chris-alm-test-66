@@ -1,0 +1,47 @@
+{
+  "-name": "dToken_100_010_attrValidTill_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Determines element (vAccountabilityAccessToken) for dimension Token and sets attributes for Token value and Validity."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dToken_100_000_fxAccessTokenValidity_ft"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Token Value"
+        },
+        {
+          "-name": "Valid Till"
+        }
+      ]
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": [
+            {
+              "-name": "Token Value",
+              "input": {
+                "-nameref": "Token Value"
+              }
+            },
+            {
+              "-name": "Valid Till",
+              "input": {
+                "-nameref": "Valid Till"
+              }
+            }
+          ]
+        },
+        "input": {
+          "-nameref": "Element"
+        }
+      }
+    }
+  }
+}

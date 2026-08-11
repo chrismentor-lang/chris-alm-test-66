@@ -1,0 +1,9 @@
+{
+  "-name": "vAccountabilityAccessToken",
+  "comment": {
+    "#cdata-section": "20251210: Valid for 3600 seconds and can be used to GET data from other endpoints"
+  },
+  "script": {
+    "#file": "vAccountabilityAccessToken.script.groovy"
+  }
+}

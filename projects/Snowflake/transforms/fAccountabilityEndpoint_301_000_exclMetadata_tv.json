@@ -1,0 +1,19 @@
+{
+  "-name": "fAccountabilityEndpoint_301_000_exclMetadata_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "conditions": {
+    "condition": {
+      "-nameref": "Metadata",
+      "-operator": "equal",
+      "-type": "deny",
+      "-value": "0"
+    }
+  },
+  "sources": {
+    "source": {
+      "-format": "ea",
+      "-nameref": "xdAccountabilityEndpoint_statAll_de"
+    }
+  }
+}

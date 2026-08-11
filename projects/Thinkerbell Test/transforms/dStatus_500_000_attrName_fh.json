@@ -1,0 +1,74 @@
+{
+  "-name": "dStatus_500_000_attrName_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 2 levels of the All Statuses hierarchy for the Status dimension and populates the attributes Name, ID_Name, Probability, and Active for the base level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvStatus_statAll_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Probability",
+          "-type": "numeric"
+        },
+        {
+          "-name": "Active"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Statuses"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "STATUS_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "STATUS_ID_NAME"
+                }
+              },
+              {
+                "-name": "Probability",
+                "input": {
+                  "-nameref": "PROBABILITY"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "STATUS_ACTIVE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "STATUS_ID"
+          }
+        }
+      ]
+    }
+  }
+}

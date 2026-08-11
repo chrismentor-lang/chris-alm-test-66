@@ -1,0 +1,62 @@
+{
+  "-name": "xjAccountabilityTimeEntries_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityTimeEntries_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "approvedAt"
+      },
+      {
+        "-input": "approvedByEmployeeId"
+      },
+      {
+        "-input": "billableHours"
+      },
+      {
+        "-input": "billableRate"
+      },
+      {
+        "-input": "costRate"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "endTime"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "nonBillableHours"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "startTime"
+      },
+      {
+        "-input": "timeLineId"
+      },
+      {
+        "-input": "totalHours"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

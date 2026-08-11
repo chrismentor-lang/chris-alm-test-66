@@ -1,0 +1,53 @@
+{
+  "-name": "xjHiBob_statLeaves_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crestHiBob_var_Leaves_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "policyTypeDisplayName"
+      },
+      {
+        "-input": "visibility"
+      },
+      {
+        "-input": "endDate"
+      },
+      {
+        "-input": "requestId"
+      },
+      {
+        "-input": "policyType"
+      },
+      {
+        "-input": "startPortion"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "employeeDisplayName"
+      },
+      {
+        "-input": "endPortion"
+      },
+      {
+        "-input": "type"
+      },
+      {
+        "-input": "startDate"
+      },
+      {
+        "-input": "status"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.outs"
+    }
+  }
+}

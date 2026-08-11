@@ -1,0 +1,11 @@
+{
+  "-name": "DimensionsToFileAll",
+  "-type": "Loop",
+  "execution": {
+    "-nameref": "DimToFile_Load",
+    "-type": "load"
+  },
+  "loop": {
+    "-nameref": "Dimensions_T2"
+  }
+}

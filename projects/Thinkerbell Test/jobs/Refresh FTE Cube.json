@@ -1,0 +1,25 @@
+{
+  "-name": "Refresh FTE Cube",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Refresh FTE Weekend",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh FTE Public Holiday",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh FTE NTM",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh FTE Benchmark",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

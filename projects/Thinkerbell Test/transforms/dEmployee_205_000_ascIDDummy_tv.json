@@ -1,0 +1,25 @@
+{
+  "-name": "dEmployee_205_000_ascIDDummy_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sorts the hierarchy in ascending order for Task Type ID, and Employee ID in that particular order."
+  },
+  "sorter": {
+    "input": [
+      {
+        "-nameref": "TASK_TYPE_ID",
+        "-order": "ascending"
+      },
+      {
+        "-nameref": "EMPLOYEE_ID",
+        "-order": "ascending"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvEmployeeByTaskTypeDummy_statAll_re"
+    }
+  }
+}

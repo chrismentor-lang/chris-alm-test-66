@@ -1,0 +1,13 @@
+{
+  "-name": "Update Accountability Access Token",
+  "-type": "ExternalJob",
+  "execution": {
+    "-nameref": "Update Accountability Access Token",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "rRedshift_StageDelete_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "remove @LANDING.SCHEMA.STAGE/FILENAME.csv.gz;"
+  },
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRedshift_StageDelete_rs.query.sql"
+  }
+}

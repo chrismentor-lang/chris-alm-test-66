@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh Estimate Revenue Current and Next FY",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "STILL NEEDS TO HAVE THE Update Jedox Tables added to the job.\n\n20260701: Introduced."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cRevenuePlanning_614_010_delFYCurrentFYNext_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cRevenuePlanning_614_000_insFYCurrentFYNext_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

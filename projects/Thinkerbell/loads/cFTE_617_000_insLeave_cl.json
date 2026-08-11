@@ -1,0 +1,21 @@
+{
+  "-name": "cFTE_617_000_insLeave_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "20260806: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FTE",
+    "-splash": "disabled"
+  },
+  "mode": "insert",
+  "source": {
+    "-nameref": "xvFTELeave_statAll_re"
+  }
+}

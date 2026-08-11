@@ -1,0 +1,13 @@
+{
+  "-name": "xdHiBobDepartment_statAll_de",
+  "-type": "Dimension",
+  "attributesMode": "standardAttributes",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Hi Bob Department"
+    }
+  }
+}

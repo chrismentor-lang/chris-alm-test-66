@@ -1,0 +1,86 @@
+{
+  "-name": "dEmployee_205_010_byTaskTypeDummy_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the dummy task type number on the third level of the All Employees (By Task Type) hierarchy for the Employee dimension and populates the attributes Name, ID_Name, Task Type ID, and Active for different levels.\n\n20260702: Removed the static Active true attribute at the EMPLOYEE_ID level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEmployee_205_000_ascIDDummy_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Task Type ID"
+        },
+        {
+          "-name": "Active"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Employees (By Task Type)"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "TASK_TYPE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_NAME"
+                }
+              },
+              {
+                "-name": "Task Type ID",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "TASK_TYPE_ACTIVE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "TASK_TYPE_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Task Type ID",
+              "input": {
+                "-nameref": "TASK_TYPE_ID_ATTR"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "EMPLOYEE_ID"
+          }
+        }
+      ]
+    }
+  }
+}

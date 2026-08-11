@@ -1,0 +1,127 @@
+{
+  "-name": "fEstimate_800_000_fxAdditionalColumns_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260727: Added target field statically.\n20260724: Introduced."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxClientID",
+        "-type": "Lookup",
+        "inputs": {
+          "input": {
+            "-nameref": "Estimate"
+          }
+        },
+        "parameters": {
+          "default": "No Client ID",
+          "from": ":element",
+          "source": "xdEstimate_statBase_de",
+          "to": "Client ID",
+          "treeformat": "ea"
+        }
+      },
+      {
+        "-name": "fxJobNumber",
+        "-type": "Lookup",
+        "inputs": {
+          "input": {
+            "-nameref": "Estimate"
+          }
+        },
+        "parameters": {
+          "default": "No Job Number",
+          "from": ":element",
+          "source": "xdEstimate_statBase_de",
+          "to": "Job Number",
+          "treeformat": "ea"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "fJedoxRevenuePlanningFY_900_010_exFYActEst_tu"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Scenario"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Month"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Office"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Job Type"
+          }
+        },
+        {
+          "-name": "Client",
+          "input": {
+            "-nameref": "fxClientID"
+          }
+        },
+        {
+          "-name": "Job",
+          "input": {
+            "-nameref": "fxJobNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Estimate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Client Head"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Task Type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Currency"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Detail Revenue"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Measure"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "#Value"
+          }
+        }
+      ]
+    }
+  }
+}

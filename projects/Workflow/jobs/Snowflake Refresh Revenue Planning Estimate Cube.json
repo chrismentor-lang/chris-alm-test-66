@@ -1,0 +1,16 @@
+{
+  "-name": "Snowflake Refresh Revenue Planning Estimate Cube",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "This job updates the revenue planning estimate refresh table as retrieved from Jedox in Snowflake.\n\n20260107: Introduced."
+  },
+  "execution": {
+    "-nameref": "Update Revenue Planning Estimate",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  }
+}

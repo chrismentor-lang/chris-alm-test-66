@@ -1,0 +1,23 @@
+{
+  "-name": "dAccountingMonth_240_020_insAll_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Accounting Month",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dAccountingMonth_240_010_attrName_fh"
+  }
+}

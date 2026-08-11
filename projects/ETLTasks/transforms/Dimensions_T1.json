@@ -1,0 +1,21 @@
+{
+  "-name": "Dimensions_T1",
+  "-type": "TableView",
+  "sorter": {
+    "input": [
+      {
+        "-nameref": "isNormalDimension",
+        "-order": "descending"
+      },
+      {
+        "-nameref": "Id",
+        "-order": "ascending"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "Dimensions"
+    }
+  }
+}

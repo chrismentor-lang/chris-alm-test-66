@@ -1,0 +1,22 @@
+{
+  "-name": "fAccountabilityEndpoint_300_000_inclLoopEndpoints_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Includes only those endpoint that have been indicated to be included into the refresh job."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "Loop Endpoints",
+      "-operator": "equal",
+      "-type": "accept",
+      "-value": "1"
+    }
+  },
+  "sources": {
+    "source": {
+      "-format": "ea",
+      "-nameref": "xdAccountabilityEndpoint_statAll_de"
+    }
+  }
+}

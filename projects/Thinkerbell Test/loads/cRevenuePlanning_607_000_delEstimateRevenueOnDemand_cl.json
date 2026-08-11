@@ -1,0 +1,18 @@
+{
+  "-name": "cRevenuePlanning_607_000_delEstimateRevenueOnDemand_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcRevenuePlanning_statEstimateRevenueOnDemand_cs"
+  }
+}

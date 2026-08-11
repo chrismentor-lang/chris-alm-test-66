@@ -1,0 +1,11 @@
+{
+  "-name": "Compress Accountability files in SFTP",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Compresses the Accountability files that were loaded into the SFTP folder Snowflake/Accountability in the previous step."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Compress Accountability files in SFTP.jobscript.groovy"
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "-name": "Thinkerbell Revenue Planning Copy Estimate to FC",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Job kicks off the Revenue Planning Copy Estimate to FC job in the Thinkerbell project. That project copies the current Estimate version to the requested forecast Version.\n\n20260627: Introduced the variables that weren't pushed to the Thinkerbell project yet."
+  },
+  "execution": {
+    "-nameref": "Revenue Planning Copy Estimate to FC",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Thinkerbell",
+    "-scope": "Global"
+  },
+  "variables": {
+    "variable": [
+      {
+        "-name": "vFY",
+        "default": "${vFY}"
+      },
+      {
+        "-name": "vFCVersion",
+        "default": "${vFCVersion}"
+      }
+    ]
+  }
+}

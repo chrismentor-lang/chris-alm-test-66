@@ -1,0 +1,16 @@
+{
+  "-name": "Dimensions",
+  "-type": "Metadata",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "query": {
+    "filters": {
+      "filter": {
+        "-name": "mask",
+        "-value": "1101"
+      }
+    },
+    "selector": "dimension"
+  }
+}

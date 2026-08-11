@@ -1,0 +1,142 @@
+{
+  "-name": "cBS_130_000_addActuals_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Adds Balance Sheet data from the Fact_BS view in Snowflake into the Balance Sheet cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Balance Sheet",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Scenario",
+          "-name": "Scenario"
+        },
+        {
+          "-input": "Month",
+          "-name": "Month"
+        },
+        {
+          "-input": "Office",
+          "-name": "Office"
+        },
+        {
+          "-input": "Currency",
+          "-name": "Currency"
+        },
+        {
+          "-input": "Transaction Type",
+          "-name": "Transaction Type"
+        },
+        {
+          "-input": "BS Account",
+          "-name": "BS Account"
+        },
+        {
+          "-input": "Measure",
+          "-name": "Measure"
+        },
+        {
+          "-input": "ACCOUNT_TYPE"
+        },
+        {
+          "-input": "ACCOUNTID"
+        },
+        {
+          "-input": "ACCOUNTINGMONTHID"
+        },
+        {
+          "-input": "ACCOUNTINGYEARID"
+        },
+        {
+          "-input": "APPROVEDAT"
+        },
+        {
+          "-input": "CLIENTID"
+        },
+        {
+          "-input": "CREDIT"
+        },
+        {
+          "-input": "CURRENCYID"
+        },
+        {
+          "-input": "DEBIT"
+        },
+        {
+          "-input": "DEPARTMENTID"
+        },
+        {
+          "-input": "DESCRIPTION"
+        },
+        {
+          "-input": "EMPLOYEEID"
+        },
+        {
+          "-input": "INTEROFFICEID"
+        },
+        {
+          "-input": "JOBID"
+        },
+        {
+          "-input": "JOURNALDATE"
+        },
+        {
+          "-input": "JOURNALENTRYID"
+        },
+        {
+          "-input": "JOURNALID"
+        },
+        {
+          "-input": "JOURNALNUMBER"
+        },
+        {
+          "-input": "MASTERJOBID"
+        },
+        {
+          "-input": "OFFICEID"
+        },
+        {
+          "-input": "PRODUCTID"
+        },
+        {
+          "-input": "SUPPLIERID"
+        },
+        {
+          "-input": "TRANSACTIONCURRENCYCREDIT"
+        },
+        {
+          "-input": "TRANSACTIONCURRENCYDEBIT"
+        },
+        {
+          "-input": "TRANSACTIONCURRENCYID"
+        },
+        {
+          "-input": "TRANSACTIONNUMBER"
+        },
+        {
+          "-input": "TRANSACTIONTYPEID"
+        },
+        {
+          "-input": "REPLICATION_TIMESTAMP"
+        }
+      ]
+    }
+  },
+  "default": {
+    "-type": "createUnderDefaultParent"
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xvFactBS_statAll_re"
+  }
+}

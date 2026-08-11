@@ -1,0 +1,12 @@
+{
+  "-name": "fAccountabilityChargeableRates_600_010_statCreate_fl",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "cfAccountability_varAccountabilityEndpoint_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "fAccountabilityChargeableRates_600_000_exclClientName_tv"
+  },
+  "useScientificNotation": "true"
+}

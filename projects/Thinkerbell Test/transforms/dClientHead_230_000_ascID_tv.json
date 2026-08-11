@@ -1,0 +1,19 @@
+{
+  "-name": "dClientHead_230_000_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sorts the retrieved Accountability Client Heads based on Client Head ID."
+  },
+  "sorter": {
+    "input": {
+      "-nameref": "CLIENT_HEAD_ID",
+      "-order": "ascending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvClientHead_statAll_re"
+    }
+  }
+}

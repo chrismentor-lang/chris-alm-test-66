@@ -1,0 +1,102 @@
+{
+  "-name": "xcRevenuePlanningEstimate_statAll_ce",
+  "-type": "Cube",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Runs Daily and On Demand- Loads Total Estimate Value at Month ~ and the monthly estimate values future months\n\n20260617: Changed filter Detail Revenue/accept/equal/ Revenue by Client Head to Detail Revenue/accept/equal/By Client Head"
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-celltype": "both",
+    "-drillthrough": "false",
+    "-onlyBasisAsDefault": "false",
+    "-useRules": "true",
+    "-zeroSuppressionType": "excludeEmptyAndZero",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "Estimate",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Base",
+          "-dimension": "Scenario",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": ".",
+          "-dimension": "Month",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "All Offices",
+          "-dimension": "Office",
+          "-mode": "onlyRoots",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "All Job Types",
+          "-dimension": "Job Type",
+          "-mode": "onlyRoots",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "{\"No Dummies\": {}}",
+          "-dimension": "Estimate",
+          "-mode": "onlyBases",
+          "-operator": "subset",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "All Client Heads",
+          "-dimension": "Client Head",
+          "-mode": "onlyRoots",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "All Task Types",
+          "-dimension": "Task Type",
+          "-mode": "onlyRoots",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "{\"All Currencies Base Elements\": {}}",
+          "-dimension": "Currency",
+          "-mode": "onlyBases",
+          "-operator": "subset",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "By Client Head",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Adjusted",
+          "-dimension": "Measure",
+          "-mode": "onlyRoots",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

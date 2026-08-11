@@ -1,0 +1,11 @@
+{
+  "-name": "Create Accountability Endpoint files daily",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Initialises token refresh, read total record count, and retrieves data from the endpoints to load them into csv files in SFTP folder Snowflake/Accountability. This job runs with a limit of 95 calls per minute. If 95 calls are done, then the rest of the minute it sleeps.\n\n20260105: Included the logic to run the Loop Job \"Loop Accountability Estimate and Journal Entries\" for specific Endpoints. If this job shows any red components on the right hand side then please update the default variables to either of the Entries end points"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Create Accountability Endpoint files daily.jobscript.groovy"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "-name": "xvEstimateDelete_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260721: Changed the underlying view in Snowflake as it was based on the wrong logic (resulting in superseded elements not being deleted)."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvEstimateDelete_statAll_re.query.sql"
+  }
+}

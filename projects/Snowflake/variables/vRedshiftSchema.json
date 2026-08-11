@@ -1,0 +1,5 @@
+{
+  "-name": "vRedshiftSchema",
+  "comment": {},
+  "default": "PUBLIC"
+}

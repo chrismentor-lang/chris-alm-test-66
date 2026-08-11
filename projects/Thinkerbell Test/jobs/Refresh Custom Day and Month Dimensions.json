@@ -1,0 +1,25 @@
+{
+  "-name": "Refresh Custom Day and Month Dimensions",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Refresh N3M Day and Month Dimension",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh N6M Day and Month Dimension",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh NTM Day and Month Dimension",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh L3M Day and Month Dimension",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,47 @@
+{
+  "-name": "fDailyFX_700_030_exclOlder_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Excludes all FX rates from before 2017."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "fxFilter",
+      "-operator": "equal",
+      "-type": "deny",
+      "-value": "FALSE"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "fDailyFX_700_020_fxDate_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "Day"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Currency"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Target Currency"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Fx Rate"
+          }
+        }
+      ]
+    }
+  }
+}

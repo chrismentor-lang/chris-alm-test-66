@@ -1,0 +1,43 @@
+{
+  "-name": "Loop Jedox Hi Bob Files to Refresh Data",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vJedoxFileName",
+        "input": {
+          "-nameref": ":element"
+        }
+      },
+      {
+        "-name": "vJedoxSnowflakeTable",
+        "input": {
+          "-nameref": "Snowflake Table"
+        }
+      },
+      {
+        "-name": "vJedoxWinSCPFolder",
+        "input": {
+          "-nameref": "WinSCP Folder"
+        }
+      },
+      {
+        "-name": "vSCD",
+        "input": {
+          "-nameref": "Have SCD"
+        }
+      }
+    ]
+  },
+  "comment": {
+    "#cdata-section": "Refreshing Jedox Hi Bob data in Snowflake looping through a list of endpoints in Hibob."
+  },
+  "execution": {
+    "-nameref": "Update Hi Bob Jedox Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "fJedoxHiBobFiles_800_000_InclHiBob_tv"
+  }
+}

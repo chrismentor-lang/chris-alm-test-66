@@ -1,0 +1,29 @@
+{
+  "-name": "Update Accountability Chargeable Rates",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "rAccountability_CopyIntoLandingChargeableRate_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rAccountability_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vAccountabilityTable",
+        "default": "CHARGEABLE_RATES"
+      },
+      {
+        "-name": "vSnowflakeSchemaType",
+        "default": "FULL"
+      }
+    ]
+  }
+}

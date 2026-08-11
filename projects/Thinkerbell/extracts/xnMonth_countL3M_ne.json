@@ -1,0 +1,11 @@
+{
+  "-name": "xnMonth_countL3M_ne",
+  "-type": "Count",
+  "alias": "MonthCount",
+  "comment": {
+    "#cdata-section": "Month Counter for NTM Calculations\n\n20260128:Introduced"
+  },
+  "end": "-1",
+  "start": "-3",
+  "step": "1"
+}

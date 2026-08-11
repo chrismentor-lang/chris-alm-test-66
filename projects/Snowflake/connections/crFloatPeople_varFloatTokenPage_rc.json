@@ -1,0 +1,41 @@
+{
+  "-name": "crFloatPeople_varFloatTokenPage_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "20251211: Introduced Parameters expand and page\n20251210: Introduced"
+  },
+  "headers": {
+    "header": [
+      {
+        "#text": "Bearer ${vFloatToken}",
+        "-name": "Authorization"
+      },
+      {
+        "#text": "application/json",
+        "-name": "accept"
+      }
+    ]
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "parameters": {
+    "parameter": [
+      {
+        "#text": "contracts,account,managers",
+        "-name": "expand"
+      },
+      {
+        "#text": "200",
+        "-name": "per-page"
+      },
+      {
+        "#text": "${vFloatPage}",
+        "-name": "page"
+      }
+    ]
+  },
+  "resource": {
+    "#cdata-section": "https://api.float.com/v3/people"
+  },
+  "ssl": "verify"
+}

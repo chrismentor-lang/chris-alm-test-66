@@ -1,0 +1,9 @@
+{
+  "name": "Department",
+  "kind": "normal",
+  "properties": {
+    "DefaultReadElement": "All Departments",
+    "Description": "Purpose: List All Departments\nPrimary Data Source: Accountability, Snowflake Consumption DB\n\n20260605: Deleted Department 78 and 79 \n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Department"
+  }
+}

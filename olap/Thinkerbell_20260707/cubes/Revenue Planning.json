@@ -1,0 +1,23 @@
+{
+  "name": "Revenue Planning",
+  "kind": "normal",
+  "dimensions": [
+    "Version",
+    "Scenario",
+    "Month",
+    "Office",
+    "Job Type",
+    "Estimate",
+    "Client Head",
+    "Task Type",
+    "Currency",
+    "Detail Revenue",
+    "Measure"
+  ],
+  "properties": {
+    "Audit": "7",
+    "Description": "Purpose: Revenue Planning\nPrimary Data Source: Accountability. Snowflake Consumption DB\nSupporting Cubes:  Client Head, FX\nDependencies:  \nOwner: Geetansh Mahajan\n\n20260116: Introduced",
+    "Name": "Revenue Planning",
+    "StoreZeroValues": "N"
+  }
+}

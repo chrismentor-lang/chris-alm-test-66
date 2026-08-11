@@ -1,0 +1,83 @@
+{
+  "-name": "cRevenuePlanning_612_010_sumStat_ta",
+  "-type": "TableAggregation",
+  "cache": "false",
+  "delimiter": ",",
+  "sources": {
+    "source": {
+      "-nameref": "cRevenuePlanning_612_000_mapMeasure_ft"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Scenario"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Month"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Office"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Job Type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Estimate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Client Head"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Task Type"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Currency"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Detail Revenue"
+          }
+        },
+        {
+          "-name": "Measure",
+          "input": {
+            "-constant": "Input"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "measure": {
+        "-aggregate": "sum",
+        "-name": "#Value",
+        "input": {
+          "-nameref": "#Value"
+        }
+      }
+    }
+  }
+}

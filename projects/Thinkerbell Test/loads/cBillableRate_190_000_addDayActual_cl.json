@@ -1,0 +1,55 @@
+{
+  "-name": "cBillableRate_190_000_addDayActual_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Adds the billable rates for the day and the month dummy from the view in Snowflake to the Billable Rate cube.\n\n20260205 :Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Billable Rate",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Scenario",
+          "-name": "Scenario"
+        },
+        {
+          "-input": "Day",
+          "-name": "Day"
+        },
+        {
+          "-input": "Client",
+          "-name": "Client"
+        },
+        {
+          "-input": "Task Type",
+          "-name": "Task Type"
+        },
+        {
+          "-input": "Currency",
+          "-name": "Currency"
+        },
+        {
+          "-input": "Detail Billable Rate",
+          "-name": "Detail Billable Rate"
+        },
+        {
+          "-input": "Measure",
+          "-name": "Measure"
+        }
+      ]
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "cBillableRate_190_000_DayAndMonthDummy_tu"
+  }
+}

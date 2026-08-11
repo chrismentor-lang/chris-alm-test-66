@@ -1,0 +1,47 @@
+{
+  "-name": "xcRevenuePlanning_statEstimateRevenueOnDemand_cs",
+  "-type": "CubeSlice",
+  "comment": "20260213: Estimated revenue is loaded at Version Estimate and Month ~",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#text": "Estimate",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Base",
+          "-dimension": "Scenario",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Revenue",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#text": "Adjusted",
+          "-dimension": "Measure",
+          "-mode": "onlyRoots",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

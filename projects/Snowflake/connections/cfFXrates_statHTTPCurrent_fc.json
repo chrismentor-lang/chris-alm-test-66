@@ -1,0 +1,15 @@
+{
+  "-name": "cfFXrates_statHTTPCurrent_fc",
+  "-type": "CsvFile",
+  "database": {
+    "#cdata-section": "https://www.rba.gov.au/statistics/tables/csv/f11.1-data.csv"
+  },
+  "delimiter": ",",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "HTTP"
+  },
+  "ssl": "off"
+}

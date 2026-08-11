@@ -1,0 +1,76 @@
+{
+  "-name": "cBillableRate_192_000_cdNTMStat_ta",
+  "-type": "TableAggregation",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Aggregates the retrieved data to get a distinct combination of billable rates that need to be deleted from the Billable Rate cube for the next twelve months."
+  },
+  "delimiter": ",",
+  "sources": {
+    "source": {
+      "-nameref": "xvBillableRateNTM_statAll_re"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "-keepSourceOrder": "false",
+      "coordinate": [
+        {
+          "-name": "Version",
+          "input": {
+            "-nameref": "Version"
+          }
+        },
+        {
+          "-name": "Scenario",
+          "input": {
+            "-nameref": "Scenario"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Day"
+          }
+        },
+        {
+          "-name": "Client",
+          "input": {
+            "-constant": "All Clients"
+          }
+        },
+        {
+          "-name": "Task Type",
+          "input": {
+            "-constant": "All Task Types"
+          }
+        },
+        {
+          "-name": "Currency",
+          "input": {
+            "-constant": "All Currencies"
+          }
+        },
+        {
+          "-name": "Detail Billable Rate",
+          "input": {
+            "-constant": "Billable Rate"
+          }
+        },
+        {
+          "-name": "Measure",
+          "input": {
+            "-constant": "Input"
+          }
+        }
+      ]
+    },
+    "measures": {
+      "measure": {
+        "-aggregate": "count_distinct",
+        "input": {
+          "-constant": "1"
+        }
+      }
+    }
+  }
+}

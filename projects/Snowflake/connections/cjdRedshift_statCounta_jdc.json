@@ -1,0 +1,7 @@
+{
+  "-name": "cjdRedshift_statCounta_jdc",
+  "-type": "Jdbc",
+  "global": {
+    "-nameref": "Redshift_Counta"
+  }
+}

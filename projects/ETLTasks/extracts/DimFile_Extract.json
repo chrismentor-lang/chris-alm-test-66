@@ -1,0 +1,8 @@
+{
+  "-name": "DimFile_Extract",
+  "-type": "Csv",
+  "columns": "3",
+  "connection": {
+    "-nameref": "DimFile"
+  }
+}

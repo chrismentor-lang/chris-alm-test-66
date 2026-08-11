@@ -1,0 +1,14 @@
+{
+  "-name": "xrRedshift_statViewDefinition_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "SHOW TABLE production.public.client"
+  },
+  "connection": {
+    "-nameref": "cjdRedshift_statCounta_jdc"
+  },
+  "query": {
+    "#file": "xrRedshift_statViewDefinition_re.query.sql"
+  }
+}

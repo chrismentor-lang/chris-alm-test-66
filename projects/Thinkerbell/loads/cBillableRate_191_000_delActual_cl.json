@@ -1,0 +1,19 @@
+{
+  "-name": "cBillableRate_191_000_delActual_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deletes the retrieved cube slice for the specified version, day and month dummy.\n\n20260205 : Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Billable Rate",
+    "-splash": "disabled"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcBillableRate_varMonthDayVersion_se"
+  }
+}

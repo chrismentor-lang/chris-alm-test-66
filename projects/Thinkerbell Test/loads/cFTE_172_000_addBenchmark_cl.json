@@ -1,0 +1,58 @@
+{
+  "-name": "cFTE_172_000_addBenchmark_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FTE",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Scenario",
+          "-name": "Scenario"
+        },
+        {
+          "-input": "Day",
+          "-name": "Day"
+        },
+        {
+          "-input": "Employee",
+          "-name": "Employee"
+        },
+        {
+          "-input": "Detail FTE",
+          "-name": "Detail FTE"
+        },
+        {
+          "-input": "Measure",
+          "-name": "Measure"
+        },
+        {
+          "-input": "DESCRIPTION"
+        },
+        {
+          "-input": "CODE"
+        },
+        {
+          "-input": "NAME"
+        },
+        {
+          "-input": "OFFICEID"
+        }
+      ]
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xvFTEBenchmark_statAll_re"
+  }
+}

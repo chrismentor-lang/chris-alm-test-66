@@ -1,0 +1,40 @@
+{
+  "-name": "dBSAccount_0820_000_byBalance_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "xeBSBalance_defAll_ee"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "Balance"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Account Type Name"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Report Group Name"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Allocation"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "Account No."
+          }
+        }
+      ]
+    }
+  }
+}

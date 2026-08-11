@@ -1,0 +1,9 @@
+{
+  "-name": "vFYMonthCurrent",
+  "comment": {
+    "#cdata-section": "20260722: Introduced to make sure that we always have the variable set to the current month of the financial year."
+  },
+  "script": {
+    "#file": "vFYMonthCurrent.script.groovy"
+  }
+}

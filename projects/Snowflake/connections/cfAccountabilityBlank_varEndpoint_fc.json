@@ -1,0 +1,18 @@
+{
+  "-name": "cfAccountabilityBlank_varEndpoint_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "Snowflake/Accountability/${vAccountabilityEndpoint}/${vAccountabilityEndpoint}_BLANK.csv"
+  },
+  "database": {
+    "#cdata-section": "Snowflake/Accountability/${vAccountabilityEndpoint}/${vAccountabilityEndpoint}_BLANK.csv"
+  },
+  "delimiter": "|",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "#none"
+}

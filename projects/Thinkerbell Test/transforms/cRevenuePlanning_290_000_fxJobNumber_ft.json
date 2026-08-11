@@ -1,0 +1,27 @@
+{
+  "-name": "cRevenuePlanning_290_000_fxJobNumber_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": {
+      "-name": "fxJobNumber",
+      "-type": "Lookup",
+      "inputs": {
+        "input": {
+          "-nameref": "Estimate"
+        }
+      },
+      "parameters": {
+        "from": ":element",
+        "source": "xdEstimate_statAllEstimateBases_de",
+        "to": "Job Number",
+        "treeformat": "ea"
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xcRevenuePlanning_statDummyClientHead_ce"
+    }
+  }
+}

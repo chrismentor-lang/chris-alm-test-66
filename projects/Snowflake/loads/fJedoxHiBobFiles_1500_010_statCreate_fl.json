@@ -1,0 +1,15 @@
+{
+  "-name": "fJedoxHiBobFiles_1500_010_statCreate_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Loads file with Jedox HiBob data into Snowflake/Float directory on SFTP."
+  },
+  "connection": {
+    "-nameref": "cfJedox_varJedoxFileName_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "fJedoxHiBobDimension_1500_000_ft"
+  },
+  "useScientificNotation": "true"
+}

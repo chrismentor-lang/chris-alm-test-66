@@ -1,0 +1,15 @@
+{
+  "-name": "fHiBob_900_010_createEndpoint_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Loads file with first page salary data into Snowflake/Float directory on SFTP."
+  },
+  "connection": {
+    "-nameref": "cfHiBob_varEndpoint_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "fHiBobCursorEndpoints_900_000_fxTimestamp_ft"
+  },
+  "useScientificNotation": "true"
+}

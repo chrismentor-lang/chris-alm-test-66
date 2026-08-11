@@ -1,0 +1,42 @@
+{
+  "-name": "dJobExecution_200_010_byAllExecuted_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Rolls-up the Jedox job ID into All Executed Jobs and sets the status attribute to Running."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xtJobID_varJobID_te"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Status",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Executed Jobs"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": {
+              "-name": "Status",
+              "input": {
+                "-constant": "Running"
+              }
+            }
+          },
+          "input": {
+            "-nameref": "JobID"
+          }
+        }
+      ]
+    }
+  }
+}

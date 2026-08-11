@@ -1,0 +1,25 @@
+{
+  "-name": "xjHiBob_statNamedListsDiscipline_je",
+  "-type": "Json",
+  "connection": {
+    "-nameref": "crestHiBob_varNamedLists_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "values"
+      },
+      {
+        "-input": "items"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$[\"work.column_1753204200620\"]"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "-name": "Update Float Tables",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that retrieves the data from all required Float endpoints, pushes to csv-files and then uploads into Snowflake landing and harmonisation databases.\n\n20260113: Included rFloat_InsertIntoHarmonisation_rs"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Create Float Endpoint files daily",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Compress Float files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rFloat_StageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rFloat_StageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rFloat_TruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rFloat_CopyIntoLanding_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rFloat_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

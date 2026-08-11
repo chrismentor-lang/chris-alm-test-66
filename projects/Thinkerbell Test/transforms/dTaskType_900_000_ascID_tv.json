@@ -1,0 +1,25 @@
+{
+  "-name": "dTaskType_900_000_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sorts the hierarchy in ascending order for Department ID and Task Type ID in that particular order."
+  },
+  "sorter": {
+    "input": [
+      {
+        "-nameref": "DEPARTMENT_ID",
+        "-order": "descending"
+      },
+      {
+        "-nameref": "TASK_TYPE_ID",
+        "-order": "ascending"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvTaskType_statAll_re"
+    }
+  }
+}

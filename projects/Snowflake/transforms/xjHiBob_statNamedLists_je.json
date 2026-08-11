@@ -1,0 +1,36 @@
+{
+  "-name": "xjHiBob_statNamedLists_je",
+  "-type": "TableUnion",
+  "cache": "false",
+  "sources": {
+    "source": [
+      {
+        "-nameref": "xjHiBob_statNamedListsCalendar_je"
+      },
+      {
+        "-nameref": "xjHiBob_statNamedListsCategory_je"
+      },
+      {
+        "-nameref": "xjHiBob_statNamedListsDiscipline_je"
+      },
+      {
+        "-nameref": "xjHiBob_statNamedListsEntity_je"
+      },
+      {
+        "-nameref": "xjHiBob_statNamedListsSite_je"
+      },
+      {
+        "-nameref": "xjHiBob_statNamedListsTaskType_je"
+      },
+      {
+        "-nameref": "xjHiBob_statNamedListsTitle_je"
+      },
+      {
+        "-nameref": "xjHiBob_statNamedListsConnection_je"
+      },
+      {
+        "-nameref": "xjHiBob_statNamedListsDepartment_je"
+      }
+    ]
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "-name": "cResourcePlanning_260_000_addPlan_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "20260224 :Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Resource Planning",
+    "-splash": "disabled",
+    "dimensions": {
+      "dimension": [
+        {
+          "-input": "Version",
+          "-name": "Version"
+        },
+        {
+          "-input": "Scenario",
+          "-name": "Scenario"
+        },
+        {
+          "-input": "Day",
+          "-name": "Day"
+        },
+        {
+          "-input": "Job Type",
+          "-name": "Job Type"
+        },
+        {
+          "-input": "Job",
+          "-name": "Job"
+        },
+        {
+          "-input": "Employee",
+          "-name": "Employee"
+        },
+        {
+          "-input": "Currency",
+          "-name": "Currency"
+        },
+        {
+          "-input": "Detail Resource",
+          "-name": "Detail Resource"
+        },
+        {
+          "-input": "Measure",
+          "-name": "Measure"
+        }
+      ]
+    }
+  },
+  "mode": "add",
+  "source": {
+    "-nameref": "xvResourcePlan_statAll_re"
+  }
+}

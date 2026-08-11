@@ -1,0 +1,34 @@
+{
+  "-name": "NormalDimensions_T2",
+  "-type": "FieldTransform",
+  "functions": {
+    "function": {
+      "-name": "_Count",
+      "-type": "RowNumber",
+      "parameters": {}
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "NormalDimensions"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "Dimension",
+          "input": {
+            "-nameref": "Name"
+          }
+        },
+        {
+          "-name": "_Count",
+          "input": {
+            "-nameref": "_Count"
+          }
+        }
+      ]
+    }
+  }
+}

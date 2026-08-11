@@ -1,0 +1,14 @@
+{
+  "-name": "xvEmployeeByEmployee_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the Employees by Employee including its hierarchical levels from the JEDOX_DIMENSIONS schema in the CONSUMPTION database in Snowflake.\n\n20260728: Introduced."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvEmployeeByEmployee_statAll_re.query.sql"
+  }
+}

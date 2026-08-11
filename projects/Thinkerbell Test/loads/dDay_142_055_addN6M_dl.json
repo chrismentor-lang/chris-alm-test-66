@@ -1,0 +1,24 @@
+{
+  "-name": "dDay_142_055_addN6M_dl",
+  "-type": "Dimension",
+  "comment": "20260128 : Introduced",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Day",
+    "attributes": {
+      "-mode": "inactive"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dDay_142_045_byN6M_fh"
+  }
+}

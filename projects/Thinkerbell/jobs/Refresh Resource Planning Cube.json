@@ -1,0 +1,25 @@
+{
+  "-name": "Refresh Resource Planning Cube",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Refresh Resource Planning Plan",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Resource Planning Estimate",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Resource Planning Actual",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Resource Planning Job Active",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

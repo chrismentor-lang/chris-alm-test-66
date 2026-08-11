@@ -1,0 +1,20 @@
+{
+  "-name": "cRevenuePlanning_609_010_inclExisting_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260723: Introduced."
+  },
+  "conditions": {
+    "condition": {
+      "-nameref": "ESTIMATE_ID",
+      "-operator": "isNull",
+      "-type": "deny"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "cRevenuePlanning_609_000_leftDimEstimates_tj"
+    }
+  }
+}

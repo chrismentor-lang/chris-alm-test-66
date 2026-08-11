@@ -1,0 +1,32 @@
+{
+  "-name": "xjAccountabilityBudgetCategories_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityBudgetCategories_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "code"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "-name": "crAccountabilityCountries_varAccessToken_rc",
+  "-type": "Rest",
+  "credentials": {
+    "token": {
+      "-nameref": "coauthAccountability_statToken_oauthc"
+    }
+  },
+  "headers": {
+    "header": {
+      "#text": "application/json",
+      "-name": "accept"
+    }
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "resource": {
+    "#cdata-section": "https://api.accountabilityonesystem.com/v1/Countries"
+  },
+  "ssl": "verify"
+}

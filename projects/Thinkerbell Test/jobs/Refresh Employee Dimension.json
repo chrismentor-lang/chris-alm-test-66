@@ -1,0 +1,36 @@
+{
+  "-name": "Refresh Employee Dimension",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that refreshes the different hierarchies of the Employee dimension including the required dummy levels."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dEmployee_200_020_insAllEmployees_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dEmployee_201_020_insAllEmployeesDummy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dEmployee_202_020_insAllEmployeesByDepartment_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dEmployee_203_020_insAllEmployeesByDepartmentDummy_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dEmployee_204_020_insAllEmployeesByTaskType_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dEmployee_205_020_insAllEmployeesByTaskTypeDummy_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

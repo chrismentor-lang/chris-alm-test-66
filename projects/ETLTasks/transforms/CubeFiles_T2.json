@@ -1,0 +1,33 @@
+{
+  "-name": "CubeFiles_T2",
+  "-type": "FieldTransform",
+  "functions": {
+    "function": {
+      "-name": "Cube",
+      "-type": "Replace",
+      "inputs": {
+        "input": {
+          "-nameref": "Filename"
+        }
+      },
+      "parameters": {
+        "regexp": ".CUBE.TXT"
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "CubeFiles_T1"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": {
+        "-name": "Cube",
+        "input": {
+          "-nameref": "Cube"
+        }
+      }
+    }
+  }
+}
