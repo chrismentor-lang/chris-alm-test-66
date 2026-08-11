@@ -1,0 +1,44 @@
+{
+  "-name": "xjFloatMilestones_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all milestones and their details from Float. Loaded to Snowflake but not used in the solution.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatMilestones_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "date"
+      },
+      {
+        "-input": "end_date"
+      },
+      {
+        "-input": "milestone_id"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "phase_id"
+      },
+      {
+        "-input": "project_id"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

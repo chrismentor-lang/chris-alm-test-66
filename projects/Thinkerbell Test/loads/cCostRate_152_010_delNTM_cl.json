@@ -1,0 +1,19 @@
+{
+  "-name": "cCostRate_152_010_delNTM_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deleted the cost rates from the Cost Rate cube for the next twelve months.\n\n20260506 Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Cost Rate",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "cCostRate_152_000_cdNTMStat_ta"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "Thinkerbell Refresh Estimated Revenue On Demand",
+  "-type": "ExternalJob",
+  "execution": {
+    "-nameref": "Refresh Estimated Revenue On Demand",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Thinkerbell",
+    "-scope": "Global"
+  }
+}

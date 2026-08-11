@@ -1,0 +1,161 @@
+{
+  "-name": "fAccountabilityPurchaseOrders_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": {
+      "-name": "fxNotes",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NOT",
+          "-nameref": "notes"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fAccountabilityPurchaseOrders_300_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityPurchaseOrders_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "addedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "addedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approved"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "cancelled"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "completed"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "contactId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "currencyId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxRate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jobId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "nominatedApproverId"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "paymentTermsFactor"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "paymentTermsNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "purchaseOrderNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "submitted"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "supplierId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxCodeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taxPercentage"
+          }
+        }
+      ]
+    }
+  }
+}

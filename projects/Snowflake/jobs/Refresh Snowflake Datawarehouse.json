@@ -1,0 +1,36 @@
+{
+  "-name": "Refresh Snowflake Datawarehouse",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This job updates all the Itmeline, GL, Cost Rate, Billable Rate, Employee working days, and estimates in the DATAWAREHOUSE database for reporting in PowerBI.\n\n20260327: Moved \"Refresh Job Estimates SCD\" to \"Delete Estimates and Refresh SCD\""
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "rAccountability_MissingTimeLineIDs_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rGLSummary_InsertIntoDatawarehouse_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rCostRate_InsertIntoDatawarehouse_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rBillableRate_InsertIntoDatawarehouse_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rEmployeeWorkingDays_InsertIntoDatawarehouse_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Delete Estimates and Refresh SCD",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,15 @@
+{
+  "-name": "CubeFromFile_Load",
+  "-type": "Cube",
+  "connection": {
+    "-nameref": "OlapTarget"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "noneWithDefaultWrite",
+    "-name": "${Cube}"
+  },
+  "mode": "update",
+  "source": {
+    "-nameref": "CubeFile_Extract"
+  }
+}

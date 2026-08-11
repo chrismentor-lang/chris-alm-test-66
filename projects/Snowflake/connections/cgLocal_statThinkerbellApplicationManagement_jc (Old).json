@@ -1,0 +1,11 @@
+{
+  "-name": "cgLocal_statThinkerbellApplicationManagement_jc (Old)",
+  "-type": "JedoxOlap",
+  "database": {
+    "#cdata-section": "Thinkerbell-Application-Management"
+  },
+  "global": {
+    "-nameref": "localhost"
+  },
+  "ssl": "off"
+}

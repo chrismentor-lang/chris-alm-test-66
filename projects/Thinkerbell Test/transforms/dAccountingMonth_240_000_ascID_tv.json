@@ -1,0 +1,16 @@
+{
+  "-name": "dAccountingMonth_240_000_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "sorter": {
+    "input": {
+      "-nameref": "ACCOUNTING_MONTH_CODE",
+      "-order": "ascending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvAccountingMonth_statAll_re"
+    }
+  }
+}

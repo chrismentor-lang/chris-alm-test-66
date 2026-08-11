@@ -1,0 +1,13 @@
+{
+  "-name": "rRBA_DailyFXInsertIntoHarmonisation_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls the stored procedure to insert the data from the landing table into the harmonisation database.\n\nCALL LANDING.FULL_ACCOUNTABILITY.SP_INSERT_HARMONISATION_CLIENTS();"
+  },
+  "connection": {
+    "-nameref": "csfRBALoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRBA_DailyFXInsertIntoHarmonisation_rs.query.sql"
+  }
+}

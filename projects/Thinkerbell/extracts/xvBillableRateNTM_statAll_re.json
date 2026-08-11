@@ -1,0 +1,14 @@
+{
+  "-name": "xvBillableRateNTM_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the data from the Billable Rate NTM view from Snowflake.\n\n20260205 :Created"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvBillableRateNTM_statAll_re.query.sql"
+  }
+}

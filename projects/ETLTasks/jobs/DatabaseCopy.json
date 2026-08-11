@@ -1,0 +1,23 @@
+{
+  "-name": "DatabaseCopy",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Copy a complete Jedox database to another running Jedox OLAP Server.\nVariables: SourceConn, TargetConn, SourceDB, TargetDB"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "VerifyDifferentDatabase",
+        "-type": "job"
+      },
+      {
+        "-nameref": "DimensionsCopyAll",
+        "-type": "job"
+      },
+      {
+        "-nameref": "CubesCopyAll",
+        "-type": "job"
+      }
+    ]
+  }
+}

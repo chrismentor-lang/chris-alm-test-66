@@ -1,0 +1,46 @@
+{
+  "-name": "dBSAccount_800_000_attrName_pc",
+  "-type": "TreePC",
+  "sources": {
+    "source": {
+      "-nameref": "xvBSAccount_statAll_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string",
+          "input": {
+            "-nameref": "NAME"
+          }
+        },
+        {
+          "-name": "ID_Name",
+          "-type": "string",
+          "input": {
+            "-nameref": "ID_NAME"
+          }
+        },
+        {
+          "-name": "Conversion Type",
+          "-type": "string",
+          "input": {
+            "-nameref": "CONVERSION_TYPE"
+          }
+        }
+      ]
+    },
+    "child": {
+      "input": {
+        "-nameref": "CHILD_ELEMENT"
+      }
+    },
+    "parent": {
+      "input": {
+        "-nameref": "PARENT_ELEMENT"
+      }
+    }
+  }
+}

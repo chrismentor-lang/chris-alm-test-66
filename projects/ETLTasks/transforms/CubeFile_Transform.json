@@ -1,0 +1,25 @@
+{
+  "-name": "CubeFile_Transform",
+  "-type": "FieldTransform",
+  "functions": {
+    "function": {
+      "-name": "Value",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-nameref": "Value"
+        }
+      },
+      "parameters": {
+        "script": {
+          "#file": "CubeFile_Transform.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "CubeFile_Extract"
+    }
+  }
+}

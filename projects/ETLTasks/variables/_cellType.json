@@ -1,0 +1,4 @@
+{
+  "-name": "_cellType",
+  "default": "only_string"
+}

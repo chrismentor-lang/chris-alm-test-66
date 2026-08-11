@@ -1,0 +1,13 @@
+{
+  "-name": "rRBA_DailyFXStageDelete_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Deletes the file from the RBA schema in the LANDING database.\n\nremove @LANDING.SCHEMA.STAGE/FILENAME.csv.gz;"
+  },
+  "connection": {
+    "-nameref": "csfRBALoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRBA_DailyFXStageDelete_rs.query.sql"
+  }
+}

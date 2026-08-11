@@ -1,0 +1,14 @@
+{
+  "-name": "xvFactPL_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the P&L data from the Fact_PL view in Snowflake."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvFactPL_statAll_re.query.sql"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "-name": "RulesToFileAll",
+  "-type": "Loop",
+  "execution": {
+    "-nameref": "RuleToFile_Load",
+    "-type": "load"
+  },
+  "loop": {
+    "-nameref": "Cubes_T2"
+  }
+}

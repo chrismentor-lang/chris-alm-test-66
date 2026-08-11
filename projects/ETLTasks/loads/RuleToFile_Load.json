@@ -1,0 +1,11 @@
+{
+  "-name": "RuleToFile_Load",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "RuleFile"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "Rule_Extract"
+  }
+}

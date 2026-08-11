@@ -1,0 +1,10 @@
+{
+  "-name": "rAccountability_CopyIntoLandingChargeableRate_rs",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rAccountability_CopyIntoLandingChargeableRate_rs.query.sql"
+  }
+}

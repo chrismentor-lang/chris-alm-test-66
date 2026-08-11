@@ -1,0 +1,11 @@
+{
+  "-name": "Update Jedox SCDs",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Script that determines whether there is any SCD (slowly changing dimension) data that needs to be uploaded."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Update Jedox SCDs.jobscript.groovy"
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "-name": "vHiBobCursor",
+  "comment": {
+    "#cdata-section": "Conn = \"localhost\";\nDB = \"Thinkerbell-Application-Management\";\nCub = \"#_Hi Bob Endpoint\";\nString [] path = [\"Cursor\", \"Salaries\", \"~\"];\n\nIConnection con = OLAP.getGlobalConnection(Conn);\nIDatabase db = con.getDatabaseByName(DB);\nICube cube = db.getCubeByName(Cub);\nIElement [] elPath = cube.getCellPath(path);\nICell cell = cube.getCell(elPath);\nObject value = cell.getValue();\n\nreturn value;"
+  }
+}

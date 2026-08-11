@@ -1,0 +1,13 @@
+{
+  "-name": "rRBA_DailyFXStageUpload_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Uploads the file to the stage in the RBA schema in the Landing database."
+  },
+  "connection": {
+    "-nameref": "csfRBALoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRBA_DailyFXStageUpload_rs.query.sql"
+  }
+}

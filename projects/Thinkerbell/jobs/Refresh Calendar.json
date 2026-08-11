@@ -1,0 +1,14 @@
+{
+  "-name": "Refresh Calendar",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260806: Introduced."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "cCalendar_616_000_updLocations_cl",
+      "-type": "load"
+    }
+  },
+  "failStatus": "inherit"
+}

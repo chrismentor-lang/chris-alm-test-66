@@ -1,0 +1,64 @@
+{
+  "-name": "dJobType_300_010_attrName_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 2 levels of the All Job Types hierarchy for the Job Type dimension and populates the attributes Name, ID_Name, and Active for the base level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dJobType_300_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Active"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Job Types"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "JOB_TYPE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "JOB_TYPE_ID_NAME"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "JOB_TYPE_ACTIVE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "JOB_TYPE_ID"
+          }
+        }
+      ]
+    }
+  }
+}

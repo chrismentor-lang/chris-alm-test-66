@@ -1,0 +1,95 @@
+{
+  "-name": "xjAccountabilityGeneralLedgerTransactions_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityGeneralLedgerTransactions_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "accountId"
+      },
+      {
+        "-input": "accountingMonthId"
+      },
+      {
+        "-input": "accountingYearId"
+      },
+      {
+        "-input": "approvedAt"
+      },
+      {
+        "-input": "clientId"
+      },
+      {
+        "-input": "credit"
+      },
+      {
+        "-input": "currencyId"
+      },
+      {
+        "-input": "debit"
+      },
+      {
+        "-input": "departmentId"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "employeeId"
+      },
+      {
+        "-input": "interOfficeId"
+      },
+      {
+        "-input": "jobId"
+      },
+      {
+        "-input": "journalDate"
+      },
+      {
+        "-input": "journalEntryId"
+      },
+      {
+        "-input": "journalId"
+      },
+      {
+        "-input": "journalNumber"
+      },
+      {
+        "-input": "masterJobId"
+      },
+      {
+        "-input": "officeId"
+      },
+      {
+        "-input": "productId"
+      },
+      {
+        "-input": "supplierId"
+      },
+      {
+        "-input": "transactionCurrencyCredit"
+      },
+      {
+        "-input": "transactionCurrencyDebit"
+      },
+      {
+        "-input": "transactionCurrencyId"
+      },
+      {
+        "-input": "transactionNumber"
+      },
+      {
+        "-input": "transactionTypeId"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

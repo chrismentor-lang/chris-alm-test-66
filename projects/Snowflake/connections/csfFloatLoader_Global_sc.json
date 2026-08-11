@@ -1,0 +1,10 @@
+{
+  "-name": "csfFloatLoader_Global_sc",
+  "-type": "Snowflake",
+  "comment": {
+    "#cdata-section": "Connects to the Snowflake LANDING database with the FLOAT_USR and the FLOAT_LOADER role."
+  },
+  "global": {
+    "-nameref": "Snowflake_Float_Loader"
+  }
+}

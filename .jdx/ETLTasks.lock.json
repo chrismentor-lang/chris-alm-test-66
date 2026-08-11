@@ -1,0 +1,457 @@
+{
+  "components": {
+    "ETLTasks.connections.CubeFile": {
+      "hash": "sha256:26d770897c377bcf099ce662cdc722ea78ba20df8d60486b7a6a5f4e12e837aa",
+      "modified": 1394701167973
+    },
+    "ETLTasks.connections.CubeFiles": {
+      "hash": "sha256:13492debe08183f75fce7bbc74e4c4f93ff1760af1d819c3bf6faae63ab2120a",
+      "modified": 1394701167973
+    },
+    "ETLTasks.connections.DimFile": {
+      "hash": "sha256:685bbd8199260eb2850d44df12d0df8b2436330c02ba9c7b0d39ab575ae812b7",
+      "modified": 1394701167973
+    },
+    "ETLTasks.connections.DimFiles": {
+      "hash": "sha256:7f6330c3f67f0245a49763e6c89e163b664c293965b83255a0dc4cbb7d8f0287",
+      "modified": 1394701167973
+    },
+    "ETLTasks.connections.GenericFile": {
+      "hash": "sha256:d08f61786ae17313c8569febdfcdce3bbe5ca6763c90b818630d5af24e08ac94",
+      "modified": 1394703262883
+    },
+    "ETLTasks.connections.OlapSource": {
+      "hash": "sha256:b6b074ed842c855d85f68d6a9fad815f14953fbe7eeb44aded9120a6dfe63e90",
+      "modified": 1394701167973
+    },
+    "ETLTasks.connections.OlapTarget": {
+      "hash": "sha256:380730a571c4978d79f6692fab74eefa21bd5b3d5b9dfeee77f56821768dd851",
+      "modified": 1394701167973
+    },
+    "ETLTasks.connections.RuleFile": {
+      "hash": "sha256:1da485cba3a88560142867e716e7354970921d30632d98144870dfac6a0ea09a",
+      "modified": 1394701167973
+    },
+    "ETLTasks.connections.RuleFiles": {
+      "hash": "sha256:797db0f535e0c0b2b134343b596e3e55a5a8cd825f1b5c39d703f783944020f4",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.CubeFile_Extract": {
+      "hash": "sha256:4af032e07955f1757bddc0799620843bcb585beadd42ad0508c1afc0e5e2603b",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.CubeFiles_Extract": {
+      "hash": "sha256:ce4074b984367d706e34b1e8f92c02f42172cdfed1af49d67899540573c7c299",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.CubeRulesCalc_Extract": {
+      "hash": "sha256:243e8ae34c237e0c19c1f5351e6f82aea7eb9f18a0a0c36107a90f522b8def4f",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.Cube_Extract": {
+      "hash": "sha256:f193c4b9006ea725a3b51329abf8d7dacc1b7c3738641b1391da9d4dde200157",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.Cube_Slice_Extract": {
+      "hash": "sha256:bb56928ff011e9c3b9cbe4a9bda71138aae713cf401c408a8a293506e3675786",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.Cube_Type_Extract": {
+      "hash": "sha256:cd034ea7680a9cda19c655b5406b66b5ce0ba0e8e79e5e8693f0df9435596e8a",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.Cubes": {
+      "hash": "sha256:8da27ace89f1d69fb5bde96b837f3c4aa8afaa11b848238e8a7fdfd7b557e3d9",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.DimFile_Extract": {
+      "hash": "sha256:593014f0e2bb1f5e3abf0163ddd3d0fdbe35e0878c40475d39a413d7339bf7ee",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.DimFiles_Extract": {
+      "hash": "sha256:030d6ea22047928c730d8828d6b33c55a0941b41ce2710e428a11b79e57b47eb",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.DimensionCubes": {
+      "hash": "sha256:a85e31430d1038a387f3972b29e7603106270af84a36ccae8974e729b550eb9e",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.Dimension_Extract": {
+      "hash": "sha256:5a3494a66f7b8d6f9e225d12653bbaeb45121b2c5e781dcb0ea71df96046bd3d",
+      "modified": 1394704919365
+    },
+    "ETLTasks.extracts.Dimension_Filter_Extract": {
+      "hash": "sha256:2488a6e4bb1daf38a3933366aa67bb5e8efa7120abdce797e03f2700ede48915",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.Dimensions": {
+      "hash": "sha256:9dea3a24428ab2b97958ba033833196f85e8b0885cef3c87493303184dacf484",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.GenericFile_Columns": {
+      "hash": "sha256:0c0b9a008b08c10fd325237835e688f8627348ddbe78a641a7fd025bbc73be1b",
+      "modified": 1394703315832
+    },
+    "ETLTasks.extracts.GenericFile_Extract": {
+      "hash": "sha256:4f9a9d715e67a03d9c977e75e85d05822fa8c1453db6b28d6b4964482a9ccaae",
+      "modified": 1394703275788
+    },
+    "ETLTasks.extracts.NormalDimensions": {
+      "hash": "sha256:21da5349602ae69168df3aadf2969d12e00bea468a4f316714f8d43c2c2d32d9",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.RuleFile_Extract": {
+      "hash": "sha256:91480f290f0569cff3ee5324be73686418a1d0f0927ad0b5540f33d999cd3db8",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.RuleFiles_Extract": {
+      "hash": "sha256:cd0e17e3ee155215412e57cf4ef854558e708315f573df7c51582101ceea2fc8",
+      "modified": 1394701167973
+    },
+    "ETLTasks.extracts.Rule_Extract": {
+      "hash": "sha256:db6ae331ac4ccbd638b21f1d4e4dc3ee2942488de0334a988198d3e1fa8ab287",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.CreateOlap": {
+      "hash": "sha256:cef63d20dd5ba526414850690e097475f55bbe061ccfd896b6dbbdaf3f537b94",
+      "modified": 1394705586990
+    },
+    "ETLTasks.jobs.CubeAnonymize": {
+      "hash": "sha256:b14c793f771abbca1e1083061c09003c8dae1e39828347f5edc78614fce3d1ab",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.CubeCopy": {
+      "hash": "sha256:591eb328e487c64da5dbce9897b1a9d5c5d865970f2473cbe2de3fe5e7563521",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.CubeFile_Type_Job": {
+      "hash": "sha256:9424ab4e473d6000e36017d8b83cb0614235fa4c4f2fd5dbe799f6e4d466789a"
+    },
+    "ETLTasks.jobs.CubePopulate": {
+      "hash": "sha256:7ddc28cf5c691b6cf164dd657ac1b3b4d24e3cda09d9ecc33a924db18650e371",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.CubeRulesCalc": {
+      "hash": "sha256:cbcdc0fa6932107e8dd648ab73b43bd19ed8b03c409a00225d53fd0bfa8a5136",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.CubeWithRulesCopy": {
+      "hash": "sha256:7a470d88eff72d24e180b035405d1522c80e840d21ebd962431ae9d913c9423a",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.CubesCheckDifferent": {
+      "hash": "sha256:36e79aad864b716c20fdce2c981fc634378cd29eba700650afe11cd207f5bf3a",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.CubesCopyAll": {
+      "hash": "sha256:21a7da8b93e7c328cb320f06a3df6ddb530723787c1d891896903ab197d0cb63"
+    },
+    "ETLTasks.jobs.CubesFromFileAll": {
+      "hash": "sha256:30d788e8be1b312e0aaa8debb250af87b2b0dd2fcbf5a494db78af43bd9008e8"
+    },
+    "ETLTasks.jobs.CubesFromFile_Insert_All": {
+      "hash": "sha256:5af30e4b5f7a514f37f698a063d4010844cf9b30caf95cce337137fb2b255809"
+    },
+    "ETLTasks.jobs.CubesToFileAll": {
+      "hash": "sha256:6267b041275dace778a2214db23b8633adda8da6999d2cfee59e3b4e672fc764"
+    },
+    "ETLTasks.jobs.DatabaseAnonymize": {
+      "hash": "sha256:426ef27d8f1984efae6052d0a09ce4f488c01df3cf649f271cd1fc73697607c8",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.DatabaseBackup": {
+      "hash": "sha256:3c673c327fe8f99e3372bc8b16e5385cdfc785b33276e2719d6a49f580d91aca",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.DatabaseBackupArchive": {
+      "hash": "sha256:0bf671a43f21f98ff134f9b097e966594756bddccccb06d1ab3ac204448e46d5",
+      "modified": 1459507721398,
+      "modifiedBy": "admin"
+    },
+    "ETLTasks.jobs.DatabaseCopy": {
+      "hash": "sha256:f7fb84a95c26a85dd39e5018b2d19e10324919ad96e4bf8970b61a3f50c3cb02",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.DatabaseRestore": {
+      "hash": "sha256:d40c889af71ed2d875843786be7e5f7647da8044a43db0677fd7affc286f366e",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.DatabaseSave": {
+      "hash": "sha256:cfd6bda8655e441b1263f703a99c15aec7ee77ada789f3aa9f37ea592048528f",
+      "modified": 1394703087804
+    },
+    "ETLTasks.jobs.DimensionsAnonymizeAll": {
+      "hash": "sha256:0dab2ca90b100dd1ca3670e4eded40a09504c2ed438682c6a015309ae71bfd85"
+    },
+    "ETLTasks.jobs.DimensionsCopyAll": {
+      "hash": "sha256:16a2413e8a18058571d352e4aec0675e4179bfe8a0856bd9591c23372e9fb777"
+    },
+    "ETLTasks.jobs.DimensionsFromFileAll": {
+      "hash": "sha256:82b8ad24a6f4f27a9e3d7032a424712da74b97563379d82da9f0741a20ade39d"
+    },
+    "ETLTasks.jobs.DimensionsToFileAll": {
+      "hash": "sha256:cab65a396dbadb48ac9b3db4c1c21099f31f4c440967559e31f83b10c47d5308"
+    },
+    "ETLTasks.jobs.RenameElements": {
+      "hash": "sha256:688f7bea4f1f3269e72aa8099106b9a887115265a23fd20892392540a0256c11",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.RulesFromFileAll": {
+      "hash": "sha256:e4e7399df6a3122fd66c611f282be8687838e4af79ae1809278c68c13106dfb4"
+    },
+    "ETLTasks.jobs.RulesReplace": {
+      "hash": "sha256:6497cf52268b2a267e88cb2591af1c77ce8b2ccaec9b4907337c7c688db4c100",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.RulesToFileAll": {
+      "hash": "sha256:3999f1aaf2590b86008807d78561361c319b26557389e8269b8070988d9c632c"
+    },
+    "ETLTasks.jobs.UpdateElementType": {
+      "hash": "sha256:5642546b33b1d355de17ff2cea1937ac1826e90873d52327394ac30f73f1feca",
+      "modified": 1394701167973
+    },
+    "ETLTasks.jobs.VerifyDifferentDatabase": {
+      "hash": "sha256:7fc446cb829a6f078a12bc0fe9ca967553ebc0da438f1721666d4ddd8d36a2c8",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.CubeCopy_Load": {
+      "hash": "sha256:c13231026f71ee92cd428ff88c98180515824e0c2e3d8174a569690463f1bc43",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.CubeFile_Type_Load": {
+      "hash": "sha256:865f13f224203de29fca1e61d30bd09a827370c75664afd2964a2b32fcb2deb8",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.CubeFromFile_Insert_Load": {
+      "hash": "sha256:654334df03830c8f332a96d2280d32960d35c0edb2ec8e6d625039e1d83c2a65",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.CubeFromFile_Load": {
+      "hash": "sha256:2ebc14339c719d292d1d18a430bf210681e566c0f9664a86263eacc9e6406165",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.CubeGeneric_Load": {
+      "hash": "sha256:3fc071d4436baf0d7779f77659e4bbaf6e88cf9d055377c871bd621e1f6bfc82",
+      "modified": 1394705387791
+    },
+    "ETLTasks.loads.CubePopulate_Load": {
+      "hash": "sha256:f62dc51538a81f16a1ea6a835eb53d82529628fe54b724f3342625e62d17d481",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.CubeTarget_Load": {
+      "hash": "sha256:4b8554a99261b301a3c55fe442bdb9836d229b297773e94abf585b8bfbd3c381",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.CubeToFile_Load": {
+      "hash": "sha256:0852a89025faf282ac8cb0e27aeb8adba763698f139ef44ac7863037d809ebb6",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.DimFromFile_Load": {
+      "hash": "sha256:9ccb24e6caebef11dd04551630fcd636f5f569d407fbc2560e1681309fc5ed08",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.DimToFile_Load": {
+      "hash": "sha256:6f5066f6e697a9776a29caf4a9d250ef5d078e9fdbc5e52ab97af49fc638eed5",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.DimensionCopy_Load": {
+      "hash": "sha256:4cb8ce2893d2fe6a80281b488d671040b02eda5459892bed021d6385c21a34a6",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.DimensionGeneric_Load": {
+      "hash": "sha256:03fd123b6459dff6dff40f0b2cdac098499da8bec8285e10032df986900bdf60",
+      "modified": 1394705425078
+    },
+    "ETLTasks.loads.Dimension_Load": {
+      "hash": "sha256:633fc08b49dd6b29f6af1b6a837bcca88fdc2890abbadb1b663e9327a134c9dc",
+      "modified": 1394704950013
+    },
+    "ETLTasks.loads.RuleCopy_Load": {
+      "hash": "sha256:191f38dab8c7d3089a7152da3f6b0ba4eb7881c083d31bbf7dd44bee519b24b8",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.RuleFromFile_Load": {
+      "hash": "sha256:e59150063b79193a366cf71d8b3f159bfa326b862f9153ab24a47629f2202b92",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.RuleTarget_Load": {
+      "hash": "sha256:016e25abe9b570c7aec53d4a379bc3bfec9f0475e1de67d254bae02a19cfa788",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.RuleToFile_Load": {
+      "hash": "sha256:1590118e6b970f9c6999c92c389d3cf169847f63349a27ccf02200d7ab1a0cdf",
+      "modified": 1394701167973
+    },
+    "ETLTasks.loads.RulesUpdate_Load": {
+      "hash": "sha256:8ab7143cc57563a5a06e28f724413eef257da946bc7c7d98f5681ff7e192d8c8",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.CubeFile_Transform": {
+      "hash": "sha256:e46d958e09893cf0bd0cf51547a406db7a1c688ccd00c50f8ee0e93a3237f4a9",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.CubeFiles_T1": {
+      "hash": "sha256:f7d28b952e81daa57d887db0f0545aa43992e44ae0fae1ba5f425c8016faf3b9",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.CubeFiles_T2": {
+      "hash": "sha256:a3f1f5037277570fd9e8b298e725968c8837d631a835652c325820ba84340b7c",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Cube_Anonymize": {
+      "hash": "sha256:31deaf2b6c3b10d9f3d66b70ec5da22b2239bfbf564416c03a62228f37fcc657",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Cube_Slice_Transform": {
+      "hash": "sha256:ef4282edfc91f727e3e4878d8e290cfcee311b1beb18485dc1867a8475db1c29",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Cubes_T1": {
+      "hash": "sha256:069c2f8c0e05e064b8b147d8571210b4d00b2ae82716c00b58f13dba980cb782",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Cubes_T2": {
+      "hash": "sha256:db5c09c3ae781b0a4dc011743c4a16bd95134c9365e4a9d33dd379399829ccaa",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.DimFiles_T1": {
+      "hash": "sha256:30b467066a81dcca71f1cc751637845c68317f3898fce52cf1aa265be80d1f55",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.DimFiles_T2": {
+      "hash": "sha256:7095f335a011406d0a8e9b4f536ee90a0198af5855f98e4f90fcee11a48dc490",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Dim_TreeNC_Transform": {
+      "hash": "sha256:e0155c3fd5d756e5c4366a5ae85c030c745245240b78d10473624d2621b89e61",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.DimensionCubes_T1": {
+      "hash": "sha256:d7c2d977e8497b205763d4e164c2bf591bc4ee14566dc31e3d4ef8288804edf5",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Dimension_Anonym_T1": {
+      "hash": "sha256:162202a9a1cfe493c2bdbcf5175b45eac39bac56a5f0572363ebd91425a928c4",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Dimensions_T1": {
+      "hash": "sha256:f1fc35d9ffbc059bc3981935805c18c34f53fa34b112038aada456b4e7b82553",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Dimensions_T2": {
+      "hash": "sha256:59f1fd2f6dd78394061710d6b0ef6bd89895a7e55659408af89528e235c87c63",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.ElementTypeTransform": {
+      "hash": "sha256:28eb35334c5972bfdd6316eca8eb777ee266ce76cc42ab117969fd70961663dd",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.GenericDimension_Tree": {
+      "hash": "sha256:22cad2c4f878086dec5da2f9b58772e6f9e74c5098526da461a08ab4ee8f897a",
+      "modified": 1394705527743
+    },
+    "ETLTasks.transforms.NormalDimensions_T2": {
+      "hash": "sha256:a2e2b8fbe2f4241bf66e916b1bcfe0c12bb4aeb3f69b511da8b53c9ef803b8e7",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.RuleFiles_T2": {
+      "hash": "sha256:c98a9bc74d65bb27119d9ddfd7bf03a7213252a24cc252677bdc1f34738bbcf3",
+      "modified": 1394701167973
+    },
+    "ETLTasks.transforms.Rule_Replace": {
+      "hash": "sha256:de07ff935a05785181cb78d3884d735bfa7020469242b43d5336dc89b328f3ca",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.BackupDirPath": {
+      "hash": "sha256:eae3056eff7741f06bc719c88818852e0444bc4db2868e9853a8c34d380c3890",
+      "modified": 1459507282643,
+      "modifiedBy": "admin"
+    },
+    "ETLTasks.variables.Cube": {
+      "hash": "sha256:b0d7ba91685834b414982d6fe186f87157e6d49c64b726061c38feefb2bc2f1c",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.Delimiter": {
+      "hash": "sha256:47def13e1c508c93652e35ea2eb01c5d88a4bd03c0dc2a5d80b48cba989aee9b",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.Dimension": {
+      "hash": "sha256:988cb06959084511c2bd8a558d95506029dae19c8ceb2c99c0ca111abbaeb01b",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.FileName": {
+      "hash": "sha256:c1f51d3ec12d5b22e835a01da7e0a45c32d20f08fc2e68b58967342e07c19df4",
+      "modified": 1394704608299
+    },
+    "ETLTasks.variables.FilePath": {
+      "hash": "sha256:1bcbd011efbf00524b5b53bb16e448c5287f7e673792359352425df17a545be4",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.NumberOfCells": {
+      "hash": "sha256:fa0d770cb1ce0c7c919dc6c4dbff02507c0f8283775c3b60a3124ff4a3d1323a",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.NumericLocale": {
+      "hash": "sha256:1d38a7d7cb67cc0f28abcdee68633dc44dc40fc05cffe2817d09bd58c6c0b4db",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.RegExp": {
+      "hash": "sha256:aa78ec2cd64ed512f211fc8ce08b15b690642fbaf7b4edaecc736159c8d28742",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.Replacement": {
+      "hash": "sha256:bb14944e1577251ace85919774b5b6a67d4e097591acdf8f046df9cc686904e0",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.SourceConn": {
+      "hash": "sha256:7943bd05ff60ae759d7a595f33d78428527e2ae7f092dcdc0813b3a5f0bfd76f",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.SourceDB": {
+      "hash": "sha256:0166cfcfcdc46a65f24d285b4f55897748dbe9901b88f87e6266492fc1f98780",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.TargetConn": {
+      "hash": "sha256:14ab70b7dbec3a5de70449abbdb64c0be920a4c77ab2768de58629e34db7610f",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.TargetCube": {
+      "hash": "sha256:629c840ca801591d473159e0870fc7093a79abcc71f8e0a9861306fe5cc57318",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables.TargetDB": {
+      "hash": "sha256:37abeaab42cd34bc1221dbea2a6a42b4b4112b18941b6712c38a53646aeb03bf",
+      "modified": 1394705605244
+    },
+    "ETLTasks.variables.TargetElementType": {
+      "hash": "sha256:79c92730d2ed094d2d250bf532bc7db4a679c690732ec7a608a89b6515c2e388",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables._Count": {
+      "hash": "sha256:2c606869db0c9773dda9e8be03e1e7e3cc2f01979d6363061fd3b464859f8b53",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables._SourceRef": {
+      "hash": "sha256:5fa7be1fb9a530dee88ba3e15718bab748a4e51be5fb9d3f6497255fc87292c3",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables._cellType": {
+      "hash": "sha256:f424534067b580edf8f5930f61c15266fa1af3d2b58fe60600a6be179b6d7ea1",
+      "modified": 1394701167973
+    },
+    "ETLTasks.variables._elementType": {
+      "hash": "sha256:493f5cb13e90f06d8107f231cdded0a2e0f356b9be4cf04f46312612134de4a2",
+      "modified": 1394701167973
+    }
+  },
+  "hash": "sha256:e13c65b443d0842b8989866cf73dc288dc99edc15d3fc2b01c5658eb156be00e",
+  "modified": 1459507721398,
+  "modifiedBy": "admin",
+  "project": "ETLTasks",
+  "source": {
+    "at": "2026-08-11T22:35:54Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}

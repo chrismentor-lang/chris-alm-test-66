@@ -1,0 +1,49 @@
+{
+  "-name": "xcRevenuePlanning_varMonthActualRevenue_cs",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "Retrieves the revenue actuals for the Base scenario from the Revenue Planning for eventual deletion."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "Actual",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Base",
+          "-dimension": "Scenario",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Revenue",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Probability",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

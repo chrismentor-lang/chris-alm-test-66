@@ -1,0 +1,24 @@
+{
+  "-name": "dBSAccount_820_010_addBalance_dl",
+  "-type": "Dimension",
+  "comment": "20260225 Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "BS Account",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "New TreePC"
+  }
+}

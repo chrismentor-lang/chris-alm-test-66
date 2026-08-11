@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh NTM Day and Month Dimension",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dDay_140_055_addNTM_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dMonth_140_050_addNTM_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

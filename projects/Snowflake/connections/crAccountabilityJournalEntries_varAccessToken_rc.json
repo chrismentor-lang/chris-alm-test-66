@@ -1,0 +1,20 @@
+{
+  "-name": "crAccountabilityJournalEntries_varAccessToken_rc",
+  "-type": "Rest",
+  "comment": "20260105: Updated the URL this connection can not be used just yet because we need to iterate based on the Journal ID.",
+  "credentials": {
+    "token": {
+      "-nameref": "coauthAccountability_statToken_oauthc"
+    }
+  },
+  "headers": {
+    "header": {
+      "#text": "application/json",
+      "-name": "accept"
+    }
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "resource": "https://api.accountabilityonesystem.com/v1/Journals/${vAccountabilityEntry}/entries",
+  "ssl": "verify"
+}

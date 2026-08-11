@@ -1,0 +1,53 @@
+{
+  "-name": "dAccountingMonth_240_010_attrName_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dAccountingMonth_240_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Accounting Month ID",
+          "-type": "string"
+        },
+        {
+          "-name": "Accounting Month Code",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Months"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Accounting Month ID",
+                "input": {
+                  "-nameref": "ACCOUNTING_MONTH_ID"
+                }
+              },
+              {
+                "-name": "Accounting Month Code",
+                "input": {
+                  "-nameref": "ACCOUNTING_MONTH_CODE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "MONTH_NAME"
+          }
+        }
+      ]
+    }
+  }
+}

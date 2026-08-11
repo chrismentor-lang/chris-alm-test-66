@@ -1,0 +1,32 @@
+{
+  "-name": "dAccountabilityEndpoint_301_000_attrTotal_fh_Sandbox",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityEstimates_statColumns_je_Sandbox"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Total Records",
+        "-type": "numeric"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "Total Records",
+            "input": {
+              "-nameref": "total"
+            }
+          }
+        },
+        "input": {
+          "-constant": "Estimates_Sandbox"
+        }
+      }
+    }
+  }
+}

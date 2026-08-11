@@ -1,0 +1,33 @@
+{
+  "-name": "dDay_140_045_byNTM_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_140_030_sortMonth_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Days NTM"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxConsolidatedNTM"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxBaseNTM"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "-name": "crestHiBob_statEmployment_rc",
+  "-type": "Rest",
+  "comment": {
+    "#cdata-section": "20260525: Introduced\nhttps://api.hibob.com/v1/bulk/people/employment?limit=200"
+  },
+  "credentials": {
+    "basic": {
+      "password": {
+        "#text": "ljDh8hk5Rf7rHS+dxeoxLBFAov3DnrO/6QWdCikPaZp/lF9DhGxFmS1rQBf6bo3cyy7tarYlyTM=",
+        "-encryption": "AES"
+      },
+      "preemptive": "true",
+      "user": "SERVICE-36903"
+    }
+  },
+  "httpMethod": "GET",
+  "ignoreCookiesPolicy": "false",
+  "resource": {
+    "#cdata-section": "https://api.hibob.com/v1/bulk/people/employment?limit=${vHiBobLimit}"
+  },
+  "ssl": "verify"
+}

@@ -1,0 +1,14 @@
+{
+  "-name": "jPut_020_000_statUpdateEmployee_jl",
+  "-type": "Json",
+  "connection": {
+    "-nameref": "crPutEmployee_rc"
+  },
+  "ignoreEmpty": "false",
+  "jsonTemplate": "#{EMPLOYEE_JSON}",
+  "mode": "add",
+  "skipRoot": "false",
+  "source": {
+    "-nameref": "xrUpdateEmployees_varEmployeesEmail_re"
+  }
+}

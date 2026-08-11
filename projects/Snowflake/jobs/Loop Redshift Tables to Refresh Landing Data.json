@@ -1,0 +1,28 @@
+{
+  "-name": "Loop Redshift Tables to Refresh Landing Data",
+  "-type": "Loop",
+  "assignment": {
+    "variable": [
+      {
+        "-name": "vRedshiftSchema",
+        "input": {
+          "-nameref": "SCHEMA_NAME"
+        }
+      },
+      {
+        "-name": "vRedshiftTable",
+        "input": {
+          "-nameref": "TABLE_NAME"
+        }
+      }
+    ]
+  },
+  "execution": {
+    "-nameref": "Update Redshift Landing Tables",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "loop": {
+    "-nameref": "xrSnowflake_statRedshiftTableDefinitions_re"
+  }
+}

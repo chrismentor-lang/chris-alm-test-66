@@ -1,0 +1,21 @@
+{
+  "-name": "cFTE_618_000_delLeave_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "20260806: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FTE",
+    "-splash": "disabled"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "cFTE_statLeave_cs"
+  }
+}

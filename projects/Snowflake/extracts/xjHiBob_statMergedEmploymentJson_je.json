@@ -1,0 +1,221 @@
+{
+  "-name": "xjHiBob_statMergedEmploymentJson_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "cfHiBob_statJsonEmployment_fc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "employeeId",
+        "-reference": "Outer"
+      },
+      {
+        "-input": "personalWorkingPatternType",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "hoursInDayNotWorked",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "type",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "calendarName",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "actualWorkingPattern.workingPatternType",
+        "-name": "actualworkingPatternType",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "actualWorkingPattern.days",
+        "-name": "actualdays",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "actualWorkingPattern.hoursPerDay",
+        "-name": "actualworkinghoursPerDay",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "actualWorkingPattern.workingPatternId",
+        "-name": "actualworkingPatternId",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "workingPattern.workingPatternType",
+        "-name": "workingPatternType",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "workingPattern.days",
+        "-name": "workingdays",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "workingPattern.hoursPerDay",
+        "-name": "workinghoursPerDay",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "workingPattern.workingPatternId",
+        "-name": "workingPatternId",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "fte",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "id",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "activeEffectiveDate",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "canBeDeleted",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "weeklyHours",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "standardWorkingPatternId",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "contract",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "change.changedById",
+        "-name": "changedById",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "change.changedBy",
+        "-name": "changedBy",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "creationDate",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "flsaCode",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753498769744",
+        "-name": "column_1753498769744",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753498722820",
+        "-name": "column_1753498722820",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753503134459",
+        "-name": "column_1753503134459",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753640921953",
+        "-name": "column_1753640921953",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "customColumns.column_1753503179284",
+        "-name": "column_1753503179284",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "isCurrent",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "modificationDate",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "calendarId",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "salaryPayType",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "siteWorkingPattern.workingPatternType",
+        "-name": "siteworkingPatternType",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "siteWorkingPattern.days",
+        "-name": "sitedays",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "siteWorkingPattern.hoursPerDay",
+        "-name": "siteworkinghoursPerDay",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "siteWorkingPattern.workingPatternId",
+        "-name": "siteworkingPatternId",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "endEffectiveDate",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "standardWorkingPattern.workingPatternType",
+        "-name": "standardworkingPatternType",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "standardWorkingPattern.days",
+        "-name": "standarddays",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "standardWorkingPattern.hoursPerDay",
+        "-name": "standardworkinghoursPerDay",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "standardWorkingPattern.workingPatternId",
+        "-name": "standardworkingPatternId2",
+        "-reference": "Inner"
+      },
+      {
+        "-input": "effectiveDate",
+        "-reference": "Inner"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": [
+        {
+          "#text": "$.results",
+          "-name": "Outer"
+        },
+        {
+          "#text": "$.values",
+          "-name": "Inner"
+        }
+      ]
+    }
+  }
+}

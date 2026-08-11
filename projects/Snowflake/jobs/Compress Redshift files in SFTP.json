@@ -1,0 +1,8 @@
+{
+  "-name": "Compress Redshift files in SFTP",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Compress Redshift files in SFTP.jobscript.groovy"
+  }
+}

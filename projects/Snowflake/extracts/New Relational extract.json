@@ -1,0 +1,11 @@
+{
+  "-name": "New Relational extract",
+  "-type": "Relational",
+  "cache": "false",
+  "connection": {
+    "-nameref": "csfHiBobLoader_Global_sc"
+  },
+  "query": {
+    "#file": "New Relational extract.query.sql"
+  }
+}

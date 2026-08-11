@@ -1,0 +1,18 @@
+{
+  "-name": "cBillableRate_190_000_DayAndMonthDummy_tu",
+  "-type": "TableUnion",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Creates a union of the retrieved day values and the constructed month dummy value from the billable rates in the view in Snowflake."
+  },
+  "sources": {
+    "source": [
+      {
+        "-nameref": "xvBillableRate_varDay_re"
+      },
+      {
+        "-nameref": "xvBillableRate_varMonthDummy_re"
+      }
+    ]
+  }
+}

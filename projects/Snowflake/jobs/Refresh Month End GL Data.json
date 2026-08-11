@@ -1,0 +1,11 @@
+{
+  "-name": "Refresh Month End GL Data",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "20260212: Scheduling this job to run for first 7 days of the month. This job can also be executed manually by setting the vPrevMonth in Options"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Refresh Month End GL Data.jobscript.groovy"
+  }
+}

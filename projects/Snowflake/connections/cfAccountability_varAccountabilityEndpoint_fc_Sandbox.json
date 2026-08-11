@@ -1,0 +1,15 @@
+{
+  "-name": "cfAccountability_varAccountabilityEndpoint_fc_Sandbox",
+  "-type": "CsvFile",
+  "database": {
+    "#cdata-section": "Snowflake/Accountability/${vAccountabilityEndpoint}/Estimates_${vFileDate}_Sandbox.csv"
+  },
+  "delimiter": "|",
+  "directory": "false",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "#none"
+}

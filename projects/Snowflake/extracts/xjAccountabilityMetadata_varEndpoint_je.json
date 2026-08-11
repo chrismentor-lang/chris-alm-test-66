@@ -1,0 +1,26 @@
+{
+  "-name": "xjAccountabilityMetadata_varEndpoint_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountability${vAccountabilityEndpoint}_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "count"
+      },
+      {
+        "-input": "offset"
+      },
+      {
+        "-input": "total"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.metadata"
+    }
+  }
+}

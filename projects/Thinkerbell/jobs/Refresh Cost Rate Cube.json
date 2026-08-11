@@ -1,0 +1,28 @@
+{
+  "-name": "Refresh Cost Rate Cube",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Updates the cost rate cube for both yesterday and the next twelve months based on the cost rate views from Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cCostRate_151_000_delDayActuals_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cCostRate_150_000_addDayActuals_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cCostRate_152_010_delNTM_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cCostRate_153_000_addNTM_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

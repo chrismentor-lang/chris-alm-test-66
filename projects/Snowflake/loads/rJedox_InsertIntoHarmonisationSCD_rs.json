@@ -1,0 +1,13 @@
+{
+  "-name": "rJedox_InsertIntoHarmonisationSCD_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls the stored procedure to insert the SCD data from the landing table into the harmonisation database.\n\nCALL HARMONISATION.JEDOX.SP_LOAD_SCD_JedoxSnowflakeTable();"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rJedox_InsertIntoHarmonisationSCD_rs.query.sql"
+  }
+}

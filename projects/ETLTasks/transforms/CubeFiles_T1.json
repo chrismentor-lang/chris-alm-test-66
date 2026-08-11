@@ -1,0 +1,15 @@
+{
+  "-name": "CubeFiles_T1",
+  "-type": "TableView",
+  "sorter": {
+    "input": {
+      "-nameref": "Filename",
+      "-order": "descending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "CubeFiles_Extract"
+    }
+  }
+}

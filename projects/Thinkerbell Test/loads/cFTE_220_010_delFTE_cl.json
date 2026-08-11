@@ -1,0 +1,19 @@
+{
+  "-name": "cFTE_220_010_delFTE_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "20260212 Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FTE",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "cFTE_220_005_cdStat_ta"
+  }
+}

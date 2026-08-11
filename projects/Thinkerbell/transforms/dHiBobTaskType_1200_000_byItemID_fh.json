@@ -1,0 +1,32 @@
+{
+  "-name": "dHiBobTaskType_1200_000_byItemID_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "xvHiBobTaskType_statAll_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Hi Bob Name",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "Hi Bob Name",
+            "input": {
+              "-nameref": "ITEM_VALUE"
+            }
+          }
+        },
+        "input": {
+          "-nameref": "ITEM_ID"
+        }
+      }
+    }
+  }
+}

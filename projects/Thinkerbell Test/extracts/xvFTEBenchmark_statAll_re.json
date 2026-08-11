@@ -1,0 +1,11 @@
+{
+  "-name": "xvFTEBenchmark_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvFTEBenchmark_statAll_re.query.sql"
+  }
+}

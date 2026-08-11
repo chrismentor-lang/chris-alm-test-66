@@ -1,0 +1,50 @@
+{
+  "-name": "xjFloatRoles_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all roles and their details from Float. \n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatRoles_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "cost_rate_history"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "created_by"
+      },
+      {
+        "-input": "default_hourly_rate"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "modified_by"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "people_count"
+      },
+      {
+        "-input": "people_ids"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

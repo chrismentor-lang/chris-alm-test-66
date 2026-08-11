@@ -1,0 +1,17 @@
+{
+  "-name": "Post new Employees to Accountability and Snowflake",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "jPost_010_000_statCreateEmployee_jl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "sAccountability_010_000_varEmail_sl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

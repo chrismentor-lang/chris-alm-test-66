@@ -1,0 +1,34 @@
+{
+  "-name": "Update Jedox Estimate Elements in Snowflake",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260724: Introduced."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "Update Jedox Tables",
+      "-type": "job"
+    }
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vJedoxFileName",
+        "default": "Estimate"
+      },
+      {
+        "-name": "vJedoxWinSCPFolder",
+        "default": "Snowflake/Jedox/Estimate"
+      },
+      {
+        "-name": "vSCD",
+        "default": "0"
+      },
+      {
+        "-name": "vJedoxSnowflakeTable",
+        "default": "ESTIMATE"
+      }
+    ]
+  }
+}

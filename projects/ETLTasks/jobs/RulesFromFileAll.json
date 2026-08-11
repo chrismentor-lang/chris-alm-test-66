@@ -1,0 +1,11 @@
+{
+  "-name": "RulesFromFileAll",
+  "-type": "Loop",
+  "execution": {
+    "-nameref": "RuleFromFile_Load",
+    "-type": "load"
+  },
+  "loop": {
+    "-nameref": "RuleFiles_T2"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "-name": "Thinkerbell Refresh Revenue Planning Cube",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "Refreshes the actuals, the total estimate for input, and the monthly estimate input for the new estimates in the Revenue Planning cube."
+  },
+  "execution": {
+    "-nameref": "Refresh Revenue Planning",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Thinkerbell",
+    "-scope": "Global"
+  }
+}

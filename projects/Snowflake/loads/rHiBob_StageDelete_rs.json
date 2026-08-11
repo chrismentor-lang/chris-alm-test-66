@@ -1,0 +1,13 @@
+{
+  "-name": "rHiBob_StageDelete_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Deletes the file from the HiBob schema in the LANDING database.\n\nremove @LANDING.SCHEMA.STAGE/FILENAME.csv.gz;"
+  },
+  "connection": {
+    "-nameref": "csfHiBobLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rHiBob_StageDelete_rs.query.sql"
+  }
+}

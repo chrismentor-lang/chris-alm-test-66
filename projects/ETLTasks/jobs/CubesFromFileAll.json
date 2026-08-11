@@ -1,0 +1,11 @@
+{
+  "-name": "CubesFromFileAll",
+  "-type": "Loop",
+  "execution": {
+    "-nameref": "CubeFromFile_Load",
+    "-type": "load"
+  },
+  "loop": {
+    "-nameref": "CubeFiles_T2"
+  }
+}

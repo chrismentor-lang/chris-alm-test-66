@@ -1,0 +1,16 @@
+{
+  "-name": "dAccountingYear_250_000_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "sorter": {
+    "input": {
+      "-nameref": "YEAR",
+      "-order": "ascending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvAccountingYear_statAll_re"
+    }
+  }
+}

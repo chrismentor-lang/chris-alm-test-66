@@ -1,0 +1,32 @@
+{
+  "-name": "Refresh FTE Cube",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260806: Introduced."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Refresh FTE Weekend",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh FTE Public Holiday",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh FTE NTM",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh FTE Benchmark",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh FTE Leave",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,13 @@
+{
+  "-name": "rEstimateEntries_DeleteFromHarmonisation_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from accountability schema in the HARMONISATION database that cleans up estimate entries that are either explicitly deleted, orphaned from their parent estimate, or linked to jobs that no longer exist in ESTIMATE_ENTRIES table in the ACCOUNTABILITY schema of the HARMONSATION database.\n\n20260318: Should run after all the Accountability Tables have been refreshed and before refreshing the SCD"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rEstimateEntries_DeleteFromHarmonisation_rs.query.sql"
+  }
+}

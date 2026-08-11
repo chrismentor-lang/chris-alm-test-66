@@ -1,0 +1,15 @@
+{
+  "-name": "CubeGeneric_Load",
+  "-type": "Cube",
+  "connection": {
+    "-nameref": "OlapTarget"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "noneWithDefaultWrite",
+    "-name": "${Cube}"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "GenericFile_Extract"
+  }
+}

@@ -1,0 +1,381 @@
+{
+  "-name": "fHiBobEmployees_000_000_fxReplace_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": {
+      "-name": "fxNewlIne",
+      "-type": "Replace",
+      "inputs": {
+        "input": {
+          "-nameref": "about_custom_field_1751614595611"
+        }
+      },
+      "parameters": {
+        "regexp": "\\r\\n|\\r|\\n"
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjHiBob_statEmployees_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "displayName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_shortBirthDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_pronouns"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_custom_field_1751513931423"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_custom_field_1751936017371"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_custom_field_1751514731246"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_custom_field_1747878534508"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_custom_field_1751514086715"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_honorific"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "personal_nationality"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_shortStartDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_startDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_manager"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_tenureDuration_periodISO"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_tenureDuration_sortFactor"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_tenureDuration_humanize"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1774505001591"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1753205524842"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1753848591624"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1753848575187"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1747880954788"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1751522338537"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1753661211376"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1753661103168"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_custom_field_1751519368944"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_durationOfEmployment_periodISO"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_durationOfEmployment_sortFactor"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_durationOfEmployment_humanize"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_reportsToIdInCompany"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_employeeIdInCompany"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_reportsTo_displayName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_reportsTo_email"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_reportsTo_surname"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_reportsTo_firstName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_reportsTo_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_indirectReports"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_siteId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_tenureDurationYears"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_department"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_customColumns_column_1753204200620"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_customColumns_column_1753496609904"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_customColumns_column_1753496660042"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_tenureYears"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_isManager"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_title"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_site"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_originalStartDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_activeEffectiveDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_directReports"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_secondLevelManager"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_daysOfPreviousService"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "work_yearsOfService"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employee_orgLevel"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employee_hrbp"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_foodPreferences"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_custom_field_1751592852988"
+          }
+        },
+        {
+          "-name": "about_custom_field_1751614595611",
+          "input": {
+            "-nameref": "fxNewlIne"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_socialData_linkedin"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_socialData_twitter"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_socialData_facebook"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_superpowers"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_hobbies"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_about"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "about_avatar"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "companyId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "email"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "surname"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "home_privateEmail"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "firstName"
+          }
+        }
+      ]
+    }
+  }
+}

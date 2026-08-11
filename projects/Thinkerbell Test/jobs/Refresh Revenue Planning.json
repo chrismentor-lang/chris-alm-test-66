@@ -1,0 +1,24 @@
+{
+  "-name": "Refresh Revenue Planning",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Refreshes the Billing and Revenue actual data in the Revenue Planning cube and then refreshes the estimated revenue in the same cube. Also get initiated from the RVP2 (Client Head Mapping) report via the Update Client Head Mapping in Revenue Cube job in the workflow project."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Refresh Revenue Planning Billing Actual",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Revenue Planning Revenue Actual",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Refresh Estimated Revenue Daily",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

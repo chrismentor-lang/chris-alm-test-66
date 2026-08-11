@@ -1,0 +1,9 @@
+{
+  "-name": "vEndDateFTE",
+  "comment": {
+    "#cdata-section": "20260212 Created to be used as and end date in FTE load"
+  },
+  "script": {
+    "#file": "vEndDateFTE.script.groovy"
+  }
+}

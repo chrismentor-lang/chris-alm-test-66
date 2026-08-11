@@ -1,0 +1,14 @@
+{
+  "-name": "xvCostRateNTM_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the data from the Cost Rate NTM view from Snowflake.\n\n20260506 :Created"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvCostRateNTM_statAll_re.query.sql"
+  }
+}

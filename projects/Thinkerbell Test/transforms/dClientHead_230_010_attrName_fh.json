@@ -1,0 +1,74 @@
+{
+  "-name": "dClientHead_230_010_attrName_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 2 levels of the All Client Heads hierarchy for the Client Head dimension and populates the attributes Name, ID_Name, Code, and Active for the base level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dClientHead_230_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Code"
+        },
+        {
+          "-name": "Active"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Client Heads"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "CLIENT_HEAD_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "CLIENT_HEAD_ID_NAME"
+                }
+              },
+              {
+                "-name": "Code",
+                "input": {
+                  "-nameref": "CLIENT_HEAD_CODE"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "ACTIVE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "CLIENT_HEAD_ID"
+          }
+        }
+      ]
+    }
+  }
+}

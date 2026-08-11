@@ -1,0 +1,23 @@
+{
+  "-name": "dHiBobDepartment_1000_010_insAllDepartments_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Hi Bob Department",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dHiBobDepartment_1000_000_byItemID_fh"
+  }
+}

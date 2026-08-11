@@ -1,0 +1,16 @@
+{
+  "-name": "Cube_Extract",
+  "-type": "Cube",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "query": {
+    "-celltype": "both",
+    "-onlyBasisAsDefault": "true",
+    "-useRules": "false",
+    "-zeroSuppressionType": "excludeEmpty",
+    "cube": {
+      "-name": "${Cube}"
+    }
+  }
+}

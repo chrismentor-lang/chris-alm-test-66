@@ -1,0 +1,21 @@
+{
+  "-name": "xjAccountability_statRefreshToken_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves refresh token from accountability."
+  },
+  "connection": {
+    "-nameref": "crAccountabilityToken_statPassword_rc"
+  },
+  "outputs": {
+    "output": {
+      "-input": "refresh_token"
+    }
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

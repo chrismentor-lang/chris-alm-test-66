@@ -1,0 +1,13 @@
+{
+  "-name": "GenericFile",
+  "-type": "CsvFile",
+  "database": "${FilePath}\\\\${FileName}",
+  "delimiter": ";",
+  "enableEscape": "false",
+  "encoding": "UTF-8",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "\""
+}

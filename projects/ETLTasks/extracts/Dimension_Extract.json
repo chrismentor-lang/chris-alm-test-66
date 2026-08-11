@@ -1,0 +1,13 @@
+{
+  "-name": "Dimension_Extract",
+  "-type": "Dimension",
+  "attributesMode": "none",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "query": {
+    "dimension": {
+      "-name": "${Dimension}"
+    }
+  }
+}

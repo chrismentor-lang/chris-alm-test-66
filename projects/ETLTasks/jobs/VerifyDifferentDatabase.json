@@ -1,0 +1,7 @@
+{
+  "-name": "VerifyDifferentDatabase",
+  "-type": "Groovy",
+  "jobscript": {
+    "#file": "VerifyDifferentDatabase.jobscript.groovy"
+  }
+}

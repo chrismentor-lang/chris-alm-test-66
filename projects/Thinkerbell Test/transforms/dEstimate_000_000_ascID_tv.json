@@ -1,0 +1,33 @@
+{
+  "-name": "dEstimate_000_000_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Sorts the hierarchy in ascending order for Master Clients, Client, Job, and Estimate in that particular order."
+  },
+  "sorter": {
+    "input": [
+      {
+        "-nameref": "MASTER_CLIENT_ID",
+        "-order": "ascending"
+      },
+      {
+        "-nameref": "CLIENT_ID",
+        "-order": "ascending"
+      },
+      {
+        "-nameref": "JOB_NUMBER",
+        "-order": "ascending"
+      },
+      {
+        "-nameref": "ESTIMATE_ID",
+        "-order": "ascending"
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvEstimate_statAll_re"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "-name": "coauthAccountability_statToken_oauthc",
+  "-type": "OAuthToken",
+  "cacheToken": "true",
+  "credentials": {
+    "oauth2PasswordCredential": {
+      "clientAuthenticationType": "body",
+      "password": {
+        "#text": "srzqlB9ziaX34SJS5ku20WHdIc7o0xn6ajc6urywHw==",
+        "-encryption": "AES"
+      },
+      "username": "minerva.svc@minerva.com.au"
+    }
+  },
+  "ignoreCookiesPolicy": "false",
+  "requestParameters": {
+    "parameter": {
+      "#text": "TKB",
+      "-name": "tenantid"
+    }
+  },
+  "resource": {
+    "#cdata-section": "https://api.accountabilityonesystem.com/v1/token"
+  },
+  "ssl": "verify"
+}

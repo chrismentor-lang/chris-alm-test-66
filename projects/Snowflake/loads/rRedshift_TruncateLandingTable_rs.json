@@ -1,0 +1,10 @@
+{
+  "-name": "rRedshift_TruncateLandingTable_rs",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfAccountabilityLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rRedshift_TruncateLandingTable_rs.query.sql"
+  }
+}

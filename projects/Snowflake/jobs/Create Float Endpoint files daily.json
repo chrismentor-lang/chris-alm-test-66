@@ -1,0 +1,11 @@
+{
+  "-name": "Create Float Endpoint files daily",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Loads page count for each endpoint and loads the endpoint data into csv files in the SFTP folder Snowflake/Float/"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Create Float Endpoint files daily.jobscript.groovy"
+  }
+}
