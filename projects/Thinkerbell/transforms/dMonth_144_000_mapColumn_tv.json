@@ -1,0 +1,24 @@
+{
+  "-name": "dMonth_144_000_mapColumn_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260616: Introduced."
+  },
+  "sources": {
+    "source": {
+      "-format": "fh",
+      "-nameref": "xdMonth_statAllMonths_de"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": {
+        "-name": "alternatelevel1",
+        "input": {
+          "-nameref": "level1"
+        }
+      }
+    }
+  }
+}

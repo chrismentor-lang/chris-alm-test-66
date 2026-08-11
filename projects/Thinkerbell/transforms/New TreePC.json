@@ -1,0 +1,21 @@
+{
+  "-name": "New TreePC",
+  "-type": "TreePC",
+  "sources": {
+    "source": {
+      "-nameref": "xeBSBalance_defAll_ee"
+    }
+  },
+  "target": {
+    "child": {
+      "input": {
+        "-nameref": "Account No."
+      }
+    },
+    "parent": {
+      "input": {
+        "-nameref": "Allocation"
+      }
+    }
+  }
+}

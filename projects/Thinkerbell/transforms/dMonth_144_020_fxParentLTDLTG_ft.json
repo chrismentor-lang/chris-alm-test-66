@@ -1,0 +1,107 @@
+{
+  "-name": "dMonth_144_020_fxParentLTDLTG_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260614: Introduced."
+  },
+  "functions": {
+    "function": [
+      {
+        "-name": "fxParentLTG",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "MTH",
+            "-nameref": "level1",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dMonth_144_020_fxParentLTDLTG_ft.functions.function.1.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fxMonthLTG",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "MTH",
+              "-nameref": "level1",
+              "-type": "String"
+            },
+            {
+              "-alias": "MTA",
+              "-nameref": "alternatelevel1",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dMonth_144_020_fxParentLTDLTG_ft.functions.function.2.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      },
+      {
+        "-name": "fxParentLTD",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "MTH",
+            "-nameref": "level1",
+            "-type": "String"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dMonth_144_020_fxParentLTDLTG_ft.functions.function.3.parameters.script.groovy"
+          },
+          "type": "String"
+        }
+      },
+      {
+        "-name": "fxMonthLTD",
+        "-type": "Groovy",
+        "inputs": {
+          "input": [
+            {
+              "-alias": "MTH",
+              "-nameref": "level1",
+              "-type": "String"
+            },
+            {
+              "-alias": "MTA",
+              "-nameref": "alternatelevel1",
+              "-type": "String"
+            }
+          ]
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "dMonth_144_020_fxParentLTDLTG_ft.functions.function.4.parameters.script.groovy"
+          },
+          "type": "int"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_144_010_fullMonths_tj"
+    }
+  }
+}

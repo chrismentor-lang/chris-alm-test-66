@@ -1,0 +1,66 @@
+{
+  "-name": "dBSAccount_810_000_byAllBSAccounts_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20260225 : Created"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xvBSAccount_statChild_re"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "NAME",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_NAME",
+          "-type": "string"
+        },
+        {
+          "-name": "CONVERSION_TYPE",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All BS Accounts"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "NAME",
+                "input": {
+                  "-nameref": "NAME"
+                }
+              },
+              {
+                "-name": "ID_NAME",
+                "input": {
+                  "-nameref": "ID_NAME"
+                }
+              },
+              {
+                "-name": "CONVERSION_TYPE",
+                "input": {
+                  "-nameref": "CONVERSION_TYPE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "CHILD_ELEMENT"
+          }
+        }
+      ]
+    }
+  }
+}

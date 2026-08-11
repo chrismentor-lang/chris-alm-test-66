@@ -1,0 +1,53 @@
+{
+  "-name": "dAccountingYear_250_010_attrName_fh",
+  "-type": "TreeFH",
+  "sources": {
+    "source": {
+      "-nameref": "dAccountingYear_250_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Accounting Year ID",
+          "-type": "string"
+        },
+        {
+          "-name": "Accounting Year Name",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Years"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Accounting Year ID",
+                "input": {
+                  "-nameref": "ACCOUNTING_YEAR_ID"
+                }
+              },
+              {
+                "-name": "Accounting Year Name",
+                "input": {
+                  "-nameref": "ACCOUNTING_YEAR_NAME"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "YEAR"
+          }
+        }
+      ]
+    }
+  }
+}

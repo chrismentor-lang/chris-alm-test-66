@@ -1,0 +1,23 @@
+{
+  "-name": "dAccountingYear_250_020_insAll_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Accounting Year",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dAccountingYear_250_010_attrName_fh"
+  }
+}

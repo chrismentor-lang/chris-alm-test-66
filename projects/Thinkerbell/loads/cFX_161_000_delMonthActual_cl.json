@@ -1,0 +1,19 @@
+{
+  "-name": "cFX_161_000_delMonthActual_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": "Deletes the specific month's Actual from the FX cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "FX",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcFX_varMonthActual_cs"
+  }
+}

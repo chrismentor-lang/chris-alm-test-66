@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh Estimated Revenue On Demand",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This will Refresh All the History for the Revenue Planning Model for Version Estimate based on the Latest Data available in Accountability"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cRevenuePlanning_607_000_delEstimateRevenueOnDemand_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cRevenuePlanning_606_000_addEstimateRevenueOnDemand_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

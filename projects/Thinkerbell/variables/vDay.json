@@ -1,0 +1,7 @@
+{
+  "-name": "vDay",
+  "comment": {},
+  "script": {
+    "#file": "vDay.script.groovy"
+  }
+}

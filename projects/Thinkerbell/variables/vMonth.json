@@ -1,0 +1,7 @@
+{
+  "-name": "vMonth",
+  "comment": {},
+  "script": {
+    "#file": "vMonth.script.groovy"
+  }
+}

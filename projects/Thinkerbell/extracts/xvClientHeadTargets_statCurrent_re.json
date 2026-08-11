@@ -1,0 +1,14 @@
+{
+  "-name": "xvClientHeadTargets_statCurrent_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260807: Introduced."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvClientHeadTargets_statCurrent_re.query.sql"
+  }
+}

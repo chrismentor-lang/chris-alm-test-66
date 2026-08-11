@@ -1,0 +1,28 @@
+{
+  "-name": "Refresh Billable Rate Cube",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Updates the billable rate cube for both yesterday and the next twelve months based on the billable rate views from Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cBillableRate_191_000_delActual_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cBillableRate_190_000_addDayActual_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cBillableRate_192_010_delNTM_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cBillableRate_193_000_addNTM_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,52 @@
+{
+  "-name": "Refresh Jedox Dimensions",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This job updates all the Jedox dimensions based on the Snowflake views, including Client, Employee, Department, Estimate, Job Type, Job, Status, Stage, Task Type, and Client Head."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dClient_210_020_insAllClients_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Refresh Estimate Dimension",
+        "-type": "job"
+      },
+      {
+        "-nameref": "dDepartment_100_020_insAllDepartments_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Refresh Employee Dimension",
+        "-type": "job"
+      },
+      {
+        "-nameref": "dJobType_300_020_insAllJobTypes_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "Refresh Job Dimension",
+        "-type": "job"
+      },
+      {
+        "-nameref": "dStatus_500_010_insAllStatuses_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dStage_280_010_insAllStages_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dTaskType_900_020_insAllTaskTypes_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dClientHead_230_020_insAllClientHeads_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

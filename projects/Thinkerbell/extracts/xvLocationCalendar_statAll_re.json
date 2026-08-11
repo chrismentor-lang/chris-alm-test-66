@@ -1,0 +1,14 @@
+{
+  "-name": "xvLocationCalendar_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "202608006: Introduced."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvLocationCalendar_statAll_re.query.sql"
+  }
+}
