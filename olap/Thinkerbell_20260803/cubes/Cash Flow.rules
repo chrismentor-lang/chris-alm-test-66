@@ -1,0 +1,3 @@
+### rule
+{"active":true,"comment":"REF||Input||Ref:Cash Flow Calculation\n\n20260317: Introduced","position":1}
+['Measure':'Input'] = 'Cash Flow Calculation'['CF Account Calculation':!'CF Account','Measure':'Adjusted']

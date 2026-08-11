@@ -1,0 +1,120 @@
+{
+  "name": "Accounting Month",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Name": "Accounting Month"
+  },
+  "elements": [
+    {
+      "name": "All Months",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Opening Balance",
+          "weight": 1
+        },
+        {
+          "name": "July",
+          "weight": 1
+        },
+        {
+          "name": "August",
+          "weight": 1
+        },
+        {
+          "name": "September",
+          "weight": 1
+        },
+        {
+          "name": "October",
+          "weight": 1
+        },
+        {
+          "name": "November",
+          "weight": 1
+        },
+        {
+          "name": "December",
+          "weight": 1
+        },
+        {
+          "name": "January",
+          "weight": 1
+        },
+        {
+          "name": "February",
+          "weight": 1
+        },
+        {
+          "name": "March",
+          "weight": 1
+        },
+        {
+          "name": "April",
+          "weight": 1
+        },
+        {
+          "name": "May",
+          "weight": 1
+        },
+        {
+          "name": "June",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Opening Balance",
+      "type": "numeric"
+    },
+    {
+      "name": "July",
+      "type": "numeric"
+    },
+    {
+      "name": "August",
+      "type": "numeric"
+    },
+    {
+      "name": "September",
+      "type": "numeric"
+    },
+    {
+      "name": "October",
+      "type": "numeric"
+    },
+    {
+      "name": "November",
+      "type": "numeric"
+    },
+    {
+      "name": "December",
+      "type": "numeric"
+    },
+    {
+      "name": "January",
+      "type": "numeric"
+    },
+    {
+      "name": "February",
+      "type": "numeric"
+    },
+    {
+      "name": "March",
+      "type": "numeric"
+    },
+    {
+      "name": "April",
+      "type": "numeric"
+    },
+    {
+      "name": "May",
+      "type": "numeric"
+    },
+    {
+      "name": "June",
+      "type": "numeric"
+    }
+  ]
+}

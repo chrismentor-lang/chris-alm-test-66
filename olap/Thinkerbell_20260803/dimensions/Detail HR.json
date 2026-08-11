@@ -1,0 +1,86 @@
+{
+  "name": "Detail HR",
+  "kind": "normal",
+  "properties": {
+    "Description": "20260726: Introduced.",
+    "Name": "Detail HR"
+  },
+  "elements": [
+    {
+      "name": "FTE",
+      "type": "numeric"
+    },
+    {
+      "name": "FTE Change",
+      "type": "numeric"
+    },
+    {
+      "name": "Headcount",
+      "type": "numeric"
+    },
+    {
+      "name": "Headcount Change",
+      "type": "numeric"
+    },
+    {
+      "name": "Annual Leave",
+      "type": "numeric"
+    },
+    {
+      "name": "LS Leave",
+      "type": "numeric"
+    },
+    {
+      "name": "Salary",
+      "type": "numeric"
+    },
+    {
+      "name": "Salary Change %",
+      "type": "numeric"
+    },
+    {
+      "name": "Salary Change Absolute",
+      "type": "numeric"
+    },
+    {
+      "name": "Hours",
+      "type": "numeric"
+    },
+    {
+      "name": "Hourly Rate",
+      "type": "numeric"
+    },
+    {
+      "name": "Hourly Rate Change",
+      "type": "numeric"
+    },
+    {
+      "name": "Wages",
+      "type": "numeric"
+    },
+    {
+      "name": "Bonus",
+      "type": "numeric"
+    },
+    {
+      "name": "Superannuation",
+      "type": "numeric"
+    },
+    {
+      "name": "Full Time Base Salary",
+      "type": "numeric"
+    },
+    {
+      "name": "Full Time Base Salary (Change)",
+      "type": "numeric"
+    },
+    {
+      "name": "Payroll Tax",
+      "type": "numeric"
+    },
+    {
+      "name": "Workcover",
+      "type": "numeric"
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "name": "Detail FTE",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: FTE Cube Details\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260721: Changed Comment on Billable Hours Active and Non-Billable Hours Active from Sourcing from HiBob to sourcing from Resource Planning model.\n20260406: Added Utilisation as this is supposed to be calculated per employee regardless of job/client.\n20260406: Added Leave as child to the element Remaining Availability because it should be deducted.\n20260406: Renamed Availability to Remaining Availability. Also introduced new Availability with children FTE and Leave.\n20260122: Created",
+    "Name": "Detail FTE"
+  },
+  "elements": [
+    {
+      "name": "FTE",
+      "type": "numeric"
+    },
+    {
+      "name": "Planned Hours",
+      "type": "numeric"
+    },
+    {
+      "name": "Weekend",
+      "type": "numeric"
+    },
+    {
+      "name": "Public Holiday",
+      "type": "numeric"
+    },
+    {
+      "name": "Remaining Availability Active",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "FTE Hours",
+          "weight": 1
+        },
+        {
+          "name": "Leave",
+          "weight": 1
+        },
+        {
+          "name": "Hours Active",
+          "weight": -1
+        }
+      ]
+    },
+    {
+      "name": "Remaining Availability",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "FTE Hours",
+          "weight": 1
+        },
+        {
+          "name": "Leave",
+          "weight": -1
+        },
+        {
+          "name": "Hours",
+          "weight": -1
+        }
+      ]
+    },
+    {
+      "name": "Availability",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "FTE Hours",
+          "weight": 1
+        },
+        {
+          "name": "Leave",
+          "weight": -1
+        }
+      ]
+    },
+    {
+      "name": "FTE Hours",
+      "type": "numeric"
+    },
+    {
+      "name": "Utilisation",
+      "type": "numeric"
+    },
+    {
+      "name": "Benchmark",
+      "type": "numeric"
+    },
+    {
+      "name": "Benchmark Hours",
+      "type": "numeric"
+    },
+    {
+      "name": "Hours",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Billable Hours",
+          "weight": 1
+        },
+        {
+          "name": "Non-Billable Hours",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Billable Hours",
+      "type": "numeric"
+    },
+    {
+      "name": "Non-Billable Hours",
+      "type": "numeric"
+    },
+    {
+      "name": "Leave",
+      "type": "numeric"
+    },
+    {
+      "name": "Hours Active",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Billable Hours Active",
+          "weight": 1
+        },
+        {
+          "name": "Non-Billable Hours Active",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Billable Hours Active",
+      "type": "numeric"
+    },
+    {
+      "name": "Non-Billable Hours Active",
+      "type": "numeric"
+    }
+  ]
+}

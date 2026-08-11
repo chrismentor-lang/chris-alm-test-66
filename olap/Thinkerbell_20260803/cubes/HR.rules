@@ -1,0 +1,63 @@
+### rule
+{"active":true,"comment":"CALC||FTE||Estimate||XXX||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260717: Introduced.","position":2}
+['Detail HR':'FTE', 'Currency':'XXX', 'Version':'Estimate', 'Measure':{'Input', 'Adjustment'}] = B:IF(OR((!'Month') == "~", RIGHT(!'Month', 2) == "-~"), null, IF('#_Month'['#_Month_':'Current', '#_LANGUAGE':'~'] == "1", ''['Detail HR':'FTE Change'] + ''['Detail HR':'FTE Change', 'Month':'~'], ''['Detail HR':'FTE Change', 'Month':CONCATENATE(!'Month', "_LTD")] + ''['Detail HR':'FTE Change', 'Month':'~']))
+### rule
+{"active":true,"comment":"REF||FTE||XXX|Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.","position":3}
+['Detail HR':'FTE', 'Currency':'XXX', 'Measure':{'Input', 'Adjustment'}] = B:IF(OR((!'Month') == "~", RIGHT(!'Month', 2) == "-~"), null, ''['Month':'#_Month'['#_Month_':'YearToDate FY', '#_LANGUAGE':'~', 'Month':!'Month'], 'Detail HR':'FTE Change'])
+### rule
+{"active":true,"comment":"CALC||Salary||Employee||AUD,NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260625: Introduced","position":4}
+['Detail HR':'Salary', 'Currency':{'AUD', 'NZD'}, 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:['Detail HR':'FTE', 'Currency':'XXX'] * ['Detail HR':'Full Time Base Salary','Measure':'Adjusted']
+### rule
+{"active":true,"comment":"CALC||Hourly Rate||Estimate||Freelancer||AUD.NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.","position":5}
+['Detail HR':'Hourly Rate', 'Currency':{'AUD', 'NZD'}, 'Employee Type':'Freelancer', 'Version':'Estimate', 'Measure':{'Input', 'Adjustment'}] = B:IF(OR((!'Month') == "~", RIGHT(!'Month', 2) == "-~"), null, IF('#_Month'['#_Month_':'Current', '#_LANGUAGE':'~']=="1",
+//DATEFORMAT(NOW(), "\Y-\m"), 
+''['Detail HR':'Hourly Rate Change'] + ''['Detail HR':'Hourly Rate Change', 'Month':'~'], ''['Detail HR':'Hourly Rate Change', 'Month':CONCATENATE(!'Month', "_LTD")] + ''['Detail HR':'Hourly Rate Change', 'Month':'~']))
+### rule
+{"active":true,"comment":"REF||Hourly Rate||Freelancer||AUD,NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.","position":6}
+['Detail HR':'Hourly Rate', 'Currency':{'AUD', 'NZD'}, 'Employee Type':'Freelancer', 'Measure':{'Input', 'Adjustment'}] = B:IF(OR((!'Month') == "~", RIGHT(!'Month', 2) == "-~"), null, ''['Month':'#_Month'['#_Month_':'YearToDate FY', '#_LANGUAGE':'~', 'Month':!'Month'], 'Detail HR':'Hourly Rate Change'])
+### rule
+{"active":true,"comment":"CALC||Wages||Freelancer||AUD,NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260725: Removed 'Scenario':'Base'  from target as it needs to be calculated on all scenarios.","position":7}
+['Detail HR':'Wages', 'Employee Type':'Freelancer', 'Currency':{'AUD', 'NZD'}, 'Measure':{'Input', 'Adjustment'}] = B:['Currency':'XXX', 'Detail HR':'Hours'] * ['Detail HR':'Hourly Rate','Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF:HR Parameters||Payroll Tax||Employee||AUD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260725: Changed the rule to be specific for NZD referring to NZ to make sure that we don't need to do a lookup of the country in the employee dimension.\n20260625: Introduced","position":8}
+['Detail HR':'Payroll Tax', 'Currency':'AUD', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:'HR Parameters'['Country':'AU', 'Detail HR Parameters':'Payroll Tax %'] * ['Detail HR':'Salary', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF:HR Parameters||Payroll Tax||Employee||NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20270725: Introduced.","position":9}
+['Detail HR':'Payroll Tax', 'Currency':'NZD', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:'HR Parameters'['Country':'NZ', 'Detail HR Parameters':'Payroll Tax %'] * ['Detail HR':'Salary', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF:HR Parameters||Superannuation||Employee||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260625: Introduced","position":10}
+['Detail HR':'Superannuation', 'Currency':'AUD', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:MIN('HR Parameters'['Country':'AU', 'Detail HR Parameters':'Superannuation % / KiwiSaver %', 'Measure':'Adjusted'] * ['Detail HR':'Salary'], 2500)
+### rule
+{"active":true,"comment":"REF: HR Parameters||Superannuation||Employee||NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.","position":11}
+['Detail HR':'Superannuation', 'Currency':'NZD', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:'HR Parameters'['Country':'NZ', 'Detail HR Parameters':'Superannuation % / KiwiSaver %', 'Measure':'Adjusted'] * ['Detail HR':'Salary', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF: HR Parameters||WorkCover||Employee||AUD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260625: Introduced","position":12}
+['Detail HR':'Workcover', 'Currency':'AUD', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:'HR Parameters'['Country':'AU', 'Detail HR Parameters':'Workcover %', 'Measure':'Adjusted'] * ['Detail HR':'Salary', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"REF: HR Parameters||Workcover||Employee||NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.","position":13}
+['Detail HR':'Workcover', 'Currency':'NZD', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:'HR Parameters'['Country':'NZ', 'Detail HR Parameters':'Workcover %', 'Measure':'Adjusted'] * ['Detail HR':'Salary', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"LOG||Headcount||XXX||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260725: Changed Measure:: Base to Input in target. Added Measure: Adjusted to source.\n20260625: Introduced","position":14}
+['Detail HR':'Headcount', 'Currency':'XXX', 'Measure':{'Input', 'Adjustment'}] = B: IF(['Detail HR':'FTE','Measure':'Adjusted'], 1, null)
+### rule
+{"active":true,"comment":"REF||Full Time Base Salary||Estimate||AUD,NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260625: Introduced","position":15}
+['Detail HR':'Full Time Base Salary', 'Version':'Estimate','Currency':{'AUD', 'NZD'}, 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:IF(OR(!'Month' == "~", RIGHT(!'Month', 2) == "-~"), null, (''['Month':!'Month'|"_LTD", 'Detail HR':'Full Time Base Salary (Change)']))
+### rule
+{"active":true,"comment":"CALC||Full Time Base Salary||Employee||AUD,NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.","position":16}
+['Detail HR':'Full Time Base Salary', 'Currency':{'AUD', 'NZD'}, 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:IF(OR(!'Month' == "~", RIGHT(!'Month', 2) == "-~"), null, ''['Month':CONCATENATE(LEFT('#_Month'['#_Month_':'Fiscal Year Element', '#_LANGUAGE':'~'], 9), "_YTD"), 'Detail HR':'Full Time Base Salary (Change)']-''['Month':CONCATENATE(LEFT('#_Month'['#_Month_':'Fiscal Year Element', '#_LANGUAGE':'~'], 6), "-~"), 'Detail HR':'Full Time Base Salary (Change)'])
+### rule
+{"active":true,"comment":"REF||Non-Base||Input\n\n20260727: Introduced to retrieve the Base for each of the scenarios.","position":17,"template":{"name":"Dimension element like","parameters":{"Dimension":"Scenario","Pattern":"^\\d+$"}}}
+['Scenario':'${Element}', 'Measure':'Input'] = ['Scenario':'Base', 'Measure':'Adjusted']
+### rule
+{"active":true,"comment":"STET||Full Time Base Salary (Change)||Estimate||Employee||AUD,NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.","position":18}
+['Detail HR':'Full Time Base Salary (Change)', 'Currency':{'AUD', 'NZD'}, 'Version':'Estimate', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:IF('#_Month'['#_Month_':'History', '#_LANGUAGE':'~']=="1",
+//DATEFORMAT(NOW(), "\Y-\m")), 
+STET(), CONTINUE())
+### rule
+{"active":true,"comment":"CALC||Full Time Base Salary (Change)||Estimate||Employee||AUD,NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260717: Introduced.","position":19}
+['Detail HR':'Full Time Base Salary (Change)', 'Currency':{'AUD', 'NZD'}, 'Version':'Estimate', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B: IF(!'Month' != "~", IF('#_Month'['#_Month_':'Current', '#_LANGUAGE':'~']=="1",
+//DATEFORMAT(NOW(), "\Y-\m"), 
+(''['Month':'~', 'Detail HR':'Full Time Base Salary (Change)'] + (''['Month':'~', 'Detail HR':'Full Time Base Salary (Change)','Measure':'Adjusted'] * ['Salary Change %']) + ['Salary Change Absolute']), (''['Month':'#_Month'['#_Month_':'PreviousMonth LTD', '#_LANGUAGE':'~'], 'Detail HR':'Full Time Base Salary (Change)','Measure':'Adjusted']) * ['Salary Change %'] + ['Salary Change Absolute']), STET())
+### rule
+{"active":true,"comment":"CALC||Full Time Base Salary (Change)||Budget,Forecast||Employee||AUD,NZD||Input\n\n20260727: Changed rule target Input to {'Input', 'Adjustment'}.\n20260720: ['HR Detail':'Full Time Base Salary (Change)', 'Currency':{'AUD', 'NZD'}, 'Version':'${Element}', 'Employee Type':'Employee', 'Measure':'Input'] = B:IF(!'Month' != \"~\", IF(PALO.DATA(\"\", \"#_Month\", \"PreviousMonth\", !'Month', \"~\") != \"\", IF(RIGHT(!'Month', 2) == '#_Version'['#_Version_':'First Forecast Calendar Month', '#_LANGUAGE':'~'], ''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~', 'Month':!'Month'], 'HR Detail':'Full Time Base Salary (Change)'] + ((''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~', 'Month':!'Month'], 'HR Detail':'Full Time Base Salary (Change)'] * ['Salary Change %']) + ['Salary Change Absolute']), ((''['Month':'#_Month'['#_Month_':'PreviousMonth YearToDate FY', '#_LANGUAGE':'~'], 'HR Detail':'Full Time Base Salary (Change)'] - ''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~', 'Month':!'Month'], 'HR Detail':'Full Time Base Salary (Change)']) * ['Salary Change %']) + ['Salary Change Absolute']), STET()), STET())","position":20,"template":{"name":"Dimension element like","parameters":{"Dimension":"Version","Pattern":"^Forecast|Budget"}}}
+['Detail HR':'Full Time Base Salary (Change)', 'Currency':{'AUD', 'NZD'}, 'Version':'${Element}', 'Employee Type':'Employee', 'Measure':{'Input', 'Adjustment'}] = B:IF(!'Month' != "~", IF(PALO.DATA("", "#_Month", "PreviousMonth", !'Month', "~") != "", IF(RIGHT(!'Month', 2) == '#_Version'['#_Version_':'First Forecast Calendar Month', '#_LANGUAGE':'~'], ''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~', 'Month':!'Month'], 'Detail HR':'Full Time Base Salary (Change)'] + ((''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~', 'Month':!'Month'], 'Detail HR':'Full Time Base Salary (Change)','Measure':'Adjusted'] * ['Salary Change %']) + ['Salary Change Absolute']), ((''['Month':'#_Month'['#_Month_':'PreviousMonth YearToDate FY', '#_LANGUAGE':'~'], 'Detail HR':'Full Time Base Salary (Change)'] - ''['Month':'#_Month'['#_Month_':'Default FY', '#_LANGUAGE':'~', 'Month':!'Month'], 'Detail HR':'Full Time Base Salary (Change)','Measure':'Adjusted']) * ['Salary Change %']) + ['Salary Change Absolute']), STET()), STET())

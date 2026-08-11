@@ -1,0 +1,255 @@
+{
+  "components": {
+    "cubes.Balance Sheet": {
+      "hash": "sha256:49474b98f5fd56b92ae443e4b942e55ed6319a8e3fe8e203ab14a5e93b5b4b71"
+    },
+    "cubes.Billable Rate": {
+      "hash": "sha256:7d04d85e368ee2d7bd502a1d0ee43d459e054cbf36b88374e56e31485da0619b"
+    },
+    "cubes.Billable Rate.views/a101c1c6-40ee-4956-b413-95ee6b828466": {
+      "hash": "sha256:bc7dee45be2ae9280b2c150e32cfdd7b9e9ab968900f737d2aa8ab2dc4725717"
+    },
+    "cubes.COP Split": {
+      "hash": "sha256:f8c7a2cb21996eee882627f3c772eab19156117aef8c088681fd993364be0640"
+    },
+    "cubes.Cash Flow": {
+      "hash": "sha256:c3b2ff880a8a4334ce7a5e04956fb2b898223632a1a894e4d6ee02874b8fdf92"
+    },
+    "cubes.Cash Flow Calculation": {
+      "hash": "sha256:a72648ffd008d7dd6948ed78038d19ef71e680031a214893955003b3d6a5a291"
+    },
+    "cubes.Client Head Mapping": {
+      "hash": "sha256:e654881f52c45a6eb5ba6b404ba3359c616e6e9a8681cdaef7b461749208f310"
+    },
+    "cubes.Cost Rate": {
+      "hash": "sha256:b10518a5f0760921e2244d2cfa284681739501ab59b2cd127ec79e244ee053f7"
+    },
+    "cubes.Cost Rate.views/ed6cd2ae-eb40-4427-9fd9-04d2e2284b99": {
+      "hash": "sha256:1b0fa1e40bf9c2232bffb2fde400c38236e4a283a02332bdbe0bb690c9720609"
+    },
+    "cubes.FTE": {
+      "hash": "sha256:9710b7a9374a3a0c523dbfe174feda4b3fcc6f803b73176e16535fb30cf2a1e6"
+    },
+    "cubes.FTE.views/f70c225f-00cb-4d81-902e-e5ad3c1142d0": {
+      "hash": "sha256:78e7e721348c6dc1e4b8c92f91df7d5048841b056a1d7780e37beca1344caa0d"
+    },
+    "cubes.FX": {
+      "hash": "sha256:d35c8f1a5dff47b5837c68d0fb99af4192a3a9f971487fcb5acefcce67157322"
+    },
+    "cubes.HR": {
+      "hash": "sha256:9b53d07dd8e7cd222053067d090830740ceefee8285d61b5348bf2a349f69e77"
+    },
+    "cubes.HR Parameters": {
+      "hash": "sha256:2d7afeb26340f40456ad520b4b6b0892c96dfb4bb901d99c08b9a97b9b79488b"
+    },
+    "cubes.Profit & Loss": {
+      "hash": "sha256:623cbd4c43d71b769759e7cb5a684014677349c2acd2827e08b209bceefbd6a5"
+    },
+    "cubes.Resource Planning": {
+      "hash": "sha256:2c05ef969c78d6d1997ef71a024836727f642159407f6b50c0f48fa461cd500b"
+    },
+    "cubes.Resource Planning.views/8d8cac41-2358-4d98-b2db-1461dbd38286": {
+      "hash": "sha256:3232bd0594a3990a707d8112a0ff8733e3e03aa5c1734fe2050b65a7b364a214"
+    },
+    "cubes.Revenue Planning": {
+      "hash": "sha256:d20948cb4bd5748e332209ad0fd6da6ce7bcb1415af6a4c2040c481684da35ff"
+    },
+    "dimensions.Accountability User Access Group": {
+      "hash": "sha256:ddf6a3c71abde08f6e0e80612e25b0a8b28a271909cc7e3d3013a21042535c6f"
+    },
+    "dimensions.Accounting Month": {
+      "hash": "sha256:f8d2df860bbafd181b83724556565926eebf3818a0759690524cc9fdbada2d67"
+    },
+    "dimensions.Accounting Year": {
+      "hash": "sha256:de2fa74619963ddbe40a635d5a59236630c450510aad9e0ce8271c4f07f32d87"
+    },
+    "dimensions.BS Account": {
+      "hash": "sha256:023313d9b15060ab79a749fd1280d066921fd85520441f310e2ce70bf2124642"
+    },
+    "dimensions.CF Account": {
+      "hash": "sha256:c4a519612f7c64807c37d184e81236de10acce66f050775cb95aa714a01e0e64"
+    },
+    "dimensions.CF Account Calculation": {
+      "hash": "sha256:9ea6ac3217203938df403e0c7595ff3a316c90ca2160d954d59c0b2916fa5632"
+    },
+    "dimensions.Client": {
+      "hash": "sha256:fadfa76953c8cedb9b5e9872a97c7223029a2d4842111c03c065dff1dc2e1836"
+    },
+    "dimensions.Client Head": {
+      "hash": "sha256:e9f1a0173afa4ae55b804c35369bb1f036b4bbd0345fb1e6998da9ed55fd7bee"
+    },
+    "dimensions.Conversion Type": {
+      "hash": "sha256:47f6a063f2e202194184a93734a851067e02a2947f4a93e34a17c950bb7ced84"
+    },
+    "dimensions.Country": {
+      "hash": "sha256:17cd522df1d4e7bc2dd649a344c0816f06a3a3df0520bc0dd591f02f97c8a4f2"
+    },
+    "dimensions.Currency": {
+      "hash": "sha256:61b9aaba7dd9fe091758f1d6371abb1b00ae6c3f4d66b13905e8fe8514afeb4c"
+    },
+    "dimensions.Day": {
+      "hash": "sha256:a2bfe0420144dd1229b8056d162df7d26e5fec117c5cb483c096d58a5e4d18d4"
+    },
+    "dimensions.Department": {
+      "hash": "sha256:985167ab19486cdc27e126aa6c373f063baf7d92763b5743727eb1ab236f66dc"
+    },
+    "dimensions.Detail Billable Rate": {
+      "hash": "sha256:5c8e01d64394aca1d50179263da876f66b43e8a68c14b406deba85a3549c52cc"
+    },
+    "dimensions.Detail COP Split": {
+      "hash": "sha256:f25078c4a781c7ca0cc293188f1512d410299d17522197c6bc89f0f25144de13"
+    },
+    "dimensions.Detail Client Head": {
+      "hash": "sha256:87cfb07f6e8bd841f3c1be4614f0faa5dd52b1f15936d6d5695cd3427ee728f8"
+    },
+    "dimensions.Detail Client Head Mapping": {
+      "hash": "sha256:b3b2c99dcca81ee1918489d2daab5e886e0efbc65fbb2e0e97c94efd801f0092"
+    },
+    "dimensions.Detail Cost Rate": {
+      "hash": "sha256:e3edb7e35826a82a66c7e3d409e11834a74d9ff15d380a84e30c0c4401fb26c5"
+    },
+    "dimensions.Detail FTE": {
+      "hash": "sha256:08edb8848ee85a7bc8b465f741e5df26f0a553e117fe3bc62fac634a5953f1c9"
+    },
+    "dimensions.Detail HR": {
+      "hash": "sha256:6916b0c48a7f826a2332102dce994a3bcec56e805807aa6575269956e49983fe"
+    },
+    "dimensions.Detail HR Parameters": {
+      "hash": "sha256:4086595f1b63301b6461b7aef29b765a226b03e5837b3199335c0e24ac6c973a"
+    },
+    "dimensions.Detail Resource": {
+      "hash": "sha256:d39d4bc3180c4eaf1384ff7cf0beb057075022662849607c7a77c9ba7d958e7d"
+    },
+    "dimensions.Detail Revenue": {
+      "hash": "sha256:f95a5c95cd198fd5c9f5c87d7a965026e762df8e4121d1e90bfe1b975922c138"
+    },
+    "dimensions.Employee": {
+      "hash": "sha256:9f81f01d1900b466e9997cebd2b8a23fd100be505e117e789130952b23e146e4"
+    },
+    "dimensions.Employee Type": {
+      "hash": "sha256:0a89aae6db220c5cca3855144f69027fd55d6633534bd7c34da6e0b43ddba888"
+    },
+    "dimensions.Estimate": {
+      "hash": "sha256:a513257234dfd9950db1ac7f88d783e6cf3eb3367179d0a9a63d25a1a041829d"
+    },
+    "dimensions.HR Detail_20260726_1303": {
+      "hash": "sha256:4d7337d80cfc4b224e076b39fc543392cb69dcb3b195a3813ac29f9eed5dba12"
+    },
+    "dimensions.Hi Bob Department": {
+      "hash": "sha256:314184fca4158f7183352d21138278afc2df5cbcf6eb0e8aa3e86ffdd88a1c25"
+    },
+    "dimensions.Hi Bob Office": {
+      "hash": "sha256:57ada474ec14b86d3b3fe4d9fe730a7aab557501bb3f434c3b08e5de0e1ee818"
+    },
+    "dimensions.Hi Bob Task Type": {
+      "hash": "sha256:084981c8a0451444c9e8914cd6ed6d5173ae2d48f031514409c3b6f790eaf67e"
+    },
+    "dimensions.Hi Bob Title": {
+      "hash": "sha256:5ae1bafe4e5baa862c983365ce73bb5b1c7dce8114ebf959262a5c52c40fc12e"
+    },
+    "dimensions.Jedox Planning": {
+      "hash": "sha256:1451a4280e6a5dfb453ecb09bb52caf15138d84af894087760f2c16cb34382e8"
+    },
+    "dimensions.Job": {
+      "hash": "sha256:c1e42ec1311f362aaa27e4883e347fca628e629313f53986c9b7ed08a3292d66"
+    },
+    "dimensions.Job Execution": {
+      "hash": "sha256:f01a5f78dba069e3abe8c495d7fcabf37fe0bd3d54c540fa75f9992e86547057"
+    },
+    "dimensions.Job Type": {
+      "hash": "sha256:87a144e8a59028b1f9b52a05e8eb2bd55d5d1c5d4775957a0ae64d0811a7eed2"
+    },
+    "dimensions.Measure": {
+      "hash": "sha256:2f664748a6a29747e0e631d81e478167e10c33d41c23a1e1e806635b32157bb7"
+    },
+    "dimensions.Month": {
+      "hash": "sha256:71750b23170e4901a779b8ba3217667de7c82a4f4fcb0cbabbe51b05577f52bf"
+    },
+    "dimensions.Office": {
+      "hash": "sha256:8a84f0d7d686cad77f9d9d8249c960c693c13605644147f69dcc561ee80e4db2"
+    },
+    "dimensions.PL Account": {
+      "hash": "sha256:b2d6f280d33526ffb93de4b05fd358da041731a829d53f74d7d4cd0c19f94b06"
+    },
+    "dimensions.People": {
+      "hash": "sha256:af4f58bcf5c0b68474cc3ed930393530d490d239a161e886c9b94b41429aba5e"
+    },
+    "dimensions.Probability": {
+      "hash": "sha256:3a0be694721c469e2b954ad3ccef2f3e91bd1ffcbe53c936f7a0aef058c9b2db"
+    },
+    "dimensions.Scenario": {
+      "hash": "sha256:e095d1d831c7c777615c1b2e078d636408fa829a017b45b47f0b14676ee712ba"
+    },
+    "dimensions.Stage": {
+      "hash": "sha256:47d92ed92184cebd3e569aea2bfa568728d0aa351507aaf51c0bb7e7b496f03e"
+    },
+    "dimensions.Status": {
+      "hash": "sha256:6922d67112b84ec4069b846a9905bafc59bad371d767b99bbdcfc42d50a043a1"
+    },
+    "dimensions.Target Currency": {
+      "hash": "sha256:8aba598d30ad9d4afc3e6cebfff86f82a972d92f5b76e70301a3c404c03b33f4"
+    },
+    "dimensions.Task Type": {
+      "hash": "sha256:0ed095cfbc5f1814e2186a16e6c6801647202a129aef5c490e1859026592e4b8"
+    },
+    "dimensions.Title": {
+      "hash": "sha256:747575409ee40aa6d7cb2ec65cdaddfaba5681eedfe29c3c247bcc05081abbdc"
+    },
+    "dimensions.Transaction Type": {
+      "hash": "sha256:3e2cb6f568a0f078087deed629d42eb79916f80d3da788b0c6615e9fcf01d5f2"
+    },
+    "dimensions.Version": {
+      "hash": "sha256:a7678de92132615f8735edc55977c947fc2065ddf3907af1de0afc89672c2e18"
+    },
+    "subsets.CF Account Calculation/Cash Accounts": {
+      "hash": "sha256:d851adebe428a3f07fbe9d788dda583f401d2fff4b7119380bd66db85c906242"
+    },
+    "subsets.Client Head/Exclude ~": {
+      "hash": "sha256:f5a140b579022a6d401aaf31a19e61bc777b19fe7e09f579a53a24b1341d9088"
+    },
+    "subsets.Currency/All Currencies Base Elements": {
+      "hash": "sha256:89edd83ce89fb8e3c87566e16a086b6ddc92e4896c9b1621e78ac2e42775fcd2"
+    },
+    "subsets.Employee/All Employees Base": {
+      "hash": "sha256:142877c9798206b2054204673f5ed55ec95baa8d36b270654658645107171d4e"
+    },
+    "subsets.Estimate/New Business": {
+      "hash": "sha256:1335297254707a16518e4b8d47fef479ff40e2b459d8c218fdd53fec3ed7deac"
+    },
+    "subsets.Estimate/No Dummies": {
+      "hash": "sha256:cfd4795c6f5a62c8cb5e431f486781ef9a21de2eeba3bb1b325ddfbf4ad8c593"
+    },
+    "subsets.Job/All Jobs Base Elements": {
+      "hash": "sha256:146172f0c97056dc938907d1af8b1616017ac74ab13d086891306d9d3b897642"
+    },
+    "subsets.Job/All Jobs Bases": {
+      "hash": "sha256:bc8bda41952e154fbc3da9d1242e4a24412c4bbb158006ef0e4d39256fa8a7a5"
+    },
+    "subsets.Month/%2AAll": {
+      "hash": "sha256:6bdfa973e1e333a2bf32e07c86ff35828cf2b96710a384b278f54275e2f8b637"
+    },
+    "subsets.Month/%2ABase": {
+      "hash": "sha256:eeb8199230d1baa958985f0b102ba0ea969908a99a60e0ffc2b4d12c867a2c18"
+    },
+    "subsets.Month/Base Months": {
+      "hash": "sha256:992b0256c6c77ce687dadb444adb4de629a7698ae6d508462c0b70c6286b021d"
+    },
+    "subsets.Month/Clear Months": {
+      "hash": "sha256:30eee9047631e3abe31e80a69dc22afc90fe5c75026cb495ee7f1299d3f9db94"
+    },
+    "subsets.Office/COP Split Offices": {
+      "hash": "sha256:3c56284c33cfed39135ea1b44b531a6115d3bbcbcd19f47e3cd884c76170201f"
+    },
+    "subsets.PL Account/Overhead Expenses": {
+      "hash": "sha256:9ac74945de81af5c057eb7f8b6ef43627d218fbf241309a874737f1bdd157418"
+    }
+  },
+  "hash": "sha256:d758e86bdd02455a41654419cadec08111eb97cb9328750fd35ba6da315b74b8",
+  "project": "olap:Thinkerbell_20260803",
+  "source": {
+    "at": "2026-08-11T01:32:44Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "token": "9574006"
+}

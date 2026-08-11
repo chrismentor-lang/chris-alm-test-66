@@ -1,0 +1,143 @@
+{
+  "name": "Detail Resource",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: List All Resource Measure Types\nPrimary Data Source: Manual\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "Name": "Detail Resource"
+  },
+  "elements": [
+    {
+      "name": "Hours",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Billable",
+          "weight": 1
+        },
+        {
+          "name": "Non Billable",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Billable",
+      "type": "numeric"
+    },
+    {
+      "name": "Non Billable",
+      "type": "numeric"
+    },
+    {
+      "name": "Billable Active",
+      "type": "numeric"
+    },
+    {
+      "name": "Non Billable Active",
+      "type": "numeric"
+    },
+    {
+      "name": "Hours Active",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Billable Active",
+          "weight": 1
+        },
+        {
+          "name": "Non Billable Active",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "FTE",
+      "type": "numeric"
+    },
+    {
+      "name": "Headcount",
+      "type": "numeric"
+    },
+    {
+      "name": "Margin Active",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Revenue Active",
+          "weight": 1
+        },
+        {
+          "name": "Cost Active",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Revenue Active",
+      "type": "numeric"
+    },
+    {
+      "name": "Cost Active",
+      "type": "numeric"
+    },
+    {
+      "name": "Margin",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Revenue",
+          "weight": 1
+        },
+        {
+          "name": "Cost",
+          "weight": -1
+        }
+      ]
+    },
+    {
+      "name": "Billable Rate",
+      "type": "numeric"
+    },
+    {
+      "name": "Cost Rate",
+      "type": "numeric"
+    },
+    {
+      "name": "Revenue",
+      "type": "numeric"
+    },
+    {
+      "name": "Cost",
+      "type": "numeric"
+    },
+    {
+      "name": "Utilisation",
+      "type": "numeric"
+    },
+    {
+      "name": "Milestones",
+      "type": "numeric"
+    },
+    {
+      "name": "Deadlines",
+      "type": "numeric"
+    },
+    {
+      "name": "Start Date",
+      "type": "numeric"
+    },
+    {
+      "name": "End Date",
+      "type": "numeric"
+    },
+    {
+      "name": "Job Active",
+      "type": "numeric"
+    },
+    {
+      "name": "Stage",
+      "type": "string"
+    }
+  ]
+}

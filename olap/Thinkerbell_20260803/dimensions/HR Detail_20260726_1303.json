@@ -1,0 +1,207 @@
+{
+  "name": "HR Detail_20260726_1303",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "20260408: Introduced for drafting HR details.",
+    "Name": "HR Detail_20260726_1303"
+  },
+  "elements": [
+    {
+      "name": "Staff Expenses",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Salary",
+          "weight": 1
+        },
+        {
+          "name": "Superannuation",
+          "weight": 1
+        },
+        {
+          "name": "Workcover",
+          "weight": 1
+        },
+        {
+          "name": "Freelance Costs",
+          "weight": 1
+        },
+        {
+          "name": "Superannuation - Freelance",
+          "weight": 1
+        },
+        {
+          "name": "Payroll Tax",
+          "weight": 1
+        },
+        {
+          "name": "Annual Leave Expense",
+          "weight": 1
+        },
+        {
+          "name": "Bonus Accrual",
+          "weight": 1
+        },
+        {
+          "name": "Parental Leave Expense",
+          "weight": 1
+        },
+        {
+          "name": "Long Service Leave Expense",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Staff Other",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "FTE",
+          "weight": 1
+        },
+        {
+          "name": "FTE (Change)",
+          "weight": 1
+        },
+        {
+          "name": "Headcount",
+          "weight": 1
+        },
+        {
+          "name": "Headcount (Change)",
+          "weight": 1
+        },
+        {
+          "name": "Leave",
+          "weight": 1
+        },
+        {
+          "name": "Sick Leave",
+          "weight": 1
+        },
+        {
+          "name": "Annual Leave",
+          "weight": 1
+        },
+        {
+          "name": "Parental Leave",
+          "weight": 1
+        },
+        {
+          "name": "Long Service Leave",
+          "weight": 1
+        },
+        {
+          "name": "Full Time Base Salary",
+          "weight": 1
+        },
+        {
+          "name": "Full Time Base Salary (Change)",
+          "weight": 1
+        },
+        {
+          "name": "Salary Increase %",
+          "weight": 1
+        },
+        {
+          "name": "Salary Increase Amount",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "FTE",
+      "type": "numeric"
+    },
+    {
+      "name": "FTE (Change)",
+      "type": "numeric"
+    },
+    {
+      "name": "Headcount",
+      "type": "numeric"
+    },
+    {
+      "name": "Headcount (Change)",
+      "type": "numeric"
+    },
+    {
+      "name": "Leave",
+      "type": "numeric"
+    },
+    {
+      "name": "Sick Leave",
+      "type": "numeric"
+    },
+    {
+      "name": "Annual Leave",
+      "type": "numeric"
+    },
+    {
+      "name": "Parental Leave",
+      "type": "numeric"
+    },
+    {
+      "name": "Long Service Leave",
+      "type": "numeric"
+    },
+    {
+      "name": "Full Time Base Salary",
+      "type": "numeric"
+    },
+    {
+      "name": "Full Time Base Salary (Change)",
+      "type": "numeric"
+    },
+    {
+      "name": "Salary Increase %",
+      "type": "numeric"
+    },
+    {
+      "name": "Salary",
+      "type": "numeric"
+    },
+    {
+      "name": "Salary Increase Amount",
+      "type": "numeric"
+    },
+    {
+      "name": "Superannuation",
+      "type": "numeric"
+    },
+    {
+      "name": "Workcover",
+      "type": "numeric"
+    },
+    {
+      "name": "Freelance Costs",
+      "type": "numeric"
+    },
+    {
+      "name": "Superannuation - Freelance",
+      "type": "numeric"
+    },
+    {
+      "name": "Payroll Tax",
+      "type": "numeric"
+    },
+    {
+      "name": "Annual Leave Expense",
+      "type": "numeric"
+    },
+    {
+      "name": "Bonus Accrual",
+      "type": "numeric"
+    },
+    {
+      "name": "Parental Leave Expense",
+      "type": "numeric"
+    },
+    {
+      "name": "Long Service Leave Expense",
+      "type": "numeric"
+    }
+  ]
+}

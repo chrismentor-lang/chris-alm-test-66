@@ -1,0 +1,32 @@
+{
+  "name": "Country",
+  "kind": "normal",
+  "properties": {
+    "Description": "20260726: Introduced",
+    "Name": "Country"
+  },
+  "elements": [
+    {
+      "name": "All countries",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "AU",
+          "weight": 1
+        },
+        {
+          "name": "NZ",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "AU",
+      "type": "numeric"
+    },
+    {
+      "name": "NZ",
+      "type": "numeric"
+    }
+  ]
+}

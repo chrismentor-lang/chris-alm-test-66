@@ -1,0 +1,17 @@
+{
+  "name": "Detail Billable Rate",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultReadElement": "Billable Rate",
+    "DefaultWriteElement": "Billable Rate",
+    "Description": "Purpose: Billable Rate Cube Details\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "Detail Billable Rate"
+  },
+  "elements": [
+    {
+      "name": "Billable Rate",
+      "type": "numeric"
+    }
+  ]
+}
