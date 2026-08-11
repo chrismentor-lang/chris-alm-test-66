@@ -1,0 +1,3 @@
+### rule
+{"active":true,"position":0.5}
+['Detail Client Head Mapping':'CH Final', 'Job'::'All Jobs Base Elements'] = B:IF(STET(), STET(), IF(['Detail Client Head Mapping':'CH Loaded'], ['Detail Client Head Mapping':'CH Loaded'], IF(''['Job':PALO.EPARENT("Thinkerbell", "Job", !'Job', "All Jobs", 1)], ''['Job':PALO.EPARENT("Thinkerbell", "Job", !'Job', "All Jobs", 1)], STET())))

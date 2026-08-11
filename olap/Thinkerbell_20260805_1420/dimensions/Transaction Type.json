@@ -1,0 +1,33 @@
+{
+  "name": "Transaction Type",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: Transaction type for BS\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "Transaction Type"
+  },
+  "elements": [
+    {
+      "name": "Closing",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Opening",
+          "weight": 1
+        },
+        {
+          "name": "Movement",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Opening",
+      "type": "numeric"
+    },
+    {
+      "name": "Movement",
+      "type": "numeric"
+    }
+  ]
+}

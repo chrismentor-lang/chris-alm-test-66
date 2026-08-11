@@ -1,0 +1,32 @@
+{
+  "name": "Employee Type",
+  "kind": "normal",
+  "properties": {
+    "Description": "20260726: Introduced.",
+    "Name": "Employee Type"
+  },
+  "elements": [
+    {
+      "name": "All employee types",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Employee",
+          "weight": 1
+        },
+        {
+          "name": "Freelancer",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Employee",
+      "type": "numeric"
+    },
+    {
+      "name": "Freelancer",
+      "type": "numeric"
+    }
+  ]
+}

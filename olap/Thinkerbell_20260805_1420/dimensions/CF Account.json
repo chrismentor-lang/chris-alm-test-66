@@ -1,0 +1,249 @@
+{
+  "name": "CF Account",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose: CF Roll Up\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Created",
+    "Name": "CF Account"
+  },
+  "elements": [
+    {
+      "name": "EBITDA After Restatements",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Net Income",
+          "weight": 1
+        },
+        {
+          "name": "Add back - Depreciation",
+          "weight": 1
+        },
+        {
+          "name": "Add Back Amortisation",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Changes in Working Capital",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Production WIP",
+          "weight": 1
+        },
+        {
+          "name": "Accounts Receivable",
+          "weight": 1
+        },
+        {
+          "name": "Other Current Assets",
+          "weight": 1
+        },
+        {
+          "name": "Trade Creditors",
+          "weight": 1
+        },
+        {
+          "name": "Other Current Liabilities",
+          "weight": 1
+        },
+        {
+          "name": "People Liabilities",
+          "weight": 1
+        },
+        {
+          "name": "+/- Maintenance CAPEX",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Production WIP",
+      "type": "numeric"
+    },
+    {
+      "name": "Accounts Receivable",
+      "type": "numeric"
+    },
+    {
+      "name": "Other Current Assets",
+      "type": "numeric"
+    },
+    {
+      "name": "Trade Creditors",
+      "type": "numeric"
+    },
+    {
+      "name": "Other Current Liabilities",
+      "type": "numeric"
+    },
+    {
+      "name": "People Liabilities",
+      "type": "numeric"
+    },
+    {
+      "name": "+/- Maintenance CAPEX",
+      "type": "numeric"
+    },
+    {
+      "name": "Operating Cashflow",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "EBITDA After Restatements",
+          "weight": 1
+        },
+        {
+          "name": "Changes in Working Capital",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Interest Paid",
+      "type": "numeric"
+    },
+    {
+      "name": "Taxes",
+      "type": "numeric"
+    },
+    {
+      "name": "Maintainable Free Cash Flow (MFCF)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Operating Cashflow",
+          "weight": 1
+        },
+        {
+          "name": "Interest Paid",
+          "weight": 1
+        },
+        {
+          "name": "Taxes",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Growth CAPEX",
+      "type": "numeric"
+    },
+    {
+      "name": "Investments",
+      "type": "numeric"
+    },
+    {
+      "name": "Debt Repayment",
+      "type": "numeric"
+    },
+    {
+      "name": "Loans",
+      "type": "numeric"
+    },
+    {
+      "name": "New Debt",
+      "type": "numeric"
+    },
+    {
+      "name": "New Equity",
+      "type": "numeric"
+    },
+    {
+      "name": "Returns to Shareholders",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Buy Backs",
+          "weight": 1
+        },
+        {
+          "name": "Dividends",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Buy Backs",
+      "type": "numeric"
+    },
+    {
+      "name": "Dividends",
+      "type": "numeric"
+    },
+    {
+      "name": "Net Change in Cashflow",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Maintainable Free Cash Flow (MFCF)",
+          "weight": 1
+        },
+        {
+          "name": "Growth CAPEX",
+          "weight": 1
+        },
+        {
+          "name": "Investments",
+          "weight": 1
+        },
+        {
+          "name": "Debt Repayment",
+          "weight": 1
+        },
+        {
+          "name": "Loans",
+          "weight": 1
+        },
+        {
+          "name": "New Debt",
+          "weight": 1
+        },
+        {
+          "name": "New Equity",
+          "weight": 1
+        },
+        {
+          "name": "Returns to Shareholders",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Opening Cash Balance",
+      "type": "numeric"
+    },
+    {
+      "name": "Movements",
+      "type": "numeric"
+    },
+    {
+      "name": "Closing Cash Balance",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Movements",
+          "weight": 1
+        },
+        {
+          "name": "Opening Cash Balance",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Net Income",
+      "type": "numeric"
+    },
+    {
+      "name": "Add back - Depreciation",
+      "type": "numeric"
+    },
+    {
+      "name": "Add Back Amortisation",
+      "type": "numeric"
+    }
+  ]
+}

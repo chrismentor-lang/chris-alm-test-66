@@ -1,0 +1,98 @@
+{
+  "name": "Accountability User Access Group",
+  "kind": "normal",
+  "properties": {
+    "Description": "20260716: Introduced based on script from test-Thinkerbell",
+    "Name": "Accountability User Access Group"
+  },
+  "elements": [
+    {
+      "name": "2",
+      "type": "numeric"
+    },
+    {
+      "name": "1",
+      "type": "numeric"
+    },
+    {
+      "name": "117",
+      "type": "numeric"
+    },
+    {
+      "name": "116",
+      "type": "numeric"
+    },
+    {
+      "name": "115",
+      "type": "numeric"
+    },
+    {
+      "name": "114",
+      "type": "numeric"
+    },
+    {
+      "name": "113",
+      "type": "numeric"
+    },
+    {
+      "name": "112",
+      "type": "numeric"
+    },
+    {
+      "name": "111",
+      "type": "numeric"
+    },
+    {
+      "name": "110",
+      "type": "numeric"
+    },
+    {
+      "name": "109",
+      "type": "numeric"
+    },
+    {
+      "name": "108",
+      "type": "numeric"
+    },
+    {
+      "name": "107",
+      "type": "numeric"
+    },
+    {
+      "name": "106",
+      "type": "numeric"
+    },
+    {
+      "name": "105",
+      "type": "numeric"
+    },
+    {
+      "name": "104",
+      "type": "numeric"
+    },
+    {
+      "name": "103",
+      "type": "numeric"
+    },
+    {
+      "name": "102",
+      "type": "numeric"
+    },
+    {
+      "name": "101",
+      "type": "numeric"
+    },
+    {
+      "name": "100",
+      "type": "numeric"
+    },
+    {
+      "name": "9",
+      "type": "numeric"
+    },
+    {
+      "name": "3",
+      "type": "numeric"
+    }
+  ]
+}

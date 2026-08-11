@@ -1,0 +1,580 @@
+{
+  "name": "Office",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultParentElement": "Unassigned",
+    "DefaultReadElement": "All Offices",
+    "DefaultWriteElement": "~",
+    "Description": "Purpose: List All Offices\nPrimary Data Source: Accountability, Snowflake Consumption DB\n\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "NAElement": "~",
+    "Name": "Office",
+    "TotalElement": "All Offices"
+  },
+  "elements": [
+    {
+      "name": "All Offices",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "1",
+          "weight": 1
+        },
+        {
+          "name": "65",
+          "weight": 1
+        },
+        {
+          "name": "66",
+          "weight": 1
+        },
+        {
+          "name": "67",
+          "weight": 1
+        },
+        {
+          "name": "68",
+          "weight": 1
+        },
+        {
+          "name": "69",
+          "weight": 1
+        },
+        {
+          "name": "70",
+          "weight": 1
+        },
+        {
+          "name": "71",
+          "weight": 1
+        },
+        {
+          "name": "72",
+          "weight": 1
+        },
+        {
+          "name": "73",
+          "weight": 1
+        },
+        {
+          "name": "~",
+          "weight": 1
+        },
+        {
+          "name": "Unassigned",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Thinkerbell",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "72",
+          "weight": 1
+        },
+        {
+          "name": "67",
+          "weight": 1
+        },
+        {
+          "name": "71",
+          "weight": 1
+        },
+        {
+          "name": "1",
+          "weight": 1
+        },
+        {
+          "name": "73",
+          "weight": 1
+        },
+        {
+          "name": "65",
+          "weight": 1
+        },
+        {
+          "name": "68",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "DOA",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "69",
+          "weight": 1
+        },
+        {
+          "name": "DOA-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "TKB NZ",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "70",
+          "weight": 1
+        },
+        {
+          "name": "TKB NZ-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "TKB (excl CX)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "67",
+          "weight": 1
+        },
+        {
+          "name": "71",
+          "weight": 1
+        },
+        {
+          "name": "68",
+          "weight": 1
+        },
+        {
+          "name": "1",
+          "weight": 1
+        },
+        {
+          "name": "73",
+          "weight": 1
+        },
+        {
+          "name": "65",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "TKB (excl CX P&L)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "COP Shop",
+          "weight": 0
+        },
+        {
+          "name": "Hotel Bell",
+          "weight": 1
+        },
+        {
+          "name": "Media",
+          "weight": 1
+        },
+        {
+          "name": "South",
+          "weight": 1
+        },
+        {
+          "name": "North",
+          "weight": 1
+        },
+        {
+          "name": "Thinkerbell Group",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Thinkerbell (P&L)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "COP Shop",
+          "weight": 0
+        },
+        {
+          "name": "CX",
+          "weight": 1
+        },
+        {
+          "name": "Hotel Bell",
+          "weight": 1
+        },
+        {
+          "name": "Media",
+          "weight": 1
+        },
+        {
+          "name": "South",
+          "weight": 1
+        },
+        {
+          "name": "North",
+          "weight": 1
+        },
+        {
+          "name": "Thinkerbell Group",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "All Offices (P&L)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Thinkerbell (P&L)",
+          "weight": 1
+        },
+        {
+          "name": "DOA",
+          "weight": 1
+        },
+        {
+          "name": "TKB NZ",
+          "weight": 1
+        },
+        {
+          "name": "TKB (excl CX P&L)",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "All Offices (Revenue)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "Thinkerbell",
+          "weight": 1
+        },
+        {
+          "name": "DOA",
+          "weight": 1
+        },
+        {
+          "name": "TKB NZ",
+          "weight": 1
+        },
+        {
+          "name": "TKB (excl CX)",
+          "weight": 0
+        },
+        {
+          "name": "~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "TKB (excl COP)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "72",
+          "weight": 1
+        },
+        {
+          "name": "71",
+          "weight": 1
+        },
+        {
+          "name": "1",
+          "weight": 1
+        },
+        {
+          "name": "73",
+          "weight": 1
+        },
+        {
+          "name": "65",
+          "weight": 1
+        },
+        {
+          "name": "68",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "TKB (COP Split)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "72-~",
+          "weight": 1
+        },
+        {
+          "name": "71-~",
+          "weight": 1
+        },
+        {
+          "name": "68-~",
+          "weight": 1
+        },
+        {
+          "name": "1-~",
+          "weight": 1
+        },
+        {
+          "name": "65-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "type": "numeric"
+    },
+    {
+      "name": "1-~",
+      "type": "numeric"
+    },
+    {
+      "name": "65",
+      "type": "numeric"
+    },
+    {
+      "name": "TKB (excl CX)-~",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "71-~",
+          "weight": 1
+        },
+        {
+          "name": "68-~",
+          "weight": 1
+        },
+        {
+          "name": "1-~",
+          "weight": 1
+        },
+        {
+          "name": "65-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "TKB (excl CX COP)",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "71",
+          "weight": 1
+        },
+        {
+          "name": "1",
+          "weight": 1
+        },
+        {
+          "name": "73",
+          "weight": 1
+        },
+        {
+          "name": "65",
+          "weight": 1
+        },
+        {
+          "name": "68",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "65-~",
+      "type": "numeric"
+    },
+    {
+      "name": "66",
+      "type": "numeric"
+    },
+    {
+      "name": "67",
+      "type": "numeric"
+    },
+    {
+      "name": "67-~",
+      "type": "numeric"
+    },
+    {
+      "name": "COP Shop",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "67",
+          "weight": 1
+        },
+        {
+          "name": "67-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "CX",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "72",
+          "weight": 1
+        },
+        {
+          "name": "72-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "68",
+      "type": "numeric"
+    },
+    {
+      "name": "68-~",
+      "type": "numeric"
+    },
+    {
+      "name": "69",
+      "type": "numeric"
+    },
+    {
+      "name": "DOA-~",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "69-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "69-~",
+      "type": "numeric"
+    },
+    {
+      "name": "70",
+      "type": "numeric"
+    },
+    {
+      "name": "TKB NZ-~",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "70-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "70-~",
+      "type": "numeric"
+    },
+    {
+      "name": "71",
+      "type": "numeric"
+    },
+    {
+      "name": "Hotel Bell",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "71",
+          "weight": 1
+        },
+        {
+          "name": "71-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Media",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "68",
+          "weight": 1
+        },
+        {
+          "name": "68-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "South",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "1",
+          "weight": 1
+        },
+        {
+          "name": "1-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "71-~",
+      "type": "numeric"
+    },
+    {
+      "name": "72",
+      "type": "numeric"
+    },
+    {
+      "name": "72-~",
+      "type": "numeric"
+    },
+    {
+      "name": "73",
+      "type": "numeric"
+    },
+    {
+      "name": "73-~",
+      "type": "numeric"
+    },
+    {
+      "name": "North",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "65",
+          "weight": 1
+        },
+        {
+          "name": "65-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "Thinkerbell Group",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "73",
+          "weight": 1
+        },
+        {
+          "name": "73-~",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "~",
+      "type": "numeric"
+    },
+    {
+      "name": "Unassigned",
+      "type": "numeric"
+    }
+  ]
+}

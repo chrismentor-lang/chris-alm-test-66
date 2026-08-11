@@ -1,0 +1,49 @@
+{
+  "name": "Target Currency",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "Purpose:\nPrimary Data Source: Manual\nOwner: Geetansh Mahajan\n\n20260122: Introduced",
+    "Name": "Target Currency"
+  },
+  "elements": [
+    {
+      "name": "All Target Currencies",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "AUD",
+          "weight": 1
+        },
+        {
+          "name": "NZD",
+          "weight": 1
+        },
+        {
+          "name": "XXX",
+          "weight": 1
+        },
+        {
+          "name": "Unassigned",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "AUD",
+      "type": "numeric"
+    },
+    {
+      "name": "NZD",
+      "type": "numeric"
+    },
+    {
+      "name": "XXX",
+      "type": "numeric"
+    },
+    {
+      "name": "Unassigned",
+      "type": "numeric"
+    }
+  ]
+}

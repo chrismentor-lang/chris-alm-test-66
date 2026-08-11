@@ -1,0 +1,56 @@
+{
+  "name": "Status",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Name": "Status"
+  },
+  "elements": [
+    {
+      "name": "All Statuses",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "1",
+          "weight": 1
+        },
+        {
+          "name": "5",
+          "weight": 1
+        },
+        {
+          "name": "4",
+          "weight": 1
+        },
+        {
+          "name": "3",
+          "weight": 1
+        },
+        {
+          "name": "2",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "1",
+      "type": "numeric"
+    },
+    {
+      "name": "5",
+      "type": "numeric"
+    },
+    {
+      "name": "4",
+      "type": "numeric"
+    },
+    {
+      "name": "3",
+      "type": "numeric"
+    },
+    {
+      "name": "2",
+      "type": "numeric"
+    }
+  ]
+}

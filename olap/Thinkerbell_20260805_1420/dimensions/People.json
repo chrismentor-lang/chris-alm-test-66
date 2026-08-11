@@ -1,0 +1,417 @@
+{
+  "name": "People",
+  "kind": "normal",
+  "properties": {
+    "Audit": "7",
+    "Description": "Test Dimension, not used anywhere",
+    "Name": "People"
+  },
+  "elements": [
+    {
+      "name": "All People",
+      "type": "consolidated",
+      "children": [
+        {
+          "name": "18549910",
+          "weight": 1
+        },
+        {
+          "name": "18549909",
+          "weight": 1
+        },
+        {
+          "name": "18549908",
+          "weight": 1
+        },
+        {
+          "name": "18549904",
+          "weight": 1
+        },
+        {
+          "name": "18532532",
+          "weight": 1
+        },
+        {
+          "name": "18531362",
+          "weight": 1
+        },
+        {
+          "name": "18516255",
+          "weight": 1
+        },
+        {
+          "name": "18516254",
+          "weight": 1
+        },
+        {
+          "name": "18516242",
+          "weight": 1
+        },
+        {
+          "name": "18513422",
+          "weight": 1
+        },
+        {
+          "name": "18512072",
+          "weight": 1
+        },
+        {
+          "name": "18512070",
+          "weight": 1
+        },
+        {
+          "name": "18512069",
+          "weight": 1
+        },
+        {
+          "name": "18507215",
+          "weight": 1
+        },
+        {
+          "name": "18507214",
+          "weight": 1
+        },
+        {
+          "name": "18502549",
+          "weight": 1
+        },
+        {
+          "name": "18502548",
+          "weight": 1
+        },
+        {
+          "name": "18502547",
+          "weight": 1
+        },
+        {
+          "name": "18502545",
+          "weight": 1
+        },
+        {
+          "name": "18502544",
+          "weight": 1
+        },
+        {
+          "name": "18499248",
+          "weight": 1
+        },
+        {
+          "name": "18499247",
+          "weight": 1
+        },
+        {
+          "name": "18493152",
+          "weight": 1
+        },
+        {
+          "name": "18483992",
+          "weight": 1
+        },
+        {
+          "name": "18476523",
+          "weight": 1
+        },
+        {
+          "name": "18459932",
+          "weight": 1
+        },
+        {
+          "name": "18447922",
+          "weight": 1
+        },
+        {
+          "name": "18444181",
+          "weight": 1
+        },
+        {
+          "name": "18444155",
+          "weight": 1
+        },
+        {
+          "name": "18444154",
+          "weight": 1
+        },
+        {
+          "name": "18444153",
+          "weight": 1
+        },
+        {
+          "name": "18444152",
+          "weight": 1
+        },
+        {
+          "name": "18440734",
+          "weight": 1
+        },
+        {
+          "name": "18440733",
+          "weight": 1
+        },
+        {
+          "name": "18440664",
+          "weight": 1
+        },
+        {
+          "name": "18435455",
+          "weight": 1
+        },
+        {
+          "name": "18434908",
+          "weight": 1
+        },
+        {
+          "name": "18428754",
+          "weight": 1
+        },
+        {
+          "name": "18426479",
+          "weight": 1
+        },
+        {
+          "name": "18421343",
+          "weight": 1
+        },
+        {
+          "name": "18418438",
+          "weight": 1
+        },
+        {
+          "name": "18417680",
+          "weight": 1
+        },
+        {
+          "name": "18414967",
+          "weight": 1
+        },
+        {
+          "name": "18414231",
+          "weight": 1
+        },
+        {
+          "name": "18412253",
+          "weight": 1
+        },
+        {
+          "name": "18412252",
+          "weight": 1
+        },
+        {
+          "name": "18403501",
+          "weight": 1
+        },
+        {
+          "name": "18403500",
+          "weight": 1
+        },
+        {
+          "name": "18403461",
+          "weight": 1
+        },
+        {
+          "name": "18403457",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "18549910",
+      "type": "numeric"
+    },
+    {
+      "name": "18549909",
+      "type": "numeric"
+    },
+    {
+      "name": "18549908",
+      "type": "numeric"
+    },
+    {
+      "name": "18549904",
+      "type": "numeric"
+    },
+    {
+      "name": "18532532",
+      "type": "numeric"
+    },
+    {
+      "name": "18531362",
+      "type": "numeric"
+    },
+    {
+      "name": "18516255",
+      "type": "numeric"
+    },
+    {
+      "name": "18516254",
+      "type": "numeric"
+    },
+    {
+      "name": "18516242",
+      "type": "numeric"
+    },
+    {
+      "name": "18513422",
+      "type": "numeric"
+    },
+    {
+      "name": "18512072",
+      "type": "numeric"
+    },
+    {
+      "name": "18512070",
+      "type": "numeric"
+    },
+    {
+      "name": "18512069",
+      "type": "numeric"
+    },
+    {
+      "name": "18507215",
+      "type": "numeric"
+    },
+    {
+      "name": "18507214",
+      "type": "numeric"
+    },
+    {
+      "name": "18502549",
+      "type": "numeric"
+    },
+    {
+      "name": "18502548",
+      "type": "numeric"
+    },
+    {
+      "name": "18502547",
+      "type": "numeric"
+    },
+    {
+      "name": "18502545",
+      "type": "numeric"
+    },
+    {
+      "name": "18502544",
+      "type": "numeric"
+    },
+    {
+      "name": "18499248",
+      "type": "numeric"
+    },
+    {
+      "name": "18499247",
+      "type": "numeric"
+    },
+    {
+      "name": "18493152",
+      "type": "numeric"
+    },
+    {
+      "name": "18483992",
+      "type": "numeric"
+    },
+    {
+      "name": "18476523",
+      "type": "numeric"
+    },
+    {
+      "name": "18459932",
+      "type": "numeric"
+    },
+    {
+      "name": "18447922",
+      "type": "numeric"
+    },
+    {
+      "name": "18444181",
+      "type": "numeric"
+    },
+    {
+      "name": "18444155",
+      "type": "numeric"
+    },
+    {
+      "name": "18444154",
+      "type": "numeric"
+    },
+    {
+      "name": "18444153",
+      "type": "numeric"
+    },
+    {
+      "name": "18444152",
+      "type": "numeric"
+    },
+    {
+      "name": "18440734",
+      "type": "numeric"
+    },
+    {
+      "name": "18440733",
+      "type": "numeric"
+    },
+    {
+      "name": "18440664",
+      "type": "numeric"
+    },
+    {
+      "name": "18435455",
+      "type": "numeric"
+    },
+    {
+      "name": "18434908",
+      "type": "numeric"
+    },
+    {
+      "name": "18428754",
+      "type": "numeric"
+    },
+    {
+      "name": "18426479",
+      "type": "numeric"
+    },
+    {
+      "name": "18421343",
+      "type": "numeric"
+    },
+    {
+      "name": "18418438",
+      "type": "numeric"
+    },
+    {
+      "name": "18417680",
+      "type": "numeric"
+    },
+    {
+      "name": "18414967",
+      "type": "numeric"
+    },
+    {
+      "name": "18414231",
+      "type": "numeric"
+    },
+    {
+      "name": "18412253",
+      "type": "numeric"
+    },
+    {
+      "name": "18412252",
+      "type": "numeric"
+    },
+    {
+      "name": "18403501",
+      "type": "numeric"
+    },
+    {
+      "name": "18403500",
+      "type": "numeric"
+    },
+    {
+      "name": "18403461",
+      "type": "numeric"
+    },
+    {
+      "name": "18403457",
+      "type": "numeric"
+    }
+  ]
+}
