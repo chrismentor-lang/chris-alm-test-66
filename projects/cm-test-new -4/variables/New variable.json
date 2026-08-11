@@ -1,0 +1,6 @@
+{
+  "-name": "New variable",
+  "comment": {
+    "#cdata-section": "new test variable"
+  }
+}
