@@ -40,16 +40,20 @@
       "hash": "sha256:837feecb41ea9f041467e10539b709a11f81137ec439a142b40de9a757554b87",
       "modified": 1786513029111
     },
+    "cm-test-new-test-99.variables.aNewOne": {
+      "hash": "sha256:3ee677412ffe3f8b81b39bdd1e6454956f13d8e043f730d9aa75f9c2025bd3d3",
+      "modified": 1786513471949
+    },
     "cm-test-new-test-99.variables.changedName": {
-      "hash": "sha256:0ec7b96d7c14246942936aff3773c5784d38866686858200bf8cfd2762253f15",
-      "modified": 1786513029111
+      "hash": "sha256:78433fd280a9dc8f12fb5f6a75e008d9725894ed1e6af4a8824dcb8393d2ac0b",
+      "modified": 1786513493537
     }
   },
   "hash": "sha256:93f7f34ef9b0e88aa02d6260dee9b81e57ad7b7f431fe61171bde8f696942e00",
-  "modified": 1786513033211,
+  "modified": 1786513493537,
   "project": "cm-test-new-test-99",
   "source": {
-    "at": "2026-08-12T05:38:52Z",
+    "at": "2026-08-12T05:45:34Z",
     "env": "dev",
     "host": "https://test-thinkerbell.cloud.jedox.com/"
   },
