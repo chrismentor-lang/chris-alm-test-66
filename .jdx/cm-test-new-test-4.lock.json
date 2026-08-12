@@ -1,0 +1,57 @@
+{
+  "components": {
+    "cm-test-new-test-4.connections.New CSV Connection (5)": {
+      "hash": "sha256:42c80844cc154547fb95eaf0c2f94594d720f68d3a24d2eca909428d7f4cfe16",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.connections.New CSV Connection (6)": {
+      "hash": "sha256:0c2aa1cd85cb23bcc6147cd9f9fac7923d23c1f3448a3d0c8129d0470add41fb",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.connections.New CSV Connection (7)": {
+      "hash": "sha256:9c40147739bca20f98c8bb41417ba1f1b1b4692f74aa015d02fd0a75d24c26a3",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.connections.New CSV connection": {
+      "hash": "sha256:55ce78f11466853076adc8c3b19bbda4378b72411dc2ab18d403323975d96d59",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.connections.New CSV connection (2)": {
+      "hash": "sha256:c5d6d01dfb935655f4536467bc87e582ae516333390ed53c0ba1ab9a19c89647",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.connections.New CSV connection (3)": {
+      "hash": "sha256:d2c001737049edc2294c4688fdaf35fb168b080244effe7943c7dccf464f1f3a",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.connections.New CSV connection (4)": {
+      "hash": "sha256:447ea662cf7d5a82a1ef45ccb39b497d5b41262a5ca218aee649acdf3c14749e",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.connections.New CSV connection (8)": {
+      "hash": "sha256:d1b45526172d8baf817bcb6c33598dc08bbd41930820fef248e2b4efd74d12f8",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.connections.New CSV connection (9)": {
+      "hash": "sha256:da13ed7089e55ecffde4d6d3d5a7ba9ba220a54902d0e13a24de4f3f060eb955",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.jobs.New Groovy job": {
+      "hash": "sha256:1e13024c8c59b9899f68b09f465a8903318cb7f614e5c5ea1e3244cd251d714d",
+      "modified": 1786494198685
+    },
+    "cm-test-new-test-4.variables.NewName": {
+      "hash": "sha256:5f3e990df11e1280242190b706055068401c0ae20eb7d0dad688bd00bf448885",
+      "modified": 1786494526028
+    }
+  },
+  "hash": "sha256:91c7350a486c1e4cbbf78d106690ab7b2778431d8fbc9af9189de69ad27696fa",
+  "modified": 1786494526028,
+  "project": "cm-test-new-test-4",
+  "source": {
+    "at": "2026-08-12T00:29:29Z",
+    "env": "dev",
+    "host": "https://test-thinkerbell.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}
