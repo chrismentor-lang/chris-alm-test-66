@@ -1,0 +1,8 @@
+{
+  "-name": "Test Iterate logic",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Test Iterate logic.jobscript.groovy"
+  }
+}

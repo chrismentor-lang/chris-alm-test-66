@@ -1,0 +1,21 @@
+{
+  "-name": "Dimension_Filter_Extract",
+  "-type": "Dimension",
+  "attributesMode": "none",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "query": {
+    "dimension": {
+      "-name": "${Dimension}"
+    },
+    "filter": {
+      "condition": {
+        "#cdata-section": "${RegExp}",
+        "-mode": "onlyNodes",
+        "-operator": "like",
+        "-type": "accept"
+      }
+    }
+  }
+}

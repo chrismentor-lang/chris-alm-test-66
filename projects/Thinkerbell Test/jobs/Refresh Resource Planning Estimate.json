@@ -1,0 +1,17 @@
+{
+  "-name": "Refresh Resource Planning Estimate",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "cResourcePlanning_263_000_delEstimate_cl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "cResourcePlanning_262_000_addEstimate_cl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

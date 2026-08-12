@@ -1,0 +1,9 @@
+{
+  "-name": "vFileDate",
+  "comment": {
+    "#cdata-section": "Yesterday's Date in the format YYYY-MM-DD"
+  },
+  "script": {
+    "#file": "vFileDate.script.groovy"
+  }
+}

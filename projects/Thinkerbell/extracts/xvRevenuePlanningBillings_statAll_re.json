@@ -1,0 +1,14 @@
+{
+  "-name": "xvRevenuePlanningBillings_statAll_re",
+  "-type": "Relational",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the actual revenue billings from the Snowflake view.\n\n20260213 :Created"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvRevenuePlanningBillings_statAll_re.query.sql"
+  }
+}

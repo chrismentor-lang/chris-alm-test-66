@@ -1,0 +1,23 @@
+{
+  "-name": "dJob_113_030_delJobs_dl",
+  "-type": "Dimension",
+  "comment": "Load that deleted the jobs from the Job dimension that don't have an equivalent in the Snowflake view.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-name": "Job",
+    "attributes": {
+      "-mode": "delete"
+    },
+    "consolidations": {
+      "-mode": "delete"
+    },
+    "elements": {
+      "-mode": "delete"
+    }
+  },
+  "source": {
+    "-nameref": "dJob_113_020_delJobs_fh"
+  }
+}

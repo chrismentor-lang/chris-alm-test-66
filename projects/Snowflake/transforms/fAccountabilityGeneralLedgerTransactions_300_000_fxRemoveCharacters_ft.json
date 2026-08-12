@@ -1,0 +1,166 @@
+{
+  "-name": "fAccountabilityGeneralLedgerTransactions_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": {
+      "-name": "fxDescription",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "DES",
+          "-nameref": "description"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fAccountabilityGeneralLedgerTransactions_300_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityGeneralLedgerTransactions_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "accountId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "accountingMonthId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "accountingYearId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "credit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "currencyId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "debit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "departmentId"
+          }
+        },
+        {
+          "-name": "description",
+          "input": {
+            "-nameref": "fxDescription"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "interOfficeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jobId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "journalDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "journalEntryId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "journalId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "journalNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "masterJobId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "productId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "supplierId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "transactionCurrencyCredit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "transactionCurrencyDebit"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "transactionCurrencyId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "transactionNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "transactionTypeId"
+          }
+        }
+      ]
+    }
+  }
+}

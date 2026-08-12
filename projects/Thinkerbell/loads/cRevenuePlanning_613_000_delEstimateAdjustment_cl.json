@@ -1,0 +1,21 @@
+{
+  "-name": "cRevenuePlanning_613_000_delEstimateAdjustment_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "Deletes the adjustment for the vFY from the Revenue Planning cube."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Revenue Planning",
+    "-splash": "default"
+  },
+  "mode": "delete",
+  "source": {
+    "-nameref": "xcRevenuePlanning_statEstimatedAdjustment_cs"
+  }
+}

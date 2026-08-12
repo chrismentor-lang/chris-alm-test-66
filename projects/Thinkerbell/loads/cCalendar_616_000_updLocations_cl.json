@@ -1,0 +1,21 @@
+{
+  "-name": "cCalendar_616_000_updLocations_cl",
+  "-type": "Cube",
+  "bulksize": "100000",
+  "comment": {
+    "#cdata-section": "20260806: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "none",
+    "-deactivateSVS": "true",
+    "-name": "Calendar",
+    "-splash": "disabled"
+  },
+  "mode": "update",
+  "source": {
+    "-nameref": "xvLocationCalendar_statAll_re"
+  }
+}

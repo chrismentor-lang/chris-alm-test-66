@@ -1,0 +1,14 @@
+{
+  "-name": "cfHiBob_statJson_fc",
+  "-type": "JsonFile",
+  "comment": {
+    "#cdata-section": "To fetch the merged json file for salaries"
+  },
+  "database": {
+    "#cdata-section": "Snowflake/HiBob/${vHiBobEndpoint}/${vHiBobEndpoint}_${vFileDate}.json"
+  },
+  "directory": "false",
+  "location": {
+    "-type": "FileSystem"
+  }
+}

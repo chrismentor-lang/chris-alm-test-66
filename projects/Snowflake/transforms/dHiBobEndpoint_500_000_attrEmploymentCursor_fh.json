@@ -1,0 +1,35 @@
+{
+  "-name": "dHiBobEndpoint_500_000_attrEmploymentCursor_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Load cursor value into dimension Hi bob endpoint attribute cursor"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjHiBob_statNextCursor_je"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": {
+        "-name": "Cursor",
+        "-type": "string"
+      }
+    },
+    "levels": {
+      "level": {
+        "attributes": {
+          "attribute": {
+            "-name": "Cursor",
+            "input": {
+              "-nameref": "next_cursor"
+            }
+          }
+        },
+        "input": {
+          "-constant": "Employment"
+        }
+      }
+    }
+  }
+}

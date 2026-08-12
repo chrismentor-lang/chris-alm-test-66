@@ -1,0 +1,19 @@
+{
+  "-name": "cfHiBob_varHiBobMergedEmployment_fc",
+  "-type": "CsvFile",
+  "comment": {
+    "#cdata-section": "Used to generate merged Employment CSV file"
+  },
+  "database": {
+    "#cdata-section": "Snowflake/HiBob/${vHiBobEndpoint}"
+  },
+  "delimiter": "|",
+  "directory": "true",
+  "enableEscape": "false",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "pattern": "${vHiBobEndpoint}_${vFileDate}",
+  "quote": "#none"
+}

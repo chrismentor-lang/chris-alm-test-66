@@ -1,0 +1,21 @@
+{
+  "-name": "xdEstimate_statAllEstimateBases_de",
+  "-type": "Dimension",
+  "attributesMode": "standardAttributes",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "dimension": {
+      "-name": "Estimate"
+    },
+    "filter": {
+      "condition": {
+        "#text": "All Estimates",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

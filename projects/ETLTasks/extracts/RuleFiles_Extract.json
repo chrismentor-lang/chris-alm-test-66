@@ -1,0 +1,10 @@
+{
+  "-name": "RuleFiles_Extract",
+  "-type": "Metadata",
+  "connection": {
+    "-nameref": "RuleFiles"
+  },
+  "query": {
+    "selector": "files"
+  }
+}

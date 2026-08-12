@@ -1,0 +1,24 @@
+{
+  "-name": "Update Client Head Mapping in Revenue Cube",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This job is initiated by the user from the RVP2 (Client Head Mapping report) to update the client head mapping in Snowflake, refresh the total estimate input fields, and load the new estimates by month into the input field as well.\n\n20260701: Added Snowflake Refresh Revenue Planning Estimate Cube"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Snowflake Refresh Client Head Mapping",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Thinkerbell Refresh Revenue Planning Cube",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Snowflake Refresh Revenue Planning Estimate Cube",
+        "-type": "job"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

@@ -1,0 +1,24 @@
+{
+  "-name": "dMonth_143_050_addL3M_dl",
+  "-type": "Dimension",
+  "comment": "20260128 : Introduced",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Month",
+    "attributes": {
+      "-mode": "inactive"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dMonth_143_040_byL3M_fh"
+  }
+}

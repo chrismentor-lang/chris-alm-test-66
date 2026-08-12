@@ -1,0 +1,53 @@
+{
+  "-name": "xcRevenuePlanning_statNoClientHead_ce",
+  "-type": "Cube",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260630: Changed Detail Revenue from By Client Head to Revenue because we don't want to touch the New Business and Organic revenue (client heads are set manually and not via Client Head Mapping cube).\n20260626: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-celltype": "both",
+    "-drillthrough": "false",
+    "-onlyBasisAsDefault": "true",
+    "-useRules": "false",
+    "-zeroSuppressionType": "excludeEmptyAndZero",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "Estimate",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "~",
+          "-dimension": "Client Head",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Revenue",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "~",
+          "-dimension": "Month",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "deny"
+        }
+      ]
+    }
+  }
+}

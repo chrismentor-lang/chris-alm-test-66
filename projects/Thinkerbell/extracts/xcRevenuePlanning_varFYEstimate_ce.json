@@ -1,0 +1,109 @@
+{
+  "-name": "xcRevenuePlanning_varFYEstimate_ce",
+  "-type": "Cube",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieves the Adjustment for each of the estimates in the Estimate version of the selected financial year.\n\n20260713: Changed the filter Detail Revenue/accept/like/./onlyBases to Detail Revenue/accept/equal/Revenue/onlyBases and Detail Revenue/accept/equal/Probability/onlyBases to make sure that Organic and New Business is remaining in Adjustment.\n20260617: Activated Base elements only because it only retrieves base elements."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-celltype": "both",
+    "-drillthrough": "false",
+    "-onlyBasisAsDefault": "true",
+    "-useRules": "false",
+    "-zeroSuppressionType": "excludeEmptyAndZero",
+    "cube": {
+      "-name": "Revenue Planning"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "Estimate",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Base",
+          "-dimension": "Scenario",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "${vFY}",
+          "-dimension": "Month",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": ".",
+          "-dimension": "Office",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": ".",
+          "-dimension": "Job Type",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": ".",
+          "-dimension": "Estimate",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": ".",
+          "-dimension": "Client Head",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": ".",
+          "-dimension": "Task Type",
+          "-mode": "onlyBases",
+          "-operator": "like",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "{\"All Currencies Base Elements\": {}}",
+          "-dimension": "Currency",
+          "-mode": "onlyBases",
+          "-operator": "subset",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Probability",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Revenue",
+          "-dimension": "Detail Revenue",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Adjustment",
+          "-dimension": "Measure",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

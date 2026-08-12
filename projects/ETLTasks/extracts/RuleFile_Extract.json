@@ -1,0 +1,7 @@
+{
+  "-name": "RuleFile_Extract",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "RuleFile"
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "-name": "xjFloatPhases_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all phases and their details from Float. Is loaded to Snowflake but not in use.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatPhases_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "budget_total"
+      },
+      {
+        "-input": "color"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "default_hourly_rate"
+      },
+      {
+        "-input": "end_date"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "non_billable"
+      },
+      {
+        "-input": "notes"
+      },
+      {
+        "-input": "phase_id"
+      },
+      {
+        "-input": "phase_tasks"
+      },
+      {
+        "-input": "phase_team"
+      },
+      {
+        "-input": "project_id"
+      },
+      {
+        "-input": "start_date"
+      },
+      {
+        "-input": "status"
+      },
+      {
+        "-input": "tentative"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}

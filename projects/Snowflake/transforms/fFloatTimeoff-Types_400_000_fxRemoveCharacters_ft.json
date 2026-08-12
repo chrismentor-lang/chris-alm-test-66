@@ -1,0 +1,49 @@
+{
+  "-name": "fFloatTimeoff-Types_400_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Structuring the columns form the Timeoff-Types API."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjFloatTimeoff-Types_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approval_required"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "color"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "created_by"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timeoff_type_id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timeoff_type_name"
+          }
+        }
+      ]
+    }
+  }
+}

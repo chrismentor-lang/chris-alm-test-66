@@ -1,0 +1,23 @@
+{
+  "-name": "xcFTE_statBenchmark_cs",
+  "-type": "CubeSlice",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "FTE"
+    },
+    "filter": {
+      "condition": {
+        "#text": "Benchmark",
+        "-dimension": "Detail FTE",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

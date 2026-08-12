@@ -1,0 +1,13 @@
+{
+  "-name": "rGLSummary_InsertIntoDatawarehouse_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Calls procedure from incremental accountability schema in the HARMONISATION database to build a comprehensive General Ledger summary table for Power BI reporting in the GL_SUMMARY table in the POWER_BI schema of the DATAWAREHOUSE database ."
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rGLSummary_InsertIntoDatawarehouse_rs.query.sql"
+  }
+}

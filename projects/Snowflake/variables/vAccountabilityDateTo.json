@@ -1,0 +1,9 @@
+{
+  "-name": "vAccountabilityDateTo",
+  "comment": {
+    "#cdata-section": "Last Day of Yesterday's month"
+  },
+  "script": {
+    "#file": "vAccountabilityDateTo.script.groovy"
+  }
+}

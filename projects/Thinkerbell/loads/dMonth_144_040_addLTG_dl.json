@@ -1,0 +1,26 @@
+{
+  "-name": "dMonth_144_040_addLTG_dl",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "20260616: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Month",
+    "attributes": {
+      "-mode": "inactive"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dMonth_144_030_byLTG_fh"
+  }
+}

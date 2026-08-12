@@ -1,0 +1,13 @@
+{
+  "-name": "rHiBob_StageUpload_rs",
+  "-type": "RelationalSQL",
+  "comment": {
+    "#cdata-section": "Uploads the file to the stage in the Hi Bob schema in the Landing database."
+  },
+  "connection": {
+    "-nameref": "csfHiBobLoader_Global_sc"
+  },
+  "query": {
+    "#file": "rHiBob_StageUpload_rs.query.sql"
+  }
+}

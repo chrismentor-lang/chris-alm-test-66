@@ -1,0 +1,15 @@
+{
+  "-name": "fRBADailyFX_700_040_statCreate_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Loads the historic FX rates from the RBA http feed into a file that is stored in SFTP folder Snowflake/RBA/DailyFX/"
+  },
+  "connection": {
+    "-nameref": "cfRBA_varDailyFX_fc"
+  },
+  "mode": "create",
+  "source": {
+    "-nameref": "fDailyFX_700_030_exclOlder_tv"
+  },
+  "useScientificNotation": "true"
+}

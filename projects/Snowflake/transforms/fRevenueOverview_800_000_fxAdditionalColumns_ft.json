@@ -1,0 +1,10 @@
+{
+  "-name": "fRevenueOverview_800_000_fxAdditionalColumns_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "fJedoxRevenuePlanningFY_900_010_exFYActEst_tu"
+    }
+  }
+}

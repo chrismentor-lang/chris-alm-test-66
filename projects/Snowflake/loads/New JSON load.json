@@ -1,0 +1,14 @@
+{
+  "-name": "New JSON load",
+  "-type": "Json",
+  "connection": {
+    "-nameref": "cfHiBob_statJson${vHiBobEndpoint}_fc"
+  },
+  "ignoreEmpty": "false",
+  "jsonTemplate": "#{MERGED_JSON}",
+  "mode": "create",
+  "skipRoot": "false",
+  "source": {
+    "-nameref": "xfHiBobMerge${vHiBobEndpoint}Files_statAll_fe"
+  }
+}

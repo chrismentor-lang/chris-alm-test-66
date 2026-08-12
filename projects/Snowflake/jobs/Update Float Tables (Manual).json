@@ -1,0 +1,52 @@
+{
+  "-name": "Update Float Tables (Manual)",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260113: Included rFloat_InsertIntoHarmonisation_rs"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "Create Float Endpoint files daily",
+        "-type": "job"
+      },
+      {
+        "-nameref": "Compress Float files in SFTP",
+        "-type": "job"
+      },
+      {
+        "-nameref": "rFloat_StageDelete_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rFloat_StageUpload_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rFloat_TruncateLandingTable_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rFloat_CopyIntoLanding_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rFloat_InsertIntoHarmonisation_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit",
+  "variables": {
+    "variable": [
+      {
+        "-name": "vFloatEndpoint",
+        "default": "People"
+      },
+      {
+        "-name": "vFloatTable",
+        "default": "PEOPLE"
+      }
+    ]
+  }
+}

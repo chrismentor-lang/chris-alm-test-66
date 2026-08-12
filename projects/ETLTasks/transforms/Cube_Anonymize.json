@@ -1,0 +1,25 @@
+{
+  "-name": "Cube_Anonymize",
+  "-type": "FieldTransform",
+  "functions": {
+    "function": {
+      "-name": "#Value",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-nameref": "#Value"
+        }
+      },
+      "parameters": {
+        "script": {
+          "#file": "Cube_Anonymize.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "Cube_Extract"
+    }
+  }
+}

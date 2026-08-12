@@ -1,0 +1,13 @@
+{
+  "-name": "RuleFile",
+  "-type": "CsvFile",
+  "database": "${FilePath}\\\\${Cube}.RULE.TXT",
+  "delimiter": "${Delimiter}",
+  "enableEscape": "false",
+  "encoding": "UTF-8",
+  "header": "true",
+  "location": {
+    "-type": "FileSystem"
+  },
+  "quote": "\""
+}

@@ -1,0 +1,10 @@
+{
+  "-name": "DatabaseSave",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Saves all Jedox Cubes and the Database to disk in aggregated form in order to reduce disk space and time to start server\nVariables: TargetDB"
+  },
+  "jobscript": {
+    "#file": "DatabaseSave.jobscript.groovy"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "-name": "CubePopulate_Load",
+  "-type": "Cube",
+  "connection": {
+    "-nameref": "OlapSource"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "noneWithDefaultWrite",
+    "-name": "${Cube}"
+  },
+  "mode": "update",
+  "source": {
+    "-nameref": "Cube_Slice_Transform"
+  }
+}

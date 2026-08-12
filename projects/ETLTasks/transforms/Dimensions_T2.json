@@ -1,0 +1,19 @@
+{
+  "-name": "Dimensions_T2",
+  "-type": "FieldTransform",
+  "sources": {
+    "source": {
+      "-nameref": "Dimensions_T1"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": {
+        "-name": "Dimension",
+        "input": {
+          "-nameref": "Name"
+        }
+      }
+    }
+  }
+}

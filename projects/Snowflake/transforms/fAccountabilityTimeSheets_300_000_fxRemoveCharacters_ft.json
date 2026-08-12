@@ -1,0 +1,136 @@
+{
+  "-name": "fAccountabilityTimeSheets_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": {
+      "-name": "fxNotes",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "NOT",
+          "-nameref": "notes"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fAccountabilityTimeSheets_300_000_fxRemoveCharacters_ft.functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityTimeSheets_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "approvedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "approvedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "billableAmount"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "billableHours"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "billableRate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "costAmount"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "costRate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "date"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "employeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "endTime"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jobId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "nonBillableHours"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "startTime"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "taskTypeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timeEntryId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "timeLineId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "totalHours"
+          }
+        }
+      ]
+    }
+  }
+}

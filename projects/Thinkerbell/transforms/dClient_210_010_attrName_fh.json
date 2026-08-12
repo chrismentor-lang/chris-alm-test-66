@@ -1,0 +1,93 @@
+{
+  "-name": "dClient_210_010_attrName_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the top 2 levels of the All Clients hierarchy for the Clients dimension and populates the attributes Name, ID_Name, Client ID, Code, and Active for the base level.\n\n20260731: Added Currency attribute and populated with CLIENT_CURRENCY."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dClient_210_000_ascID_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name",
+          "-type": "string"
+        },
+        {
+          "-name": "Client ID"
+        },
+        {
+          "-name": "Code"
+        },
+        {
+          "-name": "Active"
+        },
+        {
+          "-name": "Currency",
+          "-type": "string"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Clients"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "CLIENT_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "CLIENT_ID_NAME"
+                }
+              },
+              {
+                "-name": "Client ID",
+                "input": {
+                  "-nameref": "CLIENT_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "CLIENT_ACTIVE"
+                }
+              },
+              {
+                "-name": "Code",
+                "input": {
+                  "-nameref": "CLIENT_CODE"
+                }
+              },
+              {
+                "-name": "Currency",
+                "input": {
+                  "-nameref": "CLIENT_CURRENCY"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "CLIENT_ID_ATTR"
+          }
+        }
+      ]
+    }
+  }
+}

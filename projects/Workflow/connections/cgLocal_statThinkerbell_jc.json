@@ -1,0 +1,18 @@
+{
+  "-name": "cgLocal_statThinkerbell_jc",
+  "-type": "JedoxOlap",
+  "comment": {
+    "#cdata-section": "20260612: Introduced as replacement of the global connection."
+  },
+  "database": {
+    "#cdata-section": "Thinkerbell"
+  },
+  "host": "jedox-olap",
+  "password": {
+    "#text": "2fiUBeubN5/zd469zGXMqc49XYtLGwpgK910f4JtCW4=",
+    "-encryption": "AES"
+  },
+  "port": "80",
+  "ssl": "off",
+  "user": "admin"
+}

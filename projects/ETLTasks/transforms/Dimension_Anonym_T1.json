@@ -1,0 +1,49 @@
+{
+  "-name": "Dimension_Anonym_T1",
+  "-type": "FieldTransform",
+  "functions": {
+    "function": [
+      {
+        "-name": "RowNumber",
+        "-type": "RowNumber",
+        "parameters": {}
+      },
+      {
+        "-name": "NewName",
+        "-type": "Concatenation",
+        "inputs": {
+          "input": {
+            "-nameref": "RowNumber"
+          }
+        },
+        "parameters": {
+          "template": "D${_Count} E#{RowNumber}"
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-format": "ea",
+      "-nameref": "Dimension_Extract"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "-name": "OldName",
+          "input": {
+            "-nameref": ":element"
+          }
+        },
+        {
+          "-name": "NewName",
+          "input": {
+            "-nameref": "NewName"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "-name": "dDay_147_040_addLTG_dl",
+  "-type": "Dimension",
+  "comment": {
+    "#cdata-section": "20260616: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Day",
+    "attributes": {
+      "-mode": "inactive"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dDay_147_030_byLTG_fh"
+  }
+}

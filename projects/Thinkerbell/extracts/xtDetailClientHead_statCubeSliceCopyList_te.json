@@ -1,0 +1,17 @@
+{
+  "-name": "xtDetailClientHead_statCubeSliceCopyList_te",
+  "-type": "ConstantTable",
+  "data": {
+    "header": {
+      "value": "Detail Client Head"
+    },
+    "row": [
+      {
+        "value": "CH Loaded"
+      },
+      {
+        "value": "CH %"
+      }
+    ]
+  }
+}

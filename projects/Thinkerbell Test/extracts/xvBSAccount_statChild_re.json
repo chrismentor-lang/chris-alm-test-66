@@ -1,0 +1,30 @@
+{
+  "-name": "xvBSAccount_statChild_re",
+  "-type": "Relational",
+  "alias_map": {
+    "alias": [
+      {
+        "-origin": "CHILD_ELEMENT"
+      },
+      {
+        "-origin": "NAME"
+      },
+      {
+        "-origin": "ID_NAME"
+      },
+      {
+        "-origin": "CONVERSION_TYPE"
+      }
+    ]
+  },
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260225: Created"
+  },
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "xvBSAccount_statChild_re.query.sql"
+  }
+}

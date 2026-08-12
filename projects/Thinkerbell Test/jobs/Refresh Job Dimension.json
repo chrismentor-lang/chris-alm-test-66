@@ -1,0 +1,24 @@
+{
+  "-name": "Refresh Job Dimension",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Updates the All Jobs hierarchy in the Jobs dimension by loading the full hierarchy, adding client dummy levels, and deleting jobs that don't have an equivalent in Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dJob_110_020_insAllJobs_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dJob_111_010_insDummyClient_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dJob_113_030_delJobs_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

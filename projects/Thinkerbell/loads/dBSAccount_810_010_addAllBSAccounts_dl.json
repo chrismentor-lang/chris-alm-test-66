@@ -1,0 +1,24 @@
+{
+  "-name": "dBSAccount_810_010_addAllBSAccounts_dl",
+  "-type": "Dimension",
+  "comment": "20260225: Created",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "BS Account",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "add"
+    },
+    "elements": {
+      "-mode": "add"
+    }
+  },
+  "source": {
+    "-nameref": "dBSAccount_810_000_byAllBSAccounts_fh"
+  }
+}

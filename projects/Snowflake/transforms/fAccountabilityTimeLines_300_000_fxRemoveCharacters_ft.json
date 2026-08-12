@@ -1,0 +1,10 @@
+{
+  "-name": "fAccountabilityTimeLines_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityTimeLines_statColumns_je"
+    }
+  }
+}

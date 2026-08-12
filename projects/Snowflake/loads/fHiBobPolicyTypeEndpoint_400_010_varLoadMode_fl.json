@@ -1,0 +1,15 @@
+{
+  "-name": "fHiBobPolicyTypeEndpoint_400_010_varLoadMode_fl",
+  "-type": "Csv",
+  "comment": {
+    "#cdata-section": "Loads file with Hi Bob Policy type endpoint data into Snowflake/Float directory on SFTP."
+  },
+  "connection": {
+    "-nameref": "cfHiBob_varHiBobEndpoint_fc"
+  },
+  "mode": "${vHiBobPolicyTypeLoad}",
+  "source": {
+    "-nameref": "xjHiBob_varPolicyTypes_je"
+  },
+  "useScientificNotation": "true"
+}

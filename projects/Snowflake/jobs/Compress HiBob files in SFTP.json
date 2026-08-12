@@ -1,0 +1,11 @@
+{
+  "-name": "Compress HiBob files in SFTP",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Compresses all the Hi Bob files except for Salaries endpoint that were loaded into the SFTP folder Snowflake/HiBob in the previous step."
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Compress HiBob files in SFTP.jobscript.groovy"
+  }
+}

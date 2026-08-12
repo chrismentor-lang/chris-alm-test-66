@@ -1,0 +1,13 @@
+{
+  "-name": "fRevenuePlanningEstimateRefresh_800_000_fxAdditionalColumns_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260630: Renamed fRevenuePlanningEstimateNoClienthead_800_000_fxAdditionalColumns_ft to fRevenuePlanningEstimateRefresh_800_000_fxAdditionalColumns_ft\n20260626: Introduced."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xcRevenuePlanning_statNoClientHead_ce"
+    }
+  }
+}

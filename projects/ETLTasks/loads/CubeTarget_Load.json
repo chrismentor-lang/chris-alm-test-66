@@ -1,0 +1,15 @@
+{
+  "-name": "CubeTarget_Load",
+  "-type": "Cube",
+  "connection": {
+    "-nameref": "OlapTarget"
+  },
+  "cube": {
+    "-cubeLayoutChangeMode": "noneWithDefaultWrite",
+    "-name": "${TargetCube}"
+  },
+  "mode": "update",
+  "source": {
+    "-nameref": "${_SourceRef}"
+  }
+}

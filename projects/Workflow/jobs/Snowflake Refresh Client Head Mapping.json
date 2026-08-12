@@ -1,0 +1,16 @@
+{
+  "-name": "Snowflake Refresh Client Head Mapping",
+  "-type": "ExternalJob",
+  "comment": {
+    "#cdata-section": "This job updates the client head mapping as retrieved from Jedox in Snowflake."
+  },
+  "execution": {
+    "-nameref": "Update Client Head Mapping",
+    "-type": "job"
+  },
+  "failStatus": "inherit",
+  "project": {
+    "#text": "Snowflake",
+    "-scope": "Global"
+  }
+}

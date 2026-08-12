@@ -1,0 +1,10 @@
+{
+  "-name": "New Metadata extract",
+  "-type": "Metadata",
+  "connection": {
+    "-nameref": "cjdRedshift_statCounta_jdc"
+  },
+  "query": {
+    "selector": "table"
+  }
+}

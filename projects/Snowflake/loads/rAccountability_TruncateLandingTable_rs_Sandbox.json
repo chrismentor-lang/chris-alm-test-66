@@ -1,0 +1,10 @@
+{
+  "-name": "rAccountability_TruncateLandingTable_rs_Sandbox",
+  "-type": "RelationalSQL",
+  "connection": {
+    "-nameref": "csfJedoxIntegrator_Global_sc"
+  },
+  "query": {
+    "#file": "rAccountability_TruncateLandingTable_rs_Sandbox.query.sql"
+  }
+}

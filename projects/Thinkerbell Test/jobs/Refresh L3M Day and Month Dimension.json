@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh L3M Day and Month Dimension",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "dDay_143_055_addL3M_dl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "dMonth_143_050_addL3M_dl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

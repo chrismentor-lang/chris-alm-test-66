@@ -1,0 +1,22 @@
+{
+  "-name": "dPLAccount_700_010_insAllPLAccounts_dl",
+  "-type": "Dimension",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-name": "PL Account",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "inactive"
+    },
+    "elements": {
+      "-mode": "inactive"
+    }
+  },
+  "source": {
+    "-nameref": "dPLAccount_700_000_attrName_pc"
+  }
+}

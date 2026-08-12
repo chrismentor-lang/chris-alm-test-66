@@ -1,0 +1,33 @@
+{
+  "-name": "RuleFiles_T2",
+  "-type": "FieldTransform",
+  "functions": {
+    "function": {
+      "-name": "Cube",
+      "-type": "Replace",
+      "inputs": {
+        "input": {
+          "-nameref": "Filename"
+        }
+      },
+      "parameters": {
+        "regexp": ".RULE.TXT"
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "RuleFiles_Extract"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": {
+        "-name": "Cube",
+        "input": {
+          "-nameref": "Cube"
+        }
+      }
+    }
+  }
+}

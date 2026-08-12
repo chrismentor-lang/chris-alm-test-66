@@ -1,0 +1,7 @@
+{
+  "-name": "vFileLoadMode",
+  "comment": {
+    "#cdata-section": "File Load Mode, variable set in groovy job (create or add)"
+  },
+  "default": "add"
+}

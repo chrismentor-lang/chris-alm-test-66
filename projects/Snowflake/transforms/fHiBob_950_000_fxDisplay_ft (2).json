@@ -1,0 +1,32 @@
+{
+  "-name": "fHiBob_950_000_fxDisplay_ft (2)",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "To display the current cursor value in logs for debugging"
+  },
+  "functions": {
+    "function": {
+      "-name": "fxDisplay",
+      "-type": "Groovy",
+      "inputs": {
+        "input": {
+          "-alias": "a",
+          "-nameref": "Cursor"
+        }
+      },
+      "parameters": {
+        "buffered": "true",
+        "nullDefaults": "false",
+        "script": {
+          "#file": "fHiBob_950_000_fxDisplay_ft (2).functions.function.parameters.script.groovy"
+        }
+      }
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xfHiBobLatestEmploymentCursor_stat_fe"
+    }
+  }
+}

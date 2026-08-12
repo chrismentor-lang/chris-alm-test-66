@@ -1,0 +1,16 @@
+{
+  "-name": "dEmployee_207_010_ascID_tv",
+  "-type": "TableView",
+  "cache": "false",
+  "sorter": {
+    "input": {
+      "-nameref": "Element",
+      "-order": "ascending"
+    }
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEmployee_207_000_fxBillableRateDummy_ft"
+    }
+  }
+}

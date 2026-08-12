@@ -1,0 +1,11 @@
+{
+  "-name": "Create Hi Bob Endpoint files daily",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "2026-08-10 : Commented out refreshing of policy_types as one record had '/' in it causing it to fail. We will not update the policy type table. Also removed endpoint from dimension"
+  },
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Create Hi Bob Endpoint files daily.jobscript.groovy"
+  }
+}

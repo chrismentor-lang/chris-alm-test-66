@@ -1,0 +1,10 @@
+{
+  "-name": "fAccountabilityTaskTypes_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityTaskTypes_statColumns_je"
+    }
+  }
+}

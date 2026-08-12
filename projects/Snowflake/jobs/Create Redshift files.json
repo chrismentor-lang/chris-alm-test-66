@@ -1,0 +1,6 @@
+{
+  "-name": "Create Redshift files",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": "API.executeLoad(\"fRedshift_500_000_statCreate_fl\");"
+}

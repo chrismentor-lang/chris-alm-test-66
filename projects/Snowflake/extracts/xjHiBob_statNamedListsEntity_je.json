@@ -1,0 +1,26 @@
+{
+  "-name": "xjHiBob_statNamedListsEntity_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crestHiBob_varNamedLists_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "name"
+      },
+      {
+        "-input": "values"
+      },
+      {
+        "-input": "items"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$[\"entity_list_1753317455056\"]"
+    }
+  }
+}

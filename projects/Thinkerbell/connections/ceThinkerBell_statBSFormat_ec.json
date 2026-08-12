@@ -1,0 +1,14 @@
+{
+  "-name": "ceThinkerBell_statBSFormat_ec",
+  "-type": "ExcelFile",
+  "comment": {
+    "#cdata-section": "20260225: Created"
+  },
+  "database": {
+    "#cdata-section": "//Thinkerbell/Thinkerbell/Dimensions/BS Account/Balance sheet format.xlsx"
+  },
+  "directory": "false",
+  "location": {
+    "-type": "JedoxFiles"
+  }
+}

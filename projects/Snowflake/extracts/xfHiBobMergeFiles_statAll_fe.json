@@ -1,0 +1,15 @@
+{
+  "-name": "xfHiBobMergeFiles_statAll_fe",
+  "-type": "Csv",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Merged json from multiple csv files for pages"
+  },
+  "connection": {
+    "-nameref": "cfHiBob_varHiBobMerged_fc"
+  },
+  "query": {
+    "#file": "xfHiBobMergeFiles_statAll_fe.query.sql",
+    "-serverSide": "false"
+  }
+}

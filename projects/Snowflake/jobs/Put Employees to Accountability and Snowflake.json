@@ -1,0 +1,17 @@
+{
+  "-name": "Put Employees to Accountability and Snowflake",
+  "-type": "Standard",
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "jPut_020_000_statUpdateEmployee_jl",
+        "-type": "load"
+      },
+      {
+        "-nameref": "sAccountability_020_000_varEmail_sl",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

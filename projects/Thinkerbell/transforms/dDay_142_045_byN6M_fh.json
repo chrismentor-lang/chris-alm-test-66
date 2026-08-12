@@ -1,0 +1,33 @@
+{
+  "-name": "dDay_142_045_byN6M_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "20260128 : Introduced"
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dMonth_142_030_sortMonth_tv"
+    }
+  },
+  "target": {
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Days N6M"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxConsolidatedN6M"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "fxBaseN6M"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "-name": "dDepartment_100_020_insAllDepartments_dl",
+  "-type": "Dimension",
+  "comment": "Loads the All Departments hierarchy to the Department dimension inserting elements, parallel insertion to facilitate for multiple hierarchies, and addition of attribute values.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "dimension": {
+    "-generateSubsets": "false",
+    "-name": "Department",
+    "attributes": {
+      "-mode": "add"
+    },
+    "consolidations": {
+      "-mode": "insertParallel"
+    },
+    "elements": {
+      "-mode": "insert"
+    }
+  },
+  "source": {
+    "-nameref": "dDepartment_100_010_attrName_fh"
+  }
+}

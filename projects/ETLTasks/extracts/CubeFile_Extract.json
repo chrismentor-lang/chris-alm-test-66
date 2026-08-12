@@ -1,0 +1,7 @@
+{
+  "-name": "CubeFile_Extract",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "CubeFile"
+  }
+}

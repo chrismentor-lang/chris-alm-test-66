@@ -1,0 +1,24 @@
+{
+  "-name": "xcFTE_statWeekend_cs",
+  "-type": "CubeSlice",
+  "comment": "Retrieves cube slice for the Weekend FTEs from the FTE cube.",
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "FTE"
+    },
+    "filter": {
+      "condition": {
+        "#text": "Weekend",
+        "-dimension": "Detail FTE",
+        "-mode": "onlyBases",
+        "-operator": "equal",
+        "-type": "accept"
+      }
+    }
+  }
+}

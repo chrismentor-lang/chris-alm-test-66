@@ -1,0 +1,14 @@
+{
+  "-name": "Revenue Planning Copy Estimate to FC",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "Job that is kicked off by the user in the RVP6 report via the Copy Estimate to Forecast on Demand job in the Workflow project. Simply copies the Estimate from the Revenue Planning cube to the required forecast.\n\n20260623: Removed cClientHead_272_000_copyEstimateToFC_sl  from the first slot as it's not used anymore.\n20260623: Load cClientHead_272_000_copyEstimateToFC_sl probably needs to be removed because the cube is not in use anymore."
+  },
+  "executions": {
+    "execution": {
+      "-nameref": "cRevenuePlanning_608_000_copyEstimateToFC_sl",
+      "-type": "load"
+    }
+  },
+  "failStatus": "inherit"
+}

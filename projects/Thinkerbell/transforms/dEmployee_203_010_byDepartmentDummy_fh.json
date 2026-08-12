@@ -1,0 +1,130 @@
+{
+  "-name": "dEmployee_203_010_byDepartmentDummy_fh",
+  "-type": "TreeFH",
+  "comment": {
+    "#cdata-section": "Initiates the dummy task type number on the fourth level of the All Employees (By Department) hierarchy for the Employee dimension and populates the attributes Name, ID_Name, Task Type ID, Task Type Department ID, and Active for different levels.\n\n20260702: Removed the static Active true attribute at the EMPLOYEE_ID level."
+  },
+  "sources": {
+    "source": {
+      "-nameref": "dEmployee_203_000_ascIDDummy_tv"
+    }
+  },
+  "target": {
+    "attributes": {
+      "attribute": [
+        {
+          "-name": "Name",
+          "-type": "string"
+        },
+        {
+          "-name": "ID_Name"
+        },
+        {
+          "-name": "Task Type ID"
+        },
+        {
+          "-name": "Task Type Department ID"
+        },
+        {
+          "-name": "Active"
+        }
+      ]
+    },
+    "levels": {
+      "level": [
+        {
+          "input": {
+            "-constant": "All Employees (By Department)"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "DEPARTMENT_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "DEPARTMENT_ID_NAME"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "DEPARTMENT_ACTIVE"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "DEPARTMENT_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Name",
+                "input": {
+                  "-nameref": "TASK_TYPE_NAME"
+                }
+              },
+              {
+                "-name": "ID_Name",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_NAME"
+                }
+              },
+              {
+                "-name": "Task Type ID",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Active",
+                "input": {
+                  "-nameref": "TASK_TYPE_ACTIVE"
+                }
+              },
+              {
+                "-name": "Task Type Department ID",
+                "input": {
+                  "-nameref": "DEPARTMENT_ID_ATTR"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "TASK_TYPE_ID"
+          }
+        },
+        {
+          "attributes": {
+            "attribute": [
+              {
+                "-name": "Task Type ID",
+                "input": {
+                  "-nameref": "TASK_TYPE_ID_ATTR"
+                }
+              },
+              {
+                "-name": "Task Type Department ID",
+                "input": {
+                  "-nameref": "DEPARTMENT_ID_ATTR"
+                }
+              }
+            ]
+          },
+          "input": {
+            "-nameref": "EMPLOYEE_ID"
+          }
+        }
+      ]
+    }
+  }
+}

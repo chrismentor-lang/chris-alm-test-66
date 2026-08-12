@@ -1,0 +1,42 @@
+{
+  "-name": "cFTE_statLeave_cs",
+  "-type": "CubeSlice",
+  "comment": {
+    "#cdata-section": "20260806: Introduced."
+  },
+  "connection": {
+    "-nameref": "cgLocal_statThinkerbell_jc"
+  },
+  "query": {
+    "-mode": "exclude",
+    "-randomPaths": "false",
+    "cube": {
+      "-name": "FTE"
+    },
+    "filter": {
+      "condition": [
+        {
+          "#cdata-section": "Leave",
+          "-dimension": "Detail FTE",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Plan",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        },
+        {
+          "#cdata-section": "Actual",
+          "-dimension": "Version",
+          "-mode": "onlyBases",
+          "-operator": "equal",
+          "-type": "accept"
+        }
+      ]
+    }
+  }
+}

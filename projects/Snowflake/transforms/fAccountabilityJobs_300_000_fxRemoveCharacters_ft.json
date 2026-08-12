@@ -1,0 +1,274 @@
+{
+  "-name": "fAccountabilityJobs_300_000_fxRemoveCharacters_ft",
+  "-type": "FieldTransform",
+  "cache": "false",
+  "functions": {
+    "function": [
+      {
+        "-name": "fxNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "notes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityJobs_300_000_fxRemoveCharacters_ft.functions.function.1.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxDescription",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "DESC",
+            "-nameref": "description"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityJobs_300_000_fxRemoveCharacters_ft.functions.function.2.parameters.script.groovy"
+          }
+        }
+      },
+      {
+        "-name": "fxWipNotes",
+        "-type": "Groovy",
+        "inputs": {
+          "input": {
+            "-alias": "NOT",
+            "-nameref": "wipNotes"
+          }
+        },
+        "parameters": {
+          "buffered": "true",
+          "nullDefaults": "false",
+          "script": {
+            "#file": "fAccountabilityJobs_300_000_fxRemoveCharacters_ft.functions.function.3.parameters.script.groovy"
+          }
+        }
+      }
+    ]
+  },
+  "sources": {
+    "source": {
+      "-nameref": "xjAccountabilityJobs_statColumns_je"
+    }
+  },
+  "target": {
+    "coordinates": {
+      "coordinate": [
+        {
+          "input": {
+            "-nameref": "active"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "addedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "agencyDeadline"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "billable"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "budget"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "campaignId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientName"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "clientOrderNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "closeDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "currencyId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode1Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode2Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode3Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode4Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "customCode5Id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "departmentId"
+          }
+        },
+        {
+          "-name": "description",
+          "input": {
+            "-nameref": "fxDescription"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "estimateContactId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "firstExpenseDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "id"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "invoiceContactId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jobManagerId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jobNumber"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "jobTypeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastExpenseDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedAt"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "lastUpdatedByEmployeeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "masterJobId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "materialDeadline"
+          }
+        },
+        {
+          "-name": "notes",
+          "input": {
+            "-nameref": "fxNotes"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "officeId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "openDate"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "passFxGainsLossesToClient"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "productId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "productionManagerId"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "serviceFeePercentage"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "sizeOrDuration"
+          }
+        },
+        {
+          "input": {
+            "-nameref": "supplierInvoiceMarkUpPercentage"
+          }
+        },
+        {
+          "-name": "wipNotes",
+          "input": {
+            "-nameref": "fxWipNotes"
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "-name": "vEstimate",
+  "comment": {
+    "#cdata-section": "20260723: Introduced to make sure that we can loop through the estimates that need to be cleared in the slice estimate in Jedox."
+  }
+}

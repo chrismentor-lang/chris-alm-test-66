@@ -1,0 +1,13 @@
+{
+  "-name": "xeBSBalance_defAll_ee",
+  "-type": "Excel",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "20260225: Created"
+  },
+  "connection": {
+    "-nameref": "ceThinkerBell_statBSFormat_ec"
+  },
+  "firstRowType": "false",
+  "header": "true"
+}

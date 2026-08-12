@@ -1,0 +1,10 @@
+{
+  "-name": "CreateOlap",
+  "-type": "Groovy",
+  "comment": {
+    "#cdata-section": "Creates a complete Olap Model from a csv-File which contains the fact table: The elements in the first columns, the cube value in the last. All dimensions are created flat with a root element.\nVariables: FilePath,FileName, PaloTargetConn, PaloTargetDB, Cube"
+  },
+  "jobscript": {
+    "#file": "CreateOlap.jobscript.groovy"
+  }
+}

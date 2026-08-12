@@ -1,0 +1,41 @@
+{
+  "-name": "xjAccountabilityProbabilities_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "connection": {
+    "-nameref": "crAccountabilityProbabilities_varAccessToken_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "active"
+      },
+      {
+        "-input": "description"
+      },
+      {
+        "-input": "id"
+      },
+      {
+        "-input": "isDefault"
+      },
+      {
+        "-input": "lastUpdatedAt"
+      },
+      {
+        "-input": "lastUpdatedByEmployeeId"
+      },
+      {
+        "-input": "percentage"
+      },
+      {
+        "-input": "sortOrder"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$.data"
+    }
+  }
+}

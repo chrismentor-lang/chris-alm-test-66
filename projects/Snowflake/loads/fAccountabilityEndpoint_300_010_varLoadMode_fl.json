@@ -1,0 +1,12 @@
+{
+  "-name": "fAccountabilityEndpoint_300_010_varLoadMode_fl",
+  "-type": "Csv",
+  "connection": {
+    "-nameref": "cfAccountability_varAccountabilityEndpoint_fc"
+  },
+  "mode": "${vFileLoadMode}",
+  "source": {
+    "-nameref": "fAccountability${vAccountabilityEndpoint}_300_000_fxRemoveCharacters_ft"
+  },
+  "useScientificNotation": "true"
+}

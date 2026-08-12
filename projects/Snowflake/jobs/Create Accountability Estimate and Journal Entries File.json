@@ -1,0 +1,8 @@
+{
+  "-name": "Create Accountability Estimate and Journal Entries File",
+  "-type": "Groovy",
+  "failStatus": "inherit",
+  "jobscript": {
+    "#file": "Create Accountability Estimate and Journal Entries File.jobscript.groovy"
+  }
+}

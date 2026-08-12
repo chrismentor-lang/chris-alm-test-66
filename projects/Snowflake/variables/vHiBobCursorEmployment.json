@@ -1,0 +1,9 @@
+{
+  "-name": "vHiBobCursorEmployment",
+  "comment": {
+    "#cdata-section": "Used to fetch the value of cursor"
+  },
+  "script": {
+    "#file": "vHiBobCursorEmployment.script.groovy"
+  }
+}

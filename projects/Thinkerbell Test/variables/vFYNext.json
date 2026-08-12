@@ -1,0 +1,9 @@
+{
+  "-name": "vFYNext",
+  "comment": {
+    "#cdata-section": "20260701: Introduced to make sure that we always have the variable set to the current financial year."
+  },
+  "script": {
+    "#file": "vFYNext.script.groovy"
+  }
+}

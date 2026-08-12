@@ -1,0 +1,15 @@
+{
+  "-name": "xfAccountabilityJournalEntries_statAll_fe",
+  "-type": "Csv",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "xfAccountabilityJournals_statAll_fe\nSelect Distinct \"id\" FROM \"cfAccountabilityJournals_varFileDate_fc\"\n\n\nSELECT LISTAGG(DISTINCT \"id\", ',') \n       WITHIN GROUP (ORDER BY \"id\") AS ids\nFROM \"cfAccountabilityJournals_varFileDate_fc\";"
+  },
+  "connection": {
+    "-nameref": "cfAccountabilityJournals_varFileDate_fc"
+  },
+  "query": {
+    "#file": "xfAccountabilityJournalEntries_statAll_fe.query.sql",
+    "-serverSide": "false"
+  }
+}

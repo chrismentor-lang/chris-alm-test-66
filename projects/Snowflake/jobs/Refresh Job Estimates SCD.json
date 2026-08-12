@@ -1,0 +1,20 @@
+{
+  "-name": "Refresh Job Estimates SCD",
+  "-type": "Standard",
+  "comment": {
+    "#cdata-section": "This job updates the tables JOB_ESTIMATES and JOB_ESTIMATES_SCD in the DATAWAREHOUSE database in Snowflake."
+  },
+  "executions": {
+    "execution": [
+      {
+        "-nameref": "rJobEstimates_InsertIntoDatawarehouse_rs",
+        "-type": "load"
+      },
+      {
+        "-nameref": "rJobEstimatesSCD_InsertIntoDatawarehouse_rs",
+        "-type": "load"
+      }
+    ]
+  },
+  "failStatus": "inherit"
+}

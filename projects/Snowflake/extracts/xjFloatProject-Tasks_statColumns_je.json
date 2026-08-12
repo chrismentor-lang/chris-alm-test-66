@@ -1,0 +1,50 @@
+{
+  "-name": "xjFloatProject-Tasks_statColumns_je",
+  "-type": "Json",
+  "cache": "false",
+  "comment": {
+    "#cdata-section": "Retrieving all tasks linked to a projects and their details from Float.\n\nUsed in Load fFloatEndpoint_000_000_varLoadMode_fl using the variable vFloatEndpoint"
+  },
+  "connection": {
+    "-nameref": "crFloatProject-Tasks_varFloatTokenPage_rc"
+  },
+  "outputs": {
+    "output": [
+      {
+        "-input": "billable"
+      },
+      {
+        "-input": "budget"
+      },
+      {
+        "-input": "count_logged_time"
+      },
+      {
+        "-input": "count_tasks"
+      },
+      {
+        "-input": "created"
+      },
+      {
+        "-input": "modified"
+      },
+      {
+        "-input": "phase_id"
+      },
+      {
+        "-input": "project_id"
+      },
+      {
+        "-input": "task_meta_id"
+      },
+      {
+        "-input": "task_name"
+      }
+    ]
+  },
+  "query": {
+    "loopElements": {
+      "loopElement": "$"
+    }
+  }
+}
