@@ -1,0 +1,13 @@
+{
+  "name": "Employee",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "DefaultParentElement": "~",
+    "DefaultReadElement": "~",
+    "Description": "Purpose: List All Employees\nPrimary Data Source: Accountability, Snowflake Consumption DB\n\n20260212: Updated the Roll up to All>Offices>Departments>Task Type> Employee\n20260128: All> Departments > Task Type > Employee\n20260116: Introduced, Creation Timestamp is automatically updated using an SVS Script",
+    "NAElement": "~",
+    "Name": "Employee",
+    "TotalElement": "~"
+  }
+}

@@ -1,0 +1,28 @@
+### rule
+{"active":true,"comment":"LOG||Planning Versions, Months||Actuals\n\n20260322: Introduced","position":1,"template":{"name":"Actual months","parameters":{"Time dimension":"Month","Version dimension":"Version","Version dimension attribute":"Actual Months"}}}
+['${VersionDimension}':'${Version}','Month':{${Elements}}] = ['Version':'Actual']
+### rule
+{"active":true,"comment":"REF||Current Year Earnings||Movement||Ref: P&L\n\n20260302: Introduced","position":2}
+['Transaction Type':'Movement', 'Measure':'Input', 'BS Account':'Current Year Earnings', 'Currency':{'AUD', 'NZD'}] = B:IF(!'Month' >= "2017-07", -1 * 'Profit & Loss'['Department':'All Departments', 'PL Account':'NPBT', 'Measure':'Input'], STET())
+### rule
+{"active":true,"comment":"LOG||Current Year Earnings||Opening\n\n20260302: Introduced","position":3}
+['Transaction Type':'Opening', 'Measure':'Input', 'BS Account':'Current Year Earnings', 'Currency':{'AUD', 'NZD'}] = B:IF(!'Month' >= "2017-07", IF((RIGHT(!'Month',2)=="07"),0,CONTINUE()), STET())
+### rule
+{"active":true,"comment":"CAL||30010(Retained Earnings)||Opening\n\n20260302: Introduced","position":4}
+['Transaction Type':'Opening', 'Measure':'Input', 'BS Account':'30010', 'Currency':{'AUD', 'NZD'}] = B:IF(!'Month' > "2017-07", IF((RIGHT(!'Month', 2) == "07"), 'Balance Sheet'['Transaction Type':'Closing', 'BS Account':'Current Year Earnings', 'Month':'#_Month'['#_Month_':'PreviousMonth', '#_LANGUAGE':'~']]+'Balance Sheet'['Transaction Type':'Closing', 'BS Account':'30010', 'Month':'#_Month'['#_Month_':'PreviousMonth', '#_LANGUAGE':'~']], CONTINUE()), STET())
+### rule
+{"active":true,"comment":"LOG||Opening||Input\n\n20260130: Introduced","position":5}
+['Transaction Type':'Opening', 'Measure':'Input', 'Currency':{'AUD', 'NZD'}] = B:IF(AND(!'Month' > "2017-07", RIGHT(!'Month', 1) != "~"), ''['Month':'#_Month'['#_Month_':'PreviousMonth', '#_LANGUAGE':'~'], 'Transaction Type':'Closing'], STET())
+### rule
+{"active":true,"comment":"FX||Input, Adjustment||Month End\n\n20260130: Introduced","position":6,"template":{"name":"Dimension element like","parameters":{"Dimension":"Currency","Pattern":"^([A-Z]{3}) > ([A-Z]{3})$"}}}
+['Currency':'${Element}','Measure':{'Input','Adjustment'}] = B:
+    // Divide the input currency by the exchange rate
+    ['Currency':'${Group1}'] *
+    PALO.DATA("", "FX", 
+        !'Version', 
+        !'Month', 
+        "Month End", 
+        "${Group1}", 
+        "${Group2}", 
+        "Input"
+    )

@@ -1,0 +1,9 @@
+{
+  "name": "HR Detail",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "20260408: Introduced for drafting HR details.",
+    "Name": "HR Detail"
+  }
+}

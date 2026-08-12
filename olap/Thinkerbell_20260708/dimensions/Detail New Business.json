@@ -1,0 +1,9 @@
+{
+  "name": "Detail New Business",
+  "kind": "normal",
+  "properties": {
+    "Audit": "365",
+    "Description": "20260401: Introduced to be able to register descriptions for each added New Business line (which can change over time).",
+    "Name": "Detail New Business"
+  }
+}
