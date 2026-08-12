@@ -1,5 +1,5 @@
 {
-  "-name": "NewName",
+  "-name": "originalVar",
   "comment": {
     "#cdata-section": "a new variable - with a comment"
   }
