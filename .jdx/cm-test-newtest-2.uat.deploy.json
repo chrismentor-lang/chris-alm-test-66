@@ -4,62 +4,63 @@
   "env": "uat",
   "host": "https://poc-minerva.cloud.jedox.com/",
   "name": "cm-test-newtest-2",
-  "ms": 156,
-  "when": "2026-08-11T23:32:27Z",
+  "created": true,
+  "ms": 44,
+  "when": "2026-08-12T00:27:46Z",
   "components": {
     "cm-test-newtest-2.connections.New CSV Connection (5)": {
       "hash": "sha256:e04bb1bd15ab1473a585e6400e11320f9c28e6c533323e7febcb2853a1392ea7",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.connections.New CSV Connection (6)": {
       "hash": "sha256:92c4c54c19729e718cf32ddcd8e1a88bff1e7a159c0dcb73b487a2d4751fec57",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.connections.New CSV Connection (7)": {
       "hash": "sha256:779876ba6d9f643af4c85a431a867ba0174e74f1f10ac33597357dde0533729a",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.connections.New CSV connection": {
       "hash": "sha256:230c563b434c7681471933262de69d7fb11e566202c81491b4ac53ae485e89b4",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.connections.New CSV connection (2)": {
       "hash": "sha256:d1c7062416998d09fd6f7101aecbbb36b36b4d3814e34db7c2c1568308049cd4",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.connections.New CSV connection (3)": {
       "hash": "sha256:778713f5d9b7f0b327356de2a112e028febb6bffa0ad24e158d17e8325488eeb",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.connections.New CSV connection (4)": {
       "hash": "sha256:0aa76772f4d238a1f2d14d402eba84ecf7718850627e739977070226f8df56e3",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.connections.New CSV connection (8)": {
       "hash": "sha256:11edb54bf633215f152958c3dec0057c5714ffdb2500a8977ddb121d93171fa2",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.connections.New CSV connection (9)": {
       "hash": "sha256:c33f40f1b3c37d2298436b7e323cd12207008cbe5617b544832958f06135b8ff",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.jobs.New Groovy job": {
       "hash": "sha256:5ce44d55ec020f78da36b7910d8aae6cb60420f78473a7ea47b317d462006dc5",
-      "modified": 1786491018440,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     },
     "cm-test-newtest-2.variables.blah3": {
       "hash": "sha256:b0ab81e74e777fbe3ecff5931f560c583f4618f70b1c6f4e89b34ec7153a7223",
-      "modified": 1786491152209,
+      "modified": 1786494472901,
       "modifiedBy": "chris"
     }
   },
