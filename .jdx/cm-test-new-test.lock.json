@@ -1,0 +1,69 @@
+{
+  "components": {
+    "cm-test-new-test.connections.New CSV Connection (5)": {
+      "hash": "sha256:3018f1d49ba709f2b7a86fea5c1a6f6c19d769fa14ea764cc470fdef33fe0b56",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.connections.New CSV Connection (6)": {
+      "hash": "sha256:e0d96c065c1dd263d123e1b6bb1c481a6b66f056913376f79598d7208388922a",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.connections.New CSV Connection (7)": {
+      "hash": "sha256:4c3b66785f4e833e32bbcc3001785839403925eb536876b273303e1fb250ce00",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.connections.New CSV connection": {
+      "hash": "sha256:7e37d78e6b5d79b05cccc9919a73f29efdb548440b123431c9e162683683ecd1",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.connections.New CSV connection (2)": {
+      "hash": "sha256:b2d563edf5b613204de62669c301c9e8915dc428d7c3b10c53050822a9649894",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.connections.New CSV connection (3)": {
+      "hash": "sha256:379a22b2b0f61542d75643e5e40768f07508377795e474f55b780b50b00613bd",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.connections.New CSV connection (4)": {
+      "hash": "sha256:59b8c1878835dac498b88e87fa9323d1a28c5aa57282f3503d302b80b783691a",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.connections.New CSV connection (8)": {
+      "hash": "sha256:b0df0dfaf015287f351597c03ff0bb9650420b4792fab9619a437e6e2abe61e7",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.connections.New CSV connection (9)": {
+      "hash": "sha256:3a3569db81593b86d4e8bd5d47e8a44eb5c7aada9898f4bbe92c794507b17dbb",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.jobs.New Groovy job": {
+      "hash": "sha256:6be03dbae918f9bb7fadcf57d642567617f51caa1b92210cc33c3bff047d8a9f",
+      "modified": 1786487863561
+    },
+    "cm-test-new-test.variables.New variable": {
+      "hash": "sha256:3cc98123ee82e0a6b00968919a62a9a932bc767b1e7e241c141956ff9e475a3d",
+      "modified": 1786488154597
+    },
+    "cm-test-new-test.variables.nblah": {
+      "hash": "sha256:19dcb09dd3f58ad7bed1d85c6c1fcdbde2ad4b86a039c1381a044dd06f888693",
+      "modified": 1786488077067
+    },
+    "cm-test-new-test.variables.newVar": {
+      "hash": "sha256:7c0cff255601ac9779b8dfcf7368188c2da64cf7fcf003f4df01f6de7ff540a0",
+      "modified": 1786488154631
+    },
+    "cm-test-new-test.variables.newVar2": {
+      "hash": "sha256:4d2752236f55e6f1efc2222fb96e645b81b308eef36cbfb4596b32d7abc60c6c",
+      "modified": 1786488154665
+    }
+  },
+  "hash": "sha256:b4d5a4b85f32622e6ad9107c93b0cdde8f7e01c899720996fd7bd060d731eab4",
+  "modified": 1786488154665,
+  "project": "cm-test-new-test",
+  "source": {
+    "at": "2026-08-12T02:26:52Z",
+    "env": "uat",
+    "host": "https://poc-minerva.cloud.jedox.com/"
+  },
+  "version": "26.1"
+}
