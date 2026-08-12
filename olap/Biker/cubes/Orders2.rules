@@ -1,0 +1,9 @@
+### rule
+{"active":false,"comment":"Activate for usage in \"\"Roadshow\" application","position":1}
+['Price','Budget','2014'] = B:['Sales','Actual','2013'] / ['Units','Actual','2013']
+### rule
+{"active":false,"comment":"Activate for usage in \"\"Roadshow\" application","position":2}
+['Units','Budget','2014'] = B:['Sales','Budget','2014'] / ['Price','Budget','2014']
+### rule
+{"active":false,"comment":"Activate for usage in \"\"Roadshow\" application","position":3}
+['Sales','Bud. rev.','2014'] = B:['Units','Bud. rev.','2014'] * ['Price','Budget','2014']

@@ -1,0 +1,24 @@
+{
+  "excludes": [
+    "elements",
+    "attribute-values"
+  ],
+  "properties": {
+    "DatabaseName": "Biker",
+    "DefaultRight": "D",
+    "HideCubes": "N",
+    "HideElements": "Y",
+    "MDXMeasure_Balance": "Balance_Sheet",
+    "MDXMeasure_Comment": "Comment",
+    "MDXMeasure_Orders": "Measures",
+    "MDXMeasure_Orders2": "Measures",
+    "MDXMeasure_P_L": "Profit_Loss",
+    "MDXMeasure_Status": "Status",
+    "MDXTime_Balance": "Years",
+    "MDXTime_Comment": "Years",
+    "MDXTime_Orders": "Years",
+    "MDXTime_Orders2": "Years",
+    "MDXTime_P_L": "Years",
+    "MDXTime_Status": "Years"
+  }
+}
