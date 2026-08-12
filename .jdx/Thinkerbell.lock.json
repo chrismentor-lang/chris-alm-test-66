@@ -2,1748 +2,1399 @@
   "components": {
     "Thinkerbell.connections.ceThinkerBell_statBSFormat_ec": {
       "hash": "sha256:6b9baca1518b615993e6e778459c80eaacd3f888cc8f16f8c7121b6ad0fce590",
-      "modified": 1771978513790,
-      "modifiedBy": "admin"
+      "modified": 1771978513790
     },
     "Thinkerbell.connections.cgLocal_statThinkerbell_jc": {
       "hash": "sha256:7ccb8267a6b8839075a7dac16caa0778c7c213617c69dcc82e1d996130df62fa",
-      "modified": 1781249616734,
-      "modifiedBy": "admin"
+      "modified": 1781249616734
     },
     "Thinkerbell.connections.cgLocal_statThinkerbell_jc (Old)": {
       "hash": "sha256:d3cd3a4c1691916c007da64452dbd9f9f644346a985349c9c691e85bf9928f37",
-      "modified": 1781248252507,
-      "modifiedBy": "admin"
+      "modified": 1781248252507
     },
     "Thinkerbell.connections.csfJedoxIntegrator_Global_sc": {
       "hash": "sha256:cbedc75d56bab2059222eabcfcc0f5d327b9f3017a57cc877d26dfc114f88a4b",
-      "modified": 1780135882868,
-      "modifiedBy": "admin"
+      "modified": 1780135882868
     },
     "Thinkerbell.extracts.cFTE_statLeave_cs": {
       "hash": "sha256:4f0e4bad26e114fe49700bfda93bc6ec34c3ad34f9e1d935edd6824b12e085b0",
-      "modified": 1786005053353,
-      "modifiedBy": "admin"
+      "modified": 1786005053353
     },
     "Thinkerbell.extracts.xcBS_varVersion_cs": {
       "hash": "sha256:ccbc5a418a0812b0f4f68c1a7f820b49d160153e4095649c64aa0ad9b58d70f3",
-      "modified": 1781249614727,
-      "modifiedBy": "admin"
+      "modified": 1781249614727
     },
     "Thinkerbell.extracts.xcBillableRate_varMonthDayVersion_se": {
       "hash": "sha256:c6a9d78b3a96352622a1823e4824cb2889ec7d2746cb3415c857b515af038ddf",
-      "modified": 1781249615803,
-      "modifiedBy": "admin"
+      "modified": 1781249615803
     },
     "Thinkerbell.extracts.xcClientHeadMapping_statClientHeadLoaded_cs": {
       "hash": "sha256:3fa06d500314c58ca017c227e32b0838ba060713a800c5a43a2ad9ab75ba74c4",
-      "modified": 1781249614500,
-      "modifiedBy": "admin"
+      "modified": 1781249614500
     },
     "Thinkerbell.extracts.xcClientHeadTargets_varMonth_cs": {
       "hash": "sha256:6b98c9cc6df195cea0b9d487a22ae96637cae04347960ac2f87e821a6fb8ebd9",
-      "modified": 1786060391207,
-      "modifiedBy": "admin"
+      "modified": 1786060391207
     },
     "Thinkerbell.extracts.xcClientHead_statClientHeadLoaded_cs": {
       "hash": "sha256:31852f41f5bc9bfb1d449397d70ef9e71924a8be1470b9e8719e1b63abd0d5a9",
-      "modified": 1781249613685,
-      "modifiedBy": "admin"
+      "modified": 1781249613685
     },
     "Thinkerbell.extracts.xcCostRate_varDayVersion_cs": {
       "hash": "sha256:a903a92387cebe271d4d76e157ba93556dec9ad90edd1409e57500a0258d7aea",
-      "modified": 1781249615537,
-      "modifiedBy": "admin"
+      "modified": 1781249615537
     },
     "Thinkerbell.extracts.xcFTE_statBenchmark_cs": {
       "hash": "sha256:ac7a856bf1b8621f1029fd466757e39a92f981878ad89acf5e60cf60d35ae029",
-      "modified": 1781249614366,
-      "modifiedBy": "admin"
+      "modified": 1781249614366
     },
     "Thinkerbell.extracts.xcFTE_statPublicHoliday_cs": {
       "hash": "sha256:57a701cca027fe2502ae33ae60c5ca2c6109eb2673304c4e6005113b1924a32d",
-      "modified": 1781249615687,
-      "modifiedBy": "admin"
+      "modified": 1781249615687
     },
     "Thinkerbell.extracts.xcFTE_statWeekend_cs": {
       "hash": "sha256:1e6f6d509e64c07ab6134922c8a90ef4e57b59b2a754db8e040927ccdf75ea00",
-      "modified": 1781249614254,
-      "modifiedBy": "admin"
+      "modified": 1781249614254
     },
     "Thinkerbell.extracts.xcFX_varMonthActual_cs": {
       "hash": "sha256:7ee785e747de16a17c21e7c4a8d0c4a0d61be272a716db74fc2073a1778b1290",
-      "modified": 1781249613544,
-      "modifiedBy": "admin"
+      "modified": 1781249613544
     },
     "Thinkerbell.extracts.xcPL_varVersion_cs": {
       "hash": "sha256:9a9f37ff157532340c4f30fdce04fe21f59b5daf66432fd6f465f43261c56f9a",
-      "modified": 1781249615341,
-      "modifiedBy": "admin"
+      "modified": 1781249615341
     },
     "Thinkerbell.extracts.xcResourcePlanning_statActualInput_cs": {
       "hash": "sha256:84e131ec16ce747f0cb0aab12d4b8014b8b066275315846cdcd806951f9aead9",
-      "modified": 1781249615722,
-      "modifiedBy": "admin"
+      "modified": 1781249615722
     },
     "Thinkerbell.extracts.xcResourcePlanning_statEstimateInput_cs": {
       "hash": "sha256:873c8484871bce68edf8ddb238af0fbd6aad7a1eb7d67526c0db0bb759437ef7",
-      "modified": 1781249613463,
-      "modifiedBy": "admin"
+      "modified": 1781249613463
     },
     "Thinkerbell.extracts.xcResourcePlanning_statJobActive_cs": {
       "hash": "sha256:9a278c7a50c73f7e32987b8750e084de45c5cd1c34c9dbc9ee0017f83ac2e212",
-      "modified": 1781249614756,
-      "modifiedBy": "admin"
+      "modified": 1781249614756
     },
     "Thinkerbell.extracts.xcResourcePlanning_statPlanInput_cs": {
       "hash": "sha256:2b93b1ee7e975afb8cfea0a545c4ca5852c1d02423fa56b68990538170856d5d",
-      "modified": 1781249616124,
-      "modifiedBy": "admin"
+      "modified": 1781249616124
     },
     "Thinkerbell.extracts.xcRevenuePlanning_statActualBilling_cs": {
       "hash": "sha256:ad4ca115f6f7a10d6c57c9334b6e6e93f65dffae045c51a1124a54cbc2229fc4",
-      "modified": 1782526982913,
-      "modifiedBy": "admin"
+      "modified": 1782526982913
     },
     "Thinkerbell.extracts.xcRevenuePlanning_statDummyClientHead_ce": {
       "hash": "sha256:0ffeb8278d41d831b4ef7f58c66e01b2e29b79f1ed2a439ae79594280f431e6a",
-      "modified": 1781249614029,
-      "modifiedBy": "admin"
+      "modified": 1781249614029
     },
     "Thinkerbell.extracts.xcRevenuePlanning_statEstimateRevenueOnDemand_cs": {
       "hash": "sha256:0c4c5cdbf0106cbaed3faee70d923d19a4e1518aca7a68a4c9fb750adefaa6ad",
-      "modified": 1781249615499,
-      "modifiedBy": "admin"
+      "modified": 1781249615499
     },
     "Thinkerbell.extracts.xcRevenuePlanning_statEstimatedAdjustment_cs": {
       "hash": "sha256:bd17dd55dfd132612e54a1f8d12d9f1e7c9c322be0f67fd1942a25e036ed8fe9",
-      "modified": 1783921528564,
-      "modifiedBy": "admin"
+      "modified": 1783921528564
     },
     "Thinkerbell.extracts.xcRevenuePlanning_statEstimatedRevenueDaily_cs": {
       "hash": "sha256:54ff162c3be74e12c8a2523310447e152214623bb685231ce5427d077740bb49",
-      "modified": 1782528214637,
-      "modifiedBy": "admin"
+      "modified": 1782528214637
     },
     "Thinkerbell.extracts.xcRevenuePlanning_varEstimate_cs": {
       "hash": "sha256:f5730864c0c7b6624731619067e2896b9867545fd3bcd13e5ed72c9b03f20227",
-      "modified": 1784784006485,
-      "modifiedBy": "admin"
+      "modified": 1784784006485
     },
     "Thinkerbell.extracts.xcRevenuePlanning_varFYCurrentFYNext_cs": {
       "hash": "sha256:82ad0449e6c71f62482854d767b7abefc9ae24e7e0dce4a8e94948a206421d90",
-      "modified": 1782905510309,
-      "modifiedBy": "admin"
+      "modified": 1782905510309
     },
     "Thinkerbell.extracts.xcRevenuePlanning_varFYEstimate_ce": {
       "hash": "sha256:d8090f998e9f81ba0a7275b803169fe2146e7bc37369af229403e4d0d36b98dd",
-      "modified": 1783921473732,
-      "modifiedBy": "admin"
+      "modified": 1783921473732
     },
     "Thinkerbell.extracts.xcRevenuePlanning_varMonthActualRevenue_cs": {
       "hash": "sha256:82455ef75f0d53b15d38ee35875bdf81cb0b6ff5b5428fb46c08a781ca3d248b",
-      "modified": 1782527329136,
-      "modifiedBy": "admin"
+      "modified": 1782527329136
     },
     "Thinkerbell.extracts.xdEstimate_statAllEstimateBases_de": {
       "hash": "sha256:cfea5f791bcb83471d434fd84582ec23c03296d50435248510a970ec378cb776",
-      "modified": 1781249616612,
-      "modifiedBy": "admin"
+      "modified": 1781249616612
     },
     "Thinkerbell.extracts.xdJob_statAllJobs_de": {
       "hash": "sha256:69a39f9cff0a6a9fda109a4bb83ed65632054577ae4a76eaefcbb2dc4c0dc3d0",
-      "modified": 1781249616476,
-      "modifiedBy": "admin"
+      "modified": 1781249616476
     },
     "Thinkerbell.extracts.xdMonth_statAllMonths_de": {
       "hash": "sha256:6d27508a52a9d37f5f6e4000b3b337f57c8e6090277f8b7819b60ee554779a40",
-      "modified": 1781249613721,
-      "modifiedBy": "admin"
+      "modified": 1781249613721
     },
     "Thinkerbell.extracts.xeBSBalance_defAll_ee": {
       "hash": "sha256:d01229a04e60c7895644637d717cfc73c6670caaf611b8f8e5a258e6d1ffa380",
-      "modified": 1771978739054,
-      "modifiedBy": "admin"
+      "modified": 1771978739054
     },
     "Thinkerbell.extracts.xnMonth_countL3M_ne": {
       "hash": "sha256:7b47c9e0f99bc08ddc1c5ea14b7b63f80acc24ed430b6416f677c548a089b811",
-      "modified": 1775797556425,
-      "modifiedBy": "admin"
+      "modified": 1775797556425
     },
     "Thinkerbell.extracts.xnMonth_countN3M_ne": {
       "hash": "sha256:3a6199da37cd4b12bc55b5c36516360fcd781bdfa897e0085f82cd1655628eba",
-      "modified": 1775797086758,
-      "modifiedBy": "admin"
+      "modified": 1775797086758
     },
     "Thinkerbell.extracts.xnMonth_countN6M_ne": {
       "hash": "sha256:95ad34d2eff209139e671103ea1c460c1a218e6be2f4e27fe0cbab9c34da1094",
-      "modified": 1775797459107,
-      "modifiedBy": "admin"
+      "modified": 1775797459107
     },
     "Thinkerbell.extracts.xnMonth_countNTM_ne": {
       "hash": "sha256:8c62163587fe1f13e72bfbde8af10919f5fe0c8177d4cd2d1ed717298c09fce6",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.extracts.xtDetailClientHead_statCubeSliceCopyList_te": {
       "hash": "sha256:c0f06047e6b29210a8404347fc71cb5a40adb5fe20911c22be098f2fa5ad6f0b",
-      "modified": 1774528888091,
-      "modifiedBy": "admin"
+      "modified": 1774528888091
     },
     "Thinkerbell.extracts.xtDetailRevenue_statCubeSliceCopyList_te": {
       "hash": "sha256:811bb956b727a30dcc54e033cd968b2ac80a99a9eddf41df38e569614b4ea2c6",
-      "modified": 1784721372976,
-      "modifiedBy": "admin"
+      "modified": 1784721372976
     },
     "Thinkerbell.extracts.xvAccountabilityUserAccessGroup_statAll_re": {
       "hash": "sha256:3b10d53efd74874d79dc0921efc13b9f18c81e12569fa30a6912bd80b1d090f1",
-      "modified": 1784160867149,
-      "modifiedBy": "admin"
+      "modified": 1784160867149
     },
     "Thinkerbell.extracts.xvAccountingMonth_statAll_re": {
       "hash": "sha256:ddd05ab27b919d68b4f950fc45462df93de604c26f8b4c37b58c9c725a3f4f47",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.extracts.xvAccountingYear_statAll_re": {
       "hash": "sha256:66196288da1d34f5f3dc8e893c974fbac5f7c0ed2b8038df89cb9c8635cae4e4",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.extracts.xvBSAccount_statAll_re": {
       "hash": "sha256:8d20b5cce074ae65b071afe451749d5e0ba34761aef5637b695caf4902723e24",
-      "modified": 1771976674571,
-      "modifiedBy": "admin"
+      "modified": 1771976674571
     },
     "Thinkerbell.extracts.xvBSAccount_statChild_re": {
       "hash": "sha256:14bb7e68fc313eeeb9c4c73d58d10b2dec9253a99e8331e0520a2a724b7e2b0e",
-      "modified": 1771977824706,
-      "modifiedBy": "admin"
+      "modified": 1771977824706
     },
     "Thinkerbell.extracts.xvBillableRateNTM_statAll_re": {
       "hash": "sha256:078b1082267cc8d37e637eb9383c4829e6234a758a38bc2fc81e34b70944a095",
-      "modified": 1780354392516,
-      "modifiedBy": "admin"
+      "modified": 1780354392516
     },
     "Thinkerbell.extracts.xvBillableRate_varDay_re": {
       "hash": "sha256:9a6861d23577fe09c632b28f7288350200f481a3329106fa4962542bede74957",
-      "modified": 1780267984327,
-      "modifiedBy": "admin"
+      "modified": 1780267984327
     },
     "Thinkerbell.extracts.xvBillableRate_varMonthDummy_re": {
       "hash": "sha256:cf53fcb9c68331b8eb2220d8c8b8ec0974a291717c86021d4041913365b667f2",
-      "modified": 1780268475536,
-      "modifiedBy": "admin"
+      "modified": 1780268475536
     },
     "Thinkerbell.extracts.xvClientHeadLoaded_statAll_re": {
       "hash": "sha256:e9c9ccd188ce49ff875c998b62152671bdab7ca42e1c92145ef246d432fa9540",
-      "modified": 1775542419861,
-      "modifiedBy": "admin"
+      "modified": 1775542419861
     },
     "Thinkerbell.extracts.xvClientHeadMapping_statAll_re": {
       "hash": "sha256:206d46f4f13be603667cb80e182c62b137985255fbac52589e00a8159e62741a",
-      "modified": 1779259103573,
-      "modifiedBy": "admin"
+      "modified": 1779259103573
     },
     "Thinkerbell.extracts.xvClientHeadTargets_statCurrent_re": {
       "hash": "sha256:6e25f7c848c1040f4d46aab8593532e19724b5128046f138bf3c0b375e8e7c2b",
-      "modified": 1786059617205,
-      "modifiedBy": "admin"
+      "modified": 1786059617205
     },
     "Thinkerbell.extracts.xvClientHead_statAll_re": {
       "hash": "sha256:adf8f50eb6c48857d2504e4cbad3f53b49abf65dd1447d65f32af906c39b3be5",
-      "modified": 1780194658637,
-      "modifiedBy": "admin"
+      "modified": 1780194658637
     },
     "Thinkerbell.extracts.xvClient_statAll_re": {
       "hash": "sha256:3345b0b6a17c7db6379ed45880af7dd6fa463970a2b55e0ee3e795d8ae78c659",
-      "modified": 1780136014027,
-      "modifiedBy": "admin"
+      "modified": 1780136014027
     },
     "Thinkerbell.extracts.xvCostRateNTM_statAll_re": {
       "hash": "sha256:7cdb0bc1bdb139d1a2acef0c3247f94a41d1dfa33f4953cba9be6531f57d9cb1",
-      "modified": 1780354405259,
-      "modifiedBy": "admin"
+      "modified": 1780354405259
     },
     "Thinkerbell.extracts.xvCostRate_varDay_re": {
       "hash": "sha256:2d4fc2c3a076186587cf7d2914664ad4710550ec718c62abae079fa9fbba5fff",
-      "modified": 1780196846479,
-      "modifiedBy": "admin"
+      "modified": 1780196846479
     },
     "Thinkerbell.extracts.xvDepartment_statAll_re": {
       "hash": "sha256:88f7af125a7d56b05b931573975b07be40dd13e1f9386129729db6cb3500da8e",
-      "modified": 1780137489785,
-      "modifiedBy": "admin"
+      "modified": 1780137489785
     },
     "Thinkerbell.extracts.xvEmployeeByDepartmentDummy_statAll_re": {
       "hash": "sha256:098b013532fc615fb6e3d324fd5fecc6ea23a1e2c32e1617db7babb8746422d7",
-      "modified": 1780138762446,
-      "modifiedBy": "admin"
+      "modified": 1780138762446
     },
     "Thinkerbell.extracts.xvEmployeeByDepartment_statAll_re": {
       "hash": "sha256:3ba9ce89cbcfed53269845f2852aa9e325e703444df67752c186c9ea1d05ce12",
-      "modified": 1780138609622,
-      "modifiedBy": "admin"
+      "modified": 1780138609622
     },
     "Thinkerbell.extracts.xvEmployeeByEmployee_statAll_re": {
       "hash": "sha256:ca2d8791315939a2fc43bd0d88ccc4626adbf03f1402bbe21f53b8505af052f3",
-      "modified": 1785220200826,
-      "modifiedBy": "admin"
+      "modified": 1785220200826
     },
     "Thinkerbell.extracts.xvEmployeeByTaskTypeDummy_statAll_re": {
       "hash": "sha256:c264d0492b4b34c964aaf41461b12dd1e18fac6d008694a3faf8a54421ae9e3d",
-      "modified": 1780140025924,
-      "modifiedBy": "admin"
+      "modified": 1780140025924
     },
     "Thinkerbell.extracts.xvEmployeeByTaskType_statAll_re": {
       "hash": "sha256:01b915629cc423aa9f6158d33f18b2e5f02599ce8146ee333485b2bcdfbb2c07",
-      "modified": 1780139893128,
-      "modifiedBy": "admin"
+      "modified": 1780139893128
     },
     "Thinkerbell.extracts.xvEmployeeDummy_statAll_re": {
       "hash": "sha256:3e7cd431da5ba926a9d13b69268d8d702d12cd505cf52a18c1f49448554c13e3",
-      "modified": 1780138192084,
-      "modifiedBy": "admin"
+      "modified": 1780138192084
     },
     "Thinkerbell.extracts.xvEmployee_statAll_re": {
       "hash": "sha256:a9d0d3af83c8a85cfcd2de90985a0704d9063a168ff8a1b113c5253640d8e54f",
-      "modified": 1780137883888,
-      "modifiedBy": "admin"
+      "modified": 1780137883888
     },
     "Thinkerbell.extracts.xvEstimateDelete_statAll_re": {
       "hash": "sha256:bee8a21fcf15bf17877d4aa347f2d5deb5c6e1125f820b05bb6eaf9fae7c1a3e",
-      "modified": 1784616498177,
-      "modifiedBy": "admin"
+      "modified": 1784616498177
     },
     "Thinkerbell.extracts.xvEstimate_statAll_re": {
       "hash": "sha256:9d734fff94f7c00d26ff239e535613f5a553d0fa33eec6d588a791f2e8eafca3",
-      "modified": 1780136385946,
-      "modifiedBy": "admin"
+      "modified": 1780136385946
     },
     "Thinkerbell.extracts.xvFTEBenchmark_statAll_re": {
       "hash": "sha256:2b149d6d8721488a4fa07e9c41a26939b7105cb97483cd5620b3c7a599dc4dd4",
-      "modified": 1778039197692,
-      "modifiedBy": "admin"
+      "modified": 1778039197692
     },
     "Thinkerbell.extracts.xvFTEFTE_varDay_re": {
       "hash": "sha256:53bcde901e9df99a47c51ca1233ee40c7c491e2ad134d1e90dc526d29a4e4d57",
-      "modified": 1776068930876,
-      "modifiedBy": "admin"
+      "modified": 1776068930876
     },
     "Thinkerbell.extracts.xvFTELeave_statAll_re": {
       "hash": "sha256:6f1542a7abb4a00c5e2514bec9f528c1e133862ded47a6b4ac82ba2613e2286b",
-      "modified": 1786005172145,
-      "modifiedBy": "admin"
+      "modified": 1786005172145
     },
     "Thinkerbell.extracts.xvFTEPublicHoliday_varDay_re": {
       "hash": "sha256:2bec9beb309807080eea81fbbcfde303dfed310dda6478fdbc6c629219b1791f",
-      "modified": 1780355127904,
-      "modifiedBy": "admin"
+      "modified": 1780355127904
     },
     "Thinkerbell.extracts.xvFTEWeekend_varDay_re": {
       "hash": "sha256:4ec506c51bc8a818b8954b06bc8bffeab07b9dc2a277f13f1f884c1ce495a99f",
-      "modified": 1780354697420,
-      "modifiedBy": "admin"
+      "modified": 1780354697420
     },
     "Thinkerbell.extracts.xvFX_varMonth_re": {
       "hash": "sha256:fc996662e10a9ce7eacd97b190a6c2cff78a64a0a2b0e43507fdc772f3c52699",
-      "modified": 1780195252079,
-      "modifiedBy": "admin"
+      "modified": 1780195252079
     },
     "Thinkerbell.extracts.xvFactBS_statAll_re": {
       "hash": "sha256:ce94b8b2ee685f79f0e0549dde5fb1f04506f1e98cc336d989a894df794c230a",
-      "modified": 1780196038700,
-      "modifiedBy": "admin"
+      "modified": 1780196038700
     },
     "Thinkerbell.extracts.xvFactPL_statAll_re": {
       "hash": "sha256:19f743e2a7e600cca9b1c7a4388fe9b16c0b243b361c31bb79b12feee45fdb17",
-      "modified": 1780195714281,
-      "modifiedBy": "admin"
+      "modified": 1780195714281
     },
     "Thinkerbell.extracts.xvHiBobDepartment_statAll_re": {
       "hash": "sha256:11e79d5678b5292f273ce5c0aae2d6267615beb8a90d49bab7cac96ddffebcd1",
-      "modified": 1780443413417,
-      "modifiedBy": "admin"
+      "modified": 1780443413417
     },
     "Thinkerbell.extracts.xvHiBobOffice_statAll_re": {
       "hash": "sha256:53546b5d56bfe10b5eb6a199a813d58456eaf8e8fd700275162c03ec368c9b7c",
-      "modified": 1780443407197,
-      "modifiedBy": "admin"
+      "modified": 1780443407197
     },
     "Thinkerbell.extracts.xvHiBobTaskType_statAll_re": {
       "hash": "sha256:1f0e7b822714fcce1ccde5469903bb77cf9cb1c0a178ed1f5d9ed0b13a4723c3",
-      "modified": 1780443532217,
-      "modifiedBy": "admin"
+      "modified": 1780443532217
     },
     "Thinkerbell.extracts.xvHiBobTitles_statAll_re": {
       "hash": "sha256:f8eb9b5231d81215e38df4ba8f5b14be20359228b1013c85c72f1815fb34a86e",
-      "modified": 1780443561805,
-      "modifiedBy": "admin"
+      "modified": 1780443561805
     },
     "Thinkerbell.extracts.xvJobType_statAll_re": {
       "hash": "sha256:cf7ec2241bf4737000f5f7c2446624d043dc6077417de357d608fdc0e1aec6bc",
-      "modified": 1780192562375,
-      "modifiedBy": "admin"
+      "modified": 1780192562375
     },
     "Thinkerbell.extracts.xvJob_statAll_re": {
       "hash": "sha256:b8a1ff5bc3dbec8da3c58bd33bf881c6c1e89e8a77797f8423df1ca3ab85c070",
-      "modified": 1780192887234,
-      "modifiedBy": "admin"
+      "modified": 1780192887234
     },
     "Thinkerbell.extracts.xvLocationCalendar_statAll_re": {
       "hash": "sha256:f516473327f9ffe06927b403ea6cebbdb96c736e2f7123fc76e488d888775407",
-      "modified": 1785999618834,
-      "modifiedBy": "admin"
+      "modified": 1785999618834
     },
     "Thinkerbell.extracts.xvOffice_statAll_re": {
       "hash": "sha256:067ebc6e3662dcb2bf2f2694863b501cf8ff51c89d8ca50a26948a2a924dd362",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.extracts.xvPLAccount_statAll_re": {
       "hash": "sha256:2cae189962dea2797842b741c8dc93a6e0875260525843415c62f75f4de084c0",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.extracts.xvResourceActual_statAll_re": {
       "hash": "sha256:7330bce58ab887a3db65b2de76c2bc27bf774aec6e6f4235fd7a1be41af0755c",
-      "modified": 1772416519421,
-      "modifiedBy": "admin"
+      "modified": 1772416519421
     },
     "Thinkerbell.extracts.xvResourceEstimate_statAll_re": {
       "hash": "sha256:fd591cbf230733a32356ccc0d4e31c532608ac9837a3842a2716982244fc468c",
-      "modified": 1771925557534,
-      "modifiedBy": "admin"
+      "modified": 1771925557534
     },
     "Thinkerbell.extracts.xvResourceJobActive_statAll_re": {
       "hash": "sha256:9bf22d476d59836e9077096474ee551571b539904d31e9d7256f03a9b0b3c63f",
-      "modified": 1776218160328,
-      "modifiedBy": "admin"
+      "modified": 1776218160328
     },
     "Thinkerbell.extracts.xvResourcePlan_statAll_re": {
       "hash": "sha256:395c28efbbb54e6486ea92639680c0437b4a700e0934961f967e645b61d9a312",
-      "modified": 1776999465374,
-      "modifiedBy": "admin"
+      "modified": 1776999465374
     },
     "Thinkerbell.extracts.xvRevenueActual_statAll_re": {
       "hash": "sha256:a7877a8827745528fd3675b1edadbbd091abb9d1e46df101e74ccfa0c8904aba",
-      "modified": 1782527400378,
-      "modifiedBy": "admin"
+      "modified": 1782527400378
     },
     "Thinkerbell.extracts.xvRevenueEstimatedDaily_statAll_re": {
       "hash": "sha256:0c01f2b7f027c0774dd98514d0694dae04a9d079f35878cb614c6706997cd467",
-      "modified": 1782528718731,
-      "modifiedBy": "admin"
+      "modified": 1782528718731
     },
     "Thinkerbell.extracts.xvRevenueEstimatedOnDemand_statAll_re": {
       "hash": "sha256:71bacdabfb513c213271872fe2d0b309404704157928f3b8e098a97aaa111ca7",
-      "modified": 1775547647862,
-      "modifiedBy": "admin"
+      "modified": 1775547647862
     },
     "Thinkerbell.extracts.xvRevenuePlanningBillings_statAll_re": {
       "hash": "sha256:6a2ff4b35d7043bda64e1efbb25a23702926a323e4c608c24dd35a096d54f13b",
-      "modified": 1782527130333,
-      "modifiedBy": "admin"
+      "modified": 1782527130333
     },
     "Thinkerbell.extracts.xvRevenuePlanningEstimateClear_statAll_re": {
       "hash": "sha256:11c375a4c62776c2dc9627af354de9c832ff6293f9b5a2218e356a5900c38aa2",
-      "modified": 1784783961725,
-      "modifiedBy": "admin"
+      "modified": 1784783961725
     },
     "Thinkerbell.extracts.xvRevenuePlanningRefresh_statAll_re": {
       "hash": "sha256:4f76794e25d4baef57debc039945f9bd59f4bb4ba1b0a641cea9b6f2b608ac55",
-      "modified": 1782905776145,
-      "modifiedBy": "admin"
+      "modified": 1782905776145
     },
     "Thinkerbell.extracts.xvStage_statAll_re": {
       "hash": "sha256:ad3fc26be8a2bac3fde6528232445badbed5c47136759fe09391dde5cd6afa13",
-      "modified": 1780194011149,
-      "modifiedBy": "admin"
+      "modified": 1780194011149
     },
     "Thinkerbell.extracts.xvStatus_statAll_re": {
       "hash": "sha256:dc551999d0fb34df9be82e27ffda94456a0465056ce6573bf8a702ba5e7a5caa",
-      "modified": 1780193873396,
-      "modifiedBy": "admin"
+      "modified": 1780193873396
     },
     "Thinkerbell.extracts.xvTaskType_statAll_re": {
       "hash": "sha256:bddd37b3fe6ac633258069b025099380cd4273aff791d514c4fb307fda895340",
-      "modified": 1780194144300,
-      "modifiedBy": "admin"
+      "modified": 1780194144300
     },
     "Thinkerbell.extracts.xvTitle_statAll_re": {
       "hash": "sha256:2002745915e5ad0f9f5ffc74a6acc977760639c9b26bdaec47a40b916ad20853",
-      "modified": 1785973560638,
-      "modifiedBy": "admin"
+      "modified": 1785973560638
     },
     "Thinkerbell.jobs.Clear Revenue for deleted or superseded Estimates": {
       "hash": "sha256:e4f33e1634f8811d0454c404668d1773bb69e16d3e5d478f2e3312d741dc3401",
-      "modified": 1784784113026,
-      "modifiedBy": "admin"
+      "modified": 1784784113026
     },
     "Thinkerbell.jobs.Copy Estimate Adjusted to Input": {
       "hash": "sha256:443adb6fcc46298273a858a76694433216eaadf4339ed23c7fcc2a329bd05bcd",
-      "modified": 1782554633180,
-      "modifiedBy": "admin"
+      "modified": 1782554633180
     },
     "Thinkerbell.jobs.Refresh BS Cube": {
       "hash": "sha256:ec5096a7040703ef745727cceaf88e40865f2ffbd000da2d64ae7bc6dc47d0d0",
-      "modified": 1780196144461,
-      "modifiedBy": "admin"
+      "modified": 1780196144461
     },
     "Thinkerbell.jobs.Refresh Billable Rate Cube": {
       "hash": "sha256:7963bb451adb65017107fe18ea43aef93c9542e035b7262d9ebaffb3493d5003",
-      "modified": 1780354524952,
-      "modifiedBy": "admin"
+      "modified": 1780354524952
     },
     "Thinkerbell.jobs.Refresh Calendar": {
       "hash": "sha256:2feb3a3240831f6bddbe4eee8e492d5a392639648a026c4e560ca1c4dae49bc8",
-      "modified": 1785999670703,
-      "modifiedBy": "admin"
+      "modified": 1785999670703
     },
     "Thinkerbell.jobs.Refresh Client Head Loaded": {
       "hash": "sha256:4debcbd12fdd52c55aa2c043f128ec0bf29e8c17814d02e11415698b3b7e16b0",
-      "modified": 1774483776312,
-      "modifiedBy": "admin"
+      "modified": 1774483776312
     },
     "Thinkerbell.jobs.Refresh Client Head Mapping": {
       "hash": "sha256:b09a8fae4fdbdd5e9330a38aabf344340a4480e268207d3b7a944dd7821598ee",
-      "modified": 1779259452898,
-      "modifiedBy": "admin"
+      "modified": 1779259452898
     },
     "Thinkerbell.jobs.Refresh Cost Rate Cube": {
       "hash": "sha256:5b8247fefe627839cf071286647eed98d61c22575f7d23babeb93823a1313717",
-      "modified": 1780197161943,
-      "modifiedBy": "admin"
+      "modified": 1780197161943
     },
     "Thinkerbell.jobs.Refresh Current Client Head Targets": {
       "hash": "sha256:76269a3acae6cc80a1873f48d506f632942bac47e7aaf8c236e6ad834b519012",
-      "modified": 1786059796422,
-      "modifiedBy": "admin"
+      "modified": 1786059796422
     },
     "Thinkerbell.jobs.Refresh Custom Day and Month Dimensions": {
       "hash": "sha256:a34bc717326528f4bdbb5dde17283322b222ea85e80255bf4b67fc6f06d54f18",
-      "modified": 1775798718446,
-      "modifiedBy": "admin"
+      "modified": 1775798718446
     },
     "Thinkerbell.jobs.Refresh Employee Dimension": {
       "hash": "sha256:4f6db2f24fccd2695bd287e6d088878b70d91bd9513490d791bc9bc51edfca37",
-      "modified": 1785221921363,
-      "modifiedBy": "admin"
+      "modified": 1785221921363
     },
     "Thinkerbell.jobs.Refresh Estimate Dimension": {
       "hash": "sha256:4df8fc78438f3d07b852864d5fd75baf443f76521f723a2d146718a1fa4c6b71",
-      "modified": 1785210781398,
-      "modifiedBy": "admin"
+      "modified": 1785210781398
     },
     "Thinkerbell.jobs.Refresh Estimate Revenue Current and Next FY": {
       "hash": "sha256:864094a2798a1417be3218b6ba023cd450d9b389fa9959db9b04939bcb0fde30",
-      "modified": 1782905438408,
-      "modifiedBy": "admin"
+      "modified": 1782905438408
     },
     "Thinkerbell.jobs.Refresh Estimated Revenue Daily": {
       "hash": "sha256:db38af6d6452b3bcac2b50aba401be76f18e6695ce289a2586e362a9dc3efa2a",
-      "modified": 1781650969601,
-      "modifiedBy": "admin"
+      "modified": 1781650969601
     },
     "Thinkerbell.jobs.Refresh Estimated Revenue On Demand": {
       "hash": "sha256:fc9b8de584274f3d2b60a39ca5eea5153495b4072453e5bd41416c20846e24e5",
-      "modified": 1774506228545,
-      "modifiedBy": "admin"
+      "modified": 1774506228545
     },
     "Thinkerbell.jobs.Refresh FTE Benchmark": {
       "hash": "sha256:8d53ef3a744034e8d48c6fca8916ebc5f4218456df88027bf6e9cacbf2495067",
-      "modified": 1778039647151,
-      "modifiedBy": "admin"
+      "modified": 1778039647151
     },
     "Thinkerbell.jobs.Refresh FTE Cube": {
       "hash": "sha256:121f9a8e358046ec06e22817a58acabb804e15b19a86022391bbd7bc0b77618b",
-      "modified": 1786005393914,
-      "modifiedBy": "admin"
+      "modified": 1786005393914
     },
     "Thinkerbell.jobs.Refresh FTE Leave": {
       "hash": "sha256:ce50521572d3b38fcdefa155c56babadf1d7528d9574b8f0caf4dcebcbcd1a86",
-      "modified": 1786005249899,
-      "modifiedBy": "admin"
+      "modified": 1786005249899
     },
     "Thinkerbell.jobs.Refresh FTE NTM": {
       "hash": "sha256:0a1ac6faf0b7ecef819aadbca3e45aff469bf791c227c4a3dda7fd05b29486c0",
-      "modified": 1770878207508,
-      "modifiedBy": "admin"
+      "modified": 1770878207508
     },
     "Thinkerbell.jobs.Refresh FTE Public Holiday": {
       "hash": "sha256:c8fe3d7a1ffffb3e2c0b00659d4146d62adb571a9c46505762aa6e3b3f81b8fa",
-      "modified": 1780355179472,
-      "modifiedBy": "admin"
+      "modified": 1780355179472
     },
     "Thinkerbell.jobs.Refresh FTE Weekend": {
       "hash": "sha256:9fbe9695fd3e59545d5c8bcd2b5fc22016c49db8a73d31063ab811c478001eab",
-      "modified": 1780354778236,
-      "modifiedBy": "admin"
+      "modified": 1780354778236
     },
     "Thinkerbell.jobs.Refresh Jedox Cubes": {
       "hash": "sha256:19493cab733f26e72a49e034c8a4a95c35e841481bfe623c24142ec0fd62f509",
-      "modified": 1786059840710,
-      "modifiedBy": "admin"
+      "modified": 1786059840710
     },
     "Thinkerbell.jobs.Refresh Jedox Dimensions": {
       "hash": "sha256:697fa1d2f523733efea71604b28e642ccc90c3e85e80f97c4afe55ce1d64429d",
-      "modified": 1780195069668,
-      "modifiedBy": "admin"
+      "modified": 1780195069668
     },
     "Thinkerbell.jobs.Refresh Job Dimension": {
       "hash": "sha256:2f1d5c4ab589dfc373305faf29518c114ea49183e8c67f10f0b000fdcfa614b3",
-      "modified": 1780193643983,
-      "modifiedBy": "admin"
+      "modified": 1780193643983
     },
     "Thinkerbell.jobs.Refresh L3M Day and Month Dimension": {
       "hash": "sha256:f7abac9d12581770681f9294cfbe8bd7ba794045772b029dfdd7b0c7d622a98a",
-      "modified": 1775798386810,
-      "modifiedBy": "admin"
+      "modified": 1775798386810
     },
     "Thinkerbell.jobs.Refresh Month FX Rate": {
       "hash": "sha256:52fcc271dec51e51152fd61e40b89c91c0dfdcad7ef4587d33674d0925e66eb4",
-      "modified": 1780195599796,
-      "modifiedBy": "admin"
+      "modified": 1780195599796
     },
     "Thinkerbell.jobs.Refresh N3M Day and Month Dimension": {
       "hash": "sha256:a1b00a35dc94da8456823424cd816ab8ddaca633e528380ce3163f18acae1c26",
-      "modified": 1775798330029,
-      "modifiedBy": "admin"
+      "modified": 1775798330029
     },
     "Thinkerbell.jobs.Refresh N6M Day and Month Dimension": {
       "hash": "sha256:90d1d68872a1c42f45db66b571a3798818934c1379961f4870c15973575fa0c7",
-      "modified": 1775798356543,
-      "modifiedBy": "admin"
+      "modified": 1775798356543
     },
     "Thinkerbell.jobs.Refresh NTM Day and Month Dimension": {
       "hash": "sha256:3476f14afe4fba2e3c52970c06d37876a5ce0416c146b3012a3eb7b84da54752",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.jobs.Refresh PL Cube": {
       "hash": "sha256:2df6147486da7519357d07d94e328dc1273c2dd76268be8266ed4898cd462924",
-      "modified": 1780195850638,
-      "modifiedBy": "admin"
+      "modified": 1780195850638
     },
     "Thinkerbell.jobs.Refresh Resource Planning Actual": {
       "hash": "sha256:7463a890d18d6669317ac50b92921b8582f903f1f35efd69c0a4ac048365b005",
-      "modified": 1772416565243,
-      "modifiedBy": "admin"
+      "modified": 1772416565243
     },
     "Thinkerbell.jobs.Refresh Resource Planning Cube": {
       "hash": "sha256:8c596b5b61b0efab0d0231c5747597a59c1f733f868199c595e5775a9636ceb4",
-      "modified": 1776218293664,
-      "modifiedBy": "admin"
+      "modified": 1776218293664
     },
     "Thinkerbell.jobs.Refresh Resource Planning Estimate": {
       "hash": "sha256:abc1f4209714a121a6e58750ae00d197e80365145ddfbc818528abef18ac2069",
-      "modified": 1771925682169,
-      "modifiedBy": "admin"
+      "modified": 1771925682169
     },
     "Thinkerbell.jobs.Refresh Resource Planning Job Active": {
       "hash": "sha256:94bac765a0be21464f8f55ed24fe9019433159c9baa7414955dde3d9a401029a",
-      "modified": 1776218279736,
-      "modifiedBy": "admin"
+      "modified": 1776218279736
     },
     "Thinkerbell.jobs.Refresh Resource Planning Plan": {
       "hash": "sha256:68e4071bb2744f1e85b8cdea8d8b1608b31dcacf49e332e7c2f34cccf8257a4d",
-      "modified": 1771925702212,
-      "modifiedBy": "admin"
+      "modified": 1771925702212
     },
     "Thinkerbell.jobs.Refresh Revenue Planning": {
       "hash": "sha256:d0ab3bec70c347fa0ba1abfa7fa3665fadaa74af1033785c006c2914c6d7dedc",
-      "modified": 1782529605129,
-      "modifiedBy": "admin"
+      "modified": 1782529605129
     },
     "Thinkerbell.jobs.Refresh Revenue Planning Billing Actual": {
       "hash": "sha256:b69b836f5c610c6860bce6fd67dcc99bd9e439917cf2d884acc8bd1274727627",
-      "modified": 1782527281537,
-      "modifiedBy": "admin"
+      "modified": 1782527281537
     },
     "Thinkerbell.jobs.Refresh Revenue Planning Revenue Actual": {
       "hash": "sha256:a7dbec63a4a5fe6462078a3f0684d5e6ed48936406c883f4956b8d03f5bd4c1d",
-      "modified": 1781650261210,
-      "modifiedBy": "admin"
+      "modified": 1781650261210
     },
     "Thinkerbell.jobs.Revenue Planning Copy Estimate to FC": {
       "hash": "sha256:86db25d8e4d3e616d6a90d18669a73b644a19f67372e909be6f812ae0bdae5f6",
-      "modified": 1782546762187,
-      "modifiedBy": "admin"
+      "modified": 1782546762187
     },
     "Thinkerbell.loads.New JSON load": {
       "hash": "sha256:a865766e3d0cde602bfaec098613078d51d098c63fffb8fae3d1f0bc189875fc",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.loads.cBS_130_000_addActuals_cl": {
       "hash": "sha256:bc687a6df3a6102fb2e8ef39cf302f182f4ffb1dedc3ebdf6defedb19575ced0",
-      "modified": 1781249616642,
-      "modifiedBy": "admin"
+      "modified": 1781249616642
     },
     "Thinkerbell.loads.cBS_131_000_delActuals_cl": {
       "hash": "sha256:a80be41d7f11f95be93c1afc54ca90e1fbfc25cfec2ff36eba13157402289b4a",
-      "modified": 1781249614634,
-      "modifiedBy": "admin"
+      "modified": 1781249614634
     },
     "Thinkerbell.loads.cBillableRate_190_000_addDayActual_cl": {
       "hash": "sha256:58899d396a8f2fa465cb98258aba1a1eba14d572c57828a2d14df287ae9e8aa1",
-      "modified": 1781249615472,
-      "modifiedBy": "admin"
+      "modified": 1781249615472
     },
     "Thinkerbell.loads.cBillableRate_191_000_delActual_cl": {
       "hash": "sha256:73351e239f0440f5b81cf22b1e5a961eb95cf9b4cc2a46e5a22e72ba4b9f66fe",
-      "modified": 1781249616059,
-      "modifiedBy": "admin"
+      "modified": 1781249616059
     },
     "Thinkerbell.loads.cBillableRate_192_010_delNTM_cl": {
       "hash": "sha256:d7a30b9b815fb01a698043ef0b45f4b67715423bd3e693a507b125d4585a1bc1",
-      "modified": 1781249616327,
-      "modifiedBy": "admin"
+      "modified": 1781249616327
     },
     "Thinkerbell.loads.cBillableRate_193_000_addNTM_cl": {
       "hash": "sha256:b6cadd5e095757fcdb69e507e35588f4eb7074b22e44eda1d760c4503656c62d",
-      "modified": 1781249613866,
-      "modifiedBy": "admin"
+      "modified": 1781249613866
     },
     "Thinkerbell.loads.cCalendar_616_000_updLocations_cl": {
       "hash": "sha256:d6ef889f13d7ebf79ee4cfc9bd706d9d2fdec35bc384484fc8d2d6ab37d41f67",
-      "modified": 1785999648474,
-      "modifiedBy": "admin"
+      "modified": 1785999648474
     },
     "Thinkerbell.loads.cClientHeadMapping_273_000_addClientHeadLoaded_cl": {
       "hash": "sha256:a50810fe05d13030f459663eae8a33531bba64379870d4a4945439ada47fd5b5",
-      "modified": 1781249615103,
-      "modifiedBy": "admin"
+      "modified": 1781249615103
     },
     "Thinkerbell.loads.cClientHeadMapping_274_000_delClientHeadLoaded_cl": {
       "hash": "sha256:e50fc0de904cee36050ac8f8135156abd7d0bc0408c445695fef2691ddfa9b86",
-      "modified": 1781249615368,
-      "modifiedBy": "admin"
+      "modified": 1781249615368
     },
     "Thinkerbell.loads.cClientHeadTargets_619_000_insCurrent_cl": {
       "hash": "sha256:c9eec3fae1f2ae4d7713a2d9cac3084fd7b41a11df9a81912207dbd3b401b9bd",
-      "modified": 1786059780559,
-      "modifiedBy": "admin"
+      "modified": 1786059780559
     },
     "Thinkerbell.loads.cClientHeadTargets_620_000_delCurrent_cl": {
       "hash": "sha256:7ed6aadc7e8ee82e5cb60be26cbd0cdbafe8dca943d0595d95256961f1d78c61",
-      "modified": 1786059580907,
-      "modifiedBy": "admin"
+      "modified": 1786059580907
     },
     "Thinkerbell.loads.cClientHead_270_000_addClientHeadLoaded_cl": {
       "hash": "sha256:2e63c48675fbd5df49cbf7a913cfd1af02ec3de039b4e191d97d33a5b05bb84d",
-      "modified": 1781249614900,
-      "modifiedBy": "admin"
+      "modified": 1781249614900
     },
     "Thinkerbell.loads.cClientHead_271_000_delClientHeadLoaded_cl": {
       "hash": "sha256:60d71243070021b05ce629539e58b265de7e72a728c253c6f41b4695c19d0fd9",
-      "modified": 1781249615425,
-      "modifiedBy": "admin"
+      "modified": 1781249615425
     },
     "Thinkerbell.loads.cClientHead_272_000_copyEstimateToFC_sl": {
       "hash": "sha256:abad4d056fc8e2be9444dbaf39c4b443a1f49f929719c2a4344cd4733dde4fbf",
-      "modified": 1781249613430,
-      "modifiedBy": "admin"
+      "modified": 1781249613430
     },
     "Thinkerbell.loads.cCostRate_150_000_addDayActuals_cl": {
       "hash": "sha256:6baf2adbf8aed9bca0ef5f99a90287af65b97ba5c43258d84d428674c88cc53f",
-      "modified": 1781249614605,
-      "modifiedBy": "admin"
+      "modified": 1781249614605
     },
     "Thinkerbell.loads.cCostRate_151_000_delDayActuals_cl": {
       "hash": "sha256:bf0ae331c7e27c874e09f919e45f7e719c03139b886390998b97465411d788a8",
-      "modified": 1781249613807,
-      "modifiedBy": "admin"
+      "modified": 1781249613807
     },
     "Thinkerbell.loads.cCostRate_152_010_delNTM_cl": {
       "hash": "sha256:eec9863a512038c93084c9c930dbd07e3a219b9e5231bb367cbbff54ea1c5c26",
-      "modified": 1781249616711,
-      "modifiedBy": "admin"
+      "modified": 1781249616711
     },
     "Thinkerbell.loads.cCostRate_153_000_addNTM_cl": {
       "hash": "sha256:c0375b228af0ec0b65d29189922f7b0afe268d0dbfad2f8ab295d42e4ca9d216",
-      "modified": 1781249615776,
-      "modifiedBy": "admin"
+      "modified": 1781249615776
     },
     "Thinkerbell.loads.cFTE_170_000_addWeekend_cl": {
       "hash": "sha256:85c5504714a6691dadb5d5dc2535c28b821454212e957374c084ac0ed17d4b39",
-      "modified": 1781249615750,
-      "modifiedBy": "admin"
+      "modified": 1781249615750
     },
     "Thinkerbell.loads.cFTE_171_000_delWeekend_cl": {
       "hash": "sha256:39b5c473d96c1dbd2119d142ea01691da20e782dcd674f96f32d86239b849609",
-      "modified": 1781249614232,
-      "modifiedBy": "admin"
+      "modified": 1781249614232
     },
     "Thinkerbell.loads.cFTE_172_000_addBenchmark_cl": {
       "hash": "sha256:0bc3f2a786932a5cf5b908eb745187aa090f515817152a04b338083eb79b40aa",
-      "modified": 1781249613517,
-      "modifiedBy": "admin"
+      "modified": 1781249613517
     },
     "Thinkerbell.loads.cFTE_173_000_delBenchmark_cl": {
       "hash": "sha256:22ef1f24f84175e5a4b71f64e007b11bfedac7de2f6e2ce0ca67d8ea6bdb382d",
-      "modified": 1781249614082,
-      "modifiedBy": "admin"
+      "modified": 1781249614082
     },
     "Thinkerbell.loads.cFTE_180_000_addPublicHoliday_cl": {
       "hash": "sha256:ef008e6a863d6a5aada316b9594952c774f0087f64ea8d012b3466d3fd8a3814",
-      "modified": 1781249615288,
-      "modifiedBy": "admin"
+      "modified": 1781249615288
     },
     "Thinkerbell.loads.cFTE_181_000_delPublicHoliday_cl": {
       "hash": "sha256:86e7b210c2073e15a9ea584846d9fd9dc71816a7c5a294dc32d995f97c8f75c5",
-      "modified": 1781249615966,
-      "modifiedBy": "admin"
+      "modified": 1781249615966
     },
     "Thinkerbell.loads.cFTE_220_000_addFTE_cl": {
       "hash": "sha256:2709fb48cc62d2522a593129f2266543e3437920c8e944dfc6d2b0f3120216c7",
-      "modified": 1781249613973,
-      "modifiedBy": "admin"
+      "modified": 1781249613973
     },
     "Thinkerbell.loads.cFTE_220_010_delFTE_cl": {
       "hash": "sha256:c4fc569a94824ccf44501e8c168ff7a8b229b0c80143a86142283daf83960818",
-      "modified": 1781249614690,
-      "modifiedBy": "admin"
+      "modified": 1781249614690
     },
     "Thinkerbell.loads.cFTE_617_000_insLeave_cl": {
       "hash": "sha256:9f901f63af10d861da3738e6f08faf0e1447fc1b0645a49aa2644eebc2afb264",
-      "modified": 1786005203251,
-      "modifiedBy": "admin"
+      "modified": 1786005203251
     },
     "Thinkerbell.loads.cFTE_618_000_delLeave_cl": {
       "hash": "sha256:df7db997157d58f748e23a65c20bffadb3c721147a2246a3d3dd7f92822ea1d1",
-      "modified": 1786005135709,
-      "modifiedBy": "admin"
+      "modified": 1786005135709
     },
     "Thinkerbell.loads.cFX_160_000_addMonthActuals_cl": {
       "hash": "sha256:8e94f23891536237b141224ebfdf87e787fee3384c8065fc382c7dda6e54a842",
-      "modified": 1781249615202,
-      "modifiedBy": "admin"
+      "modified": 1781249615202
     },
     "Thinkerbell.loads.cFX_161_000_delMonthActual_cl": {
       "hash": "sha256:8e2b11d63505140ee931a46bb5021fea1e757999bf7300abe615f3494096451e",
-      "modified": 1781249616552,
-      "modifiedBy": "admin"
+      "modified": 1781249616552
     },
     "Thinkerbell.loads.cPL_120_000_addActuals_cl": {
       "hash": "sha256:ff4bc0e4c31c28be718d2eef9c01d971f0e79532314dbbe0295c77bbad046364",
-      "modified": 1781249616357,
-      "modifiedBy": "admin"
+      "modified": 1781249616357
     },
     "Thinkerbell.loads.cPL_121_000_delActuals_cl": {
       "hash": "sha256:c4f04693f08249da76b7f7706261d612ff15ac0eaab87fb1b47ccd00f73939d1",
-      "modified": 1781249614452,
-      "modifiedBy": "admin"
+      "modified": 1781249614452
     },
     "Thinkerbell.loads.cResourcePlanning_260_000_addPlan_cl": {
       "hash": "sha256:09ff108b9c3c0aa27dacb8e51fee8f31928bdfe26b8fc8aced0c7daa4c4fa11d",
-      "modified": 1781249614528,
-      "modifiedBy": "admin"
+      "modified": 1781249614528
     },
     "Thinkerbell.loads.cResourcePlanning_261_000_delPlan_cl": {
       "hash": "sha256:06f31a05eca76b047ce937e652e77c7603fb3ba92c3c8bc0810924ad5a99aabb",
-      "modified": 1781249613834,
-      "modifiedBy": "admin"
+      "modified": 1781249613834
     },
     "Thinkerbell.loads.cResourcePlanning_262_000_addEstimate_cl": {
       "hash": "sha256:f033230ee22161148428c4aaaf7e331d7656135fce21e444459b508f39a61973",
-      "modified": 1781249614396,
-      "modifiedBy": "admin"
+      "modified": 1781249614396
     },
     "Thinkerbell.loads.cResourcePlanning_263_000_delEstimate_cl": {
       "hash": "sha256:21a7d1c14f74448314befe8a4a99893b333060729a49b885767693e5f9a8a189",
-      "modified": 1781249613570,
-      "modifiedBy": "admin"
+      "modified": 1781249613570
     },
     "Thinkerbell.loads.cResourcePlanning_264_000_addActual_cl": {
       "hash": "sha256:2155fbef8c1c3668f12de27441bccd4432735b5b850ce8d22220035fd9285f8d",
-      "modified": 1781249614473,
-      "modifiedBy": "admin"
+      "modified": 1781249614473
     },
     "Thinkerbell.loads.cResourcePlanning_265_000_delActual_cl": {
       "hash": "sha256:b6cf8247bfdec9cc238169b5c11d38e4fc3c5f4c5a60962809f7862437f99f09",
-      "modified": 1781249616187,
-      "modifiedBy": "admin"
+      "modified": 1781249616187
     },
     "Thinkerbell.loads.cResourcePlanning_266_000_delJobActive_cl": {
       "hash": "sha256:a6c5c40c9341ad16dde013d896172666520c09bb297b8eb8ba69f51acc5b36e0",
-      "modified": 1781249615315,
-      "modifiedBy": "admin"
+      "modified": 1781249615315
     },
     "Thinkerbell.loads.cResourcePlanning_267_000_addJobActive_cl": {
       "hash": "sha256:4b500b1ab96c85e5238278521d4079eb50ed789ba8921ba332822cce6df44f90",
-      "modified": 1781249614931,
-      "modifiedBy": "admin"
+      "modified": 1781249614931
     },
     "Thinkerbell.loads.cRevenuePlanning_600_000_addActualRevenue_cl": {
       "hash": "sha256:4c1e0fbcbb6b9a5cafd9456093054c6e5414d621e257b68e668722cd1a5b4a39",
-      "modified": 1782527414078,
-      "modifiedBy": "admin"
+      "modified": 1782527414078
     },
     "Thinkerbell.loads.cRevenuePlanning_601_000_delActualRevenue_cl": {
       "hash": "sha256:0c50e0a89a92aee6805a4c5633cd4a418dd96e913a75b3a2d0f4e94dc6b3f8e2",
-      "modified": 1782527343022,
-      "modifiedBy": "admin"
+      "modified": 1782527343022
     },
     "Thinkerbell.loads.cRevenuePlanning_602_000_addEstimateRevenueDaily_cl": {
       "hash": "sha256:74ee9ab0b57247534b9ac1c4ca1954640ec0a83334082c4a5eaf4006d3a1103a",
-      "modified": 1782529468162,
-      "modifiedBy": "admin"
+      "modified": 1782529468162
     },
     "Thinkerbell.loads.cRevenuePlanning_603_000_delEstimatedRevenueDaily_cl": {
       "hash": "sha256:03f30c0e7a21ce7802004896e634396c98b9611a06d5595d0d8e9fd5a1cad2e0",
-      "modified": 1782528270389,
-      "modifiedBy": "admin"
+      "modified": 1782528270389
     },
     "Thinkerbell.loads.cRevenuePlanning_604_000_addActualBilling_cl": {
       "hash": "sha256:ac55bae90d0d19e6bb20a21e17b8520fe027f9d7948757c506c2c2d756c8c569",
-      "modified": 1782527194960,
-      "modifiedBy": "admin"
+      "modified": 1782527194960
     },
     "Thinkerbell.loads.cRevenuePlanning_605_000_delActualBilling_cl": {
       "hash": "sha256:56a3f7a40b7e62e382c00bc5b3945e7304e4e87babc01822b5cfb9b39fa83e8f",
-      "modified": 1782527054886,
-      "modifiedBy": "admin"
+      "modified": 1782527054886
     },
     "Thinkerbell.loads.cRevenuePlanning_606_000_addEstimateRevenueOnDemand_cl": {
       "hash": "sha256:05b951800b423241da3314d4a2a16ff4532763862362d5563b20e8e236ec0111",
-      "modified": 1781249615072,
-      "modifiedBy": "admin"
+      "modified": 1781249615072
     },
     "Thinkerbell.loads.cRevenuePlanning_607_000_delEstimateRevenueOnDemand_cl": {
       "hash": "sha256:4c7cfd1f65f84ad9831118fb89b11410b0618d25055165de3d71da0f2e313a38",
-      "modified": 1781249616525,
-      "modifiedBy": "admin"
+      "modified": 1781249616525
     },
     "Thinkerbell.loads.cRevenuePlanning_608_000_copyEstimateToFC_sl": {
       "hash": "sha256:0d3ea5f01d92812f18ef0aa353a1803f89e86620b534a5fcf81d1908e634029b",
-      "modified": 1782546809851,
-      "modifiedBy": "admin"
+      "modified": 1782546809851
     },
     "Thinkerbell.loads.cRevenuePlanning_609_005_delEstimate_cl": {
       "hash": "sha256:b2cd868ba8a9227b45ccf55941216298c7e06c5ca9912445cd4155a3028be4ac",
-      "modified": 1784784071773,
-      "modifiedBy": "admin"
+      "modified": 1784784071773
     },
     "Thinkerbell.loads.cRevenuePlanning_610_000_delEstimateRevenueDaily_cl": {
       "hash": "sha256:33c6f02ecef056c2fcc9b1735bf17777ecf1421acf97179273a5fadf3f9b06c7",
-      "modified": 1782528726415,
-      "modifiedBy": "admin"
+      "modified": 1782528726415
     },
     "Thinkerbell.loads.cRevenuePlanning_611_000_copyEstimateAdjustedToInput_sl": {
       "hash": "sha256:ce2da07fccd3b5f7f106dc2ab08d6a8e557dee36841d9b87099fa1b434fc2a69",
-      "modified": 1781249614307,
-      "modifiedBy": "admin"
+      "modified": 1781249614307
     },
     "Thinkerbell.loads.cRevenuePlanning_612_010_addEstimateInput_ft": {
       "hash": "sha256:e5aa4f1d335c0f5ae789efa8010dc0be8b39cb836caa8ede07680777f7e5c300",
-      "modified": 1782554591112,
-      "modifiedBy": "admin"
+      "modified": 1782554591112
     },
     "Thinkerbell.loads.cRevenuePlanning_613_000_delEstimateAdjustment_cl": {
       "hash": "sha256:039438c4a670404603b8966001e0b27aa58738da37d5338000f661b346bf72ca",
-      "modified": 1782554621743,
-      "modifiedBy": "admin"
+      "modified": 1782554621743
     },
     "Thinkerbell.loads.cRevenuePlanning_614_000_insFYCurrentFYNext_cl": {
       "hash": "sha256:e8dd42a7f119e08cddd5924a598b5fdefa361307f416a9454088714a192cc1f1",
-      "modified": 1782905879955,
-      "modifiedBy": "admin"
+      "modified": 1782905879955
     },
     "Thinkerbell.loads.cRevenuePlanning_614_010_delFYCurrentFYNext_cl": {
       "hash": "sha256:a7e28822d694cedfd784bb4f72f09cc1ec8d3c37bba708dc5ce9a12139cc1183",
-      "modified": 1782905828804,
-      "modifiedBy": "admin"
+      "modified": 1782905828804
     },
     "Thinkerbell.loads.dAccountabilityUserAccessGroup_1400_010_insAll_dl": {
       "hash": "sha256:84f5ffda2297d0cc32e98b1a5579a7b59fe87dadd3722858dfb117e031ed5b77",
-      "modified": 1784160862349,
-      "modifiedBy": "admin"
+      "modified": 1784160862349
     },
     "Thinkerbell.loads.dAccountingMonth_240_020_insAll_dl": {
       "hash": "sha256:0dba98b7817dbb3ad35308702bf770e2a1e5c092f912ca19f2dc0cbd4014bbd1",
-      "modified": 1781249614001,
-      "modifiedBy": "admin"
+      "modified": 1781249614001
     },
     "Thinkerbell.loads.dAccountingYear_250_020_insAll_dl": {
       "hash": "sha256:537dc8067c23a878f62dee7ce326b400c584e556ac9feffb42024880d016a710",
-      "modified": 1781249616300,
-      "modifiedBy": "admin"
+      "modified": 1781249616300
     },
     "Thinkerbell.loads.dBSAccount_800_010_insAllBSAccounts_dl": {
       "hash": "sha256:1eabc37e082422b65161ba99c8dfa807417f23715ddb44e4d9cda1cc9e49b8e5",
-      "modified": 1781249614837,
-      "modifiedBy": "admin"
+      "modified": 1781249614837
     },
     "Thinkerbell.loads.dBSAccount_810_010_addAllBSAccounts_dl": {
       "hash": "sha256:c7d93c9cb9003af1b8dfb4e7eb851916b6bb5f6d616e73bfcde5156b0a5e8530",
-      "modified": 1781249613748,
-      "modifiedBy": "admin"
+      "modified": 1781249613748
     },
     "Thinkerbell.loads.dBSAccount_820_010_addBalance_dl": {
       "hash": "sha256:48af77fec28cdb20640f9c2f1887aa24126aa54c6e1a9b2642466d7160cb17e6",
-      "modified": 1781249615233,
-      "modifiedBy": "admin"
+      "modified": 1781249615233
     },
     "Thinkerbell.loads.dClientHead_230_020_insAllClientHeads_dl": {
       "hash": "sha256:d5d358b09f13c801a63cf037110140bea1af907074ef7ed0fac6c38d2acbb0da",
-      "modified": 1781249614335,
-      "modifiedBy": "admin"
+      "modified": 1781249614335
     },
     "Thinkerbell.loads.dClient_210_020_insAllClients_dl": {
       "hash": "sha256:7e82600cb08886e56c68287deb4e6e206ed4e54d1e4e041a6445fbcda739e4fd",
-      "modified": 1781249613946,
-      "modifiedBy": "admin"
+      "modified": 1781249613946
     },
     "Thinkerbell.loads.dDay_140_055_addNTM_dl": {
       "hash": "sha256:81a80939dfef86f4e15561bacc1d966dd679ddc0cbf5d4138d88a215a1833498",
-      "modified": 1781249614660,
-      "modifiedBy": "admin"
+      "modified": 1781249614660
     },
     "Thinkerbell.loads.dDay_141_055_addN3M_dl": {
       "hash": "sha256:0a9d84b95f342954cac37aa290112ca05accf0959f1d614b43a090336f71a15c",
-      "modified": 1781249614195,
-      "modifiedBy": "admin"
+      "modified": 1781249614195
     },
     "Thinkerbell.loads.dDay_142_055_addN6M_dl": {
       "hash": "sha256:4f36d381c564571947936da9da00d2849b90127c626bc1e70ca5f4a4c44aec21",
-      "modified": 1781249615564,
-      "modifiedBy": "admin"
+      "modified": 1781249615564
     },
     "Thinkerbell.loads.dDay_143_055_addL3M_dl": {
       "hash": "sha256:e6fe2c56cdc86c4ca5f5d61a9681e98a4c409e385ede4d6333d86e93aa9847bc",
-      "modified": 1781249615004,
-      "modifiedBy": "admin"
+      "modified": 1781249615004
     },
     "Thinkerbell.loads.dDay_146_040_addLTD_dl": {
       "hash": "sha256:bb648aa77070b6cbcd00e53cf6af43559b441e9321797655308f8fd4a24e5e82",
-      "modified": 1781575784767,
-      "modifiedBy": "admin"
+      "modified": 1781575784767
     },
     "Thinkerbell.loads.dDay_147_040_addLTG_dl": {
       "hash": "sha256:a47d3f68775f9604432385e50fb61211721a7bff99adb70147c97bc39260f8a1",
-      "modified": 1781575490794,
-      "modifiedBy": "admin"
+      "modified": 1781575490794
     },
     "Thinkerbell.loads.dDepartment_100_020_insAllDepartments_dl": {
       "hash": "sha256:b0078bdddcbcae5494c6b65fdf533840c88afe8314bbb7e692af4cdf0c528926",
-      "modified": 1781249615163,
-      "modifiedBy": "admin"
+      "modified": 1781249615163
     },
     "Thinkerbell.loads.dEmployee_200_020_insAllEmployees_dl": {
       "hash": "sha256:baa18d27364511295a4f43280c32f09a4ddac15560669f67701d64ad61188ff6",
-      "modified": 1781249613604,
-      "modifiedBy": "admin"
+      "modified": 1781249613604
     },
     "Thinkerbell.loads.dEmployee_201_020_insAllEmployeesDummy_dl": {
       "hash": "sha256:233d76ba076a0b252657b4b3c58ba80dd2a6d599a41f776e7593e3872e6bedb3",
-      "modified": 1781249614280,
-      "modifiedBy": "admin"
+      "modified": 1781249614280
     },
     "Thinkerbell.loads.dEmployee_202_020_insAllEmployeesByDepartment_dl": {
       "hash": "sha256:ef87ad4efa6a3a2954093746a0db21a4683a16b6c37230e841d4ce060cc1c576",
-      "modified": 1781249614557,
-      "modifiedBy": "admin"
+      "modified": 1781249614557
     },
     "Thinkerbell.loads.dEmployee_203_020_insAllEmployeesByDepartmentDummy_dl": {
       "hash": "sha256:cd16e2ec2fe5b9c3c5046b786dfe23a1f38aee2b9d18e5f09dcbdb52093932dc",
-      "modified": 1781249614978,
-      "modifiedBy": "admin"
+      "modified": 1781249614978
     },
     "Thinkerbell.loads.dEmployee_204_020_insAllEmployeesByTaskType_dl": {
       "hash": "sha256:c216592b08394f61e650d570c2ce641ea59c3ffe9b6143689bc940af6e345ece",
-      "modified": 1781249615829,
-      "modifiedBy": "admin"
+      "modified": 1781249615829
     },
     "Thinkerbell.loads.dEmployee_205_020_insAllEmployeesByTaskTypeDummy_dl": {
       "hash": "sha256:957ad2b4484919cfe9e70558aecd3806929d361e1142e8a10962a95b7141b64a",
-      "modified": 1781249616274,
-      "modifiedBy": "admin"
+      "modified": 1781249616274
     },
     "Thinkerbell.loads.dEmployee_206_020_insByEmployee_dl": {
       "hash": "sha256:6f0559767e8ea1abc0508c80baa7364307b40234851aa962ced2a33e159b7343",
-      "modified": 1785221033095,
-      "modifiedBy": "admin"
+      "modified": 1785221033095
     },
     "Thinkerbell.loads.dEstimate_000_020_insAllEstimates_dl": {
       "hash": "sha256:2c8ce15ea71bf22744d9a51a5f9aeab6da6c43794673e2789c157b828191d6da",
-      "modified": 1781249615389,
-      "modifiedBy": "admin"
+      "modified": 1781249615389
     },
     "Thinkerbell.loads.dEstimate_001_020_insDummyJobNumber_dl": {
       "hash": "sha256:f3d825a62732a315fc27ee43d49f820b94d0eb37417145ee4e7c6e0930638b71",
-      "modified": 1781249614057,
-      "modifiedBy": "admin"
+      "modified": 1781249614057
     },
     "Thinkerbell.loads.dEstimate_002_020_insDummyClient_dl": {
       "hash": "sha256:5b7f8f756f175dcc8055abfeb8d97e5bfa3044b1253a980f56888c794813cb94",
-      "modified": 1781249614785,
-      "modifiedBy": "admin"
+      "modified": 1781249614785
     },
     "Thinkerbell.loads.dEstimate_003_000_delSuperseded_dl": {
       "hash": "sha256:4f5272b85a5eab8b1426810a237260d00c7d3cd2d33935244478497b1cd21380",
-      "modified": 1781249615945,
-      "modifiedBy": "admin"
+      "modified": 1781249615945
     },
     "Thinkerbell.loads.dEstimate_610_040_addDeletedAttr_dl": {
       "hash": "sha256:981e963d61d95406baff47794c65e673d4c90ac6a324e7584754645fb1619e51",
-      "modified": 1785210736113,
-      "modifiedBy": "admin"
+      "modified": 1785210736113
     },
     "Thinkerbell.loads.dHiBobDepartment_1000_010_insAllDepartments_dl": {
       "hash": "sha256:392ee951acddc527bf19abbc295817e83a4aa3f1f77f03a9d397db8069d735b8",
-      "modified": 1781249613922,
-      "modifiedBy": "admin"
+      "modified": 1781249613922
     },
     "Thinkerbell.loads.dHiBobOffice_1100_010_insAllOffices_dl": {
       "hash": "sha256:88451fa2b9522b30ffc3df638155e151d17b36f7c6bdebd7d7747e27883481e9",
-      "modified": 1781249614127,
-      "modifiedBy": "admin"
+      "modified": 1781249614127
     },
     "Thinkerbell.loads.dHiBobTaskType_1200_010_insAllTaskTypes_dl": {
       "hash": "sha256:6c87e410bd7e5141bce11a5a8e8751ee6c00dc59515b32de576654316e6d9dbf",
-      "modified": 1781249616247,
-      "modifiedBy": "admin"
+      "modified": 1781249616247
     },
     "Thinkerbell.loads.dHiBobTitle_1300_010_insAllTitles_dl": {
       "hash": "sha256:2d14b5a4802f8cfa47679356199b36a9a3e36380c5752f6ebfbeef2916b54939",
-      "modified": 1781249615262,
-      "modifiedBy": "admin"
+      "modified": 1781249615262
     },
     "Thinkerbell.loads.dJobType_300_020_insAllJobTypes_dl": {
       "hash": "sha256:52c1852d440e31c36a8689c5e727f89add12be688552317e2dbde0af085d04e3",
-      "modified": 1781249616005,
-      "modifiedBy": "admin"
+      "modified": 1781249616005
     },
     "Thinkerbell.loads.dJob_110_020_insAllJobs_dl": {
       "hash": "sha256:bd671c6a0067320475078e952d9d5edd1de9d7807eeb144628435a4f4ff1aa97",
-      "modified": 1781249615131,
-      "modifiedBy": "admin"
+      "modified": 1781249615131
     },
     "Thinkerbell.loads.dJob_111_010_insDummyClient_dl": {
       "hash": "sha256:3b9919d76516499b5de763ff98842eb6072adefbb5736e2d923ac8352fe0a861",
-      "modified": 1781249614952,
-      "modifiedBy": "admin"
+      "modified": 1781249614952
     },
     "Thinkerbell.loads.dJob_113_030_delJobs_dl": {
       "hash": "sha256:d74de817b60f0a232d0f5d0d36cf56b82b70e381e9ac4b6e738275944e4fba81",
-      "modified": 1781249616384,
-      "modifiedBy": "admin"
+      "modified": 1781249616384
     },
     "Thinkerbell.loads.dMonth_140_050_addNTM_dl": {
       "hash": "sha256:bcf826d5af7661ac0df14e092f5501ba332ee3422f91b06d5bdd9753df4e1ef2",
-      "modified": 1781249616582,
-      "modifiedBy": "admin"
+      "modified": 1781249616582
     },
     "Thinkerbell.loads.dMonth_141_050_addN3M_dl": {
       "hash": "sha256:8dc1f3c09e7df1076833ea4e8f5660cc9f88bd77fc44aab2483ff7c1447128df",
-      "modified": 1781249615858,
-      "modifiedBy": "admin"
+      "modified": 1781249615858
     },
     "Thinkerbell.loads.dMonth_142_050_addN6M_dl": {
       "hash": "sha256:0fa7a4f2c45106c02eeb0c75b07ae3f15b7fd8026492709f21d0ff9a921af3ce",
-      "modified": 1781249614425,
-      "modifiedBy": "admin"
+      "modified": 1781249614425
     },
     "Thinkerbell.loads.dMonth_143_050_addL3M_dl": {
       "hash": "sha256:e38b56d7baeac336f946401fe8080482398d8a254f3d522f11e431d7845f34e9",
-      "modified": 1781249616220,
-      "modifiedBy": "admin"
+      "modified": 1781249616220
     },
     "Thinkerbell.loads.dMonth_144_040_addLTG_dl": {
       "hash": "sha256:582bb6e1abaa95966288c5e07ab05091a6ec8545801a855fad4981627edca601",
-      "modified": 1781570960391,
-      "modifiedBy": "admin"
+      "modified": 1781570960391
     },
     "Thinkerbell.loads.dMonth_145_040_addLTD_dl": {
       "hash": "sha256:20d4a4ef5beedcf028c9eca2d2bc48865c259c9eafaab16e079733b7f1131cde",
-      "modified": 1781571250996,
-      "modifiedBy": "admin"
+      "modified": 1781571250996
     },
     "Thinkerbell.loads.dOffice_400_020_insAllOffices_dl": {
       "hash": "sha256:68e0ba0c479acf19144c0fc4755d0f311a624c36e5008391e6ff1bae63bffcdc",
-      "modified": 1781249615451,
-      "modifiedBy": "admin"
+      "modified": 1781249615451
     },
     "Thinkerbell.loads.dPLAccount_700_010_insAllPLAccounts_dl": {
       "hash": "sha256:e381a0b3128a5cd39ca6e32d88cf0d9828ee1635c6dc0e967b8cd9f7e4c2689f",
-      "modified": 1781249615653,
-      "modifiedBy": "admin"
+      "modified": 1781249615653
     },
     "Thinkerbell.loads.dStage_280_010_insAllStages_dl": {
       "hash": "sha256:8652be87fe9fe08954c6ab89d6ee5e8885a644f08f59309bf54df77f5f7eea7e",
-      "modified": 1781249616151,
-      "modifiedBy": "admin"
+      "modified": 1781249616151
     },
     "Thinkerbell.loads.dStatus_500_010_insAllStatuses_dl": {
       "hash": "sha256:73d66059526f14b075c07d46206342f661944476a04aa7b13303528096d31455",
-      "modified": 1781249615595,
-      "modifiedBy": "admin"
+      "modified": 1781249615595
     },
     "Thinkerbell.loads.dTaskType_900_020_insAllTaskTypes_dl": {
       "hash": "sha256:73a3a0809de66c71f067abf635f2a96a1a18487cb4518868de9a38fadbf02a58",
-      "modified": 1781249613490,
-      "modifiedBy": "admin"
+      "modified": 1781249613490
     },
     "Thinkerbell.loads.dTitle_1400_010_insAllTitles_dl": {
       "hash": "sha256:a724c41af49c1222c62b7719f4fb365eeb1e5fa0c6e6d0222550fd1a788f8bec",
-      "modified": 1781249616503,
-      "modifiedBy": "admin"
+      "modified": 1781249616503
     },
     "Thinkerbell.transforms.New TreePC": {
       "hash": "sha256:67424b5ab4c7a0ae14094c406b2a0973a60bf5c424b8791ad86aacec0563dba7",
-      "modified": 1772017801683,
-      "modifiedBy": "admin"
+      "modified": 1772017801683
     },
     "Thinkerbell.transforms.Test": {
       "hash": "sha256:f234c7914a337233d946d44652b535da8856d5daaadba70182d100f2f054ec62",
-      "modified": 1779670137331,
-      "modifiedBy": "admin"
+      "modified": 1779670137331
     },
     "Thinkerbell.transforms.cBillableRate_190_000_DayAndMonthDummy_tu": {
       "hash": "sha256:05d6dc6af48ea74adc3664add47f09cefff2f47ef713b10559fe494099c033a9",
-      "modified": 1780354302128,
-      "modifiedBy": "admin"
+      "modified": 1780354302128
     },
     "Thinkerbell.transforms.cBillableRate_192_000_cdNTMStat_ta": {
       "hash": "sha256:3953910869856810247ae43c100a96f2f9fb2730ebe47d41f00132bac7c1278c",
-      "modified": 1780354435887,
-      "modifiedBy": "admin"
+      "modified": 1780354435887
     },
     "Thinkerbell.transforms.cCostRate_152_000_cdNTMStat_ta": {
       "hash": "sha256:a1480f7e04442c267ef86da66945b3cac48383efbd7431349c3e1bc0bf4bdd71",
-      "modified": 1780197021001,
-      "modifiedBy": "admin"
+      "modified": 1780197021001
     },
     "Thinkerbell.transforms.cFTE_220_005_cdStat_ta": {
       "hash": "sha256:2574cd15c88cdba134f46d581aa36ac7558829988f8d00621d854e084219e210",
-      "modified": 1775791000157,
-      "modifiedBy": "admin"
+      "modified": 1775791000157
     },
     "Thinkerbell.transforms.cRevenuePlanning_290_000_fxJobNumber_ft": {
       "hash": "sha256:961c253c6996a6af827081b9d81bfcd76bcaa1363817768f6ec0476acb404fec",
-      "modified": 1779670089316,
-      "modifiedBy": "admin"
+      "modified": 1779670089316
     },
     "Thinkerbell.transforms.cRevenuePlanning_609_000_leftDimEstimates_tj": {
       "hash": "sha256:8edbd079cd1460ca87fcba51b79f64b236c97c87f5609e3ac78981b89442dcb6",
-      "modified": 1785210557479,
-      "modifiedBy": "admin"
+      "modified": 1785210557479
     },
     "Thinkerbell.transforms.cRevenuePlanning_609_010_inclExisting_tv": {
       "hash": "sha256:7efdb7d026aa8c3484c1820d96215102450357acce42fbe7b3b95833e551453e",
-      "modified": 1784783955324,
-      "modifiedBy": "admin"
+      "modified": 1784783955324
     },
     "Thinkerbell.transforms.cRevenuePlanning_610_010_inclExistingDeleted_tv": {
       "hash": "sha256:fbf1ec87bd0c588a6be569351c320add9c819fa84cee53d264f6ef858e969aae",
-      "modified": 1785210178253,
-      "modifiedBy": "admin"
+      "modified": 1785210178253
     },
     "Thinkerbell.transforms.cRevenuePlanning_612_000_mapMeasure_ft": {
       "hash": "sha256:8a307e9f22d3b4dd26daf65c9c4b037aa172add4586281651a7b2b2de29f2d6c",
-      "modified": 1783924452356,
-      "modifiedBy": "admin"
+      "modified": 1783924452356
     },
     "Thinkerbell.transforms.cRevenuePlanning_612_010_sumStat_ta": {
       "hash": "sha256:7c2fdc9e023ea7ccbd9816714c5886cbe33ffaa0049aaf96675b4c10c1090df5",
-      "modified": 1775722465894,
-      "modifiedBy": "admin"
+      "modified": 1775722465894
     },
     "Thinkerbell.transforms.dAccountabilityUserAccessGroup_1400_000_byID_fh": {
       "hash": "sha256:5fa1abafbeaf73a0c4ecbc49fe2dae10208f70acce0806eb802de2c098aee1bb",
-      "modified": 1784160867106,
-      "modifiedBy": "admin"
+      "modified": 1784160867106
     },
     "Thinkerbell.transforms.dAccountingMonth_240_000_ascID_tv": {
       "hash": "sha256:98527490cb6658a00da4d8bd394a272f86adc0cc3ddd1b309ff1c929f1498e89",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dAccountingMonth_240_010_attrName_fh": {
       "hash": "sha256:8b760346543ad0e20182a3e55bd2c2f9d57cf245ea10e3c0f9411a758b22d301",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dAccountingYear_250_000_ascID_tv": {
       "hash": "sha256:dd7ef2486a310e201d15074bc7faeb6f6fe3db66840270fde14fb18adcc05fda",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dAccountingYear_250_010_attrName_fh": {
       "hash": "sha256:35465154c72d742cc0684a6a48f2d18ac9c080b959bfacc25e21bc3e656ba0dc",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dBSAccount_0820_000_byBalance_fh": {
       "hash": "sha256:eddbfe368bde95d2e370941af5c0728651676d1d7ccc39d5e1f92c049705c086",
-      "modified": 1771980262605,
-      "modifiedBy": "admin"
+      "modified": 1771980262605
     },
     "Thinkerbell.transforms.dBSAccount_800_000_attrName_pc": {
       "hash": "sha256:036ec03c80e72c2b502e0b62b575a6ad9bcde6251342b6eff2f78dac950f2896",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dBSAccount_810_000_byAllBSAccounts_fh": {
       "hash": "sha256:1bef5e77b7524feae43eb4dde74890c957e1737e0c32625e6b188c3afb8af561",
-      "modified": 1771977486687,
-      "modifiedBy": "admin"
+      "modified": 1771977486687
     },
     "Thinkerbell.transforms.dClientHead_230_000_ascID_tv": {
       "hash": "sha256:0f080994b7acb4722492c3e031e0629dbb5d3bea1a000d0218bd3ace3d126488",
-      "modified": 1780194708403,
-      "modifiedBy": "admin"
+      "modified": 1780194708403
     },
     "Thinkerbell.transforms.dClientHead_230_010_attrName_fh": {
       "hash": "sha256:20f605320f01d450a2051c5210da38f5ab342682856214f57d40ad3f706879a7",
-      "modified": 1780194745955,
-      "modifiedBy": "admin"
+      "modified": 1780194745955
     },
     "Thinkerbell.transforms.dClient_210_000_ascID_tv": {
       "hash": "sha256:c56bd317ff8dbc43e049a705d895d654230bd0250766c893b8ac2c97360bad01",
-      "modified": 1780136043231,
-      "modifiedBy": "admin"
+      "modified": 1780136043231
     },
     "Thinkerbell.transforms.dClient_210_010_attrName_fh": {
       "hash": "sha256:bd423ca1ffca2528705ce866e7a1989de6c1c2d74ef9e923a0582f751cb8b92f",
-      "modified": 1785467251247,
-      "modifiedBy": "admin"
+      "modified": 1785467251247
     },
     "Thinkerbell.transforms.dDay_140_045_byNTM_fh": {
       "hash": "sha256:5536094722143cdd6568bf2a5ed460f7f77959212f513237239f99521de4f59a",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dDay_141_045_byN3M_fh": {
       "hash": "sha256:0f02bcb1f4d39f0cb274d39cb7a6a68790e4ee183ecf7f83140ef7078f75a007",
-      "modified": 1775797792549,
-      "modifiedBy": "admin"
+      "modified": 1775797792549
     },
     "Thinkerbell.transforms.dDay_142_045_byN6M_fh": {
       "hash": "sha256:6c6cc6764addae043ceb52cd7de71bb92a2ad80eef35dcf1c0e6fdceba3d8616",
-      "modified": 1775797852077,
-      "modifiedBy": "admin"
+      "modified": 1775797852077
     },
     "Thinkerbell.transforms.dDay_143_045_byL3M_fh": {
       "hash": "sha256:0908a33b994f52b1fa247f47afb4b6d30f656166d3403adb12177dc0fda1f938",
-      "modified": 1775797918068,
-      "modifiedBy": "admin"
+      "modified": 1775797918068
     },
     "Thinkerbell.transforms.dDay_146_030_byLTD_fh": {
       "hash": "sha256:07e0da3382236371dd3937ff61a33d36af3d183febd2e3633b55e9b8dc217231",
-      "modified": 1781574941832,
-      "modifiedBy": "admin"
+      "modified": 1781574941832
     },
     "Thinkerbell.transforms.dDay_147_030_byLTG_fh": {
       "hash": "sha256:fb1cd25091bb4307f4425444c47630e6ea1deaab5f094a1c2f7157894365942c",
-      "modified": 1781575159707,
-      "modifiedBy": "admin"
+      "modified": 1781575159707
     },
     "Thinkerbell.transforms.dDepartment_100_000_ascID_tv": {
       "hash": "sha256:f8286946390729e9503261430d1bd813d06d002d154824d5077059c760739776",
-      "modified": 1780137562216,
-      "modifiedBy": "admin"
+      "modified": 1780137562216
     },
     "Thinkerbell.transforms.dDepartment_100_010_attrName_fh": {
       "hash": "sha256:df445411a1f06d6ca022ea5a5042af68fe7db65ed267e10d79e1d2c3075773ee",
-      "modified": 1780137605836,
-      "modifiedBy": "admin"
+      "modified": 1780137605836
     },
     "Thinkerbell.transforms.dEmployee_200_000_ascID_tv": {
       "hash": "sha256:50b42b56a95b9b0fc7d87ca316a2d70dc3060b5baeaa9ff4cc83970537cb1061",
-      "modified": 1780137784358,
-      "modifiedBy": "admin"
+      "modified": 1780137784358
     },
     "Thinkerbell.transforms.dEmployee_200_010_attrName_fh": {
       "hash": "sha256:9066e662bef661a8e3ece20bdd297879cec9a6b9821dc62037a9844ae9056ba2",
-      "modified": 1781582880928,
-      "modifiedBy": "admin"
+      "modified": 1781582880928
     },
     "Thinkerbell.transforms.dEmployee_201_000_ascIDDummy_tv": {
       "hash": "sha256:7c9a9b98f3f553f03167c63f9c107388b89a78d2d89e3b238c701374328048f7",
-      "modified": 1780138324798,
-      "modifiedBy": "admin"
+      "modified": 1780138324798
     },
     "Thinkerbell.transforms.dEmployee_201_010_attrDummyName_fh": {
       "hash": "sha256:97fdee0211df7600c990975ccfb09dda0fcf6dda816104df64502a2869077d5a",
-      "modified": 1782948248309,
-      "modifiedBy": "admin"
+      "modified": 1782948248309
     },
     "Thinkerbell.transforms.dEmployee_202_000_ascID_tv": {
       "hash": "sha256:ed059a9644a20ebed1d35ad428ac8e0ce192ee91db012a3fb87e2b70f1aefbf9",
-      "modified": 1780138632313,
-      "modifiedBy": "admin"
+      "modified": 1780138632313
     },
     "Thinkerbell.transforms.dEmployee_202_010_byDepartment_fh": {
       "hash": "sha256:578b7dc40107145b33c819904469a47b34c4bdd8ea1df190f3cdc384f9888054",
-      "modified": 1782948248309,
-      "modifiedBy": "admin"
+      "modified": 1782948248309
     },
     "Thinkerbell.transforms.dEmployee_203_000_ascIDDummy_tv": {
       "hash": "sha256:fa8346b062bc71435ae46d95785febfb447ad399074742d766d0b824e1bb5710",
-      "modified": 1780138785861,
-      "modifiedBy": "admin"
+      "modified": 1780138785861
     },
     "Thinkerbell.transforms.dEmployee_203_010_byDepartmentDummy_fh": {
       "hash": "sha256:71319d611b5818abe63ca243021373427430be17082f36dd184e558fb58ca3bb",
-      "modified": 1782950147400,
-      "modifiedBy": "admin"
+      "modified": 1782950147400
     },
     "Thinkerbell.transforms.dEmployee_204_000_ascID_tv": {
       "hash": "sha256:caf07335e240c7b078364b6cdbdffaced1f9586b1ca52f5d89cb24f3dfab2bec",
-      "modified": 1780139923785,
-      "modifiedBy": "admin"
+      "modified": 1780139923785
     },
     "Thinkerbell.transforms.dEmployee_204_010_byTaskType_fh": {
       "hash": "sha256:5ee46ce5e45217b605c7fc367f968f0ec8e1905b72411516640674852a12b469",
-      "modified": 1780139966656,
-      "modifiedBy": "admin"
+      "modified": 1780139966656
     },
     "Thinkerbell.transforms.dEmployee_205_000_ascIDDummy_tv": {
       "hash": "sha256:ec5be4802c1b2f3ada7e513a4ca4577f17ee2bba85c601c38d53e87f452cf67a",
-      "modified": 1780140048620,
-      "modifiedBy": "admin"
+      "modified": 1780140048620
     },
     "Thinkerbell.transforms.dEmployee_205_010_byTaskTypeDummy_fh": {
       "hash": "sha256:8103695d383335a62409425b2f4de2e4254711a2c2001e0b1c277aba977b1744",
-      "modified": 1782948090001,
-      "modifiedBy": "admin"
+      "modified": 1782948090001
     },
     "Thinkerbell.transforms.dEmployee_206_000_ascID_tv": {
       "hash": "sha256:a43c6ec9542b26516f95c1b008d9ae56190cb4dba8e11ec2b03d6d040b7236ee",
-      "modified": 1785220426433,
-      "modifiedBy": "admin"
+      "modified": 1785220426433
     },
     "Thinkerbell.transforms.dEmployee_206_010_byEmployee_fh": {
       "hash": "sha256:7bdb09d9a81a3c6409f004584444e4ff0b00b0473ea730765663e71ca3ef8684",
-      "modified": 1785221188167,
-      "modifiedBy": "admin"
+      "modified": 1785221188167
     },
     "Thinkerbell.transforms.dEmployee_207_010_ascID_tv": {
       "hash": "sha256:cbc2c31f4ab085cd4dc662dca29ebf409f29b44742cc2e89e346a29fad042997",
-      "modified": 1777530575075,
-      "modifiedBy": "admin"
+      "modified": 1777530575075
     },
     "Thinkerbell.transforms.dEstimate_000_000_ascID_tv": {
       "hash": "sha256:5deb2a3d7a3399903f904d3a0e5539d63a49aba9a7db953c56bc614863351037",
-      "modified": 1780136491579,
-      "modifiedBy": "admin"
+      "modified": 1780136491579
     },
     "Thinkerbell.transforms.dEstimate_000_010_attrName_fh": {
       "hash": "sha256:f2c79ecf0a6550fe178188d7e81e2bc3e35d23a29075415439dfdd276eb67849",
-      "modified": 1780136629210,
-      "modifiedBy": "admin"
+      "modified": 1780136629210
     },
     "Thinkerbell.transforms.dEstimate_001_000_fxDummyJobNumber_ft": {
       "hash": "sha256:a2076b00467880f6823db1fcdbc4e1bddf7fff1a84dd5eb2462e5df565c82e2d",
-      "modified": 1780136783495,
-      "modifiedBy": "admin"
+      "modified": 1780136783495
     },
     "Thinkerbell.transforms.dEstimate_001_010_byDummyJobNumber_fh": {
       "hash": "sha256:0ddb968737ad1f2fdc24ab7d2a1244c69f3fe2c0227371d4a79b830220c9b9dd",
-      "modified": 1780136960437,
-      "modifiedBy": "admin"
+      "modified": 1780136960437
     },
     "Thinkerbell.transforms.dEstimate_002_000_fxDummyClient_ft": {
       "hash": "sha256:7280adec9e4e414a585ab68a7f4708b86c5ede6b2f0898207a4cc23ab1d6e3cc",
-      "modified": 1780137231365,
-      "modifiedBy": "admin"
+      "modified": 1780137231365
     },
     "Thinkerbell.transforms.dEstimate_002_010_byDummyClient_fh": {
       "hash": "sha256:c5d54cbf606bcbd88d32d84aca1d0218669f070a1e938474d5935069f6f319a3",
-      "modified": 1780137341856,
-      "modifiedBy": "admin"
+      "modified": 1780137341856
     },
     "Thinkerbell.transforms.dEstimate_003_000_byEstimateID_fh": {
       "hash": "sha256:71154304e4f81bc91acc95ff41895669ba75561a906ec21cc721020a228babbc",
-      "modified": 1774506660394,
-      "modifiedBy": "admin"
+      "modified": 1774506660394
     },
     "Thinkerbell.transforms.dEstimate_610_020_mapAll_ft": {
       "hash": "sha256:4f5a19a16efac88894f831cf430d55e752be709c2a77bfaa1af130626e135330",
-      "modified": 1785210608290,
-      "modifiedBy": "admin"
+      "modified": 1785210608290
     },
     "Thinkerbell.transforms.dEstimate_610_030_attrDeleted_fh": {
       "hash": "sha256:c33f0e3f80b0ef62f5a5b29b50f6ac39c0ce5bd91ea0cb60e6bf6900d0b8cc71",
-      "modified": 1785210693357,
-      "modifiedBy": "admin"
+      "modified": 1785210693357
     },
     "Thinkerbell.transforms.dHiBobDepartment_1000_000_byItemID_fh": {
       "hash": "sha256:5395fb895118a41bf9f75c3f73e33326e4a43ce3800bdd4891748d1b64079b17",
-      "modified": 1780443420238,
-      "modifiedBy": "admin"
+      "modified": 1780443420238
     },
     "Thinkerbell.transforms.dHiBobOffice_1100_000_byItemID_fh": {
       "hash": "sha256:4e9f73b4ccba04fe9bd0e6ff710424f40afde939c6778a35a5bff84d2a18952e",
-      "modified": 1780443621167,
-      "modifiedBy": "admin"
+      "modified": 1780443621167
     },
     "Thinkerbell.transforms.dHiBobTaskType_1200_000_byItemID_fh": {
       "hash": "sha256:f5c5d0e988c40e1c95a2961eb0b4b24d5fa2c2adee74e757c5aa3e3312e0943f",
-      "modified": 1780443641636,
-      "modifiedBy": "admin"
+      "modified": 1780443641636
     },
     "Thinkerbell.transforms.dHiBobTitle_1300_000_byItemID_fh": {
       "hash": "sha256:ba0065cde639a05cc7f5a4aa542c4faeafdeda6012eafc83bdb9bc97b2da6e52",
-      "modified": 1780443964548,
-      "modifiedBy": "admin"
+      "modified": 1780443964548
     },
     "Thinkerbell.transforms.dJobType_300_000_ascID_tv": {
       "hash": "sha256:6e0dde2a18f5e787eb72ef9559f78a0e29ec9b0fc84c932ce64a1c0b0e1105d4",
-      "modified": 1780192665842,
-      "modifiedBy": "admin"
+      "modified": 1780192665842
     },
     "Thinkerbell.transforms.dJobType_300_010_attrName_fh": {
       "hash": "sha256:2fc1f4f251e1c7c3c22a965c6f900704dc15c237a7b8c8048308770ebc2f183c",
-      "modified": 1780192775834,
-      "modifiedBy": "admin"
+      "modified": 1780192775834
     },
     "Thinkerbell.transforms.dJob_110_000_ascID_tv": {
       "hash": "sha256:7ae05b35cc1eb9c3e605b093c57c6dd0197d3a27228f90548d499b767250ea85",
-      "modified": 1780193057505,
-      "modifiedBy": "admin"
+      "modified": 1780193057505
     },
     "Thinkerbell.transforms.dJob_110_010_attrName_fh": {
       "hash": "sha256:d37282b26c0efe9f3c3da9a746d7af6cbde05b2f04e19d809a7ce6fd7d0db1ec",
-      "modified": 1780193185131,
-      "modifiedBy": "admin"
+      "modified": 1780193185131
     },
     "Thinkerbell.transforms.dJob_111_000_byDummyClient_fh": {
       "hash": "sha256:b3d51166d5b296c3396ccdbe1f7cc641dd9ba0f11650feed86e64a81a704f652",
-      "modified": 1780193272830,
-      "modifiedBy": "admin"
+      "modified": 1780193272830
     },
     "Thinkerbell.transforms.dJob_113_000_leftAllJobs_tj": {
       "hash": "sha256:c69566b1ab1119a1077399fa6870788f4cc8c8dfd8aa8a2a56c180a6edc10bc4",
-      "modified": 1780193434874,
-      "modifiedBy": "admin"
+      "modified": 1780193434874
     },
     "Thinkerbell.transforms.dJob_113_010_removeNull_tv": {
       "hash": "sha256:0087ee23114b7a93277ca98fad91e55d25f1ce42c4304b1ae59af2be5bd549e8",
-      "modified": 1780193498645,
-      "modifiedBy": "admin"
+      "modified": 1780193498645
     },
     "Thinkerbell.transforms.dJob_113_020_delJobs_fh": {
       "hash": "sha256:9b453ac5b5f6b7f4a9d3ecffb363b2782e707c8ead8dd56c2ae7e95ac5d2b5fa",
-      "modified": 1780193551075,
-      "modifiedBy": "admin"
+      "modified": 1780193551075
     },
     "Thinkerbell.transforms.dMonth_140_010_inner_tj": {
       "hash": "sha256:3689e07c26152a3afb47b8dd6fc649c7b96f28853389995cc92c71dbc1f1696f",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dMonth_140_020_fxNTMHierarchy_ft": {
       "hash": "sha256:9456e206e381fe8fab2979774aa3fb44acbae10749eb7cf060978868e0b0fa71",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dMonth_140_030_sortMonth_tv": {
       "hash": "sha256:138d2acc22ce3a858a8cdc8ede873d73ad86bc1250d0fff1c0bca6c6cb382b3f",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dMonth_140_040_byNTM_fh": {
       "hash": "sha256:62388dc0a46fb265e4295251b9baa3015ed1a2c262b8a977a0859cd4f2321921",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dMonth_141_010_inner_tj": {
       "hash": "sha256:5f83599e64e9d0c301a2efbdd56d21bb547ddce54721cd33b34ffc70099b2a2f",
-      "modified": 1775797268965,
-      "modifiedBy": "admin"
+      "modified": 1775797268965
     },
     "Thinkerbell.transforms.dMonth_141_020_fxN3MHierarchy_ft": {
       "hash": "sha256:12bddbb15cffa9ffdb8df5359668445f4a57f9ef378d70529b8d9483c2db7381",
-      "modified": 1775797384218,
-      "modifiedBy": "admin"
+      "modified": 1775797384218
     },
     "Thinkerbell.transforms.dMonth_141_030_sortMonth_tv": {
       "hash": "sha256:0072a5dd9eba0b13472fc9dc52c39c525a61dff0429b387320bf07584341ff86",
-      "modified": 1775797631905,
-      "modifiedBy": "admin"
+      "modified": 1775797631905
     },
     "Thinkerbell.transforms.dMonth_141_040_byN3M_fh": {
       "hash": "sha256:a58b00f877fd7c09cba840f5463caf19c068acd23af58b0293d9b7df00f8be8e",
-      "modified": 1775798047726,
-      "modifiedBy": "admin"
+      "modified": 1775798047726
     },
     "Thinkerbell.transforms.dMonth_142_010_inner_tj": {
       "hash": "sha256:6e65e69adfd64b1dde5178581ab5afad6d75b604a91e6624ba230d32e5d93cfd",
-      "modified": 1775797285859,
-      "modifiedBy": "admin"
+      "modified": 1775797285859
     },
     "Thinkerbell.transforms.dMonth_142_020_fxN6MHierarchy_ft": {
       "hash": "sha256:453c174733443ec7232ec459b90a4048b87fa076a9bd99b447d3643e0bf74612",
-      "modified": 1775797432071,
-      "modifiedBy": "admin"
+      "modified": 1775797432071
     },
     "Thinkerbell.transforms.dMonth_142_030_sortMonth_tv": {
       "hash": "sha256:0ad115ba20b0a0fdb22f7851a462df2c05a553dd23617a65a4dcd4dea736d15e",
-      "modified": 1775797704342,
-      "modifiedBy": "admin"
+      "modified": 1775797704342
     },
     "Thinkerbell.transforms.dMonth_142_040_byN6M_fh": {
       "hash": "sha256:7dcff9004032a97454137594cb6120e7b5dded69995d91063dc38ffb0a5aa34f",
-      "modified": 1775798084251,
-      "modifiedBy": "admin"
+      "modified": 1775798084251
     },
     "Thinkerbell.transforms.dMonth_143_010_inner_tj": {
       "hash": "sha256:a1e5a6fde501f61a11267ee20cd32cc7e00841ff11b7cb25998982f971bbacf2",
-      "modified": 1775797299432,
-      "modifiedBy": "admin"
+      "modified": 1775797299432
     },
     "Thinkerbell.transforms.dMonth_143_020_fxL3MHierarchy_ft": {
       "hash": "sha256:e905a85a4aebc749e0ac48490f9c2ff9e893f8125e2ec6022ba9c91e7a0d966f",
-      "modified": 1777948914166,
-      "modifiedBy": "admin"
+      "modified": 1777948914166
     },
     "Thinkerbell.transforms.dMonth_143_030_sortMonth_tv": {
       "hash": "sha256:d5d2d5f96ec69db40028f617abfcd70ab3ebc617ee6ee35c3066716a6110b8ac",
-      "modified": 1777948246649,
-      "modifiedBy": "admin"
+      "modified": 1777948246649
     },
     "Thinkerbell.transforms.dMonth_143_040_byL3M_fh": {
       "hash": "sha256:a13a08fc2c6c2a74ece08868a7429de4b0f421be90ad818f5b4739b98c637f92",
-      "modified": 1777948912043,
-      "modifiedBy": "admin"
+      "modified": 1777948912043
     },
     "Thinkerbell.transforms.dMonth_144_000_mapColumn_tv": {
       "hash": "sha256:80e3b03765d07c24e9551759713b29c0ddb1f168ea9b80008609fde9dbf76f28",
-      "modified": 1781569798260,
-      "modifiedBy": "admin"
+      "modified": 1781569798260
     },
     "Thinkerbell.transforms.dMonth_144_010_fullMonths_tj": {
       "hash": "sha256:bfbd8abc79ae9d1aade59579070f5bcdcb4494c70f0bb748f7d3610b97bea347",
-      "modified": 1781569852490,
-      "modifiedBy": "admin"
+      "modified": 1781569852490
     },
     "Thinkerbell.transforms.dMonth_144_020_fxParentLTDLTG_ft": {
       "hash": "sha256:b17d67fa2f01f1b19de77ae3e080e4a4d8192beb51dcb6dec644836f942493dd",
-      "modified": 1781570385384,
-      "modifiedBy": "admin"
+      "modified": 1781570385384
     },
     "Thinkerbell.transforms.dMonth_144_030_byLTG_fh": {
       "hash": "sha256:a56aecc6a8e54252936a96fc4729e1e687e21294f53edcd083b5187456a3dd64",
-      "modified": 1781570968595,
-      "modifiedBy": "admin"
+      "modified": 1781570968595
     },
     "Thinkerbell.transforms.dMonth_144_030_inclLTG_tv": {
       "hash": "sha256:46b6a377f9aee46c293465143e7e247822c23073053c6b472ea56f912a5819bc",
-      "modified": 1781570679259,
-      "modifiedBy": "admin"
+      "modified": 1781570679259
     },
     "Thinkerbell.transforms.dMonth_145_030_byLTD_fh": {
       "hash": "sha256:6205904d0d4f3696df0c6f94f8c67cea2c9b614414366294b1f32b97288a664f",
-      "modified": 1781571274591,
-      "modifiedBy": "admin"
+      "modified": 1781571274591
     },
     "Thinkerbell.transforms.dMonth_145_030_inclLTD_tv": {
       "hash": "sha256:ff32dc642788280a5495ac6d0c6de3e6505444e2b4bcb33cb81584a9d8d3737e",
-      "modified": 1781571140177,
-      "modifiedBy": "admin"
+      "modified": 1781571140177
     },
     "Thinkerbell.transforms.dOffice_400_000_ascID_tv": {
       "hash": "sha256:f016fb14cdae7b18b3675a8d493cbf1ab01c26527e8052c2e010f69440e49c4c",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dOffice_400_010_attrName_fh": {
       "hash": "sha256:993bef3abc9b423a307f147a45c569000c5c820444220d98f878fb59a069a651",
-      "modified": 1770875305129,
-      "modifiedBy": "admin"
+      "modified": 1770875305129
     },
     "Thinkerbell.transforms.dPLAccount_700_000_attrName_pc": {
       "hash": "sha256:58994951956dfb69d9b64a52035c7634b0ee6d56c00117593a94edad1728e216",
-      "modified": 1774245627066,
-      "modifiedBy": "admin"
+      "modified": 1774245627066
     },
     "Thinkerbell.transforms.dStage_280_000_attrName_fh": {
       "hash": "sha256:7838fc03fdfa871e1d4d0fa26da8a537cf0c253a0d1837bf05c05c8e9c67a64d",
-      "modified": 1780194051496,
-      "modifiedBy": "admin"
+      "modified": 1780194051496
     },
     "Thinkerbell.transforms.dStatus_500_000_attrName_fh": {
       "hash": "sha256:7e2e7955c343992de77cb6b7cedec18f0ab8d908751c5613d4b69d4c2966ed36",
-      "modified": 1780193917663,
-      "modifiedBy": "admin"
+      "modified": 1780193917663
     },
     "Thinkerbell.transforms.dTaskType_900_000_ascID_tv": {
       "hash": "sha256:1328c814dbf476c75f07e0e6223308e056239fb20a401b583f064b67ecc56f0c",
-      "modified": 1780194179632,
-      "modifiedBy": "admin"
+      "modified": 1780194179632
     },
     "Thinkerbell.transforms.dTaskType_900_010_attrName_fh": {
       "hash": "sha256:63144d9319bc9dcf11b9e7268346a05d30a1b33e2d9b0d99330dc4e9b276f7cc",
-      "modified": 1780194547978,
-      "modifiedBy": "admin"
+      "modified": 1780194547978
     },
     "Thinkerbell.transforms.dTitle_1400_000_byID_fh": {
       "hash": "sha256:c37f08f2d53da303cd7087981526fef91269c11b3ee3a27fda8e59c7735eb513",
-      "modified": 1785973707876,
-      "modifiedBy": "admin"
+      "modified": 1785973707876
     },
     "Thinkerbell.variables.vDay": {
       "hash": "sha256:691a5bc819ad8837828c6cec04507b17b347b15bf234850668c3f9619e884a37",
-      "modified": 1770875305130,
-      "modifiedBy": "admin"
+      "modified": 1770875305130
     },
     "Thinkerbell.variables.vEndDateFTE": {
       "hash": "sha256:9b61baaaec10db40e7bd8cf783062b85d6d1b961873934dc7d2fca424401a9f0",
-      "modified": 1770876005311,
-      "modifiedBy": "admin"
+      "modified": 1770876005311
     },
     "Thinkerbell.variables.vEstimate": {
       "hash": "sha256:238078758cfdd062e39778cb7c31e000b2671bb99f4a6cf5fa82c5df339870e4",
-      "modified": 1784784036528,
-      "modifiedBy": "admin"
+      "modified": 1784784036528
     },
     "Thinkerbell.variables.vFCVersion": {
       "hash": "sha256:37e14140a343851b0bc296c9cbd02608ca5f4e2ffdaa81120dff811567e9f7e7",
-      "modified": 1774527344239,
-      "modifiedBy": "admin"
+      "modified": 1774527344239
     },
     "Thinkerbell.variables.vFY": {
       "hash": "sha256:986f962e6da7d6bbeec41fa3d53795fdfcdbd9c9c701b0d5d918d1f1c553755c",
-      "modified": 1774527349070,
-      "modifiedBy": "admin"
+      "modified": 1774527349070
     },
     "Thinkerbell.variables.vFYCurrent": {
       "hash": "sha256:47ba681106198ef7d8501cd3b59f0dcb871ffd1a8404d3ea5a875277ad9ee2dc",
-      "modified": 1782905680790,
-      "modifiedBy": "admin"
+      "modified": 1782905680790
     },
     "Thinkerbell.variables.vFYNext": {
       "hash": "sha256:59c70cf7a6b7fd15a88668b664b78b6365fd85d2288290542b3c88c2981aafe5",
-      "modified": 1782905673723,
-      "modifiedBy": "admin"
+      "modified": 1782905673723
     },
     "Thinkerbell.variables.vMonth": {
       "hash": "sha256:1e8f8c64abb20762436fbb063adce6d42fca66f3f7e116b384a778c44cc76514",
-      "modified": 1770948788417,
-      "modifiedBy": "admin"
+      "modified": 1770948788417
     },
     "Thinkerbell.variables.vMonthCurrent": {
       "hash": "sha256:57ee47f5b9ec7b9932da109c429d988ffa67afc73f550604e596108a9809c7a8",
-      "modified": 1786059500041,
-      "modifiedBy": "admin"
+      "modified": 1786059500041
     },
     "Thinkerbell.variables.vStartDateFTE": {
       "hash": "sha256:15d886917082f58a3a7150ec8cc9ba412884b110a3a9b5e2bc87495302cbaab9",
-      "modified": 1770875407923,
-      "modifiedBy": "admin"
+      "modified": 1770875407923
     },
     "Thinkerbell.variables.vVersion": {
       "hash": "sha256:9c110037ef96fdb1b8cec3aaea870bca5ba980ea1d9f9e0dcf2e2375f18921d3",
-      "modified": 1770875305130,
-      "modifiedBy": "admin"
+      "modified": 1770875305130
     }
   },
   "hash": "sha256:a00fe669104598876296eb63d1611b4fc3ac7e4ca7c3aa9d14da9eae3d41e3b6",
   "modified": 1786060391207,
-  "modifiedBy": "admin",
   "project": "Thinkerbell",
   "source": {
     "at": "2026-08-11T00:19:26Z",
