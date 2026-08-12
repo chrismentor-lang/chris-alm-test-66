@@ -165,8 +165,7 @@
     },
     "ETLTasks.jobs.DatabaseBackupArchive": {
       "hash": "sha256:0bf671a43f21f98ff134f9b097e966594756bddccccb06d1ab3ac204448e46d5",
-      "modified": 1459507721398,
-      "modifiedBy": "admin"
+      "modified": 1459507721398
     },
     "ETLTasks.jobs.DatabaseCopy": {
       "hash": "sha256:f7fb84a95c26a85dd39e5018b2d19e10324919ad96e4bf8970b61a3f50c3cb02",
@@ -364,8 +363,7 @@
     },
     "ETLTasks.variables.BackupDirPath": {
       "hash": "sha256:eae3056eff7741f06bc719c88818852e0444bc4db2868e9853a8c34d380c3890",
-      "modified": 1459507282643,
-      "modifiedBy": "admin"
+      "modified": 1459507282643
     },
     "ETLTasks.variables.Cube": {
       "hash": "sha256:b0d7ba91685834b414982d6fe186f87157e6d49c64b726061c38feefb2bc2f1c",
@@ -446,7 +444,6 @@
   },
   "hash": "sha256:e13c65b443d0842b8989866cf73dc288dc99edc15d3fc2b01c5658eb156be00e",
   "modified": 1459507721398,
-  "modifiedBy": "admin",
   "project": "ETLTasks",
   "source": {
     "at": "2026-08-11T23:06:58Z",

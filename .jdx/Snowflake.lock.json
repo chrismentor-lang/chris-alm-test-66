@@ -2,2938 +2,2351 @@
   "components": {
     "Snowflake.connections.Redshift View Definitions": {
       "hash": "sha256:b2c54bfa6af433feb9efda183292383d46de50e337bbd4442fecb498c713120d",
-      "modified": 1769560923582,
-      "modifiedBy": "admin"
+      "modified": 1769560923582
     },
     "Snowflake.connections.cfAccountabilityBlank_varEndpoint_fc": {
       "hash": "sha256:ca3fecdcb51ebfe6556a1c49f583bce13351b9fddf0f2f9d148fbc735eb95e12",
-      "modified": 1769489280552,
-      "modifiedBy": "admin"
+      "modified": 1769489280552
     },
     "Snowflake.connections.cfAccountabilityChargeableRates_statAll_fc": {
       "hash": "sha256:8c61db687e521fba5b2dc1363a9480eaac16f42cf36c6a885d2cb43425489aa5",
-      "modified": 1769649916966,
-      "modifiedBy": "admin"
+      "modified": 1769649916966
     },
     "Snowflake.connections.cfAccountabilityEstimates_varFileDate_fc": {
       "hash": "sha256:24daa76742a8ed3205fdc67595b256aa0992063c571b1e921b099e3e7d7c0b16",
-      "modified": 1767824452289,
-      "modifiedBy": "admin"
+      "modified": 1767824452289
     },
     "Snowflake.connections.cfAccountabilityGeneralLedgerTransactions_varFileDate_fc": {
       "hash": "sha256:33fb2f0da2404241283683fbf8504cd2c7bacf7938f536aa85af10ad1c3e159b",
-      "modified": 1769583162991,
-      "modifiedBy": "admin"
+      "modified": 1769583162991
     },
     "Snowflake.connections.cfAccountabilityJournals_varFileDate_fc": {
       "hash": "sha256:6a42a7f44e9eb432cc0488fbadedbedff11571dcdfcf84388d50b0d8c4b3bed4",
-      "modified": 1767841402256,
-      "modifiedBy": "admin"
+      "modified": 1767841402256
     },
     "Snowflake.connections.cfAccountability_varAccountabilityEndpointGZIP_fc": {
       "hash": "sha256:6b715f4a0001b5e4e85078f40d127bb5db1b84caf91e08ada5661b704d3ab2cb",
-      "modified": 1766114868255,
-      "modifiedBy": "admin"
+      "modified": 1766114868255
     },
     "Snowflake.connections.cfAccountability_varAccountabilityEndpointGZIP_fc_Sandbox": {
       "hash": "sha256:e33e6ca569c6dfc179eaed6d5b47482c6574841540f1b703a3c1fa29ba6be356",
-      "modified": 1773109154181,
-      "modifiedBy": "admin"
+      "modified": 1773109154181
     },
     "Snowflake.connections.cfAccountability_varAccountabilityEndpoint_fc": {
       "hash": "sha256:03f2371458d8761d5d0d5866f1dd9b6047781102f6a35bc91911674e315eadf4",
-      "modified": 1766114609205,
-      "modifiedBy": "admin"
+      "modified": 1766114609205
     },
     "Snowflake.connections.cfAccountability_varAccountabilityEndpoint_fc_Sandbox": {
       "hash": "sha256:36e298f9cf7e4f712cb8805d85e06eb8cf1f81093bc52699b69c493d036c7da0",
-      "modified": 1773109162919,
-      "modifiedBy": "admin"
+      "modified": 1773109162919
     },
     "Snowflake.connections.cfFXrates_statHTTPCurrent_fc": {
       "hash": "sha256:a944ec1192317f3611b1f126f98528ba5e99c3bee190dcf472eb49c1af28c4d3",
-      "modified": 1769728051456,
-      "modifiedBy": "admin"
+      "modified": 1769728051456
     },
     "Snowflake.connections.cfFXrates_statHTTPHist20142017_fc": {
       "hash": "sha256:79d54eed04211dac369a8658dbd49f83fe4b78b55194d6d80b6ed3c8b3db09dc",
-      "modified": 1779836490359,
-      "modifiedBy": "admin"
+      "modified": 1779836490359
     },
     "Snowflake.connections.cfFXrates_statHTTPHist20182022_fc": {
       "hash": "sha256:e0f5932680a5b4136b063259f26c1b549625cc13369cbe598b796e811efdc28a",
-      "modified": 1779836469295,
-      "modifiedBy": "admin"
+      "modified": 1779836469295
     },
     "Snowflake.connections.cfFXrates_statHTTPHist2023Curr_fc": {
       "hash": "sha256:cecb5b8167264f7dbf56b400083c68d22bc77eafc2e8d3d72afc3e752d5de930",
-      "modified": 1779836445790,
-      "modifiedBy": "admin"
+      "modified": 1779836445790
     },
     "Snowflake.connections.cfFloat_varFloatEndpointGZIP_fc": {
       "hash": "sha256:469d5ebba3b692b617091593966f79ba6ba49338ec621b6f0348e5ad611b7d6c",
-      "modified": 1765517501807,
-      "modifiedBy": "admin"
+      "modified": 1765517501807
     },
     "Snowflake.connections.cfFloat_varFloatEndpoint_fc": {
       "hash": "sha256:5205477fffd3fb039163d4f0319337d1ec3923e3081d6c4324d81dcfdee71066",
-      "modified": 1765517496434,
-      "modifiedBy": "admin"
+      "modified": 1765517496434
     },
     "Snowflake.connections.cfHiBob_statJsonEmployment_fc": {
       "hash": "sha256:9a710cbe1f30aff4f1e18b29a0e965245cdb593006d8dd80d3bbac3f998a2a51",
-      "modified": 1780277707207,
-      "modifiedBy": "admin"
+      "modified": 1780277707207
     },
     "Snowflake.connections.cfHiBob_statJson_fc": {
       "hash": "sha256:83fa469912f3892ab0798f2760a8c13420b4c560f345252aa84b5f9714570339",
-      "modified": 1780292785244,
-      "modifiedBy": "admin"
+      "modified": 1780292785244
     },
     "Snowflake.connections.cfHiBob_varEndpoint_fc": {
       "hash": "sha256:1b8d3b4fea01ad488297351a2dc23c41a58a1e694de57cb1b6481464a64c496c",
-      "modified": 1780292123455,
-      "modifiedBy": "admin"
+      "modified": 1780292123455
     },
     "Snowflake.connections.cfHiBob_varHiBobEmploymentEndpointGZIP_fc": {
       "hash": "sha256:9eb2727d92f88a26fd146c91171300a89f0eb0b06c7667ab0040fb4eccc62349",
-      "modified": 1780276190922,
-      "modifiedBy": "admin"
+      "modified": 1780276190922
     },
     "Snowflake.connections.cfHiBob_varHiBobEmploymentEndpoint_fc": {
       "hash": "sha256:328641f33e3351b5c8a0741df3170c32f85d7a57ce2bc82c06f78242419ca8f1",
-      "modified": 1780276154362,
-      "modifiedBy": "admin"
+      "modified": 1780276154362
     },
     "Snowflake.connections.cfHiBob_varHiBobEndpointGZIP_fc": {
       "hash": "sha256:bf3015a3aef1a02d2aa5c1931f4254b49d49e8e776c5685aa2bae63206385058",
-      "modified": 1779947470113,
-      "modifiedBy": "admin"
+      "modified": 1779947470113
     },
     "Snowflake.connections.cfHiBob_varHiBobEndpoint_fc": {
       "hash": "sha256:f45f022670f64c3d2a2034dde5c0b52639942591266ea0a30e403bf64c3da438",
-      "modified": 1779947466261,
-      "modifiedBy": "admin"
+      "modified": 1779947466261
     },
     "Snowflake.connections.cfHiBob_varHiBobMergedEmployment_fc": {
       "hash": "sha256:5de47e66dbae01f5f531320b4c0d3395ea99ee091190f6cdfd3bf4a923d11ff3",
-      "modified": 1780276232976,
-      "modifiedBy": "admin"
+      "modified": 1780276232976
     },
     "Snowflake.connections.cfHiBob_varHiBobMerged_fc": {
       "hash": "sha256:aca74487eaec109593e5eadad78890d82c45ff0911d2efaae5b9732643250386",
-      "modified": 1780292679271,
-      "modifiedBy": "admin"
+      "modified": 1780292679271
     },
     "Snowflake.connections.cfHiBob_varHiBobSalariesEndpointGZIP_fc": {
       "hash": "sha256:16aadae21a549314f5440957c8c17d7d6cee6180456af407265aaef49a1b8f1a",
-      "modified": 1780276179011,
-      "modifiedBy": "admin"
+      "modified": 1780276179011
     },
     "Snowflake.connections.cfHiBob_varMergedJson_fc": {
       "hash": "sha256:fc168a0cb0f9975b49ceaa6f4e43271dac14e253d0a72be0f3f3299680e77f7f",
-      "modified": 1779937304156,
-      "modifiedBy": "admin"
+      "modified": 1779937304156
     },
     "Snowflake.connections.cfJedox_varJedoxFileNameGZIP_fc": {
       "hash": "sha256:abde3de97380e76b072032cde08b0b2be579051e3baff296eed0b4ee4a5f8edc",
-      "modified": 1774491213952,
-      "modifiedBy": "admin"
+      "modified": 1774491213952
     },
     "Snowflake.connections.cfJedox_varJedoxFileName_fc": {
       "hash": "sha256:ae03b7b36c8ef276458b1d15f7199227b68a1cf0c15539717eb6fc0633d500fd",
-      "modified": 1774491205689,
-      "modifiedBy": "admin"
+      "modified": 1774491205689
     },
     "Snowflake.connections.cfRBA_varDailyFXGZIP_fc": {
       "hash": "sha256:7c4a8bb62d96f0bc3e15c2066f75022eae314b3b36c14178ae5802c27d94e5a4",
-      "modified": 1769729606223,
-      "modifiedBy": "admin"
+      "modified": 1769729606223
     },
     "Snowflake.connections.cfRBA_varDailyFX_fc": {
       "hash": "sha256:1b665f47ffbe1d9b7441c82f5f4afdc7bca55d5afd33a7f85227852eb95e39ba",
-      "modified": 1780122887757,
-      "modifiedBy": "admin"
+      "modified": 1780122887757
     },
     "Snowflake.connections.cfRedshit_varRedshiftSchemaTableGZIP_fc": {
       "hash": "sha256:40626ee865de06ef1da7c990ce54bcd8b1a9e3221069087b263915091381363c",
-      "modified": 1766011051545,
-      "modifiedBy": "admin"
+      "modified": 1766011051545
     },
     "Snowflake.connections.cfRedshit_varRedshiftSchemaTable_fc": {
       "hash": "sha256:7dd0e6bc3d21ddbf2e5926a8147f1bcc45a38a72674875e136a8656d6300dcbb",
-      "modified": 1766011038463,
-      "modifiedBy": "admin"
+      "modified": 1766011038463
     },
     "Snowflake.connections.cgLocal_statThinkerbellApplicationManagement_jc": {
       "hash": "sha256:219f177c134871e4c72c98f39905f9559d4453f0693e53665aed7709e68b731b",
-      "modified": 1781249604417,
-      "modifiedBy": "admin"
+      "modified": 1781249604417
     },
     "Snowflake.connections.cgLocal_statThinkerbellApplicationManagement_jc (Old)": {
       "hash": "sha256:57fe26978ae97a8ea5c894f47e8fcf95d52b800e9140dc6d78bb37a461cdd855",
-      "modified": 1781248695610,
-      "modifiedBy": "admin"
+      "modified": 1781248695610
     },
     "Snowflake.connections.cgLocal_statThinkerbell_jc": {
       "hash": "sha256:4d8417af61ebf3e542b5b4d3dae8f2f3ccea946dfc7651c32913bed0da2f6014",
-      "modified": 1781249598577,
-      "modifiedBy": "admin"
+      "modified": 1781249598577
     },
     "Snowflake.connections.cgLocal_statThinkerbell_jc (Old)": {
       "hash": "sha256:1788d6d1e26eb1c448f014d31fea4c775068993d86efbfe96e1b1e5cede2103e",
-      "modified": 1781248555162,
-      "modifiedBy": "admin"
+      "modified": 1781248555162
     },
     "Snowflake.connections.cjdRedshift_statCounta_jdc": {
       "hash": "sha256:6e560221fbf7d42c107c94d73e182b04926589e0920a143cfd2f06c139eb8c4a",
-      "modified": 1765924424756,
-      "modifiedBy": "admin"
+      "modified": 1765924424756
     },
     "Snowflake.connections.coauthAccountability_statToken_oauthc": {
       "hash": "sha256:f9135f2362b093559d709402a24d653caab1801e2579caa8e93b95b9b9572bd2",
-      "modified": 1785122170777,
-      "modifiedBy": "admin"
+      "modified": 1785122170777
     },
     "Snowflake.connections.crAccountabilityAccountingMonths_varAccessToken_rc": {
       "hash": "sha256:dd9bf242fe3a7440ed4fd2fba2a2047304105264fd397e057f27db49dae06286",
-      "modified": 1785383803736,
-      "modifiedBy": "admin"
+      "modified": 1785383803736
     },
     "Snowflake.connections.crAccountabilityAccountingYears_varAccessToken_rc": {
       "hash": "sha256:259933c0f05e8b5e6118f00fd921faf2dfcce2333e6c05d690a1340f7d1b9cd5",
-      "modified": 1785383814421,
-      "modifiedBy": "admin"
+      "modified": 1785383814421
     },
     "Snowflake.connections.crAccountabilityBudgetCategories_varAccessToken_rc": {
       "hash": "sha256:f390f6a89e191a7caf61ebeb7b71c060e2f7e35ca757825d6ab43988fb5ecc2a",
-      "modified": 1785383825579,
-      "modifiedBy": "admin"
+      "modified": 1785383825579
     },
     "Snowflake.connections.crAccountabilityBudgetVersions_varAccessToken_rc": {
       "hash": "sha256:0ddd93e30f09b0ecf9fa028846fa72060af3dc4a814ae8373ece489a3946057e",
-      "modified": 1785383836263,
-      "modifiedBy": "admin"
+      "modified": 1785383836263
     },
     "Snowflake.connections.crAccountabilityBudgetVersions_varAccessToken_rc (2)": {
       "hash": "sha256:d1a0d45255bf7e0918a47d0d7f0e439d4b4b861438e3e51b766f72b18d446bba",
-      "modified": 1785383846828,
-      "modifiedBy": "admin"
+      "modified": 1785383846828
     },
     "Snowflake.connections.crAccountabilityCampaigns_varAccessToken_rc": {
       "hash": "sha256:197745b66974b2771f750fe5f085032c1f814f84a37eb63a90a84a03c0b21863",
-      "modified": 1785383857734,
-      "modifiedBy": "admin"
+      "modified": 1785383857734
     },
     "Snowflake.connections.crAccountabilityChargeTypes_varAccessToken_rc": {
       "hash": "sha256:59bcaecf1575490ae2fd0135328b307895c03b2a848e696139517eb57697c71d",
-      "modified": 1785383866740,
-      "modifiedBy": "admin"
+      "modified": 1785383866740
     },
     "Snowflake.connections.crAccountabilityClientContacts_varAccessToken_rc": {
       "hash": "sha256:bc3f410adee83245e23279f523ba088c11783a7e2c8c3c7d604cfd811da6a7d0",
-      "modified": 1785383877066,
-      "modifiedBy": "admin"
+      "modified": 1785383877066
     },
     "Snowflake.connections.crAccountabilityClientTypes_varAccessToken_rc": {
       "hash": "sha256:9e29a3489742416050581c40fa7673cb01ba53731fa29c1d6b6f1f1c143e18cf",
-      "modified": 1785383895627,
-      "modifiedBy": "admin"
+      "modified": 1785383895627
     },
     "Snowflake.connections.crAccountabilityClients_varAccessToken_rc": {
       "hash": "sha256:8d1b5230cf643d70a3063427e196530594721d87442b40261174bcfc1cdaba2b",
-      "modified": 1785383885064,
-      "modifiedBy": "admin"
+      "modified": 1785383885064
     },
     "Snowflake.connections.crAccountabilityCountries_varAccessToken_rc": {
       "hash": "sha256:1e2d1183fa56575845d1666e701096a1cfcdd8cc98c41b90ce2162125a268b23",
-      "modified": 1785383908397,
-      "modifiedBy": "admin"
+      "modified": 1785383908397
     },
     "Snowflake.connections.crAccountabilityCurrencies_varAccessToken_rc": {
       "hash": "sha256:a3e9b5d59e1a464deb2ba08ff95855963596641d45555acf6cf1bc339f7161d9",
-      "modified": 1785383917895,
-      "modifiedBy": "admin"
+      "modified": 1785383917895
     },
     "Snowflake.connections.crAccountabilityCustomCodes_varAccessToken_rc": {
       "hash": "sha256:b81b830c22c9f4b821f51cbd0f0494c50d470bbbdb9ce52f688f6464f3ff060e",
-      "modified": 1785383927052,
-      "modifiedBy": "admin"
+      "modified": 1785383927052
     },
     "Snowflake.connections.crAccountabilityCustomDataTypes_varAccessToken_rc": {
       "hash": "sha256:93b189721a0158015528bd64b1a1169f75067c6ee4244cf8fc8b4008ae8fd9b8",
-      "modified": 1785383946402,
-      "modifiedBy": "admin"
+      "modified": 1785383946402
     },
     "Snowflake.connections.crAccountabilityCustomData_varAccessToken_rc": {
       "hash": "sha256:db5da6ed9e1370a5520712142e347387fa1ad430609110c27878b99eb294e52a",
-      "modified": 1785383936889,
-      "modifiedBy": "admin"
+      "modified": 1785383936889
     },
     "Snowflake.connections.crAccountabilityDepartments_varAccessToken_rc": {
       "hash": "sha256:9ce9f268ff86970893c4bfd478dac72762a4989f4d166b537d5840e1eee4b3e6",
-      "modified": 1785383957116,
-      "modifiedBy": "admin"
+      "modified": 1785383957116
     },
     "Snowflake.connections.crAccountabilityEmployees_varAccessToken_rc": {
       "hash": "sha256:6465a26a7dd51477af0bb467835fd78733cbd0bc5b48f4ba8e647c074c5cac75",
-      "modified": 1785383148650,
-      "modifiedBy": "admin"
+      "modified": 1785383148650
     },
     "Snowflake.connections.crAccountabilityEstimateEntries_varAccessToken_rc": {
       "hash": "sha256:a3fe2b8b3463131f51e8120d20999cd1af8285127821d760f5ebfc6e6ff98c1c",
-      "modified": 1785383970742,
-      "modifiedBy": "admin"
+      "modified": 1785383970742
     },
     "Snowflake.connections.crAccountabilityEstimatesDeleted_varAccessToken_rc": {
       "hash": "sha256:201d57b1bcb371811e7e585312f53a35f9a2f7337c32dad0f559ee8ecddb71e4",
-      "modified": 1785384033445,
-      "modifiedBy": "admin"
+      "modified": 1785384033445
     },
     "Snowflake.connections.crAccountabilityEstimates_varAccessToken_rc": {
       "hash": "sha256:43daf518e5a183f64b0ef24fb7e7ffc04880cbf5d7b75c08d1b8349520dfc6b4",
-      "modified": 1785383982357,
-      "modifiedBy": "admin"
+      "modified": 1785383982357
     },
     "Snowflake.connections.crAccountabilityEstimates_varAccessToken_rc_ByID": {
       "hash": "sha256:10903a867f9fd2c0a3cd625dace12fd0cb5b9a1d7564e74d7f67d078faedcf89",
-      "modified": 1785383990776,
-      "modifiedBy": "admin"
+      "modified": 1785383990776
     },
     "Snowflake.connections.crAccountabilityEstimates_varAccessToken_rc_Sandbox": {
       "hash": "sha256:9a3af421f996bd702d7a863849081f072ef1e9809ee62b1b780192157537767b",
-      "modified": 1785384023211,
-      "modifiedBy": "admin"
+      "modified": 1785384023211
     },
     "Snowflake.connections.crAccountabilityGeneralLedgerAccounts_varAccessToken_rc": {
       "hash": "sha256:eff83aad286f163cfac8be3f312b6449ba8f625aeabc32aa1cc42ccb4625ed51",
-      "modified": 1785384041495,
-      "modifiedBy": "admin"
+      "modified": 1785384041495
     },
     "Snowflake.connections.crAccountabilityGeneralLedgerReportGroups_varAccessToken_rc": {
       "hash": "sha256:5dd8b2d5ccb35a274e457a8d48f3b9a37f58ebf5937b1eab8c924e9e70517583",
-      "modified": 1785384049760,
-      "modifiedBy": "admin"
+      "modified": 1785384049760
     },
     "Snowflake.connections.crAccountabilityGeneralLedgerTransactions_varAccessToken_rc": {
       "hash": "sha256:62582328f7190ed7eb06c691bd11208b5c77dc0b6762fcccb1709c60a368375c",
-      "modified": 1785122170584,
-      "modifiedBy": "admin"
+      "modified": 1785122170584
     },
     "Snowflake.connections.crAccountabilityJobTypes_varAccessToken_rc": {
       "hash": "sha256:0cd3a15a32bc98dca2486fceaae7e6e095b8b871967ce8e8fb634449bc015f5f",
-      "modified": 1785384072517,
-      "modifiedBy": "admin"
+      "modified": 1785384072517
     },
     "Snowflake.connections.crAccountabilityJobs_varAccessToken_rc": {
       "hash": "sha256:d97bf8299dcac38ece0779377b2660fe70ef9e4230760457aa58610659e57a69",
-      "modified": 1785384063715,
-      "modifiedBy": "admin"
+      "modified": 1785384063715
     },
     "Snowflake.connections.crAccountabilityJournalEntries_varAccessToken_rc": {
       "hash": "sha256:8916cf40d68e3b74936c5831524f90ff70bc5f5ad3f3a87f466d6147ee4218d0",
-      "modified": 1785122170718,
-      "modifiedBy": "admin"
+      "modified": 1785122170718
     },
     "Snowflake.connections.crAccountabilityJournals_varAccessToken_rc": {
       "hash": "sha256:d3fd89760c694a92c6944074bfb854fe9fa4d3085e787b0d720a912f4a55896c",
-      "modified": 1785122170646,
-      "modifiedBy": "admin"
+      "modified": 1785122170646
     },
     "Snowflake.connections.crAccountabilityLeaveTypes_varAccessToken_rc": {
       "hash": "sha256:0f7da886eb5f804a39e67c47c7d4a35a4bab9b7e895903ce1b6313396797de46",
-      "modified": 1785384098506,
-      "modifiedBy": "admin"
+      "modified": 1785384098506
     },
     "Snowflake.connections.crAccountabilityLeaves_varAccessToken_rc": {
       "hash": "sha256:e4954350ae023aa11a6d1bb979134d252e43940a1cb4fd7b4c1aaf2b0c099af5",
-      "modified": 1785384088862,
-      "modifiedBy": "admin"
+      "modified": 1785384088862
     },
     "Snowflake.connections.crAccountabilityOffices_varAccessToken_rc": {
       "hash": "sha256:263c908e9dbe5402fc8da0076bace1af2cb37b1bc0a06474cf6a46fe529b614d",
-      "modified": 1785384114155,
-      "modifiedBy": "admin"
+      "modified": 1785384114155
     },
     "Snowflake.connections.crAccountabilityPayments_varAccessToken_rc": {
       "hash": "sha256:5862d3774309e7914a579e867fa0330dcf81837c91fc4c4bd168aa4dcc8fc3cc",
-      "modified": 1785384123765,
-      "modifiedBy": "admin"
+      "modified": 1785384123765
     },
     "Snowflake.connections.crAccountabilityProbabilities_varAccessToken_rc": {
       "hash": "sha256:92e7195c977dc9e1ae03e87de77c36f8dfd1fa586a2d094d2d45cc1ed7025cf0",
-      "modified": 1785384132546,
-      "modifiedBy": "admin"
+      "modified": 1785384132546
     },
     "Snowflake.connections.crAccountabilityProducts_varAccessToken_rc": {
       "hash": "sha256:048932d5edfa9594066c21b71b706c6132ffcc04c8461a34f7d6013482955b3b",
-      "modified": 1785384145435,
-      "modifiedBy": "admin"
+      "modified": 1785384145435
     },
     "Snowflake.connections.crAccountabilityPublicHolidays_varAccessToken_rc": {
       "hash": "sha256:6e6cd5eaa5c39afc5dad8b8472fd84ce19af57c9cf577510ef9e754cafbac6a2",
-      "modified": 1785384152981,
-      "modifiedBy": "admin"
+      "modified": 1785384152981
     },
     "Snowflake.connections.crAccountabilityPurchaseOrders_varAccessToken_rc": {
       "hash": "sha256:2831610bc215a04dbf6da405ed18161730d7ddfe3ffd1cfd1b90234ced40f033",
-      "modified": 1785384165196,
-      "modifiedBy": "admin"
+      "modified": 1785384165196
     },
     "Snowflake.connections.crAccountabilityRoles_varAccessToken_rc": {
       "hash": "sha256:6d6510a4767cc05e314a4f8b58d45143ca7a1095fec04076d444dd3919c54acc",
-      "modified": 1785384174842,
-      "modifiedBy": "admin"
+      "modified": 1785384174842
     },
     "Snowflake.connections.crAccountabilitySuppliers_varAccessToken_rc": {
       "hash": "sha256:0a5b9fb1fb6067ed473d9e475ca0b6c58c24f7e60a99776990ee73414eab93dd",
-      "modified": 1785384184608,
-      "modifiedBy": "admin"
+      "modified": 1785384184608
     },
     "Snowflake.connections.crAccountabilityTaskTypeHeadings_varAccessToken_rc": {
       "hash": "sha256:4e7f983243b72ecbda18112ebb3d936a7b55b6bdc929314aa31c15b52a3fd851",
-      "modified": 1785384192685,
-      "modifiedBy": "admin"
+      "modified": 1785384192685
     },
     "Snowflake.connections.crAccountabilityTaskTypeOfficeRates_varAccessToken_rc": {
       "hash": "sha256:817ec1bee9879dbb00ab4aec1e256186911b8f551f55e62a1bb475d69613381c",
-      "modified": 1785384201836,
-      "modifiedBy": "admin"
+      "modified": 1785384201836
     },
     "Snowflake.connections.crAccountabilityTaskTypes_varAccessToken_rc": {
       "hash": "sha256:86ed367e355376e006bd7bb2ea78e5ce4554b0c061f55aaed31f7d7197e3ec77",
-      "modified": 1785384211209,
-      "modifiedBy": "admin"
+      "modified": 1785384211209
     },
     "Snowflake.connections.crAccountabilityTaxCodes_varAccessToken_rc": {
       "hash": "sha256:433675b9045152253ae4308ae30cb36cd5220263679f4033a29f544de21fde8f",
-      "modified": 1785384220427,
-      "modifiedBy": "admin"
+      "modified": 1785384220427
     },
     "Snowflake.connections.crAccountabilityTimeEntries_varAccessToken_rc": {
       "hash": "sha256:093f678cc5fed2c2a3399a6c18e749d3ee1f9d44eba4682dc3cd975c64594054",
-      "modified": 1785384231235,
-      "modifiedBy": "admin"
+      "modified": 1785384231235
     },
     "Snowflake.connections.crAccountabilityTimeLines_varAccessToken_rc": {
       "hash": "sha256:b183919818045238ba64890f17969abf6992e48b139ba5a4753699ff11fa5546",
-      "modified": 1785384239331,
-      "modifiedBy": "admin"
+      "modified": 1785384239331
     },
     "Snowflake.connections.crAccountabilityTimeLines_varAccessToken_rc (2)": {
       "hash": "sha256:7d7c8edc939bbec0e09edde13e258fb83f1580e0e5d2f9c8945f81b27e36d5ad",
-      "modified": 1785384247978,
-      "modifiedBy": "admin"
+      "modified": 1785384247978
     },
     "Snowflake.connections.crAccountabilityTimeSheets_varAccessToken_rc": {
       "hash": "sha256:a6714b290af49d353315d3864a87f17b18a7da8090487b211d664a17352a75bd",
-      "modified": 1785384260970,
-      "modifiedBy": "admin"
+      "modified": 1785384260970
     },
     "Snowflake.connections.crAccountabilityTitles_varAccessToken_rc": {
       "hash": "sha256:309354545fd7400379272aa9addf52a3b32863ed071e71c2ca07359be5f39ced",
-      "modified": 1785384306683,
-      "modifiedBy": "admin"
+      "modified": 1785384306683
     },
     "Snowflake.connections.crAccountabilityToken_statPassword_rc": {
       "hash": "sha256:55d9915f71c01f811d4aa528802a7f94b0bcab4ec04047b20055ab5527dfe304",
-      "modified": 1779833603642,
-      "modifiedBy": "admin"
+      "modified": 1779833603642
     },
     "Snowflake.connections.crAccountabilityToken_varRefreshToken_rc": {
       "hash": "sha256:e95887ecc401dedf639d1c5a91013620c9120a26c0dbb1f2dd98bb6a4e40911e",
-      "modified": 1779834234747,
-      "modifiedBy": "admin"
+      "modified": 1779834234747
     },
     "Snowflake.connections.crAccountabilityTransactionTypes_varAccessToken_rc": {
       "hash": "sha256:0e7c49826de072d6a6eb4eb51baa20f5cd6e67eaa14f0da676e9f136e643b1b9",
-      "modified": 1785384322435,
-      "modifiedBy": "admin"
+      "modified": 1785384322435
     },
     "Snowflake.connections.crAccountabilityUserAccessGroups_varAccessToken_rc": {
       "hash": "sha256:087651051abd8459a374e09b00447f449988b3bc22f0e83afdda52fcb3b80d4d",
-      "modified": 1785384329423,
-      "modifiedBy": "admin"
+      "modified": 1785384329423
     },
     "Snowflake.connections.crFloatAccounts_varFloatTokenPage_rc": {
       "hash": "sha256:e50ad7d040ddc684e876eaec3c534d3822f400724322ca04d39791e91758dc5d",
-      "modified": 1779662339032,
-      "modifiedBy": "admin"
+      "modified": 1779662339032
     },
     "Snowflake.connections.crFloatClients_varFloatTokenPage_rc": {
       "hash": "sha256:977b7c2179142197705335719959523dd902b73e7f52508b103a22b7786b7971",
-      "modified": 1765493620937,
-      "modifiedBy": "admin"
+      "modified": 1765493620937
     },
     "Snowflake.connections.crFloatDepartments_varFloatTokenPage_rc": {
       "hash": "sha256:d87c09a90846c88057973fe817ac9e53c57a331d95225d77455d367bc1bfb17a",
-      "modified": 1765492655182,
-      "modifiedBy": "admin"
+      "modified": 1765492655182
     },
     "Snowflake.connections.crFloatHolidays_varFloatTokenPage_rc": {
       "hash": "sha256:860bd5267591fc1a81472e6c6c8f4ad442286685b54ac2e9321c17dc4128502c",
-      "modified": 1765493761618,
-      "modifiedBy": "admin"
+      "modified": 1765493761618
     },
     "Snowflake.connections.crFloatLogged-Time_varFloatTokenPage_rc": {
       "hash": "sha256:30482ab3a15ef87b40fc0501e3e50725be960f9c086981f0cd8e10c013383964",
-      "modified": 1765495811020,
-      "modifiedBy": "admin"
+      "modified": 1765495811020
     },
     "Snowflake.connections.crFloatMilestones_varFloatTokenPage_rc": {
       "hash": "sha256:abd4179235f1bdf5aa1e4325712e376a250ddae8ac5b4c7a2bb5d7f715f270f0",
-      "modified": 1765495670001,
-      "modifiedBy": "admin"
+      "modified": 1765495670001
     },
     "Snowflake.connections.crFloatPeople_varFloatTokenPage_rc": {
       "hash": "sha256:76d61fb862bfc0ad4ab28c150bdf85f780062055a2d7af00071b2a7b312247b2",
-      "modified": 1765492668284,
-      "modifiedBy": "admin"
+      "modified": 1765492668284
     },
     "Snowflake.connections.crFloatPhases_varFloatTokenPage_rc": {
       "hash": "sha256:159733a32b04fb9e4890f1aac88e75729a14c8c51cfe532ed3e7682e5ecec9ca",
-      "modified": 1765494893460,
-      "modifiedBy": "admin"
+      "modified": 1765494893460
     },
     "Snowflake.connections.crFloatProject-Expenses_varFloatTokenPage_rc": {
       "hash": "sha256:6002cbf8d56bcfcbd2e057108b2f417679c14569dacee9c48033c880d3325851",
-      "modified": 1765495370859,
-      "modifiedBy": "admin"
+      "modified": 1765495370859
     },
     "Snowflake.connections.crFloatProject-Stages_varFloatTokenPage_rc": {
       "hash": "sha256:e273f47f19b46d3ad0e5b81b74c843674ee9548cdeca15ee0e304ebb4ebd39f4",
-      "modified": 1765495118803,
-      "modifiedBy": "admin"
+      "modified": 1765495118803
     },
     "Snowflake.connections.crFloatProject-Tasks_varFloatTokenPage_rc": {
       "hash": "sha256:976c6fd08945bc6439c230f31df4cfdc23169d29d1fe2cdf771021a83c556346",
-      "modified": 1765495249595,
-      "modifiedBy": "admin"
+      "modified": 1765495249595
     },
     "Snowflake.connections.crFloatProjects_varFloatTokenPage_rc": {
       "hash": "sha256:5fb4da867a6f4406d02fd47e4f01404e9f638825baca2fca4536b3dc694ccdea",
-      "modified": 1765495123049,
-      "modifiedBy": "admin"
+      "modified": 1765495123049
     },
     "Snowflake.connections.crFloatProjects_varFloatTokenPage_rc (2)": {
       "hash": "sha256:2611c8410b5ccc0156578ea6948ca17e8f8d0827fc908d6ed7a84b6f222ceddd",
-      "modified": 1770943342933,
-      "modifiedBy": "admin"
+      "modified": 1770943342933
     },
     "Snowflake.connections.crFloatPublic-Holidays_varFloatTokenPage_rc": {
       "hash": "sha256:0225a5f41fcb339a2c78dde4a24fc12de0be7d3500a7103aa57ce52839284a8e",
-      "modified": 1765493766425,
-      "modifiedBy": "admin"
+      "modified": 1765493766425
     },
     "Snowflake.connections.crFloatReports-People_varFloatTokenPage_rc": {
       "hash": "sha256:9dadf2eec031d380c7d3124a028b2a201bbd46ab3fe9212e126ea52f211538ae",
-      "modified": 1765497209509,
-      "modifiedBy": "admin"
+      "modified": 1765497209509
     },
     "Snowflake.connections.crFloatReports-Projects_varFloatTokenPage_rc": {
       "hash": "sha256:c7d72867e495f32c01833a9deae1ddcfc0e7d39b0a34f39f2388363e0752da9f",
-      "modified": 1765497215465,
-      "modifiedBy": "admin"
+      "modified": 1765497215465
     },
     "Snowflake.connections.crFloatRoles_varFloatTokenPage_rc": {
       "hash": "sha256:ea350234ff517c35047e7d0c305221cda4eaa2b1bd419ef458ed05e034df4f02",
-      "modified": 1765492677944,
-      "modifiedBy": "admin"
+      "modified": 1765492677944
     },
     "Snowflake.connections.crFloatTasks_varFloatTokenPage_rc": {
       "hash": "sha256:1cce5b287d699dec9c642db385df286a988831c1434ccbdf7babbfdbb60c3e01",
-      "modified": 1765492692600,
-      "modifiedBy": "admin"
+      "modified": 1765492692600
     },
     "Snowflake.connections.crFloatTimeoff-Types_varFloatTokenPage_rc": {
       "hash": "sha256:9b1232f74b268edfceaab89454e2360e8bb2271e8429e751d91cbb172f567017",
-      "modified": 1765492704246,
-      "modifiedBy": "admin"
+      "modified": 1765492704246
     },
     "Snowflake.connections.crFloatTimeoffs_varFloatTokenPage_rc": {
       "hash": "sha256:e7a362cf13915808e96b7416ac743b2c0ad1979ede7f7687519c3c8bbdb14a15",
-      "modified": 1765492805283,
-      "modifiedBy": "admin"
+      "modified": 1765492805283
     },
     "Snowflake.connections.crPostEmployee_rc": {
       "hash": "sha256:2434938e120869de7c32dfc86fcd0759587ce7d3e21c97b37daad8a987281aeb",
-      "modified": 1785384352476,
-      "modifiedBy": "admin"
+      "modified": 1785384352476
     },
     "Snowflake.connections.crPutEmployee_rc": {
       "hash": "sha256:1ee5512ec1a3f34918368126e20815386e9b7fc447b0223395f9cb60d9ad8d3d",
-      "modified": 1785384361372,
-      "modifiedBy": "admin"
+      "modified": 1785384361372
     },
     "Snowflake.connections.crestHiBob_statCustomTables_rc": {
       "hash": "sha256:3ca16e1b77d9578c465b0d199af9ecc36f52250ce907264217e1955560486e6f",
-      "modified": 1779684204141,
-      "modifiedBy": "admin"
+      "modified": 1779684204141
     },
     "Snowflake.connections.crestHiBob_statEmployeeEndDate_rc": {
       "hash": "sha256:50c1a80475b4b41d64f6e62165ca0ea2bc28c2576b8798e97548cceb7525f500",
-      "modified": 1786423329866,
-      "modifiedBy": "admin"
+      "modified": 1786423329866
     },
     "Snowflake.connections.crestHiBob_statEmployment_rc": {
       "hash": "sha256:53b918b9c7ac2ae7b92e26e76ea25ccecb40d4a30ef5557343d0910135086c28",
-      "modified": 1780286255925,
-      "modifiedBy": "admin"
+      "modified": 1780286255925
     },
     "Snowflake.connections.crestHiBob_statProfiles_rc": {
       "hash": "sha256:aaf058090f785653d43681ba31bec63cba342fe01f4dcf129790166cf84697ed",
-      "modified": 1779684211423,
-      "modifiedBy": "admin"
+      "modified": 1779684211423
     },
     "Snowflake.connections.crestHiBob_statSalaries_rc": {
       "hash": "sha256:8bfaf02b6f7f58c83aabaa47c2311b7e6471c9af221df0c059116b0bcc03b8a6",
-      "modified": 1780037937134,
-      "modifiedBy": "admin"
+      "modified": 1780037937134
     },
     "Snowflake.connections.crestHiBob_varEmploymentCursor_rc": {
       "hash": "sha256:b8a30b697c8b83da4f546aa167df1b6ed533d8d26e185767aa09bfda0e87fc2f",
-      "modified": 1780276343244,
-      "modifiedBy": "admin"
+      "modified": 1780276343244
     },
     "Snowflake.connections.crestHiBob_varEmployment_rc": {
       "hash": "sha256:a77171dd5cfaa371a9a3c8dab1b0908c57f7ca54290f291dce303488c3e89426",
-      "modified": 1780292490338,
-      "modifiedBy": "admin"
+      "modified": 1780292490338
     },
     "Snowflake.connections.crestHiBob_varNamedLists_rc": {
       "hash": "sha256:7342ef98429fe836805894e7a36c0e3478d2eca1758b9e1385a2a762d35d16d4",
-      "modified": 1780026795215,
-      "modifiedBy": "admin"
+      "modified": 1780026795215
     },
     "Snowflake.connections.crestHiBob_varPeopleFields_rc": {
       "hash": "sha256:799c0857b56da00329007763e1a6a92f9d233f919524c819d43cdd7cd40e66a7",
-      "modified": 1780026803210,
-      "modifiedBy": "admin"
+      "modified": 1780026803210
     },
     "Snowflake.connections.crestHiBob_varPolicyTypes_rc": {
       "hash": "sha256:3509ab4a4843921f733f7978b974b75967a3966fcaa41764c44acc2b7c0682e5",
-      "modified": 1780026812345,
-      "modifiedBy": "admin"
+      "modified": 1780026812345
     },
     "Snowflake.connections.crestHiBob_varSalariesCursor_rc": {
       "hash": "sha256:ff1bc8edb8e07d34742acbfd1b150a9c7d7b62743482cc6b80eb3d2bdd5c9059",
-      "modified": 1780276307067,
-      "modifiedBy": "admin"
+      "modified": 1780276307067
     },
     "Snowflake.connections.crestHiBob_varSalaries_rc": {
       "hash": "sha256:36da733ff3b086c5cb9b53c3945252122efceca259852be56a0759e3be16d856",
-      "modified": 1780292462160,
-      "modifiedBy": "admin"
+      "modified": 1780292462160
     },
     "Snowflake.connections.crestHiBob_var_LeaveChanges_rc": {
       "hash": "sha256:22e86b84bf34dcb3c8ab55d7a53e353ae7f9f2e9eff4600ce2d47d53c1f0c033",
-      "modified": 1785391785124,
-      "modifiedBy": "admin"
+      "modified": 1785391785124
     },
     "Snowflake.connections.crestHiBob_var_Leaves_rc": {
       "hash": "sha256:6ed8fff86f6df706e394d1199dd4942e1551b403d9fe43bb5e9e4020ed3d47f1",
-      "modified": 1785391853164,
-      "modifiedBy": "admin"
+      "modified": 1785391853164
     },
     "Snowflake.connections.csfAccountabilityLoader_Global_sc": {
       "hash": "sha256:c21a86303f5c669d0767f08535f16ab39a5fa857a56c6d3bdad71652ad612580",
-      "modified": 1780123496849,
-      "modifiedBy": "admin"
+      "modified": 1780123496849
     },
     "Snowflake.connections.csfFloatLoader_Global_sc": {
       "hash": "sha256:690e53474e269664cdccd8c97a8811cf16fbdcc700c084f1404dd87cd975857a",
-      "modified": 1780123531117,
-      "modifiedBy": "admin"
+      "modified": 1780123531117
     },
     "Snowflake.connections.csfHiBobLoader_Global_sc": {
       "hash": "sha256:8ed2a023928ca43d1bfc4649c214fb203ef359e74d9f407eac3ec0c5995386b3",
-      "modified": 1780123556914,
-      "modifiedBy": "admin"
+      "modified": 1780123556914
     },
     "Snowflake.connections.csfJedoxIntegrator_Global_sc": {
       "hash": "sha256:28ee945bc3ffcdef8f3eb56591abb1e332c35e21935b7034ce7a1ebf4a89f7d0",
-      "modified": 1783556734315,
-      "modifiedBy": "admin"
+      "modified": 1783556734315
     },
     "Snowflake.connections.csfRBALoader_Global_sc": {
       "hash": "sha256:c370f02422a587f10d4fbe8d440f49446047bc0334724313850281ae99438b28",
-      "modified": 1780123661080,
-      "modifiedBy": "admin"
+      "modified": 1780123661080
     },
     "Snowflake.extracts.New Metadata extract": {
       "hash": "sha256:4f009f4e73e7298996936d3a05f5d70515615d57683228afe1495680095b2ff4",
-      "modified": 1768450814233,
-      "modifiedBy": "admin"
+      "modified": 1768450814233
     },
     "Snowflake.extracts.New Relational extract": {
       "hash": "sha256:603079e8b587e81432661cb740350cfb0fdeb1725c21bf374731739f8099e5b5",
-      "modified": 1780384140311,
-      "modifiedBy": "admin"
+      "modified": 1780384140311
     },
     "Snowflake.extracts.xcClientHeadMapping_statCHFinal_ce": {
       "hash": "sha256:6d53f5e3b79e324c0e4d34ed9abecbfa143028b44304aa5e1d10850af323eece",
-      "modified": 1781249597448,
-      "modifiedBy": "admin"
+      "modified": 1781249597448
     },
     "Snowflake.extracts.xcRevenuePlanningEstimate_statAll_ce": {
       "hash": "sha256:7145e945adffd19fa4c2cba60b7cfb4bd838b9526afd1b6ba397e25b20d43c03",
-      "modified": 1781674355769,
-      "modifiedBy": "admin"
+      "modified": 1781674355769
     },
     "Snowflake.extracts.xcRevenuePlanning_statNoClientHead_ce": {
       "hash": "sha256:c25f025bcf82f515bba5d0396e69b1c2d41be1932b78b467387955ed2bb0ce1e",
-      "modified": 1782812983079,
-      "modifiedBy": "admin"
+      "modified": 1782812983079
     },
     "Snowflake.extracts.xcRevenuePlanning_varFYCurrentActual_ce": {
       "hash": "sha256:26ccc5ccb000c779c9bd04716c90fd0cbc3d4e90b05428036a38c55d415e9488",
-      "modified": 1784691278397,
-      "modifiedBy": "admin"
+      "modified": 1784691278397
     },
     "Snowflake.extracts.xcRevenuePlanning_varFYCurrentEstimate_ce": {
       "hash": "sha256:462ab7c51d629c370437567a45bc8002d674929a45f8348b54b01ab2890c12c0",
-      "modified": 1784691217737,
-      "modifiedBy": "admin"
+      "modified": 1784691217737
     },
     "Snowflake.extracts.xcRevenueTrackerVersion_statEstAct_ce": {
       "hash": "sha256:b4b7d6928e9b5afa041bc1da6a2e2fbbcc4b8fb9ee174ae5e2b39d841ec32e63",
-      "modified": 1783660561523,
-      "modifiedBy": "admin"
+      "modified": 1783660561523
     },
     "Snowflake.extracts.xdAccountabilityEmails_statAll_de": {
       "hash": "sha256:38abc6e6ee25024e3811dd08ddc602c35734529f1370a82db4eabc2e6d9f6737",
-      "modified": 1781249603873,
-      "modifiedBy": "admin"
+      "modified": 1781249603873
     },
     "Snowflake.extracts.xdAccountabilityEndpoint_statAll_de": {
       "hash": "sha256:d8d71e6aa3115cc5e2365e296e8ae4a0c468580aa5deb6169c8434d961445fa2",
-      "modified": 1781249603726,
-      "modifiedBy": "admin"
+      "modified": 1781249603726
     },
     "Snowflake.extracts.xdEstimate_statBase_de": {
       "hash": "sha256:6c5cc0981f725e6fc83c7b1c7729684831eb8f69ea7c20a515173a2029898ced",
-      "modified": 1785117620112,
-      "modifiedBy": "admin"
+      "modified": 1785117620112
     },
     "Snowflake.extracts.xdFloatEndpoint_statAll_de": {
       "hash": "sha256:0d6641b51df98879b198566b39ba4f4d0376c0239b733355d38246d51620dd66",
-      "modified": 1781249603824,
-      "modifiedBy": "admin"
+      "modified": 1781249603824
     },
     "Snowflake.extracts.xdHiBobDepartment_statAll_de": {
       "hash": "sha256:3ad5ec3bddc1e519fad68e16ad14433649be7784ea09f90bb10156477633744e",
-      "modified": 1781249597771,
-      "modifiedBy": "admin"
+      "modified": 1781249597771
     },
     "Snowflake.extracts.xdHiBobEndpoint_statAll_de": {
       "hash": "sha256:46d3256a43f75f5470865a81bb0e9c9de926552b612ab603831d1cb6e4ae7dd6",
-      "modified": 1781249604202,
-      "modifiedBy": "admin"
+      "modified": 1781249604202
     },
     "Snowflake.extracts.xdHiBobOffice_statAll_de": {
       "hash": "sha256:e538b47ab323d7547ec0d3b06c6191170a5042cffaa8c0960dba5cf449a07a12",
-      "modified": 1781249597507,
-      "modifiedBy": "admin"
+      "modified": 1781249597507
     },
     "Snowflake.extracts.xdHiBobPolicyTypes_statAll_de": {
       "hash": "sha256:f7b519eaddfad4230b330c4ff08bd73e4a61a54eb107dd0e8a0d870be25a7a93",
-      "modified": 1781249604308,
-      "modifiedBy": "admin"
+      "modified": 1781249604308
     },
     "Snowflake.extracts.xdHiBobTaskType_statAll_de": {
       "hash": "sha256:731b3049541401e9f3184e9b081caec941a21d4b0dd3f459a9fb37ee7af80444",
-      "modified": 1781249597617,
-      "modifiedBy": "admin"
+      "modified": 1781249597617
     },
     "Snowflake.extracts.xdHiBobTitle_statAll_de": {
       "hash": "sha256:83ae75cb070f71c48f38bd523b3615aa09178e2e060308d660689093a3bbdaa6",
-      "modified": 1781249597396,
-      "modifiedBy": "admin"
+      "modified": 1781249597396
     },
     "Snowflake.extracts.xdJedoxFiles_statAll_de": {
       "hash": "sha256:62fc63b26904e1052a6e08025cb8bc1667f4f7b6430c86b229501d29f96f10eb",
-      "modified": 1781249603673,
-      "modifiedBy": "admin"
+      "modified": 1781249603673
     },
     "Snowflake.extracts.xfAccountabilityBlank_statAll_fe": {
       "hash": "sha256:7eb309edfb4834326698695be4af73b02832a1e8b8c829d2d0e8af241efb0573",
-      "modified": 1769489433358,
-      "modifiedBy": "admin"
+      "modified": 1769489433358
     },
     "Snowflake.extracts.xfAccountabilityChargeableRates_statAll_fe": {
       "hash": "sha256:52e9e1733e49d427f79b27efdf8f95f3e8cb49fb5004202f4cf6d733299b6f62",
-      "modified": 1769649929156,
-      "modifiedBy": "admin"
+      "modified": 1769649929156
     },
     "Snowflake.extracts.xfAccountabilityEstimateEntries_statAll_fe": {
       "hash": "sha256:c12999739811710476e50e51c817efc86a6110f1c4453b843e708e65627b4108",
-      "modified": 1772504786770,
-      "modifiedBy": "admin"
+      "modified": 1772504786770
     },
     "Snowflake.extracts.xfAccountabilityJournalEntries_statAll_fe": {
       "hash": "sha256:b089db7fd8e2118ae1450e1910ecf3090e0124ac621b8bd587c8f935f5a33e90",
-      "modified": 1772503803725,
-      "modifiedBy": "admin"
+      "modified": 1772503803725
     },
     "Snowflake.extracts.xfFXrates_statAll20142017_fe": {
       "hash": "sha256:232bcaf92dab2a9ee81eed5fcab0170b17ecf48171c824f9c68403f06978d070",
-      "modified": 1780122432538,
-      "modifiedBy": "admin"
+      "modified": 1780122432538
     },
     "Snowflake.extracts.xfFXrates_statAll20182022_fe": {
       "hash": "sha256:11bed374257df18b9421ff2462589f5fa158c9a6b136c4b36262f436d66b7f28",
-      "modified": 1780122450515,
-      "modifiedBy": "admin"
+      "modified": 1780122450515
     },
     "Snowflake.extracts.xfFXrates_statAll2023Curr_fe": {
       "hash": "sha256:577ebad17e61c0583cffe4f81ce0a85eee2e83d3f24d9650c8688eaaec95d606",
-      "modified": 1780122472111,
-      "modifiedBy": "admin"
+      "modified": 1780122472111
     },
     "Snowflake.extracts.xfFXrates_statSkipRows_fe": {
       "hash": "sha256:98dee740980f328d07b4be124b42267cab88727bf8aaf699aefc6f067144eb5e",
-      "modified": 1769728051423,
-      "modifiedBy": "admin"
+      "modified": 1769728051423
     },
     "Snowflake.extracts.xfHiBobLatestCursor_stat_fe": {
       "hash": "sha256:3957288913ba2e5b9cb5463ca21f95475870edd4dec7ac0e38c25329779a3184",
-      "modified": 1780292315064,
-      "modifiedBy": "admin"
+      "modified": 1780292315064
     },
     "Snowflake.extracts.xfHiBobLatestEmploymentCursor_stat_fe": {
       "hash": "sha256:57af5fa9c32522e36b0ae9087ed46374be4cc7327825b87bf75ee1886e4146cb",
-      "modified": 1780288644706,
-      "modifiedBy": "admin"
+      "modified": 1780288644706
     },
     "Snowflake.extracts.xfHiBobMergeEmploymentFiles_statAll_fe": {
       "hash": "sha256:82cfd1e6b4a6e196fa293b085ed2605848191cff6de97ae2068b5e4f7d254d3a",
-      "modified": 1780276604954,
-      "modifiedBy": "admin"
+      "modified": 1780276604954
     },
     "Snowflake.extracts.xfHiBobMergeFiles_statAll_fe": {
       "hash": "sha256:606a29c616dfe9a52156081fa1c0391635f80a66a8cec48f9b11dafe6d5713c3",
-      "modified": 1780292714663,
-      "modifiedBy": "admin"
+      "modified": 1780292714663
     },
     "Snowflake.extracts.xjAccountabilityAccountingMonths_statColumns_je": {
       "hash": "sha256:ef492dcfdc2a5b73894ae74ce0d1b2cfbd574b22a8a6d4df5d1bf8614fb728ac",
-      "modified": 1768540797043,
-      "modifiedBy": "admin"
+      "modified": 1768540797043
     },
     "Snowflake.extracts.xjAccountabilityAccountingYears_statColumns_je": {
       "hash": "sha256:2416c9fa7d6dae8354fa51d308d4bc3e7b9823632c3ba6f28cb425ed35150679",
-      "modified": 1768540839374,
-      "modifiedBy": "admin"
+      "modified": 1768540839374
     },
     "Snowflake.extracts.xjAccountabilityBudgetCategories_statColumns_je": {
       "hash": "sha256:378d7decd5e53772045a3d8766add470439aa2f629ab58e4ddc0be71ba36b84a",
-      "modified": 1768977571239,
-      "modifiedBy": "admin"
+      "modified": 1768977571239
     },
     "Snowflake.extracts.xjAccountabilityBudgetVersions_statColumns_je": {
       "hash": "sha256:4828fc8ac906ede69a3cc59b32347315dca21d802577e973747a73efe5e90995",
-      "modified": 1768977605094,
-      "modifiedBy": "admin"
+      "modified": 1768977605094
     },
     "Snowflake.extracts.xjAccountabilityCampaigns_statColumns_je": {
       "hash": "sha256:49e0801d8bfac175000b7b3619bed34d7da6cdf6188efabdb1996948bce7f5cf",
-      "modified": 1768187380102,
-      "modifiedBy": "admin"
+      "modified": 1768187380102
     },
     "Snowflake.extracts.xjAccountabilityChargeTypes_statColumns_je": {
       "hash": "sha256:c710058fcb5b0cc1ee94ad0e862cd0440aee9ee8e3d6b94389dcfca364a1148d",
-      "modified": 1768540565815,
-      "modifiedBy": "admin"
+      "modified": 1768540565815
     },
     "Snowflake.extracts.xjAccountabilityClientContacts_statColumns_je": {
       "hash": "sha256:b1457ae013ef5acbd70e19d80ecb2bc749a2262cbad9b57a383d39804d634965",
-      "modified": 1768977717881,
-      "modifiedBy": "admin"
+      "modified": 1768977717881
     },
     "Snowflake.extracts.xjAccountabilityClientTypes_statColumns_je": {
       "hash": "sha256:536979041a1c6cd25b261c2451e521feb0bade5577abeef9412688ebee575271",
-      "modified": 1766106051357,
-      "modifiedBy": "admin"
+      "modified": 1766106051357
     },
     "Snowflake.extracts.xjAccountabilityClients_statColumns_je": {
       "hash": "sha256:b5b685dd472581b3e85487a7d83c6f345a2eb33ea7236d818e649915ae707e23",
-      "modified": 1766036564610,
-      "modifiedBy": "admin"
+      "modified": 1766036564610
     },
     "Snowflake.extracts.xjAccountabilityCountries_statColumns_je": {
       "hash": "sha256:8f66c2bb8780d3bfc9fc383c01fbff8380bfa87ab1b6eb4e299559a4a07f6275",
-      "modified": 1767578322175,
-      "modifiedBy": "admin"
+      "modified": 1767578322175
     },
     "Snowflake.extracts.xjAccountabilityCurrencies_statColumns_je": {
       "hash": "sha256:56f2ae4da4642df04d9ba239907ac5184fd4e926020e027014196893f2652c40",
-      "modified": 1767578422938,
-      "modifiedBy": "admin"
+      "modified": 1767578422938
     },
     "Snowflake.extracts.xjAccountabilityCustomCodes_statColumns_je": {
       "hash": "sha256:1213e79acfbc4dafd581561152cff25e42ca258184682fc2ea23e0074646c979",
-      "modified": 1768977778979,
-      "modifiedBy": "admin"
+      "modified": 1768977778979
     },
     "Snowflake.extracts.xjAccountabilityCustomDataTypes_statColumns_je": {
       "hash": "sha256:56385a14b112ba173775279f5a2f92e0a5aa3e0772496ba348a1b80d55e97479",
-      "modified": 1769467708511,
-      "modifiedBy": "admin"
+      "modified": 1769467708511
     },
     "Snowflake.extracts.xjAccountabilityCustomData_statColumns_je": {
       "hash": "sha256:180fd8860d5efdae17625b03813ea0b59c80d51ed999c64f12f93d66769115b3",
-      "modified": 1769467623590,
-      "modifiedBy": "admin"
+      "modified": 1769467623590
     },
     "Snowflake.extracts.xjAccountabilityDepartments_statColumns_je": {
       "hash": "sha256:151cc291937e726fe463d0631c05f52e87dd5cfb46aafdd8551573104c1efbe9",
-      "modified": 1767578480600,
-      "modifiedBy": "admin"
+      "modified": 1767578480600
     },
     "Snowflake.extracts.xjAccountabilityEmployees_statColumns_je": {
       "hash": "sha256:35645cad73af7258f13e36d93d9147426f456fadc21072de1a05f20ab4fb3714",
-      "modified": 1767578972584,
-      "modifiedBy": "admin"
+      "modified": 1767578972584
     },
     "Snowflake.extracts.xjAccountabilityEstimateEntries_statColumns_je": {
       "hash": "sha256:06b4f197c2c495c4ad3b823a615e46d92c392758b4cd0e18dec458cc7f9b6ae8",
-      "modified": 1767588356806,
-      "modifiedBy": "admin"
+      "modified": 1767588356806
     },
     "Snowflake.extracts.xjAccountabilityEstimatesDeleted_statColumns_je": {
       "hash": "sha256:c6387ef98c37cf6da671b44bccf8f1f5ca4d05fa5f52c0611188a950c27402c4",
-      "modified": 1773725681935,
-      "modifiedBy": "admin"
+      "modified": 1773725681935
     },
     "Snowflake.extracts.xjAccountabilityEstimates_statColumns_je": {
       "hash": "sha256:b00bb1ad049910b066f291bc99057d83c52f6350c25b1c65822e596da9d090c5",
-      "modified": 1767669066970,
-      "modifiedBy": "admin"
+      "modified": 1767669066970
     },
     "Snowflake.extracts.xjAccountabilityEstimates_statColumns_je_Sandbox": {
       "hash": "sha256:c4a7a2e3deb782af043ca369654ddb4be907affeb750d8d6673a151818430f5d",
-      "modified": 1773108566701,
-      "modifiedBy": "admin"
+      "modified": 1773108566701
     },
     "Snowflake.extracts.xjAccountabilityGeneralLedgerAccounts_statColumns_je": {
       "hash": "sha256:3e7e93b48635b322e5ac046f6b60f06f38a06c221052e6283b690c16104b787a",
-      "modified": 1767580384583,
-      "modifiedBy": "admin"
+      "modified": 1767580384583
     },
     "Snowflake.extracts.xjAccountabilityGeneralLedgerReportGroups_statColumns_je": {
       "hash": "sha256:298b8f6f938c0290bb55c80f0300baed8daf2aaf2d8fd0415665a58d68e90004",
-      "modified": 1767666991582,
-      "modifiedBy": "admin"
+      "modified": 1767666991582
     },
     "Snowflake.extracts.xjAccountabilityGeneralLedgerTransactions_statColumns_je": {
       "hash": "sha256:a4a401af8d8a6724655d3243c34a6738f41d3b2ce7f00c9023f91464af6f337e",
-      "modified": 1767586554663,
-      "modifiedBy": "admin"
+      "modified": 1767586554663
     },
     "Snowflake.extracts.xjAccountabilityJobTypes_statColumns_je": {
       "hash": "sha256:9444b92b0cf0ce84bd82b06b97e6cf10f5925e271d6f6be2a96321c84257c6e4",
-      "modified": 1767580612305,
-      "modifiedBy": "admin"
+      "modified": 1767580612305
     },
     "Snowflake.extracts.xjAccountabilityJobs_statColumns_je": {
       "hash": "sha256:8d4e1338c6cb8b6e090fc6f51a1b40c51a7425a76e560d957c70637f3fed70db",
-      "modified": 1767671555339,
-      "modifiedBy": "admin"
+      "modified": 1767671555339
     },
     "Snowflake.extracts.xjAccountabilityJournalEntries_statColumns_je": {
       "hash": "sha256:783e9f4edad4e94574a38b4c694203d37bd03be6498a70d1709ed091dabfd77a",
-      "modified": 1767581832541,
-      "modifiedBy": "admin"
+      "modified": 1767581832541
     },
     "Snowflake.extracts.xjAccountabilityJournals_statColumns_je": {
       "hash": "sha256:0a2ea70dfcce1992d2ca2342dbcd26302f3bf92fde73b95ada569b5a2115fd32",
-      "modified": 1767581599004,
-      "modifiedBy": "admin"
+      "modified": 1767581599004
     },
     "Snowflake.extracts.xjAccountabilityLeaveTypes_statColumns_je": {
       "hash": "sha256:04f3ada53dd8648381fb6a8f43d2923d595f248ccdb13a7df6c8e2ed2d63f2ea",
-      "modified": 1767582151458,
-      "modifiedBy": "admin"
+      "modified": 1767582151458
     },
     "Snowflake.extracts.xjAccountabilityLeaves_statColumns_je": {
       "hash": "sha256:a9463e50084e3db452ab7297cf54e34e6f0bd36ef29f155963f2f8ddefaaee9b",
-      "modified": 1767582223191,
-      "modifiedBy": "admin"
+      "modified": 1767582223191
     },
     "Snowflake.extracts.xjAccountabilityMetadata_varEndpoint_je": {
       "hash": "sha256:574752511728fb1ed8a374648891fa5dc2e7c54f293099af24305c2c911472cb",
-      "modified": 1766036019067,
-      "modifiedBy": "admin"
+      "modified": 1766036019067
     },
     "Snowflake.extracts.xjAccountabilityMetadata_varEndpoint_je_Sandbox": {
       "hash": "sha256:50fdddb8d54b7b221e2951559262d71d64d9438e7e70814e3eaba1624c4cc4ad",
-      "modified": 1773112686787,
-      "modifiedBy": "admin"
+      "modified": 1773112686787
     },
     "Snowflake.extracts.xjAccountabilityOffices_statColumns_je": {
       "hash": "sha256:80c61b84c42d546ac622efeb9a2a7b7a364d0bbf055abc97d90fe6890dad2ebf",
-      "modified": 1767582296343,
-      "modifiedBy": "admin"
+      "modified": 1767582296343
     },
     "Snowflake.extracts.xjAccountabilityPayments_statColumns_je": {
       "hash": "sha256:bb0025c52fd8974a61627d1d28dc6968657e9e6f6699bb8ebf9d8dc81aae5a7e",
-      "modified": 1767668248078,
-      "modifiedBy": "admin"
+      "modified": 1767668248078
     },
     "Snowflake.extracts.xjAccountabilityProbabilities_statColumns_je": {
       "hash": "sha256:11afbe205ce4b40dbf1ea411c22486de2f39640240eae0fecdf693ea0e44ad36",
-      "modified": 1768540633858,
-      "modifiedBy": "admin"
+      "modified": 1768540633858
     },
     "Snowflake.extracts.xjAccountabilityProducts_statColumns_je": {
       "hash": "sha256:a19f2c6eae81561ff18d68d6821b0c256a0fa8826587404ae02602e6ea14b4cf",
-      "modified": 1768182505403,
-      "modifiedBy": "admin"
+      "modified": 1768182505403
     },
     "Snowflake.extracts.xjAccountabilityPublicHolidays_statColumns_je": {
       "hash": "sha256:c042b150de053848ba805c74b16fc483a952e512cab16e898a04eeaef833e43a",
-      "modified": 1767582473065,
-      "modifiedBy": "admin"
+      "modified": 1767582473065
     },
     "Snowflake.extracts.xjAccountabilityPurchaseOrders_statColumns_je": {
       "hash": "sha256:9ca085a6c8ffdd2c822beeda2b6ed133d847d6328b525d29b56a3cbed640ed10",
-      "modified": 1767582622081,
-      "modifiedBy": "admin"
+      "modified": 1767582622081
     },
     "Snowflake.extracts.xjAccountabilityRoles_statColumns_je": {
       "hash": "sha256:1785bf43dfcd2796c3b67a93a0a53d440d3bd846763d4c7f0336dcdc88875797",
-      "modified": 1767582684757,
-      "modifiedBy": "admin"
+      "modified": 1767582684757
     },
     "Snowflake.extracts.xjAccountabilitySuppliers_statColumns_je": {
       "hash": "sha256:2b42b9bbbcfe3fbb85227e2ec1dd587c7e2c9417e9b6a34bdfa43ed455410a8d",
-      "modified": 1767582840381,
-      "modifiedBy": "admin"
+      "modified": 1767582840381
     },
     "Snowflake.extracts.xjAccountabilityTaskTypeHeadings_statColumns_je": {
       "hash": "sha256:1b54344ff322c1ff2d46a1acf0db98db81dc8adb4a7ac798cd974f6ce8436dc3",
-      "modified": 1767582891631,
-      "modifiedBy": "admin"
+      "modified": 1767582891631
     },
     "Snowflake.extracts.xjAccountabilityTaskTypeOfficeRates_statColumns_je": {
       "hash": "sha256:85b3d72957e25b32263e15cb8a1266c048146af5df070abd36f1dea95ab0e5bb",
-      "modified": 1767582942070,
-      "modifiedBy": "admin"
+      "modified": 1767582942070
     },
     "Snowflake.extracts.xjAccountabilityTaskTypes_statColumns_je": {
       "hash": "sha256:41bbd21289bcc1540c6ff21c4c9d49f9c0f0fb42402303ecca9e7ea6a915731e",
-      "modified": 1767668643102,
-      "modifiedBy": "admin"
+      "modified": 1767668643102
     },
     "Snowflake.extracts.xjAccountabilityTaxCodes_statColumns_je": {
       "hash": "sha256:1ba9d416b5bfa8d980d7087fb4f257bbe8842aa8101208fdc7d60af6220a12ec",
-      "modified": 1767583141869,
-      "modifiedBy": "admin"
+      "modified": 1767583141869
     },
     "Snowflake.extracts.xjAccountabilityTimeEntries_statColumns_je": {
       "hash": "sha256:eab94fe81e6deb5ef7017e61c2d5e6a10a6b83d8d7b2c3926e48eaa56b4de958",
-      "modified": 1767583400789,
-      "modifiedBy": "admin"
+      "modified": 1767583400789
     },
     "Snowflake.extracts.xjAccountabilityTimeLines_statColumns_je": {
       "hash": "sha256:f1227fbf0508a8c11611401fc3797037e32c52d3bbd0b4995f640db1143e1b4d",
-      "modified": 1768977839145,
-      "modifiedBy": "admin"
+      "modified": 1768977839145
     },
     "Snowflake.extracts.xjAccountabilityTimeSheets_statColumns_je": {
       "hash": "sha256:588610a43004c34225f8a7e56d461b37324ec6fde076ea740cbb9ba8a9fdf7c6",
-      "modified": 1767583565892,
-      "modifiedBy": "admin"
+      "modified": 1767583565892
     },
     "Snowflake.extracts.xjAccountabilityTitles_statColumns_je": {
       "hash": "sha256:1e803c59f25893e0c78bf7a880c7353d6875101c6c0a538ac2cf354b4577a67f",
-      "modified": 1768977881060,
-      "modifiedBy": "admin"
+      "modified": 1768977881060
     },
     "Snowflake.extracts.xjAccountabilityTransactionTypes_statColumns_je": {
       "hash": "sha256:130a0f50175f7e0b6ce3ad1c7625e886f6318353469b7ef0012130803847221a",
-      "modified": 1768977916336,
-      "modifiedBy": "admin"
+      "modified": 1768977916336
     },
     "Snowflake.extracts.xjAccountabilityUserAccessGroups_statColumns_je": {
       "hash": "sha256:abf80f84c69943001b072f62560c34a633c2d1fd2a8f22f0e3985304188c91e1",
-      "modified": 1768194556130,
-      "modifiedBy": "admin"
+      "modified": 1768194556130
     },
     "Snowflake.extracts.xjAccountability_statAccessToken_je": {
       "hash": "sha256:0c8e35fa15865d97f7471118dd90988bd08245eeabc09906c6799c6c946c523a",
-      "modified": 1779834278694,
-      "modifiedBy": "admin"
+      "modified": 1779834278694
     },
     "Snowflake.extracts.xjAccountability_statRefreshToken_je": {
       "hash": "sha256:5a11fdf46bab3b8c5a7b06333cf2d2d3eeec6f9da45510cd07f7e5f35a7e433d",
-      "modified": 1779833642032,
-      "modifiedBy": "admin"
+      "modified": 1779833642032
     },
     "Snowflake.extracts.xjFloatAccounts_statColumns_je": {
       "hash": "sha256:1e0960fe60cad1e24491845d4eec83d43a9ab498762676e02b06bb30da172dd5",
-      "modified": 1779662368102,
-      "modifiedBy": "admin"
+      "modified": 1779662368102
     },
     "Snowflake.extracts.xjFloatClients_statColumns_je": {
       "hash": "sha256:e3833e464562f9bf58dc966491112c9ab0c7594bb7b5b26d2e75d67b27d8978b",
-      "modified": 1779758241319,
-      "modifiedBy": "admin"
+      "modified": 1779758241319
     },
     "Snowflake.extracts.xjFloatDepartments_statColumns_je": {
       "hash": "sha256:4fb7e50d3329429e5b883258d581e3b95c7e4ceb000e36b7f85ef48bdaec78ea",
-      "modified": 1779758268488,
-      "modifiedBy": "admin"
+      "modified": 1779758268488
     },
     "Snowflake.extracts.xjFloatHolidays_statColumns_je": {
       "hash": "sha256:a690fed728da9cd96be30a393d7330826857cee2633bfb1bd19d58985b08c29a",
-      "modified": 1779759207548,
-      "modifiedBy": "admin"
+      "modified": 1779759207548
     },
     "Snowflake.extracts.xjFloatLogged-Time_statColumns_je": {
       "hash": "sha256:43172a42e4d47cb6a2febb5ce67428ba305c11b7ddddc4a03c0fc35b1dd8ed88",
-      "modified": 1779758424564,
-      "modifiedBy": "admin"
+      "modified": 1779758424564
     },
     "Snowflake.extracts.xjFloatMilestones_statColumns_je": {
       "hash": "sha256:d1c5305ec55890c7be811be3168983fcc684510863fd1b82007ab576445bd941",
-      "modified": 1779758636361,
-      "modifiedBy": "admin"
+      "modified": 1779758636361
     },
     "Snowflake.extracts.xjFloatPeople_statColumns_je": {
       "hash": "sha256:491c641a4cbe256b564fb8de882abc608d735f22049d393f3da5f8d22a7e38f4",
-      "modified": 1779758657769,
-      "modifiedBy": "admin"
+      "modified": 1779758657769
     },
     "Snowflake.extracts.xjFloatPhases_statColumns_je": {
       "hash": "sha256:4fe345ae4a323ad71751710fecdb918b56a0d3efb0cb5caf363d8fdb74f9c0f6",
-      "modified": 1779758726683,
-      "modifiedBy": "admin"
+      "modified": 1779758726683
     },
     "Snowflake.extracts.xjFloatProject-Expenses_statColumns_je": {
       "hash": "sha256:eb852c3e5580100031724a1f8e3249342de6146f1f6cd1124bcdb77a260a6562",
-      "modified": 1779758848332,
-      "modifiedBy": "admin"
+      "modified": 1779758848332
     },
     "Snowflake.extracts.xjFloatProject-Stages_statColumns_je": {
       "hash": "sha256:1feb8dab4b3b45aa4351144cf85852611dc6209b7eeeba631ddbee247d7dcc49",
-      "modified": 1779758906546,
-      "modifiedBy": "admin"
+      "modified": 1779758906546
     },
     "Snowflake.extracts.xjFloatProject-Tasks_statColumns_je": {
       "hash": "sha256:a63e39a88e849ed93163e3dbfa930ffcf0bb2bbc6a3b682926e8e82812e8c4dc",
-      "modified": 1779759445629,
-      "modifiedBy": "admin"
+      "modified": 1779759445629
     },
     "Snowflake.extracts.xjFloatProjects_statColumns_je": {
       "hash": "sha256:2389c9a1884b011d53e6fecb053717699f0cb20c011e5f02ff6382002b866c23",
-      "modified": 1779758970538,
-      "modifiedBy": "admin"
+      "modified": 1779758970538
     },
     "Snowflake.extracts.xjFloatPublic-Holidays_statColumns_je": {
       "hash": "sha256:ccf46983e075e799f28559050a82a9ecbd499a6ffe326f9faf12f7833576162c",
-      "modified": 1779759257788,
-      "modifiedBy": "admin"
+      "modified": 1779759257788
     },
     "Snowflake.extracts.xjFloatReports-People_statColumns_je": {
       "hash": "sha256:46e9a5ab62f153da314c2d8e42ffa473823f066602a181406278ef76cc6071a8",
-      "modified": 1779759316735,
-      "modifiedBy": "admin"
+      "modified": 1779759316735
     },
     "Snowflake.extracts.xjFloatReports-Projects_statColumns_je": {
       "hash": "sha256:1ef1feb85d02d19bfb098ac1990a368ccfd2a6686b74a8a2994f2486ff4deb4f",
-      "modified": 1779759328807,
-      "modifiedBy": "admin"
+      "modified": 1779759328807
     },
     "Snowflake.extracts.xjFloatRoles_statColumns_je": {
       "hash": "sha256:5fae6a20a0a12ca66f8d4144dfe799b863b56b63e20741e981c6d28f5cc4dad2",
-      "modified": 1779759342976,
-      "modifiedBy": "admin"
+      "modified": 1779759342976
     },
     "Snowflake.extracts.xjFloatTasks_statColumns_je": {
       "hash": "sha256:a49b50ae45ffc7ba85ac6a1b11e0ab720b8793879f5dbe3847574b3d58ab7858",
-      "modified": 1779759457905,
-      "modifiedBy": "admin"
+      "modified": 1779759457905
     },
     "Snowflake.extracts.xjFloatTimeoff-Types_statColumns_je": {
       "hash": "sha256:0a22f17040ac0850ca8ece7223cbe8e798f75288c0b6dabcf54efd0dac9dfbb5",
-      "modified": 1779759525664,
-      "modifiedBy": "admin"
+      "modified": 1779759525664
     },
     "Snowflake.extracts.xjFloatTimeoffs_statColumns_je": {
       "hash": "sha256:c884c7d1f1c0e0e80b37cbaad184067bff32ff904a51c28892648c6bc0c2ccdb",
-      "modified": 1779759539661,
-      "modifiedBy": "admin"
+      "modified": 1779759539661
     },
     "Snowflake.extracts.xjHiBob_statCustomTables_je": {
       "hash": "sha256:b0d3280c6035aa39ee325bd13ad8cb95f7344793afbef25544433d66aaf83567",
-      "modified": 1780272090516,
-      "modifiedBy": "admin"
+      "modified": 1780272090516
     },
     "Snowflake.extracts.xjHiBob_statEmployeeEndDate_je": {
       "hash": "sha256:5a4f27fe86141fd2704dcf7463fa63726c8c3ca005cd2315559ffe3f59077c4a",
-      "modified": 1786423400786,
-      "modifiedBy": "admin"
+      "modified": 1786423400786
     },
     "Snowflake.extracts.xjHiBob_statEmployees_je": {
       "hash": "sha256:db26c4545aceceb6f9d8524ce8d8ce0e8f826da50b6c1d2271c0042968576a86",
-      "modified": 1779690746483,
-      "modifiedBy": "admin"
+      "modified": 1779690746483
     },
     "Snowflake.extracts.xjHiBob_statLeaveChanges_je": {
       "hash": "sha256:dbb2993efa12eff2df920576fab1a4fb7cdd8ff54e5081f3f02b88f2f96ed6da",
-      "modified": 1785391702016,
-      "modifiedBy": "admin"
+      "modified": 1785391702016
     },
     "Snowflake.extracts.xjHiBob_statLeaves_je": {
       "hash": "sha256:4c672e97a5203ad51f8435a7c49693d8ed2a58d00b4aa4c3ba3c40a90f2db20e",
-      "modified": 1779948352019,
-      "modifiedBy": "admin"
+      "modified": 1779948352019
     },
     "Snowflake.extracts.xjHiBob_statMergedEmploymentJson_je": {
       "hash": "sha256:af09f629e87b5dc67f03884666cf17b2850deb1bbfcd9ddd9d03ba32a9da4ec6",
-      "modified": 1780459136144,
-      "modifiedBy": "admin"
+      "modified": 1780459136144
     },
     "Snowflake.extracts.xjHiBob_statMergedSalariesJson_je": {
       "hash": "sha256:dbe3b12967bddc07220f464b138d86b05abf36b48ab1ff0dddb35fdc24388f9e",
-      "modified": 1780297351138,
-      "modifiedBy": "admin"
+      "modified": 1780297351138
     },
     "Snowflake.extracts.xjHiBob_statNamedListsCalendar_je": {
       "hash": "sha256:8c5b0a40b286b3f9be47510231774dffda97ea753bb3f661770e42ab552a15a5",
-      "modified": 1780034184585,
-      "modifiedBy": "admin"
+      "modified": 1780034184585
     },
     "Snowflake.extracts.xjHiBob_statNamedListsCategory_je": {
       "hash": "sha256:e3caec1f9d7b0174cc8c80267302cb0d02310d9196e0e5a8fc5c700f117d8835",
-      "modified": 1780034213019,
-      "modifiedBy": "admin"
+      "modified": 1780034213019
     },
     "Snowflake.extracts.xjHiBob_statNamedListsConnection_je": {
       "hash": "sha256:aa81c72eccda2419153809a236c5e952e6c11a2c56d84a60492f8f57b486b747",
-      "modified": 1780300306782,
-      "modifiedBy": "admin"
+      "modified": 1780300306782
     },
     "Snowflake.extracts.xjHiBob_statNamedListsDepartment_je": {
       "hash": "sha256:e61266a38da9c8711b5cc01a9ed1d529f38303d226f711ade21e6fa4301452eb",
-      "modified": 1780300452031,
-      "modifiedBy": "admin"
+      "modified": 1780300452031
     },
     "Snowflake.extracts.xjHiBob_statNamedListsDiscipline_je": {
       "hash": "sha256:16b15fddb6bbfc9081d7da6960709213b7c55c7dcb3b7647a2357053cd23ea0d",
-      "modified": 1780033449432,
-      "modifiedBy": "admin"
+      "modified": 1780033449432
     },
     "Snowflake.extracts.xjHiBob_statNamedListsEntity_je": {
       "hash": "sha256:688db4935b18ded7374383b317bd1ab7c4d81f7f97adfe6d7b9f626ae24b7252",
-      "modified": 1780033858471,
-      "modifiedBy": "admin"
+      "modified": 1780033858471
     },
     "Snowflake.extracts.xjHiBob_statNamedListsSite_je": {
       "hash": "sha256:445b0fb9def2fa4466ca981a2713936c94e57b72699571a5ce3170be4786e0a2",
-      "modified": 1780034033808,
-      "modifiedBy": "admin"
+      "modified": 1780034033808
     },
     "Snowflake.extracts.xjHiBob_statNamedListsTaskType_je": {
       "hash": "sha256:4e445cd07fd67232a6bd03984d12c3147ab2aa34aa8dc1476ab488a7f4b16e64",
-      "modified": 1780033892528,
-      "modifiedBy": "admin"
+      "modified": 1780033892528
     },
     "Snowflake.extracts.xjHiBob_statNamedListsTitle_je": {
       "hash": "sha256:3daa89e2b3642571204e7faee5fda2d998f6eb053dd4b9bfbaff86829988e0a7",
-      "modified": 1780033975997,
-      "modifiedBy": "admin"
+      "modified": 1780033975997
     },
     "Snowflake.extracts.xjHiBob_statNextCursor_je": {
       "hash": "sha256:96604b2ca0d22401efeec319f96451480faea12e2490f8df947e717be6ff5390",
-      "modified": 1780277325979,
-      "modifiedBy": "admin"
+      "modified": 1780277325979
     },
     "Snowflake.extracts.xjHiBob_statPeopleFields_je": {
       "hash": "sha256:6fd529a0672da3b49b127311dde87b6b3a3b1cc6c988c121ce938e7045072079",
-      "modified": 1780026803156,
-      "modifiedBy": "admin"
+      "modified": 1780026803156
     },
     "Snowflake.extracts.xjHiBob_varCursor_je": {
       "hash": "sha256:82e569021226f470e5d55b8f77d5f2a2b1e88e123f7d6a96d5117de9f4a73b83",
-      "modified": 1780277344524,
-      "modifiedBy": "admin"
+      "modified": 1780277344524
     },
     "Snowflake.extracts.xjHiBob_varEndpoint_je": {
       "hash": "sha256:a61a95a3ba92b94ca344d97101d171db960586f6adf9cf24e9ba6734d05cc97c",
-      "modified": 1780291986302,
-      "modifiedBy": "admin"
+      "modified": 1780291986302
     },
     "Snowflake.extracts.xjHiBob_varPolicyTypes_je": {
       "hash": "sha256:16ab45c4619b9a5857946b09a28c40e6a2480a6bca4bb843b68265a426230520",
-      "modified": 1780026812287,
-      "modifiedBy": "admin"
+      "modified": 1780026812287
     },
     "Snowflake.extracts.xrCreateEmployees_varEmployeesEmail_re": {
       "hash": "sha256:1e34b11a014a507b87f03060f1db93626f1fbc23401a49ce7181a009c538804d",
-      "modified": 1783556696576,
-      "modifiedBy": "admin"
+      "modified": 1783556696576
     },
     "Snowflake.extracts.xrEmployees_statAllEmailsCreate_re": {
       "hash": "sha256:74a0935b5d453c9b7d9a1114ec44373fbe3c61e7e0dbc4a78be3aa993bf11c13",
-      "modified": 1785971840071,
-      "modifiedBy": "admin"
+      "modified": 1785971840071
     },
     "Snowflake.extracts.xrEmployees_statAllEmailsUpdate_re": {
       "hash": "sha256:da58b37f93a4a5b3585df72cdcb880a8f16796e1a9889a8d2f98ac11ef69d735",
-      "modified": 1785971915856,
-      "modifiedBy": "admin"
+      "modified": 1785971915856
     },
     "Snowflake.extracts.xrFloatPages_varFloatEndpoint_re": {
       "hash": "sha256:0a1411a65e90b88d23e0272d099e52ff03d6245f6e6855f4abca97b2218d384e",
-      "modified": 1779662069602,
-      "modifiedBy": "admin"
+      "modified": 1779662069602
     },
     "Snowflake.extracts.xrRedshiftDDL_varRedshiftSchemaTable_re": {
       "hash": "sha256:3371ca90ef706f8da951dc1219b1ea8b571283b9666410c452c62b6c29cd3678",
-      "modified": 1769560523127,
-      "modifiedBy": "admin"
+      "modified": 1769560523127
     },
     "Snowflake.extracts.xrRedshift_statViewDefinition_re": {
       "hash": "sha256:b2bfef42dc7e15ffbfa5a04723d9fff3ea266e5f878c9e9de069f314157ac346",
-      "modified": 1768450662706,
-      "modifiedBy": "admin"
+      "modified": 1768450662706
     },
     "Snowflake.extracts.xrRedshift_varRedshiftSchemaTable_re": {
       "hash": "sha256:546897e60295721225fd7c47656029491eb06a93ce3742258bdcdb7835a63ea4",
-      "modified": 1765925551412,
-      "modifiedBy": "admin"
+      "modified": 1765925551412
     },
     "Snowflake.extracts.xrSnowflake_statRedshiftTableDefinitions_re": {
       "hash": "sha256:2b99991f1b548c0800d8b6d8222f75f629d72e82d99a7c943aca55494ca2c858",
-      "modified": 1766010732137,
-      "modifiedBy": "admin"
+      "modified": 1766010732137
     },
     "Snowflake.extracts.xrUpdateEmployees_varEmployeesEmail_re": {
       "hash": "sha256:3c2f7bc19e6cb7d8595b36957b278f49a54b83e4ec00f64347501124960967fd",
-      "modified": 1783556734136,
-      "modifiedBy": "admin"
+      "modified": 1783556734136
     },
     "Snowflake.extracts.xtAccountabilityEndpoint_statAllHistory_te": {
       "hash": "sha256:a2722c7ce583a2cbb205ba5fd5003b7337efb96ad4751c856c2ad2ef1ddf9dea",
-      "modified": 1770699155519,
-      "modifiedBy": "admin"
+      "modified": 1770699155519
     },
     "Snowflake.extracts.xtJobID_varJobID_te": {
       "hash": "sha256:7cffd1ffa5992027b4654b443753a300a43bfcacd8e14503fd9797de7ca64c87",
-      "modified": 1779759599320,
-      "modifiedBy": "admin"
+      "modified": 1779759599320
     },
     "Snowflake.jobs.Accountability File Creation (Manual)": {
       "hash": "sha256:3a85a54a9981426c4488adb9d925d9d06c0be5223f9ba9cd08f2ac6daaebd45a",
-      "modified": 1773726395506,
-      "modifiedBy": "admin"
+      "modified": 1773726395506
     },
     "Snowflake.jobs.Compress Accountability files in SFTP": {
       "hash": "sha256:f671456293001a84006c10ecbfd531a0cdebaa2267ff032a7b78bc853d8a5056",
-      "modified": 1779833208360,
-      "modifiedBy": "admin"
+      "modified": 1779833208360
     },
     "Snowflake.jobs.Compress Accountability files in SFTP_Sandbox": {
       "hash": "sha256:2a096c12349cbbc58976fd9279630829c1e7c32472926fae581a102edfe94996",
-      "modified": 1773109175833,
-      "modifiedBy": "admin"
+      "modified": 1773109175833
     },
     "Snowflake.jobs.Compress Float files in SFTP": {
       "hash": "sha256:aabb4ad6a05a212b8f377144cec785a6cccdaea7ad58772c0547f65175f21135",
-      "modified": 1779833160666,
-      "modifiedBy": "admin"
+      "modified": 1779833160666
     },
     "Snowflake.jobs.Compress HiBob files in SFTP": {
       "hash": "sha256:11647291361329ebc0e9604734362852a8740f676b22fe1a58fa5e684bcbde17",
-      "modified": 1779861284936,
-      "modifiedBy": "admin"
+      "modified": 1779861284936
     },
     "Snowflake.jobs.Compress Jedox files in SFTP": {
       "hash": "sha256:4894aa77fdd22bbb98fa4541df8da7fc7b8a0d074466942b267f60f7c304da91",
-      "modified": 1779835729813,
-      "modifiedBy": "admin"
+      "modified": 1779835729813
     },
     "Snowflake.jobs.Compress RBA Daily FX files in SFTP": {
       "hash": "sha256:c34d1808d3a2eda4519dc0fa47c3d6329faf96e4398d91f30bff38e56dd40977",
-      "modified": 1780122932786,
-      "modifiedBy": "admin"
+      "modified": 1780122932786
     },
     "Snowflake.jobs.Compress Redshift files in SFTP": {
       "hash": "sha256:2264dfb2138f6246bf491d3f4675d4a1b3973f648438ec3bc9ae9afb9e030e15",
-      "modified": 1765925799641,
-      "modifiedBy": "admin"
+      "modified": 1765925799641
     },
     "Snowflake.jobs.Create Accountability Endpoint files daily": {
       "hash": "sha256:22bb3680bc0254533a895d6c36dadabca38c21b16e1c307a1bd54fc2554fa0b8",
-      "modified": 1785383626485,
-      "modifiedBy": "admin"
+      "modified": 1785383626485
     },
     "Snowflake.jobs.Create Accountability Endpoint files daily_Sandbox": {
       "hash": "sha256:e4f70ad0947a8f9ee304477492c313a0923ff0b08c779cd08dea63a6264d7980",
-      "modified": 1785109673713,
-      "modifiedBy": "admin"
+      "modified": 1785109673713
     },
     "Snowflake.jobs.Create Accountability Estimate and Journal Entries File": {
       "hash": "sha256:49b87d45c0995d40aa02395fc6757259554b0a5437070c6f757a738ed287bec7",
-      "modified": 1785383657763,
-      "modifiedBy": "admin"
+      "modified": 1785383657763
     },
     "Snowflake.jobs.Create Float Endpoint files daily": {
       "hash": "sha256:42430c67f165e0c82249a5049d2676f3d7aebef2e06890dc009cf98ac49e5618",
-      "modified": 1779758182865,
-      "modifiedBy": "admin"
+      "modified": 1779758182865
     },
     "Snowflake.jobs.Create Hi Bob Endpoint files daily": {
       "hash": "sha256:aafcf87d4dc7d2433fca1327249dbb3fe9ac396847a4229a27685159b510711c",
-      "modified": 1786343957316,
-      "modifiedBy": "admin"
+      "modified": 1786343957316
     },
     "Snowflake.jobs.Create Redshift DDL files": {
       "hash": "sha256:d92cc7d850aaba3564b84acdf6c166330f69161282f3e14831268c71dba7ce65",
-      "modified": 1769560714989,
-      "modifiedBy": "admin"
+      "modified": 1769560714989
     },
     "Snowflake.jobs.Create Redshift files": {
       "hash": "sha256:3dfecab1d0cce27f51d2fb1ffc7940c2e541e86a1729f6d2c5a8b8d18cf56968",
-      "modified": 1769039638841,
-      "modifiedBy": "admin"
+      "modified": 1769039638841
     },
     "Snowflake.jobs.Delete Estimates and Refresh SCD": {
       "hash": "sha256:c4e0767276f5e93185cfe88a8105362d5b1461ef83af6d06a4d1aa9765aea176",
-      "modified": 1780127800085,
-      "modifiedBy": "admin"
+      "modified": 1780127800085
     },
     "Snowflake.jobs.Final Hibob -> Accountability Sync for Employees": {
       "hash": "sha256:94204983cea1cd8e1bd0e1840ef3d09cc54ade0f8cb6cd9d34662e0b18597309",
-      "modified": 1785971745791,
-      "modifiedBy": "admin"
+      "modified": 1785971745791
     },
     "Snowflake.jobs.Insert Accountability Endpoint Total Records": {
       "hash": "sha256:8ade18933719249389e764466ddaba57fb5cec41e072cc69b1ba964ff6dee632",
-      "modified": 1785109687874,
-      "modifiedBy": "admin"
+      "modified": 1785109687874
     },
     "Snowflake.jobs.Loop Accountability Endpoints to Insert Total Records": {
       "hash": "sha256:480cb5d9dbb2002bbf133db7ad263c5a4b866e07a701f5afd39dcdf199e48543",
-      "modified": 1769040038105,
-      "modifiedBy": "admin"
+      "modified": 1769040038105
     },
     "Snowflake.jobs.Loop Accountability Endpoints to Refresh Data": {
       "hash": "sha256:133e66dd3ec611de9eaf4156163e7875e1f310af992180108326544d5209e180",
-      "modified": 1779760730488,
-      "modifiedBy": "admin"
+      "modified": 1779760730488
     },
     "Snowflake.jobs.Loop Email Notifications": {
       "hash": "sha256:e87182798caacc5af478c1c4896bc9bb9d3320da752e86b24036b77f2dce917b",
-      "modified": 1781141996329,
-      "modifiedBy": "admin"
+      "modified": 1781141996329
     },
     "Snowflake.jobs.Loop Float Endpoints to Refresh Data": {
       "hash": "sha256:b7abcd2739ebc6ee0ac6386dba3378e871f4d08b47ad153df5c91a03c02d385a",
-      "modified": 1779759901809,
-      "modifiedBy": "admin"
+      "modified": 1779759901809
     },
     "Snowflake.jobs.Loop HiBob Endpoints to Refresh Data": {
       "hash": "sha256:4335455e4e71ff16a1a2cad2fc8ac2d2c8c5fb02ff0523a5c481c0bdd9dcd288",
-      "modified": 1784183594543,
-      "modifiedBy": "admin"
+      "modified": 1784183594543
     },
     "Snowflake.jobs.Loop HiBob Policy Type Endpoints to Refresh Data": {
       "hash": "sha256:1204102ed4c99fd5aafab3d150c83b56a338495056b4fe1f33edbc5e58b90c73",
-      "modified": 1779944395123,
-      "modifiedBy": "admin"
+      "modified": 1779944395123
     },
     "Snowflake.jobs.Loop Jedox Files to Refresh Data": {
       "hash": "sha256:70ab9c92d3c5981fcbc9412c5561a761850128e07dbee5edc91eb7244a07bf3c",
-      "modified": 1782816217581,
-      "modifiedBy": "admin"
+      "modified": 1782816217581
     },
     "Snowflake.jobs.Loop Jedox Hi Bob Files to Refresh Data": {
       "hash": "sha256:fb4b5dc296a3928c966d88bb92e8257937c3f67badd0e1cc46bf8a7f629848d6",
-      "modified": 1784167229682,
-      "modifiedBy": "admin"
+      "modified": 1784167229682
     },
     "Snowflake.jobs.Loop Redshift Tables to Refresh Landing Data": {
       "hash": "sha256:fa96883b9848d7374a225f86b3b59f116685f84297bd01897f6d56b53653ef7b",
-      "modified": 1765938347670,
-      "modifiedBy": "admin"
+      "modified": 1765938347670
     },
     "Snowflake.jobs.Loop job for creating new Employees": {
       "hash": "sha256:96b99d6e3bd327dcba988c39a60510e44bfa9e37ea8e4e595d282fae42254f4b",
-      "modified": 1783573764099,
-      "modifiedBy": "admin"
+      "modified": 1783573764099
     },
     "Snowflake.jobs.Loop job for updating new Employees": {
       "hash": "sha256:3c12453db8a15077e0f575c9b3e15c0b8c4f286e3a6b56ea6f98d482dccf0e8e",
-      "modified": 1783577799636,
-      "modifiedBy": "admin"
+      "modified": 1783577799636
     },
     "Snowflake.jobs.Post new Employees to Accountability and Snowflake": {
       "hash": "sha256:3ad6122f7622d10acfe7bd6a3d2915170863a70c3424636fb7b6ccd4ef780738",
-      "modified": 1785109601421,
-      "modifiedBy": "admin"
+      "modified": 1785109601421
     },
     "Snowflake.jobs.Put Employees to Accountability and Snowflake": {
       "hash": "sha256:b0841e00033aa5b484b33b57c2b4c2a4a7889cc2f8e364e7f9320372fc8fa7b5",
-      "modified": 1785109606773,
-      "modifiedBy": "admin"
+      "modified": 1785109606773
     },
     "Snowflake.jobs.Put new Employees to Accountability and Snowflake": {
       "hash": "sha256:c9c6f9c99a38cee4858d321184b998ef160a52d285d23f806abaad6867aa43de",
-      "modified": 1780988399956,
-      "modifiedBy": "admin"
+      "modified": 1780988399956
     },
     "Snowflake.jobs.Refresh Accountability Data": {
       "hash": "sha256:774420be6574733cbb66c3254440c350321589b965ca70211d79c3c5f4c7f9f3",
-      "modified": 1779760777192,
-      "modifiedBy": "admin"
+      "modified": 1779760777192
     },
     "Snowflake.jobs.Refresh Employee Dimension": {
       "hash": "sha256:d9c674a9feca28bca5bab5a10ca4e68c2dc013185ea0e821a1caba07166fec60",
-      "modified": 1780988493732,
-      "modifiedBy": "admin"
+      "modified": 1780988493732
     },
     "Snowflake.jobs.Refresh Float Data": {
       "hash": "sha256:f1c188ecbe87564c7458d418ee29007a23f3774f652e1950fa52dbade1c2c57f",
-      "modified": 1779759887937,
-      "modifiedBy": "admin"
+      "modified": 1779759887937
     },
     "Snowflake.jobs.Refresh Hi Bob Cursor Endpoints files daily": {
       "hash": "sha256:87a93f5e8ca74fa7c8e2fc3a4571fd76d3541495ed1011e89894584f701ebe3e",
-      "modified": 1780296925599,
-      "modifiedBy": "admin"
+      "modified": 1780296925599
     },
     "Snowflake.jobs.Refresh Hi Bob Employment Endpoint files daily": {
       "hash": "sha256:22d9f398786ea7854759606107f3654aaf9d074c7591dbb6444010524c7db186",
-      "modified": 1780288997808,
-      "modifiedBy": "admin"
+      "modified": 1780288997808
     },
     "Snowflake.jobs.Refresh HiBob Data": {
       "hash": "sha256:01c4d6db281db2747541829cc053291f823ef3b34cdf22fbea5d571a541372e2",
-      "modified": 1780986602803,
-      "modifiedBy": "admin"
+      "modified": 1780986602803
     },
     "Snowflake.jobs.Refresh Job Estimates SCD": {
       "hash": "sha256:9a5050a3714a884d746e3a5ff918a2becdaf65dac443d712f0ccbb913a52537d",
-      "modified": 1780127687298,
-      "modifiedBy": "admin"
+      "modified": 1780127687298
     },
     "Snowflake.jobs.Refresh Month End GL Data": {
       "hash": "sha256:01202ca3c6c01619a8586642f4fcfb77a41f0f20bb76ea486896f4c8fb5c76b9",
-      "modified": 1785117674428,
-      "modifiedBy": "admin"
+      "modified": 1785117674428
     },
     "Snowflake.jobs.Refresh Revenue Tracker Version": {
       "hash": "sha256:24d9180ef0e48ff05ff5a81098a93da0e0a5eb2ec21ba52ddf02fea0fd41633c",
-      "modified": 1775624859841,
-      "modifiedBy": "admin"
+      "modified": 1775624859841
     },
     "Snowflake.jobs.Refresh Snowflake Datawarehouse": {
       "hash": "sha256:7652061577dafd1ec2ec645660bedca06bf58f6052b993939174588e73bb33e5",
-      "modified": 1780127948596,
-      "modifiedBy": "admin"
+      "modified": 1780127948596
     },
     "Snowflake.jobs.Test Iterate logic": {
       "hash": "sha256:96ccdb31c44cedddb912a144b5e30959fa7c48e7fe25dd536c3fd0f4e24272be",
-      "modified": 1772511726317,
-      "modifiedBy": "admin"
+      "modified": 1772511726317
     },
     "Snowflake.jobs.Test SMTP": {
       "hash": "sha256:6cb032234a1dcfe4cdd890ef27a16bed37093e1a761d2b5ee987604d609586f4",
-      "modified": 1785286296370,
-      "modifiedBy": "admin"
+      "modified": 1785286296370
     },
     "Snowflake.jobs.Update Accountability Access Token": {
       "hash": "sha256:e81362049b34ddcb4e560518a06a139335857f8e7c7fb00a0b605e2124bbc0a0",
-      "modified": 1785285688588,
-      "modifiedBy": "admin"
+      "modified": 1785285688588
     },
     "Snowflake.jobs.Update Accountability Chargeable Rates": {
       "hash": "sha256:96a35b5b9c3429fd2155a0f835467e4b3adf2fe0101b432f5ee71669f3c99b99",
-      "modified": 1770857513644,
-      "modifiedBy": "admin"
+      "modified": 1770857513644
     },
     "Snowflake.jobs.Update Accountability Refresh Token": {
       "hash": "sha256:fd4064e53b6340c94468ce38035c427dae4ae675287032d668966e6fcd4b2404",
-      "modified": 1781423927479,
-      "modifiedBy": "admin"
+      "modified": 1781423927479
     },
     "Snowflake.jobs.Update Accountability Tables": {
       "hash": "sha256:6eef4ce3946b3ded5095c91b28407c11105a637c85c3f6a7e8d099e6954e719b",
-      "modified": 1779760849442,
-      "modifiedBy": "admin"
+      "modified": 1779760849442
     },
     "Snowflake.jobs.Update Accountability Tables (Employees)": {
       "hash": "sha256:4b523fa535365640aa6a10b9952dfa78936a2b33cd928b93f7fcad323275eebe",
-      "modified": 1781754417753,
-      "modifiedBy": "admin"
+      "modified": 1781754417753
     },
     "Snowflake.jobs.Update Accountability Tables (Employees) Pre - HiBob Sync": {
       "hash": "sha256:b4fa47e46b78b64c0fab55262817d088b4878564e8af269552ae30aa5371a00f",
-      "modified": 1781754386146,
-      "modifiedBy": "admin"
+      "modified": 1781754386146
     },
     "Snowflake.jobs.Update Accountability Tables (Manual - TimeSheets-Entries)": {
       "hash": "sha256:438f8c3ce079b6c6da8f6d6d05c63ef6772cc25a5e27f1e236d7b7874da6081b",
-      "modified": 1771375871738,
-      "modifiedBy": "admin"
+      "modified": 1771375871738
     },
     "Snowflake.jobs.Update Accountability Tables (Manual)": {
       "hash": "sha256:f8a1cac5159e33f3636c7105a2316dfc4ac3f7b0810bbcaf4522157201d66dd6",
-      "modified": 1775704826285,
-      "modifiedBy": "admin"
+      "modified": 1775704826285
     },
     "Snowflake.jobs.Update Accountability Tables_Sandbox": {
       "hash": "sha256:338396bbd3dd5363678fe65868fdeba0fd5d6c2fc11e268c2e9672e5f0e2eab0",
-      "modified": 1773110443051,
-      "modifiedBy": "admin"
+      "modified": 1773110443051
     },
     "Snowflake.jobs.Update Client Head Mapping": {
       "hash": "sha256:bd2ba80b49ab3780bdcd6cf10b59f3bb872e5db4f46da4d88367851ee4539b86",
-      "modified": 1782526597312,
-      "modifiedBy": "admin"
+      "modified": 1782526597312
     },
     "Snowflake.jobs.Update Daily FX Rates": {
       "hash": "sha256:865c21152dc8d26315aeae22a3bd4cd23f67aa0e7593f567eeed7b6aca36eaa0",
-      "modified": 1779836357612,
-      "modifiedBy": "admin"
+      "modified": 1779836357612
     },
     "Snowflake.jobs.Update Float Tables": {
       "hash": "sha256:57f9a41a5583c3f395fb09c35b980d854ce7d95374820567657b708a0e7029a6",
-      "modified": 1779676686933,
-      "modifiedBy": "admin"
+      "modified": 1779676686933
     },
     "Snowflake.jobs.Update Float Tables (Manual)": {
       "hash": "sha256:1cd67e29d4a3d7b89f44fa04b090a2a1bf24bf1cbd8c465e3e69dfd19e4ac152",
-      "modified": 1771829594876,
-      "modifiedBy": "admin"
+      "modified": 1771829594876
     },
     "Snowflake.jobs.Update Hi Bob Jedox Tables": {
       "hash": "sha256:f2e30f0c140e28ed69f49b455458a8d196ec879ba699c48c8ad8fd5a81a9f656",
-      "modified": 1780462407559,
-      "modifiedBy": "admin"
+      "modified": 1780462407559
     },
     "Snowflake.jobs.Update Hi Bob Jedox and Datawarehouse Tables in Snowflake": {
       "hash": "sha256:a223406886d2552428157972db39fdb9a4de57675f9c1694fd9599e65035bfb4",
-      "modified": 1782352379595,
-      "modifiedBy": "admin"
+      "modified": 1782352379595
     },
     "Snowflake.jobs.Update Hi Bob Tables": {
       "hash": "sha256:e779b14d7457ae97fce365633b1fdc2de68539c3668f009a402ad3f895e2f99a",
-      "modified": 1779863029532,
-      "modifiedBy": "admin"
+      "modified": 1779863029532
     },
     "Snowflake.jobs.Update Jedox Estimate Elements in Snowflake": {
       "hash": "sha256:4875abc926f15981bea6d2b40f2920eaaf120fbd887a1150453d19ac4bce9447",
-      "modified": 1784854012798,
-      "modifiedBy": "admin"
+      "modified": 1784854012798
     },
     "Snowflake.jobs.Update Jedox SCDs": {
       "hash": "sha256:86a696e66ed0eac35c779c6489a9136906e62d180528109b6ef6ec17d2c0f545",
-      "modified": 1782450708645,
-      "modifiedBy": "admin"
+      "modified": 1782450708645
     },
     "Snowflake.jobs.Update Jedox Tables": {
       "hash": "sha256:9b894579bb30a6a066362a21f8215d3d859248392dbf819db72b6c5f0e3906ef",
-      "modified": 1779835981124,
-      "modifiedBy": "admin"
+      "modified": 1779835981124
     },
     "Snowflake.jobs.Update Redshift Landing Tables": {
       "hash": "sha256:8795458bc94783b09e4ff72e1c9d73bce95db56577f08161e8f8486a4c2bb2e0",
-      "modified": 1765938029843,
-      "modifiedBy": "admin"
+      "modified": 1765938029843
     },
     "Snowflake.jobs.Update Revenue Overview Table": {
       "hash": "sha256:4938dd5d33867b63e8ac6e6599c719f4bee8705142100e80a1214ae1287841c1",
-      "modified": 1784691514274,
-      "modifiedBy": "admin"
+      "modified": 1784691514274
     },
     "Snowflake.jobs.Update Revenue Planning Estimate": {
       "hash": "sha256:a68da3676b48644b231fed41ec9a61e44cb2b1e1bf15cc8450fca8c98a495f2e",
-      "modified": 1782887234677,
-      "modifiedBy": "admin"
+      "modified": 1782887234677
     },
     "Snowflake.loads.New JSON load": {
       "hash": "sha256:f7a1caa03bbe516ffec53903154214ce78e68cd63fa711976060f13f0f4e02c1",
-      "modified": 1780282116642,
-      "modifiedBy": "admin"
+      "modified": 1780282116642
     },
     "Snowflake.loads.New Relational SQL load": {
       "hash": "sha256:5adc8ef36b40aba516f720c343638a03b2d933207d8226fe702ecf91c1b3988b",
-      "modified": 1779064495596,
-      "modifiedBy": "admin"
+      "modified": 1779064495596
     },
     "Snowflake.loads.dAccountabilityEndpoint_301_010_insTotalRecords_dl": {
       "hash": "sha256:c566b35f66bf025559d4e8c3ed29e10b247a49ee17c20c714647cb8b6e0419ad",
-      "modified": 1781249604260,
-      "modifiedBy": "admin"
+      "modified": 1781249604260
     },
     "Snowflake.loads.dAccountabilityEndpoint_301_010_insTotalRecords_dl_Sandbox": {
       "hash": "sha256:e8c0ee7ab9c43be7d6df0fcf1db099087fa2acf83474ad4f600d6b79be4e8402",
-      "modified": 1781249604363,
-      "modifiedBy": "admin"
+      "modified": 1781249604363
     },
     "Snowflake.loads.dAccountabilityEndpoint_302_010_attrIDs_fh": {
       "hash": "sha256:90cf06b5d2179225f07d44141fe956aac9944a9e39a98e708b00bbb53b651282",
-      "modified": 1781249603982,
-      "modifiedBy": "admin"
+      "modified": 1781249603982
     },
     "Snowflake.loads.dFloatEndpoint_401_020_insPageCount_dl": {
       "hash": "sha256:0b7843530935d8c202176518a547afafe1ead875b40d07b105aedb484576230a",
-      "modified": 1781249604030,
-      "modifiedBy": "admin"
+      "modified": 1781249604030
     },
     "Snowflake.loads.dHiBobEndpoint_401_020_insPageCount_dl": {
       "hash": "sha256:d0fe0034187450f9d0bc3c7bf1f626194af8f4f41a4cf1e4e33f582e5665ee51",
-      "modified": 1781249603773,
-      "modifiedBy": "admin"
+      "modified": 1781249603773
     },
     "Snowflake.loads.dHiBobEndpoint_500_010_addEmploymentrCursor_dl": {
       "hash": "sha256:4ee8fb81f2a1059eafea48655c1ba86318083add99f5e8e6495a32e4fdd504e9",
-      "modified": 1781249603570,
-      "modifiedBy": "admin"
+      "modified": 1781249603570
     },
     "Snowflake.loads.dHiBobEndpoint_500_010_addSalariesCursor_dl": {
       "hash": "sha256:b6feb2c1ee3c4dbc680acb12b48073ad8f164f03f5adc41e75be7cf5a3abbf43",
-      "modified": 1781249604083,
-      "modifiedBy": "admin"
+      "modified": 1781249604083
     },
     "Snowflake.loads.dHiBobEndpoint_500_020_addCursor_dl": {
       "hash": "sha256:78c3e46c8caf94d3ebe7bdea17876fa947ed6b36efa8dbd17478da8fd6d822f0",
-      "modified": 1781249603924,
-      "modifiedBy": "admin"
+      "modified": 1781249603924
     },
     "Snowflake.loads.dHiBobEndpoint_500_020_addEmploymentCursor_dl": {
       "hash": "sha256:41031a4e0ff441b25c9558dd4f171152c706d80f29007a8df330458662284ac2",
-      "modified": 1780288900093,
-      "modifiedBy": "admin"
+      "modified": 1780288900093
     },
     "Snowflake.loads.dJobExecution_200_020_loadJobID_ld": {
       "hash": "sha256:d587334fc4c5e94de345180f8a632f9d0a449266d4cb079435beba50aab7548f",
-      "modified": 1781249597672,
-      "modifiedBy": "admin"
+      "modified": 1781249597672
     },
     "Snowflake.loads.dToken_000_020_addRefreshTokenAttr_dl": {
       "hash": "sha256:e7244e0dc6b6fdc6a2c37e9d1431070f2901946625dbfcb8da597e7682e5d2e1",
-      "modified": 1781249604133,
-      "modifiedBy": "admin"
+      "modified": 1781249604133
     },
     "Snowflake.loads.dToken_100_020_addAccessTokenAttr_dl": {
       "hash": "sha256:a5a992199be2f1c5d3bd03551994ef8cfedf5f3e0a6139521c54400c8a27df59",
-      "modified": 1781249603620,
-      "modifiedBy": "admin"
+      "modified": 1781249603620
     },
     "Snowflake.loads.fAccountabilityBlank_300_011_varEndpoint_fl": {
       "hash": "sha256:94c714363a7719d3a13a9a8c90529192b230a6773a8f9cb2339eb445fb96b9fa",
-      "modified": 1769489504110,
-      "modifiedBy": "admin"
+      "modified": 1769489504110
     },
     "Snowflake.loads.fAccountabilityChargeableRates_600_010_statCreate_fl": {
       "hash": "sha256:520c2d96cf2df367a882f5f7789b2642861a47fb34cfe2e782055292781d1849",
-      "modified": 1769649948797,
-      "modifiedBy": "admin"
+      "modified": 1769649948797
     },
     "Snowflake.loads.fAccountabilityEndpoint_300_010_varLoadMode_fl": {
       "hash": "sha256:0e9cc0abf2215bdf24bd9b85c5d9baa1b578cc536749cfc896c5c09e65fc79e8",
-      "modified": 1769040341358,
-      "modifiedBy": "admin"
+      "modified": 1769040341358
     },
     "Snowflake.loads.fAccountabilityEndpoint_300_010_varLoadMode_fl_Sandbox": {
       "hash": "sha256:2e0603b3d2ea4c14e7edbdbc86809305a03afefe6dd8f88c8506c40ecfc789de",
-      "modified": 1773108979133,
-      "modifiedBy": "admin"
+      "modified": 1773108979133
     },
     "Snowflake.loads.fFloatEndpoint_400_010_varLoadMode_fl": {
       "hash": "sha256:b1ffd3414b1c78ba9424a623f0479db3919cc88608c852fa1e2e4c584c61be0a",
-      "modified": 1779663145302,
-      "modifiedBy": "admin"
+      "modified": 1779663145302
     },
     "Snowflake.loads.fHiBobEmploymentEndpoint_900_010_statLoadMode_fl": {
       "hash": "sha256:e30b2fb468b0d03f9b03046e9d14d10b20b810470cfeefce13a8ed602db92bd4",
-      "modified": 1780279664864,
-      "modifiedBy": "admin"
+      "modified": 1780279664864
     },
     "Snowflake.loads.fHiBobEmploymentJson_900_000_statLoadMode_fl": {
       "hash": "sha256:40c8e0468d5acec9790c8097be51a0876cfeadee7f177071868107903d786e1f",
-      "modified": 1780279711709,
-      "modifiedBy": "admin"
+      "modified": 1780279711709
     },
     "Snowflake.loads.fHiBobEndpoint_400_010_varLoadMode_fl": {
       "hash": "sha256:1c39731cbd57665af7f3bc92a4ff52ff08c2d8e94af526f711a83e7c1d6f7592",
-      "modified": 1780615509981,
-      "modifiedBy": "admin"
+      "modified": 1780615509981
     },
     "Snowflake.loads.fHiBobJson_900_000_statLoadMode_fl": {
       "hash": "sha256:ac48022d4f9b126cfa59add86a9aa8de12000a17b5ec03f1f72cb82cfa6fabf9",
-      "modified": 1780292757119,
-      "modifiedBy": "admin"
+      "modified": 1780292757119
     },
     "Snowflake.loads.fHiBobMergedEmployment_800_000_statLoadMode_fl": {
       "hash": "sha256:fb9729186c68b161d00db22fa5c6b89ff42606cf9a0a5cc0e902061c03e818ec",
-      "modified": 1780279646017,
-      "modifiedBy": "admin"
+      "modified": 1780279646017
     },
     "Snowflake.loads.fHiBobMerged_800_000_statLoadMode_fl": {
       "hash": "sha256:5936ef564c0e4b0e5b3c40b8f44fb8df56f13841841b6c42f4ad8b03ccee05e3",
-      "modified": 1780614594214,
-      "modifiedBy": "admin"
+      "modified": 1780614594214
     },
     "Snowflake.loads.fHiBobPolicyTypeEndpoint_400_010_varLoadMode_fl": {
       "hash": "sha256:10ff810b0118499f27b8b3e11d6dfdd2112f114a54befc06fe236bb3c4305df2",
-      "modified": 1779941635822,
-      "modifiedBy": "admin"
+      "modified": 1779941635822
     },
     "Snowflake.loads.fHiBob_900_010_createEndpoint_fl": {
       "hash": "sha256:e29441ddaf28e45acc64b15b33740ee028c26bb198494713f092c8eaf1fcec60",
-      "modified": 1780292263181,
-      "modifiedBy": "admin"
+      "modified": 1780292263181
     },
     "Snowflake.loads.fJedoxFiles_800_000_statCreate_fl": {
       "hash": "sha256:473b9e135dff6f72edc03a0d7587b76f540772e7d2a73d415ab3bb074fb18588",
-      "modified": 1779835706009,
-      "modifiedBy": "admin"
+      "modified": 1779835706009
     },
     "Snowflake.loads.fJedoxHiBobFiles_1500_010_statCreate_fl": {
       "hash": "sha256:cea86631d445ed44db11bbe0fba297de4402a4676f4297f5789dea81168a86a1",
-      "modified": 1780455417897,
-      "modifiedBy": "admin"
+      "modified": 1780455417897
     },
     "Snowflake.loads.fRBADailyFX_700_040_statCreate_fl": {
       "hash": "sha256:93be189c1bff29bc3c0fa23fe796ea4d2c0f2eeae5d1ad24f40272475497b286",
-      "modified": 1780122378336,
-      "modifiedBy": "admin"
+      "modified": 1780122378336
     },
     "Snowflake.loads.fRedshiftDDL_600_000_statCreate_fl": {
       "hash": "sha256:9a3f0b7ca1247789443b779b0504b38f5649af9623a3301dd72aeb2916d1a70c",
-      "modified": 1769560561275,
-      "modifiedBy": "admin"
+      "modified": 1769560561275
     },
     "Snowflake.loads.fRedshift_500_000_statCreate_fl": {
       "hash": "sha256:7c4b2a585f3fb6b53de5fdd280f505feb852a11bd84a8c9be4c8d12ad78af652",
-      "modified": 1769039638879,
-      "modifiedBy": "admin"
+      "modified": 1769039638879
     },
     "Snowflake.loads.jPost_010_000_statCreateEmployee_jl": {
       "hash": "sha256:8d236ec07b5bdae93552ee809e06c47018997bf7923701003ff9b8f3b8f6d27e",
-      "modified": 1783556696181,
-      "modifiedBy": "admin"
+      "modified": 1783556696181
     },
     "Snowflake.loads.jPut_020_000_statUpdateEmployee_jl": {
       "hash": "sha256:a0b3c6c7c1c618c554dc632dbe21877ddc80c07af09783e7ce24cdde5256f891",
-      "modified": 1783556734013,
-      "modifiedBy": "admin"
+      "modified": 1783556734013
     },
     "Snowflake.loads.rAccountability_CopyIntoLandingChargeableRate_rs": {
       "hash": "sha256:383b30e2b6fa8de54d0e09765b9dc0f8b9546ceb6033edd23fece32153b5fd63",
-      "modified": 1770856183534,
-      "modifiedBy": "admin"
+      "modified": 1770856183534
     },
     "Snowflake.loads.rAccountability_CopyIntoLanding_rs": {
       "hash": "sha256:03713fe56a30b932efb333ea99eaa661e3583d81e27fe3621b5aea16d9c78a56",
-      "modified": 1779833412549,
-      "modifiedBy": "admin"
+      "modified": 1779833412549
     },
     "Snowflake.loads.rAccountability_CopyIntoLanding_rs_Sandbox": {
       "hash": "sha256:ffe63a3a2765989b80a30d51980ec6ac6490521db9c7ff022f7e14ad27a67269",
-      "modified": 1773111054688,
-      "modifiedBy": "admin"
+      "modified": 1773111054688
     },
     "Snowflake.loads.rAccountability_InsertIntoHarmonisation_rs": {
       "hash": "sha256:b3fbc1457ed34a72a2ae94ddce2a70c8e3d3ba95b7bead870b28709acfe4fb28",
-      "modified": 1779833478441,
-      "modifiedBy": "admin"
+      "modified": 1779833478441
     },
     "Snowflake.loads.rAccountability_InsertIntoHarmonisation_rs_Sandbox": {
       "hash": "sha256:56269f91144c54fce86a3c1826230229d21660843aff3373184ce79744377f06",
-      "modified": 1773111074229,
-      "modifiedBy": "admin"
+      "modified": 1773111074229
     },
     "Snowflake.loads.rAccountability_MissingTimeLineIDs_rs": {
       "hash": "sha256:92bf0c6f6542c37e2ad7b5444c8f16c641f55ea0ee35803e7c994aacb387af64",
-      "modified": 1780124439076,
-      "modifiedBy": "admin"
+      "modified": 1780124439076
     },
     "Snowflake.loads.rAccountability_StageDelete_rs": {
       "hash": "sha256:c1cbd1a9e322a14590a7ae572fad5a1ff5b17c436f9d7ed59356a01428468659",
-      "modified": 1779833191615,
-      "modifiedBy": "admin"
+      "modified": 1779833191615
     },
     "Snowflake.loads.rAccountability_StageDelete_rs_Sandbox": {
       "hash": "sha256:e563fe744ff0a9d95d7eee5c3a975f9e71a4565e2bf948fabbeb6ac7c43a8104",
-      "modified": 1773110866250,
-      "modifiedBy": "admin"
+      "modified": 1773110866250
     },
     "Snowflake.loads.rAccountability_StageUpload_rs": {
       "hash": "sha256:4505354be96eeedea56250fd538e4c7585300711de8318299ffcc295bcfa554e",
-      "modified": 1779833249411,
-      "modifiedBy": "admin"
+      "modified": 1779833249411
     },
     "Snowflake.loads.rAccountability_StageUpload_rs_Sandbox": {
       "hash": "sha256:58947da4937cbf7b3ab06cbd52d4355138206c9736fa96d67bb243aa00e16253",
-      "modified": 1773110908194,
-      "modifiedBy": "admin"
+      "modified": 1773110908194
     },
     "Snowflake.loads.rAccountability_TruncateLandingTable_rs": {
       "hash": "sha256:4857298bb8eb719a20e254f1c3e3c8e9db3634e393469cc19b46d29e06076608",
-      "modified": 1779833277493,
-      "modifiedBy": "admin"
+      "modified": 1779833277493
     },
     "Snowflake.loads.rAccountability_TruncateLandingTable_rs_Sandbox": {
       "hash": "sha256:f74be3dbc5349ddd817cf0c69e58cf3338008d265ac5445d80a9562fac10274e",
-      "modified": 1773111026671,
-      "modifiedBy": "admin"
+      "modified": 1773111026671
     },
     "Snowflake.loads.rBillableRate_InsertIntoDatawarehouse_rs": {
       "hash": "sha256:aaab24efd01173cb0697284ecc5cab2acc71c5f6da9712cec3c4d99b64913054",
-      "modified": 1780125322537,
-      "modifiedBy": "admin"
+      "modified": 1780125322537
     },
     "Snowflake.loads.rCostRate_InsertIntoDatawarehouse_rs": {
       "hash": "sha256:c4dff1d71890bc867997243569f05b07de96d4898e85db8825739d5e99582e1d",
-      "modified": 1780125037307,
-      "modifiedBy": "admin"
+      "modified": 1780125037307
     },
     "Snowflake.loads.rEmployeeWorkingDays_InsertIntoDatawarehouse_rs": {
       "hash": "sha256:0f73a37a340ed789f8aa175268801d8cfea7992d6d299c2d45806fad850b4f08",
-      "modified": 1780125573064,
-      "modifiedBy": "admin"
+      "modified": 1780125573064
     },
     "Snowflake.loads.rEstimateEntriesSCD_InsertIntoHarmonisation_rs": {
       "hash": "sha256:f02d82de7c3bc5e33aa3af2efe7a44167f2d7f32344c73bb2e372f9bf136e5e9",
-      "modified": 1780127161893,
-      "modifiedBy": "admin"
+      "modified": 1780127161893
     },
     "Snowflake.loads.rEstimateEntries_DeleteFromHarmonisation_rs": {
       "hash": "sha256:d77d306ce1833fbbac9827fbf5054a2e3e1d90b7e673240fdd9b88be80c6b3ca",
-      "modified": 1780125893799,
-      "modifiedBy": "admin"
+      "modified": 1780125893799
     },
     "Snowflake.loads.rEstimatesSCD_InsertIntoHarmonisation_rs": {
       "hash": "sha256:8c15056ebc3c456dc4a51d969159cca20c0aeb0a927c294be9e781f27a654c74",
-      "modified": 1780127014703,
-      "modifiedBy": "admin"
+      "modified": 1780127014703
     },
     "Snowflake.loads.rEstimates_DeleteFromHarmonisation_rs": {
       "hash": "sha256:1d7e44bdfe49830f43b437c9ef07edc0cd0bd969ef7d2168e6aca05625fa69dc",
-      "modified": 1780126098000,
-      "modifiedBy": "admin"
+      "modified": 1780126098000
     },
     "Snowflake.loads.rFloat_CopyIntoLanding_rs": {
       "hash": "sha256:ca4a8c21593fbf933a133c9e4eaaa555ece8b4363b67a5d6ec183cc605609438",
-      "modified": 1779671210247,
-      "modifiedBy": "admin"
+      "modified": 1779671210247
     },
     "Snowflake.loads.rFloat_InsertIntoHarmonisation_rs": {
       "hash": "sha256:b6ea47bba6c1429f134f134517e61091c62ffd09e3ffa50bc40469d5cf40e5da",
-      "modified": 1779671251185,
-      "modifiedBy": "admin"
+      "modified": 1779671251185
     },
     "Snowflake.loads.rFloat_StageDelete_rs": {
       "hash": "sha256:5d90ef0ac3064037ac05abc7d006a6f7739e113bab7e31fa4d4dd7a419cf5d67",
-      "modified": 1779671052040,
-      "modifiedBy": "admin"
+      "modified": 1779671052040
     },
     "Snowflake.loads.rFloat_StageUpload_rs": {
       "hash": "sha256:648ef36ef2a3e9560145b8ee71ec2f59c4e23563d7417af332e2f663678e25a7",
-      "modified": 1779671076158,
-      "modifiedBy": "admin"
+      "modified": 1779671076158
     },
     "Snowflake.loads.rFloat_TruncateLandingTable_rs": {
       "hash": "sha256:d58a9ac94057db85aa9efd15b268e2729355f257531e6a32b2ce352b77429b15",
-      "modified": 1779671130768,
-      "modifiedBy": "admin"
+      "modified": 1779671130768
     },
     "Snowflake.loads.rGLSummary_InsertIntoDatawarehouse_rs": {
       "hash": "sha256:3836d1cd213d03c25dd1e21bd289783266984563a96ad93f9cae5511f770d435",
-      "modified": 1780124771785,
-      "modifiedBy": "admin"
+      "modified": 1780124771785
     },
     "Snowflake.loads.rHiBob_CopyIntoLanding_rs": {
       "hash": "sha256:0868d17118bf0dced5bf26112fde173c9200733d7478f003e8dafa546abcd5b1",
-      "modified": 1781226511942,
-      "modifiedBy": "admin"
+      "modified": 1781226511942
     },
     "Snowflake.loads.rHiBob_DataWarehouseMappingTable_rs": {
       "hash": "sha256:4f42c3759b287bb8710bee6f7ad7f13b40485f613f3c9727f98cbee7f7cb6bd1",
-      "modified": 1780985759442,
-      "modifiedBy": "admin"
+      "modified": 1780985759442
     },
     "Snowflake.loads.rHiBob_DataWarehouseMappingTable_rs (Post AA Push)": {
       "hash": "sha256:6bf3ea8efcb7690434b1a07812cb218781593a52e7bd9436c3b6b27a8f253449",
-      "modified": 1783580632234,
-      "modifiedBy": "admin"
+      "modified": 1783580632234
     },
     "Snowflake.loads.rHiBob_DataWarehouseSCDMappingTable_rs": {
       "hash": "sha256:4df82dcfeed99ed2d240df5bea2da3caaeab290b8a9875eec286e4d53cf204a7",
-      "modified": 1780985751371,
-      "modifiedBy": "admin"
+      "modified": 1780985751371
     },
     "Snowflake.loads.rHiBob_DataWarehouseSCDMappingTable_rs (Post AA Push)": {
       "hash": "sha256:fcd2b588798ec573db877ddb0097d8c309f174b85d966e6c9dff175f88941545",
-      "modified": 1783580648278,
-      "modifiedBy": "admin"
+      "modified": 1783580648278
     },
     "Snowflake.loads.rHiBob_InsertIntoHarmonisation_rs": {
       "hash": "sha256:9583c3fed65d1ca9a8111b06ce37c3a233724fe1798986b34a282cb2890e5fd6",
-      "modified": 1779863025563,
-      "modifiedBy": "admin"
+      "modified": 1779863025563
     },
     "Snowflake.loads.rHiBob_StageDelete_rs": {
       "hash": "sha256:331b4d36bffaf645a2813191d67089449ed7253a2593eaf6b2c92eff29f97fbc",
-      "modified": 1779944864600,
-      "modifiedBy": "admin"
+      "modified": 1779944864600
     },
     "Snowflake.loads.rHiBob_StageUpload_rs": {
       "hash": "sha256:23080cfabab371ed52ebd81896c0a0e1daf2402f81d50a0e4e77c9da1cc19740",
-      "modified": 1779944836358,
-      "modifiedBy": "admin"
+      "modified": 1779944836358
     },
     "Snowflake.loads.rHiBob_TruncateLandingTable_rs": {
       "hash": "sha256:f0c3e88c3fdfb07da733d0e1079b042fa35e1354d3a77370672dab9ac0d7b029",
-      "modified": 1779679805580,
-      "modifiedBy": "admin"
+      "modified": 1779679805580
     },
     "Snowflake.loads.rJedox_CopyIntoLanding_rs": {
       "hash": "sha256:a3f0fa8a81bbb6320fe9d591a3dac12285dea939ddfa40856fdb0cb2f0b122b2",
-      "modified": 1779835841505,
-      "modifiedBy": "admin"
+      "modified": 1779835841505
     },
     "Snowflake.loads.rJedox_InsertIntoHarmonisationSCD_rs": {
       "hash": "sha256:d5e0b06225bb61a8c5e328f1311e16b862681d0825feb68fa5cd99c191651089",
-      "modified": 1779835955334,
-      "modifiedBy": "admin"
+      "modified": 1779835955334
     },
     "Snowflake.loads.rJedox_InsertIntoHarmonisation_rs": {
       "hash": "sha256:197ebd1f2d5f4659d2b73c0d5bbe9ea4c98ce44bf8e5700e74016aa1dee348e6",
-      "modified": 1779835869093,
-      "modifiedBy": "admin"
+      "modified": 1779835869093
     },
     "Snowflake.loads.rJedox_StageDelete_rs": {
       "hash": "sha256:9c9ccc5ffe349a52633e24a6ef08ba8c80fd4a51d5a74c0e00171e6a4e5a339f",
-      "modified": 1779835781384,
-      "modifiedBy": "admin"
+      "modified": 1779835781384
     },
     "Snowflake.loads.rJedox_StageUpload_rs": {
       "hash": "sha256:8daebb6c3c1f3d86c8aecb9c40e8790c3d5995314f5fe0f70641e88cf557e2c5",
-      "modified": 1779835807453,
-      "modifiedBy": "admin"
+      "modified": 1779835807453
     },
     "Snowflake.loads.rJedox_TruncateLandingTable_rs": {
       "hash": "sha256:f033eb9c74efe7f783d2fc4fdec2a6caa62728cb8901a4dbd3b3dde7f4d21f8e",
-      "modified": 1779835814561,
-      "modifiedBy": "admin"
+      "modified": 1779835814561
     },
     "Snowflake.loads.rJobEstimatesSCD_InsertIntoDatawarehouse_rs": {
       "hash": "sha256:e48748b4ddc90dcc176d4b10cb88c0008ff70f6c78b1db910b922990240f9117",
-      "modified": 1780127638235,
-      "modifiedBy": "admin"
+      "modified": 1780127638235
     },
     "Snowflake.loads.rJobEstimates_InsertIntoDatawarehouse_rs": {
       "hash": "sha256:4b93316366e1ec7dc087863a1ca31ce86f61b80a79db197bca25f3e475e20a9c",
-      "modified": 1780127383776,
-      "modifiedBy": "admin"
+      "modified": 1780127383776
     },
     "Snowflake.loads.rJobsSCD_InsertIntoHarmonisation_rs": {
       "hash": "sha256:d8c290a8fb59b8c91ed89f5e78fe4ea74637c2bb40bac2c853f7450844a4f32c",
-      "modified": 1780126813777,
-      "modifiedBy": "admin"
+      "modified": 1780126813777
     },
     "Snowflake.loads.rRBA_DailyFXCopyIntoLanding_rs": {
       "hash": "sha256:4553cc4d5df446151f374098c6d080086432d657d1b187b046dd9549108a912d",
-      "modified": 1780123257723,
-      "modifiedBy": "admin"
+      "modified": 1780123257723
     },
     "Snowflake.loads.rRBA_DailyFXInsertIntoHarmonisation_rs": {
       "hash": "sha256:1f91187d3e07b1d7124b37d3c797f46430e46505e5812e62624077ead6eb28dc",
-      "modified": 1780123290854,
-      "modifiedBy": "admin"
+      "modified": 1780123290854
     },
     "Snowflake.loads.rRBA_DailyFXStageDelete_rs": {
       "hash": "sha256:0c4134191747589c7ea6839479eab58d300c02848540a8e8adde11c71e29b853",
-      "modified": 1780122972007,
-      "modifiedBy": "admin"
+      "modified": 1780122972007
     },
     "Snowflake.loads.rRBA_DailyFXStageUpload_rs": {
       "hash": "sha256:f31badec2bb559e9e084faced0d6d3d3ad2e03a3be216f94927a7b1f493ff5a1",
-      "modified": 1780123014489,
-      "modifiedBy": "admin"
+      "modified": 1780123014489
     },
     "Snowflake.loads.rRBA_DailyFXTruncateLandingTable_rs": {
       "hash": "sha256:59d13560a1be152705e1f47f5636dc04380e0b00844bc71619b1a391ea4a49ee",
-      "modified": 1780123231420,
-      "modifiedBy": "admin"
+      "modified": 1780123231420
     },
     "Snowflake.loads.rRedshift_CopyIntoLanding_rs": {
       "hash": "sha256:aa5cc611f613cc6acded9fcc43d58f680b06bedb51353771df1d89a664e3b4c3",
-      "modified": 1766011017981,
-      "modifiedBy": "admin"
+      "modified": 1766011017981
     },
     "Snowflake.loads.rRedshift_StageDelete_rs": {
       "hash": "sha256:bf1e1cbdb2d3a4eb92d36bb54e3becc8144e2316591a7e900efbef5e1f8c5f7a",
-      "modified": 1765937737435,
-      "modifiedBy": "admin"
+      "modified": 1765937737435
     },
     "Snowflake.loads.rRedshift_StageUpload_rs": {
       "hash": "sha256:f8f97c9e6005b0bd4dee0274124eb768cf2e596a773085127395eda4e31ef5aa",
-      "modified": 1765938189861,
-      "modifiedBy": "admin"
+      "modified": 1765938189861
     },
     "Snowflake.loads.rRedshift_TruncateLandingTable_rs": {
       "hash": "sha256:cb27af7f0bcd74e6bd1546e06ed4fa7ad391c506ba5640ffd4c190ba8441802f",
-      "modified": 1765937860053,
-      "modifiedBy": "admin"
+      "modified": 1765937860053
     },
     "Snowflake.loads.rRevenueTrackerVersion_InsertIntoDWFCSnapshot_rs": {
       "hash": "sha256:0318d7f20be8cca16ae54b49692bf8d9ce7b02395250e3b8d776360441a1641d",
-      "modified": 1775624808586,
-      "modifiedBy": "admin"
+      "modified": 1775624808586
     },
     "Snowflake.loads.rSnowflake_100_000_varViewsforEmails_rs": {
       "hash": "sha256:f42dd4dbfbe89cc8669d30e5bcf2fc12fc94971a10cad6eb20e681b544d45f0c",
-      "modified": 1781141996183,
-      "modifiedBy": "admin"
+      "modified": 1781141996183
     },
     "Snowflake.loads.sAccountability_010_000_statCreateTable_sl": {
       "hash": "sha256:d8736213b2d592268be34345f5ea6527d599f0a4d4e5ec40dbd22b51ab4b2335",
-      "modified": 1785893400453,
-      "modifiedBy": "admin"
+      "modified": 1785893400453
     },
     "Snowflake.loads.sAccountability_010_000_statUpdateTable_sl": {
       "hash": "sha256:39a16cb8b2e0d1b94605953669063d7688740cc42b038117a55e7820434cdbb0",
-      "modified": 1785893396283,
-      "modifiedBy": "admin"
+      "modified": 1785893396283
     },
     "Snowflake.loads.sAccountability_010_000_varEmail_sl": {
       "hash": "sha256:31de0e4f74002e8d73067c8d3271a0049ba179430723e5f60103dc2fedceec5e",
-      "modified": 1785893042139,
-      "modifiedBy": "admin"
+      "modified": 1785893042139
     },
     "Snowflake.loads.sAccountability_020_000_varEmail_sl": {
       "hash": "sha256:6825d781ffef53772870ef6ba66a80a8c1b333dc13766f0097d25f69fd84ff69",
-      "modified": 1783578696428,
-      "modifiedBy": "admin"
+      "modified": 1783578696428
     },
     "Snowflake.transforms.New TableView": {
       "hash": "sha256:e0be2eb0a6def633f30a2d839f86ff4e3f53b6d06c20b2d96ddd0d1d7ca1f7fb",
-      "modified": 1769560668229,
-      "modifiedBy": "admin"
+      "modified": 1769560668229
     },
     "Snowflake.transforms.dAccountabilityEndpoint_301_000_attrTotal_fh": {
       "hash": "sha256:894f220f2eb7950990a02e34480cbafa4658be769ff5d7d26b132c18bcd7d2c3",
-      "modified": 1769040656667,
-      "modifiedBy": "admin"
+      "modified": 1769040656667
     },
     "Snowflake.transforms.dAccountabilityEndpoint_301_000_attrTotal_fh_Sandbox": {
       "hash": "sha256:feed2b60ae0d40896a36ce6c70e209ca8b3fa8434b095c843fd71cf0c741976c",
-      "modified": 1773112766863,
-      "modifiedBy": "admin"
+      "modified": 1773112766863
     },
     "Snowflake.transforms.dAccountabilityEndpoint_302_000_attrIDs_fh": {
       "hash": "sha256:993c8949e73a87142dfad2dbf35976ab2f72882465b9cef34610611ca0c4d5c0",
-      "modified": 1772503453757,
-      "modifiedBy": "admin"
+      "modified": 1772503453757
     },
     "Snowflake.transforms.dFloatEndpoint_401_000_mapPageCount_ft": {
       "hash": "sha256:56fcd1d0d9ec87e1cee694c72ebe9c3a82bb99b4056377d0713fc947a332f9e1",
-      "modified": 1779662133634,
-      "modifiedBy": "admin"
+      "modified": 1779662133634
     },
     "Snowflake.transforms.dFloatEndpoint_401_010_attrPageCount_fh": {
       "hash": "sha256:208476874ffaea66bbe5b74379bceee0c7aae7c7bc0956754f7344d9880fbd5f",
-      "modified": 1779662160787,
-      "modifiedBy": "admin"
+      "modified": 1779662160787
     },
     "Snowflake.transforms.dHiBobEndpoint_500_000_attrEmploymentCursor_fh": {
       "hash": "sha256:53d6fc8df0741cdd60ea17d2778d6f74f8e7b035fe4b838788e09c8a128b463d",
-      "modified": 1780279441389,
-      "modifiedBy": "admin"
+      "modified": 1780279441389
     },
     "Snowflake.transforms.dHiBobEndpoint_500_000_attrSalariesCursor_fh": {
       "hash": "sha256:ee2c2666cd2c809df0a5a65e563072d3ac01c4b1a5baf5d416e248db4409756e",
-      "modified": 1780279390001,
-      "modifiedBy": "admin"
+      "modified": 1780279390001
     },
     "Snowflake.transforms.dHiBobEndpoint_950_010_attrCursor_fh": {
       "hash": "sha256:8363bde8f86eac26bbf011b88775f00e9c059499cf97fc93c818d235e60d7980",
-      "modified": 1780292353655,
-      "modifiedBy": "admin"
+      "modified": 1780292353655
     },
     "Snowflake.transforms.dHiBobEndpoint_950_010_attrEmploymentCursor_fh": {
       "hash": "sha256:f9290e996c0b56025363de483c3e17f39afcec9389aab9e0191eef6c7ffc9c76",
-      "modified": 1780288779053,
-      "modifiedBy": "admin"
+      "modified": 1780288779053
     },
     "Snowflake.transforms.dJobExecution_200_010_byAllExecuted_fh": {
       "hash": "sha256:17154cc5faf5fed28501b073aa32fd5fadb43a9a38ff366b53484744ef3b31d2",
-      "modified": 1779759648938,
-      "modifiedBy": "admin"
+      "modified": 1779759648938
     },
     "Snowflake.transforms.dToken_000_000_fxRefreshTokenValidity_ft": {
       "hash": "sha256:9707893a20d97fde2ed7fa509862a6620dcdb041d8480680e331aff5bdfa14c8",
-      "modified": 1779833696070,
-      "modifiedBy": "admin"
+      "modified": 1779833696070
     },
     "Snowflake.transforms.dToken_000_010_attrValidTill_fh": {
       "hash": "sha256:28582947b232e28889b364f470cb03b96bd0b3215353cbee1160ce8fd250ccdb",
-      "modified": 1779833769309,
-      "modifiedBy": "admin"
+      "modified": 1779833769309
     },
     "Snowflake.transforms.dToken_100_000_fxAccessTokenValidity_ft": {
       "hash": "sha256:c675b441c2037c7a84e8b72aaf2711d30be7adc8d97dbe5f600fc5ffbf9fcaab",
-      "modified": 1779834352158,
-      "modifiedBy": "admin"
+      "modified": 1779834352158
     },
     "Snowflake.transforms.dToken_100_010_attrValidTill_fh": {
       "hash": "sha256:e701a2778fc547149c86fbbfb3d1326d9ae2e9e05304828476a17d002efbc4ca",
-      "modified": 1779834381763,
-      "modifiedBy": "admin"
+      "modified": 1779834381763
     },
     "Snowflake.transforms.fAccountabilityAccountingMonths_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:5595f6b37a23b6b77dd8f2f9b8cd151d4a9204551a8dbc401330a0e325da9cea",
-      "modified": 1769040152358,
-      "modifiedBy": "admin"
+      "modified": 1769040152358
     },
     "Snowflake.transforms.fAccountabilityAccountingYears_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:1add69a77956ae6bf21ba78d456bbf8317414c43aad26c8f95db6b79f94bcbd4",
-      "modified": 1769040158723,
-      "modifiedBy": "admin"
+      "modified": 1769040158723
     },
     "Snowflake.transforms.fAccountabilityBudgetCategories_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:ea7905a16559b9eef811d5f5941fe012b970f49927b1e701efa220e2844ea8b3",
-      "modified": 1769040175378,
-      "modifiedBy": "admin"
+      "modified": 1769040175378
     },
     "Snowflake.transforms.fAccountabilityBudgetVersions_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:728f5fcae3fc23b02296fe0bd25b3c8c9778c4f3be13b9d18722530fcbcc7c5b",
-      "modified": 1769040198009,
-      "modifiedBy": "admin"
+      "modified": 1769040198009
     },
     "Snowflake.transforms.fAccountabilityCampaigns_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:6ea42a876871622d90a74fbdba908d0d74169e56aaefcf129ce7d222b039b2a5",
-      "modified": 1769040362585,
-      "modifiedBy": "admin"
+      "modified": 1769040362585
     },
     "Snowflake.transforms.fAccountabilityChargeTypes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:259abd416ea37452f67b1db80e15741941d3c40df1e28d87c1fcdc53d8fb7479",
-      "modified": 1769040367732,
-      "modifiedBy": "admin"
+      "modified": 1769040367732
     },
     "Snowflake.transforms.fAccountabilityChargeableRates_600_000_exclClientName_tv": {
       "hash": "sha256:eb6ccf6fc10fb187dc23f024995910c5f01e3f1667f093acc7a14ada276e50f5",
-      "modified": 1769649939223,
-      "modifiedBy": "admin"
+      "modified": 1769649939223
     },
     "Snowflake.transforms.fAccountabilityClientContacts_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:b619fe5700304753bb7870f469ac2936320fb3a5329e7966f055be54d70dfa38",
-      "modified": 1769040373274,
-      "modifiedBy": "admin"
+      "modified": 1769040373274
     },
     "Snowflake.transforms.fAccountabilityClientTypes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:e64abd7a95b5711f350fe6d4375fc00139769c83602bc0a07be64c5f6a009a2b",
-      "modified": 1769040383217,
-      "modifiedBy": "admin"
+      "modified": 1769040383217
     },
     "Snowflake.transforms.fAccountabilityClients_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:f0145ba7ed1770577dfae475dcdb6a82515baf877d29010750081a5b621f413f",
-      "modified": 1769040378005,
-      "modifiedBy": "admin"
+      "modified": 1769040378005
     },
     "Snowflake.transforms.fAccountabilityCountries_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:5b9694f28ce231a4112dff5c86eceeb1b3e0a570658d34f1222cc47b896b71ff",
-      "modified": 1769040387670,
-      "modifiedBy": "admin"
+      "modified": 1769040387670
     },
     "Snowflake.transforms.fAccountabilityCurrencies_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:ff6703b02f480c511dcd37640224efb31a8c9dd82732d0298856c199210f62ae",
-      "modified": 1769040393415,
-      "modifiedBy": "admin"
+      "modified": 1769040393415
     },
     "Snowflake.transforms.fAccountabilityCustomCodes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:b371c7ad4f077dc8dce92076e2d22b9d119f04e3d61216c1473461c990e9e2b3",
-      "modified": 1769040398554,
-      "modifiedBy": "admin"
+      "modified": 1769040398554
     },
     "Snowflake.transforms.fAccountabilityCustomDataTypes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:e49726b4849eae12366dae751e013af0fd2968a3246c5c34f7483a409109b69d",
-      "modified": 1769467745672,
-      "modifiedBy": "admin"
+      "modified": 1769467745672
     },
     "Snowflake.transforms.fAccountabilityCustomData_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:fe7080b112416354676c3463d295a4fe8ed69620a03452d247287496b597bd9f",
-      "modified": 1769467783727,
-      "modifiedBy": "admin"
+      "modified": 1769467783727
     },
     "Snowflake.transforms.fAccountabilityDepartments_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:cbcd3cf7f88826c075ae998f6aae658427e7d93f8cc486cf970d0cf3431ce09d",
-      "modified": 1769040403260,
-      "modifiedBy": "admin"
+      "modified": 1769040403260
     },
     "Snowflake.transforms.fAccountabilityEmployees_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:f06de73cd0fc7642505a5fc22f047d90a00726e623a3d9508080559be2e2e33c",
-      "modified": 1769040408270,
-      "modifiedBy": "admin"
+      "modified": 1769040408270
     },
     "Snowflake.transforms.fAccountabilityEndpoint_300_000_inclLoopEndpoints_tv": {
       "hash": "sha256:d950f10f5570058a403cecf46bdd70f94dcc6fc1edbebcf74a1e8207aa45b08c",
-      "modified": 1779760698182,
-      "modifiedBy": "admin"
+      "modified": 1779760698182
     },
     "Snowflake.transforms.fAccountabilityEndpoint_301_000_exclMetadata_tv": {
       "hash": "sha256:dbc15a8a3577c66aa0fbc1fa08882bcecec020a51dd919ef42496909459122b1",
-      "modified": 1769040038144,
-      "modifiedBy": "admin"
+      "modified": 1769040038144
     },
     "Snowflake.transforms.fAccountabilityEstimateEntries_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:80224fb148ca59f90afb3713faa36f436c0077129667343c1895780386e5a473",
-      "modified": 1769040413378,
-      "modifiedBy": "admin"
+      "modified": 1769040413378
     },
     "Snowflake.transforms.fAccountabilityEstimatesDeleted_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:525956de15e51167919738d59eb5dba11c96d07d6de322c18901ae9b249bd36a",
-      "modified": 1773725832985,
-      "modifiedBy": "admin"
+      "modified": 1773725832985
     },
     "Snowflake.transforms.fAccountabilityEstimates_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:2a02b7dd321077b028d9d8ae83f6c10b5dfab50b1cd181389039937d6e3148f1",
-      "modified": 1769040419813,
-      "modifiedBy": "admin"
+      "modified": 1769040419813
     },
     "Snowflake.transforms.fAccountabilityEstimates_300_000_fxRemoveCharacters_ft_Sandbox": {
       "hash": "sha256:43d3a1a8e2d7dc72ca83ebdff2050b849fd6cc1e2f419150f38552be9f04fcee",
-      "modified": 1773108855352,
-      "modifiedBy": "admin"
+      "modified": 1773108855352
     },
     "Snowflake.transforms.fAccountabilityGeneralLedgerAccounts_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:7509979873969988a3bc2ab26fc6294d9a5ae975d816469301b3091fc0919378",
-      "modified": 1769040425598,
-      "modifiedBy": "admin"
+      "modified": 1769040425598
     },
     "Snowflake.transforms.fAccountabilityGeneralLedgerReportGroups_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:ee800a61417f0cb588f52cbab5a7e54779c6a107f4069433f139eb3dd399a3a6",
-      "modified": 1769040430737,
-      "modifiedBy": "admin"
+      "modified": 1769040430737
     },
     "Snowflake.transforms.fAccountabilityGeneralLedgerTransactions_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:b1f2c166d52104cca8b49bf546752c03ee8248111b44fc53a2bb9c883fbcbda5",
-      "modified": 1769040435276,
-      "modifiedBy": "admin"
+      "modified": 1769040435276
     },
     "Snowflake.transforms.fAccountabilityJobTypes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:19b72dfdbfea606080bbb82dd293491000d3b8eb747f65d7ef0bd06a4257bfc2",
-      "modified": 1769040447725,
-      "modifiedBy": "admin"
+      "modified": 1769040447725
     },
     "Snowflake.transforms.fAccountabilityJobs_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:80779e5df8e7cecad2524d7182d5eeaae63c1023c882338919a083d9cf83a0e0",
-      "modified": 1769040441924,
-      "modifiedBy": "admin"
+      "modified": 1769040441924
     },
     "Snowflake.transforms.fAccountabilityJournalEntries_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:2d03834b10087c792758641f1ebeb43643e1a4a1472c67aef94721cdbf868eb1",
-      "modified": 1769040452861,
-      "modifiedBy": "admin"
+      "modified": 1769040452861
     },
     "Snowflake.transforms.fAccountabilityJournals_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:168c202617f2fe8ae5a88f81f3b8b359d456f27cef98d64b3f8dcaf41202b616",
-      "modified": 1769040458017,
-      "modifiedBy": "admin"
+      "modified": 1769040458017
     },
     "Snowflake.transforms.fAccountabilityLeaveTypes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:f0e26a08f666851faa3736aca20163e445e1c04a6e864c226d8450d17a1e455d",
-      "modified": 1769040469590,
-      "modifiedBy": "admin"
+      "modified": 1769040469590
     },
     "Snowflake.transforms.fAccountabilityLeaves_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:ae8c95587a727f8f520f03de22f8648d9e2033c5850f08176de554b578a51977",
-      "modified": 1769040464583,
-      "modifiedBy": "admin"
+      "modified": 1769040464583
     },
     "Snowflake.transforms.fAccountabilityOffices_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:ac5a315bb4335f9bc20b55fe9704d8c1bde7eb4b52d59779e700a80e9336bd66",
-      "modified": 1769040475477,
-      "modifiedBy": "admin"
+      "modified": 1769040475477
     },
     "Snowflake.transforms.fAccountabilityPayments_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:6fde85457e412c708cb97ad39581bc663a8b996649e1cea6b2fbf6f6d8d00f44",
-      "modified": 1769040480988,
-      "modifiedBy": "admin"
+      "modified": 1769040480988
     },
     "Snowflake.transforms.fAccountabilityProbabilities_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:aea3678cf8e6f09929ca1fff8df67fb30d98803735f579c896e140c858b001e8",
-      "modified": 1769040485985,
-      "modifiedBy": "admin"
+      "modified": 1769040485985
     },
     "Snowflake.transforms.fAccountabilityProducts_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:67c9099e69bf9619675c42f068e83a73e8cf4f73278159777de83314c4a8f3b6",
-      "modified": 1769040491356,
-      "modifiedBy": "admin"
+      "modified": 1769040491356
     },
     "Snowflake.transforms.fAccountabilityPublicHolidays_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:a940be3d68db643d9d38fc4c97507d1740b0f0e141e962379647de23cf308b10",
-      "modified": 1769040496958,
-      "modifiedBy": "admin"
+      "modified": 1769040496958
     },
     "Snowflake.transforms.fAccountabilityPurchaseOrders_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:c538f1a129c867b7c5ba5dbd82a303f488ac1154853b50920c7bb29a0d880943",
-      "modified": 1769040503196,
-      "modifiedBy": "admin"
+      "modified": 1769040503196
     },
     "Snowflake.transforms.fAccountabilityRoles_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:2a6fa1ef284d0f1cb6104a2906ddb1d2780ce95303b8bdfad6454a539485f376",
-      "modified": 1769040508067,
-      "modifiedBy": "admin"
+      "modified": 1769040508067
     },
     "Snowflake.transforms.fAccountabilitySuppliers_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:026dcc21caa4f552f6bcdd42a88d7c8f8fc3f6893e36befa9f6878b163f17d10",
-      "modified": 1769040512762,
-      "modifiedBy": "admin"
+      "modified": 1769040512762
     },
     "Snowflake.transforms.fAccountabilityTaskTypeHeadings_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:292f72626254224d1dac4bfe82f6d7df96db0f65b5ff0c40daecfa32ca30e3ef",
-      "modified": 1769040517819,
-      "modifiedBy": "admin"
+      "modified": 1769040517819
     },
     "Snowflake.transforms.fAccountabilityTaskTypeOfficeRates_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:01f8ff9a5c710bc0ba9b201dbdb1c1171f210951c0aee8d190acb8e3e67c204f",
-      "modified": 1769040522451,
-      "modifiedBy": "admin"
+      "modified": 1769040522451
     },
     "Snowflake.transforms.fAccountabilityTaskTypes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:3a2b5936f68f5552dc0304f1c63dce1c2a8989a60240b837a9a3a2ebadb89d32",
-      "modified": 1769040527926,
-      "modifiedBy": "admin"
+      "modified": 1769040527926
     },
     "Snowflake.transforms.fAccountabilityTaxCodes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:fbd811e02c2cb14d34503c025883d468f96201d5580d0e359f5b781371fb0f68",
-      "modified": 1769040532845,
-      "modifiedBy": "admin"
+      "modified": 1769040532845
     },
     "Snowflake.transforms.fAccountabilityTimeEntries_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:6978c7ea1ee249b0debe768935951444654cb4ab9f919b6ffaaca517079264ce",
-      "modified": 1769040538046,
-      "modifiedBy": "admin"
+      "modified": 1769040538046
     },
     "Snowflake.transforms.fAccountabilityTimeLines_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:5dac8f46370789ef460c68c3fbd26a01747e51fb83161dcc3613857d0cc6441e",
-      "modified": 1769040543003,
-      "modifiedBy": "admin"
+      "modified": 1769040543003
     },
     "Snowflake.transforms.fAccountabilityTimeSheets_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:d1440fe5e91122c9cbd048c0745fcfc372499debacc6d602097ac8ba24cdde1f",
-      "modified": 1769040548043,
-      "modifiedBy": "admin"
+      "modified": 1769040548043
     },
     "Snowflake.transforms.fAccountabilityTitles_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:236175765fca38a46707705e91986609ca8fd2228109eb9ba3d6d8c1eff239ab",
-      "modified": 1769040552634,
-      "modifiedBy": "admin"
+      "modified": 1769040552634
     },
     "Snowflake.transforms.fAccountabilityTransactionTypes_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:c550328599c5daee7559f6ca5754d51e315e90ef2148d9003fc9d460464fee4c",
-      "modified": 1769040558913,
-      "modifiedBy": "admin"
+      "modified": 1769040558913
     },
     "Snowflake.transforms.fAccountabilityUserAccessGroups_300_000_fxRemoveCharacters_ft": {
       "hash": "sha256:c19f2fd85857124d26a503d727608abbe17615d6c0a51473b5c568260c1bfd0f",
-      "modified": 1769040564085,
-      "modifiedBy": "admin"
+      "modified": 1769040564085
     },
     "Snowflake.transforms.fClientHeadMapping_800_000_fxAdditionalColumns_ft": {
       "hash": "sha256:fc8e9ea8c1f953cad684b8f9752cc409efe4ff7ffddd7b02cd5e4198dea909ef",
-      "modified": 1779835505830,
-      "modifiedBy": "admin"
+      "modified": 1779835505830
     },
     "Snowflake.transforms.fDailyFX_700_000_unionHistory_tu": {
       "hash": "sha256:b7e29e947e29c784935b60d24c916301eb7f98c16ffff5db6eb7b316fabcb4e4",
-      "modified": 1780122512065,
-      "modifiedBy": "admin"
+      "modified": 1780122512065
     },
     "Snowflake.transforms.fDailyFX_700_010_noneCurrencies_tn": {
       "hash": "sha256:5d9da3e703adfd476522b0205051dae476cd04ee1f8d34b0a849884b125478bf",
-      "modified": 1780122575560,
-      "modifiedBy": "admin"
+      "modified": 1780122575560
     },
     "Snowflake.transforms.fDailyFX_700_020_fxDate_ft": {
       "hash": "sha256:9319094e602ad4ecbfc8d2363afefeddcc99427791bcecff7d7adcb0b36d6da8",
-      "modified": 1780122775843,
-      "modifiedBy": "admin"
+      "modified": 1780122775843
     },
     "Snowflake.transforms.fDailyFX_700_030_exclOlder_tv": {
       "hash": "sha256:9ee7e0b43db27eebc9477fe9452bf61ee0ccc4174c19f4fbea9c2a746c6cd19c",
-      "modified": 1780122832194,
-      "modifiedBy": "admin"
+      "modified": 1780122832194
     },
     "Snowflake.transforms.fEstimate_800_000_fxAdditionalColumns_ft": {
       "hash": "sha256:c95fad10b20d5f03e1aacb8aa93bcad4ff36e643c959725f46073204c9e48dc5",
-      "modified": 1785120738738,
-      "modifiedBy": "admin"
+      "modified": 1785120738738
     },
     "Snowflake.transforms.fFloatAccounts_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:10541fe3e0c5eb2533c2c6f58bf7d21e6698b748c904071c013d57084dfaaee7",
-      "modified": 1779663193935,
-      "modifiedBy": "admin"
+      "modified": 1779663193935
     },
     "Snowflake.transforms.fFloatClients_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:aa20802bb611b23f1f62fce37a60567cdfc1dc700baf3c3e831e067e013059d3",
-      "modified": 1779663203879,
-      "modifiedBy": "admin"
+      "modified": 1779663203879
     },
     "Snowflake.transforms.fFloatDepartments_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:e28c7a8e693949d736ae1613277c586b5db7453cf2d60120625ec106dc9eeb94",
-      "modified": 1779663212898,
-      "modifiedBy": "admin"
+      "modified": 1779663212898
     },
     "Snowflake.transforms.fFloatEndpoint_400_000_exclInactive_tv": {
       "hash": "sha256:8c95c84c6c2836e106412150bac0549ebfb4b317e44537fdc36e097d58e31831",
-      "modified": 1779661767499,
-      "modifiedBy": "admin"
+      "modified": 1779661767499
     },
     "Snowflake.transforms.fFloatLogged-Time_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:dde01d7d100005e94e40633e8bd1cb9a8931ec573feaee02f7150e9895bb15fc",
-      "modified": 1779663226121,
-      "modifiedBy": "admin"
+      "modified": 1779663226121
     },
     "Snowflake.transforms.fFloatMilestones_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:4f2a1365b7c7d8f91c404ce391d3c9e21ca83c1996a553a91f716ad5be571e48",
-      "modified": 1779663235540,
-      "modifiedBy": "admin"
+      "modified": 1779663235540
     },
     "Snowflake.transforms.fFloatPeople_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:930b84ae99143e613fcc9163e9320e253f2146cb6b7de05bad4bfa7795aeb2a5",
-      "modified": 1779663275616,
-      "modifiedBy": "admin"
+      "modified": 1779663275616
     },
     "Snowflake.transforms.fFloatPhases_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:598234c1c3dfb35f940aa41a41e9abba3c4ea86be2e3a059015d83efba0feedd",
-      "modified": 1779663289840,
-      "modifiedBy": "admin"
+      "modified": 1779663289840
     },
     "Snowflake.transforms.fFloatProject-Stages_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:af61abd425474f9fbac228c3e5ed8f5dee04377955948eab4ebc63108668ec5c",
-      "modified": 1779663303721,
-      "modifiedBy": "admin"
+      "modified": 1779663303721
     },
     "Snowflake.transforms.fFloatProject-Tasks_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:b611a53e90efc48bcbc6883cdb502f15cd8eaafecbbe47abb8286251ef27d254",
-      "modified": 1779663319830,
-      "modifiedBy": "admin"
+      "modified": 1779663319830
     },
     "Snowflake.transforms.fFloatProjects_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:dad7965b2773f1d6b00f2096aee8e99ce515d54eb3e151f5d1c6189b6d18983c",
-      "modified": 1779663342177,
-      "modifiedBy": "admin"
+      "modified": 1779663342177
     },
     "Snowflake.transforms.fFloatPublic-Holidays_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:47c16350ccc66af467ef519b9e1aa337de3404157bc3cc01b8cc561390012f00",
-      "modified": 1779663379089,
-      "modifiedBy": "admin"
+      "modified": 1779663379089
     },
     "Snowflake.transforms.fFloatReports-People_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:797b3f4e28ae6711f6f263808561a9a6733d2a015b576a0e132c67b140988cc5",
-      "modified": 1779663405074,
-      "modifiedBy": "admin"
+      "modified": 1779663405074
     },
     "Snowflake.transforms.fFloatReports-Projects_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:db5b8874c4a9e2ab9176590b4a4c99ca39cb1298a988366d606d8e56fc8ca580",
-      "modified": 1779663422595,
-      "modifiedBy": "admin"
+      "modified": 1779663422595
     },
     "Snowflake.transforms.fFloatRoles_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:632f70773290e5ad98f71ec32570ed208a963efebf53df7198e579062f9c4ff5",
-      "modified": 1779663435363,
-      "modifiedBy": "admin"
+      "modified": 1779663435363
     },
     "Snowflake.transforms.fFloatTasks_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:492c0127a9e7075f0aa6c8e875c2c790a7ce35a7aa0acaf93eba12dfbcfe0164",
-      "modified": 1779663444534,
-      "modifiedBy": "admin"
+      "modified": 1779663444534
     },
     "Snowflake.transforms.fFloatTimeoff-Types_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:cd491d5eb2b8e9458b4497a6d8a665bcacc0257a3cce82f3e0bd2885d89916aa",
-      "modified": 1779663486806,
-      "modifiedBy": "admin"
+      "modified": 1779663486806
     },
     "Snowflake.transforms.fFloatTimeoffs_400_000_fxRemoveCharacters_ft": {
       "hash": "sha256:951b8d3894de574c518055923ea37e462ff66fdf1e72ca75661c396fb31086f3",
-      "modified": 1779663503506,
-      "modifiedBy": "admin"
+      "modified": 1779663503506
     },
     "Snowflake.transforms.fHiBobCursorEndpoints_900_000_fxTimestamp_ft": {
       "hash": "sha256:0fa0ac4fedbaf6d92ed00945eab14dd70670d0b77374a3508a5475d6026b070f",
-      "modified": 1780292021504,
-      "modifiedBy": "admin"
+      "modified": 1780292021504
     },
     "Snowflake.transforms.fHiBobCustomTables_000_000_fxReplace_ft": {
       "hash": "sha256:e6c614e29a46fea156d9103bcd6da35145136cc99c13c288eec96a194a06bf83",
-      "modified": 1779951269958,
-      "modifiedBy": "admin"
+      "modified": 1779951269958
     },
     "Snowflake.transforms.fHiBobEmployeeEndDate_000_000_fxReplace_ft": {
       "hash": "sha256:d8dabaa50abcde6f53687b67d891722aa169e1ad0126371651c8798c5ac7e26d",
-      "modified": 1786423473011,
-      "modifiedBy": "admin"
+      "modified": 1786423473011
     },
     "Snowflake.transforms.fHiBobEmployees_000_000_fxReplace_ft": {
       "hash": "sha256:e930b283f0274ba253b3e7e7cb1bb6926d8c8018d5dd5e82e7998b597ea232b1",
-      "modified": 1781225428775,
-      "modifiedBy": "admin"
+      "modified": 1781225428775
     },
     "Snowflake.transforms.fHiBobEndpoint_400_000_exclInactive_tv": {
       "hash": "sha256:e984503cc56b5fc68c2862f6825b7bd541db1e17b05022c7b3095530346c11a4",
-      "modified": 1779681135477,
-      "modifiedBy": "admin"
+      "modified": 1779681135477
     },
     "Snowflake.transforms.fHiBobLeaveChanges_000_000_fxReplace_ft": {
       "hash": "sha256:3af080b36b7c55c1c176ad77f2a226780eccf2bee631554a9116baf0239581da",
-      "modified": 1785391886807,
-      "modifiedBy": "admin"
+      "modified": 1785391886807
     },
     "Snowflake.transforms.fHiBobLeaves_000_000_fxReplace_ft": {
       "hash": "sha256:e4b0abb484eb204efd92a71a95837e1e955b0c5ce348a6479321134e81341bd5",
-      "modified": 1779951230042,
-      "modifiedBy": "admin"
+      "modified": 1779951230042
     },
     "Snowflake.transforms.fHiBobNamedLists_000_000_fxReplace_ft": {
       "hash": "sha256:d80b46d9f88d35435884b9ea0790f6a9910a41c33faf6e0a4660c0ff66aa4beb",
-      "modified": 1780035908152,
-      "modifiedBy": "admin"
+      "modified": 1780035908152
     },
     "Snowflake.transforms.fHiBobPeopleFields_000_000_fxReplace_ft": {
       "hash": "sha256:f6420ca29ac13fd30438e024704bc0ae49abfd4a27d05cbec56278f2dc8a62f7",
-      "modified": 1779951086682,
-      "modifiedBy": "admin"
+      "modified": 1779951086682
     },
     "Snowflake.transforms.fHiBobPolicyType_700_000_loadmode_tv": {
       "hash": "sha256:3eea70ac1eedf578076a7d05117211583864724300d79e2b8cd2ed8b54e27ef2",
-      "modified": 1779944329853,
-      "modifiedBy": "admin"
+      "modified": 1779944329853
     },
     "Snowflake.transforms.fHiBob_950_000_fxDisplay_ft": {
       "hash": "sha256:64b95a1eac7ae0983c05bf27c1179a700fa7d8437b1720d0f5ac95e72423235d",
-      "modified": 1780292313931,
-      "modifiedBy": "admin"
+      "modified": 1780292313931
     },
     "Snowflake.transforms.fHiBob_950_000_fxDisplay_ft (2)": {
       "hash": "sha256:67d0186f6ed4b88f609cf7b76f26f6d7a37c21756b8570bebfc941d820806415",
-      "modified": 1780288692155,
-      "modifiedBy": "admin"
+      "modified": 1780288692155
     },
     "Snowflake.transforms.fJedoxFiles_800_000_exclInactive_tv": {
       "hash": "sha256:b615e5edd37c63f40e7a11929a274178d40cf982e43b189218c067518dfa61a5",
-      "modified": 1779835253223,
-      "modifiedBy": "admin"
+      "modified": 1779835253223
     },
     "Snowflake.transforms.fJedoxHiBobDimension_1500_000_ft": {
       "hash": "sha256:bbe91fb22adafcee5b9a2092e6f9cd82d1c83c2e3838c04ff041565d908a4f4c",
-      "modified": 1784166817468,
-      "modifiedBy": "admin"
+      "modified": 1784166817468
     },
     "Snowflake.transforms.fJedoxHiBobFiles_800_000_InclHiBob_tv": {
       "hash": "sha256:4870d1ee4f6ab24e4a1882101179cb25bca0963d0ef5b4cd4f0900e34d01580c",
-      "modified": 1780451446905,
-      "modifiedBy": "admin"
+      "modified": 1780451446905
     },
     "Snowflake.transforms.fJedoxRevenuePlanningFY_900_010_exFYActEst_tu": {
       "hash": "sha256:2372487a359068eedb8430ea74c279cde38bf00852531f4057a3ee3217437a8b",
-      "modified": 1784691422088,
-      "modifiedBy": "admin"
+      "modified": 1784691422088
     },
     "Snowflake.transforms.fRevenueOverview_800_000_fxAdditionalColumns_ft": {
       "hash": "sha256:0407d6cc376a2b32b33d819c64f3263c7f3c8f81c9872e0295b2195606f588ef",
-      "modified": 1784691449393,
-      "modifiedBy": "admin"
+      "modified": 1784691449393
     },
     "Snowflake.transforms.fRevenuePlanningEstimateRefresh_800_000_fxAdditionalColumns_ft": {
       "hash": "sha256:f5766231cfda7a397d6b52e0cab141bf79c6be90bd84409d7ab47fbb722719ff",
-      "modified": 1782816338741,
-      "modifiedBy": "admin"
+      "modified": 1782816338741
     },
     "Snowflake.transforms.fRevenuePlanningEstimate_800_000_fxAdditionalColumns_ft": {
       "hash": "sha256:8f97d5ece8362095842a304710ccb85e5d9b733b5db1f9178e17e29973c82edf",
-      "modified": 1774568805210,
-      "modifiedBy": "admin"
+      "modified": 1774568805210
     },
     "Snowflake.transforms.fRevenueTrackerVersion_800_000_fxAdditionalColumns_ft": {
       "hash": "sha256:0e40f219219e64c8ce06dafc0d315250a4604e1b098d4945407cfe15d5c6f0e7",
-      "modified": 1783662794513,
-      "modifiedBy": "admin"
+      "modified": 1783662794513
     },
     "Snowflake.transforms.xjHiBob_statNamedLists_je": {
       "hash": "sha256:200619d9fe8fbb8bf87f692efa1ef672e1141a14a293c83e7635af5fc503d0ee",
-      "modified": 1780300473741,
-      "modifiedBy": "admin"
+      "modified": 1780300473741
     },
     "Snowflake.variables.vAccountabilityAccessToken": {
       "hash": "sha256:5fd71c97be7b7a9ace3838d607268c5363c370294de283806c53e2fc5a32ac93",
-      "modified": 1783556734196,
-      "modifiedBy": "admin"
+      "modified": 1783556734196
     },
     "Snowflake.variables.vAccountabilityDateFrom": {
       "hash": "sha256:d13d785fbd3df80f2db0bb1f2b379f16c01a3cd4c2c78434221440c310fe6302",
-      "modified": 1771374282419,
-      "modifiedBy": "admin"
+      "modified": 1771374282419
     },
     "Snowflake.variables.vAccountabilityDateTo": {
       "hash": "sha256:d0261fbd962b505940c5456072b0f742f7a9e0683da3e5f81841db13198ffb04",
-      "modified": 1771370608873,
-      "modifiedBy": "admin"
+      "modified": 1771370608873
     },
     "Snowflake.variables.vAccountabilityEmployeeID": {
       "hash": "sha256:bcdb981f6acf56dbb1e8ca548ac4a4dd1e9657de2610df0d0e4dd0744ec658dc",
-      "modified": 1783577757764,
-      "modifiedBy": "admin"
+      "modified": 1783577757764
     },
     "Snowflake.variables.vAccountabilityEndpoint": {
       "hash": "sha256:8a95d8bcefc74fa0bb6a138d0690709f9d43148743c7ce8321ab925039eead52",
-      "modified": 1785109359622,
-      "modifiedBy": "admin"
+      "modified": 1785109359622
     },
     "Snowflake.variables.vAccountabilityEntry": {
       "hash": "sha256:f3892ee215a6a1768f16e5c0169925288ce7654df09bc34810a9cbf493766037",
-      "modified": 1769488360748,
-      "modifiedBy": "admin"
+      "modified": 1769488360748
     },
     "Snowflake.variables.vAccountabilityModifiedFrom": {
       "hash": "sha256:5b323a7955ccc170ce800662ba0fa10eda06bedef66c7425630f2b770ff22765",
-      "modified": 1781648662890,
-      "modifiedBy": "admin"
+      "modified": 1781648662890
     },
     "Snowflake.variables.vAccountabilityModifiedTo": {
       "hash": "sha256:c56e00d99e83aa280ef525badce8253b6dbbf987582c9553c18f73f14f5f53a4",
-      "modified": 1785286750759,
-      "modifiedBy": "admin"
+      "modified": 1785286750759
     },
     "Snowflake.variables.vAccountabilityOffset": {
       "hash": "sha256:b39fac9bb3ce5fcf911cbd377fe85983aa1bf420bb8dda92f4be9239ff7aa1d1",
-      "modified": 1766015027809,
-      "modifiedBy": "admin"
+      "modified": 1766015027809
     },
     "Snowflake.variables.vAccountabilityRefreshToken": {
       "hash": "sha256:9f7c76adabca9e8862c4cca90113c962aa1236611a8a1dcd9012a0b8686c919a",
-      "modified": 1765333800154,
-      "modifiedBy": "admin"
+      "modified": 1765333800154
     },
     "Snowflake.variables.vAccountabilityTable": {
       "hash": "sha256:f5baa594de7d1b0637bb171779c47472e3e1994f009b52b4ef70437fce4ab320",
-      "modified": 1774390969604,
-      "modifiedBy": "admin"
+      "modified": 1774390969604
     },
     "Snowflake.variables.vAccountingMonth": {
       "hash": "sha256:34792d52b2f4a3ae25b53a0f53cc36e4e97e7219bfbfeb75cd9593d87081d1e3",
-      "modified": 1770872918953,
-      "modifiedBy": "admin"
+      "modified": 1770872918953
     },
     "Snowflake.variables.vAccountingYear": {
       "hash": "sha256:b72c94d1903a74a8ee68ccf817722f53afc9110754c6f6951dd6c66676e2c319",
-      "modified": 1770880819249,
-      "modifiedBy": "admin"
+      "modified": 1770880819249
     },
     "Snowflake.variables.vCCEmails": {
       "hash": "sha256:5256953ec419b8526820c29d3a46b2c011268d600018930836d721365f55699e",
-      "modified": 1781141995939,
-      "modifiedBy": "admin"
+      "modified": 1781141995939
     },
     "Snowflake.variables.vCurrentTimestamp": {
       "hash": "sha256:6662b1700482455d4ed5b4a62f673b4fc795b9493ba036295d7b07cd19a631b3",
-      "modified": 1783556734440,
-      "modifiedBy": "admin"
+      "modified": 1783556734440
     },
     "Snowflake.variables.vEmailSubject": {
       "hash": "sha256:0b4f237ebb6ce028dc94b2d0b13a60da23f3f59dc63cd71ed633e1e081b58fc1",
-      "modified": 1781142102843,
-      "modifiedBy": "admin"
+      "modified": 1781142102843
     },
     "Snowflake.variables.vFCVersion": {
       "hash": "sha256:4133eb1bb2daa9e0f25c261eacd23981b220a1569e0a3204a61c231f9acd57be",
-      "modified": 1774529810150,
-      "modifiedBy": "admin"
+      "modified": 1774529810150
     },
     "Snowflake.variables.vFY": {
       "hash": "sha256:250e56727baea2d302224b3a40e855be0fb2d527b8b63601ce87df24709a6142",
-      "modified": 1774530227206,
-      "modifiedBy": "admin"
+      "modified": 1774530227206
     },
     "Snowflake.variables.vFYCurrent": {
       "hash": "sha256:13f6d6a777fd14f2e0eef51ff665f4fb104f0c30eb8527492fc9d960cda269c6",
-      "modified": 1782905626174,
-      "modifiedBy": "admin"
+      "modified": 1782905626174
     },
     "Snowflake.variables.vFYMonthCurrent": {
       "hash": "sha256:976f943fba8251b32fe2f23923fe1a73974ef9ea3f61d3e0e7dc84d32c1d0eee",
-      "modified": 1784691157502,
-      "modifiedBy": "admin"
+      "modified": 1784691157502
     },
     "Snowflake.variables.vFYMonthPrev": {
       "hash": "sha256:3c5a2a162eb60f74987187f6ae82f02f16eaffe557b72e2c29342580dacea2df",
-      "modified": 1784691115067,
-      "modifiedBy": "admin"
+      "modified": 1784691115067
     },
     "Snowflake.variables.vFYNext": {
       "hash": "sha256:e60f3e328f268903990ac751c860d1fe54712a9cbcdd7fa443a138643c4a581c",
-      "modified": 1782905657604,
-      "modifiedBy": "admin"
+      "modified": 1782905657604
     },
     "Snowflake.variables.vFileDate": {
       "hash": "sha256:630e2863d924b9329a7f763a3ee962a1fd5a36cf5e4ecf068fc082df695eee5d",
-      "modified": 1765413121998,
-      "modifiedBy": "admin"
+      "modified": 1765413121998
     },
     "Snowflake.variables.vFileLoadMode": {
       "hash": "sha256:4ac016c0c734827218627e6e6f9a3768108d4aa564d5f66c4b02bb9aa063486d",
-      "modified": 1779780028648,
-      "modifiedBy": "admin"
+      "modified": 1779780028648
     },
     "Snowflake.variables.vFloatEndpoint": {
       "hash": "sha256:eb70ef62c4abab7904287bc5c0712dfff47807fd037c2194b1d83d525d3872aa",
-      "modified": 1765508520353,
-      "modifiedBy": "admin"
+      "modified": 1765508520353
     },
     "Snowflake.variables.vFloatPage": {
       "hash": "sha256:8bad465a705ab68f8f87863aee66662b7fec1c28ac142e2c2e27819a5544d82d",
-      "modified": 1765413272915,
-      "modifiedBy": "admin"
+      "modified": 1765413272915
     },
     "Snowflake.variables.vFloatTable": {
       "hash": "sha256:71aeb28dc0743975e611c9b910debfb21a10d145ae8ba4c41bd46dee2429fb95",
-      "modified": 1765508383957,
-      "modifiedBy": "admin"
+      "modified": 1765508383957
     },
     "Snowflake.variables.vFloatToken": {
       "hash": "sha256:f8d54fa9124829af3ede533b6341b94ba09e7b1575792cc2a80c540cfe04d0e5",
-      "modified": 1765412612013,
-      "modifiedBy": "admin"
+      "modified": 1765412612013
     },
     "Snowflake.variables.vHiBobConn": {
       "hash": "sha256:107fc7d1e6d92956810ad4ef44c9d53cc59188546e0635f5a5e6992f776ce9bf",
-      "modified": 1779781000600,
-      "modifiedBy": "admin"
+      "modified": 1779781000600
     },
     "Snowflake.variables.vHiBobCursor": {
       "hash": "sha256:080db0bcdc848bfc4810ef1efdc301533072bc10f063830dfc8a04da874b80cb",
-      "modified": 1780296466683,
-      "modifiedBy": "admin"
+      "modified": 1780296466683
     },
     "Snowflake.variables.vHiBobCursorEmployment": {
       "hash": "sha256:50cdd51cc411cf50a8f0a6e2ca95bc9ae44748bf010044b2aca3cd2b849a6f0b",
-      "modified": 1780275101925,
-      "modifiedBy": "admin"
+      "modified": 1780275101925
     },
     "Snowflake.variables.vHiBobEndpoint": {
       "hash": "sha256:2ab8f42c1f4b781efe4846bebb72a12e9d35f5c1d06ba7796385fa9c3fa98883",
-      "modified": 1780615354887,
-      "modifiedBy": "admin"
+      "modified": 1780615354887
     },
     "Snowflake.variables.vHiBobLeaveChangesSince": {
       "hash": "sha256:3123880b028b4133181fa20fd500b04e9068d1eafd1378f1d5665fadc565c2ec",
-      "modified": 1785391440519,
-      "modifiedBy": "admin"
+      "modified": 1785391440519
     },
     "Snowflake.variables.vHiBobLeavesFrom": {
       "hash": "sha256:bbe65f1392d34f6cd114a4ec2546675acd3a89478f40c44e349d1020afe713ec",
-      "modified": 1779949710276,
-      "modifiedBy": "admin"
+      "modified": 1779949710276
     },
     "Snowflake.variables.vHiBobLeavesTo": {
       "hash": "sha256:a323a1cc149d0ffff57ad5119c6f1cdee7dfe4a054a08f8d29e8f816de0908da",
-      "modified": 1779949615409,
-      "modifiedBy": "admin"
+      "modified": 1779949615409
     },
     "Snowflake.variables.vHiBobLimit": {
       "hash": "sha256:7bda3da5d9a901aa1ee7d6b1d8483f5a63a927bf80781e9bf977d312eab54f6b",
-      "modified": 1780285405287,
-      "modifiedBy": "admin"
+      "modified": 1780285405287
     },
     "Snowflake.variables.vHiBobPage": {
       "hash": "sha256:4b0daf1736342c9386e5b077d661d347a4a360d4a3d10db4e688c848496c42cb",
-      "modified": 1779764847295,
-      "modifiedBy": "admin"
+      "modified": 1779764847295
     },
     "Snowflake.variables.vHiBobPolicyType": {
       "hash": "sha256:2fafc465b7a7f5116871c3c27e2c100a1e13e8465d007c4f80819a8b945977bb",
-      "modified": 1779940598164,
-      "modifiedBy": "admin"
+      "modified": 1779940598164
     },
     "Snowflake.variables.vHiBobPolicyTypeLoad": {
       "hash": "sha256:de8ab9f73500ea4b240f86a4d73404544a4f2754d93f6a100b93401eb76b3c1e",
-      "modified": 1779942884560,
-      "modifiedBy": "admin"
+      "modified": 1779942884560
     },
     "Snowflake.variables.vHiBobStage": {
       "hash": "sha256:239efdc8c05609248a2891ab37d164a1b21eb34852fd13774b31232924d0fd5f",
-      "modified": 1779944721117,
-      "modifiedBy": "admin"
+      "modified": 1779944721117
     },
     "Snowflake.variables.vHiBobTable": {
       "hash": "sha256:cb35bd6e9fa1c357305ea8e66f4697e4487f445e242b3833c060c32282848a80",
-      "modified": 1779678074184,
-      "modifiedBy": "admin"
+      "modified": 1779678074184
     },
     "Snowflake.variables.vHibobEmail": {
       "hash": "sha256:2bc2d42fc06de8af5f0b08e7361e1b0a40ff97cd5fd4a4212d5370cd9e534855",
-      "modified": 1783556734255,
-      "modifiedBy": "admin"
+      "modified": 1783556734255
     },
     "Snowflake.variables.vJedoxFileName": {
       "hash": "sha256:6715bd323d43a0e8f7b548f71a69cba5bd55a77e8f5aa81511165c466fe6a342",
-      "modified": 1780460301903,
-      "modifiedBy": "admin"
+      "modified": 1780460301903
     },
     "Snowflake.variables.vJedoxSnowflakeTable": {
       "hash": "sha256:3969cd63e8c4be9ee03137c6d2c9b08140843704632c83ad847937df7849acdc",
-      "modified": 1779677217485,
-      "modifiedBy": "admin"
+      "modified": 1779677217485
     },
     "Snowflake.variables.vJedoxWinSCPFolder": {
       "hash": "sha256:20f17cec6f07068a1aa0a03228cc0dc04f03863035057a3db80f770641ecb192",
-      "modified": 1782447460847,
-      "modifiedBy": "admin"
+      "modified": 1782447460847
     },
     "Snowflake.variables.vJobID": {
       "hash": "sha256:adfdeb7615d87657f5a10dd6cad064557de529c1c544eec990540b48f4193c9a",
-      "modified": 1765172141936,
-      "modifiedBy": "admin"
+      "modified": 1765172141936
     },
     "Snowflake.variables.vPrevMonth": {
       "hash": "sha256:bf092e07e3b3881167fceb741732034fccd36d663d6ab3c6eef6a9a1e1861509",
-      "modified": 1770884567996,
-      "modifiedBy": "admin"
+      "modified": 1770884567996
     },
     "Snowflake.variables.vRedshiftSchema": {
       "hash": "sha256:289cd5319566d957eb5e1521182c110c81929f8f8167e18a2f87f398e464e270",
-      "modified": 1765925280878,
-      "modifiedBy": "admin"
+      "modified": 1765925280878
     },
     "Snowflake.variables.vRedshiftTable": {
       "hash": "sha256:3ccf0a9912c649d1d169b3bb230550f1a992c6cce5862ec6427c2915f2369737",
-      "modified": 1765925319143,
-      "modifiedBy": "admin"
+      "modified": 1765925319143
     },
     "Snowflake.variables.vSCD": {
       "hash": "sha256:c945fd35721a739b21ee05ee254c65748133aec9bf5240c213c5d19867deaf2e",
-      "modified": 1779678150086,
-      "modifiedBy": "admin"
+      "modified": 1779678150086
     },
     "Snowflake.variables.vSnowflakeSchemaType": {
       "hash": "sha256:647c0f2b10eb44640900bcb198b6c1a947d5f6dcd02337d4c238a7cd539f57a6",
-      "modified": 1767840103006,
-      "modifiedBy": "admin"
+      "modified": 1767840103006
     },
     "Snowflake.variables.vToEmails": {
       "hash": "sha256:179d18fd0aa0d266c238e0e19b2e77b210c30fe0ec898744d4dd3e69bfb9bf8b",
-      "modified": 1781142065116,
-      "modifiedBy": "admin"
+      "modified": 1781142065116
     },
     "Snowflake.variables.vViews": {
       "hash": "sha256:52d65b6df694fbdf82d3e86627afc4f5d8d977bed6640e7d5cdacf23119f15a7",
-      "modified": 1781141995982,
-      "modifiedBy": "admin"
+      "modified": 1781141995982
     }
   },
   "hash": "sha256:5a7cd1adb6c64d374d68235c2765351db22ea2cd6dbaa0e3e332fc08e099c7e9",
   "modified": 1786423473011,
-  "modifiedBy": "admin",
   "project": "Snowflake",
   "source": {
     "at": "2026-08-11T23:06:58Z",
