@@ -1,0 +1,17 @@
+{
+  "-name": "jPut_000_000_statEstimateRevenue_jl",
+  "-type": "Json",
+  "comment": {
+    "#cdata-section": "Posts the monthly spread for each estimate to the estimate in Accountability's revenue tracker."
+  },
+  "connection": {
+    "-nameref": "crPutEstimateRevenue_varEstimateID_rc"
+  },
+  "ignoreEmpty": "false",
+  "jsonTemplate": "#{MONTH_JSON}",
+  "mode": "add",
+  "skipRoot": "false",
+  "source": {
+    "-nameref": "xrEstimatedMonthlyRevenue_varEstimateID_re"
+  }
+}
